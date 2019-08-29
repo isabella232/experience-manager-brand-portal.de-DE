@@ -1,0 +1,88 @@
+---
+title: Unterstützte Dateiformate
+seo-title: Unterstützte Dateiformate
+description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
+seo-description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
+uuid: c 92 ada 3 a -6 fc 3-4 ef 2-88 ff -8 e 67 a 50 c 8 c 95
+content-type: Referenz
+products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+topic-tags: Einführung
+discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
+translation-type: tm+mt
+source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+
+---
+
+
+# Unterstützte Dateiformate{#supported-file-formats}
+
+Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate.
+
+| Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Ausgabeformate | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | Auf Markenportal veröffentlichte Asset-Detailseiten | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
+|-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
+| PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TIFF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PNM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PGM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PBM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PPM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| EPS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| DOC | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| DOCX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODT* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| HTML | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| RTF | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| XLS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| XLSX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PPTX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| QXP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| AAC | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| MIDI | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| 3GP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| MP3 | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| MPG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| OGA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| OGG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| RA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WAV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WMA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| DVI | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| FLV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| M4V | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| MPG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| OGV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| MOV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WMV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| SWF | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| TGZ | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| JAR | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
+| RAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| TAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| ZIP | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
+
+Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
+
+| Symbol | Bedeutung |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ✓ | Dieses Dateiformat unterstützt diese Funktion. |
+| ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
+| nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
+| * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
