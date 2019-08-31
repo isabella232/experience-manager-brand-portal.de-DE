@@ -10,7 +10,7 @@ content-type: Referenz
 topic-tags: download-install
 discoiquuid: e 18 d 992 a-a 3 b 5-45 f 2-9696-8161993213 ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -114,13 +114,10 @@ So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
 1. Wählen Sie in Brand Portal in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
 
-2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.
-
-![Dynamic Media Hybrid-Konfiguration in Brand Portal](assets/DMHybrid-Video.png)
-
-**[!UICONTROL Die Seite "Dynamische Medienkonfiguration]** bearbeiten" wird geöffnet.
-
-![Dynamic Media Hybrid-Konfiguration in Brand Portal](assets/edit-dynamic-media-config.png)
+2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
+   ![Dynamic Media Hybrid-Konfiguration in Brand Portal](assets/DMHybrid-Video.png)
+   **[!UICONTROL Die Seite "Dynamische Medienkonfiguration]** bearbeiten" wird geöffnet.<br />
+   ![Dynamic Media Hybrid-Konfiguration in Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Stellen Sie sicher, dass diese Details mit denen unter **[!UICONTROL Tools &gt; Cloud-Services]in Ihrer AEM-Autoreninstanz übereinstimmen.**
 
@@ -134,12 +131,10 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 
 1. Wählen Sie in Brand Portal in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
 
-2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.
+2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
    ![[!UICONTROL DM Scene 7-Konfiguration in Brand Portal]](assets/DMS7-Tile.png)
-
-[!UICONTROL Die Seite "Dynamische Medienkonfiguration] bearbeiten" wird geöffnet.
-
-![Scene 7-Konfiguration in Brand Portal](assets/S7Config.png)
+   [!UICONTROL Die Seite "Dynamische Medienkonfiguration] bearbeiten" wird geöffnet.<br />
+   ![Scene 7-Konfiguration in Brand Portal](assets/S7Config.png)
 
 3. Geben Sie Folgendes an:
    * [!UICONTROL Titel]
