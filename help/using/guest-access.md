@@ -10,17 +10,17 @@ content-type: Referenz
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: b 9 e 9 fe 7 b -0373-42 d 1-851 b -7 c 76 b 47657 c 2
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Gastzugang für Brand Portal {#guest-access-to-brand-portal}
 
-[!DNL AEM Brand portal] ermöglicht den Gastzugriff auf das Portal. Ein Gastbenutzer braucht keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [End Session](#exit-guest-session).
+AEM Brand Portal gestattet den Gastzugang für das Portal. Ein Gastbenutzer braucht keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
 
-Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. [!DNL Brand Portal]Ab Version 6.4.2 unterstützt mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Organisation. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on [!DNL Brand Portal].\
-Organisationen können über die Option "Gastzugriff [!DNL Brand Portal]**zulassen" über die Option" Gastzugriff** zulassen" im **Bereich "Zugriffsrechte** " den Gastzugriff auf die Organisation aktivieren (oder deaktivieren).
+Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Organisation. Durch Zulassen des Gastzugriffs sparen Sie Zeit zur Verwaltung und Onlineauswertung von Benutzern, die eingeschränkte Funktionen im Brand Portal verwenden müssen.\
+Organisationen können Gastzugriff auf das Markenportal-Konto des Unternehmens aktivieren (oder deaktivieren), indem **[!UICONTROL Sie die Option Gastzugriff]** zulassen aus **[!UICONTROL den Zugriffseinstellungen]** im Bereich für die Verwaltung der Verwaltungswerkzeuge verwenden.
 
 <!--
 Comment Type: annotation
@@ -33,32 +33,32 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Starten einer Gastsitzung {#begin-guest-session}
 
-Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier klicken]** aus, die dem Link **Gastzugang?** auf dem [!DNL Brand Portal] Startbildschirm. Users need not seek access and wait for the administrator to authenticate them to grant access to use the [!DNL Brand Portal].
+Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier klicken]** aus, die dem Link **Gastzugang?** auf dem Marken-Portal-Startbildschirm. Benutzer müssen keinen Zugriff anfordern und warten, bis sie vom Administrator authentifiziert werden, damit sie auf Brand Portal zugreifen können.
 
 ![](assets/bp-login-screen.png)
 
 ## Dauer der Gastsitzung {#guest-session-duration}
 
-Eine Gastbenutzersitzung bleibt für 2 Stunden aktiv. This means that the state of the [!UICONTROL lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the lightbox state is lost.\
-For example, a guest user logs in to the [!DNL Brand Portal] at 1500 hours and adds assets to lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL lightbox collection] (or its assets) before 17:00 hours, the [!UICONTROL lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+Eine Gastbenutzersitzung bleibt für 2 Stunden aktiv. This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
+Ein Gastbenutzer meldet sich beispielsweise beim Brand Portal mit 1500 Stunden an und fügt Lightbox zum Download um 16:50 Stunden hinzu. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
-Die Anzahl gleichzeitiger Gastsitzungen ist auf 10% der Gesamtbenutzerquoten pro Organisation beschränkt. Dies bedeutet, dass für eine Organisation mit Benutzerkontingent von 200 maximal 20 Gäste gleichzeitig arbeiten können. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur als Gast zugreifen, wenn die Sitzung einer der 20 aktiven Gäste beendet wird.
+Die Anzahl gleichzeitiger Gastsitzungen ist auf 10% der Gesamtbenutzerquoten pro Organisation beschränkt. Dies bedeutet, dass für eine Organisation mit Benutzerkontingent von 200 maximal 20 Gäste gleichzeitig arbeiten können. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur als Gast zugreifen, wenn die Sitzung einer der 20 aktiven Gastbenutzer endet.
 
 ## Gastbenutzerinteraktion mit Brand Portal {#guest-user-interaction-with-brand-portal}
 
 ### Navigation in der Gast-Benutzeroberfläche
 
-On entering the [!DNL Brand Portal] as the guest, users are able to see all the [assets and folders shared](../using/brand-portal-sharing-folders.md#sharefolders) publicly or with guest users exclusively. Bei dieser Ansicht handelt es sich um die Ansicht „Nur Inhalte“, in der Assets in einem Karten-, Listen- oder Spaltenlayout angezeigt werden.
+On entering the Brand Portal as the guest, users can see all the [assets and folders shared](../using/brand-portal-sharing-folders.md#sharefolders) publicly or with guest users exclusively. Bei dieser Ansicht handelt es sich um die Ansicht „Nur Inhalte“, in der Assets in einem Karten-, Listen- oder Spaltenlayout angezeigt werden.
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-However, Guest Users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders on logging in to the [!DNL Brand Portal], if administrators have enabled [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuration.
+However, the guest users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders on logging in to the Brand Portal, if administrators have enabled [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuration.
 
 Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Schlosssymbol erkennen.
 
-Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der Kartenansicht auswählen. Die Schaltfläche „Überblick“ wird angezeigt, wenn Sie einen virtuellen Ordner in der Spaltenansicht und Listenansicht auswählen.
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Die Schaltfläche "Übersicht] " wird angezeigt, wenn Sie einen virtuellen Ordner in der [!UICONTROL Spaltenansicht] und Listenansicht [!UICONTROL auswählen].
 
 >[!NOTE]
 >
@@ -66,66 +66,66 @@ Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn 
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-Über die Option Anzeigeeinstellungen können die Gastbenutzer die Kartengrößen in der Kartenansicht oder die in der Listenansicht anzuzeigenden Spalten festlegen.
+[!UICONTROL Mit der Option "Einstellungen] anzeigen" können die Gastbenutzer Kartengrößen in der [!UICONTROL Kartenansicht] oder in Spalten anpassen, die in [!UICONTROL der Listenansicht angezeigt]werden.
 
 ![](assets/nav-guest-user.png)
 
-Mit der Inhaltsstruktur können Sie die Asset-Hierarchie durchlaufen.
+The [!UICONTROL Content tree] lets you move through assets hierarchy.
 
 ![](assets/guest-login-ui.png)
 
-[!DNL Brand Portal] bietet **Übersichtsoption** für Gäste, um Asset-Eigenschaften der ausgewählten Assets/Ordner anzuzeigen. Die Option „Überblick“ finden Sie an folgenden Stellen:
+Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICONTROL Asset Properties] of selected assets/folders. The [!UICONTROL Overview] option is visible:
 
-1. In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
-2. in der Dropdown-Liste des ausgewählten Leistenselektors
+* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
+* in der Dropdown-Liste des ausgewählten Leistenselektors
 
-Bei Auswahl der Option „Überblick“ bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)
 
-**[!UICONTROL Die Navigationsoption]** in der linken Leiste ermöglicht das Navigieren von Dateien zu [!UICONTROL Sammlungen] und zurück in der Gastsitzung, damit Benutzer Assets in Dateien oder [!UICONTROL Sammlungen durchsuchen]können.
+**[!UICONTROL Die Navigationsoption]** in der linken Leiste ermöglicht das Navigieren von Dateien zu Sammlungen und zurück in der Gastsitzung, damit Benutzer Assets in Dateien oder Sammlungen durchsuchen können.
 
-**Mit** der Filteroption können Gastbenutzer Asset-Dateien und -ordner mithilfe von vom Administrator festgelegten Suchvorhersagen filtern.
+**[!UICONTROL Mit]** der Filteroption können Gastbenutzer Asset-Dateien und -ordner mithilfe von vom Administrator festgelegten Suchvorhersagen filtern.
 
 ### Funktionen der Gastbenutzer
 
-Guest users can access public assets on [!DNL Brand Portal], and also have few restrictions as discussed further.
+Gastbenutzer können auf öffentliche Assets in Brand Portal zugreifen, haben jedoch auch einige Einschränkungen, die nachfolgend näher beschrieben werden.
 
 Gastbenutzer können Folgendes tun:
 
-* access all the public folders and [!UICONTROL collections] meant for all the [!DNL Brand Portal] users.
-* browse members, detail page, and have full asset view of the members of all the public folders and [!UICONTROL collections].
-* search assets across public folders and [!UICONTROL collections].
-* add assets to lightbox [!UICONTROL collection]. These changes to the [!UICONTROL collection] persist during the session.
-* download assets directly or through lightbox [!UICONTROL collection].
+* Auf alle öffentlichen Ordner und Sammlungen, die für sämtliche Brand Portal-Benutzer freigegeben sind, zugreifen
+* Mitglieder und die Detailseite durchsuchen und alle Assets der Mitglieder sämtlicher öffentlicher Ordner und Sammlungen anzeigen
+* Assets in allen öffentlichen Ordnern und Sammlungen durchsuchen
+* Assets zur Lightbox-Sammlung hinzufügen Diese Änderungen an der Sammlung bleiben für die Dauer der Sitzung bestehen.
+* Assets direkt oder über die Lightbox-Sammlung herunterladen
 
 Gastbenutzer können Folgendes nicht tun:
 
-* [!UICONTROL Sammlungen] und gespeicherte Suchen erstellen oder sie weiter freigeben.
-* access folder and [!UICONTROL collections] settings.
+* Sammlungen und gespeicherte Suchen erstellen oder diese weiter freigeben
+* Auf Einstellungen für Ordner und Sammlungen zugreifen
 * Assets als Links freigeben
 
 ### Herunterladen von Assets in Gastsitzungen
 
-Guest users can directly download assets shared publically or exclusively with guest users on [!DNL Brand Portal]. Guest users can also add assets to [!UICONTROL Lightbox] (public [!UICONTROL collection]), and download the [!UICONTROL lightbox collection] before their session expires.
+Gastbenutzer können öffentlich oder ausschließlich für Gastbenutzer freigegebene Assets in Brand Portal herunterladen. Guest users can also add assets to [!UICONTROL Lightbox] (public collection), and download the [!UICONTROL Lightbox] collection before their session expires.
 
-To download assets and [!UICONTROL collections], use the download icon from:
+Verwenden Sie zum Herunterladen von Assets und Sammlungen das „Download“-Symbol der:
 
-* quick action thumbnails, which appear on hovering over the asset or [!UICONTROL collection]
-* the toolbar at the top, which appears on selecting the asset or [!UICONTROL collection]
+* Miniaturansichten von Aktionen, die beim Mausfahren über das Asset oder die Sammlung angezeigt werden
+* die Symbolleiste oben, die beim Auswählen des Assets oder der Sammlung angezeigt wird
 
 ![](assets/download-on-guest.png)
 
-Mit der Option **Downloadbeschleunigung aktivieren** im Dialogfeld „Download“ können Sie die [Download-Zeit verkürzen](../using/accelerated-download.md).
+Mit der Option **[!UICONTROL Downloadbeschleunigung aktivieren]**[!UICONTROL  im Dialogfeld „Download“ können Sie die ]Download-Zeit verkürzen[.](../using/accelerated-download.md)
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 
-To exit a guest session, use **End Session** from the options available in the header. Wenn jedoch die für die Gastsitzung verwendete Browserregisterkarte inaktiv ist, läuft die Sitzung nach zwei Stunden Inaktivität automatisch ab.
+To exit a guest session, use **[!UICONTROL End Session]** from the options available in the header. Wenn jedoch die für die Gastsitzung verwendete Browserregisterkarte inaktiv ist, läuft die Sitzung nach zwei Stunden Inaktivität automatisch ab.
 
 ![](assets/end-guest-session.png)
 
 ## Überwachen von Gastbenutzeraktivitäten {#monitoring-guest-user-activities}
 
-Administrators can monitor guest user interaction with the [!DNL Brand Portal]. Reports generated in [!DNL Brand Portal] can provide key insights into guest user activities. So können Sie beispielsweise mithilfe des Berichts **Download** die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden. **Der** Bericht zu Benutzeranmeldungen kann darüber informiert werden, wann der Gastbenutzer zuletzt beim Portal angemeldet ist und die Häufigkeit der Anmeldungen in einer festgelegten Dauer.
+Administratoren können die Gastbenutzerinteraktion mit Brand Portal überwachen. Die in Brand Portal erstellten Berichte können wichtige Einblicke in die Gastbenutzeraktivitäten liefern. So können Sie beispielsweise mithilfe des Berichts **[!UICONTROL Download]die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden.** **[!UICONTROL Der]** Bericht zu Benutzeranmeldungen kann darüber informiert werden, wann der Gastbenutzer zuletzt beim Portal angemeldet ist und die Häufigkeit der Anmeldungen in einer festgelegten Dauer.
