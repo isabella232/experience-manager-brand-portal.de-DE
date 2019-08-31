@@ -9,14 +9,14 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: download-install
 discoiquuid: f 90 c 2214-beea -4695-9102-8 b 952 bc 9 fd 17
 translation-type: tm+mt
-source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Herunterladen von Assets {#download-assets}
 
-All users can simultaneously download multiple assets and folders accessible to them from [!DNL Brand Portal]. Auf diese Weise können bestätigte Marken-Assets sicher für die Offline-Nutzung verteilt werden. Read on to know how to download approved assets from [!DNL Brand Portal], and what to expect from the [download performance](../using/brand-portal-download-users.md#main-pars-header).
+Alle Benutzer können gleichzeitig mehrere Assets und Ordner von Brand Portal herunterladen, auf die sie zugreifen können. Auf diese Weise können bestätigte Marken-Assets sicher für die Offline-Nutzung verteilt werden. Lesen Sie weiter, um zu erfahren, wie Sie genehmigte Assets von Brand Portal herunterladen und welche [Download-Zeiten](../using/brand-portal-download-users.md#main-pars-header) Sie erwarten können.
 
 >[!NOTE]
 >
@@ -24,55 +24,55 @@ All users can simultaneously download multiple assets and folders accessible to 
 
 ## Schritte zum Herunterladen von Assets {#steps-to-download-assets}
 
-To download assets or folders containing assets for [!DNL Brand Portal], follow these steps:
+Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Brand Portal herunterzuladen:
 
-1. From the [!DNL Brand Portal] interface, do one of the following:
+1. Führen Sie auf der Marken-Portal-Oberfläche einen der folgenden Schritte aus:
 
-   * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. From the toolbar at the top, click the **Download** icon.
+   * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
    ![](assets/downloadassets-1.png)
 
-   * Um einen bestimmten Ordner oder ein Asset herunterzuladen, führen Sie den Mauszeiger über den Ordner bzw. das Asset. From the quick action thumbnails available, click the **Download** icon.
+   * Um einen bestimmten Ordner oder ein Asset herunterzuladen, führen Sie den Mauszeiger über den Ordner bzw. das Asset. From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **Copyright-Management** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **Zustimmen** und klicken Sie dann auf **Herunterladen**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.\
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM] Assets.
+   >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]weitergeleitet.** Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.\
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
-   The **Download** dialog box appears with the **Asset(s)** option selected by default.
+   The **[!UICONTROL Download]** dialog box appears with the **[!UICONTROL Asset(s)]** option selected by default.
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >If the assets you are downloading are image files, and you select only the **Asset(s)** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
+   >If the assets you are downloading are image files, and you select only the **[!UICONTROL Asset(s)]** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
 
    ![](assets/restrictaccess-note.png)
 
-2. To download the renditions of assets in addition to the assets, select **Rendition(s)**. However, to allow auto-generated renditions to download along with custom renditions, deselect **Exclude Auto Generated Renditions**, which is selected by default.
+2. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect **Asset(s)**.
+   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
 
    >[!NOTE]
    >
    >Standardmäßig werden nur die Assets heruntergeladen. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-   * To speed up the download of asset files from [!DNL Brand Portal], select **Enable download acceleration** option and [follow the wizard](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [Guide to accelerate downloads from [!DNL Brand Portal]](../using/accelerated-download.md).
+   * Wählen Sie zum Beschleunigen des Downloads der Asset-Dateien von Brand Portal die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** aus und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-   * Um eine [benutzerdefinierte Bildvorgabe zum Asset und seinen Ausgabeformaten](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages) zuzuweisen, wählen Sie **Dynamische Ausgabe(n)** aus. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, deaktivieren Sie die Option **Asset(s)**.
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, **[!UICONTROL Asset (s)]** löschen.
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's [!UICONTROL Pyramid tiff] rendition exists at the [!DNL AEM] author instance, from where the assets have been published. When an asset is published to [!DNL Brand Portal], its [!UICONTROL Pyramid tiff] rendition is also published. Es gibt keine Möglichkeit, die [!UICONTROL Pyramid TIFF] -Darstellung zu [!DNL Brand Portal]generieren.
+   >Um dynamische Darstellungen eines Assets in der Vorschau anzuzeigen (oder herunterzuladen), stellen Sie sicher, dass die dynamischen Medien aktiviert sind und die Pyramid TIFF-Darstellung des Assets auf der AEM-Autoreninstanz vorhanden ist, von wo die Assets veröffentlicht wurden. Wenn ein Asset in Brand Portal veröffentlicht wird, wird seine Pyramid TIFF-Darstellung ebenfalls veröffentlicht. Es gibt keine Möglichkeit, die Pyramid TIFF-Darstellung aus dem Brand Portal zu generieren.
 
-   * To preserve the [!DNL Brand Portal] folder hierarchy while downloading assets, select **Create separate folder for each asset**. By default, [!DNL Brand Portal] folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
+   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. Die Brand Portal-Ordnerhierarchie wird standardmäßig ignoriert und alle Assets werden in einen Ordner auf Ihrem lokalen System heruntergeladen.
 
-   * To send an email notification to users with a link for downloading the assets, select **Email**.
+   * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
    ![](assets/download-link.png)
 
    >[!NOTE]
@@ -81,7 +81,7 @@ To download assets or folders containing assets for [!DNL Brand Portal], follow 
    >
    >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
 
-3. Klicken Sie auf **Herunterladen**.
+3. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
    Die Assets (und Ausgabeformate, sofern ausgewählt) werden als ZIP-Datei in Ihren lokalen Ordner heruntergeladen. Es wird jedoch keine ZIP-Datei erstellt, wenn ein einzelnes Asset ohne eines der Ausgabeformate heruntergeladen wird. Dies gewährleistet einen schnellen Download.
 
@@ -95,7 +95,7 @@ To download assets or folders containing assets for [!DNL Brand Portal], follow 
 
 ## Erwartete Download-Zeiten {#expected-download-performance}
 
-Das Dateidownloaderlebnis kann je nach Faktoren, wie z. B. lokale Internetverbindung und Serverlatenz, für Benutzer unterschiedlicher Kundenstandorte unterschiedlich sein. The expected download performance for 2 GB file observed at different client locations is as follows, with [!DNL Brand Portal] server at Oregon in United States:
+Das Dateidownloaderlebnis kann je nach Faktoren, wie z. B. lokale Internetverbindung und Serverlatenz, für Benutzer unterschiedlicher Kundenstandorte unterschiedlich sein. Die erwartete Download-Zeit für eine 2 GB große Datei an verschiedenen Client-Standorten ist wie folgt, wenn sich der  Brand Portal-Server in Oregon (USA) befindet:
 
 | Client-Standort | Latenzzeit zwischen Client und Server | Erwartete Download-Geschwindigkeit | Zeit zum Herunterladen einer 2 GB-Datei |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
