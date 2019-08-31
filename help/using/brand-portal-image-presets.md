@@ -9,7 +9,7 @@ topic-tags: Administration
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: a 512 dfa 0-fef 3-4 c 3 f-a 389-a 0 a 3 a 7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ Nur Administratoren können Bildvorgaben in Brand Portal erstellen.
 Der Dynamic Media Hybrid-Modus muss in AEM (Autoreninstanz) aktiviert sein, damit das Pyramid TiFF (PTIFF)-Format eines Assets erstellt werden kann. Wenn ein solches Asset in Brand Portal veröffentlicht wird, werden Bildvorgaben angewendet und dynamische Darstellungen angezeigt.
 
 1. Klicken Sie in der AEM-Symbolleiste oben auf das Adobe-Logo, um auf Verwaltungswerkzeuge zuzugreifen.
-
-   ![](assets/AEMlogo.png)
 
 2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
