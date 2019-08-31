@@ -9,7 +9,7 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: Einführung
 discoiquuid: 6 aefa 298-4728-4 b 8 e-a 85 b-e 419 ee 37 f 2 f 4
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
@@ -20,13 +20,13 @@ Als Vermarkter müssen Sie manchmal mit Kanalpartnern und internen Geschäftsben
 
 Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe genehmigter Marken-Logos, Richtlinien, Kampagnen-Assets oder Produktfotos für erweiterte interne Teams, Partner und Reseller unterstützen, ist jedoch eine Herausforderung.
 
-**[!DNL Adobe Experience Manager (AEM) Assets Brand Portal]** Mit können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugten Zugriff.
+**Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen.** Brand Portal ermöglicht effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugten Zugriff.
 
 Mit der browserbasierten Portalumgebung können Sie Assets mühelos hochladen, durchsuchen, suchen, in einer Vorschau anzeigen und in genehmigte Formate exportieren.
 
 ## Benutzerrollen im Markenportal {#Personas}
 
-[!DNL Brand Portal] unterstützt die folgenden Benutzerrollen:
+Markenportal unterstützt die folgenden Benutzerrollen:
 
 * Gastbenutzer
 * Betrachter
@@ -46,7 +46,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 ### Gastbenutzer {#guest-user}
 
-Any user having limited access to assets on [!DNL Brand Portal] without undergoing authentication is a guest user. Über die Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer können Sie durch die Asset-Details navigieren und die vollständige Asset-Ansicht der Mitglieder öffentlicher Ordner und Sammlungen haben. You can search, download, and add public assets to [!UICONTROL lightbox collection].
+Jeder Benutzer mit eingeschränktem Zugriff auf Assets in Brand Portal, der nicht authentifiziert wird, ist ein Gastbenutzer. Über die Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer können Sie durch die Asset-Details navigieren und die vollständige Asset-Ansicht der Mitglieder öffentlicher Ordner und Sammlungen haben. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
 
 In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
@@ -60,7 +60,7 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 ### Betrachter {#viewer}
 
-A standard user in [!DNL Brand Portal] is typically a user with the role of Viewer. Ein Benutzer mit dieser Rolle kann auf erlaubte Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabeformate), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
+Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachter. Ein Benutzer mit dieser Rolle kann auf erlaubte Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabeformate), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
 
 [Assets durchsuchen](browse-assets-brand-portal.md)
 
@@ -82,9 +82,9 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 ### Administrator {#administrator}
 
-An administrator includes a user marked as system administrator or [!DNL Brand Portal] product administrator in [!UICONTROL Admin Console]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
+An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
-Administratoren können alle Aufgaben ausführen, die ein Bearbeiter ausführen kann. Außerdem stehen ihnen folgende Aufgaben zur Verfügung:
+Ein Administrator kann alle Aufgaben ausführen, die ein Editor die folgenden zusätzlichen Aufgaben ausführen kann:
 
 [Verwalten von Benutzern, Gruppen und Benutzerrollen](brand-portal-adding-users.md)
 
@@ -98,82 +98,83 @@ Administratoren können alle Aufgaben ausführen, die ein Bearbeiter ausführen 
 
 [Arbeiten mit Berichten](brand-portal-reports.md)
 
-In addition to the above tasks, an Author in [!DNL AEM Assets] can perform the following tasks:
+Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Aufgaben zur Verfügung:
 
-[Konfigurieren [! DNL AEM Assets] Integration mit [DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Veröffentlichen Sie Ordner auf [! DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Veröffentlichen von Ordnern in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Veröffentlichen Sie Sammlungen auf [! DNL Brand Portal]](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Veröffentlichen von Sammlungen in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Alternativer Alias für Brand Portal-URL {#tenant-alias-for-portal-url}
 
-[!DNL Brand Portal] Ab 6.4.3 können Organisationen eine alternative (Alias) URL für die vorhandene URL ihres [!DNL Brand Portal] Mandanten haben. Die Alias-URL kann durch ein alternatives Präfix in der URL erstellt werden.\
-Note that only the prefix of the [!DNL Brand Portal] URL can be customized and not the entire URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
+Ab dem Markenportal 6.4.3 können Unternehmen eine alternative (Alias) URL für die vorhandene URL ihres Markenportals haben. Die Alias-URL kann durch ein alternatives Präfix in der URL erstellt werden.\
+Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. For example, an organization with existing domain **[!UICONTROL geomettrix.brand-portal.adobe.com]** can get **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** created on request.
 
-However, **[!DNL AEM] Author instance can be [configured](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) only with the tenant id URL and not with tenant alias (alternate) URL.
+Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
 >[!NOTE]
 >
->To get an alias for tenant name in existing portal URL, organizations need to contact **[!DNL Adobe support] with a new tenant alias creation request. Bei der Bearbeitung dieses Antrags wird zuerst geprüft, ob der Alias verfügbar ist. Trifft dies zu, wird der Alias erstellt.
+>Um einen Alias für einen Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen sich Organisationen an den Adobe-Support wenden und das Erstellen eines neuen Mandantenalias anfordern. Bei der Bearbeitung dieses Antrags wird zuerst geprüft, ob der Alias verfügbar ist. Trifft dies zu, wird der Alias erstellt.
 >
 >Um den alten Alias zu ersetzen oder zu löschen, muss der gleiche Prozess befolgt werden.
 
 ## Anfordern von Zugriff auf Brand Portal {#request-access-to-brand-portal}
 
-Users can request access to [!DNL Brand Portal] from the login screen. These requests are sent to [!DNL Brand Portal] administrators, who grant access to users through the Adobe Admin Console. Sobald der Zugriff gewährt wurde, erhalten die Benutzer eine Benachrichtigungs-E-Mail.
+Benutzer können über den Anmeldebildschirm Zugriff auf Brand Portal anfragen. These requests are sent to Brand Portal administrators, who grant access to users through the Adobe [!UICONTROL Admin Console]. Sobald der Zugriff gewährt wurde, erhalten die Benutzer eine Benachrichtigungs-E-Mail.
 
 Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
-1. From the [!DNL Brand Portal] login page, select the **Click here** corresponding to **Need Access?**. However, to enter the guest session, select the **Click here** corresponding to **Guest Access?**.
+1. From the Brand Portal login page, select **[!UICONTROL Click here]** corresponding to **[!UICONTROL Need Access?]**. However, to enter the guest session, select the **[!UICONTROL Click here]** corresponding to **[!UICONTROL Guest Access?]**.
 
    ![Bildschirm "Marken-Portal-Anmeldung «](assets/bp-login-requestaccess.png)
 
-   Die Seite **Zugriff anfragen** wird geöffnet.
+   Die Seite [!UICONTROL Zugriff anfragen] wird geöffnet.
 
-2. To be able to request access to an organization’s [!DNL Brand Portal], you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   In the **Request Access** page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
-   ![Zugriff anfordern](assets/bplogin_request_access_2.png)
+   In the [!UICONTROL Request Access] page, sign in using your ID (scenario 1) or create an [!UICONTROL Adobe ID] (scenario 2):
+   ![[!UICONTROL Zugriff anfordern]](assets/bplogin_request_access_2.png)
 
    **Szenario 1**
-   1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **Sign In**.
-The **Sign in** page opens.
-   2. Provide your [!UICONTROL Adobe ID] credentials and click **Sign in**.
+   1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
+The [!UICONTROL Sign in] page opens.
+   2. Provide your [!UICONTROL Adobe ID] credentials and click **[!UICONTROL Sign in]**.
       ![Adobe-Anmeldung](assets/bplogin_request_access_3.png)
-   You are redirected to the **Request Access** page.
+   You are redirected to the [!UICONTROL Request Access] page.
    **Szenario 2**
-   1. If you do not have an [!UICONTROL Adobe ID], to create one, click **Get an Adobe ID** from the **Request Access** page.
-The **Sign in** page opens.
-   2. Click **Get an Adobe ID**.
-The **Sign up** page opens.
-   3. Geben Sie Ihren Vornamen und Nachnamen, die E-Mail-Adresse und ein Kennwort ein. Click **Sign up**.
+   1. If you do not have an [!UICONTROL Adobe ID], to create one, click **[!UICONTROL Get an Adobe ID]** from the [!UICONTROL Request Access] page.
+The [!UICONTROL Sign in] page opens.
+   2. Click **[!UICONTROL Get an Adobe ID]**.
+The [!UICONTROL Sign up] page opens.
+   3. Geben Sie Ihren Vornamen und Nachnamen, die E-Mail-Adresse und ein Kennwort ein.
+   4. Wählen **[!UICONTROL Sie Anmelden]**.
       ![](assets/bplogin_request_access_5.png)
-   You are redirected to the **Request Access** page.
+   You are redirected to the [!UICONTROL Request Access] page.
 
-3. Auf der nächsten Seite werden Ihr Name und Ihre E-Email-ID zum Anfordern des Zugriffs angezeigt. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **Übermitteln**.
+3. Auf der nächsten Seite werden Ihr Name und Ihre E-Email-ID zum Anfordern des Zugriffs angezeigt. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.
 
    ![](assets/bplogin-request-access.png)
 
 ## Produktadministratoren gewähren Zugriff {#grant-access-to-brand-portal}
 
-[!DNL Brand Portal] Produktadministratoren erhalten im [!DNL Brand Portal] Benachrichtigungsbereich und per E-Mail im Posteingang Zugriffsanforderungen.
+Markenportal-Produktadministratoren erhalten Zugriffsanforderungen in ihrem Markenportal-Benachrichtigungsbereich und per E-Mail im Posteingang.
 
 ![Zugriff auf angeforderte Benachrichtigungen](assets/bplogin_request_access_7.png)
 
-Um Zugriff zu gewähren, müssen Produktadministratoren auf die relevante Benachrichtigung im [!DNL Brand Portal] Benachrichtigungsbereich klicken und dann auf Zugriff **gewähren**klicken.
-Alternatively, product administrators can follow the link provided in the access request email to visit [!DNL Adobe Admin Console] and add the user to the relevant product configuration.
+To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
+Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
 ![](assets/bplogin_request_access_8.png)
 
-You are redirected to the [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use [!DNL Adobe Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in [!DNL Brand Portal]. For more information about adding users in [!DNL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
-Before [!DNL Brand Portal] is scheduled to go down for maintenance, a notification is displayed as a banner after you log in to [!DNL Brand Portal]. Beispiel für eine Benachrichtigung:
+Bevor Brand Portal planmäßig zur Wartung heruntergefahren wird, wird nach dem Anmelden bei Brand Portal eine Benachrichtigung als Banner angezeigt. Beispiel für eine Benachrichtigung:
 
 ![](assets/bp_maintenance_notification.png)
 
-You can dismiss this notification and continue using [!DNL Brand Portal]. Diese Benachrichtigung wird in jeder neuen Sitzung angezeigt.
+Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwenden. Diese Benachrichtigung wird in jeder neuen Sitzung angezeigt.
 
 ## Versions- und Systeminformationen {#release-and-system-information}
 
