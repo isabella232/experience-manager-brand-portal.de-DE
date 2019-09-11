@@ -10,7 +10,7 @@ content-type: Referenz
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 301 f 7 a 0 b -5527-4 aac-b 731-bfc 145 fed 0 c 0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen 
 
 Um die Dateien schneller herunterzuladen, stellen Sie Folgendes sicher:
 
-* **[!UICONTROL Aktivieren Sie die Option "Download-Beschleunigung]** " (standardmäßig deaktiviert) aus [!UICONTROL den allgemeinen Einstellungen] im Verwaltungswerkzeug.
+* **[!UICONTROL Aktivieren Sie die Option Download-Beschleunigung]** (standardmäßig deaktiviert) aus [!UICONTROL allgemeinen Einstellungen] im Verwaltungswerkzeug-Bedienfeld.
 * Port 33001 (TCP und UDP) ist auf der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zu Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installieren Sie Aspera Connect mit Administratorrechten.
 * For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
