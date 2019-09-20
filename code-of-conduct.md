@@ -1,6 +1,6 @@
 ---
 source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe-Verhaltenskodex
@@ -46,5 +46,4 @@ Projektverantwortliche, die dem Verhaltenskodex nicht im guten Glauben folgen od
 
 ## Zuordnung
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Dieser Verhaltenskodex wird vom [Contributor Covenant](https://contributor-covenant.org), Version 1.4 angepasst, der unter [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/) verfügbar ist.
