@@ -1,6 +1,6 @@
 ---
 source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Beitragen
@@ -14,9 +14,9 @@ Im Folgenden finden Sie eine Reihe von Richtlinien, die bei Beiträgen zu diesem
 Dieses Projekt hält den Adobe-[Verhaltenskodex](code-of-conduct.md) ein. Wir erwarten, dass Sie bei Ihrer Teilnahme diesen Code befolgen. Bitte melden Sie sich inakzeptables Verhalten an
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Dokumentation zum Mitarbeiter-Handbuch
+## Dokumentation zum Leitfaden für Beitragende
 
-Weitere Informationen finden Sie im [Mitarbeiter-Handbuch](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Siehe [Leitfaden für Beitragende](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) (Englisch).
 
 ## Haben Sie eine Frage?
 
@@ -24,12 +24,11 @@ Melden Sie als Erstes ein Problem. Die vorhandenen Verantwortlichen bei diesem P
 
 ## Lizenzvereinbarung für Mitwirkende (CLA)
 
-Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer unterzeichneten Lizenzvereinbarung für Mitwirkende begleitet werden. Damit kann Adobe Ihre Beiträge als Teil des Projekts weitervertreiben. [Signieren Sie unsere CLA](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie sofort loslegen!
+Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer unterzeichneten Lizenzvereinbarung für Mitwirkende begleitet werden. Damit kann Adobe Ihre Beiträge als Teil des Projekts weitervertreiben. [Unterzeichnen Sie unsere CLA](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie sofort loslegen!
 
 ## Codeüberprüfungen
 
-Alle Übermittlungen sollten in Form von Abruf-Anfragen erfolgen und müssen von den Projektverantwortlichen geprüft werden. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Alle Übermittlungen sollten in Form von Abruf-Anfragen erfolgen und müssen von den Projektverantwortlichen geprüft werden. Lesen Sie [die Dokumentation für Abruf-Anfragen von GitHub](https://help.github.com/articles/about-pull-requests/) für weitere Informationen zum Senden von Abruf-Anfragen.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -42,4 +41,4 @@ Wir lieben Beiträge aus unserer Community! Wenn Sie sich von einem Mitwirkenden
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten bei diesem Problemtracker nicht gemeldet werden. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten bei diesem Problemtracker nicht gemeldet werden. [Reichen Sie stattdessen ein Problem bei unseren Sicherheitsexperten ein](https://helpx.adobe.com/security/alertus.html)
