@@ -3,12 +3,12 @@ title: Verwalten der digitalen Rechte von Assets
 seo-title: Verwalten der digitalen Rechte von Assets
 description: Das Lizenzieren von Assets und das Festlegen eines Ablaufdatums für Assets und freigegebene Links ermöglichen eine kontrollierte Asset-Nutzung und den Schutz dieser Assets.
 seo-description: Das Lizenzieren von Assets und das Festlegen eines Ablaufdatums für Assets und freigegebene Links ermöglichen eine kontrollierte Asset-Nutzung und den Schutz dieser Assets.
-uuid: ce 30 e 398-0109-41 bf-a 4 d 2-2 fcca 476 f 499
+uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
-topic-tags: download-install
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+topic-tags: Download installieren
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
-discoiquuid: f 77003 ba -31 fe -4 a 9 e -96 c 8-dbc 4 c 2 eba 79 e
+discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -17,23 +17,23 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Verwalten der digitalen Rechte von Assets {#manage-digital-rights-of-assets}
 
-Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb der Organisation und außerhalb der Organisation erzwungen werden, indem Sie ein Ablaufdatum (und eine Uhrzeit) mit genehmigten Assets verknüpfen, die von AEM in Brand Portal veröffentlicht wurden, oder indem Sie diese Assets zur bedingten Nutzung lizenzieren. Auch in Brand Portal können Sie ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
+Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb und außerhalb des Unternehmens erzwungen werden, indem ein Ablaufdatum (und eine Uhrzeit) mit genehmigten Assets verknüpft wird, die von AEM über das Markenportal veröffentlicht wurden, oder indem diese Assets für die bedingte Verwendung lizenziert werden. Auch in Brand Portal können Sie ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
 
 Erfahren Sie, wie die Assets in Brand Portal gesichert werden und welche Nutzungsberechtigungen damit verknüpft sind.
 
 ## Asset-Ablauf {#asset-expiration}
 
-Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten Assets in Brand Portal unternehmensweit zu kontrollieren. Alle Assets, die von AEM Assets an Brand Portal veröffentlicht werden, können ein Ablaufdatum haben, das die Nutzung dieser Assets nach verschiedenen Benutzerrollen einschränkt.
+Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten Assets in Brand Portal unternehmensweit zu kontrollieren. Alle Assets, die von AEM Assets an das Markenportal veröffentlicht werden, können ein Ablaufdatum haben, wodurch die Verwendung dieser Assets nach verschiedenen Benutzerrollen eingeschränkt wird.
 
 ### Nutzungsberechtigungen in Bezug auf abgelaufene Assets {#usage-permissions-expired-assets}
 
 In Brand Portal können Administratoren abgelaufene Assets anzeigen, herunterladen und zu Sammlungen hinzufügen. Bearbeiter und Betrachter können dagegen nur abgelaufene Assets anzeigen und sie zu Sammlungen hinzufügen.
 
-Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. If you select any expired asset from a folder containing both expired and non-expired assets, the **[!UICONTROL Share Link]** action is not available. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die [!UICONTROL Aktionen "Freigeben] «und **[!UICONTROL " Verknüpfen"]** verfügbar.
+Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
 
 >[!NOTE]
 >
->Ein Ordner kann weiterhin als Link freigegeben werden, auch wenn er abgelaufene Assets enthält. In diesem Fall enthält der Link keine abgelaufenen Assets, und nur die nicht abgelaufenen Assets werden freigegeben.
+>Ein Ordner kann als Link freigegeben werden, selbst wenn er abgelaufene Assets enthält. In diesem Fall werden im Link keine abgelaufenen Assets aufgelistet und nur die nicht abgelaufenen Assets werden freigegeben.
 
 In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Assets angezeigt:
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 
 >[!NOTE]
 >
->Wenn Viewer und Editors einen Ordner herunterladen, der abgelaufene und nicht abgelaufene Assets enthält, werden nur die nicht abgelaufenen Assets heruntergeladen. Wenn ein Ordner nur abgelaufene Assets enthält, wird ein leerer Ordner heruntergeladen.
+>Wenn Betrachter und Editoren einen Ordner mit abgelaufenen und nicht abgelaufenen Assets herunterladen, werden nur die nicht abgelaufenen Assets heruntergeladen. Wenn ein Ordner nur abgelaufene Assets enthält, wird ein leerer Ordner heruntergeladen.
 
 ### Gültigkeitsstatus und Assets {#expiration-status-of-assets}
 
@@ -60,13 +60,13 @@ You can view the expiration status of assets in their [!UICONTROL Card View]. Ab
 
 ## Ablauf des Asset-Links {#asset-link-expiration}
 
-While sharing assets through links, Administrators and Editors can set a date and time of expiration using the **[!UICONTROL Expiration]** field in the **[!UICONTROL Link Sharing]** dialog box. Der Standardmäßige Link-Ablauf beträgt sieben Tage nach dem Datum der Freigabe des Links.
+Beim Teilen von Assets über Links können Administratoren und Editoren über **[!UICONTROL Ablauf]** im Feld für die **[!UICONTROL Linkfreigabe]** ein Datum und eine Uhrzeit des Ablaufs einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
 ![](assets/asset-link-sharing.png)
 
-So wird sichergestellt, dass Assets, die als Links freigegeben werden, an dem Tag und zu der Uhrzeit ablaufen, die Brand Portal-Administratoren und -Bearbeiter festgelegt haben. Nach diesem Ablaufdatum können sie nicht mehr angezeigt und heruntergeladen werden. Da die über Links freigegebenen Assets auch von externen Benutzern angesehen werden können, die nicht Teil des Unternehmens sind, können Sie durch Angabe von Ablauf sicherstellen, dass Ihre genehmigten Assets geschützt sind und nicht unbekannte Entitäten nach einer bestimmten Zeit offen gelegt werden.
+So wird sichergestellt, dass Assets, die als Links freigegeben werden, an dem Tag und zu der Uhrzeit ablaufen, die Brand Portal-Administratoren und -Bearbeiter festgelegt haben. Nach diesem Ablaufdatum können sie nicht mehr angezeigt und heruntergeladen werden. Da die über Links freigegebenen Assets auch von externen Benutzern angezeigt werden können, die nicht zur Organisation gehören, können Sie durch Festlegen des Ablaufs sicherstellen, dass Ihre genehmigten Assets geschützt sind und über einen bestimmten Zeitraum für keine unbekannten Personen sichtbar sind.
 
-For more information about link sharing, refer to [Share assets as a link](../using/brand-portal-link-share.md).
+Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freigeben](../using/brand-portal-link-share.md).
 
 ## Lizenzierte Assets {#licensed-assets}
 
@@ -74,11 +74,11 @@ Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lize
 
 License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
-If you choose to download license-protected asset(s), you are redirected to [!UICONTROL Copyright Management] page.
+Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite [!UICONTROL Copyright-Management] weitergeleitet.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. If you do not accept the license agreement, the [!UICONTROL Download] button is not enabled.
+Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. Wenn Sie die Lizenzvereinbarung nicht annehmen, wird die Schaltfläche [!UICONTROL Download] nicht aktiviert.
 
 ![](assets/licensed-asset-download-2.png)
 
@@ -86,8 +86,8 @@ Falls die Auswahl mehrere geschützte Assets enthält, wählen Sie jeweils eines
 
 ## Erstellen von Berichten zu abgelaufenen Assets {#generate-report-about-expired-assets}
 
-Administratoren können einen Bericht erstellen und herunterladen, in dem alle Assets aufgeführt sind, die innerhalb eines bestimmten Zeitraums abgelaufen sind. Dieser Bericht enthält detaillierte Informationen (z. B. Größe, Typ, Pfad für den Asset-Speicherort in der Asset-Hierarchie, wann das Asset abläuft) und wann das Asset veröffentlicht wurde - zu den abgelaufenen Assets. Die Spalten dieses Berichts können angepasst werden, um basierend auf den Benutzeranforderungen mehr Daten anzuzeigen.
+Administratoren können einen Bericht erstellen und herunterladen, in dem alle Assets aufgeführt sind, die innerhalb eines bestimmten Zeitraums abgelaufen sind. Dieser Bericht enthält ausführliche Informationen zu den abgelaufenen Assets, etwa Größe, Art, Pfad mit der angegebenen Position des Assets in der Asset-Hierarchie, Ablaufdatum des Assets und dessen Veröffentlichungszeitpunkt. Die Spalten dieses Berichts können angepasst werden, um basierend auf den Benutzeranforderungen mehr Daten anzuzeigen.
 
 ![](assets/assets-expired.png)
 
-For more information about the reports feature, refer [Work with reports](../using/brand-portal-reports.md#work-with-reports).
+Weitere Informationen zur Berichtsfunktion finden Sie unter [Mit Berichten arbeiten](../using/brand-portal-reports.md#work-with-reports).
