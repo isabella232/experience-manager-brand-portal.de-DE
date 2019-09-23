@@ -3,11 +3,11 @@ title: Verwenden benutzerdefinierter Suchfacetten
 seo-title: Verwenden benutzerdefinierter Suchfacetten
 description: Administratoren können Sucheigenschaften zum Bereich „Filter“ hinzufügen, um die Suche anzupassen und die Suchfunktion auf diese Weise vielseitiger zu gestalten.
 seo-description: Administratoren können Sucheigenschaften zum Bereich „Filter“ hinzufügen, um die Suche anzupassen und die Suchfunktion auf diese Weise vielseitiger zu gestalten.
-uuid: 986 fba 5 a-fac 5-4128-ac 75-d 04 da 5 b 52 d 45
+uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: Referenz
 topic-tags: Administration
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-discoiquuid: 19 faa 28-246 b -42 c 7-869 f -97 c 95 c 7 a 1349
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -18,9 +18,9 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 Administrators can add search predicates to the [!UICONTROL Filters] panel to customize search and make the search functionality versatile.
 
-Brand Portal supports [faceted search](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) for granular searches of approved brand assets, which is possible due to [**Filters** panel](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Search facets are made available on Filters panel through **[!UICONTROL Search Form]** in the admin tools. Auf der Seite „Suchformular“ in den Admin Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Administratoren können jedoch den Standardbereich „Filter“ durch Bearbeiten des Standardsuchformulars „Asset-Admin-Suchschienenseite“ anpassen, um die Suchfunktion durch Hinzufügen, Ändern oder Entfernen von Sucheigenschaften vielseitiger zu machen.
+Brand Portal supports [faceted search](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) for granular searches of approved brand assets, which is possible due to [**Filters** panel](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Suchfacetten sind im Bereich „Filter“ über das **[!UICONTROL Suchformular]in den Admin Tools verfügbar.** Auf der Seite „Suchformular“ in den Admin Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Administratoren können jedoch den Standardbereich „Filter“ durch Bearbeiten des Standardsuchformulars „Asset-Admin-Suchschienenseite“ anpassen, um die Suchfunktion durch Hinzufügen, Ändern oder Entfernen von Sucheigenschaften vielseitiger zu machen.
 
-You can use various search predicates to customize the **[!UICONTROL Filters]** panel. Fügen Sie beispielsweise die Eigenschaft Eigenschaft hinzu, um nach Assets zu suchen, die einer einzelnen Eigenschaft entsprechen, die Sie in dieser Eigenschaft angeben. Fügen Sie die Optionen hinzu, um nach Assets zu suchen, die einem oder mehreren Werten entsprechen, die Sie für eine bestimmte Eigenschaft angeben. Fügen Sie die Datumsbereichseigenschaft hinzu, um nach Assets zu suchen, die innerhalb eines bestimmten Datumsbereichs erstellt wurden.
+Sie können verschiedene Sucheigenschaften verwenden, um den Bereich **[!UICONTROL Filter]anzupassen.** Fügen Sie beispielsweise das Eigenschaftsprädikat hinzu, um nach Assets zu suchen, die einer einzelnen Eigenschaft entsprechen, die Sie in diesem Prädikat angeben. Fügen Sie das Optionsprädikat hinzu, um nach Assets zu suchen, die einem oder mehreren Werten entsprechen, die Sie für eine bestimmte Eigenschaft angeben. Fügen Sie das Datumsbereichsprädikat hinzu, um nach Assets zu suchen, die innerhalb eines bestimmten Datumsbereichs erstellt wurden.
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ You can use various search predicates to customize the **[!UICONTROL Filters]** 
 
 ## Hinzufügen von Sucheigenschaften {#add-a-search-predicate}
 
-Gehen Sie wie folgt vor, um Sucheigenschaften dem Bereich **[!UICONTROL Filter]hinzuzufügen:**
+Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]Sucheigenschaften hinzuzufügen:**
 
-1. Um auf Verwaltungstools zuzugreifen, klicken Sie auf das AEM-Logo in der Symbolleiste oben.
+1. Um auf Verwaltungstools zuzugreifen, klicken Sie in der Symbolleiste oben auf das AEM-Logo.
 
    ![](assets/aemlogo.png)
 
@@ -46,9 +46,9 @@ Gehen Sie wie folgt vor, um Sucheigenschaften dem Bereich **[!UICONTROL Filter]h
 
    ![](assets/edit-search-form-1.png)
 
-5. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
+5. Ziehen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] eine Eigenschaft von der Registerkarte [!UICONTROL Eigenschaft auswählen] in den Hauptbereich. Ziehen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
 
-   Das Feld **[!UICONTROL Eigenschaft]** wird im Hauptbereich angezeigt und die Registerkarte **Einstellungen[!UICONTROL auf der rechten Seite zeigt die Eigenschaftsprädikate an.]**
+   Das Feld **[!UICONTROL Eigenschaft]** wird im Hauptbereich angezeigt und die Registerkarte **Einstellungen]auf der rechten Seite zeigt die Eigenschaftsprädikate an.[!UICONTROL **
 
    ![](assets/partial-prop-predicate.png)
 
@@ -64,30 +64,30 @@ Gehen Sie wie folgt vor, um Sucheigenschaften dem Bereich **[!UICONTROL Filter]h
    >
    >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird [!UICONTROL Groß-/Kleinschreibung ignorieren] standardmäßig aktiviert.
 
-7. In the [!UICONTROL Property Name] field, open property picker and select the property based on which the search is performed. Alternativ können Sie einen Namen für die Eigenschaft eingeben. Geben Sie z [!UICONTROL `  jcr :content/metadata/dc:title`] . [!UICONTROL `./jcr:content/metadata/dc:title`]B. ein oder.
+7. Öffnen Sie die Eigenschaftsauswahl im Feld [!UICONTROL Eigenschaftsname] und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
 8. Klicken Sie auf **[!UICONTROL Fertig], um die Einstellungen zu speichern.**
-9. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
+9. Klicken Sie in der Benutzeroberfläche von [!UICONTROL Assets] auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter]**, um zum Bereich **Filter]zu wechseln.[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wird dem Bereich hinzugefügt.**
 
    ![](assets/property-filter-panel.png)
 
-10. Geben Sie in das Textfeld **[!UICONTROL Eigenschaft]einen Titel für das Asset ein, das gesucht werden soll.** Zum Beispiel "Adobe" . Wenn Sie eine Suche durchführen, werden Assets, deren Titel „Adobe“ entspricht, in den Suchergebnissen angezeigt.
+10. Geben Sie in das Textfeld **[!UICONTROL Eigenschaft]einen Titel für das Asset ein, das gesucht werden soll.** For example, "Adobe". Wenn Sie eine Suche durchführen, werden Assets, deren Titel „Adobe“ entspricht, in den Suchergebnissen angezeigt.
 
 ## Liste der Sucheigenschaften {#list-of-search-predicates}
 
-Similar to the way you add a **[!UICONTROL Property]** predicate, you can add the following predicates to the **[!UICONTROL Filters]** panel:
+Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigenschaftsprädikate]** zum Bereich **Filter]hinzufügen:[!UICONTROL **
 
 | **Eigenschaftsname** | **Beschreibung** | **Eigenschaften** |
 |-------|-------|----------|
-| [!UICONTROL Pfadbrowser] | Sucheigenschaft, um Assets in einem bestimmten Speicherort zu suchen. **Hinweis:***Für einen angemeldeten Benutzer zeigt der Pfad-Browser auf Filter nur die Inhaltsstruktur der Ordner (und deren Vorgänger) an, die für den Benutzer freigegeben wurden.* <br> Administratoren können nach Assets in einem beliebigen Ordner suchen, indem sie mit dem Pfadbrowser zu diesem Ordner navigieren. <br> Benutzer ohne Administratorrechte können die Assets in einem Ordner (Zugriff darauf) durchsuchen, indem sie in den Pfad-Browser navigieren. | <ul><li>Feldbezeichnung</li><li>Pfad</li><li>Beschreibung</li></ul> |
-| [!UICONTROL Eigenschaft] | Sucht nach Assets basierend auf einer bestimmten Metadaten-Eigenschaft. **Hinweis:***Beim Auswählen der partiellen Suche ist standardmäßig "Groß-/Kleinschreibung ignorieren" ausgewählt*. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Teilsuche</li><li>Groß-/Kleinschreibung ignorieren</li><li> Beschreibung</li></ul> |
-| [!UICONTROL Mehrwert-Eigenschaft] | Similar to property predicate but allows multiple input values, separated by a delimiter (default is COMMA[,]) assets matching any of the input values are returned in results. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Trennzeichen-Unterstützung</li><li>Groß-/Kleinschreibung ignorieren</li><li>Beschreibung</li></ul> |
-| [!UICONTROL Tags] | Sucheigenschaft, um Assets basierend auf Tags zu suchen. Sie können die Pfadeigenschaft konfigurieren, um verschiedene Tags in der Tag-Liste zu füllen. * Hinweis: Administratoren müssen ggf. den Pfadwert ändern, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]wenn sie das Suchformular über AEM veröffentlichen, wo der Pfad beispielsweise keine Mandanten-Informationen enthält [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| [!UICONTROL Pfadbrowser] | Sucheigenschaft, um Assets in einem bestimmten Speicherort zu suchen. **Hinweis:** *Für einen angemeldeten Benutzer zeigt der Pfadbrowser beim Filtern nur die Inhaltsstruktur der Ordner (und ihrer Vorgängerelemente) an, die für den Benutzer freigegeben wurden.* <br> Administratoren können nach Assets in einem beliebigen Ordner suchen, indem sie mit dem Pfadbrowser zu diesem Ordner navigieren. <br>Nicht-Administratoren können dagegen Assets in einem Ordner suchen, auf den sie Zugriff haben, indem sie zu diesem Ordner im Pfadbrowser navigieren. | <ul><li>Feldbezeichnung</li><li>Pfad</li><li>Beschreibung</li></ul> |
+| [!UICONTROL Eigenschaft] | Sucht nach Assets basierend auf einer bestimmten Metadaten-Eigenschaft. **Hinweis:** *Nach Aktivierung der Teilsuche wird standardmäßig „Groß-/Kleinschreibung ignorieren“ aktiviert*. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Teilsuche</li><li>Groß-/Kleinschreibung ignorieren</li><li> Beschreibung</li></ul> |
+| [!UICONTROL Mehrwert-Eigenschaft] | Funktioniert ähnlich wie ein Eigenschaftsprädikat, erlaubt jedoch mehrere Eingabewerte, die durch ein Trennzeichen (standardmäßig ein KOMMA[,]) getrennt werden, um in den Suchergebnissen Assets anzuzeigen, die mit einem dieser Eingabewerte übereinstimmen. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Trennzeichen-Unterstützung</li><li>Groß-/Kleinschreibung ignorieren</li><li>Beschreibung</li></ul> |
+| [!UICONTROL Tags] | Sucheigenschaft, um Assets basierend auf Tags zu suchen. Sie können die Pfadeigenschaft konfigurieren, um verschiedene Tags in der Tag-Liste zu füllen. *Note: Administrators might need to change the path value, for example, [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], if they publish the search form from AEM, where the path does not include tenant information, for example, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Pfad] | Sucheigenschaft, um Assets in einem bestimmten Speicherort zu suchen. | <ul><li>Feldbezeichnung</li><li>Pfad</li><li>Beschreibung</li></ul> |  |
 | [!UICONTROL Relatives Datum] | Sucheigenschaft, um Assets basierend auf dem relativen Datum ihrer Erstellung zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Relatives Datum</li></ul> |
-| [!UICONTROL Bereich] | Sucheigenschaft, um Assets innerhalb eines bestimmten Eigenschaftswert-Bereichs zu suchen. Im Filterbedienfeld können Sie die minimalen und maximalen Eigenschaftswerte für den Bereich festlegen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| [!UICONTROL Bereich] | Sucheigenschaft, um Assets innerhalb eines bestimmten Eigenschaftswert-Bereichs zu suchen. Im Bereich „Filter“ können Sie den Mindest- und den Höchstwert für den Bereich angeben. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Datumsbereich] | Sucheigenschaft, um Assets zu suchen, die innerhalb eines bestimmten Bereichs für eine Datumseigenschaft erstellt wurden. Im Bereich „Filter“ können Sie das Start- und das Enddatum angeben. | <ul><li>Feldbezeichnung</li><li>Platzhalter</li><li>Eigenschaftsname</li><li>Textbereich (von)</li><li>Textbereich (bis)</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Datum] | Sucheigenschaft für eine Schieberegler-basierte Suche nach Assets basierend auf einer Datumseigenschaft | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Dateigröße] | Sucheigenschaft, um Assets basierend auf ihrer Größe zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
@@ -95,7 +95,7 @@ Similar to the way you add a **[!UICONTROL Property]** predicate, you can add th
 | [!UICONTROL Genehmigungsstatus] | Sucheigenschaft, um Assets basierend auf der Genehmigungsstatus-Eigenschaft zu suchen. Der Eigenschaftsname lautet standardmäßig **dam:status**. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Checkout-Status] | Sucheigenschaft, um Assets basierend auf dem Checkout-Status eines Assets zum Zeitpunkt der Veröffentlichung aus AEM Assets zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Ausgecheckt von] | Sucheigenschaft, um Assets basierend auf dem Benutzer zu suchen, der das Asset ausgecheckt hat. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| [!UICONTROL Gültigkeitsstatus] | Suchen Sie Predicate, um Assets basierend auf dem Ablaufstatus zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| [!UICONTROL Gültigkeitsstatus] | Suchprädikat, um Assets basierend auf ihrem Gültigkeitsstatus zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | [!UICONTROL Mitglied der Sammlung] | Sucheigenschaft, um Assets basierend darauf zu suchen, ob ein Asset zu einer Sammlung gehört. | Beschreibung |
 | [!UICONTROL Ausgeblendet] | This predicate is not explicitly visible to the end users and is used for any hidden constraints typically for restricting search results type to **dam:Asset**. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 
@@ -123,7 +123,7 @@ Führen Sie die folgenden Schritte aus, um eine Sucheigenschaft zu löschen:
 
    ![](assets/edit-search-form-2.png)
 
-5. In the [!UICONTROL Edit Search Form] page, from the main pane, select the predicate you want to delete. For example, select **[!UICONTROL Property Predicate]**.
+5. Wählen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] im Hauptbereich die Eigenschaft aus, die Sie löschen möchten. Wählen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
 
    Die Registerkarte **[!UICONTROL Einstellungen]auf der rechten Seite zeigt die Eigenschaftsprädikat-Felder an.**
 
@@ -133,7 +133,7 @@ Führen Sie die folgenden Schritte aus, um eine Sucheigenschaft zu löschen:
 
    ![](assets/search-form-delete-predicate.png)
 
-7. To save the changes, click **[!UICONTROL Done]** in the toolbar.
-8. From the **[!UICONTROL Assets]** user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is removed from the panel.
+7. Klicken Sie zum Speichern der Änderungen in der Symbolleiste auf **[!UICONTROL Fertig].**
+8. Klicken Sie in der Benutzeroberfläche von **[!UICONTROL Assets]** auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter], um zum Bereich** Filter] zu wechseln.**[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wurde aus dem Bereich entfernt.**
 
    ![](assets/property-predicate-removed.png)
