@@ -3,11 +3,11 @@ title: Veröffentlichen von Tags in Brand Portal
 seo-title: Veröffentlichen von Tags in Brand Portal
 description: Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
 seo-description: Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
-uuid: 4167367 e -1 af 8-476 b -97 a 5-730 c 43 bd 0816
+uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: veröffentlichen
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
-discoiquuid: 3 c 8 e 9251-195 d -4 c 56-a 9 a 9-27 bc 8 b 2 a 82 a 4
+discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -20,13 +20,13 @@ Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
 
 Tags sind nützlich zum Verwalten von Assets und verbessern die Suchbarkeit der Assets, mit denen sie verknüpft sind. Tags sind vergleichbar mit Suchbegriffen oder Bezeichnungen (Metadaten), die den Assets beigefügt sind. Mithilfe von Tags werden Assets bei einer Suche schnell gefunden. Informationen dazu, wie Tags den Assets in AEM Assets zugewiesen werden, finden Sie im Artikel [Verwenden von Tags zum Verwalten von Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-Tags (die mit Assets und Sammlungen in AEM verknüpft sind) werden automatisch in Brand Portal veröffentlicht, wenn Sie Assets (und Sammlungen) mit verknüpften Tags in Brand Portal. Die veröffentlichten Tags sind hilfreich bei der Suche nach verknüpften Assets.
+Tags (die mit Assets und Sammlungen in AEM verknüpft sind) werden automatisch in Brand Portal veröffentlicht, wenn Sie Assets (und Sammlungen) mit verknüpften Tags to Brand Portal. Die veröffentlichten Tags sind hilfreich bei der Suche nach verknüpften Assets.
 
 >[!NOTE]
 >
 >Daher wird empfohlen, Tags exklusiv in Brand Portal zu veröffentlichen, bevor Assets (und Sammlungen) veröffentlicht werden, mit denen die Tags verknüpft sind. Hierdurch werden Assets (und Sammlungen) schneller in Brand Portal veröffentlicht.
 
-## Manage tags {#manage-tags}
+## Tags verwalten {#manage-tags}
 
 You can use the pre-existing tags to attach to an asset or create new tags from AEM Tags console (**[!UICONTROL Tools | Tagging | AEM Tags]**). In beiden Fällen müssen Sie die Tags zuerst in Brand Portal veröffentlichen und sie dann mit den entsprechenden Assets verknüpfen.
 
@@ -35,26 +35,26 @@ Führen Sie die folgenden Schritte aus, um Tags in AEM zu erstellen, in Brand Po
 1. **Erstellen von Tags**
 Sign in to AEM Author instance with administrative privileges, and access **[!UICONTROL AEM Tags]** console from global navigation:
 
-   1. **[!UICONTROL Werkzeuge auswählen]**
+   1. Select **[!UICONTROL Tools]**
 
-   2. **[!UICONTROL Allgemein auswählen]**
+   2. Select **[!UICONTROL General]**
 
-   3. **[!UICONTROL Tagging auswählen]**
+   3. Select **[!UICONTROL Tagging]**
 
-2. Select **[!UICONTROL Create]** and then select **[!UICONTROL Create Tag]** option.
+2. Klicken Sie auf **[!UICONTROL Erstellen]** und wählen Sie dann die Option **Tag erstellen[!UICONTROL .]**
 3. Geben Sie Folgendes an:
 
    * **[!UICONTROL Titel]**
-      *(Erforderlich)* Der Anzeigetitel für das Tag.
+      *(erforderlich)* Ein Anzeigetitel für das Tag.
    * **[!UICONTROL Name]**
-      *(Erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
    * **Beschreibung**
-      *(Optional)* Eine Beschreibung des Tags.
+      *(optional)* Eine Beschreibung des Tags.
    * **Tag-Pfad** JCR-Pfad des Tags.
 
 4. Wählen Sie **[!UICONTROL Übermitteln]aus, um das Tag zu erstellen.**
 
-   Nachdem Sie ein Tag auf der AEM-Instanz erstellt haben, ist das Tag für die Angehängung an ein Asset verfügbar (unter Verwendung des Abschnitts "Eigenschaften" oder" Tags verwalten" dieses Assets).
+   Nachdem Sie ein Tag in der AEM-Instanz erstellt haben, ist das Tag verfügbar, das an ein Asset angehängt werden kann (im Abschnitt "Eigenschaften"oder im Abschnitt "Tags verwalten"dieses Assets).
 
 5. **Veröffentlichen Sie das Tag in Brand Portal**.
 
@@ -77,11 +77,11 @@ Um ein Asset für einen Suchbegriff zu priorisieren, führen Sie die folgenden S
 
 1. Öffnen Sie die Seite **[!UICONTROL Eigenschaften]eines Assets in der AEM-Autoreninstanz.**
 2. Navigieren Sie zur Registerkarte **[!UICONTROL Erweitert].**
-3. In **[!UICONTROL Search Promote]** within **[!UICONTROL Elevate for search keywords]** section, select **[!UICONTROL Add]** to add the search keywords or tags.
+3. Klicken Sie in **[!UICONTROL Suche priorisieren]** im Bereich **[!UICONTROL Für Suchbegriffe erhöhen]auf** Hinzufügen], um die Suchbegriffe oder Tags hinzuzufügen.**[!UICONTROL **
 
    ![](assets/search-promote.png)
 
 4. Speichern Sie die Änderungen.
 5. Veröffentlichen Sie das Asset in Brand Portal.
 6. Melden Sie sich bei Brand Portal an. Rufen Sie die Registerkarte **[!UICONTROL Erweitert]** im Bereich **Eigenschaften]des Assets auf.[!UICONTROL **
-Note that the **[!UICONTROL Search Promote]** keyword is also visible in the Properties of that asset.
+Beachten Sie, dass der Suchbegriff aus **[!UICONTROL Suche priorisieren]auch in den Eigenschaften dieses Assets sichtbar ist.**
