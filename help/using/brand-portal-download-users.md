@@ -3,11 +3,11 @@ title: Herunterladen von Assets
 seo-title: Herunterladen von Assets
 description: Alle Benutzer können gleichzeitig mehrere Assets oder Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können bestätigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
 seo-description: Alle Benutzer können gleichzeitig mehrere Assets oder Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können bestätigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
-uuid: 4 b 77118 e-a 76 e -4 d 8 a -992 a-cb 3 c 3097 bc 03
+uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-topic-tags: download-install
-discoiquuid: f 90 c 2214-beea -4695-9102-8 b 952 bc 9 fd 17
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+topic-tags: Download installieren
+discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -26,12 +26,12 @@ Alle Benutzer können gleichzeitig mehrere Assets und Ordner von Brand Portal he
 
 Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Brand Portal herunterzuladen:
 
-1. Führen Sie auf der Marken-Portal-Oberfläche einen der folgenden Schritte aus:
+1. From the Brand Portal interface, do one of the following:
 
-   * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. From the toolbar at the top, click the **[!UICONTROL Download]** icon.
+   * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download].**
    ![](assets/downloadassets-1.png)
 
-   * Um einen bestimmten Ordner oder ein Asset herunterzuladen, führen Sie den Mauszeiger über den Ordner bzw. das Asset. From the quick action thumbnails available, click the **[!UICONTROL Download]** icon.
+   * Um einen bestimmten Ordner oder ein Asset herunterzuladen, führen Sie den Mauszeiger über den Ordner bzw. das Asset. Klicken Sie in den verfügbaren Schnellzugriff-Miniaturansichten auf das Symbol **[!UICONTROL Download].**
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -41,13 +41,13 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    ![](assets/licensed-asset-download-1.png)
 
-   The **[!UICONTROL Download]** dialog box appears with the **[!UICONTROL Asset(s)]** option selected by default.
+   Das Dialogfeld **[!UICONTROL Download]** wird standardmäßig mit der ausgewählten Option **Asset(s)]angezeigt.[!UICONTROL **
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >If the assets you are downloading are image files, and you select only the **[!UICONTROL Asset(s)]** option in Download dialog but are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) then no image files are downloaded and a Notice prompts, stating that you have been restricted by administrator to access original renditions.
+   >Wenn es sich bei den Assets, die Sie herunterladen, um Bilddateien handelt und Sie nur die Option **[!UICONTROL Asset(s)]** im Dialogfeld „Herunterladen“ wählen, aber [von einem Administrator nicht berechtigt wurden, auf die Original-Wiedergabeformate der Bilddateien zuzugreifen](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), werden keine Bilddateien heruntergeladen. Dann erscheint der Hinweis, dass der Administrator Ihnen keine Berechtigung für den Zugriff auf Original-Wiedergabeformate erteilt hat.
 
    ![](assets/restrictaccess-note.png)
 
@@ -55,31 +55,31 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
+   Um nur die Wiedergaben herunterzuladen, deaktivieren Sie die Option **[!UICONTROL Asset(s)]**.
 
    >[!NOTE]
    >
-   >Standardmäßig werden nur die Assets heruntergeladen. However, original renditions of image files are not downloaded if you are not [authorized by the administrator to have access to the original renditions of image files](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
+   >Standardmäßig werden nur die Assets heruntergeladen. Die Originalwiedergaben der Bilddateien werden jedoch nicht heruntergeladen, wenn Sie[ vom Administrator nicht die Berechtigung für den Zugriff auf die Originalwiedergaben der Bilddateien erhalten haben](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
    * Wählen Sie zum Beschleunigen des Downloads der Asset-Dateien von Brand Portal die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** aus und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, **[!UICONTROL Asset (s)]** löschen.
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, delesect **[!UICONTROL Asset(s)]**.
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >Um dynamische Darstellungen eines Assets in der Vorschau anzuzeigen (oder herunterzuladen), stellen Sie sicher, dass die dynamischen Medien aktiviert sind und die Pyramid TIFF-Darstellung des Assets auf der AEM-Autoreninstanz vorhanden ist, von wo die Assets veröffentlicht wurden. Wenn ein Asset in Brand Portal veröffentlicht wird, wird seine Pyramid TIFF-Darstellung ebenfalls veröffentlicht. Es gibt keine Möglichkeit, die Pyramid TIFF-Darstellung aus dem Brand Portal zu generieren.
+   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. Wenn ein Asset im Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht. Es gibt keine Möglichkeit, die Pyramid-TIFF-Darstellung vom Markenportal zu generieren.
 
    * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. Die Brand Portal-Ordnerhierarchie wird standardmäßig ignoriert und alle Assets werden in einen Ordner auf Ihrem lokalen System heruntergeladen.
 
-   * To send an email notification to users with a link for downloading the assets, select **[!UICONTROL Email]**.
+   * Um eine E-Mail-Benachrichtigung mit einem Link für den Asset-Download an Benutzer zu senden, wählen Sie **[!UICONTROL E-Mail]**.
    ![](assets/download-link.png)
 
    >[!NOTE]
    >
    >Der Downloadlink in der E-Mail-Benachrichtigung läuft nach 45 Tagen ab.
    >
-   >Administrators can customize email messages, that is, logo, description, and footer, using the [Branding](../using/brand-portal-branding.md) feature.
+   >Administratoren können mit der Funktion [Branding](../using/brand-portal-branding.md) das Logo, die Beschreibung und die Fußzeile der E-Mail-Nachrichten anpassen.
 
 3. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
@@ -89,23 +89,23 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    >[!NOTE]
    >
-   >Einzeln ausgewählte und heruntergeladene Assets sind im Bericht zu heruntergeladenen Assets sichtbar. Wenn jedoch ein Ordner, der Assets enthält, heruntergeladen wird, werden weder der Ordner noch die Assets im heruntergeladenen Bericht angezeigt.
+   >Einzeln ausgewählte und heruntergeladene Assets sind im Bericht zu heruntergeladenen Assets sichtbar. Wenn jedoch ein Ordner mit Assets heruntergeladen wird, werden weder der Ordner noch die Assets im Bericht zu heruntergeladenen Assets angezeigt.
 
-   To know how to download assets from shared links, refer [downloading assets from shared links](../using/brand-portal-link-share.md#main-pars-header-1703469193).
+   Informationen zum Herunterladen von Assets über freigegebene Links finden Sie unter [Herunterladen von Assets über freigegebene Links](../using/brand-portal-link-share.md#main-pars-header-1703469193).
 
 ## Erwartete Download-Zeiten {#expected-download-performance}
 
-Das Dateidownloaderlebnis kann je nach Faktoren, wie z. B. lokale Internetverbindung und Serverlatenz, für Benutzer unterschiedlicher Kundenstandorte unterschiedlich sein. Die erwartete Download-Zeit für eine 2 GB große Datei an verschiedenen Client-Standorten ist wie folgt, wenn sich der  Brand Portal-Server in Oregon (USA) befindet:
+Die Zeiten von Datei-Downloads variieren unter Umständen für Benutzer an verschiedenen Client-Standorten. Dies ist abhängig von Faktoren wie der lokalen Internetverbindung und der Serverlatenz. Die erwartete Download-Zeit für eine 2 GB große Datei an verschiedenen Client-Standorten ist wie folgt, wenn sich der  Brand Portal-Server in Oregon (USA) befindet:
 
-| Client-Standort | Latenzzeit zwischen Client und Server | Erwartete Download-Geschwindigkeit | Zeit zum Herunterladen einer 2 GB-Datei |
+| Client-Standort | Latenz zwischen Client und Server | Erwartete Download-Geschwindigkeit | Erforderliche Zeit für den Download einer 2 GB großen Datei |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| USA, Westen (Nordkalifornien) | 18 ms | 7,68 MB/s | 4 Minuten |
-| USA, Westen (Oregon) | 42 ms | 3,84 MB/s | 9 Minuten |
-| USA, Osten (Nordvirginia) | 85 ms | 1,61 MB/s | 21 Minuten |
-| APAC (Tokio) | 124 ms | 1,13 MB/s | 30 Minuten |
-| Noida | 275 ms | 0,5 MB/s | 68 Minuten |
-| Sydney | 175 ms | 0,49 MB/s | 69 Minuten |
-| London | 179 ms | 0,32 MB/s | 106 Minuten |
-| Singapur | 196 ms | 0,5 MB/s | 68 Minuten |
+| USA, Westen (Nordkalifornien) | 18 ms | 7.68 MB/s | 4 Minuten |
+| USA, Westen (Oregon) | 42 ms | 3.84 MB/s | 9 Minuten |
+| USA, Osten (Nordvirginia) | 85 ms | 1.61 MB/s | 21 Minuten |
+| APAC (Tokio) | 124 ms | 1.13 MB/s | 30 Minuten |
+| Noida | 275 ms | 0.5 MB/s | 68 Minuten |
+| Sydney | 175 ms | 0.49 MB/s | 69 Minuten |
+| London | 179 ms | 0.32 MB/s | 106 Minuten |
+| Singapur | 196 ms | 0.5 MB/s | 68 Minuten |
 
-**Hinweis**: Die genannten Daten werden unter Testbedingungen betrachtet, was für Benutzer an unterschiedlichen Orten unterschiedlich sein kann, wenn unterschiedliche Latenz und Bandbreite erkannt werden.
+**Hinweis**: Die angegebenen Daten wurden unter Testbedingungen gemessen und können daher für Benutzer an verschiedenen Standorten mit unterschiedlicher Latenz und Bandbreite abweichen.
