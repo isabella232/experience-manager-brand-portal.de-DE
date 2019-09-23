@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
 topic-tags: Einführung
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
 
 ---
@@ -61,7 +61,7 @@ Auch gilt Folgendes:
 >
 >Nach Aktivierung des Kontrollkästchens **Teilsuche** wird **Groß-/Kleinschreibung ignorieren** standardmäßig aktiviert.
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Änderungen in 6.4.3 {#what-changed-in}
 
@@ -86,7 +86,7 @@ Beachten Sie, dass das Standardminiaturbild der virtuellen Ordner das Miniaturbi
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Suche in einer bestimmten Ordnerhierarchie oder in einem bestimmten Ordnerpfad
 
@@ -106,7 +106,7 @@ Beachten Sie, dass die Suche in diesen Ordnern nur Suchergebnisse aus Assets zur
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Unterstützung von Dynamic Media-Videowiedergaben
 
@@ -128,18 +128,18 @@ Dynamic Media-Videokodierungen können heruntergeladen werden über:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Geplante Veröffentlichung in Brand Portal
 
-Veröffentlichungs-Workflow für Assets (und Ordner) aus der [AEM (6.4.2.0)](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)-Autoreninstanz in Brand Portal kann für ein späteres Datum geplant werden.
+Assets (and folders) publish workflow from [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) Author instance to Brand Portal can be scheduled for a later date, time.
 
 Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus dem Portal entfernt werden, indem der Workflow zum Rückgängigmachen der Veröffentlichung in Brand Portal geplant wird.
 
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Konfigurierbarer Mandantenalias in URL
 
@@ -148,12 +148,12 @@ Unternehmen können ihre Portal-URL mit einem alternativen Präfix in der URL an
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL.\
 Für eine Organisation mit der vorhandenen Domäne **geomettrix.brand-portal.adobe.com** kann beispielsweise auf Anfrage die Domäne **geomettrixinc.brand-portal.adobe.com** erstellt werden.
 
-Die AEM-Autoreninstanz kann allerdings nur mit der Mandanten-ID-URL und nicht mit der (alternativen) Mandanten-Alias-URL [konfiguriert](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden.
+Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
 **Der Anwendungsfall**
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
-[![](https://helpx.adobe.com/content/dam/help/de/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Optimierter Download
 
@@ -236,7 +236,7 @@ Bei Auswahl der Option „Überblick“ bei ausgewähltem Asset/Ordner können d
 
 Es wurden sechs neue Konfigurationen hinzugefügt, damit Administratoren folgende Funktionen für bestimmte Mandanten aktivieren bzw. deaktivieren können:
 
-* Gastzugang zulassen
+* Zulassen des Gastzugangs
 * Zugriffsanfrage für Brand Portal durch Benutzer erlauben
 * Löschen von Assets von Brand Portal durch Administratoren zulassen
 * Erstellung öffentlicher Sammlungen zulassen
@@ -251,7 +251,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe.io hostet die Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die oAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/) gehostet. Weitere Informationen zur Integration von AEM Assets in Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html)
+Brand Portal 6.4.2 onwards uses Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter [/](https://marketing.adobe.com/developer/)https://marketing.adobe.com/developer/ gehostet. To know more about integrating AEM Assets with Brand Portal for publishing assets and collections to Brand Portal refer [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## Verbesserungen der Suche
 
@@ -374,7 +374,7 @@ Brand Portal zeigt jetzt einige Tage vor geplanten Wartungsaktivitäten ein ents
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Weitere Informationen finden Sie unter [Wartungsbenachrichtigung in Brand Portal](https://helpx.adobe.com/de/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+For more information, see [Brand Portal maintenance notification](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
 
 ### Erweiterungen für lizenzierte Assets, die über die Funktion „Asset-Freigabe“ freigegeben werden {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
