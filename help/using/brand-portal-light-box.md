@@ -3,11 +3,11 @@ title: Verwalten der Lightbox-Sammlung
 seo-title: Verwalten der Lightbox-Sammlung
 description: Lightbox ist ein spezieller Sammlungstyp, der leichten Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive Lightbox, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die Lightbox-Sammlung kann nicht gelöscht werden.
 seo-description: Lightbox ist ein spezieller Sammlungstyp, der leichten Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive Lightbox, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die Lightbox-Sammlung kann nicht gelöscht werden.
-uuid: c 074 e 45 e-e 63 c -4856-947 f -5 e 9 e 27 bc 46 fb
+uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-topic-tags: download-install
-discoiquuid: ed 79 b 120-a 1 c 1-479 c-a 843-6546 dcc 660 d 7
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+topic-tags: Download installieren
+discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -54,6 +54,6 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/collections_lightboxdelete.png)
 
-3. From the warning message box, click **[!UICONTROL Remove]** to confirm removal.
+3. Klicken Sie in der Warnmeldung auf **[!UICONTROL Entfernen], um den Löschvorgang zu bestätigen.**
 
 The folder is deleted from the [!UICONTROL Lightbox] collection.
