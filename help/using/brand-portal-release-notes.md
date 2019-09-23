@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
 
 ---
@@ -61,17 +61,17 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle unter **Unterstützte Browser für die Autoren-Benutzeroberfläche** im Bereich [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
 * [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
+* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
 Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff benötigen, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-* [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
+* [](https://daycare.day.com)[ Produktzugriff](https://login.marketing.adobe.com)
 
 * [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
