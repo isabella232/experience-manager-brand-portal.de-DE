@@ -3,11 +3,11 @@ title: Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal
 seo-title: Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal
 description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beheben können.
 seo-description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beheben können.
-uuid: 51 e 45 cca -8 c 96-4 c 69-84 ef -2 ef 34 f 3 bcde 2
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
 topic-tags: brand-portal
-discoiquuid: a 4801024-b 509-4 c 51-afd 8-e 337417 e 658 b
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -16,15 +16,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Markenportal unterstützt die Integration mit AEM Assets, damit Marken-Assets nahtlos aus der Autoreninstanz von AEM Assets erstellt (oder veröffentlicht) werden. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Mehrere Replizierungsagenten werden mit AEM 6.2 SP 1 - CFP 5], AEM CFP 6.3.0.2 und ab Beginn verwendet, um eine Hochgeschwindigkeits-parallele Veröffentlichung zu ermöglichen.
+Brand Portal unterstützt die Integration mit AEM Assets, damit genehmigte Markenelemente nahtlos aus der Autoreninstanz von AEM Assets erfasst (oder veröffentlicht) werden können. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Mehrere Replizierungsagenten werden für die schnelle parallele Veröffentlichung mit AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 und höher verwendet.
 
 >[!NOTE]
 >
->Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets integriert ist. Eine Einschränkung in AEM 6.4 gibt beim Konfigurieren der Integration mit dem Markenportal eine Fehlermeldung an und schlägt fehl.
+>Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets integriert ist. A limitation in AEM 6.4 gives an error while configuring integration with Brand Portal and replication fails.
 
-Beim Konfigurieren des Cloud-Dienstes für das Markenportal unter [!UICONTROL /etc/cloudservice]werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Dienstkonfiguration wird erstellt, Dienstbenutzer, die für Replizierungs- und Replizierungsagenten erforderlich sind, werden ebenfalls erstellt, um Inhalte zu replizieren. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie also zahlreiche Assets von AEM in Brand Portal veröffentlichen, werden diese in die Warteschlange der Replizierungsagenten über Round Robin gestellt.
+Beim Konfigurieren des Cloud-Service für Brand Portal unter [!UICONTROL /etc/cloudservice] werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Servicebenutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. So when you publish numerous assets from AEM to Brand Portal, these are queued and distributed among these replication agents through Round Robin.
 
-However, publishing can fail intermittently due to- large sling jobs, increased Network and [!UICONTROL Disk I/O] on AEM Author instance, or slowed performance of AEM Author instance. Es wird daher empfohlen, die Verbindung mit den Replizierungsagenten zu testen, bevor sie mit dem Veröffentlichen beginnen.
+However, publishing can fail intermittently due to- large sling jobs, increased Network and [!UICONTROL Disk I/O] on AEM Author instance, or slowed performance of AEM Author instance. Daher wird empfohlen, die Verbindung zu den Replikationsagenten zu testen, bevor mit dem Veröffentlichen begonnen wird.
 
 ![](assets/test-connection.png)
 
@@ -36,11 +36,11 @@ So validieren Sie Ihre Veröffentlichungskonfigurationen:
 2. Überprüfen Sie, ob der Replikationsagent erstellt wurde.
 3. Testen Sie die Verbindung.
 
-**Ende-Protokolle beim Erstellen von Cloud-Diensten**
+**Protokolle beim Erstellen des Cloud-Dienstes nachverfolgen**
 
-Prüfen Sie die Protokollfragmente. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten scheitert, bearbeiten Sie den Cloud-Dienst, indem Sie geringfügige Änderungen am Cloud-Dienst vornehmen. Überprüfen Sie, ob der Replizierungsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Dienst erneut.
+Prüfen Sie die Protokollfragmente. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten scheitert, bearbeiten Sie den Cloud-Service, indem Sie geringfügige Änderungen am Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
 
-Wenn der Cloud-Dienst beim wiederholten Bearbeiten nicht richtig konfiguriert ist, melden Sie sich ein Tagesticket an.
+Wenn der Cloud-Service selbst nach mehrmaligem Bearbeiten nicht richtig konfiguriert ist, senden Sie ein Daycare-Ticket.
 
 **Testen der Verbindung zu Replikationsagenten**
 
@@ -48,7 +48,7 @@ Sehen Sie sich das Protokoll an. Wenn im Replikationsprotokoll Fehler gemeldet w
 
 1. Wenden Sie sich an den Adobe Support.
 
-2. Retry [clean-up](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) and create publish configuration again.
+2. Wiederholen Sie die [Bereinigung](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) und erstellen Sie die Veröffentlichungskonfiguration erneut.
 
 <!--
 Comment Type: remark
@@ -60,23 +60,23 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Vorhandene Veröffentlichungskonfigurationen in Brand Portal bereinigen {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Möglicherweise möchten Sie eine Fehlerbehebung vermeiden und stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration ordnungsgemäß funktioniert, müssen Sie Folgendes aus der AEM-Authoring-Einrichtung löschen:
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Um die Problembehebung zu vermeiden, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration ordnungsgemäß funktioniert, müssen Sie Folgendes aus dem AEM-Autor-Setup bereinigen:
 
-1. [!UICONTROL localhost: 4502/crx/de] (wenn Sie die Autoreninstanz auf [!UICONTROL localhost ausführen: 4502]):\
-   i. delete /etc/replication/agents.author/mp_replication *\
-   ii. delete /etc/cloudservices/mediaportal/ &lt; config_ name &gt;
+1. go to [!UICONTROL localhost:4502/crx/de] (considering you are running author instance on [!UICONTROL localhost:4502]):\
+   i. delete /etc/replication/agents.author/mp_Replication*\
+   ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. [!UICONTROL localhost: 4502/useradmin:]\
-   ich suche nach Benutzer [! UICONTROL mac-&lt; tenantid &gt;-replication
-ii löscht diesen Benutzer
+2. Gehen Sie zu [!UICONTROL localhost:4502/useradmin]:\
+   i search for user [!UICONTROL mac-&lt;tenantid&gt;-replication
+ii delete this user
 
 Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue  cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Wenn auf [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), alle Orgs (Mandanten), für die die aktuellen Benutzer Systemadministrator sind, aufgelistet werden. Wenn Sie den Organisationsnamen hier nicht finden oder Sie eine Anwendung für einen erforderlichen Mandanten hier nicht erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Rechte hierfür verfügen.
+If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. Wenn Sie den Organisationsnamen hier nicht finden oder Sie eine Anwendung für einen erforderlichen Mandanten hier nicht erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Rechte hierfür verfügen.
 
-Für diese Benutzeroberfläche gibt es ein bekanntes Problem, dass nur die obersten 10 Anwendungen sichtbar sind. Wenn Sie die Anwendung erstellen, bleiben Sie auf dieser Seite und erstellen Sie ein Lesezeichen für die URL. Sie müssen nicht zur Auflistungsseite der Anwendung wechseln und die von Ihnen erstellte Anwendung suchen. Sie können diese mit Lesezeichen versehene URL direkt erreichen und die Anwendung bei Bedarf aktualisieren/löschen.
+Auf dieser Benutzeroberfläche gibt es das bekannte Problem, dass nur die Top-10-Anwendungen für einen Mandanten sichtbar sind. Wenn Sie die Anwendung erstellen, bleiben Sie auf dieser Seite und erstellen Sie ein Lesezeichen für die URL. Sie müssen nicht zur Auflistungsseite der Anwendung wechseln und die von Ihnen erstellte Anwendung suchen. Sie können diese als Lesezeichen gespeicherte URL direkt aufrufen und die Anwendung bei Bedarf aktualisieren/löschen.
 
 Die JWT-Anwendung wird unter Umständen nicht korrekt aufgelistet. Daher wird empfohlen, beim Erstellen der JWT-Anwendung ein Lesezeichen für die URL zu setzen oder sie sich zu notieren.
 
@@ -109,6 +109,6 @@ permission
 
 Wenn ein Replikationsagent, mit dem das Veröffentlichen in Brand Portal bisher korrekt funktionierte, keine Veröffentlichungsaufträge mehr verarbeitet, prüfen Sie die Replikationsprotokolle. In AEM ist eine Funktion zur automatischen Wiederholung integriert. Wenn das Veröffentlichen eines bestimmten Assets scheitert, wird automatisch ein Wiederholungsversuch gestartet. Wenn ein temporäres Problem aufgetreten ist, z. B. ein Netzwerkfehler, kann eine Wiederholung erfolgreich sein.
 
-Wenn fortlaufend Veröffentlichungsfehler auftreten und Warteschlange blockiert wird, sollten **[!UICONTROL Sie die Testverbindung]** prüfen und versuchen, die berichteten Fehler zu beheben.
+If there are continuous publish failures and queue is blocked, then you should check **[!UICONTROL test connection]** and try to solve the errors that are being reported.
 
 Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öffnen, damit das Brand Portal-Technikerteam Ihnen beim Beheben der Probleme helfen kann.
