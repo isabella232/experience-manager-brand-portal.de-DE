@@ -3,11 +3,11 @@ title: Unterstützte Dateiformate
 seo-title: Unterstützte Dateiformate
 description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
 seo-description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
-uuid: c 92 ada 3 a -6 fc 3-4 ef 2-88 ff -8 e 67 a 50 c 8 c 95
+uuid: c92ada3a -6fc3-4ef2-88ff -8e67a50c8c95
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Einführung
-discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
+discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -18,7 +18,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate.
 
-| Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Ausgabeformate | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | Auf Markenportal veröffentlichte Asset-Detailseiten | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
+| Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Wiedergaben | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | In Brand Portal veröffentlichte Asset-Detailseiten   | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
