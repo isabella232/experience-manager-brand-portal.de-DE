@@ -3,19 +3,19 @@ title: Freigeben von Sammlungen
 seo-title: Freigeben von Sammlungen
 description: AEM Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben oder deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
 seo-description: AEM Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben oder deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
-uuid: 965 f 39 cd -1378-42 c 1-a 58 a -01 e 1 bf 825 aa 3
+uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: bdhar
 content-type: Referenz
 topic-tags: Freigabe
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-discoiquuid: f 053013 e -5981-419 f -927 e-b 5 bb 1 d 47 eae 2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Sammlungen auf Markenportal freigeben {#share-collections-bp}
+# Sammlungen in Brand Portal freigeben {#share-collections-bp}
 
 AEM Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben oder deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind. Bearbeiter können jedoch eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern.
 
@@ -31,7 +31,7 @@ Gehen Sie wie folgt vor, um eine Sammlung freizugeben:
 
    ![](assets/contenttree-1.png)
 
-2. From the siderail on the left, click **[!UICONTROL Collections]**.
+2. Klicken Sie links in der Seitenleiste auf **[!UICONTROL Sammlungen]**.
 
    ![](assets/access_collections.png)
 
@@ -40,16 +40,16 @@ Gehen Sie wie folgt vor, um eine Sammlung freizugeben:
    * Bewegen Sie den Mauszeiger über die Sammlung, die Sie freigeben möchten. Klicken Sie in den verfügbaren Schnellzugriff-Miniaturansichten der Sammlung auf das Symbol **[!UICONTROL Einstellungen].**
    ![](assets/settings_thumbnail.png)
 
-   * Wählen Sie die Sammlung aus, die Sie freigeben möchten. From the toolbar at the top, click **[!UICONTROL Settings]**.
+   * Wählen Sie die Sammlung aus, die Sie freigeben möchten. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Einstellungen]**.
    ![](assets/collection-sharing.png)
 
-4. In the [!UICONTROL Collection Settings] dialog box, select the users or groups with whom you want to share the collection and select the role for a user or a group to match their global role. Weisen Sie zum Beispiel die Rolle „Bearbeiter“ einem globalen Bearbeiter und die Rolle „Betrachter“ einem globalen Betrachter zu.
+4. Wählen Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] die Benutzer oder Gruppen aus, für die Sie die Sammlung freigeben möchten, und wählen Sie für einen Benutzer oder eine Gruppe die Rolle aus, die seiner bzw. ihrer globalen Rolle entspricht. Weisen Sie zum Beispiel die Rolle „Bearbeiter“ einem globalen Bearbeiter und die Rolle „Betrachter“ einem globalen Betrachter zu.
 
    Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
    >[!NOTE]
    >
-   >Sie können festlegen, dass Nicht-Administrator-Benutzer Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Organizations can disable the **[!UICONTROL Allow public collections creation]** configuration from [!UICONTROL General] settings available in admin tools panel.
+   >Sie können festlegen, dass Nicht-Administrator-Benutzer Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Unternehmen können die Konfigurationseinstellung **[!UICONTROL Erstellung öffentlicher Sammlungen zulassen]** in den [!UICONTROL Allgemeinen Einstellungen] im Admin Tools-Bereich deaktivieren.
 
    ![](assets/collection_sharingadduser.png)
 
@@ -69,11 +69,11 @@ Gehen Sie wie folgt vor, um die Freigabe einer zuvor freigegebenen Sammlung aufz
 
 1. Wählen Sie in der Konsole [!UICONTROL Sammlungen] die Sammlung aus, deren Freigabe Sie aufheben möchten.
 
-   In the toolbar, click **[!UICONTROL Settings]**.
+   Klicken Sie in der Symbolleiste auf **[!UICONTROL Einstellungen]**.
 
    ![](assets/collection_settings.png)
 
-2. On the [!UICONTROL Collection Settings] dialog box, under [!UICONTROL Members], click the **[!UICONTROL x]** symbol next to users or groups to remove them from the list of users you shared the collection with.
+2. Klicken Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] unter [!UICONTROL Mitglieder] auf das Symbol **[!UICONTROL x]neben Benutzern oder Gruppen, um sie aus der Liste der Benutzer zu entfernen, für die die Sammlung freigegeben ist.**
 
    ![](assets/unshare_collection.png)
 
