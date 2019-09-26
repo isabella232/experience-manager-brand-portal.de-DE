@@ -9,14 +9,14 @@ topic-tags: Administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
 # Arbeiten mit Berichten {#work-with-reports}
 
-The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Administratoren können den Brand Portal-Verwendungsbericht anzeigen, der immer auf der Seite „Asset-Berichte“ verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
+Die Berichterstattungsfunktion ist eine entscheidende Rolle bei der Bewertung der Nutzung des Markenportals und der Kenntnis, wie interne und externe Benutzer mit genehmigten Assets interagieren. Administratoren können den Brand Portal-Verwendungsbericht anzeigen, der immer auf der Seite „Asset-Berichte“ verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
 
 Die Berichtverwaltungsoberfläche ist intuitiv und enthält detaillierte Optionen und Steuerungen, mit denen Sie auf gespeicherte Berichte zugreifen können. Über die Seite „Asset-Berichte“, auf der alle bisher erstellten Berichte aufgelistet werden, können Sie Berichte anzeigen, herunterladen oder löschen.
 
@@ -95,7 +95,7 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
 
    ![](assets/aemlogo.png)
 
-2. Tippen/klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten], um die Seite „Asset-Berichte“ zu öffnen.**
+2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
