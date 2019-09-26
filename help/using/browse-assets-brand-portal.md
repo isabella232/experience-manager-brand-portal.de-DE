@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Einführung
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -24,7 +24,7 @@ Das AEM-Logo in der AEM-Symbolleiste am oberen Rand erleichtert Admin-Benutzern 
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Über den Leistenselektor oben links in Brand Portal öffnen Sie ein Dropdown-Menü mit Optionen zum Navigieren in Assethierarchien, Optimieren Ihrer Suche und Anzeigen von Ressourcen.
 
@@ -76,7 +76,7 @@ Informationen zur Ordnerhierarchie sind besonders hilfreich, um die Ordner zu un
 Die Option „Überblick“ steht Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) zum Anzeigen von Asset-Eigenschaften von ausgewählten Assets/Ordnern zur Verfügung. Die Option „Überblick“ finden Sie an folgenden Stellen:
 
 * in der Symbolleiste oben bei Auswahl eines Assets/Ordners.
-* in the drop-down on selecting the rail Selector.
+* in der Dropdown-Liste zur Auswahl der Schienenauswahl.
 
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
