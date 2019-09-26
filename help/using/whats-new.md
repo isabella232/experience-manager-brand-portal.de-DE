@@ -10,7 +10,7 @@ content-type: Referenz
 topic-tags: Einführung
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -61,7 +61,7 @@ Auch gilt Folgendes:
 >
 >Nach Aktivierung des Kontrollkästchens **Teilsuche** wird **Groß-/Kleinschreibung ignorieren** standardmäßig aktiviert.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Änderungen in 6.4.3 {#what-changed-in}
 
@@ -86,7 +86,7 @@ Beachten Sie, dass das Standardminiaturbild der virtuellen Ordner das Miniaturbi
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Suche in einer bestimmten Ordnerhierarchie oder in einem bestimmten Ordnerpfad
 
@@ -106,7 +106,7 @@ Beachten Sie, dass die Suche in diesen Ordnern nur Suchergebnisse aus Assets zur
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Unterstützung von Dynamic Media-Videowiedergaben
 
@@ -128,7 +128,7 @@ Dynamic Media-Videokodierungen können heruntergeladen werden über:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Geplante Veröffentlichung in Brand Portal
 
@@ -139,7 +139,7 @@ Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus de
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Konfigurierbarer Mandantenalias in URL
 
@@ -153,7 +153,7 @@ Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert]
 **Der Anwendungsfall**
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Optimierter Download
 
