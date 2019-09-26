@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -47,7 +47,7 @@ Weitere Informationen zum Suchverhalten mit intelligenten getaggten Assets finde
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
 
-Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, z. B. PDF oder MS Word.
+Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, z. B. PDF oder MS Word.<br />
 
 ![Filter-Bedienfeld im](assets/file-type-search.png "MarkenportalFilter-Bedienfeld im Markenportal")
 
