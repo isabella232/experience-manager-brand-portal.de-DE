@@ -10,7 +10,7 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 AEM Brand Portal gestattet den Gastzugang für das Portal. Ein Gastbenutzer braucht keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
 
-Die Gastzugangsfunktion bietet Organisationen die Möglichkeit, schnell und skaliert [genehmigte Assets für die gewünschte Zielgruppe freizugeben](../using/brand-portal-sharing-folders.md#how-to-share-folders), ohne dass sie integriert werden müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Organisation. Durch den Gast-Zugriff sparen Sie Zeit für die Verwaltung und die integrierte Nutzung von Benutzerzahlen, die eingeschränkte Funktionen im Markenportal verwenden müssen.\
+Die Gastzugangsfunktion bietet Organisationen die Möglichkeit, schnell und skaliert [genehmigte Assets für die gewünschte Zielgruppe freizugeben](../using/brand-portal-sharing-folders.md#how-to-share-folders), ohne dass sie integriert werden müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Organisation. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on Brand Portal.\
 Organizations can enable (or disable) guest access on Brand Portal account of the organization using **[!UICONTROL Allow Guest Access]** option from **[!UICONTROL Access]** settings in the administrative tools panel.
 
 <!--
@@ -40,11 +40,11 @@ Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier kli
 ## Dauer der Gastsitzung {#guest-session-duration}
 
 Eine Gastbenutzersitzung bleibt für 2 Stunden aktiv. This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+Ein Gast-Benutzer meldet sich beispielsweise 1500 Stunden beim Markenportal an und fügt Assets zur Lightbox zum Download um 16:50 Uhr hinzu. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
-Die Zahl der gleichzeitigen Gastsitzungen ist auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt. Das bedeutet für eine Organisation mit einem Benutzerkontingent von 200, dass maximal 20 Gastbenutzer gleichzeitig arbeiten können. The 21st user is denied access, and can access as a guest only if the session of any of the 20 active guest users ends.
+Die Zahl der gleichzeitigen Gastsitzungen ist auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt. Das bedeutet für eine Organisation mit einem Benutzerkontingent von 200, dass maximal 20 Gastbenutzer gleichzeitig arbeiten können. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur als Gast zugreifen, wenn die Sitzung eines der 20 aktiven Gastbenutzer beendet wird.
 
 ## Gastbenutzerinteraktion mit Brand Portal {#guest-user-interaction-with-brand-portal}
 
@@ -58,7 +58,7 @@ However, the guest users see the folder tree (starting from the root folder) and
 
 Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Schlosssymbol erkennen.
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Die Schaltfläche Überblick] wird angezeigt, wenn Sie einen virtuellen Ordner in der [!UICONTROL Spaltenansicht] und [!UICONTROL Listenansicht]auswählen.
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-[!UICONTROL Die Option "Einstellungen] anzeigen"ermöglicht es den Gastbenutzern, die Kartengrößen in der [!UICONTROL Kartenansicht] oder in den Spalten anzupassen, um sie in der [!UICONTROL Listenansicht]anzuzeigen.
+[!UICONTROL View Settings] option allows the guest users to adjust card sizes in [!UICONTROL Card View] or columns to display in [!UICONTROL List View].
 
 ![](assets/nav-guest-user.png)
 
@@ -83,7 +83,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 Die Option **[!UICONTROL Navigation]** in der linken Seitenschiene ermöglicht die Navigation von Dateien zu Sammlungen und zurück zur Gastsitzung, damit Benutzer durch Assets in Dateien oder Sammlungen navigieren können.
 
