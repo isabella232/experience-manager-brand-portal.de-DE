@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -41,6 +41,8 @@ So suchen Sie in Brand Portal nach Assets:
 
    *Asset-Suche mithilfe von Omnisearch*
 
+Weitere Informationen zum Suchverhalten mit intelligenten getaggten Assets finden Sie unter [Suchergebnisse und Verhalten](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+
 ## Suche mithilfe von Facetten im Bereich „Filter“{#search-using-facets-in-filters-panel}
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
@@ -64,7 +66,7 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
    >[!NOTE]
    >
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >Für Administratoren ermöglicht der Pfadbrowser die Navigation zu einem beliebigen Ordner im Markenportal.
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
    * **[!UICONTROL Dateityp]**, um den Typ (Bild, Dokument, Multimedia, Archiv) der gesuchten Asset-Datei anzugeben. Darüber hinaus können Sie den Umfang Ihrer Suche einschränken. Geben Sie zum Beispiel den MIME-Typ (TIFF, Bitmap, GIMP-Bilder) für Bilder oder Formate (PDF oder MS Word) für die Dokumente an.
    * **[!UICONTROL Dateigröße]**, um nach Assets basierend auf ihrer Größe zu suchen. Sie können die untere und obere Grenze für den Größenbereich ausgeben, um Ihre Suche einzuschränken und die Maßeinheit für die Suche anzugeben.
