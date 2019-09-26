@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
 seo-title: Neue Funktionen in AEM Assets Brand Portal
-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.4.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.4.
+description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.5.
+seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.5.
 uuid: 2c59d738-9b53-4f25-a 205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: Referenz
 topic-tags: Einführung
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,7 +19,51 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
 
-## Änderungen in 6.4.4 {#what-is-changing-in}
+## Änderungen in 6.4.5 {#what-changed-in-645}
+
+Brand Portal 6.4.5 ist eine Version der Funktion, die es den aktiven Benutzern des Markenportals (externe Agenturen/Teams) ermöglicht, Assets im Markenportal hochzuladen und sie in AEM Assets zu veröffentlichen, ohne auf die AEM Authoring-Umgebung zugreifen zu müssen. Die Funktion wird im Markenportal als **Asset Sourcing bezeichnet**. Diese Funktion verbessert die Kundenerfahrung, indem sie einen zweiseitigen Mechanismus zum Beitrag und zur Freigabe der Assets an andere Markenportal-Benutzer bereitstellt, die global verteilt sind.
+
+### Asset-Beschaffung im Markenportal {#asset-sourcing-in-bp}
+
+Mit der Asset-Sourcing-Funktion können AEM-Administratoren neue Ordner mit einer zusätzlichen Eigenschaft namens **Asset Contribution** erstellen. Der neu erstellte Ordner wird als *Asset Contribution* bezeichnet. Ordner *Contribution* . Wenn ein Beitragsordner in AEM erstellt wird, wird ein interner Workflow ausgelöst, der zwei weitere Unterordner im Beitragsordner erstellt, nämlich - NEW und SHARED.
+
+Der AEM-Administrator definiert die Anforderung, indem er eine kurze Beschreibung des Beitragsordners hochlädt, Grundlegende Assets zum Referenzieren in den **SHARED** -Ordner hochlädt, aktive Markenportbenutzer zum Zugriff auf den Beitragsordner zuweist und den Beitragsordner im Markenportal veröffentlicht. Sobald der Beitragsordner veröffentlicht wurde, können sich die Markenportal-Benutzer, die Zugriff auf den Beitragsordner haben, bei ihrer Markenportalinstanz anmelden und mit dem Hochladen von Inhalten/Assets (Dateien oder Ordner) unter den **NEUEN** Ordner beginnen. Nach dem Hochladen des gesamten Inhalts veröffentlichen die Markenportal-Benutzer den Beitragsordner manuell in AEM. Der Import und die Darstellung der veröffentlichten Inhalte/Assets in AEM Assets kann einige Minuten dauern.
+
+Die vorhandene Funktionalität bleibt erhalten, die Benutzer des Markenportals können Assets sowohl aus dem Beitragsordner als auch aus anderen zulässigen Ordnern anzeigen, suchen und herunterladen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+
+>[!NOTE]
+>
+>Markenportal-Benutzer können Inhalte/Assets nur in den **NEUEN** Ordner hochladen.
+
+>[!NOTE]
+>
+>Maximale Upload-Grenze für ein Markenportal-Konto/Mieter ist **10** GB.
+
+
+
+![](assets/asset-sourcing.png)
+
+### Hochladen von Assets im Markenportal {#upload-assets-in-bp}
+
+Die aktiven Markenportalbenutzer erhalten eine Puls- und E-Mail-Benachrichtigung, sobald ein Beitragsordner für sie freigegeben wird. Sie können das am Beitragsordner angehängte kurze Dokument herunterladen und die Grundinhalte/Assets aus dem **SHARED** -Ordner herunterladen, um die Anforderung zu verstehen.
+
+Die Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können Assets nur in den **NEUEN** Ordner hochladen. Sie können jedoch mehrere Assets oder Ordner hochladen, die mehrere Assets enthalten.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Markenportal-Benutzer haben keine Berechtigung, ein hochgeladenes Asset zu löschen.
+
+### Veröffentlichen des Beitragsordners in AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. Der Import und die Wiedergabe der veröffentlichten Inhalte/Assets in AEM Assets kann einige Minuten dauern. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## Änderungen in 6.4.4 {#what-changed-in-644}
 
 Version 6.4.4 von Brand Portal konzentriert sich auf Verbesserungen der Textsuche und von Kunden häufig gewünschte Funktionen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
@@ -61,7 +105,7 @@ Auch gilt Folgendes:
 >
 >Nach Aktivierung des Kontrollkästchens **Teilsuche** wird **Groß-/Kleinschreibung ignorieren** standardmäßig aktiviert.
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Änderungen in 6.4.3 {#what-changed-in}
 
@@ -86,7 +130,7 @@ Beachten Sie, dass das Standardminiaturbild der virtuellen Ordner das Miniaturbi
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Suche in einer bestimmten Ordnerhierarchie oder in einem bestimmten Ordnerpfad
 
@@ -106,7 +150,7 @@ Beachten Sie, dass die Suche in diesen Ordnern nur Suchergebnisse aus Assets zur
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Unterstützung von Dynamic Media-Videowiedergaben
 
@@ -128,7 +172,7 @@ Dynamic Media-Videokodierungen können heruntergeladen werden über:
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Geplante Veröffentlichung in Brand Portal
 
@@ -139,7 +183,7 @@ Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus de
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Konfigurierbarer Mandantenalias in URL
 
@@ -153,7 +197,7 @@ Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert]
 **Der Anwendungsfall**
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Optimierter Download
 
