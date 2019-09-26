@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Einführung
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee 37f2f4
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
 
 ---
 
@@ -26,7 +26,7 @@ Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen
 
 ## Benutzerrollen in Brand Portal {#Personas}
 
-Markenportal unterstützt die folgenden Benutzerrollen:
+Brand Portal supports the following user roles:
 
 * Gastbenutzer
 * Betrachter
@@ -56,7 +56,7 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 [Öffentliche Assets herunterladen](brand-portal-download-users.md)
 
-[Hinzufügen von Assets zu [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Betrachter {#viewer}
 
@@ -170,6 +170,19 @@ Alternatively, product administrators can follow the link provided in the access
 ![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+
+## Markenportal-Sprachen {#brand-portal-language}
+
+Sie können die Sprache des Markenportals in den Adobe [!UICONTROL Experience Cloud-Einstellungen]ändern.
+
+![Zugriff auf die angeforderte Benachrichtigungen](assets/BPLang.png)
+
+To change the language:
+
+1. Wählen Sie [!UICONTROL Benutzer] &gt; Profilbearbeiten aus dem oberen Menü.
+   ![Profil bearbeiten](assets/EditBPProfile.png)
+
+2. Wählen Sie auf der Seite [!UICONTROL Experience Cloud-Einstellungen] eine Sprache aus dem Dropdownmenü [!UICONTROL Sprache] .
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
