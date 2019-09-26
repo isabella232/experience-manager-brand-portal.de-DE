@@ -10,7 +10,7 @@ topic-tags: Freigabe
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 AEM Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
 
-Die Freigabe von Assets über einen Link ist eine praktische Möglichkeit, um sie externen Parteien zur Verfügung zu stellen, da sich die Empfänger nicht beim Markenportal anmelden müssen, um auf die Assets zuzugreifen.
+Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
 
 Der Zugriff auf Linkfreigaben ist auf Bearbeiter und Administratoren beschränkt. Für weitere Informationen, siehe [Verwalten von Benutzern, Gruppen und Benutzerrollen](../using/brand-portal-adding-users.md#manage-user-roles).
 
@@ -92,7 +92,7 @@ So laden Sie die freigegebenen Assets herunter:
 
    ![](assets/licensed-asset-download.png)
 
-   Das Dialogfeld [!UICONTROL Download] wird angezeigt. 
+   Das Dialogfeld [!UICONTROL Download] wird angezeigt. <br />
    ![](assets/download-linkshare.png)
 
    * Wählen Sie zum Beschleunigen des Downloads der als Link freigegebenen Asset-Dateien die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
