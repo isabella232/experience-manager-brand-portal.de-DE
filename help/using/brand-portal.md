@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Einführung
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee 37f2f4
 translation-type: tm+mt
-source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -26,7 +26,7 @@ Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen
 
 ## Benutzerrollen in Brand Portal {#Personas}
 
-Brand Portal supports the following user roles:
+Markenportal unterstützt die folgenden Benutzerrollen:
 
 * Gastbenutzer
 * Betrachter
@@ -84,7 +84,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
-Ein Administrator kann alle Aufgaben ausführen, die ein Editor für die folgenden zusätzlichen Aufgaben ausführen kann:
+An administrator can perform all tasks that an Editor can perform the following additional tasks:
 
 [Verwalten von Benutzern, Gruppen und Benutzerrollen](brand-portal-adding-users.md)
 
@@ -108,7 +108,7 @@ Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Au
 
 ## Alternativer Alias für Brand Portal-URL {#tenant-alias-for-portal-url}
 
-Ab Brand Portal 6.4.3 können Unternehmen eine alternative URL (Alias) für die vorhandene URL ihres Markenportal-Mandanten haben. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
+Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domäne **[!UICONTROL geomettrix.brand-portal.adobe.com]** kann beispielsweise auf Anfrage die Domäne **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** erstellt werden.
 
 Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
@@ -133,7 +133,7 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
 2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   Melden Sie sich auf der Seite [!UICONTROL Zugriff anfordern] mit Ihrer ID an (Szenario 1) oder erstellen Sie eine [!UICONTROL Adobe ID] (Szenario 2):
+   Melden Sie sich auf der Seite [!UICONTROL Zugriff anfordern] mit Ihrer ID an (Szenario 1) oder erstellen Sie eine [!UICONTROL Adobe ID] (Szenario 2):<br />
    ![[!UICONTROL Zugriff anfordern]](assets/bplogin_request_access_2.png)
 
    **Szenario 1**
@@ -142,7 +142,7 @@ Die Seite [!UICONTROL Anmelden] wird geöffnet.
    2. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldedaten ein und klicken Sie auf **[!UICONTROL Anmelden]**.<br />
    ![Adobe-Anmeldung](assets/bplogin_request_access_3.png)
 
-   Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.
+   Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.<br />
    **Szenario 2**
    1. Wenn Sie noch keine [!UICONTROL Adobe ID] haben, erstellen Sie die ID, indem Sie auf der Seite **[!UICONTROL Zugriff anfordern]** auf [!UICONTROL Adobe ID anfordern] klicken.
 
@@ -155,7 +155,7 @@ Die Seite [!UICONTROL Registrieren] wird geöffnet.
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.
 
-3. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.
+3. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -167,7 +167,6 @@ Produktadministratoren des Markenportals erhalten Zugriffsanfragen in ihrem Mark
 
 To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
 Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
-![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
@@ -177,9 +176,9 @@ Sie können die Sprache des Markenportals in den Adobe [!UICONTROL Experience Cl
 
 ![Zugriff auf die angeforderte Benachrichtigungen](assets/BPLang.png)
 
-To change the language:
+So ändern Sie die Sprache:
 
-1. Wählen Sie [!UICONTROL Benutzer] &gt; Profilbearbeiten aus dem oberen Menü.
+1. Wählen Sie [!UICONTROL Benutzer] &gt; Profilbearbeiten aus dem oberen Menü.<br />
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
 2. Wählen Sie auf der Seite [!UICONTROL Experience Cloud-Einstellungen] eine Sprache aus dem Dropdownmenü [!UICONTROL Sprache] .
@@ -194,7 +193,7 @@ Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwend
 
 ## Versions- und Systeminformationen {#release-and-system-information}
 
-<!--* [What's new](../using/whats-new.md)-->
+* [Neuerungen](whats-new.md)
 * [Versionshinweise](brand-portal-release-notes.md)
 * [Unterstützte Dateiformate](brand-portal-supported-formats.md)
 
