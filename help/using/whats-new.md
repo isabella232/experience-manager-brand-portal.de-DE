@@ -10,7 +10,7 @@ content-type: Referenz
 topic-tags: Einführung
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
+source-git-commit: f5318420b4598ece27d8dfac4f4e7e0c5a02753d
 
 ---
 
@@ -21,23 +21,25 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in 6.4.5 {#what-changed-in-645}
 
-Brand Portal 6.4.5 ist eine Version der Funktion, die es den aktiven Benutzern des Markenportals (externe Agenturen/Teams) ermöglicht, Assets im Markenportal hochzuladen und sie in AEM Assets zu veröffentlichen, ohne auf die AEM Authoring-Umgebung zugreifen zu müssen. Die Funktion wird im Markenportal als **Asset Sourcing bezeichnet**. Diese Funktion verbessert die Kundenerfahrung, indem sie einen zweiseitigen Mechanismus zum Beitrag und zur Freigabe der Assets an andere Markenportal-Benutzer bereitstellt, die global verteilt sind.
+Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **Asset Sourcing in Brand Portal**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
-### Asset-Beschaffung im Markenportal {#asset-sourcing-in-bp}
+### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
 
-Mit der Asset-Sourcing-Funktion können AEM-Administratoren neue Ordner mit einer zusätzlichen Eigenschaft namens **Asset Contribution** erstellen. Der neu erstellte Ordner wird als *Asset Contribution* bezeichnet. Ordner *Contribution* . Wenn ein Beitragsordner in AEM erstellt wird, wird ein interner Workflow ausgelöst, der zwei weitere Unterordner im Beitragsordner erstellt, nämlich - NEW und SHARED.
+Asset Sourcing allows AEM administrators to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called NEW and SHARED, within the newly created Contribution folder.****
 
-Der AEM-Administrator definiert die Anforderung, indem er eine kurze Beschreibung des Beitragsordners hochlädt, Grundlegende Assets zum Referenzieren in den **SHARED** -Ordner hochlädt, aktive Markenportbenutzer zum Zugriff auf den Beitragsordner zuweist und den Beitragsordner im Markenportal veröffentlicht. Sobald der Beitragsordner veröffentlicht wurde, können sich die Markenportal-Benutzer, die Zugriff auf den Beitragsordner haben, bei ihrer Markenportalinstanz anmelden und mit dem Hochladen von Inhalten/Assets (Dateien oder Ordner) unter den **NEUEN** Ordner beginnen. Nach dem Hochladen des gesamten Inhalts veröffentlichen die Markenportal-Benutzer den Beitragsordner manuell in AEM. Der Import und die Darstellung der veröffentlichten Inhalte/Assets in AEM Assets kann einige Minuten dauern.
+The AEM Administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the SHARED folder to ensure BP users have the reference information they need. **** The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.****
 
-Die vorhandene Funktionalität bleibt erhalten, die Benutzer des Markenportals können Assets sowohl aus dem Beitragsordner als auch aus anderen zulässigen Ordnern anzeigen, suchen und herunterladen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Once the user is finished adding content in the NEW folder, they can publish the contribution folder back to the AEM author environment. **** Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
 
->[!NOTE]
->
->Markenportal-Benutzer können Inhalte/Assets nur in den **NEUEN** Ordner hochladen.
+Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
 >[!NOTE]
 >
->Maximale Upload-Grenze für ein Markenportal-Konto/Mieter ist **10** GB.
+>Brand Portal users can upload content/assets only to the NEW folder.****
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
 
 
 
@@ -45,9 +47,9 @@ Die vorhandene Funktionalität bleibt erhalten, die Benutzer des Markenportals k
 
 ### Hochladen von Assets im Markenportal {#upload-assets-in-bp}
 
-Die aktiven Markenportalbenutzer erhalten eine Puls- und E-Mail-Benachrichtigung, sobald ein Beitragsordner für sie freigegeben wird. Sie können das am Beitragsordner angehängte kurze Dokument herunterladen und die Grundinhalte/Assets aus dem **SHARED** -Ordner herunterladen, um die Anforderung zu verstehen.
+Benutzer von Brand Portal erhalten automatisch Puls-/E-Mail-Benachrichtigungen, sobald ein Beitragsordner freigegeben wird, sodass sie das kurze Dokument herunterladen und den Ausgangsinhalt aus dem **SHARED** -Ordner herunterladen können, um sicherzustellen, dass sie die Anforderungen des Projekts verstehen.
 
-Die Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können Assets nur in den **NEUEN** Ordner hochladen. Sie können jedoch mehrere Assets oder Ordner hochladen, die mehrere Assets enthalten.
+Brand Portal users with appropriate permissions can upload multiple assets or folders containing multiple assets to the contribution folder. Beachten Sie jedoch, dass Markenportal-Benutzer nur Assets in den **NEUEN** Unterordner hochladen können. Der **SHARED** -Ordner dient zur Verteilung von Projektdetails und Grundlagenelementen.
 
 ![](assets/upload-asset6.png)
 
@@ -59,7 +61,9 @@ Die Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner könne
 
 ### Veröffentlichen des Beitragsordners in AEM Assets {#publish-assets-to-aem}
 
-After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. Der Import und die Wiedergabe der veröffentlichten Inhalte/Assets in AEM Assets kann einige Minuten dauern. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+Nachdem der Upload in den **NEUEN** Ordner abgeschlossen ist, können Brand Portal-Benutzer den Beitragsordner erneut in AEM veröffentlichen. Der Import und die Wiedergabe der veröffentlichten Inhalte/Assets in AEM Assets kann einige Minuten dauern.
+
+Der Markenportal-Benutzer und der AEM-Administrator erhalten sowohl am Anfang als auch am Ende der Veröffentlichungsaktion Puls-/E-Mail-Benachrichtigungen sowie den Auftragsstatus (Warteschlange/In-Bearbeitung/Erfolg). AEM- und Brand Portal-Administratoren können den Auftragsstatus auch über ihre jeweiligen Schnittstellen anzeigen.
 
 ![](assets/upload-asset5.png)
 
