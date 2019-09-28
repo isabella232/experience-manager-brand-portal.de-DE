@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Download installieren
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,7 +26,7 @@ Alle Benutzer können gleichzeitig mehrere Assets und Ordner von Brand Portal he
 
 Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Brand Portal herunterzuladen:
 
-1. From the Brand Portal interface, do one of the following:
+1. Führen Sie in der Benutzeroberfläche des Markenportals einen der folgenden Schritte aus:
 
    * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download].**
    ![](assets/downloadassets-1.png)
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    ![](assets/restrictaccess-note.png)
 
-2. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -63,12 +63,12 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    * Wählen Sie zum Beschleunigen des Downloads der Asset-Dateien von Brand Portal die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** aus und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 
-   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, delesect **[!UICONTROL Asset(s)]**.
+   * To apply a [custom image preset to the asset and its renditions](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), select **[!UICONTROL Dynamic Rendition(s)]**. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen, Assets **[!UICONTROL löschen]**.
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. Wenn ein Asset im Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht. Es gibt keine Möglichkeit, die Pyramid-TIFF-Darstellung vom Markenportal zu generieren.
+   >Um dynamische Darstellungen von Assets in der Vorschau anzuzeigen (oder herunterzuladen), stellen Sie sicher, dass die dynamischen Medien aktiviert sind und die Pyramid-TIFF-Darstellung des Assets in der AEM-Autoreninstanz vorhanden ist, von der aus die Assets veröffentlicht wurden. Wenn ein Asset im Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht. There is no way of generating the Pyramid tiff rendition from Brand Portal.
 
    * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. Die Brand Portal-Ordnerhierarchie wird standardmäßig ignoriert und alle Assets werden in einen Ordner auf Ihrem lokalen System heruntergeladen.
 
@@ -81,7 +81,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
    >
    >Administratoren können mit der Funktion [Branding](../using/brand-portal-branding.md) das Logo, die Beschreibung und die Fußzeile der E-Mail-Nachrichten anpassen.
 
-3. Klicken Sie auf **[!UICONTROL Herunterladen]**.
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
    Die Assets (und Ausgabeformate, sofern ausgewählt) werden als ZIP-Datei in Ihren lokalen Ordner heruntergeladen. Es wird jedoch keine ZIP-Datei erstellt, wenn ein einzelnes Asset ohne eines der Ausgabeformate heruntergeladen wird. Dies gewährleistet einen schnellen Download.
 
