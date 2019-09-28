@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Administration
 discoiquuid: 500 b 46 da-ef 67-46 a 0-a 069-192 f 4 b 1 a 0 eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
    ![](assets/aemlogo.png)
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 
    ![](assets/navigation-panel.png)
 
-3. Auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. Geben Sie im Dialogfeld **[!UICONTROL Schemaformular erstellen]** den Titel des Schemaformulars an und klicken Sie dann auf **Erstellen], um den Formularerstellungsprozess abzuschließen.[!UICONTROL **
+1. Geben Sie im Dialogfeld **[!UICONTROL Schemaformular erstellen]** den Titel des Schemaformulars an und klicken Sie dann auf **Erstellen], um den Formularerstellungsprozess abzuschließen.[!UICONTROL **
 
    ![](assets/create-schema-form.png)
 
@@ -52,24 +52,24 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
    ![](assets/aemlogo.png)
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
-3. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >Bei nicht bearbeiteten Vorlagen wird ein Sperrsymbol angezeigt. Wenn Sie eine Vorlage anpassen, wird das Sperrsymbol vor der Vorlage ausgeblendet.
+   >Unedited templates display a lock symbol before them. Wenn Sie eine Vorlage anpassen, wird das Sperrsymbol vor der Vorlage ausgeblendet.
 
-4. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
 
    Die Seite **[!UICONTROL Metadatenschema-Editor]** wird mit der Registerkarte **[!UICONTROL Allgemein]auf der linken Seite und der Registerkarte** Formular erstellen] auf der rechten Seite geöffnet.**[!UICONTROL **
 
-5. Passen Sie auf der Seite **[!UICONTROL Metadaten-Schemeneditor]** die Seite **[!UICONTROL Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **Formular erstellen]auf die Registerkarte** Allgemein] ziehen.[!UICONTROL **[!UICONTROL **
+1. Passen Sie auf der Seite **[!UICONTROL Metadaten-Schemeneditor]** die Seite **[!UICONTROL Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **Formular erstellen]auf die Registerkarte** Allgemein] ziehen.[!UICONTROL **[!UICONTROL **
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. Um eine Komponente zu konfigurieren, wählen Sie diese aus und ändern Sie ihre Eigenschaften auf der Registerkarte **[!UICONTROL Einstellungen].**
+1. Um eine Komponente zu konfigurieren, wählen Sie diese aus und ändern Sie ihre Eigenschaften auf der Registerkarte **[!UICONTROL Einstellungen].**
 
 ### Komponenten auf der Registerkarte „Formular erstellen“ {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 
    ![](assets/aemlogo.png)
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 
-3. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formular]** das Schemaformular aus, das Sie auf ein Asset anwenden möchten, zum Beispiel [!UICONTROL Kleidung].
+1. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formular]** das Schemaformular aus, das Sie auf ein Asset anwenden möchten, zum Beispiel [!UICONTROL Kleidung].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
+1. From the toolbar at the top, click **[!UICONTROL Apply to Folder(s)]**.
 
-5. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
+1. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Klicken Sie auf **[!UICONTROL Anwenden], um das Metadatenschema-Formular auf den Ordner anzuwenden.**
+1. Klicken Sie auf **[!UICONTROL Anwenden], um das Metadatenschema-Formular auf den Ordner anzuwenden.**
 
    Die im Metadatenschema-Formular **[!UICONTROL Kleidung]** verfügbaren Metadaten werden auf den Ordner **[!UICONTROL Handschuhe]angewendet und auf der Seite** Eigenschaften] des Ordners angezeigt.**[!UICONTROL **
 
