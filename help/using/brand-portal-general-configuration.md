@@ -2,7 +2,7 @@
 title: Verwalten allgemeiner Mandantenkonfigurationen
 seo-title: Verwalten allgemeiner Mandantenkonfigurationen
 description: Konfigurieren Sie die Downloadbeschleunigung, die öffentliche intelligente Erstellung der [!UICONTROL-Sammlung], die Erstellung der öffentlichen [!UICONTROL-Sammlung] und ermöglichen Sie Admin-Benutzern das Löschen von Assets für Mieter.
-seo-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
+seo-description: Konfigurieren Sie die Downloadbeschleunigung, die öffentliche intelligente Erstellung der [!UICONTROL-Sammlung], die Erstellung der öffentlichen [!UICONTROL-Sammlung] und ermöglichen Sie Admin-Benutzern das Löschen von Assets für Mieter.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: Administration
@@ -10,7 +10,7 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -44,11 +44,11 @@ Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Ei
 So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
 1. Melden Sie sich mit Administratorrechten an.
-2. Wählen Sie in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
-3. Wählen Sie im Admin Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **Allgemeine Einstellungen]zu öffnen.[!UICONTROL **
-4. Verwenden Sie den entsprechenden Umschalter, um allgemeine Konfigurationen zu aktivieren/deaktivieren.
-5. **[!UICONTROL Speichern]** Sie die Änderungen.
-6. Melden Sie sich ab, um die Änderungen zu übernehmen.
+1. Wählen Sie in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
+1. Wählen Sie im Admin Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **Allgemeine Einstellungen]zu öffnen.[!UICONTROL **
+1. Verwenden Sie den entsprechenden Umschalter, um allgemeine Konfigurationen zu aktivieren/deaktivieren.
+1. **[!UICONTROL Speichern]** Sie die Änderungen.
+1. Melden Sie sich ab, um die Änderungen zu übernehmen.
 
 ## Löschen von Assets in Brand Portal durch Administratoren zulassen {#allow-admin-users-to-delete-assets-from-brand-portal}
 
@@ -60,11 +60,11 @@ So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
 ## Zulassen der Erstellung öffentlicher Smart-Sammlungen durch Benutzer ohne Administratorrechte {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public smart collections creation]](../using/brand-portal-searching.md#main-pars-header-500620467) configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. Die Konfiguration ist standardmäßig aktiviert. Unternehmen können die Konfiguration deaktivieren, um zu verhindern, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Portal der Organisation erstellen.
+[[!UICONTROL Erstellung öffentlicher intelligenter Sammlungen zulassen]](../using/brand-portal-searching.md#main-pars-header-500620467) Die Konfiguration steuert, ob Nicht-Administratoren ihre Suchen als intelligente Sammlungen speichern und für diesen Mieter veröffentlichen können. Die Konfiguration ist standardmäßig aktiviert. Unternehmen können die Konfiguration deaktivieren, um zu verhindern, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Portal der Organisation erstellen.
 
 ## Downloadbeschleunigung aktivieren {#allow-download-acceleration}
 
-[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern.
+[[!UICONTROL Download-Beschleunigung zulassen]](../using/accelerated-download.md) Mithilfe der Konfiguration können Unternehmen beschleunigte Downloads von Assets aus dem Brand Portal und freigegebenen Links ermöglichen, indem sie mit IBM Aspera Connect, einer Anwendung, die bei Bedarf installiert wird, integriert werden. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern.
 
 ## Ordnerhierarchie aktivieren {#enable-folder-hierarchy}
 
