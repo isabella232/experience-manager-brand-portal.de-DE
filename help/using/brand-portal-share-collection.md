@@ -10,7 +10,7 @@ topic-tags: Freigabe
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ Gehen Sie wie folgt vor, um eine Sammlung freizugeben:
 
    ![](assets/contenttree-1.png)
 
-2. Klicken Sie links in der Seitenleiste auf **[!UICONTROL Sammlungen]**.
+1. Klicken Sie links in der Seitenleiste auf **[!UICONTROL Sammlungen]**.
 
    ![](assets/access_collections.png)
 
-3. Führen Sie in der Konsole **[!UICONTROL Sammlungen]einen der folgenden Schritte aus:**
+1. Führen Sie in der Konsole **[!UICONTROL Sammlungen]einen der folgenden Schritte aus:**
 
    * Bewegen Sie den Mauszeiger über die Sammlung, die Sie freigeben möchten. Klicken Sie in den verfügbaren Schnellzugriff-Miniaturansichten der Sammlung auf das Symbol **[!UICONTROL Einstellungen].**
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um eine Sammlung freizugeben:
    * Wählen Sie die Sammlung aus, die Sie freigeben möchten. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Einstellungen]**.
    ![](assets/collection-sharing.png)
 
-4. Wählen Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] die Benutzer oder Gruppen aus, für die Sie die Sammlung freigeben möchten, und wählen Sie für einen Benutzer oder eine Gruppe die Rolle aus, die seiner bzw. ihrer globalen Rolle entspricht. Weisen Sie zum Beispiel die Rolle „Bearbeiter“ einem globalen Bearbeiter und die Rolle „Betrachter“ einem globalen Betrachter zu.
+1. Wählen Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] die Benutzer oder Gruppen aus, für die Sie die Sammlung freigeben möchten, und wählen Sie für einen Benutzer oder eine Gruppe die Rolle aus, die seiner bzw. ihrer globalen Rolle entspricht. Weisen Sie zum Beispiel die Rolle „Bearbeiter“ einem globalen Bearbeiter und die Rolle „Betrachter“ einem globalen Betrachter zu.
 
    Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um eine Sammlung freizugeben:
 
    ![](assets/collection-setting-editor.png)
 
-5. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. Die Sammlung wird für die ausgewählten Benutzer freigegeben.
+1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. Die Sammlung wird für die ausgewählten Benutzer freigegeben.
 
    >[!NOTE]
    >
@@ -73,12 +73,12 @@ Gehen Sie wie folgt vor, um die Freigabe einer zuvor freigegebenen Sammlung aufz
 
    ![](assets/collection_settings.png)
 
-2. Klicken Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] unter [!UICONTROL Mitglieder] auf das Symbol **[!UICONTROL x]neben Benutzern oder Gruppen, um sie aus der Liste der Benutzer zu entfernen, für die die Sammlung freigegeben ist.**
+1. Klicken Sie im Dialogfeld [!UICONTROL Einstellungen für Sammlung] unter [!UICONTROL Mitglieder] auf das Symbol **[!UICONTROL x]neben Benutzern oder Gruppen, um sie aus der Liste der Benutzer zu entfernen, für die die Sammlung freigegeben ist.**
 
    ![](assets/unshare_collection.png)
 
-3. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen], um das Aufheben der Freigabe zu bestätigen.**
+1. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen], um das Aufheben der Freigabe zu bestätigen.**
 
    Klicken Sie auf **[!UICONTROL Speichern]**.
 
-4. Melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, den Sie aus der freigegebenen Liste entfernt haben. Die Sammlung wird aus der Konsole **[!UICONTROL Sammlungen]entfernt.**
+1. Melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, den Sie aus der freigegebenen Liste entfernt haben. Die Sammlung wird aus der Konsole **[!UICONTROL Sammlungen]entfernt.**
