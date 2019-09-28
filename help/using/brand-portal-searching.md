@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Mit der Suchfunktion des Markenportals können Sie schnell nach relevanten Assets suchen, indem Sie die Suchfunktion mit omnisearch und facettierten Suchvorgängen verwenden, die Filter verwenden, um die Suche weiter einzugrenzen. Sie können Ihre Suchvorgänge auch als Smart-Sammlungen für die Zukunft speichern.
+Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and faceted search that uses filters to help you further narrow down your search. Sie können Ihre Suchvorgänge auch als Smart-Sammlungen für die Zukunft speichern.
 
 ## Suchen von Assets mithilfe von Omnisearch {#search-assets-using-omnisearch}
 
@@ -41,7 +41,7 @@ So suchen Sie in Brand Portal nach Assets:
 
    *Asset-Suche mithilfe von Omnisearch*
 
-Weitere Informationen zum Suchverhalten mit intelligenten getaggten Assets finden Sie unter [Suchergebnisse und Verhalten](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+To know about search behaviour with smart tagged assets, see understand search results and behavior.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
 
 ## Suche mithilfe von Facetten im Bereich „Filter“{#search-using-facets-in-filters-panel}
 
@@ -59,14 +59,14 @@ So können Sie mit den verfügbaren [Suchfacetten](../using/brand-portal-search
 
    ![](assets/selectorrail.png)
 
-2. Wählen Sie im Bereich **[!UICONTROL Filter]auf der linken Seite die entsprechenden Optionen aus, um die relevanten Filter anzuwenden.**
+1. Wählen Sie im Bereich **[!UICONTROL Filter]auf der linken Seite die entsprechenden Optionen aus, um die relevanten Filter anzuwenden.**
 Verwenden Sie beispielsweise die folgenden Standardfilter:
 
    * **[!UICONTROL Nutzen Sie den Pfadbrowser]** um Assets in einem bestimmten Verzeichnis zu suchen. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
    >[!NOTE]
    >
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >Für Administratoren ermöglicht der Pfadbrowser die Navigation zu einem beliebigen Ordner im Markenportal.
 
    * **[!UICONTROL Dateityp]**, um den Typ (Bild, Dokument, Multimedia, Archiv) der gesuchten Asset-Datei anzugeben. Darüber hinaus können Sie den Umfang Ihrer Suche einschränken. Geben Sie zum Beispiel den MIME-Typ (TIFF, Bitmap, GIMP-Bilder) für Bilder oder Formate (PDF oder MS Word) für die Dokumente an.
    * **[!UICONTROL Dateigröße]**, um nach Assets basierend auf ihrer Größe zu suchen. Sie können die untere und obere Grenze für den Größenbereich ausgeben, um Ihre Suche einzuschränken und die Maßeinheit für die Suche anzugeben.
@@ -105,7 +105,7 @@ Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinsch
 
    Asset-Suchergebnis mit Suchergebniszählung
 
-3. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
+1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 
 ## Suchen als Smart-Sammlung speichern {#save-your-searches-as-smart-collection}
 
@@ -123,10 +123,10 @@ So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 
    ![](assets/save_smartcollectionui.png)
 
-2. Um die Smart-Sammlung unter einem anderen Namen zu speichern, aktivieren oder deaktivieren Sie das Kontrollkästchen **[!UICONTROL Öffentlich]** und klicken Sie auf **[!UICONTROL Smart-Sammlung bearbeiten]**.
+1. Um die Smart-Sammlung unter einem anderen Namen zu speichern, aktivieren oder deaktivieren Sie das Kontrollkästchen **[!UICONTROL Öffentlich]** und klicken Sie auf **[!UICONTROL Smart-Sammlung bearbeiten]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. Wählen Sie im Dialogfeld **[!UICONTROL Smart-Sammlung bearbeiten]** die Option **Speichern unter]aus und geben Sie einen Namen für die Smart-Sammlung ein.[!UICONTROL ** Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Smart-Sammlung bearbeiten]** die Option **Speichern unter]aus und geben Sie einen Namen für die Smart-Sammlung ein.[!UICONTROL ** Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/saveas_smartsearch.png)
