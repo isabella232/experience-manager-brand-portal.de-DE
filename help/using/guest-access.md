@@ -10,7 +10,7 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -66,7 +66,7 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-[!UICONTROL View Settings] option allows the guest users to adjust card sizes in [!UICONTROL Card View] or columns to display in [!UICONTROL List View].
+[!UICONTROL Die Option "Einstellungen] anzeigen"ermöglicht es den Gastbenutzern, die Kartengrößen in der [!UICONTROL Kartenansicht] oder in den Spalten anzupassen, um sie in der [!UICONTROL Listenansicht]anzuzeigen.
 
 ![](assets/nav-guest-user.png)
 
@@ -78,7 +78,6 @@ Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICO
 
 * In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
 * In der Dropdown-Liste des ausgewählten Leistenselektors
-
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
