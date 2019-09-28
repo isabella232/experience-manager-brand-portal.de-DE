@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,10 +33,10 @@ However, publishing can fail intermittently due to- large sling jobs, increased 
 So validieren Sie Ihre Veröffentlichungskonfigurationen:
 
 1. Überprüfen Sie die Fehlerprotokolle.
-2. Überprüfen Sie, ob der Replikationsagent erstellt wurde.
-3. Testen Sie die Verbindung.
+1. Überprüfen Sie, ob der Replikationsagent erstellt wurde.
+1. Testen Sie die Verbindung.
 
-**Protokolle beim Erstellen des Cloud-Dienstes nachverfolgen**
+**Tail logs while creating Cloud Service**
 
 Prüfen Sie die Protokollfragmente. Überprüfen Sie, ob der Replikationsagent erstellt wurde oder nicht. Wenn die Erstellung des Replikationsagenten scheitert, bearbeiten Sie den Cloud-Service, indem Sie geringfügige Änderungen am Cloud-Service vornehmen. Validieren und überprüfen Sie erneut, ob der Replikationsagent erstellt wurde oder nicht. Falls nicht, bearbeiten Sie den Service erneut.
 
@@ -48,7 +48,7 @@ Sehen Sie sich das Protokoll an. Wenn im Replikationsprotokoll Fehler gemeldet w
 
 1. Wenden Sie sich an den Adobe Support.
 
-2. Wiederholen Sie die [Bereinigung](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) und erstellen Sie die Veröffentlichungskonfiguration erneut.
+1. Wiederholen Sie die [Bereinigung](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) und erstellen Sie die Veröffentlichungskonfiguration erneut.
 
 <!--
 Comment Type: remark
@@ -60,13 +60,13 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Vorhandene Veröffentlichungskonfigurationen in Brand Portal bereinigen {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Um die Problembehebung zu vermeiden, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration ordnungsgemäß funktioniert, müssen Sie Folgendes aus dem AEM-Autor-Setup bereinigen:
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Um die Problembehebung zu vermeiden, können Sie stattdessen eine neue Konfiguration erstellen. For the new configuration to work properly, clean up the following from AEM author setup:
 
 1. go to [!UICONTROL localhost:4502/crx/de] (considering you are running author instance on [!UICONTROL localhost:4502]):\
    i. delete /etc/replication/agents.author/mp_Replication*\
-   ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
+   ii. delete /etc/cloudservices/mediaportal/
 
-2. Gehen Sie zu [!UICONTROL localhost:4502/useradmin]:\
+1. Gehen Sie zu [!UICONTROL localhost:4502/useradmin]:\
    i search for user [!UICONTROL mac-&lt;tenantid&gt;-replication
 ii delete this user
 
