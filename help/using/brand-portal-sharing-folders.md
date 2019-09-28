@@ -9,7 +9,7 @@ topic-tags: Freigabe
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -91,15 +91,15 @@ Führen Sie folgende Schritte aus, um einen Ordner in Brand Portal für Benutzer
 
    ![](assets/selectorrail.png)
 
-2. Wählen Sie links in der Seitenleiste **[!UICONTROL Dateien aus]**.
+1. Wählen Sie links in der Seitenleiste **[!UICONTROL Dateien aus]**.
 
    ![](assets/access_files.png)
 
-3. Wählen Sie in der Brand Portal-Benutzeroberfläche den Ordner aus, den Sie freigeben möchten.
+1. Wählen Sie in der Brand Portal-Benutzeroberfläche den Ordner aus, den Sie freigeben möchten.
 
    ![](assets/share-folders.png)
 
-4. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Freigeben]**.
+1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Freigeben]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ Führen Sie folgende Schritte aus, um einen Ordner in Brand Portal für Benutzer
 
    ![](assets/folder_properties.png)
 
-5. Geben Sie in der Konsole [!UICONTROL Ordnereigenschaften] im Feld [!UICONTROL Ordnertitel] den Titel des Ordners an, wenn die Benutzer den Standardnamen nicht sehen sollen.
-6. Wählen Sie aus der Liste [!UICONTROL Benutzer hinzufügen] den Benutzer oder die Gruppe aus, für den/die Sie den Ordner freigeben möchten, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie in der Konsole [!UICONTROL Ordnereigenschaften] im Feld [!UICONTROL Ordnertitel] den Titel des Ordners an, wenn die Benutzer den Standardnamen nicht sehen sollen.
+1. Wählen Sie aus der Liste [!UICONTROL Benutzer hinzufügen] den Benutzer oder die Gruppe aus, für den/die Sie den Ordner freigeben möchten, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wählen Sie **[!UICONTROL Anonyme Benutzer]** aus dem Dropdown-Menü [!UICONTROL Mitglieder].
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
    >
    >Um den Ordner allen Benutzern unabhängig von ihrer Gruppenzugehörigkeit und -rolle zur Verfügung zu stellen, machen Sie ihn öffentlich, indem Sie das Kontrollkästchen **[!UICONTROL Öffentlicher Ordner]aktivieren.**
 
-7. Klicken Sie, falls nötig, auf **[!UICONTROL Miniaturbild ändern], um das Miniaturbild für den Ordner zu ändern.**
-8. Klicken Sie auf **[!UICONTROL Speichern]**.
-9. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
+1. Klicken Sie, falls nötig, auf **[!UICONTROL Miniaturbild ändern], um das Miniaturbild für den Ordner zu ändern.**
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
 ## Aufheben der Freigabe von Ordnern {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 
    ![](assets/share-folders-1.png)
 
-2. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Freigeben]**.
-3. Klicken Sie in der Konsole [!UICONTROL Ordnereigenschaften] unter [!UICONTROL Mitglieder] auf das **[!UICONTROL x]-Symbol neben einem Benutzer um diesen aus der Liste der Benutzer zu entfernen, für die Sie den Ordner freigegeben haben.**
+1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Freigeben]**.
+1. Klicken Sie in der Konsole [!UICONTROL Ordnereigenschaften] unter [!UICONTROL Mitglieder] auf das **[!UICONTROL x]-Symbol neben einem Benutzer um diesen aus der Liste der Benutzer zu entfernen, für die Sie den Ordner freigegeben haben.**
 
    ![](assets/folder_propertiesunshare.png)
 
-4. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen], um das Aufheben der Freigabe zu bestätigen.**
+1. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen], um das Aufheben der Freigabe zu bestätigen.**
 Klicken Sie auf **[!UICONTROL Speichern]**.
 
-5. Melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, den Sie aus der freigegebenen Liste entfernt haben. Der Ordner ist in der Brand Portal-Oberfläche für den Benutzer nicht mehr verfügbar.
+1. Melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, den Sie aus der freigegebenen Liste entfernt haben. Der Ordner ist in der Brand Portal-Oberfläche für den Benutzer nicht mehr verfügbar.
