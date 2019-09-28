@@ -9,7 +9,7 @@ topic-tags: Administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -20,7 +20,7 @@ Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangab
 
 Bildvorgaben werden verwendet, um dynamische Ausgabeformate von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht. Es gibt keine Möglichkeit, das PTIFF-Ausgabeformat in Brand Portal zu generieren.
+Um dynamische Darstellungen eines Assets im Markenportal anzuzeigen, stellen Sie sicher, dass die Pyramid-TIFF-Darstellung in der AEM-Autoreninstanz vorhanden ist, in der Sie im Markenportal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht. Es gibt keine Möglichkeit, das PTIFF-Ausgabeformat in Brand Portal zu generieren.
 
 >[!NOTE]
 >
@@ -37,20 +37,21 @@ Nur Administratoren können Bildvorgaben in Brand Portal erstellen.
 
 >[!NOTE]
 >
->Dynamische Wiedergaben werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn also für ein Asset kein Pyramid TIFF-Ausgabeformat in AEM erstellt und in Brand Portal veröffentlicht wird, können nur die zugehörigen Systemausgaben exportiert werden. Dynamische Ausgabeformate werden aber als Option angezeigt.
-Der Dynamic Media Hybrid-Modus muss in AEM (Autoreninstanz) aktiviert sein, damit das Pyramid TiFF (PTIFF)-Format eines Assets erstellt werden kann. Wenn ein solches Asset im Markenportal veröffentlicht wird, werden Bildvorgaben angewendet und dynamische Darstellungen angezeigt.
+>Dynamische Darstellungen eines Bildes werden mit dem Pyramid TIFF erstellt. Wenn das Pyramid-TIFF für kein Asset verfügbar ist, können dynamische Darstellungen für dieses Asset nicht im Markenportal abgerufen werden.
+Wenn die AEM-Instanz (Autor) im **dynamischen Media Hybrid-Modus** ausgeführt wird, werden Pyramid-TIFF-Darstellungen von Bild-Assets erstellt und im AEM-Repository gespeichert. Wenn dagegen die AEM-Instanz (Autor) im Scene7-Modus **für**dynamische Medien ausgeführt wird, dann sind Pyramid-TIFF-Darstellungen von Bild-Assets auf dem Scene7-Server vorhanden.
+Wenn solche Assets im Markenportal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Darstellungen angezeigt.
 
 1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Administrator-Tools zuzugreifen.
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Bildvorgaben]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Bildvorgaben]**.
 
    ![](assets/admin-tools-panel-4.png)
 
-3. Klicken Sie auf der Seite „Bildvorgaben“ auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf der Seite „Bildvorgaben“ auf **[!UICONTROL Erstellen]**.
 
    ![](assets/image_preset_homepage.png)
 
-4. Geben Sie auf der Seite **[!UICONTROL Bildvorgabe bearbeiten]** auf den Registerkarten **[!UICONTROL Allgemein]und** Erweitert] die entsprechenden Werte (einschließlich eines Namens) ein. **[!UICONTROL ** Die Optionen werden in den Optionen für die [Bildvorgabe](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options) hervorgehoben. Vorgaben werden im linken Bereich angezeigt und können nur zusammen mit anderen Assets verwendet werden.
+1. Geben Sie auf der Seite **[!UICONTROL Bildvorgabe bearbeiten]** auf den Registerkarten **[!UICONTROL Allgemein]und** Erweitert] die entsprechenden Werte (einschließlich eines Namens) ein. **[!UICONTROL ** Die Optionen werden in den Optionen für die [Bildvorgabe](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options) hervorgehoben. Vorgaben werden im linken Bereich angezeigt und können nur zusammen mit anderen Assets verwendet werden.
 
    ![](assets/image_preset_create.png)
 
@@ -58,19 +59,19 @@ Der Dynamic Media Hybrid-Modus muss in AEM (Autoreninstanz) aktiviert sein, da
    >
    >Auf der Seite **[!UICONTROL Bildvorgabe bearbeiten]können Sie auch Eigenschaften einer vorhandenen Bildvorgabe bearbeiten.** Um eine Bildvorgabe zu bearbeiten, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-5. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
-6. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen], um den Vorgang zu bestätigen.** Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
+1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen], um den Vorgang zu bestätigen.** Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
 
 ## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau  {#apply-image-presets-when-previewing-images}
 
 Wenn Sie eine Vorschau von Bildern und deren Wiedergaben anzeigen, können Sie eine vorhandene Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-1. Klicken Sie in der Benutzeroberfläche des Markenportals auf ein Bild, um es zu öffnen.
-2. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Wiedergaben]**.
+1. From the Brand Portal interface, click an image to open it.
+1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Wiedergaben]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. Das Vorschaubild wird basierend auf Ihrer Auswahl des Ausgabeformats dargestellt.
+1. From the **[!UICONTROL Renditions]** list, select the appropriate dynamic rendition, for example, **[!UICONTROL Thumbnail]**. Das Vorschaubild wird basierend auf Ihrer Auswahl des Ausgabeformats dargestellt.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -86,13 +87,13 @@ Beim Herunterladen von Bildern und deren Darstellungen aus dem Markenportal kön
    * Wählen Sie das Bild aus, das Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download].**
    ![](assets/downloadassets.png)
 
-2. Wählen Sie im Dialogfeld **[!UICONTROL Herunterladen]die erforderlichen Optionen aus, je nachdem, ob Sie das Asset mit oder ohne dessen Wiedergaben herunterladen möchten.**
+1. Wählen Sie im Dialogfeld **[!UICONTROL Herunterladen]die erforderlichen Optionen aus, je nachdem, ob Sie das Asset mit oder ohne dessen Wiedergaben herunterladen möchten.**
 
    ![](assets/donload-assets-dialog.png)
 
-3. Um dynamische Wiedergaben der Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabe(n)]aus.**
-4. Sie können jedoch auch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder und deren Ausgabeformate beim Herunterladen dynamisch neu formatieren können. Geben Sie hierfür Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
+1. Um dynamische Wiedergaben der Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabe(n)]aus.**
+1. Sie können jedoch auch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder und deren Ausgabeformate beim Herunterladen dynamisch neu formatieren können. Geben Sie hierfür Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
 
    ![](assets/dynamicrenditions.png)
 
-5. Klicken Sie auf **[!UICONTROL Herunterladen]**. Die dynamischen Wiedergaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Wiedergaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**. Die dynamischen Wiedergaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Wiedergaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
