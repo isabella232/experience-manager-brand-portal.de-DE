@@ -9,7 +9,7 @@ topic-tags: Administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]Sucheigenschaften h
 
    ![](assets/aemlogo.png)
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
 
    ![](assets/navigation-panel-1.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. Klicken Sie in der Symbolleiste oben auf **[!UICONTROL Bearbeiten], um die Seite „Suchformular bearbeiten“ zu öffnen.**
+1. Klicken Sie in der Symbolleiste oben auf **[!UICONTROL Bearbeiten], um die Seite „Suchformular bearbeiten“ zu öffnen.**
 
    ![](assets/edit-search-form-1.png)
 
-5. Ziehen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] eine Eigenschaft von der Registerkarte [!UICONTROL Eigenschaft auswählen] in den Hauptbereich. Ziehen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
+1. Ziehen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] eine Eigenschaft von der Registerkarte [!UICONTROL Eigenschaft auswählen] in den Hauptbereich. Ziehen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
 
    Das Feld **[!UICONTROL Eigenschaft]** wird im Hauptbereich angezeigt und die Registerkarte **Einstellungen]auf der rechten Seite zeigt die Eigenschaftsprädikate an.[!UICONTROL **
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]Sucheigenschaften h
    >
    >Mit der Kopfzeilenbeschriftung auf der Registerkarte **[!UICONTROL Einstellungen]wird der Typ der gewählten Eigenschaft identifiziert.**
 
-6. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]eine Beschriftung, Platzhaltertext und eine Beschreibung für das Eigenschaftsprädikat ein.**
+1. Geben Sie auf der Registerkarte **[!UICONTROL Einstellungen]eine Beschriftung, Platzhaltertext und eine Beschreibung für das Eigenschaftsprädikat ein.**
 
    * Select **[!UICONTROL Partial Search]**, if you want to allow partial phrase search (and wildcard search) of assets-based on the specified property value. Das Prädikat unterstützt standardmäßig die Volltextsuche.
    * Select **[!UICONTROL Ignore Case]**, if you want the asset search based on property value to be non-case sensitive. Standardmäßig wird bei der Suche nach Eigenschaftswerten im Suchfilter zwischen Groß- und Kleinschreibung unterschieden.
@@ -64,16 +64,16 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]Sucheigenschaften h
    >
    >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird [!UICONTROL Groß-/Kleinschreibung ignorieren] standardmäßig aktiviert.
 
-7. Öffnen Sie die Eigenschaftsauswahl im Feld [!UICONTROL Eigenschaftsname] und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. Öffnen Sie die Eigenschaftsauswahl im Feld [!UICONTROL Eigenschaftsname] und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. For example, enter [!UICONTROL `  jcr :content/metadata/dc:title`] or [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
-8. Klicken Sie auf **[!UICONTROL Fertig], um die Einstellungen zu speichern.**
-9. Klicken Sie in der Benutzeroberfläche von [!UICONTROL Assets] auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter]**, um zum Bereich **Filter]zu wechseln.[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wird dem Bereich hinzugefügt.**
+1. Klicken Sie auf **[!UICONTROL Fertig], um die Einstellungen zu speichern.**
+1. Klicken Sie in der Benutzeroberfläche von [!UICONTROL Assets] auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter]**, um zum Bereich **Filter]zu wechseln.[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wird dem Bereich hinzugefügt.**
 
    ![](assets/property-filter-panel.png)
 
-10. Geben Sie in das Textfeld **[!UICONTROL Eigenschaft]einen Titel für das Asset ein, das gesucht werden soll.** For example, "Adobe". Wenn Sie eine Suche durchführen, werden Assets, deren Titel „Adobe“ entspricht, in den Suchergebnissen angezeigt.
+1. Geben Sie in das Textfeld **[!UICONTROL Eigenschaft]einen Titel für das Asset ein, das gesucht werden soll.** For example, "Adobe". Wenn Sie eine Suche durchführen, werden Assets, deren Titel „Adobe“ entspricht, in den Suchergebnissen angezeigt.
 
 ## Liste der Sucheigenschaften {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ Führen Sie die folgenden Schritte aus, um eine Sucheigenschaft zu löschen:
 
    ![](assets/aemlogo.png)
 
-2. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
 
    ![](assets/navigation-panel-2.png)
 
-3. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
+1. In the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**.
 
    ![](assets/search-forms-page.png)
 
-4. Klicken Sie in der Symbolleiste oben auf **[!UICONTROL Bearbeiten], um die Seite „Suchformular bearbeiten“ zu öffnen.**
+1. Klicken Sie in der Symbolleiste oben auf **[!UICONTROL Bearbeiten], um die Seite „Suchformular bearbeiten“ zu öffnen.**
 
    ![](assets/edit-search-form-2.png)
 
-5. Wählen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] im Hauptbereich die Eigenschaft aus, die Sie löschen möchten. Wählen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
+1. Wählen Sie auf der Seite [!UICONTROL Suchformular bearbeiten] im Hauptbereich die Eigenschaft aus, die Sie löschen möchten. Wählen Sie beispielsweise **[!UICONTROL Eigenschaftsprädikat]**.
 
    Die Registerkarte **[!UICONTROL Einstellungen]auf der rechten Seite zeigt die Eigenschaftsprädikat-Felder an.**
 
-6. Klicken Sie zum Löschen des Eigenschaftsprädikats auf das Papierkorbsymbol. Klicken Sie im Dialogfeld **[!UICONTROL Feld löschen]** auf **Löschen], um die Löschaktion zu bestätigen.[!UICONTROL **
+1. Klicken Sie zum Löschen des Eigenschaftsprädikats auf das Papierkorbsymbol. Klicken Sie im Dialogfeld **[!UICONTROL Feld löschen]** auf **Löschen], um die Löschaktion zu bestätigen.[!UICONTROL **
 
    Das Feld **[!UICONTROL Eigenschaftsprädikat]** wird vom Hauptbereich entfernt und die Registerkarte **Eigenschaften]wird leer angezeigt.[!UICONTROL **
 
    ![](assets/search-form-delete-predicate.png)
 
-7. Klicken Sie zum Speichern der Änderungen in der Symbolleiste auf **[!UICONTROL Fertig].**
-8. Klicken Sie in der Benutzeroberfläche von **[!UICONTROL Assets]** auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter], um zum Bereich** Filter] zu wechseln.**[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wurde aus dem Bereich entfernt.**
+1. Klicken Sie zum Speichern der Änderungen in der Symbolleiste auf **[!UICONTROL Fertig].**
+1. Klicken Sie in der Benutzeroberfläche von **[!UICONTROL Assets]** auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Filter], um zum Bereich** Filter] zu wechseln.**[!UICONTROL ** Das Prädikat **[!UICONTROL Eigenschaft]wurde aus dem Bereich entfernt.**
 
    ![](assets/property-predicate-removed.png)
