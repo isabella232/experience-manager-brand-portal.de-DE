@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Einführung
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee 37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -32,7 +32,6 @@ Markenportal unterstützt die folgenden Benutzerrollen:
 * Betrachter
 * Bearbeiter
 * Administrator
-
 Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausführen können:
 
 |  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Assets als Link freigeben** | **Zugriff auf Admin Tools** |
@@ -56,7 +55,7 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 [Öffentliche Assets herunterladen](brand-portal-download-users.md)
 
-[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Hinzufügen von Assets zu [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Betrachter {#viewer}
 
@@ -84,7 +83,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
-An administrator can perform all tasks that an Editor can perform the following additional tasks:
+Ein Administrator kann alle Aufgaben ausführen, die ein Editor für die folgenden zusätzlichen Aufgaben ausführen kann:
 
 [Verwalten von Benutzern, Gruppen und Benutzerrollen](brand-portal-adding-users.md)
 
@@ -108,7 +107,7 @@ Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Au
 
 ## Alternativer Alias für Brand Portal-URL {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
+Ab Brand Portal 6.4.3 können Unternehmen eine alternative URL (Alias) für die vorhandene URL ihres Markenportal-Mandanten haben. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domäne **[!UICONTROL geomettrix.brand-portal.adobe.com]** kann beispielsweise auf Anfrage die Domäne **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** erstellt werden.
 
 Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
@@ -131,7 +130,7 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
    Die Seite [!UICONTROL Zugriff anfragen] wird geöffnet.
 
-2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    Melden Sie sich auf der Seite [!UICONTROL Zugriff anfordern] mit Ihrer ID an (Szenario 1) oder erstellen Sie eine [!UICONTROL Adobe ID] (Szenario 2):<br />
    ![[!UICONTROL Zugriff anfordern]](assets/bplogin_request_access_2.png)
@@ -139,7 +138,7 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
    **Szenario 1**
    1. If you have an [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID], click **[!UICONTROL Sign In]**.
 Die Seite [!UICONTROL Anmelden] wird geöffnet.
-   2. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldedaten ein und klicken Sie auf **[!UICONTROL Anmelden]**.<br />
+   1. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldedaten ein und klicken Sie auf **[!UICONTROL Anmelden]**.<br />
    ![Adobe-Anmeldung](assets/bplogin_request_access_3.png)
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.<br />
@@ -147,15 +146,15 @@ Die Seite [!UICONTROL Anmelden] wird geöffnet.
    1. Wenn Sie noch keine [!UICONTROL Adobe ID] haben, erstellen Sie die ID, indem Sie auf der Seite **[!UICONTROL Zugriff anfordern]** auf [!UICONTROL Adobe ID anfordern] klicken.
 
 Die Seite [!UICONTROL Anmelden] wird geöffnet.
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 Die Seite [!UICONTROL Registrieren] wird geöffnet.
-   3. Geben Sie Ihren Vornamen und Nachnamen, die E-Mail-Adresse und ein Kennwort ein.
-   4. Wählen Sie **[!UICONTROL Anmelden]**.<br />
+   1. Geben Sie Ihren Vornamen und Nachnamen, die E-Mail-Adresse und ein Kennwort ein.
+   1. Wählen Sie **[!UICONTROL Anmelden]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.
 
-3. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.<br />
+1. Auf der nächsten Seite werden der Name des aktuellen Benutzers und die E-Mail-Adresse angezeigt, die zum Anfordern des Zugriffs genutzt werden. Geben Sie einen Kommentar für den Administrator ein und klicken Sie dann auf **[!UICONTROL Übermitteln]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -176,12 +175,12 @@ Sie können die Sprache des Markenportals in den Adobe [!UICONTROL Experience Cl
 
 ![Zugriff auf die angeforderte Benachrichtigungen](assets/BPLang.png)
 
-So ändern Sie die Sprache:
+To change the language:
 
 1. Wählen Sie [!UICONTROL Benutzer] &gt; Profilbearbeiten aus dem oberen Menü.<br />
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
-2. Wählen Sie auf der Seite [!UICONTROL Experience Cloud-Einstellungen] eine Sprache aus dem Dropdownmenü [!UICONTROL Sprache] .
+1. Wählen Sie auf der Seite [!UICONTROL Experience Cloud-Einstellungen] eine Sprache aus dem Dropdownmenü [!UICONTROL Sprache] .
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
