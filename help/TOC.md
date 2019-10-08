@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: Adobe Experience Manager
 sub-product: 'Experience Manager Brand Portal '
-audience: Endbenutzer
+audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
 
 ---
 
 
-# Ínhalt {#using}
+# Inhalt {#using}
 
 + [Brand Portal-Benutzerhandbuch](using/home.md)
 + Einführung {#introduction}
@@ -19,12 +19,12 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [Versionshinweise](using/brand-portal-release-notes.md)
    + [Unterstützte Dateiformate](using/brand-portal-supported-formats.md)
    + [Gastzugang für Brand Portal](using/guest-access.md)
-   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Brand Portal mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Durchsuchen von Assets in Brand Portal](using/browse-assets-brand-portal.md)
 + Veröffentlichen aus AEM Assets in Brand Portal {#publish}
-   + [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Veröffentlichen von Sammlungen in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Veröffentlichen von Ordnern in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Veröffentlichen von Sammlungen in Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Veröffentlichung von Ordnern in Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Veröffentlichen von Tags in Brand Portal](using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](using/publish-schema-search-facets-presets.md)
