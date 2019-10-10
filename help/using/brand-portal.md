@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Einführung
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee 37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ Als Marketingexperte müssen Sie gelegentlich mit Channel-Partnern und unternehm
 
 Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe genehmigter Marken-Logos, Richtlinien, Kampagnen-Assets oder Produktfotos für erweiterte interne Teams, Partner und Reseller unterstützen, ist jedoch eine Herausforderung.
 
-**Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen.** Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. 
+**Das Adobe Experience Manager (AEM) Asset Brand Portal** konzentriert sich auf die Notwendigkeit, effektiv mit den global verteilten Markenportalen zusammenzuarbeiten, indem es Asset-Distributions- und Asset-Beitragsfunktionen bereitstellt.
+
+Mit der Asset-Verteilung können Sie genehmigte kreative Elemente mühelos erwerben, steuern und sicher an externe und interne Geschäftsbenutzer verteilen. Der Asset-Beitrag ermöglicht es den Benutzern des Markenportals, Assets in das Markenportal hochzuladen und in AEM Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Sourcing im Markenportal**bezeichnet. Außerdem verbessert sie die allgemeine Erfahrung des Markenportals bei der Asset-Verteilung und dem Beitrag der Markenportal-Benutzer (externe Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
+Siehe [Asset-Beschaffung im Markenportal](brand-portal-asset-sourcing.md).
 
 Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen, zu durchsuchen, zu suchen, in einer Vorschau anzuzeigen und in genehmigten Formaten zu exportieren.
 
@@ -175,7 +178,7 @@ Sie können die Sprache des Markenportals in den Adobe [!UICONTROL Experience Cl
 
 ![Zugriff auf die angeforderte Benachrichtigungen](assets/BPLang.png)
 
-To change the language:
+So ändern Sie die Sprache:
 
 1. Wählen Sie [!UICONTROL Benutzer] &gt; Profilbearbeiten aus dem oberen Menü.<br />
    ![Profil bearbeiten](assets/EditBPProfile.png)
