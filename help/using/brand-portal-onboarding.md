@@ -8,7 +8,7 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: Administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -18,26 +18,26 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Die Schritte bei der ersten Anmeldung sind für alle neuen AEM Assets Brand Portal-Benutzer (einschließlich Administratoren) gleich. Wenn ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, müssen Sie keine Einladung annehmen. Das Hinzufügen erfolgt automatisch. Sie erhalten eine Begrüßungs-E-Mail mit einem Link zum Brand Portal-Konto Ihres Unternehmens.
 
-Nachdem ein Administrator neue Benutzer hinzugefügt hat, müssen diese keine Einladungen akzeptieren, um sie dem Markenportal-Konto hinzuzufügen, werden sie automatisch hinzugefügt.
+Wenn ein Administrator neue Benutzer zum Brand Portal-Konto hinzugefügt hat, müssen diese keine Einladungen annehmen, um zum Brand Portal-Konto hinzugefügt zu werden. Das Hinzufügen erfolgt automatisch.
 
 Gehen Sie wie folgt vor, um sich zum ersten Mal bei Brand Portal anzumelden:
 
 1. Öffnen Sie die Begrüßungs-E-Mail und klicken Sie auf **[!UICONTROL Erste Schritte]**.
 
-1. Geben Sie auf der Registrierungsseite Ihre Details ein (einschließlich Vorname, Nachname, Kennwort und Land/Region).
+1. Geben Sie auf der Registrierungsseite Ihre Details ein (einschließlich Vorname, Nachname, Passwort und Land/Region).
    >[!NOTE]
    >
    >Wenn Sie bereits ein Adobe Marketing Cloud-Benutzer sind, wird anstelle der Registrierungsseite die Anmeldeseite angezeigt. Um sich bei Adobe Marketing Cloud anzumelden, geben Sie Ihre Adobe ID und Ihr Kennwort ein.
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Hilfe zu Enterprise ID, Anmeldung und Konto](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Enterprise ID, Anmeldung und Konto-Hilfe](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html).
 
-1. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
-1. Klicken Sie auf der Brand Portal-Anmeldeseite auf **[!UICONTROL Anmelden], um sich bei Brand Portal anzumelden.**
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um auf der Brand Portal-Seite Ihres Unternehmens fortzufahren.
+1. Klicken Sie auf der Brand Portal-Anmeldeseite auf **[!UICONTROL Anmelden]**, um sich bei Brand Portal anzumelden.
 
-   ![Anmeldeseite für Markenportal](assets/signin-onboarding.png)
+   ![Brand Portal-Anmeldeseite](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
-   >You cannot access Brand Portal if you are not associated with any product profile. Damit Sie sich bei Brand Portal anmelden können, müssen Sie mindestens einem AEM-Produktprofil zugewiesen werden.
+   >Sie können nicht auf Brand Portal zugreifen, wenn Ihnen kein Produktprofil zugeordnet ist. Damit Sie sich bei Brand Portal anmelden können, müssen Sie mindestens einem AEM-Produktprofil zugewiesen werden.
