@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: Freigabe
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Assets müssen in Brand Portal aus einer vorkonfigurierten AEM-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
 
-## Workflow zur Ordnerfreigabe in Brand Portal {#folder-sharing-workflow-in-brand-portal}
+## Workflow zur Ordnerfreigabe in Brand Portal   {#folder-sharing-workflow-in-brand-portal}
 
 Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff beschrieben:
 
@@ -30,7 +30,7 @@ Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff besc
 
 ### Freigeben von Ordnern für Benutzergruppen in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird in AEM durch [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) gesteuert, da untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Wenn beispielsweise Ordner A den Ordner B enthält und dieser wiederum den Ordner C, haben Benutzergruppen (oder Benutzer), die Zugriffsrechte für Ordner A haben, auch dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B dem Ordner A untergeordnet ist, erbt er die ACLs von Ordner A. Und da Ordner C dem Ordner B untergeordnet ist, erbt er die ACLs von Ordner B.
+Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird von [ACLs](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM geregelt, da untergeordnete Ordner ACLs aus ihren übergeordneten Ordnern übernehmen. Wenn beispielsweise Ordner A den Ordner B enthält und dieser wiederum den Ordner C, haben Benutzergruppen (oder Benutzer), die Zugriffsrechte für Ordner A haben, auch dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B dem Ordner A untergeordnet ist, erbt er die ACLs von Ordner A. Und da Ordner C dem Ordner B untergeordnet ist, erbt er die ACLs von Ordner B.
 
 Entsprechend haben Benutzergruppen (oder Benutzer), die nur Zugriffsberechtigungen für den Ordner B haben, dieselben Berechtigungen für den Ordner C, aber nicht für Ordner A. Daher wird empfohlen, dass Unternehmen ihre Inhalte so anordnen, dass die am meisten exponierten Assets in die untergeordneten Ordner eingefügt werden. Der Zugriff vom untergeordneten Ordner auf den Stammordner kann eingeschränkt werden.
 
@@ -59,13 +59,13 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 
 **Standardmäßig ist die Option[!UICONTROL Öffentlichen Ordner veröffentlichen]bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen.* 
 
-### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner {#non-admin-user-access-to-shared-folders}
+### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner   {#non-admin-user-access-to-shared-folders}
 
-Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. However, how these folders are displayed on the portal when they log in depends on the settings of [!UICONTROL Enable Folder Hierarchy] configuration.
+Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration [!UICONTROL Ordnerhierarchie aktivieren].
 
 **Wenn die Konfiguration deaktiviert ist**
 
-Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der Zielseite, bei der Anmeldung in Brand Portal.
+Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der   Zielseite, bei der Anmeldung in Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -75,7 +75,7 @@ Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen die
 
 Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Schlosssymbol erkennen.
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Die Schaltfläche Überblick] wird angezeigt, wenn Sie einen virtuellen Ordner in der [!UICONTROL Spaltenansicht] und [!UICONTROL Listenansicht]auswählen.
+Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der [!UICONTROL Kartenansicht] auswählen. Die Schaltfläche [!UICONTROL Überblick] wird angezeigt, wenn Sie einen virtuellen Ordner in der [!UICONTROL Spaltenansicht] und [!UICONTROL Listenansicht] auswählen.
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ No action tasks are visible on hovering or selecting them in [!UICONTROL Card Vi
 
 Führen Sie folgende Schritte aus, um einen Ordner in Brand Portal für Benutzer freizugeben:
 
-1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Navigation]**.
+1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Navigation]** aus.
 
    ![](assets/selectorrail.png)
 
-1. Wählen Sie links in der Seitenleiste **[!UICONTROL Dateien aus]**.
+1. Wählen Sie links in der Seitenleiste **[!UICONTROL Dateien]** aus.
 
    ![](assets/access_files.png)
 
@@ -109,19 +109,19 @@ Führen Sie folgende Schritte aus, um einen Ordner in Brand Portal für Benutzer
 
 1. Geben Sie in der Konsole [!UICONTROL Ordnereigenschaften] im Feld [!UICONTROL Ordnertitel] den Titel des Ordners an, wenn die Benutzer den Standardnamen nicht sehen sollen.
 1. Wählen Sie aus der Liste [!UICONTROL Benutzer hinzufügen] den Benutzer oder die Gruppe aus, für den/die Sie den Ordner freigeben möchten, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wählen Sie **[!UICONTROL Anonyme Benutzer]** aus dem Dropdown-Menü [!UICONTROL Mitglieder].
+Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wählen Sie **[!UICONTROL Anonyme Benutzer]** aus dem Dropdown-Menü [!UICONTROL Mitglieder] aus.
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >Um den Ordner allen Benutzern unabhängig von ihrer Gruppenzugehörigkeit und -rolle zur Verfügung zu stellen, machen Sie ihn öffentlich, indem Sie das Kontrollkästchen **[!UICONTROL Öffentlicher Ordner]aktivieren.**
+   >Um den Ordner allen Benutzern unabhängig von ihrer Gruppenzugehörigkeit und -rolle zur Verfügung zu stellen, machen Sie ihn öffentlich, indem Sie das Kontrollkästchen **[!UICONTROL Öffentlicher Ordner]** aktivieren.
 
-1. Klicken Sie, falls nötig, auf **[!UICONTROL Miniaturbild ändern], um das Miniaturbild für den Ordner zu ändern.**
+1. Klicken Sie, falls nötig, auf **[!UICONTROL Miniaturbild ändern]**, um das Miniaturbild für den Ordner zu ändern.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
-## Aufheben der Freigabe von Ordnern {#unshare-the-folders}
+## Aufheben der Freigabe von Ordnern   {#unshare-the-folders}
 
 Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 
@@ -130,11 +130,11 @@ Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
    ![](assets/share-folders-1.png)
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Freigeben]**.
-1. Klicken Sie in der Konsole [!UICONTROL Ordnereigenschaften] unter [!UICONTROL Mitglieder] auf das **[!UICONTROL x]-Symbol neben einem Benutzer um diesen aus der Liste der Benutzer zu entfernen, für die Sie den Ordner freigegeben haben.**
+1. Klicken Sie in der Konsole [!UICONTROL Ordnereigenschaften] unter [!UICONTROL Mitglieder] auf das **[!UICONTROL x]**-Symbol neben einem Benutzer um diesen aus der Liste der Benutzer zu entfernen, für die Sie den Ordner freigegeben haben.
 
    ![](assets/folder_propertiesunshare.png)
 
-1. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen], um das Aufheben der Freigabe zu bestätigen.**
+1. Klicken Sie in der Warnmeldung auf **[!UICONTROL Bestätigen]**, um das Aufheben der Freigabe zu bestätigen.
 Klicken Sie auf **[!UICONTROL Speichern]**.
 
 1. Melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, den Sie aus der freigegebenen Liste entfernt haben. Der Ordner ist in der Brand Portal-Oberfläche für den Benutzer nicht mehr verfügbar.
