@@ -9,7 +9,7 @@ topic-tags: Download installieren
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
@@ -17,19 +17,19 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Verwalten der digitalen Rechte von Assets {#manage-digital-rights-of-assets}
 
-Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb und außerhalb des Unternehmens erzwungen werden, indem ein Ablaufdatum (und eine Uhrzeit) mit genehmigten Assets verknüpft wird, die von AEM über das Markenportal veröffentlicht wurden, oder indem diese Assets für die bedingte Verwendung lizenziert werden. Auch in Brand Portal können Sie ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
+Eine sichere Verteilung und Nutzung von Kreativ-Assets und Markenmaterial ist für den Schutz Ihrer Marke wichtig. Dies kann innerhalb und außerhalb des Unternehmens durch das Verknüpfen eines Ablaufdatums (und einer Uhrzeit) mit genehmigten Assets, die aus AEM in Brand Portal veröffentlicht werden, oder durch Lizenzierung dieser Assets für die bedingte Verwendung durchgesetzt werden. Auch in Brand Portal können Sie ein Ablaufdatum für Links zu den Assets angeben, die über Brand Portal freigegeben werden.
 
 Erfahren Sie, wie die Assets in Brand Portal gesichert werden und welche Nutzungsberechtigungen damit verknüpft sind.
 
 ## Asset-Ablauf {#asset-expiration}
 
-Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten Assets in Brand Portal unternehmensweit zu kontrollieren. Alle Assets, die von AEM Assets an das Markenportal veröffentlicht werden, können ein Ablaufdatum haben, wodurch die Verwendung dieser Assets nach verschiedenen Benutzerrollen eingeschränkt wird.
+Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten Assets in Brand Portal unternehmensweit zu kontrollieren. Alle Assets, die aus AEM Assets in Brand Portal veröffentlicht werden, können ein Ablaufdatum haben, das die Nutzung dieser Assets durch verschiedene Benutzerrollen einschränkt.
 
 ### Nutzungsberechtigungen in Bezug auf abgelaufene Assets {#usage-permissions-expired-assets}
 
 In Brand Portal können Administratoren abgelaufene Assets anzeigen, herunterladen und zu Sammlungen hinzufügen. Bearbeiter und Betrachter können dagegen nur abgelaufene Assets anzeigen und sie zu Sammlungen hinzufügen.
 
-Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
+Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
 
 >[!NOTE]
 >
@@ -48,9 +48,9 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 >
 >Wenn Betrachter und Editoren einen Ordner mit abgelaufenen und nicht abgelaufenen Assets herunterladen, werden nur die nicht abgelaufenen Assets heruntergeladen. Wenn ein Ordner nur abgelaufene Assets enthält, wird ein leerer Ordner heruntergeladen.
 
-### Gültigkeitsstatus und Assets {#expiration-status-of-assets}
+### Gültigkeitsstatus und Assets   {#expiration-status-of-assets}
 
-You can view the expiration status of assets in their [!UICONTROL Card View]. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
+Sie können den Gültigkeitsstatus der Assets in der [!UICONTROL Kartenansicht] anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -58,7 +58,7 @@ You can view the expiration status of assets in their [!UICONTROL Card View]. Ab
 >
 >In den Listen- und Spaltenansichten wird der Gültigkeitsstatus der Assets nicht angezeigt.
 
-## Ablauf des Asset-Links {#asset-link-expiration}
+## Ablauf des Asset-Links   {#asset-link-expiration}
 
 Beim Teilen von Assets über Links können Administratoren und Editoren über **[!UICONTROL Ablauf]** im Feld für die **[!UICONTROL Linkfreigabe]** ein Datum und eine Uhrzeit des Ablaufs einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
@@ -72,19 +72,19 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Abgelaufene oder nicht abgelaufene Assets, die durch eine Lizenz geschützt sind, können von allen Benutzern angezeigt werden. Jedoch ist der Download und die Verwendung von abgelaufenen genehmigten Assets begrenzt. Informationen zum Verhalten von abgelaufenen lizenzierten Assets und den zulässigen Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen in Bezug auf abgelaufene Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Die Vereinbarung wird angehängt, indem die [Metadateneigenschaften des Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets festgelegt werden.
 
 Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite [!UICONTROL Copyright-Management] weitergeleitet.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. Wenn Sie die Lizenzvereinbarung nicht annehmen, wird die Schaltfläche [!UICONTROL Download] nicht aktiviert.
+Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. Wenn Sie die Lizenzvereinbarung nicht annehmen, wird die Schaltfläche [!UICONTROL Herunterladen] nicht aktiviert.
 
 ![](assets/licensed-asset-download-2.png)
 
 Falls die Auswahl mehrere geschützte Assets enthält, wählen Sie jeweils eines aus, nehmen Sie die Lizenzvereinbarung an und fahren Sie mit dem Herunterladen des Assets fort.
 
-## Erstellen von Berichten zu abgelaufenen Assets {#generate-report-about-expired-assets}
+## Erstellen von Berichten zu abgelaufenen Assets   {#generate-report-about-expired-assets}
 
 Administratoren können einen Bericht erstellen und herunterladen, in dem alle Assets aufgeführt sind, die innerhalb eines bestimmten Zeitraums abgelaufen sind. Dieser Bericht enthält ausführliche Informationen zu den abgelaufenen Assets, etwa Größe, Art, Pfad mit der angegebenen Position des Assets in der Asset-Hierarchie, Ablaufdatum des Assets und dessen Veröffentlichungszeitpunkt. Die Spalten dieses Berichts können angepasst werden, um basierend auf den Benutzeranforderungen mehr Daten anzuzeigen.
 
