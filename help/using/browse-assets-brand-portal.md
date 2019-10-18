@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
 topic-tags: Einführung
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 # Durchsuchen von Assets in Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal bietet zahlreiche Funktionen und Benutzeroberflächen-Elemente, die das Durchsuchen von Ressourcen, Navigieren in Assethierarchien und Suchen nach Assets unter Verwendung verschiedener Anzeigeoptionen erleichtern.
+AEM Assets Brand Portal bietet zahlreiche Funktionen und Benutzeroberflächen-Elemente, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets unter Verwendung verschiedener Anzeigeoptionen erleichtern.
 
-Das AEM-Logo in der AEM-Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin Tools-Bereich.
+Das AEM-Logo oben in der AEM-Symbolleiste erleichtert Admin-Benutzern den Zugriff auf den Admin Tools-Bereich.
 
 ![](assets/aemlogo.png)
 
@@ -36,7 +36,7 @@ Sie können Assets in jeder der Ansichten, die im Ansichtselektor oben rechts in
 
 ## Anzeigen und Auswählen von Ressourcen {#viewing-and-selecting-resources}
 
-Die Anzeige, Navigation und Auswahl der einzelnen Ansichten sind konzeptionell gleich, weisen aber je nach Ansicht, die Sie verwenden, geringe Unterschiede im Umgang auf.
+Anzeige, Navigation und Auswahl sind grundsätzlich in allen Ansichten gleich. Je nach verwendeter Ansicht kommt es aber zu geringfügigen Abweichungen beim Umgang.
 
 Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblättern und auswählen (für weitere Aktionen):
 
@@ -48,7 +48,7 @@ Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblätt
 
 ![](assets/card-view.png)
 
-In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind die folgenden Details angegeben:
+In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind   die folgenden Details angegeben:
 
 * eine visuelle Darstellung des Assets bzw. Ordners
 * Typ
@@ -58,7 +58,7 @@ In der Kartenansicht werden Informationskarten für jedes Element auf der aktuel
 * Größe
 * Dimensionen
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Sie können in der Hierarchie nach unten navigieren, indem Sie auf die Karten tippen/klicken (vermeiden Sie dabei die Schnellzugriffe) und über die [Breadcrumb-Navigation im Header](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader) wieder nach oben navigieren.
 
 ![](assets/cardquickactions.png)
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Karten von Ordnern in der Kartenansicht zeigen Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) Informationen zur Ordnerhierarchie an. Diese Funktion informiert die Benutzer über den Speicherort der Ordner, auf die sie zugreifen, in Bezug auf die übergeordnete Hierarchie.
 Informationen zur Ordnerhierarchie sind besonders hilfreich, um die Ordner zu unterscheiden, deren Namen anderen Ordnern ähneln, die in einer anderen Ordnerhierarchie freigegeben sind. Wenn Benutzer ohne Administratorrechte nicht die Ordnerstruktur der für sie freigegebenen Assets berücksichtigen, können Assets bzw. Ordner mit denselben Namen für Verwirrung sorgen.
 
-* Die auf den entsprechenden Karten angezeigten Pfade werden so gekürzt, dass sie zu den Kartengrößen passen. Benutzer können den vollständigen Pfad jedoch als QuickInfo beim Bewegen des Mauszeigers über den abgeschnittenen Pfad anzeigen.
+* Die auf den entsprechenden Karten angezeigten Pfade werden so gekürzt, dass sie zu den Kartengrößen passen. Die Benutzer können den vollständigen Pfad jedoch in einer QuickInfo sehen, wenn sie den Mauszeiger über den verkürzten Pfad bewegen.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ Informationen zur Ordnerhierarchie sind besonders hilfreich, um die Ordner zu un
 
 Die Option „Überblick“ steht Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) zum Anzeigen von Asset-Eigenschaften von ausgewählten Assets/Ordnern zur Verfügung. Die Option „Überblick“ finden Sie an folgenden Stellen:
 
-* in der Symbolleiste oben bei Auswahl eines Assets/Ordners.
-* in der Dropdown-Liste zur Auswahl der Schienenauswahl.
+* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
+* In der Dropdown-Liste des ausgewählten Leistenselektors
 
-On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
+Bei Auswahl der Option [!UICONTROL Überblick] bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 #### Anzeigeeinstellungen in der Kartenansicht
 
-[!UICONTROL Das Dialogfeld „Anzeigeeinstellungen“ wird bei Auswahl der Option „Anzeigeeinstellungen“ im Ansichtselektor geöffnet. ]**** Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und Einfluss auf die Anzahl der angezeigten Miniaturansichten nehmen.
+Das Dialogfeld [!UICONTROL Anzeigeeinstellungen] wird bei Auswahl der Option **[!UICONTROL Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und Einfluss auf die Anzahl der angezeigten Miniaturansichten nehmen.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,7 +107,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 * Ordnerpfad, der die Asset-Hierarchie anzeigt<sup>*</sup>
 * Datum der Veröffentlichung des Assets in Brand Portal
 
-* Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+* Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. Sie können die Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen tippen/klicken und mithilfe der [Breadcrumbs in der Kopfzeile](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader) wieder nach oben navigieren.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Anzeigeeinstellungen in der Listenansicht
 
-Die Listenansicht zeigt das Asset [!UICONTROL Name] standardmäßig in der ersten Spalte an. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
+Die Listenansicht zeigt das Asset [!UICONTROL Name] standardmäßig in der ersten Spalte an. Darüber hinaus werden weitere Informationen wie der [!UICONTROL Titel], das [!UICONTROL Gebietsschema], der [!UICONTROL Typ], die [!UICONTROL Dimensionen], die [!UICONTROL Größe], die [!UICONTROL Bewertung] und der Veröffentlichungsstatus des Assets angezeigt. Sie können jedoch die anzuzeigenden Spalten über die [!UICONTROL Anzeigeeinstellungen] auswählen.
 
 ![](assets/list-view-setting.png)
 
@@ -228,11 +228,11 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## Inhaltsstruktur {#content-tree}
+## Inhaltsstruktur   {#content-tree}
 
 Verwenden Sie zusätzlich zu diesen Ansichten die Strukturansicht, um einen Drilldown der Asset-Hierarchie durchzuführen, während Sie die gewünschten Assets oder Ordner anzeigen und auswählen.
 
-Um die Baumansicht zu öffnen, tippen/klicken Sie auf die Schienenauswahl oben links und wählen Sie den **[!UICONTROL Inhaltsbaum]aus dem Menü aus.**
+Um die Strukturansicht zu öffnen, tippen bzw. klicken Sie auf den Leistenselektor oben links und wählen Sie die Option **[!UICONTROL Inhaltsstruktur]** aus dem Menü aus.
 
 ![](assets/contenttree.png)
 
@@ -240,13 +240,13 @@ Navigieren Sie in der Inhaltshierarchie zum gewünschten Asset.
 
 ![](assets/content-tree.png)
 
-## Asset-Details {#asset-details}
+## Asset-Details   {#asset-details}
 
 Auf der Seite „Details“ eines Assets können Sie das Asset anzeigen und herunterladen, einen Link zum Asset freigeben, das Asset in eine Sammlung verschieben oder dessen Seite „Eigenschaften“ anzeigen. Sie können nacheinander auch durch die Seite „Details“ anderer Assets im selben Ordner navigieren.
 
 ![](assets/asset-detail.png)
 
-Um die Metadaten des Assets anzuzeigen oder die verschiedenen Darstellungen anzuzeigen, verwenden Sie die Leiste-Auswahl auf der Seite mit den Asset-Details.
+Zeigen Sie mithilfe des Leistenselektors auf der Seite „Details“ des Assets die Metadaten des Assets oder dessen zahlreiche Ausgabeformate an.
 
 ![](assets/asset-overview.png)
 
@@ -254,7 +254,7 @@ Sie können alle verfügbaren Ausgabeformate des Assets auf der Seite „Details
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
+Öffnen Sie die Seite „Asset-Eigenschaften“ mit der Option **[!UICONTROL Eigenschaften (p)]** in der oberen Symbolleiste.
 
 ![](assets/asset-properties.png)
 
