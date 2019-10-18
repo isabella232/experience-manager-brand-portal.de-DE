@@ -8,7 +8,7 @@ topic-tags: veröffentlichen
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: Referenz
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-In diesem Artikel wird beschrieben, wie Vorgaben, Metadatenschemata und benutzerdefinierte Suchfacetten aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden. Publishing capability enables organizations to reuse the image presets, metadata schemas, and search facets created/modified at AEM Author instance thereby reducing duplicate efforts.
+In diesem Artikel wird beschrieben, wie Vorgaben, Metadatenschemata und benutzerdefinierte Suchfacetten aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden. Mit den Veröffentlichungsfunktionen können Unternehmen die Bildvorgaben, Metadatenschemata und Suchfacetten wiederverwenden, die in der AEM-Autoreninstanz erstellt/geändert wurden. So wird der Aufwand für das Duplizieren verringert.
 
 >[!NOTE]
 >
@@ -24,16 +24,16 @@ In diesem Artikel wird beschrieben, wie Vorgaben, Metadatenschemata und benutzer
 
 ## Veröffentlichen von Bildvorgaben in Brand Portal {#publish-image-presets-to-brand-portal}
 
-Bildvorgaben sind eine Gruppe von Größenangaben und Formatierungsbefehlen, die zum Zeitpunkt der Bildbereitstellung angewendet werden. Bildvorgaben können in Brand Portal erstellt und geändert werden. Wenn die AEM Author-Instanz im dynamischen Medienmodus ausgeführt wird, können Benutzer auch Vorgaben im AEM Author erstellen und sie im AEM Assets Brand Portal veröffentlichen, um zu vermeiden, dass dieselben Vorgaben im Markenportal erneut erstellt werden.\
-Nachdem die Vorgabe erstellt wurde, wird sie als dynamische Wiedergabe in der Wiedergabeschiene der Asset-Detailseite und im Dialogfeld „Download“ angezeigt.
+Bildvorgaben sind eine Gruppe von Größenangaben und Formatierungsbefehlen, die zum Zeitpunkt der Bildbereitstellung angewendet werden. Bildvorgaben können in Brand Portal erstellt und geändert werden. Wenn eine AEM-Autoreninstanz im Dynamic Media-Modus ausgeführt wird, können Benutzer Vorgaben in der AEM-Autoreninstanz erstellen und in AEM Assets Brand Portal veröffentlichen. So wird verhindert, dass dieselben Vorgaben in Brand Portal doppelt erstellt werden.\
+Nachdem die Vorgabe erstellt wurde, wird sie als dynamisches Ausgabeformat in der Asset-Ausgabeformatleiste und im Dialogfeld „Herunterladen“ angezeigt.
 
 >[!NOTE]
 >
->If AEM Author instance is not running in [!UICONTROL Dynamic Media Mode] (customer has not purchased Dynamic Media), then the [!UICONTROL Pyramid TIFF]  rendition of the assets are not created at the time of upload. Image presets or dynamic renditions work on [!UICONTROL Pyramid TIFF] of an asset, so if [!UICONTROL Pyramid TIFF] is not available on AEM Author instance then it is not available on Brand Portal as well. Daher sind in der Wiedergabeschiene der Asset-Detailseite und im Dialogfeld „Download“ keine dynamischen Wiedergaben verfügbar.
+>Wenn die AEM-Autoreninstanz nicht im [!UICONTROL Dynamic Media-Modus] ausgeführt wird (Kunde hat Dynamic Media nicht gekauft), wird das [!UICONTROL PTIFF]-Ausgabeformat (Pyramid TIFF) der Assets nicht zum Zeitpunkt des Uploads erstellt. Bildvorgaben oder dynamische Ausgabeformate funktionieren mit dem [!UICONTROL PTIFF]-Ausgabeformat eines Assets. Wenn die [!UICONTROL PTIFF]-Ausgabeformate also in der AEM-Autoreninstanz nicht verfügbar ist, ist sie auch in Brand Portal nicht verfügbar. Daher sind in der Ausgabeformatleiste der Asset-Detailseite und im Dialogfeld „Download“ keine dynamischen Ausgabeformate verfügbar.
 
-So veröffentlichen Sie Bildvorgaben in Brand Portal:
+Gehen Sie wie folgt vor, um Bildvorgaben in Brand Portal zu veröffentlichen:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **[!UICONTROL Assets]** &gt; **[!UICONTROL Image Presets]**.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken oder tippen Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets]** &gt; **[!UICONTROL Bildvorgaben]**.
 1. Wählen Sie in der Liste der Bildvorgaben eine oder mehrere Bildvorgaben aus und klicken/tippen Sie auf **[!UICONTROL In Brand Portal veröffentlichen]**.
 
 ![](assets/publishpreset.png)
@@ -42,9 +42,9 @@ So veröffentlichen Sie Bildvorgaben in Brand Portal:
 >
 >Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]** klicken, werden die Bildvorgaben zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
 
-Rückgängigmachen der Veröffentlichung einer Bildvorgabe aus dem Markenportal
+Gehen Sie wie folgt vor, um die Veröffentlichung von Bildvorgaben in Brand Portal rückgängig zu machen:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken oder tippen Sie dann auf das **[!UICONTROL Werkzeugsymbol]** und navigieren Sie zu **[!UICONTROL Assets &gt; Bildvorgaben]**.
 1. Wählen Sie eine Bildvorgabe aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]aus.**
 
 ## Veröffentlichen des Metadatenschemas in Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -53,23 +53,23 @@ Im Metadatenschema sind das Layout und die Eigenschaften beschrieben, die auf de
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-If users have edited the default schema on AEM Author instance and are willing to use the same schema as default schema on the Brand Portal, they can simply publish the metadata schema forms to Brand Portal. In einem solchen Szenario wird das Standardschema im Markenportal durch die Standardschemata überschrieben, die von der AEM Author-Instanz veröffentlicht wurden.
+Wenn Benutzer das Standardschema in der AEM-Autoreninstanz bearbeitet haben und es als Standardschema in Brand Portal verwenden möchten, können sie die Metadaten-Schemaformulare einfach in Brand Portal veröffentlichen. In einem solchen Szenario wird das Standardschema in Brand Portal durch das Standardschema überschrieben, das über die AEM-Autoreninstanz veröffentlicht wurde.
 
-Wenn Benutzer ein benutzerdefiniertes Schema auf der AEM Author-Instanz erstellt haben, können sie das benutzerdefinierte Schema im Markenportal veröffentlichen, anstatt das gleiche benutzerdefinierte Schema dort erneut zu erstellen. Benutzer können dieses benutzerdefinierte Schema auf jeden Ordner und jede Sammlung in Brand Portal anwenden.
+Wenn Benutzer ein benutzerdefiniertes Schema in der AEM-Autoreninstanz erstellt haben, können sie das benutzerdefinierte Schema in Brand Portal veröffentlichen, anstatt dort dasselbe Schema noch einmal zu erstellen. Benutzer können dieses benutzerdefinierte Schema auf jeden Ordner und jede Sammlung in Brand Portal anwenden.
 
 >[!NOTE]
 >
->Default schemas cannot be published to the Brand Portal if they are locked at the AEM instance (that is they are unedited).
+>Standardschemata können nicht in Brand Portal veröffentlicht werden, wenn sie in der AEM-Instanz gesperrt sind (d. h. unbearbeitet sind).
 
 ![](assets/default-schema-form.png)
 
 >[!NOTE]
 >
->Wenn für einen Ordner ein Schema auf die AEM Author-Instanz angewendet wurde, muss dasselbe Schema auch im Markenportal vorhanden sein, damit die Konsistenz in der Seite mit den Asset-Eigenschaften in AEM Author und Brand Portal gewahrt bleibt.
+>Wenn auf einen Ordner in der AEM-Instanz ein Schema angewendet wird, muss das gleiche Schema auch in Brand Portal vorhanden sein, damit die Seite „Asset-Eigenschaften“ in der AEM-Autoreninstanz und in Brand Portal konsistent ist.
 
-So veröffentlichen Sie ein Metadatenschema aus der AEM-Autoreninstanz in Brand Portal:
+Gehen Sie wie folgt vor, um ein Metadatenschema aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets &gt; Metadatenschemata]**.
 1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL In Brand Portal veröffentlichen]aus.**
 
 >[!NOTE]
@@ -78,25 +78,25 @@ So veröffentlichen Sie ein Metadatenschema aus der AEM-Autoreninstanz in Brand 
 
 So machen Sie die Veröffentlichung eines Metadatenschemas in Brand Portal rückgängig:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets &gt; Metadatenschemata]**.
 1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]aus.**
 
 ## Veröffentlichen von Suchfacetten in Brand Portal {#publish-search-facets-to-brand-portal}
 
-Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Suchfacetten bieten eine größere Granularität für Suchvorgänge im Markenportal. Alle dem Suchformular [hinzugefügten Eigenschaften](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) sind für Benutzer als Suchfacetten in Suchfiltern verfügbar.
+Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Die Suchfacetten ermöglichen detailliertere Suchen in Brand Portal. Alle [hinzugefügten Eigenschaften](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) im Suchformular stehen Benutzern als Suchfacetten in Suchfiltern zur Verfügung.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-If you are willing to use custom search form **[!UICONTROL Assets Admin Search Rail]** from AEM Author instance, then instead of re-creating the same form on Brand Portal you can publish the customized search form from AEM Author instance to Brand Portal.
+Wenn Sie das benutzerdefinierte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]** aus der AEM-Autoreninstanz verwenden möchten, ist es nicht notwendig, dasselbe Formular in Brand Portal erneut zu erstellen. Stattdessen können Sie das angepasste Suchformular aus der AEM-Autoreninstanz in Brand Portal veröffentlichen.
 
 >[!NOTE]
 >
->Locked search form **[!UICONTROL Assets Admin Search Rail]** on AEM Assets cannot be published to Brand Portal unless it is edited. Nach der Bearbeitung und Veröffentlichung im Markenportal überschreibt dieses Suchformular das Suchformular im Markenportal.
+>Das gesperrte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]** aus AEM Assets kann nicht in Brand Portal veröffentlicht werden, es sei denn, es wurde bearbeitet. Sobald dieses Suchformular bearbeitet und in Brand Portal veröffentlicht wurde, wird damit das Suchformular in Brand Portal überschrieben.
 
-So veröffentlichen Sie die bearbeitete Suchfacette aus der AEM-Autoreninstanz in Brand Portal:
+Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
-1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Search Forms]**.
+1. Tippen/klicken Sie auf das AEM-Logo und navigieren Sie zu **[!UICONTROL Tools]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Suchformulare]**.
 1. Wählen Sie das bearbeitete Suchformular aus und wählen Sie **[!UICONTROL In Brand Portal veröffentlichen aus]**.
 
    >[!NOTE]
@@ -105,7 +105,7 @@ So veröffentlichen Sie die bearbeitete Suchfacette aus der AEM-Autoreninstanz i
 
 So machen Sie die Veröffentlichung von Suchformularen in Brand Portal rückgängig:
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL General &gt; Search Forms]**.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Allgemein &gt; Suchformulare]**.
 1. Wählen Sie das Suchformular aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 >[!NOTE]
@@ -114,8 +114,8 @@ So machen Sie die Veröffentlichung von Suchformularen in Brand Portal rückgän
 
 ### Beschränkungen {#limitations}
 
-1. Few search predicates are not applicable to search filters on the Brand Portal. Wenn diese Sucheigenschaften als Teil des Suchformulars aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden, werden sie herausgefiltert. Die Benutzer sehen daher weniger Prognosen im veröffentlichten Formular im Markenportal. Weitere Informationen finden Sie in der [Liste aller verwendbaren Sucheigenschaften in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Nur wenige Sucheigenschaften können nicht für Suchfilter in Brand Portal verwendet werden. Wenn diese Sucheigenschaften als Teil des Suchformulars aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden, werden sie herausgefiltert. Benutzer sehen daher eine geringere Anzahl von Eigenschaften in dem Formular, das in Brand Portal veröffentlicht wurde. Weitere Informationen finden Sie in der [Liste aller verwendbaren Sucheigenschaften in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. For [!UICONTROL Options Predicate], if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. Diese zusätzlichen Pfade und Optionen werden nicht mit dem Suchformular in Brand Portal veröffentlicht. In this case, users can select the **[!UICONTROL Manual]** option in **[!UICONTROL Add Options]** within **[!UICONTROL Options Predicate]** to add these options manually at Brand Portal.
+1. Wird bei der [!UICONTROL Options-Eigenschaft] ein benutzerdefinierten Pfad verwendet, um Optionen in der AEM-Autoreninstanz zu lesen, funktioniert dies in Brand Portal nicht. Diese zusätzlichen Pfade und Optionen werden nicht mit dem Suchformular in Brand Portal veröffentlicht. In diesem Fall können Benutzer die Option **[!UICONTROL Manuell]** unter **[!UICONTROL Optionen hinzufügen]** in der **[!UICONTROL Options-Eigenschaft]** auswählen, um diese Optionen manuell zu Brand Portal hinzuzufügen.
 
 ![](assets/options-predicate-manual.png)
