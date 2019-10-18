@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: Administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Arbeiten mit Berichten {#work-with-reports}
 
-The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Administratoren können den Brand Portal-Verwendungsbericht anzeigen, der immer auf der Seite „Asset-Berichte“ verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
+Die Berichterstellungsfunktion ist hilfreich, um die Brand Portal-Nutzung zu bewerten und festzustellen, wie interne und externe Benutzer mit genehmigten Assets interagieren. Administratoren können den Brand Portal-Verwendungsbericht anzeigen, der immer auf der Seite „Asset-Berichte“ verfügbar ist. Auch Berichte über Benutzeranmeldungen und heruntergeladene, abgelaufene, veröffentlichte und über Links freigegebene Assets können erzeugt und auf der Seite „Asset-Berichte“ angezeigt werden. Diese Berichte sind hilfreich bei der Analyse der Ressourcenbereitstellung, mit deren Hilfe Sie wichtige Erfolgsmetriken ableiten können, um die Akzeptanz genehmigter Ressourcen innerhalb und außerhalb Ihrer Organisation zu messen.
 
 Die Berichtverwaltungsoberfläche ist intuitiv und enthält detaillierte Optionen und Steuerungen, mit denen Sie auf gespeicherte Berichte zugreifen können. Über die Seite „Asset-Berichte“, auf der alle bisher erstellten Berichte aufgelistet werden, können Sie Berichte anzeigen, herunterladen oder löschen.
 
@@ -28,11 +28,11 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 
    ![](assets/access-asset-reports.png)
 
-1. Greifen Sie auf den **[!UICONTROL Nutzungsbericht]und andere generierte Berichte von der Seite „Asset-Berichte“ aus zu.**
+1. Greifen Sie auf den **[!UICONTROL Verwendungsbericht]** und andere generierte Berichte von der Seite „Asset-Berichte“ aus zu.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    ![](assets/usage-report.png)
 
-   Der Bericht [!UICONTROL Benutzeranmeldungen] bietet Informationen zu Benutzern, die sich beim Portal angemeldet haben. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   Der Bericht [!UICONTROL Benutzeranmeldungen] bietet Informationen zu Benutzern, die sich bei Brand Portal angemeldet haben. Der Bericht enthält die Anzeigenamen, die E-Mail-IDs, die Rollen (Admin, Betrachter, Bearbeiter, Gast), die Gruppen, Angaben zur letzten Anmeldung, den Aktivitätsstatus und die Anzahl der Anmeldungen von jedem Benutzer seit der Bereitstellung von Brand Portal 6.4.2 bis zum Zeitpunkt der Berichterstellung.
 
    ![](assets/user-logins.png)
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    >[!NOTE]
    >
-   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. Wenn ein Benutzer einen Ordner mit Assets heruntergeladen hat, werden der Ordner bzw. die Assets im Ordner nicht im Bericht angezeigt.
+   >Der Asset-Bericht [!UICONTROL Download] zeigt nur Assets an, die einzeln über Brand Portal ausgewählt und heruntergeladen wurden. Wenn ein Benutzer einen Ordner mit Assets heruntergeladen hat, werden der Ordner bzw. die Assets im Ordner nicht im Bericht angezeigt.
 
    Der Bericht [!UICONTROL Ablauf] zeigt alle Assets (inklusive Details) an, die in einem bestimmten Zeitraum abgelaufen sind.
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
    >
    >Der Bericht „Veröffentlichen“ zeigt keine Informationen zu Inhaltsfragmenten an, da diese nicht in Brand Portal veröffentlicht werden können.
 
-   Der Bericht zur [!UICONTROL Linkfreigabe listet alle Assets auf, die über Links von der Brand Portal-Benutzeroberfläche aus in einem bestimmten Zeitrahmen freigegeben wurden. ] Der Bericht beinhaltet auch Informationen, wann und von welchem Benutzer das Asset über den Link freigegeben wurde und wann der Link abläuft, sowie Angaben zur Anzahl freigegebener Links für den Mandanten (und Benutzer, für die der Asset-Link freigegeben wurde). Die Spalten im Bericht zur Linkfreigabe können nicht angepasst werden.
+   Der Bericht zur [!UICONTROL Linkfreigabe] listet alle Assets auf, die über Links von der Brand Portal-Benutzeroberfläche aus in einem bestimmten Zeitrahmen freigegeben wurden. Der Bericht beinhaltet auch Informationen, wann und von welchem Benutzer das Asset über den Link freigegeben wurde und wann der Link abläuft, sowie Angaben zur Anzahl freigegebener Links für den Mandanten (und Benutzer, für die der Asset-Link freigegeben wurde). Die Spalten im Bericht zur Linkfreigabe können nicht angepasst werden.
 
    ![](assets/link-share-report.png)
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
    >Der Bericht zur Linkfreigabe zeigt keine Benutzer an, die Zugriff auf das über den Link freigegebene Asset haben oder die das Asset über den Link heruntergeladen haben.
    >
    >
-   >Zum Nachverfolgen von Downloads über den freigegebenen Link müssen Sie den Bericht „Download“ nach der Auswahl der Option **[!UICONTROL Nur Downloads über Link-Freigabe]** auf der Seite **Bericht erstellen]erstellen.[!UICONTROL ** Der Benutzer (heruntergeladen von) ist in diesem Fall jedoch anonym.
+   >Für das Tracking von Downloads über den freigegebenen Link müssen Sie den Bericht „Download“ nach der Auswahl der Option **[!UICONTROL Nur Downloads über Link-Freigabe]** auf der Seite **[!UICONTROL Bericht erstellen]** erstellen. Der Benutzer (heruntergeladen von) ist in diesem Fall jedoch anonym.
 
 ## Erstellen von Berichten {#generate-reports}
 
@@ -95,7 +95,7 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. Tippen/klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 
    ![](assets/asset-reports.png)
 
@@ -116,8 +116,8 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
    >
    >Die Sonderzeichen # und % im Berichtstitel werden bei der Berichtserstellung durch einen Bindestrich (-) ersetzt.
 
-1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-1. Aktivieren oder deaktivieren Sie dazu die entsprechenden Kontrollkästchen. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. Die folgende Abbildung veranschaulicht die Auswahl von Standardspalten im Bericht „Download“.
+1. Tippen/klicken Sie auf **[!UICONTROL Weiter]**, um die Spalten für die Berichte „Download“, „Ablauf“ und „Veröffentlichen“ zu konfigurieren.
+1. Aktivieren oder deaktivieren Sie dazu die entsprechenden Kontrollkästchen. Wenn Sie zum Beispiel im Bericht [!UICONTROL Download] die Namen der Benutzer (die Assets heruntergeladen haben) anzeigen möchten, aktivieren Sie **[!UICONTROL Heruntergeladen von]**. Die folgende Abbildung veranschaulicht die Auswahl von Standardspalten im Bericht „Download“.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,7 +126,7 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
    Gehen Sie wie folgt vor, um benutzerdefinierte Spalten in den Berichten „Download“, „Veröffentlichen“ oder „Ablauf“ hinzuzufügen :
 
    1. Um eine benutzerdefinierte Spalte anzuzeigen, tippen/klicken Sie auf **[!UICONTROL Hinzufügen]** innerhalb von [!UICONTROL Benutzerdefinierte Spalten].
-   1. Geben Sie im Feld **[!UICONTROL Spaltenname]den Namen der Spalte ein.**
+   1. Geben Sie im Feld **[!UICONTROL Spaltenname]** den Namen der Spalte ein.
    1. Wählen Sie die Eigenschaftsauswahl, um auszuwählen, welche Eigenschaft der Spalte zugewiesen werden soll.
 
       ![](assets/property-picker.png)
@@ -142,18 +142,18 @@ Alternativ können Sie den Pfad im Feld „Eigenschaftspfad“ eingeben.
 
 Führen Sie einen der folgenden Schritte aus, um einen Bericht zu speichern und als CSV-Datei herunterzuladen:
 
-* Wählen Sie auf der Seite „Asset-Berichte“ einen Bericht aus und tippen/klicken Sie oben in der Symbolleiste auf **[!UICONTROL Download].**
+* Wählen Sie auf der Seite „Asset-Berichte“ einen Bericht aus und tippen/klicken Sie oben in der Symbolleiste auf **[!UICONTROL Download]**.
 
 ![](assets/download-asset-report.png)
 
-* Öffnen Sie auf der Seite „Asset-Berichte“ einen Bericht. Wählen Sie oben auf der Berichtseite die Option **[!UICONTROL Download].**
+* Öffnen Sie auf der Seite „Asset-Berichte“ einen Bericht. Wählen Sie oben auf der Berichtseite die Option **[!UICONTROL Download]** aus.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Löschen von Berichten {#delete-reports}
 
-Zum Löschen eines vorhandenen Berichts müssen Sie den Bericht auf der Seite **[!UICONTROL Asset-Berichte]** auswählen und dann in der Symbolleiste am oberen Rand auf **Löschen]tippen bzw. klicken.[!UICONTROL **
+Zum Löschen eines vorhandenen Berichts müssen Sie den Bericht auf der Seite **[!UICONTROL Asset-Berichte]** auswählen und dann oben in der Symbolleiste auf **[!UICONTROL Löschen]** tippen bzw. klicken.
 
 >[!NOTE]
 >
->Der Bericht [!UICONTROL Verwendung] kann nicht gelöscht werden.
+>Der Bericht [!UICONTROL Nutzung] kann nicht gelöscht werden.
