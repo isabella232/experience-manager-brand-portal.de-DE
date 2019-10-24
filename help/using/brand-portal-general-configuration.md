@@ -9,8 +9,8 @@ topic-tags: Administration
 content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
@@ -52,7 +52,7 @@ So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
 ## Löschen von Assets in Brand Portal durch Administratoren zulassen   {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-Mit der Konfiguration **[!UICONTROL Löschen von Assets in Brand Portal durch Administratoren zulassen]** können Unternehmen Administratoren erlauben, Assets und Ordner aus Brand Portal zu löschen.
+**[!UICONTROL Mit der Konfiguration Löschen von Assets in Brand Portal durch Administratoren zulassen]** können Unternehmen Administratoren erlauben, Assets und Ordner aus Brand Portal zu löschen.
 
 ## Zulassen der Erstellung öffentlicher Sammlungen durch Benutzer ohne Administratorrechte {#allow-public-collections-creation-by-non-admins}
 
