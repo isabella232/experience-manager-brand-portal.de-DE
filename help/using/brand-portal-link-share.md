@@ -9,8 +9,8 @@ content-type: Referenz
 topic-tags: Freigabe
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -88,16 +88,17 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
    >[!NOTE]
    >
    >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die lizenzierten Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]**, und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden nur die nicht lizenzierten Assets heruntergeladen.\
-   >Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dies geschieht, indem die [Metadateneigenschaften des Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets] festgelegt werden.
+   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
-   Das Dialogfeld [!UICONTROL Herunterladen] wird angezeigt. <br />
+   Das Dialogfeld **[!UICONTROL Herunterladen]wird angezeigt.**
+
    ![](assets/download-linkshare.png)
 
    * Wählen Sie zum Beschleunigen des Downloads der als Link freigegebenen Asset-Dateien die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#download-workflow-using-file-accelerator). Weitere Informationen zur Beschleunigung von Asset-Downloads in Brand Portal finden Sie in der [Anleitung zum Beschleunigen von Downloads von Brand Portal](../using/accelerated-download.md).
-[!UICONTROL
-1. Um die Ausgabeformate der Assets zusätzlich zu den Assets über den freigegebenen Link herunterzuladen, wählen Sie die Option **[!UICONTROL Ausgabeformat(e)]** aus. Wenn Sie dies tun, wird die standardmäßig aktivierte Option **Systemausgaben ausschließen]** angezeigt. Dies verhindert, dass vorkonfigurierte Ausgabeformate zusammen mit genehmigten Assets oder deren benutzerdefinierten Ausgabeformate heruntergeladen werden.
+
+1. Um die Ausgabeformate der Assets zusätzlich zu den Assets über den freigegebenen Link herunterzuladen, wählen Sie die Option **[!UICONTROL Ausgabeformat(e)]** aus. Wenn Sie dies tun, wird die standardmäßig aktivierte Option **[!UICONTROL Systemwiedergabe ausschließen]angezeigt.** Dies verhindert, dass vorkonfigurierte Ausgabeformate zusammen mit genehmigten Assets oder deren benutzerdefinierten Ausgabeformate heruntergeladen werden.
 
    Wenn Sie jedoch automatisch erzeugte Ausgabeformate zusammen mit benutzerdefinierten Ausgabeformaten herunterladen möchten, deaktivieren Sie die Option **[!UICONTROL Systemausgaben ausschließen]**.
 
