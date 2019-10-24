@@ -9,8 +9,8 @@ topic-tags: Download installieren
 content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -32,9 +32,9 @@ Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * **[!UICONTROL Downloadbeschleunigung aktivieren]** (standardmäßig deaktiviert) muss unter [!UICONTROL Allgemeine Einstellungen] im Admin Tools-Bereich ausgewählt sein.
-* Port 33001 (TCP und UDP) ist in der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
+* Port 33001 (TCP und UDP) ist in der Firewall geöffnet. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
 * Installieren Sie Aspera Connect mit Administratorrechten.
-* Informationen zu den vom Aspera Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients//).
+* For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domänen {#download-domains}
 
@@ -89,7 +89,7 @@ Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorh
 
    ![](assets/aspera-not-launched.png)
 
-   Sie können die neueste Version von Aspera Connect auch von der Website [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]** aus und befolgen Sie die Anweisungen.
+   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
 
 1. **Installation des Aspera Connect Client**
 Um den IBM Aspera Connect Client zu installieren, führen Sie das Setup über die MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen dem Installationsassistenten.
@@ -104,7 +104,7 @@ Wenn Sie Aspera Connect zum ersten Mal verwenden, werden Sie vom Browser aufgefo
 1. Sie werden in einem Dialogfeld aufgefordert zu bestätigen, ob die Übertragung fortgesetzt werden soll oder nicht. Wählen Sie **[!UICONTROL Zulassen]**, um zu beginnen.
 Um dieses Dialogfeld zukünftig zu überspringen, aktivieren Sie **[!UICONTROL Meine Auswahl für alle Verbindungen mit diesem Host verwenden]**.
 Der Download beginnt. In einem Dialogfeld wird der Fortschritt des Downloads angezeigt. Über das Dialogfeld können Sie den Download **[!UICONTROL anhalten]**, **[!UICONTROL fortsetzen]** oder **[!UICONTROL abbrechen]**.
-Die Aspera Connect-Anwendung bietet im System ein Aktivitätsfenster, über das Benutzer alle Übertragungssitzungen anzeigen und verwalten können. Weitere Informationen finden Sie in der [Aspera Connect Client-Dokumentation](https://downloads.asperasoft.com/en/documentation/8).
+Die Aspera Connect-Anwendung bietet im System ein Aktivitätsfenster, über das Benutzer alle Übertragungssitzungen anzeigen und verwalten können. Weitere Informationen finden Sie in der [Dokumentation zum Aspera Connect-Client](https://downloads.asperasoft.com/en/documentation/8).
 
 ![](assets/aspera-activity-window.png)
 
@@ -145,15 +145,15 @@ Außerdem kann der Aspera Connect-Client so konfiguriert werden, dass er automat
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
 
-1. Vergewissern Sie sich, dass die Ports nicht blockiert sind. Besuchen Sie dazu die Website [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) von Ihrem Computer aus.
+1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
 
    Wenn die Ports nicht in Ordnung sind, kontaktieren Sie Ihr Netzwerkteam, um sicherzustellen, dass die Ports 33001 (TCP und UDP) nicht in der Firewall blockiert werden.
 
-1. Wenn die Ports einwandfrei funktionieren, vergewissern Sie sich anschließend, dass Ihr Netzwerk nicht langsam ist. Messen Sie dazu die verfügbare Bandbreite über [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Wenn die Ports einwandfrei funktionieren, vergewissern Sie sich anschließend, dass Ihr Netzwerk nicht langsam ist. Messen Sie dazu die verfügbare Bandbreite über [/](https://www.speedtest.net/)https://www.speedtest.net/.
 
    Ist die Brandbreite gering (1–10 MBit/s oder nur KBit/s), rufen Sie die Aspera-Voreinstellungen auf und versuchen Sie, die Bandbreite auf die verfügbare Bandbreite zu beschränken.
 
-1. Um festzustellen, ob die Downloads vom Aspera-Demoserver funktionieren, wählen Sie [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
+1. Um festzustellen, ob die Downloads vom Aspera-Demoserver funktionieren, wählen Sie [](https://demo.asperasoft.com/aspera/user)https://demo.asperasoft.com/aspera/user.\
    (Benutzername: asperaweb, Passwort: demoaspera)
 
 1. Wenn keiner der zuvor genannten Schritte den Fehler beheben kann, heben Sie die Auswahl der Option „Downloadbeschleunigung aktivieren“ auf und verwenden Sie die normale Download-Funktion.
