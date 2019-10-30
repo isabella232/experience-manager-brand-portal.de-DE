@@ -1,14 +1,14 @@
 ---
 title: Versionshinweise
 seo-title: Versionshinweise
-description: Hier erhalten Sie einen Einblick in die Funktionen, Verbesserungen, behobenen kritischen Probleme und bekannten Probleme in der Adobe Experience Manager Asset-Markenversion 6.4.5.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.5.
 seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.5.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: Referenz
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie einen Einblick in die neuen Funktionen, Verbesserungen, behobenen kritischen Probleme und bekannten Probleme in der Adobe Experience Manager Assets Brand Portal-Version 6.4.5.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.5.
 
 ## Versionshinweise {#release-information}
 
@@ -33,17 +33,17 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ### Neue Funktionen {#new-features-645}
 
-Brand Portal 6.4.5 ist eine Version der Funktion, die es Benutzern von Markenportalen (externen Agenturen/Teams) ermöglicht, Inhalte in das Markenportal hochzuladen und in AEM Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Diese Funktion wird als **[Asset-Sourcing im Markenportal](brand-portal-overiew-using-asset-sourcing.md)** bezeichnet und verbessert die Kundenerfahrung, indem eine bidirektionale Methode zur Verfügung gestellt wird, mit der Benutzer Assets beisteuern und für andere global verteilte Markenportal-Benutzer freigeben können.
+Brand Portal 6.4.5 ermöglicht es Brand Portal-Benutzern (externen Agenturen/Teams), Inhalte in Brand Portal hochzuladen und in AEM Assets zu veröffentlichen, ohne dass sie auf die Autorenumgebung zugreifen müssen. Diese Funktion wird als **[Asset-Beschaffung in Brand Portal](brand-portal-overiew-using-asset-sourcing.md)** bezeichnet und verbessert das Kundenerlebnis, indem eine bidirektionale Methode zur Verfügung gestellt wird, mit der Benutzer Assets beitragen und für andere global verteilte Brand Portal-Benutzer freigeben können.
 
-**Asset-Beschaffung im Markenportal**
+**Asset-Beschaffung in Brand Portal**
 
-Mit der Asset-Beschaffung können AEM-Benutzer (Administratoren/Nicht-Admin-Benutzer) neue Ordner mit einer zusätzlichen **Asset Contribution** -Eigenschaft erstellen, um sicherzustellen, dass der neue Ordner für die Asset-Übermittlung durch Brand Portal-Benutzer geöffnet wurde. Dadurch wird automatisch ein Workflow ausgelöst, der zwei weitere Unterordner im neu erstellten **Beitragsordner** mit dem Namen NEW und SHARED erstellt.
+Mit der Asset-Beschaffung können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens „NEU“ und „FREIGEGEBEN“ im neu erstellten **Beitragsordner** erstellt werden.
 
-Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine kurze Beschreibung der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Basiselementen in den **SHARED** -Ordner hochlädt, um sicherzustellen, dass BP-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann Benutzern des aktiven Markenportals dann Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** im Markenportal veröffentlicht wird.
+Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird.
 
-Nachdem der Benutzer den Inhalt im Ordner " **NEW** "hinzugefügt hat, kann er den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen.
+Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen.
 
-Weitere Informationen finden Sie unter [Asset-Beschaffung im Markenportal](brand-portal-asset-sourcing.md).
+Weitere Informationen finden Sie in [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md).
 
 ## Sprachen {#languages}
 
@@ -54,24 +54,24 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches   Portugiesisch
+* Brasilianisches Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen {#certified-platforms}
+## Zertifizierte Plattformen  {#certified-platforms}
 
-To ascertain which platforms are certified to run with this release of Brand Portal, refer to the **Support for Touch-optimized UI** column in the table in the **Supported Browsers for Authoring User Interface** section of [Technical Requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/de/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
 Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff benötigen, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-* [](https://daycare.day.com)[ Produktzugriff](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
