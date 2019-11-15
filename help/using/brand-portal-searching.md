@@ -9,7 +9,7 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
    *Asset-Suche mithilfe von Omnisearch*
 
-To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Suche mithilfe von Facetten im Bereich „Filter“{#search-using-facets-in-filters-panel}
 
@@ -62,7 +62,7 @@ So können Sie mit den verfügbaren [Suchfacetten](../using/brand-portal-search
 1. Wählen Sie im Bereich **[!UICONTROL Filter]** auf der linken Seite die entsprechenden Optionen aus, um die relevanten Filter anzuwenden.
 Verwenden Sie beispielsweise die folgenden Standardfilter:
 
-   * **[!UICONTROL Pfadbrowser]**, um Assets in einem bestimmten Verzeichnis zu suchen. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
+   * **[!UICONTROL Pfadbrowser]**, um Assets in einem bestimmten Verzeichnis zu suchen. Der Standardsuchpfad der Sucheigenschaft für den Pfadbrowser lautet `/content/dam/mac/<tenant-id>/`. Dieser kann durch Bearbeiten des Standardsuchformulars konfiguriert werden.
    >[!NOTE]
    >
    >Für Benutzer ohne Administratorrechte zeigt der [!UICONTROL Pfadbrowser] im Bereich [!UICONTROL Filter] nur die Inhaltsstruktur der Ordner (und der Vorgängerordner) an, die für sie freigegeben sind.\
@@ -107,7 +107,7 @@ Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinsch
 
 1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 
-## Suchen als Smart-Sammlung speichern   {#save-your-searches-as-smart-collection}
+## Suchen als Smart-Sammlung speichern    {#save-your-searches-as-smart-collection}
 
 Sie können die Sucheinstellungen als Smart-Sammlung speichern, damit Sie dieselbe Suche zu einem späteren Zeitpunkt wiederholen können, ohne die Einstellungen erneut vornehmen zu müssen.
 
