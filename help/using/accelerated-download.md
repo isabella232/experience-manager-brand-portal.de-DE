@@ -9,7 +9,7 @@ topic-tags: Download installieren
 content-type: Referenz
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -27,14 +27,14 @@ Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen 
 
 ![](assets/enable-fast-file-download.png)
 
-## Voraussetzungen für die Beschleunigung des Datei-Downloads   {#prerequisites-to-accelerate-file-download}
+## Voraussetzungen für die Beschleunigung des Datei-Downloads    {#prerequisites-to-accelerate-file-download}
 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * **[!UICONTROL Downloadbeschleunigung aktivieren]** (standardmäßig deaktiviert) muss unter [!UICONTROL Allgemeine Einstellungen] im Admin Tools-Bereich ausgewählt sein.
-* Port 33001 (TCP und UDP) ist in der Firewall geöffnet. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* Port 33001 (TCP und UDP) ist in der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installieren Sie Aspera Connect mit Administratorrechten.
-* For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Informationen zu den vom Aspera Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domänen {#download-domains}
 
@@ -53,7 +53,7 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 
 **Die tatsächlichen Ergebnisse variieren abhängig von Faktoren wie Netzwerkbandbreite, Serverlatenz und Client-Standort, unter Berücksichtigung der Tatsache, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
 
-| Client-Standort | Latenz zwischen Client und Server   (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
+| Client-Standort | Latenz zwischen Client und Server    (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | USA, Westküste (Nordkalifornien) | 18 | 36 | 57 |
 | USA, Westen (Oregon) | 42 | 36 | 57 |
@@ -85,11 +85,12 @@ Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müss
 1. **Herunterladen des Aspera Connect-Clients**
 
 
+
 Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorhandene installierte Aspera Connect-Client veraltet ist, wird eine Eingabeaufforderung auf der Browser-Seite angezeigt, über die Sie den systemspezifischen Aspera Connect-Client herunterladen können. Wählen Sie dazu die Option **[!UICONTROL Neueste Version herunterladen]** aus.
 
    ![](assets/aspera-not-launched.png)
 
-   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
+   Sie können die neueste Version von Aspera Connect auch von der Website [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]** aus und befolgen Sie die Anweisungen.
 
 1. **Installation des Aspera Connect Client**
 Um den IBM Aspera Connect Client zu installieren, führen Sie das Setup über die MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen dem Installationsassistenten.
@@ -127,7 +128,7 @@ Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, mü
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
-## Voreinstellungen für den Aspera Connect-Client   {#aspera-connect-client-preferences}
+## Voreinstellungen für den Aspera Connect-Client    {#aspera-connect-client-preferences}
 
 Im IBM Aspera Connect Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
 
@@ -141,19 +142,19 @@ Außerdem kann der Aspera Connect-Client so konfiguriert werden, dass er automat
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Beheben von Problemen mit der Downloadbeschleunigung   {#troubleshoot-issues-with-download-acceleration}
+## Beheben von Problemen mit der Downloadbeschleunigung    {#troubleshoot-issues-with-download-acceleration}
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
 
-1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
+1. Vergewissern Sie sich, dass die Ports nicht blockiert sind. Besuchen Sie dazu die Website [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) von Ihrem Computer aus.
 
    Wenn die Ports nicht in Ordnung sind, kontaktieren Sie Ihr Netzwerkteam, um sicherzustellen, dass die Ports 33001 (TCP und UDP) nicht in der Firewall blockiert werden.
 
-1. Wenn die Ports einwandfrei funktionieren, vergewissern Sie sich anschließend, dass Ihr Netzwerk nicht langsam ist. Messen Sie dazu die verfügbare Bandbreite über [/](https://www.speedtest.net/)https://www.speedtest.net/.
+1. Wenn die Ports einwandfrei funktionieren, vergewissern Sie sich anschließend, dass Ihr Netzwerk nicht langsam ist. Messen Sie dazu die verfügbare Bandbreite über [https://www.speedtest.net/](https://www.speedtest.net/).
 
-   Ist die Brandbreite gering (1–10 MBit/s oder nur KBit/s), rufen Sie die Aspera-Voreinstellungen auf und versuchen Sie, die Bandbreite auf die verfügbare Bandbreite zu beschränken.
+   Ist die Bandbreite gering (1–10 MBit/s oder nur KBit/s), rufen Sie die Aspera-Voreinstellungen auf und versuchen Sie, die Bandbreite auf die verfügbare Bandbreite zu beschränken.
 
-1. Um festzustellen, ob die Downloads vom Aspera-Demoserver funktionieren, wählen Sie [](https://demo.asperasoft.com/aspera/user)https://demo.asperasoft.com/aspera/user.\
+1. Um festzustellen, ob die Downloads vom Aspera-Demoserver funktionieren, wählen Sie [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
    (Benutzername: asperaweb, Passwort: demoaspera)
 
 1. Wenn keiner der zuvor genannten Schritte den Fehler beheben kann, heben Sie die Auswahl der Option „Downloadbeschleunigung aktivieren“ auf und verwenden Sie die normale Download-Funktion.
