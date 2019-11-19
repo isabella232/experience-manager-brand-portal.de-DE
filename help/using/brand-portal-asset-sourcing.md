@@ -1,45 +1,63 @@
 ---
-title: Asset-Beschaffung im Markenportal
-seo-title: Asset-Beschaffung im Markenportal
-description: Hier erhalten Sie einen Einblick in die Asset-Sourcing-Funktion, die im Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
-seo-description: Hier erhalten Sie einen Einblick in die Asset-Sourcing-Funktion, die im Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
+title: Asset-Beschaffung in Brand Portal
+seo-title: Asset-Beschaffung in Brand Portal
+description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion, die in Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
+seo-description: Hier erhalten Sie einen Einblick in die Asset-Beschaffungsfunktion, die in Adobe Experience Manager Assets Brand Portal veröffentlicht wurde.
 uuid: null
-content-type: Referenz
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
 
-# Übersicht über die Asset-Beschaffung {#overview-asset-sourcing-in-bp}
+# Überblick über die Asset-Beschaffung {#overview-asset-sourcing-in-bp}
 
-**Mit der Asset-Beschaffung** können AEM-Benutzer (Administratoren/Nicht-Admin-Benutzer) neue Ordner mit einer zusätzlichen **Asset Contribution** -Eigenschaft erstellen, um sicherzustellen, dass der neue Ordner für die Asset-Übermittlung durch Brand Portal-Benutzer geöffnet ist. Dadurch wird automatisch ein Workflow ausgelöst, der zwei weitere Unterordner im neu erstellten Ordner " **Contribution** "erstellt, die als **SHARED** und **NEW** bezeichnet werden. Der AEM-Administrator definiert die Anforderung dann, indem er eine kurze Beschreibung der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Basiselementen in den **SHARED** -Ordner hochlädt, um sicherzustellen, dass BP-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann Benutzern des aktiven Markenportals dann Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** im Markenportal veröffentlicht wird. Nachdem der Benutzer den Inhalt im Ordner " **NEW** "hinzugefügt hat, kann er den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets wiedergegeben werden.
+Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **FREIGEGEBEN** und **NEU** im neu erstellten **Beitragsordner** erstellt werden. Der AEM-Administrator definiert dann die Anforderung, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird. Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
 
-Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Markenportal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen zulässigen Ordnern anzeigen, suchen und herunterladen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
+Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
 
 >[!NOTE]
 >
->Die Asset-Beschaffung im Markenportal wird auf AEM 6.5.2.0 und höher unterstützt.
+>Die Asset-Beschaffung in Brand Portal wird ab AEM 6.5.2.0 unterstützt.
 >
->Die Funktion wird in früheren Versionen - AEM 6.3 und AEM 6.4 - nicht unterstützt.
+>Die Funktion wird in früheren Versionen – AEM 6.3 und AEM 6.4 – nicht unterstützt.
 >
->Wenden Sie sich an den Adobe-Support, um Ihre AEM-Instanz auf die neueste unterstützte AEM-Version zu aktualisieren.
+>Wenden Sie sich an den Adobe-Support, um Ihre AEM-Instanz auf die aktuelle unterstützte AEM-Version zu aktualisieren.
 
-![](assets/asset-sourcing.png)
+![Beschaffung von Markenportal-Assets](assets/asset-sourcing.png)
+
+## Voraussetzungen {#prerequisites}
+
+* AEM 6.5.0.2 oder höher.
+* Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal integriert ist. Siehe [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 ## Siehe auch {#reference-articles}
 
 **Für Administratoren**
-* [Asset-Sourcing in AEM konfigurieren](brand-portal-enable-asset-sourcing.md)
-* [Liste der Markenportal-Benutzer hochladen](brand-portal-upload-user-list.md)
-* [Beitragsordner konfigurieren](brand-portal-contribution-folder.md)
-* [Hochladen von Grundlagenelementen in den Beitragsordner](brand-portal-upload-baseline-assets.md)
-* [Veröffentlichen des Beitragsordners im Markenportal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-**Für Benutzer des Markenportals**
-* [Asset-Anforderungen herunterladen](brand-portal-download-asset-requirements.md)
-* [Neue Assets in den Beitragsordner hochladen](brand-portal-upload-assets-to-contribution-folder.md)
-* [Veröffentlichen des Beitragsordners in AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Konfigurieren der Asset-Beschaffung in AEM](brand-portal-configure-asset-sourcing.md)
+* [Hochladen der Brand Portal-Benutzerliste](brand-portal-configure-asset-sourcing.md)
+* [Konfigurieren von Beitragsordnern](brand-portal-contribution-folder.md)
+* [Hochladen von Grundlinien-Assets in den Beitragsordner](brand-portal-upload-baseline-assets.md)
+* [Veröffentlichen von Beitragsordnern in Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+
+**Für Brand Portal-Benutzer**
+
+* [Herunterladen von Asset-Anforderungen](brand-portal-download-asset-requirements.md)
+* [Hochladen von neuen Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md)
+* [Veröffentlichen von Beitragsordnern in AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
