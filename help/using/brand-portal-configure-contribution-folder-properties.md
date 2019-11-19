@@ -4,12 +4,12 @@ seo-title: Konfigurieren von Eigenschaften von Beitragsordnern
 description: 'Hier erhalten Sie einen Einblick in die Konfiguration der Eigenschaften eines Beitragsordners in AEM Assets. '
 seo-description: 'Hier erhalten Sie einen Einblick in die Konfiguration der Eigenschaften eines Beitragsordners in AEM Assets. '
 uuid: null
-content-type: Referenz
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+translation-type: tm+mt
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -42,4 +42,4 @@ Diese Brand Portal-Benutzer/-Gruppen haben die Berechtigung, auf den Beitragsord
 
 >[!NOTE]
 >
->Die Suchergebnisse basieren auf der in AEM Assets konfigurierten Brand Portal-Benutzerliste. Vergewissern Sie sich, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen. Siehe [Hochladen der Brand Portal-Benutzerliste](brand-portal-upload-user-list.md).
+>Die Suchergebnisse basieren auf der in AEM Assets konfigurierten Brand Portal-Benutzerliste. Vergewissern Sie sich, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen. Siehe [Hochladen der Brand Portal-Benutzerliste](brand-portal-configure-asset-sourcing.md).
