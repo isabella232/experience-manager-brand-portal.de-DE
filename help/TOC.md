@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
-sub-product: 'Experience Manager Brand Portal '
+product: adobe experience manager
+sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+translation-type: tm+mt
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
@@ -17,22 +17,21 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Überblick](using/brand-portal.md)
    + [Neue Funktionen in AEM Assets Brand Portal](using/whats-new.md)
    + [Versionshinweise](using/brand-portal-release-notes.md)
+   + [Häufig gestellte Fragen](using/brand-portal-faqs.md)
    + [Unterstützte Dateiformate](using/brand-portal-supported-formats.md)
    + [Gastzugang für Brand Portal](using/guest-access.md)
-   + [Grundlagen von Brand Portal mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Grundlagen von Brand Portal mit AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Durchsuchen von Assets in Brand Portal](using/browse-assets-brand-portal.md)
 + Veröffentlichen aus AEM Assets in Brand Portal {#publish}
-   + [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Veröffentlichen von Sammlungen in Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Veröffentlichen von Ordnern in Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Veröffentlichen von Sammlungen in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Veröffentlichen von Ordnern in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Veröffentlichen von Tags in Brand Portal](using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset-Beschaffung in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Überblick](using/brand-portal-asset-sourcing.md)
-   + Konfigurieren der Asset-Beschaffung in AEM {#configure-asset-sourcing-in-aem}
-      + [Aktivieren der Asset-Beschaffung](using/brand-portal-enable-asset-sourcing.md)
-      + [Hochladen der Brand Portal-Benutzerliste](using/brand-portal-upload-user-list.md)
+   + [Konfigurieren der Asset-Beschaffung in AEM](using/brand-portal-configure-asset-sourcing.md)
    + Konfigurieren von Beitragsordnern in AEM Assets {#configure-contribution-folder}
       + [Überblick](using/brand-portal-contribution-folder.md)
       + [Erstellen von Beitragsordnern](using/brand-portal-create-contribution-folder.md)
