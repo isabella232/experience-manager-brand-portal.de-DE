@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 # Konfigurieren von Beitragsordnern {#configure-contribution-folder}
 
-Bei der gemeinsamen Asset-Beschaffung können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) in AEM Assets neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **FREIGEGEBEN** und **NEU** im neu erstellten **Beitragsordner** erstellt werden.
+Bei der gemeinsamen Asset-Beschaffung können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) in AEM Assets neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
 
-Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
+Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
 
 Der AEM-Benutzer führt beim Konfigurieren eines Beitragsordners die folgenden Aktivitäten aus:
 
