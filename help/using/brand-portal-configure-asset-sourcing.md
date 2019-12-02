@@ -1,29 +1,29 @@
 ---
-title: Asset-Beschaffung konfigurieren
-seo-title: Asset-Beschaffung konfigurieren
-description: Hier erhalten Sie einen Einblick in die Konfiguration der Asset-Sourcing-Funktion in AEM Assets.
-seo-description: Hier erhalten Sie einen Einblick in die Konfiguration der Asset-Sourcing-Funktion in AEM Assets.
+title: Konfigurieren der Asset-Beschaffung
+seo-title: Konfigurieren der Asset-Beschaffung
+description: Hier erhalten Sie einen Einblick in die Konfiguration der Funktion zur Asset-Beschaffung in AEM Assets.
+seo-description: Hier erhalten Sie einen Einblick in die Konfiguration der Funktion zur Asset-Beschaffung in AEM Assets.
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
 
-# Configure Asset Sourcing {#configure-asset-sourcing}
+# Konfigurieren der Asset-Beschaffung {#configure-asset-sourcing}
 
-AEM-Administratoren können die **Asset-Beschaffung** aus der AEM-Autoreninstanz konfigurieren. Der Administrator aktiviert die Konfiguration für das Flag "Asset Sourcing"-Feature aus der **AEM Web Console-Konfiguration** und lädt die Liste der aktiven Markenportal-Benutzer in **AEM Assets** hoch.
+AEM-Administratoren können die **Asset-Beschaffung** in der AEM-Autoreninstanz konfigurieren. Der Administrator aktiviert die Kennzeichnungskonfiguration der Asset-Beschaffungsfunktion in der **AEM-Web-Konsolenkonfiguration** und lädt die Liste der aktiven Brand Portal-Benutzer in **AEM Assets** hoch.
 
 >[!NOTE]
 >
->Bevor Sie mit der Konfiguration beginnen, stellen Sie sicher, dass Ihre AEM Assets-Instanz in das Markenportal integriert ist. Siehe [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Bevor Sie mit der Konfiguration beginnen, stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal integriert ist. Siehe [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 
-Das folgende Video zeigt, wie Sie die Asset-Sourcing in Ihrer AEM-Autoreninstanz konfigurieren:
+Das folgende Video demonstriert, wie Sie die Asset-Beschaffung in Ihrer AEM-Autoreninstanz konfigurieren:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771?captions=ger)
 
