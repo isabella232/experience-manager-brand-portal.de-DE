@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
 
 ---
@@ -36,7 +36,7 @@ Standard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Asset-Beitrag]**.
 1. Geben Sie eine allgemeine **[!UICONTROL Beschreibung]** des Beitragsordners ein.
 1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung hochladen]** ![](assets/upload.png), um von Ihrem lokalen Computer aus zu navigieren und ein **Asset-Anforderungsdokument** hochzuladen.
-1. Suchen Sie in **[!UICONTROL Benutzer oder Gruppe hinzufügen]** nach Brand Portal-Benutzern oder -Gruppen, für die Sie den Beitragsordner freigeben möchten, und fügen **** Sie Brand Portal-Benutzer oder -Gruppen hinzu.
+1. Suchen Sie in **[!UICONTROL Benutzer oder Gruppe hinzufügen]** nach Brand Portal-Benutzern oder -Gruppen, für die Sie den Beitragsordner freigeben möchten, und fügen Sie Brand Portal-Benutzer oder -Gruppen hinzu (**[!UICONTROL Hinzufügen]**).
 Diese Brand Portal-Benutzer/-Gruppen haben die Berechtigung, auf den Beitragsordner zuzugreifen und Inhalte von ihrer Brand Portal-Oberfläche hochzuladen, ohne Zugriff auf die AEM-Autoreninstanz zu benötigen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![](assets/contribution-folder-property2.png)
