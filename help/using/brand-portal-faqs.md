@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+translation-type: tm+mt
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -48,14 +48,14 @@ Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise
 
 **Frage. Muss ich als Benutzer von Brand Portal irgendwelche Aufgaben durchführen?**
 
-**Antwort.** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens "Asset-Beschaffung". Der AEM-Administrator muss die Asset-Beschaffung in AEM Assets konfigurieren, um diese Funktion für die Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-configure-asset-sourcing.md).
+**Antwort.** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens &quot;Asset-Beschaffung&quot;. Der AEM-Administrator muss die Asset-Beschaffung in AEM Assets konfigurieren, um diese Funktion für die Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-configure-asset-sourcing.md).
 
 
 
 **Frage. Wer kann einen Beitragsordner erstellen?**
 
-**Antwort.** AEM-Benutzer können in AEM Assets einen neuen Ordner erstellen und die Eigenschaft **Asset-Beitrag** zuweisen. Der neu erstellte Ordner wird als **Beitragsordner** bezeichnet.
-Dieser Ordner wird dann für die aktiven Brand Portal-Benutzer freigegeben, die daraufhin Beiträge beisteuern können.
+**Antwort.** Jeder AEM-Benutzer, der berechtigt ist, einen neuen Ordner in AEM Assets zu erstellen, kann einen **Beitragsordner** erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner vom Typ &quot; **Asset-Beitrag**&quot;.
+Dieser Ordner wird für die aktiven Benutzer des Markenportals freigegeben, um einen Beitrag zu erhalten.
 
 
 
@@ -63,6 +63,12 @@ Dieser Ordner wird dann für die aktiven Brand Portal-Benutzer freigegeben, die 
 
 **Antwort.** Der **Beitragsordner** enthält die beiden Unterordner **NEU** und **FREIGEGEBEN**. Zunächst ist der Ordner NEU leer, und der Ordner SHARED enthält den Referenzinhalt (wiederverwendbare Assets) für die Brand Portal-Benutzer.
 Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalte in den Ordner **NEU** hoch.
+
+
+
+**Frage.  Kann ich den Namen eines vorhandenen Beitragsordners ändern?**
+
+**Antwort.** **Nein**, Sie können den Namen eines vorhandenen **Beitragsordners** nicht ändern.
 
 
 
@@ -94,7 +100,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 
 
-**Frage. Wie wird die Liste der Benutzer (Brand Portal-Beitragende) in der Dropdown-Liste "Asset-Beitrag-Benutzer" gefüllt?**
+**Frage. Wie wird die Liste der Benutzer (Brand Portal-Beitragende) in der Dropdown-Liste &quot;Asset-Beitrag-Benutzer&quot; gefüllt?**
 
 **Antwort.** Die Benutzer in der Dropdown-Liste werden aus der in AEM hochgeladenen Datei für die Brand Portal-Benutzerkonfiguration (.CSV) gefüllt.
 
@@ -102,7 +108,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage. Wo kann ich den Status von Import- und Veröffentlichungsaufträgen sehen?**
 
-**Antwort.** In AEM können Sie den Status eines Imports auf einer **asynchronen** Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Werkzeuge &gt; Asset Contribution Status]** (Asset-Beitragsstatus) anzeigen.
+**Antwort.** In AEM können Sie den Status eines Imports auf einer **asynchronen** Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Werkzeuge > Asset Contribution Status]**(Asset-Beitragsstatus) anzeigen.
 
 
 
@@ -155,4 +161,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
