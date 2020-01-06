@@ -4,12 +4,12 @@ seo-title: Schritte bei der ersten Anmeldung
 description: Die Schritte bei der ersten Anmeldung sind für alle neuen AEM Assets Brand Portal-Benutzer (einschließlich Administratoren) gleich. Wenn ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, müssen Sie keine Einladung annehmen. Das Hinzufügen erfolgt automatisch. Sie erhalten eine Begrüßungs-E-Mail mit einem Link zum Brand Portal-Konto Ihres Unternehmens.
 seo-description: Die Schritte bei der ersten Anmeldung sind für alle neuen AEM Assets Brand Portal-Benutzer (einschließlich Administratoren) gleich. Wenn ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, müssen Sie keine Einladung annehmen. Das Hinzufügen erfolgt automatisch. Sie erhalten eine Begrüßungs-E-Mail mit einem Link zum Brand Portal-Konto Ihres Unternehmens.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
-content-type: Referenz
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: Administration
+topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Die Schritte bei der ersten Anmeldung sind für alle neuen AEM Assets Brand Portal-Benutzer (einschließlich Administratoren) gleich. Wenn ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, müssen Sie keine Einladung annehmen. Das Hinzufügen erfolgt automatisch. Sie erhalten eine Begrüßungs-E-Mail mit einem Link zum Brand Portal-Konto Ihres Unternehmens.
 
-Wenn ein Administrator neue Benutzer zum Brand Portal-Konto hinzugefügt hat, müssen diese keine Einladungen annehmen, um zum Brand Portal-Konto hinzugefügt zu werden. Das Hinzufügen erfolgt automatisch.
-
-Gehen Sie wie folgt vor, um sich zum ersten Mal bei Brand Portal anzumelden:
+Die folgenden Schritte müssen für die Benutzer durchgeführt werden, die sich zum ersten Mal beim Markenportal anmelden:
 
 1. Öffnen Sie die Begrüßungs-E-Mail und klicken Sie auf **[!UICONTROL Erste Schritte]**.
 
@@ -31,7 +29,7 @@ Gehen Sie wie folgt vor, um sich zum ersten Mal bei Brand Portal anzumelden:
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Enterprise ID, Anmeldung und Konto-Hilfe](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html).
+   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Hilfe zu Enterprise ID, Anmeldung und Konto](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**, um auf der Brand Portal-Seite Ihres Unternehmens fortzufahren.
 1. Klicken Sie auf der Brand Portal-Anmeldeseite auf **[!UICONTROL Anmelden]**, um sich bei Brand Portal anzumelden.
