@@ -3,14 +3,14 @@ title: Beschleunigen von Downloads in Brand Portal
 seo-title: Beschleunigen von Downloads in Brand Portal
 description: Verkürzen Sie die Download-Zeiten von Brand Portal und freigegebenen Links.
 seo-description: Verkürzen Sie die Download-Zeiten von Brand Portal und freigegebenen Links.
-uuid: 2871137e -6471-49a7-872a -841bd92543d1
+uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
-topic-tags: Download installieren
-content-type: Referenz
+topic-tags: download-install
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -31,7 +31,7 @@ Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen 
 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
-* **[!UICONTROL Downloadbeschleunigung aktivieren]** (standardmäßig deaktiviert) muss unter [!UICONTROL Allgemeine Einstellungen] im Admin Tools-Bereich ausgewählt sein.
+* **[!UICONTROL Downloadbeschleunigung aktivieren]**(standardmäßig deaktiviert) muss unter[!UICONTROL Allgemeine Einstellungen]im Admin Tools-Bereich ausgewählt sein.
 * Port 33001 (TCP und UDP) ist in der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installieren Sie Aspera Connect mit Administratorrechten.
 * Informationen zu den vom Aspera Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
@@ -51,7 +51,7 @@ Nachfolgend sind die Download-Domänen für verschiedene geografische Standorte 
 
 Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem Aspera Connect-Downloadbeschleuniger:
 
-**Die tatsächlichen Ergebnisse variieren abhängig von Faktoren wie Netzwerkbandbreite, Serverlatenz und Client-Standort, unter Berücksichtigung der Tatsache, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
+*Die beobachteten Ergebnisse variieren je nach Faktoren wie Netzwerkbandbreite, Serverlatenz und Kundenstandort, da sich der Brand Portal-Server in Oregon (USA) befindet.*
 
 | Client-Standort | Latenz zwischen Client und Server    (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -86,34 +86,34 @@ Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müss
 
 
 
-Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorhandene installierte Aspera Connect-Client veraltet ist, wird eine Eingabeaufforderung auf der Browser-Seite angezeigt, über die Sie den systemspezifischen Aspera Connect-Client herunterladen können. Wählen Sie dazu die Option **[!UICONTROL Neueste Version herunterladen]** aus.
+Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorhandene installierte Aspera Connect-Client veraltet ist, wird eine Eingabeaufforderung auf der Browser-Seite angezeigt, über die Sie den systemspezifischen Aspera Connect-Client herunterladen können. Wählen Sie dazu die Option **[!UICONTROL Neueste Version herunterladen]**aus.
 
    ![](assets/aspera-not-launched.png)
 
-   Sie können die neueste Version von Aspera Connect auch von der Website [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]** aus und befolgen Sie die Anweisungen.
+   Sie können die neueste Version von Aspera Connect auch von der Website [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]**aus und befolgen Sie die Anweisungen.
 
 1. **Installation des Aspera Connect Client**
-Um den IBM Aspera Connect Client zu installieren, führen Sie das Setup über die MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen dem Installationsassistenten.
+Zur Installation von IBM Aspera Connect Client-Setup führen Sie das Setup aus der MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen Sie dem Installationsassistenten.
 
-1. Sobald der Client erfolgreich installiert ist, aktualisieren Sie die Browser-Seite und führen die Download-Schritte erneut aus oder wählen die Option **[!UICONTROL Neu starten]** im Dialogfeld **[!UICONTROL Herunterladen]** des Assets (Schritt 2).
-Wenn Sie Aspera Connect zum ersten Mal verwenden, werden Sie vom Browser aufgefordert, den Link mithilfe von **[!UICONTROL IBM Aspera Connect]** zu öffnen. Damit dieses Dialogfeld in Zukunft nicht mehr angezeigt wird, aktivieren Sie **[!UICONTROL Meine Auswahl für FASP-Verbindungen speichern]**.
+1. Sobald der Client erfolgreich installiert ist, aktualisieren Sie die Browser-Seite und führen Sie die Download-Schritte erneut aus oder wählen Sie die Option **[!UICONTROL Neu starten]**im Dialogfeld**[!UICONTROL  Download]** des Assets (Schritt 2).
+Wenn Sie Aspera Client zum ersten Mal verwenden, werden Sie vom Browser aufgefordert, den Link mithilfe von **[!UICONTROL IBM Aspera Connect]**zu öffnen. Damit dieses Dialogfeld in Zukunft nicht mehr angezeigt wird, aktivieren Sie**[!UICONTROL  Meine Auswahl für FASP-Verbindungen speichern]**.
 
    >[!NOTE]
    >
    >Diese Meldung unterscheidet sich von Browser zu Browser.
 
-1. Sie werden in einem Dialogfeld aufgefordert zu bestätigen, ob die Übertragung fortgesetzt werden soll oder nicht. Wählen Sie **[!UICONTROL Zulassen]**, um zu beginnen.
-Um dieses Dialogfeld zukünftig zu überspringen, aktivieren Sie **[!UICONTROL Meine Auswahl für alle Verbindungen mit diesem Host verwenden]**.
-Der Download beginnt. In einem Dialogfeld wird der Fortschritt des Downloads angezeigt. Über das Dialogfeld können Sie den Download **[!UICONTROL anhalten]**, **[!UICONTROL fortsetzen]** oder **[!UICONTROL abbrechen]**.
-Die Aspera Connect-Anwendung bietet im System ein Aktivitätsfenster, über das Benutzer alle Übertragungssitzungen anzeigen und verwalten können. Weitere Informationen finden Sie in der [Dokumentation zum Aspera Connect-Client](https://downloads.asperasoft.com/en/documentation/8).
+1. Sie werden in einem Dialogfeld aufgefordert zu bestätigen, ob die Übertragung fortgesetzt werden soll oder nicht. Wählen Sie **[!UICONTROL Zulassen]**, um zu beginnen. 
+Um dieses Dialogfeld zukünftig nicht mehr anzuzeigen, aktivieren Sie**[!UICONTROL  Meine Auswahl für alle Verbindungen mit diesem Host verwenden]**.
+Der Download beginnt. In einem Dialogfeld wird der Fortschritt des Downloads angezeigt. Nutzen Sie das Dialogfeld, um den Download **[!UICONTROL anzuhalten]**,**[!UICONTROL  fortzusetzen]** oder **[!UICONTROL abzubrechen]**.
+Die Aspera Connect-Anwendung bietet im System ein Aktivitätsfenster, über das Benutzer alle Übertragungssitzungen anzeigen und verwalten können. Weitere Informationen finden Sie in der[Dokumentation zum Aspera Connect-Client](https://downloads.asperasoft.com/en/documentation/8).
 
 ![](assets/aspera-activity-window.png)
 
-Bei erfolgreichem Abschluss des Downloads zeigt das Dialogfeld das Verzeichnis an, in das die Assets auf dem System des Benutzers heruntergeladen wurden. Wenn der Download scheitert, wird ein Fehler angezeigt.
+Nach erfolgreichem Abschluss des Downloads wird in einem Dialogfeld der Speicherort angezeigt, an dem Assets auf das System des Benutzers heruntergeladen werden. Wenn der Download scheitert, wird ein Fehler angezeigt.
 
 >[!NOTE]
 >
->Es gibt in der Aspera Connect Client-Anwendung die bekannte Einschränkung, dass keine Eingabeaufforderung zur Auswahl des Download-Verzeichnisses angezeigt wird, wenn die Option **[!UICONTROL Immer nach dem Speicherort für die heruntergeladene Dateien fragen]** auf der Registerkarte [!UICONTROL Übertragungen] unter [!UICONTROL Voreinstellungen] aktiviert ist. Geben Sie vor Beginn eines Downloads den Speicherort im Textfeld **[!UICONTROL Heruntergeladene Dateien speichern unter]** an.
+>Es gibt in der Aspera Connect Client-Anwendung die bekannte Einschränkung, dass keine Eingabeaufforderung zur Auswahl des Download-Verzeichnisses angezeigt wird, wenn die Option **[!UICONTROL Immer nach dem Speicherort für die heruntergeladene Dateien fragen]**auf der Registerkarte[!UICONTROL Übertragungen]unter[!UICONTROL Voreinstellungen]aktiviert ist. Geben Sie vor Beginn eines Downloads den Speicherort im Textfeld**[!UICONTROL  Heruntergeladene Dateien speichern unter]** an.
 
 ## Verwenden des Dateibeschleunigers im Browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -123,14 +123,14 @@ Microsoft Edge wird im erweiterten geschützten Modus (EPM, Enhanced Protected M
 
 Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, müssen Sie die Brand Portal-Website aus der Liste der vertrauenswürdigen Websites entfernen.
 
-1. Öffnen Sie die Systemsteuerung (drücken Sie dazu die Tastenkombination **[!UICONTROL Windows-Taste+X]** und wählen Sie dann **[!UICONTROL Systemsteuerung]** aus).
-1. Navigieren Sie zu **[!UICONTROL Netzwerk und Internet &gt; Internetoptionen]**. Klicken Sie auf die Registerkarte **[!UICONTROL Sicherheit].**
-1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
+1. Öffnen Sie die Systemsteuerung (drücken Sie dazu die Tastenkombination **[!UICONTROL Windows-Taste+X]**und wählen Sie dann **[!UICONTROL  Systemsteuerung]** aus).
+1. Navigieren Sie zu **[!UICONTROL Netzwerk und Internet > Internetoptionen]**. Klicken Sie auf die Registerkarte**[!UICONTROL  Sicherheit]**.
+1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]**und dann auf**[!UICONTROL  Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
 ## Voreinstellungen für den Aspera Connect-Client    {#aspera-connect-client-preferences}
 
-Im IBM Aspera Connect Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
+Im IBM Aspera Connect Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]**auswählen.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
