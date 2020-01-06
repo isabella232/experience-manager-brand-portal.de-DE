@@ -4,12 +4,12 @@ seo-title: Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten
 description: Brand Portal-Administratoren können einige Aspekte der Benutzeroberfläche für Benutzer anpassen. Sie können ein bestimmtes Hintergrundbild (Bildschirmhintergrund) für die Brand Portal-Anmeldeseite auswählen, Sie können ein Kopfzeilenbild hinzufügen und die Asset-Freigabe-E-Mails an die Marke des Kunden anpassen.
 seo-description: Brand Portal-Administratoren können einige Aspekte der Benutzeroberfläche für Benutzer anpassen. Sie können ein bestimmtes Hintergrundbild (Bildschirmhintergrund) für die Brand Portal-Anmeldeseite auswählen, Sie können ein Kopfzeilenbild hinzufügen und die Asset-Freigabe-E-Mails an die Marke des Kunden anpassen.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
-content-type: Referenz
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: Administration
+topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: ht
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -31,31 +31,31 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
    ![](assets/admin-tools-panel-10.png)
 
-1. Auf der linken Leiste der Seite [!UICONTROL Branding konfigurieren] ist standardmäßig [!UICONTROL Hintergrund] ausgewählt. Das Standard-Hintergrundbild der Anmeldeseite wird angezeigt.
+1. Auf der linken Leiste der Seite **[!UICONTROL Branding konfigurieren]**ist standardmäßig**[!UICONTROL  Hintergrund]** ausgewählt. Das Standard-Hintergrundbild der Anmeldeseite wird angezeigt.
 
    ![](assets/default_wallpaper.png)
 
-1. Um ein neues Hintergrundbild hinzuzufügen, klicken Sie in der Symbolleiste oben auf das Symbol **[!UICONTROL Bild auswählen].**
+1. Um ein neues Hintergrundbild hinzuzufügen, klicken Sie in der Symbolleiste oben auf das Symbol **[!UICONTROL Bild auswählen]**.
 
    ![](assets/choose_wallpaperimage.png)
 
    Führen Sie einen der folgenden Schritte aus:
 
-   * Um ein Bild von Ihrem Computer hochzuladen, klicken Sie auf **[!UICONTROL Hochladen]**. Navigieren Sie zum betreffenden Bild und laden Sie es hoch.
+   * Um ein Bild von Ihrem Computer hochzuladen, klicken Sie auf **[!UICONTROL Hochladen]**. Navigieren Sie zum erforderlichen Bild und laden Sie es hoch.
    * Um ein vorhandenes Brand Portal-Bild zu verwenden, klicken Sie auf **[!UICONTROL Vorhandene wählen]**. Wählen Sie mit der Asset-Auswahl ein Bild aus.
    ![](assets/asset-picker.png)
 
 1. Geben Sie den Kopfzeilentext und eine Beschreibung für das Hintergrundbild an. Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Speichern]**.
 
-1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Vorschau]** um eine Vorschau der Brand Portal-Benutzeroberfläche mit dem Bild zu erzeugen.
+1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Vorschau]**, um eine Vorschau der Brand Portal-Benutzeroberfläche mit dem Bild zu erzeugen.
 
    ![](assets/chlimage_1.png)
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Um das standardmäßige Hintergrundbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **Branding konfigurieren &gt; Hintergrund** wie folgt vor:
+1. Um das standardmäßige Hintergrundbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite ****Branding konfigurieren > Hintergrund wie folgt vor:
 
-   * Um das standardmäßige Hintergrundbild auf der Brand Portal-Anmeldeseite anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Hintergrund deaktivieren]**. Eine Meldung bestätigt, dass das benutzerdefinierte Bild deaktiviert wurde.
+   * Um das Standard-Hintergrundbild auf der Brand Portal-Anmeldeseite anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Hintergrund deaktivieren]**. Eine Meldung bestätigt, dass das Standardbild deaktiviert wurde.
    ![](assets/chlimage_1-1.png)
 
    * Um das benutzerdefinierte Bild auf der Brand Portal-Anmeldeseite wiederherzustellen, klicken Sie in der Symbolleiste auf **[!UICONTROL Hintergrund aktivieren]**. Eine Meldung bestätigt, dass das Bild wiederhergestellt wurde.
@@ -69,7 +69,7 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
 Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei Brand Portal angemeldet haben.
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Administrator-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
@@ -77,13 +77,13 @@ Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Um die Kopfzeile für die Brand Portal-Benutzeroberfläche anzupassen, wählen Sie auf der Seite [!UICONTROL Branding konfigurieren] in der linken Leiste die Option **[!UICONTROL Kopfzeilenbild]** aus. Das standardmäßige Kopfzeilenbild wird angezeigt.
+1. Um die Kopfzeile für die Brand Portal-Benutzeroberfläche anzupassen, wählen Sie auf der Seite **[!UICONTROL Branding konfigurieren]**in der linken Leiste die Option**[!UICONTROL  Kopfzeilenbild]** aus. Das Standard-Kopfzeilenbild wird angezeigt.
 
    ![](assets/default-header.png)
 
-1. Um ein Kopfzeilenbild hochzuladen, klicken Sie auf das Symbol **[!UICONTROL Bild auswählen]** und wählen Sie **[!UICONTROL Hochladen]** aus.
+1. Um ein Kopfzeilenbild hochzuladen, klicken Sie auf das Symbol **[!UICONTROL Bild auswählen]**und wählen Sie**[!UICONTROL  Hochladen]** aus.
 
-   Um ein vorhandenes Brand Portal-Bild zu verwenden, wählen Sie **[!UICONTROL Vorhandene wählen]** aus.
+   Um ein vorhandenes Brand Portal-Bild zu verwenden, wählen Sie **[!UICONTROL Vorhandene wählen]**aus.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -91,9 +91,8 @@ Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei
 
    ![](assets/asset-picker-header.png)
 
-1. Um eine URL im Kopfzeilenbild einzubeziehen, geben Sie sie im Feld [!UICONTROL Bild-URL] an. Sie können externe und interne URLs angeben. Interne Links können auch als relative Links angegeben werden, zum Beispiel
-   [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
-Dieser Link leitet Benutzer zum Ordner „Tags“ weiter.
+1. Um eine URL im Kopfzeilenbild einzubeziehen, geben Sie sie im Feld **[!UICONTROL Bild-URL]**an. Sie können externe und interne URLs angeben. Interne Links können auch als relative Links angegeben werden, zum Beispiel   [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
+Dieser Link leitet Benutzer zum Tags-Ordner weiter.
 Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Speichern]**.
 
    ![](assets/configure_brandingheaderimageurl.png)
@@ -103,7 +102,7 @@ Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UI
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. Um das standardmäßige Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **Branding konfigurieren &gt; Kopfzeilenbild** wie folgt vor:
+1. Um das standardmäßige Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite ****Branding konfigurieren > Kopfzeilenbild wie folgt vor:
 
    * Um zu verhindern, dass ein Kopfzeilenbild auf den Brand Portal-Seiten angezeigt wird, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile deaktivieren]**. Eine Meldung bestätigt, dass das Bild deaktiviert wurde.
    ![](assets/chlimage_1-4.png)
@@ -127,13 +126,13 @@ Wenn Assets als Link freigegeben werden, erhalten Benutzer eine E-Mail mit dem L
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Wenn Assets als Link freigegeben oder über E-Mails heruntergeladen werden, aber auch wenn [!UICONTROL Sammlungen] freigegeben werden, werden die entsprechenden Benutzer per E-Mail benachrichtigt. Um diese E-Mail-Nachricht anzupassen, wählen Sie auf der Seite [!UICONTROL Branding konfigurieren] in der linken Leiste die Option **[!UICONTROL E-Mail-Nachricht]** aus.
+1. Wenn Assets als Link freigegeben oder über E-Mails heruntergeladen und **[!UICONTROL Sammlungen]**freigegeben werden, werden E-Mail-Benachrichtigungen an Benutzer gesendet. Um die E-Mail-Nachricht anzupassen, wählen Sie auf der Seite**[!UICONTROL  Branding konfigurieren]** in der linken Leiste die Option **[!UICONTROL E-Mail-Nachricht]**aus.
 
    ![](assets/configure-branding-page-email.png)
 
 1. Um für ausgehende E-Mails ein Logo hinzuzufügen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Hochladen]**.
 
-1. Geben Sie im Bereich [!UICONTROL Beschreibung] die E-Mail-Kopfzeile und den Fußzeilentext an. Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Speichern]**.
+1. Geben Sie im Bereich **[!UICONTROL Beschreibung]**die E-Mail-Kopfzeile und den Fußzeilentext an. Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf**[!UICONTROL  Speichern]**.
 
    >[!NOTE]
    >
