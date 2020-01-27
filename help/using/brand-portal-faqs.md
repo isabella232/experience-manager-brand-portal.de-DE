@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
@@ -54,8 +54,8 @@ Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise
 
 **Frage. Wer kann einen Beitragsordner erstellen?**
 
-**Antwort.** Jeder AEM-Benutzer, der berechtigt ist, einen neuen Ordner in AEM Assets zu erstellen, kann einen **Beitragsordner** erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner vom Typ &quot; **Asset-Beitrag**&quot;.
-Dieser Ordner wird für die aktiven Benutzer des Markenportals freigegeben, um einen Beitrag zu erhalten.
+**Antwort.** Jeder AEM-Benutzer, der berechtigt ist, einen neuen Ordner in AEM Assets zu erstellen, kann einen **Beitragsordner** erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner des Typs **Asset-Beitrag**.
+Dieser Ordner ist für die aktiven Brand Portal-Benutzer freigegeben, die daraufhin Beiträge beisteuern können.
 
 
 
@@ -66,9 +66,9 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 
 
-**Frage.  Kann ich den Namen eines vorhandenen Beitragsordners ändern?**
+**Frage.  Kann ich den Namen eines bestehenden Beitragsordners ändern?**
 
-**Antwort.** **Nein**, Sie können den Namen eines vorhandenen **Beitragsordners** nicht ändern.
+**Antwort.** **Nein**, Sie können den Namen eines bestehenden **Beitragsordners** nicht ändern.
 
 
 
@@ -108,7 +108,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage. Wo kann ich den Status von Import- und Veröffentlichungsaufträgen sehen?**
 
-**Antwort.** In AEM können Sie den Status eines Imports auf einer **asynchronen** Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Werkzeuge > Asset Contribution Status]**(Asset-Beitragsstatus) anzeigen.
+**Antwort.** In AEM können Sie den Status eines Imports auf einer **asynchronen** Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Tools > Asset-Beitragsstatus]**anzeigen.
 
 
 
@@ -161,4 +161,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
