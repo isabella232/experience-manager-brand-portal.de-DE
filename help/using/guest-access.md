@@ -9,7 +9,7 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -90,21 +90,21 @@ Die Option **[!UICONTROL Navigation]**in der linken Seitenschiene ermöglicht di
 
 ### Funktionen der Gastbenutzer
 
-Gastbenutzer können auf öffentliche Assets in Brand Portal zugreifen, haben jedoch auch einige Einschränkungen, die nachfolgend näher beschrieben werden.
+Gastbenutzer können auf öffentliche Assets in Brand Portal zugreifen und haben auch einige Einschränkungen, die nachfolgend näher beschrieben werden.
 
 **Gastbenutzer können Folgendes tun**:
 
-* Greifen Sie auf alle öffentlichen Ordner und Sammlungen zu, die für alle Benutzer von Brand Portal gedacht sind.
-* Durchsuchen Sie Mitglieder, Detailseiten und verfügen Sie über eine vollständige Asset-Ansicht aller Mitglieder öffentlicher Ordner und Sammlungen.
-* Durchsuchen Sie Assets über öffentliche Ordner und Sammlungen.
-* Fügen Sie der Leuchtkasten-Sammlung Assets hinzu. Diese Änderungen an der Sammlung bleiben für die Dauer der Sitzung bestehen.
-* Laden Sie Assets direkt oder über die Leuchtkasten-Sammlung herunter.
+* Auf alle öffentlichen Ordner und Sammlungen zugreifen, die für alle Brand Portal-Benutzer gedacht sind.
+* Mitglieder und die Detailseite durchsuchen und alle Assets der Mitglieder sämtlicher öffentlicher Ordner und Sammlungen anzeigen.
+* Assets in allen öffentlichen Ordnern und Sammlungen durchsuchen.
+* Assets zur Lightbox-Sammlung hinzufügen. Diese Änderungen an der Sammlung bleiben für die Dauer der Sitzung bestehen.
+* Assets direkt oder über die Lightbox-Sammlung herunterladen.
 
 **Gastbenutzer können Folgendes nicht tun**:
 
-* Erstellen Sie Sammlungen und gespeicherte Suchen oder geben Sie sie weiter.
-* Zugriff auf Einstellungen für Ordner und Sammlungen.
-* Freigeben von Assets als Links
+* Sammlungen und gespeicherte Suchen erstellen oder diese weiter freigeben.
+* Auf Einstellungen für Ordner und Sammlungen zugreifen.
+* Assets als Links freigeben.
 
 ### Herunterladen von Assets in Gastsitzungen
 
@@ -112,12 +112,12 @@ Gastbenutzer können öffentlich oder ausschließlich für Gastbenutzer freigege
 
 Verwenden Sie zum Herunterladen von Assets und Sammlungen das Symbol „Download“ an folgenden Stellen:
 
-* Miniaturbilder für Schnellaktionen, die beim Bewegen des Mauszeigers über das Asset oder die Sammlung angezeigt werden
-* Die Symbolleiste oben, die bei Auswahl des Assets oder der Sammlung angezeigt wird
+* Schnellzugriff-Miniaturansichten, die beim Bewegen des Mauszeigers über das Asset bzw. die Sammlung angezeigt werden
+* Die Symbolleiste oben, die bei Auswahl des Assets bzw. der Sammlung angezeigt wird
 
 ![](assets/download-on-guest.png)
 
-Mit der Option **[!UICONTROL Downloadbeschleunigung aktivieren]**im Dialogfeld[!UICONTROL Download]können Sie die[Download-Zeit verkürzen](../using/accelerated-download.md).
+Mit der Option **[!UICONTROL Download-Beschleunigung aktivieren]**im Dialogfeld[!UICONTROL Download]können Sie die[Download-Zeit verkürzen](../using/accelerated-download.md).
 
 ## Beenden einer Gastsitzung {#exit-guest-session}
 
