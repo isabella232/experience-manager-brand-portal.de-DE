@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -53,7 +53,7 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Um das standardmäßige Hintergrundbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite ****Branding konfigurieren > Hintergrund wie folgt vor:
+1. Um das standardmäßige Hintergrundbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **[!UICONTROL Branding konfigurieren > Hintergrund]**wie folgt vor:
 
    * Um das Standard-Hintergrundbild auf der Brand Portal-Anmeldeseite anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Hintergrund deaktivieren]**. Eine Meldung bestätigt, dass das Standardbild deaktiviert wurde.
    ![](assets/chlimage_1-1.png)
@@ -69,7 +69,7 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
 Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei Brand Portal angemeldet haben.
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Administrator-Tools zuzugreifen.
+1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
@@ -102,7 +102,7 @@ Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UI
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. Um das standardmäßige Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite ****Branding konfigurieren > Kopfzeilenbild wie folgt vor:
+1. Um das Standard-Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **[!UICONTROL Branding konfigurieren > Kopfzeilenbild]**wie folgt vor:
 
    * Um zu verhindern, dass ein Kopfzeilenbild auf den Brand Portal-Seiten angezeigt wird, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile deaktivieren]**. Eine Meldung bestätigt, dass das Bild deaktiviert wurde.
    ![](assets/chlimage_1-4.png)
