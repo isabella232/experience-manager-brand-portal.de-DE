@@ -8,7 +8,7 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -83,7 +83,7 @@ So machen Sie die Veröffentlichung eines Metadatenschemas in Brand Portal rück
 
 ## Veröffentlichen von Suchfacetten in Brand Portal {#publish-search-facets-to-brand-portal}
 
-Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Die Suchfacetten ermöglichen detailliertere Suchen in Brand Portal. Alle dem Suchformular [hinzugefügten Eigenschaften](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) sind für Benutzer als Suchfacetten in Suchfiltern verfügbar.
+Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../using/brand-portal-search-facets.md) bereit. Die Suchfacetten ermöglichen detailliertere Suchen in Brand Portal. Alle dem Suchformular [hinzugefügten Eigenschaften](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) sind für Benutzer als Suchfacetten in Suchfiltern verfügbar.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
@@ -97,7 +97,7 @@ Wenn Sie das benutzerdefinierte Suchformular **[!UICONTROL Asset-Admin-Suchschie
 Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
 1. Tippen/klicken Sie auf das AEM-Logo und navigieren Sie zu **[!UICONTROL Tools > Allgemein > Suchformulare]**.
-1. Wählen Sie das bearbeitete Suchformular aus und wählen Sie **[!UICONTROL In Brand Portal veröffentlichen aus]**.
+1. Wählen Sie das bearbeitete Suchformular und **[!UICONTROL In Brand Portal veröffentlichen]**aus.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninsta
 So machen Sie die Veröffentlichung von Suchformularen in Brand Portal rückgängig:
 
 1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Allgemein > Suchformulare]**.
-1. Wählen Sie das Suchformular aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]**aus.
+1. Wählen Sie das Suchformular und oben die Option **[!UICONTROL Aus Brand Portal löschen]**aus.
 
 >[!NOTE]
 >
