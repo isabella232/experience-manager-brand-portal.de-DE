@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]**hinzuzufügen:
 
 ## Entfernen von Assets aus Lightbox {#remove-assets-from-lightbox}
 
-1. Um die Assets in [!UICONTROL Lightbox] zu überprüfen, klicken Sie in der linken Leiste  auf **[!UICONTROL Sammlungen]**und klicken Sie dann auf die[!UICONTROL Lightbox]-Sammlung.
+1. Um die Assets in [!UICONTROL Lightbox] zu überprüfen, klicken Sie in der linken Leiste auf **[!UICONTROL Sammlungen]**und klicken Sie dann auf die[!UICONTROL Lightbox]-Sammlung.
 
    ![](assets/collections_lightbox-1.png)
 
