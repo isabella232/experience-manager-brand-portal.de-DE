@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -27,8 +27,8 @@ AEM Assets Brand Portal bietet Administratoren ab Version 6.4.2 die Möglichkei
 
 ## Zulassen des Gastzugangs {#allow-guest-access}
 
-Indem sie den Gast Zugriff gewähren, können die Benutzer auf die öffentlichen Assets zugreifen, ohne sich beim Markenportal anmelden zu müssen.
-Um Gastzugriff zuzulassen, muss der Administrator die folgenden Schritte ausführen:
+Wenn Sie den Gastzugang zulassen, können Benutzer auf die öffentlichen Assets zugreifen, ohne sich bei Brand Portal anmelden zu müssen.
+Um den Gastzugang zuzulassen, muss der Administrator die folgenden Schritte ausführen:
 
 1. Wählen Sie oben in der Symbolleiste das AEM-Logo aus, um die Admin Tools aufzurufen.
 1. Wählen Sie im Admin Tools-Bereich die Option **[!UICONTROL Zugang]**, um die Seite**[!UICONTROL  Zugangseinstellungen]** zu öffnen.
@@ -38,9 +38,9 @@ Um Gastzugriff zuzulassen, muss der Administrator die folgenden Schritte ausfüh
 
 ![](assets/bp-welcome-screen.png)
 
-## Erlauben der Zugriffsanfrage durch Benutzer   {#allow-users-to-request-access}
+## Erlauben der Zugriffsanfrage durch Benutzer     {#allow-users-to-request-access}
 
-Administratoren können Benutzern von Organisationen erlauben, auf dem Willkommensbildschirm den Zugriff auf Brand Portal anzufordern. Administratoren müssen dafür jedoch die Konfigurationsoption **[!UICONTROL Benutzern erlauben, Zugriff anzufordern]**aktivieren, damit der Link für die Zugriffsanfrage auf dem Startbildschirm angezeigt wird.
+Administratoren können Benutzern von Organisationen erlauben, auf dem Willkommensbildschirm den Zugriff auf Brand Portal anzufordern. Administratoren müssen dafür jedoch die Konfigurationsoption **[!UICONTROL Benutzern erlauben, Zugriff anzufordern]**aktivieren, damit der Link für die Zugriffsanfrage auf dem Willkommensbildschirm angezeigt wird.
 
 Administratoren müssen wie folgt vorgehen, um Benutzern von Organisationen zu ermöglichen, den Zugriff auf Brand Portal anzufordern:
 
