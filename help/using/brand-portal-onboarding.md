@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 Die Schritte bei der ersten Anmeldung sind für alle neuen AEM Assets Brand Portal-Benutzer (einschließlich Administratoren) gleich. Wenn ein Administrator Sie zum Brand Portal-Konto Ihres Unternehmens hinzugefügt hat, müssen Sie keine Einladung annehmen. Das Hinzufügen erfolgt automatisch. Sie erhalten eine Begrüßungs-E-Mail mit einem Link zum Brand Portal-Konto Ihres Unternehmens.
 
-Die folgenden Schritte müssen für die Benutzer durchgeführt werden, die sich zum ersten Mal beim Markenportal anmelden:
+Die folgenden Schritte müssen für Benutzer durchgeführt werden, die sich zum ersten Mal bei Brand Portal anmelden:
 
 1. Öffnen Sie die Begrüßungs-E-Mail und klicken Sie auf **[!UICONTROL Erste Schritte]**.
 
@@ -29,9 +29,9 @@ Die folgenden Schritte müssen für die Benutzer durchgeführt werden, die sich 
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Hilfe zu Enterprise ID, Anmeldung und Konto](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Wenn Ihr Unternehmen Enterprise IDs verwendet, werden Sie nicht zur Registrierungsseite, sondern zur Enterprise-Anmeldeseite weitergeleitet. Weitere Informationen finden Sie unter [Hilfe zu Enterprise ID, Anmeldung und Konto](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html).
 
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um auf der Brand Portal-Seite Ihres Unternehmens fortzufahren.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um zur Brand Portal-Seite Ihres Unternehmens zu wechseln.
 1. Klicken Sie auf der Brand Portal-Anmeldeseite auf **[!UICONTROL Anmelden]**, um sich bei Brand Portal anzumelden.
 
    ![Brand Portal-Anmeldeseite](assets/signin-onboarding.png)
