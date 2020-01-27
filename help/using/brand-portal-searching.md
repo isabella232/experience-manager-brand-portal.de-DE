@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Mit der Suchfunktion des Markenportals können Sie schnell relevante Assets mithilfe der Omniture-Suche und der Facettensuche suchen, die Filter verwendet, um die Suche weiter einzugrenzen. Sie können Ihre Suchvorgänge auch als Smart-Sammlungen für die Zukunft speichern.
+Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Ihre Suchvorgänge auch als Smart-Sammlungen für die Zukunft speichern.
 
 ## Suchen von Assets mithilfe von Omnisearch {#search-assets-using-omnisearch}
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
    *Asset-Suche mithilfe von Omnisearch*
 
-Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Suche mithilfe von Facetten im Bereich „Filter“{#search-using-facets-in-filters-panel}
 
@@ -75,17 +75,17 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
    * **[!UICONTROL Ausrichtung]**, um nach Assets, basierend auf ihrer Ausrichtung (horizontal, vertikal, quadratisch), zu suchen.
    * **[!UICONTROL Stil]**, um basierend auf dem Stil (farbig, einfarbig) der Assets nach Assets zu suchen.
    * **[!UICONTROL Videoformat]**, um basierend auf dem Format von Video-Assets (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM) nach Video-Assets zu suchen.
-   Sie können im Bereich „Filter“ [benutzerdefinierte Suchfacetten](../using/brand-portal-search-facets.md) verwenden, indem Sie das zugrunde liegende Suchformular bearbeiten.
+   Sie können im Bedienfeld „Filter“ [benutzerdefinierte Suchfacetten](../using/brand-portal-search-facets.md) verwenden, indem Sie das zugrunde liegende Suchformular bearbeiten.
 
    * Wenn im Suchformular verwendet, können Sie mithilfe von **[!UICONTROL Eigenschaftsprädikat]**nach Assets suchen, die mit einer Metadateneigenschaft übereinstimmen, der das Prädikat zugeordnet ist.\
       Wenn beispielsweise das Eigenschaftsprädikat [!UICONTROL `jcr:content /metadata/dc:title`] zugeordnet ist, können Sie Assets auf Grundlage ihres Titels suchen.\
       Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
 
       **Unvollständige Begriffe**
-Wenn Sie die Asset-Suche mithilfe unvollständiger Suchbegriffe in den Eigenschaften einer Property ermöglichen möchten, aktivieren Sie im Suchformular das Kontrollkästchen **[!UICONTROL Unvollständiger Suchbegriff]**.\
+Wenn Sie die Asset-Suche mithilfe unvollständiger Suchbegriffe im Eigenschaftsprädikat ermöglichen möchten, aktivieren Sie im Suchformular das Kontrollkästchen **[!UICONTROL Teilsuche]**.\
       Auf diese Weise können Sie nach gewünschten Assets suchen, selbst wenn Sie nicht den genauen Wortlaut/die genauen Begriffe angeben, die in den Asset-Metadaten verwendet werden.\
       Sie haben folgende Möglichkeiten:
-      * Geben Sie im Bereich „Filter“ in der Facette ein Wort an, das im gesuchten Satz vorhanden ist. Suchen Sie beispielsweise nach dem Begriff **klettern** (und das Eigenschaftsprädikat ist der Eigenschaft [!UICONTROL `dc:title`] zugeordnet), dann werden alle Assets mit dem Wort **klettern** in der Titelphrase zurückgegeben.
+      * Geben Sie im Bedienfeld „Filter“ in der Facette ein Wort an, das im gesuchten Satz vorhanden ist. Suchen Sie beispielsweise nach dem Begriff **klettern** (und das Eigenschaftsprädikat ist der Eigenschaft [!UICONTROL `dc:title`] zugeordnet), dann werden alle Assets mit dem Wort **klettern** in der Titelphrase zurückgegeben.
       * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und setzen Sie in die Lücken das Platzhalterzeichen (*) ein.
 Beispiel für die Suche nach:
          * **klettern*** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ beginnen.
@@ -107,7 +107,7 @@ Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinsch
 
 1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 
-## Suchen als Smart-Sammlung speichern    {#save-your-searches-as-smart-collection}
+## Suchen als Smart-Sammlung speichern      {#save-your-searches-as-smart-collection}
 
 Sie können die Sucheinstellungen als Smart-Sammlung speichern, damit Sie dieselbe Suche zu einem späteren Zeitpunkt wiederholen können, ohne die Einstellungen erneut vornehmen zu müssen.
 
@@ -119,7 +119,7 @@ So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 
    >[!NOTE]
    >
-   >Benutzer ohne Administratorrechte können daran gehindert werden, Smart-Sammlungen öffentlich zu machen. So kann verhindert werden, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal der Organisation erstellen. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]**unter den Einstellungen**[!UICONTROL  Allgemein]** im Admin Tools-Bereich deaktivieren.
+   >Benutzer ohne Administratorrechte können daran gehindert werden, Smart-Sammlungen öffentlich zu machen. So kann verhindert werden, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal der Organisation erstellen. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]**im Admin Tools-Bereich unter den Einstellungen**[!UICONTROL  Allgemein]** deaktivieren.
 
    ![](assets/save_smartcollectionui.png)
 
