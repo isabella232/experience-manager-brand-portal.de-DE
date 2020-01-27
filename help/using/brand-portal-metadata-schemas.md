@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
    Die Seite **[!UICONTROL Metadatenschema-Editor]**wird mit der Registerkarte**[!UICONTROL  Allgemein]** auf der linken Seite und der Registerkarte **[!UICONTROL Formular erstellen]**auf der rechten Seite geöffnet.
 
-1. Passen Sie auf der Seite **[!UICONTROL Metadaten-Schemeneditor]**die Seite**[!UICONTROL  Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **[!UICONTROL Formular erstellen]**auf die Registerkarte**[!UICONTROL  Allgemein]** ziehen.
+1. Passen Sie auf der Seite **[!UICONTROL Metadatenschema-Editor]**die Seite**[!UICONTROL  Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **[!UICONTROL Formular erstellen]**auf die Registerkarte**[!UICONTROL  Allgemein]** ziehen.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -166,7 +166,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 >
 >Wenn Sie ein Schema mit verschachtelten Schemata auf einen Ordner mit Videodateien anwenden, werden die Metadaten-Eigenschaften für die Videodateien möglicherweise nicht richtig gerendert. Um sicherzustellen, dass die Metadaten-Eigenschaften richtig gerendert werden, entfernen Sie die verschachtelten Schemata und wenden Sie nur das übergeordnete Schema auf den Ordner an.
 
-## Löschen von Metadaten-Schemaformularen   {#delete-a-metadata-schema-form}
+## Löschen von Metadaten-Schemaformularen     {#delete-a-metadata-schema-form}
 
 In Brand Portal können Sie nur benutzerdefinierte Schemaformulare löschen. Die Standardschemaformulare/-vorlagen können nicht gelöscht werden. Sie können aber alle benutzerdefinierten Änderungen in diesen Formularen löschen.
 
