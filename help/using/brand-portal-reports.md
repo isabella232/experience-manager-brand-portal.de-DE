@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    ![](assets/access-asset-reports.png)
 
-1. Greifen Sie auf den **[!UICONTROL Nutzungsbericht]**und andere generierte Berichte von der Seite „Asset-Berichte“ aus zu.
+1. Greifen Sie von der Seite „Asset-Berichte“ aus auf den **[!UICONTROL Nutzungsbericht]**und andere generierte Berichte zu.
 
    >[!NOTE]
    >
