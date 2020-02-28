@@ -1,16 +1,16 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
 seo-title: Neue Funktionen in AEM Assets Brand Portal
-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.5.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.5.
+description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
+seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
+translation-type: tm+mt
+source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 ---
 
@@ -19,10 +19,46 @@ source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
 
+## Änderungen in 6.4.6 {#what-changed-in-646}
+
+Brand Portal 6.4.6 ist eine Erweiterungsversion, in der der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert wird. AEM Assets wird jetzt über Adobe I/O mit dem Markenportal konfiguriert, das ein IMS-Token zur Autorisierung Ihres Markenportals-Mandanten erhält.
+
+Zuvor wurde das Markenportal über das Legacy-OAuth-Gateway in der klassischen Benutzeroberfläche konfiguriert, das den JWT-Token-Austausch verwendet, um ein IMS-Zugriffstoken zur Autorisierung abzurufen.
+
+<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+-->
+
+<!--
+  
+   | **AEM Version** |**New Integration** |**Upgrade Integration** |
+|---|---|---|
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+
+   -->
+
+Die AEM Assets-Konfiguration mit Brand Portal auf Adobe I/O wird unterstützt unter:
+* AEM 6.5.4.0 und höher
+* AEM 6.4.8.0 und höher
+* AEM 6.3.3.8 und höher
+
+
+>[!NOTE]
+>
+>Die Konfiguration über Legacy-OAuth wird ab dem 6. April 2020 nicht mehr unterstützt und auf Adobe I/O verschoben.
+>
+>Die vorhandenen Konfigurationen funktionieren weiterhin, wenn Sie die Konfigurationseinstellungen nicht löschen oder ändern.
+
+Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+
+Siehe [Häufig gestellte Fragen zum Brand Portal](brand-portal-faqs.md).
+
 ## Änderungen in 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 ermöglicht es Brand Portal-Benutzern (externen Agenturen/Teams), Inhalte in Brand Portal hochzuladen und in AEM Assets zu veröffentlichen, ohne dass sie auf die Autorenumgebung zugreifen müssen. Diese Funktion wird als **[Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md)** bezeichnet und verbessert das Kundenerlebnis, indem eine bidirektionale Methode zur Verfügung gestellt wird, mit der Benutzer Assets beitragen und für andere global verteilte Brand Portal-Benutzer freigeben können.
+Brand Portal 6.4.5 ermöglicht es Brand Portal-Benutzern (externe Agenturen/Teams), Inhalte in Brand Portal hochzuladen und in AEM Assets zu veröffentlichen, ohne dass sie auf die Autorenumgebung zugreifen müssen. Diese Funktion wird als **[Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md)**bezeichnet und verbessert die Kundenerlebnisse, indem eine bidirektionale Methode zur Verfügung gestellt wird, mit der Benutzer Assets beitragen und für andere rund um des Globus verteilte Brand Portal-Benutzer freigeben können.
 
 ### Asset-Beschaffung in Brand Portal {#asset-sourcing-in-bp}
 
@@ -34,10 +70,6 @@ Der AEM-Benutzer definiert dann die Anforderung, indem er eine [Kurzbeschreibung
 Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
-
-Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
-
-Siehe [Häufig gestellte Fragen zum Brand Portal](brand-portal-faqs.md)
 
 >[!NOTE]
 >
@@ -77,7 +109,6 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
-
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
@@ -176,7 +207,7 @@ Dynamic Media-Videokodierungen können heruntergeladen werden über:
 
 ### Geplante Veröffentlichung in Brand Portal
 
-Der Veröffentlichungs-Workflow für Assets (und Ordner) aus der [AEM (6.4.2.0)](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)-Autoreninstanz in Brand Portal kann für einen späteren Zeitpunkt (Datum, Uhrzeit) geplant werden.
+Der Veröffentlichungs-Workflow für Assets (und Ordner) aus der [AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)-Autoreninstanz in Brand Portal kann für einen späteren Zeitpunkt (Datum, Uhrzeit) geplant werden.
 
 Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus dem Portal entfernt werden, indem der Workflow zum Rückgängigmachen der Veröffentlichung in Brand Portal geplant wird.
 
@@ -192,7 +223,7 @@ Unternehmen können ihre Portal-URL mit einem alternativen Präfix in der URL an
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL.\
 Für eine Organisation mit der vorhandenen Domäne **geomettrix.brand-portal.adobe.com** kann beispielsweise auf Anfrage die Domäne **geomettrixinc.brand-portal.adobe.com** erstellt werden.
 
-Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
+Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
 **Der Anwendungsfall**
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
@@ -295,7 +326,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe.io hostet die Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die oAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/) gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die oAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/) gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## Verbesserungen der Suche
 
@@ -420,7 +451,7 @@ Brand Portal zeigt jetzt einige Tage vor geplanten Wartungsaktivitäten ein ents
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Weitere Informationen finden Sie in [Wartungsbenachrichtigung in Brand Portal](https://helpx.adobe.com/de/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Weitere Informationen finden Sie in [Wartungsbenachrichtigung in Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
 
 ### Erweiterungen für lizenzierte Assets, die über die Funktion „Asset-Freigabe“ freigegeben werden {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
