@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
 seo-title: Neue Funktionen in AEM Assets Brand Portal
-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
+description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
+seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.6.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
 
-## Änderungen in 6.4.6 {#what-changed-in-646}
+## Änderungen in Version 6.4.6 {#what-changed-in-646}
 
-Brand Portal 6.4.6 ist eine Erweiterungsversion, in der der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert wird. AEM Assets wird jetzt über Adobe I/O mit dem Markenportal konfiguriert, das ein IMS-Token zur Autorisierung Ihres Markenportals-Mandanten erhält.
-
-Zuvor wurde das Markenportal über das Legacy-OAuth-Gateway in der klassischen Benutzeroberfläche konfiguriert, das den JWT-Token-Austausch verwendet, um ein IMS-Zugriffstoken zur Autorisierung abzurufen.
+Brand Portal 6.4.6 ist eine Erweiterungsversion, in der der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert wird. Zuvor wurde Brand Portal über das Legacy-OAuth-Gateway in der klassischen Benutzeroberfläche konfiguriert. Das Gateway ruft mithilfe des JWT-Token-Austauschs ein IMS-Zugriffstoken zur Autorisierung ab. AEM Assets wird jetzt über Adobe I/O mit dem Markenportal konfiguriert, das ein IMS-Token zur Autorisierung Ihres Markenportal-Mandanten erhält.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Zuvor wurde das Markenportal über das Legacy-OAuth-Gateway in der klassischen B
 
    -->
 
-Die AEM Assets-Konfiguration mit Brand Portal auf Adobe I/O wird unterstützt unter:
-* AEM 6.5.4.0 und höher
-* AEM 6.4.8.0 und höher
-* AEM 6.3.3.8 und höher
+Die Schritte zum Konfigurieren von AEM Assets mit dem Markenportal unterscheiden sich je nach Ihrer AEM-Version und ob Sie zum ersten Mal konfigurieren oder die vorhandenen Konfigurationen aktualisieren:
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->Die Konfiguration über Legacy-OAuth wird ab dem 6. April 2020 nicht mehr unterstützt und auf Adobe I/O verschoben.
->
->Die vorhandenen Konfigurationen funktionieren weiterhin, wenn Sie die Konfigurationseinstellungen nicht löschen oder ändern.
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **AEM-Version** | **Neue Konfiguration** | **Konfiguration aktualisieren** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Konfiguration aktualisieren](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Konfiguration aktualisieren](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3 (6.3.3.8 und höher)** | [Konfiguration erstellen](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Konfiguration aktualisieren](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | Support kontaktieren | Support kontaktieren |
 
 Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
@@ -104,7 +113,7 @@ Ab Version 6.4.4 unterstützt Brand Portal die Suche nach Textteilen über das E
 
 Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhalter zu erfahren.
 
-#### Suche nach Satzteilen       {#partial-phrase-search}
+#### Suche nach Satzteilen        {#partial-phrase-search}
 
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
@@ -380,7 +389,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die maximale Größe für ZIP-Downloads bei der Linkfreigabe wurde von 1 GB auf 5 GB erhöht.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen  Dateien auswählen möchten, und vordefinierte Ausgabeformate vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen   Dateien auswählen möchten, und vordefinierte Ausgabeformate vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -396,11 +405,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 
 **Neuer Bericht zur Link-Freigabe**
 
+
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Linkfreigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Linkfreigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+
 
 Der Bericht „Verwendung“ wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin Tools-Bereich auf **Berichte erstellen/verwalten**.
 
@@ -437,7 +448,7 @@ Je nachdem, ob die Benutzer bereits eine Adobe ID haben oder zuerst eine Adobe�
 
 Weitere Informationen finden Sie unter [Anfordern von Zugriff auf Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Erweiterung des Berichts über heruntergeladene Assets  {#enhancement-in-the-assets-downloaded-report}
+### Erweiterung des Berichts über heruntergeladene Assets   {#enhancement-in-the-assets-downloaded-report}
 
 Der Bericht über heruntergeladene Assets zeigt jetzt an, wie viele Assets die einzelnen Benutzer innerhalb eines bestimmten Zeitraums heruntergeladen haben. Benutzer können diesen Bericht im CSV-Format herunterladen und Daten zur Gesamtanzahl der Downloads für ein lizenziertes Asset zusammenstellen.
 
@@ -465,7 +476,7 @@ Weitere Informationen finden Sie in Schritt 12 unter [Freigeben von Assets als 
 
 Die Funktion zur Benutzerauswahl wurde jetzt verbessert, um den Anforderungen von Kunden mit großen Benutzerzahlen gerecht zu werden.
 
-### Änderungen beim Experience Cloud-Branding  {#experience-cloud-branding-changes}
+### Änderungen beim Experience Cloud-Branding   {#experience-cloud-branding-changes}
 
 Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
@@ -475,7 +486,7 @@ Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
 Brand Portal 6.3.1 enthält neue und erweiterte Funktionen, die die Abstimmung von Brand Portal mit AEM verbessern.
 
-### Aktualisierte Benutzeroberfläche  {#upgraded-user-interface}
+### Aktualisierte Benutzeroberfläche   {#upgraded-user-interface}
 
 Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Übergang zur Coral 3-Benutzeroberfläche. Durch diese Änderung wird die allgemeine Benutzerfreundlichkeit, einschließlich Navigation und Darstellung, verbessert.
 
@@ -497,7 +508,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 ![](assets/omnisearchicon.png)
 
-### Erweiterte Funktionen zum Durchsuchen  {#enhanced-browsing-experience}
+### Erweiterte Funktionen zum Durchsuchen   {#enhanced-browsing-experience}
 
 * Neue Spaltenansicht zum Durchsuchen verschachtelter Ordner:
 
@@ -505,7 +516,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 * In der Liste der Assets in einem Ordner wird das zuletzt hochgeladene Asset oben angezeigt.
 
-### Erweiterte Funktionen zum Suchen  {#enhanced-search-experience}
+### Erweiterte Funktionen zum Suchen   {#enhanced-search-experience}
 
 * Die neue Omnisearch-Funktion ermöglicht mithilfe automatischer Vorschläge beim Eingeben der Suchschlüsselwörter den schnellen Zugriff auf relevante Inhalte, Funktionen oder Tags. Omnisearch ist für alle Suchfunktionen verfügbar:
 
@@ -520,15 +531,15 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 * Durch die neue Suchoptimierungsfunktion können Sie die Relevanz der Suchergebnisse verbessern, sodass bestimmte Assets in den Suchergebnissen oben angezeigt werden.
 * Die neue pfadbasierte Suche ermöglicht die Angabe eines Pfads zu einem verschachtelten Ordner, damit Sie nach Assets in diesem Ordner suchen können.
 
-#### Neue Smart-Tag-basierte Suche  {#new-smart-tags-based-search}
+#### Neue Smart-Tag-basierte Suche   {#new-smart-tags-based-search}
 
 Wenn Bilder mit Smart-Tags aus AEM Assets in Brand Portal veröffentlicht werden, können Sie in Brand Portal anhand der Smart-Tag-Namen als Suchschlüsselwörter nach diesen Bildern suchen. Diese Funktion ist nur für Dateien verfügbar.
 
-### Erweiterte Funktionen für Downloads  {#enhanced-downloading-experience}
+### Erweiterte Funktionen für Downloads   {#enhanced-downloading-experience}
 
 Nach dem Herunterladen eines verschachtelten Ordners können Sie die ursprüngliche Ordnerhierarchie beibehalten. Die Assets in einem verschachtelten Ordner können in einem Ordner heruntergeladen werden. Das Heruntergeladen in separaten Ordnern ist nicht mehr erforderlich.
 
-### Verbesserte Leistung  {#improved-performance}
+### Verbesserte Leistung   {#improved-performance}
 
 Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbessern die Brand Portal-Leistung erheblich.
 
@@ -536,7 +547,7 @@ Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbe
 
 Administratoren können vor der Freigabe von Assets Datum und Uhrzeit als Ablaufdatum festlegen. Abgelaufene Assets sind für Betrachter und Bearbeiter sichtbar, können aber nicht mehr heruntergeladen werden. Administratoren erhalten eine Benachrichtigung über abgelaufene Assets.
 
-### Erweiterte Asset-Sortierung  {#enhanced-asset-sorting}
+### Erweiterte Asset-Sortierung   {#enhanced-asset-sorting}
 
 Die Asset-Sortierung in einem Ordner in der Listenansicht ist nicht mehr auf die Anzahl der Assets auf der ersten Seite beschränkt. Stattdessen werden alle Assets sortiert, unabhängig davon, ob sie auf der ersten Seite angezeigt werden.
 
@@ -546,7 +557,7 @@ Administratoren können drei Berichtstypen erstellen und verwalten – zu herun
 
 ![](assets/newreport.png)
 
-### Zusätzliche Metadaten  {#additional-metadata}
+### Zusätzliche Metadaten   {#additional-metadata}
 
 Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.3 enthalten sind. Die Metadaten, die auf der Seite „Asset-Eigenschaften“ angezeigt werden, können mit dem Metadatenschema-Editor festlegt werden. Asset-Metadaten sind nicht für Benutzer sichtbar, die Assets als Freigabe über einen externen Link erhalten und die Assets nur mithilfe der Linkfreigabe-URL in der Vorschau anzeigen sowie herunterladen können.
 
@@ -560,7 +571,7 @@ Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.
 
 * Wenn ein Administrator neue Benutzer zum Brand Portal-Konto hinzugefügt hat, müssen diese keine Einladungen annehmen, um zu Brand Portal hinzugefügt zu werden. Das Hinzufügen erfolgt automatisch.
 
-### Neue Veröffentlichungsfunktionen in AEM Assets 6.3  {#new-publishing-capabilities-in-aem-assets}
+### Neue Veröffentlichungsfunktionen in AEM Assets 6.3   {#new-publishing-capabilities-in-aem-assets}
 
 * AEM-Administratoren können mithilfe von AEM 6.3 SP 1-CFP 1 (6.3.1.1) (ab 4. Quartal 2017 verfügbar) Metadatenschemata aus AEM Assets in Brand Portal veröffentlichen.
 
