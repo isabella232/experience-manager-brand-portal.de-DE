@@ -3,8 +3,8 @@ title: AEM Brand Portal-Benutzerhandbuch
 seo-title: AEM Brand Portal-Benutzerhandbuch
 description: AEM Brand Portal-Benutzerhandbuch
 seo-description: Beschreibt die Verwendung von Brand Portal
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+translation-type: tm+mt
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
@@ -39,7 +39,7 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 |--- |---|
 | [Neuerungen](whats-new.md) | Änderungen in früheren Versionen und die neuesten Angebote in Brand Portal. |
 | [Versionshinweise](brand-portal-release-notes.md) | Verbesserungen, behobene kritische Probleme und bekannte Probleme in der aktuellen Version. |
-| [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Replizieren von Brand Portal mit AEM Assets, um Assets zu veröffentlichen. |
+| [Konfigurieren der von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Replizieren von Brand Portal mit AEM Assets, um Assets zu veröffentlichen. |
 | [Fehlerbehebung bei Problemen in paralleler Veröffentlichung](troubleshoot-parallel-publishing.md) | Fehlerbehebung bei der Replikation zwischen Brand Portal und AEM Assets. |
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
@@ -47,4 +47,4 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 
 ### Hilfreiche Ressourcen
 
-* [Grundlagen von Brand Portal mit AEM Assets](https://helpx.adobe.com/de/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Grundlagen von Brand Portal mit AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
