@@ -5,24 +5,24 @@ description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beh
 seo-description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beheben können.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: Referenz
+content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+translation-type: tm+mt
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-In Brand Portal wird die Integration in AEM Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die AEM Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden. Nach der [Integration](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) kommt in der AEM-Autoreninstanz ein Replikationsagent zum Einsatz, um die ausgewählten Assets im Brand Portal-Cloud-Service zu replizieren, damit Brand Portal-Benutzer genehmigte Assets verwenden. In AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
+Brand Portal ist mit AEM Assets so konfiguriert, dass genehmigte Markenelemente nahtlos aus der Autoreninstanz von AEM Assets erfasst (oder veröffentlicht) werden. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. In AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
 
 >[!NOTE]
 >
->Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets integriert ist. Aufgrund einer Beschränkung in AEM 6.4 wird beim Konfigurieren der Integration mit Brand Portal ein Fehler ausgegeben und die Replikation scheitert.
+>Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets konfiguriert wurde. Eine Einschränkung in AEM 6.4 führt zu einem Fehler, während die Konfiguration von AEM Assets mit dem Markenportal fehlschlägt und die Replikation fehlschlägt.
 
-Beim Konfigurieren des Cloud-Services für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Servicebenutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus AEM in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
+Beim Konfigurieren des Cloud-Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Servicebenutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus AEM in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
 Jedoch kann das Veröffentlichen zwischenzeitlich aufgrund zu großer Sling-Aufträge, erhöhter Netzwerk- und **[!UICONTROL Datenträger-E/A]** in der AEM-Autoreninstanz oder geringer Leistung der AEM-Autoreninstanz scheitern. Daher wird empfohlen, die Verbindung zu den Replikationsagenten zu testen, bevor mit dem Veröffentlichen begonnen wird.
 
