@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
+translation-type: tm+mt
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -20,12 +20,12 @@ AEM-Administratoren können die **Asset-Beschaffung** in der AEM-Autoreninstanz 
 
 >[!NOTE]
 >
->Bevor Sie mit der Konfiguration beginnen, stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal integriert ist. Siehe [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Bevor Sie mit der Konfiguration beginnen, stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren der von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 Das folgende Video demonstriert, wie Sie die Asset-Beschaffung in Ihrer AEM-Autoreninstanz konfigurieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Aktivieren der Asset-Beschaffung {#enable-asset-sourcing}
 
@@ -34,7 +34,7 @@ AEM-Administratoren können die Asset-Beschaffung über die AEM-Web-Konsolen-Kon
 **Aktivieren der Asset-Beschaffung:**
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an und öffnen Sie Configuration Manager.
 Standard-URL: http:// localhost:4502/system/console/configMgr
-1. Suchen Sie nach **Asset-Beschaffung**, um die **[!UICONTROL Konfiguration der Funktionskennzeichnung für Asset-Beschaffung]**zu finden.
+1. Suchen Sie nach **Asset-Beschaffung**, um die **[!UICONTROL Konfiguration der Funktionskennzeichnung für Asset-Beschaffung]** zu finden.
 1. Klicken Sie auf **[!UICONTROL Konfiguration der Funktionskennzeichnung für Asset-Beschaffung]**, um das Konfigurationsfenster zu öffnen.
 1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL feature.flag.active.status]**
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -54,10 +54,12 @@ Administratoren können neue Benutzer in AEM Admin Console hinzufügen. Weitere 
 **Hochladen der Brand Portal-Benutzerliste:**
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigieren Sie vom Bedienfeld **Tools** ![](assets/tools.png) zu **[!UICONTROL Assets > Brand Portal-Benutzer]**.   ![](assets/upload-user-list1.png)
+1. Navigieren Sie vom Bedienfeld **Tools** ![](assets/tools.png) zu **[!UICONTROL Assets > Brand Portal-Benutzer]**.
+   ![](assets/upload-user-list1.png)
 1. Das Fenster zum Hochladen von Beitragenden zu Brand Portal wird geöffnet.
 Durchsuchen Sie Ihren lokalen Computer und laden Sie die **Konfigurationsdatei (.csv)** hoch, die die Liste der aktiven Brand Portal-Benutzer enthält.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.   ![](assets/upload-user-list2.png)
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+   ![](assets/upload-user-list2.png)
 
 
 Administratoren können über diese Benutzerliste Zugriff auf bestimmte Benutzer/Gruppen gewähren, während sie den Beitragsordner konfigurieren.
