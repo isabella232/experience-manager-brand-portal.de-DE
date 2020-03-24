@@ -9,7 +9,7 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8554b9768040b59d2b1a03a3703b2d7235e63bcb
 
 ---
@@ -33,7 +33,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Starten einer Gastsitzung {#begin-guest-session}
 
-Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier klicken]** neben dem Link **[!UICONTROL Gastzugang?]** auf dem Brand Portal-Willkommensbildschirm aus. Geben Sie die Catcha-Sicherheitsprüfung ein, um Zugriff auf das Markenportal zu gewähren.
+Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier klicken]** neben dem Link **[!UICONTROL Gastzugang?]** auf dem Brand Portal-Willkommensbildschirm aus. Geben Sie die Captcha-Sicherheitsprüfung ein, um Zugriff auf Brand Portal zu gewähren.
 
 ![](assets/bp-login-screen.png)
 
