@@ -17,7 +17,7 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
@@ -29,7 +29,7 @@ Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohn
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 ## Voraussetzungen {#prerequisites}
 
 * AEM 6.5.0.2 oder höher.
-* Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit dem Markenportal konfiguriert ist. Siehe [Konfigurieren der von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Siehe auch {#reference-articles}
 
