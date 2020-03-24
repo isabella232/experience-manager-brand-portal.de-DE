@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
@@ -81,7 +81,7 @@ Verwenden Sie als Produkt-Administrator [[!UICONTROL Adobe Admin Console]](http:
 
    Informationen zum Gewähren von Administratorrechten für Benutzer finden Sie unter [Bereitstellen von Administratorrechten für Benutzer](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
-## Hinzufügen von Produktprofilen      {#add-a-product-profile}
+## Hinzufügen von Produktprofilen       {#add-a-product-profile}
 
 Produktprofile (ehemals „Produktkonfigurationen“) in [!UICONTROL Admin Console] werden zum Erstellen von Gruppen in Brand Portal verwendet, mit deren Hilfe Sie Massenvorgänge wie Rollenverwaltung und Asset-Freigabe durchführen können. **Brand Portal** ist standardmäßig als Produktprofil verfügbar. Sie können weitere Produktprofile erstellen und Benutzer zu den neuen Produktprofilen hinzufügen.
 
@@ -164,9 +164,9 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
    Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt werden, erhalten keine E-Mail-Benachrichtigung.
 
-## Bereitstellen von Administratorrechten für Benutzer      {#provide-administrator-privileges-to-users}
+## Bereitstellen von Administratorrechten für Benutzer       {#provide-administrator-privileges-to-users}
 
-Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder eines Produkt-Administrator gewähren. Gewähren Sie keine anderen in [!UICONTROL Admin Console] verfügbaren Administratorrechte, z. B. Produktprofil-Administrator, Benutzergruppen-Administrator und Support-Administrator. Weitere Informationen zu diesen Rollen finden Sie unter [Administratorrollen](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder eines Produkt-Administrator gewähren. Gewähren Sie keine anderen in [!UICONTROL Admin Console] verfügbaren Administratorrechte, z. B. Produktprofil-Administrator, Benutzergruppen-Administrator und Support-Administrator. Weitere Informationen zu diesen Rollen finden Sie unter [Administratorrollen](https://helpx.adobe.com/de/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder e
    >Brand Portal unterstützt nur die Rollen „Systemadministrator“ und „Produkt-Administrator“.
    >
    >
-   >Adobe empfiehlt, die Rolle „Systemadministrator“ zu vermeiden, da sie für alle Produkte des jeweiligen Unternehmens unternehmensweite Administratorrechte gewährt. Ein Systemadministrator eines Unternehmens, das drei Experience Cloud-Produkte nutzt, verfügt z. B. über sämtliche Berechtigungen für alle drei Produkte. Nur ein Systemadministrator kann AEM Assets so konfigurieren, dass Assets aus AEM Assets in Brand Portal veröffentlicht werden können. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe empfiehlt, die Rolle „Systemadministrator“ zu vermeiden, da sie für alle Produkte des jeweiligen Unternehmens unternehmensweite Administratorrechte gewährt. Ein Systemadministrator eines Unternehmens, das drei Experience Cloud-Produkte nutzt, verfügt z. B. über sämtliche Berechtigungen für alle drei Produkte. Nur ein Systemadministrator kann AEM Assets so konfigurieren, dass Assets aus AEM Assets in Brand Portal veröffentlicht werden können. Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >
    >Im Gegensatz dazu gewährt die Rolle „Produkt-Administrator“ ausschließlich Administratorrechte für ein bestimmtes Produkt. Wenn Sie detaillierte Zugriffssteuerungen innerhalb von Brand Portal umsetzen möchten, verwenden Sie die Rolle „Produkt-Administrator“ und wählen Sie als Produkt Brand Portal aus.
