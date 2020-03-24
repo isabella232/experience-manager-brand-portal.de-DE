@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
@@ -35,20 +35,20 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Captcha für die Anmeldung beim Brand Portal. Weitere Informationen finden Sie unter Gast-Zugriff auf [Markenportal](../using/guest-access.md) .
+* Captcha für die Gast-Anmeldung bei Brand Portal. Weitere Informationen finden Sie unter [Gast-Zugriff auf Brand Portal](../using/guest-access.md).
 
 ### Verbesserungen {#enhancements-646}
 
 Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
 
-* AEM Assets wird jetzt über Adobe I/O mit dem Markenportal konfiguriert, das ein IMS-Token zur Autorisierung Ihres Markenportal-Mandanten erhält.
+* AEM Assets wird jetzt über Adobe I/O in Brand Portal konfiguriert. Die Konsole ruft das IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten ab.
 
    >[!NOTE]
    >
-   >Die Konfiguration über Legacy-OAuth wird ab dem 6. April 2020 nicht mehr unterstützt. Die Konfiguration erfolgt nun über Adobe I/O.
+   >Die Konfiguration über Legacy OAuth wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe I/O.
 
 
-For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
@@ -71,9 +71,9 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 ### Bekannte Probleme {#known-issues}
 
-Diese Version enthält die folgenden bekannten Probleme:
+Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Die Option &quot;Systemwiedergaben ausschließen&quot;funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
+* Die Option „Systemausgaben ausschließen“ funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
 
 ## Sprachen {#languages}
 
@@ -84,19 +84,19 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches  Portugiesisch
+* Brasilianisches   Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen   {#certified-platforms}
+## Zertifizierte Plattformen    {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/de/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
@@ -104,4 +104,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
