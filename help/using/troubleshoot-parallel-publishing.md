@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal ist mit AEM Assets so konfiguriert, dass genehmigte Markenelemente nahtlos aus der Autoreninstanz von AEM Assets erfasst (oder veröffentlicht) werden. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. In AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
+In Brand Portal wird die Konfiguration mit AEM Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die AEM Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) kommt in der AEM-Autoreninstanz ein Replikationsagent zum Einsatz, um die ausgewählten Assets im Brand Portal-Cloud-Service zu replizieren, damit Brand Portal-Benutzer genehmigte Assets verwenden. In AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
 
 >[!NOTE]
 >
->Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets konfiguriert wurde. Eine Einschränkung in AEM 6.4 führt zu einem Fehler, während die Konfiguration von AEM Assets mit dem Markenportal fehlschlägt und die Replikation fehlschlägt.
+>Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets konfiguriert ist. Aufgrund einer Beschränkung in AEM 6.4 wird beim Konfigurieren von AEM Assets mit Brand Portal ein Fehler ausgegeben und die Replikation scheitert.
 
 Beim Konfigurieren des Cloud-Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Servicebenutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus AEM in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
@@ -70,7 +70,7 @@ ii. Löschen Sie `/etc/cloudservices/mediaportal/<config_name>`
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue        Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue          Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
