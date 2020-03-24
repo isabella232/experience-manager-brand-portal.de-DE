@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
@@ -39,7 +39,7 @@ Legen Sie eine dieser Konfigurationen basierend auf den Konfigurationen fest, di
 
 >[!NOTE]
 >
->Dynamic videos are not supported on Brand Portal tenants configured with AEM Author running on **[!UICONTROL Scene7Connect]** runmode.
+>Dynamic Video wird nicht für Brand Portal-Mandanten unterstützt, die in der AEM-Autoreninstanz mit **[!UICONTROL Scene7Connect]**-Ausführungsmodus konfiguriert sind.
 
 ## Wie wird Dynamic Video abgespielt? {#how-are-dynamic-videos-played}
 
@@ -57,14 +57,15 @@ Da Videokodierungen nicht im Brand Portal-Repository gespeichert und vom **[!DNL
 
 Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherstellen:
 
-* **Starten Sie den AEM Author-Modus** für dynamische Medien (Dynamische Medien). Starten Sie die AEM Author-Instanz (mit der das Markenportal konfiguriert ist) entweder im [Dynamischen Media Hybrid-Modus](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) oder im [Dynamischen Media [!DNL Scene7]-Modus](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+* **Starten Sie die AEM-Autoreninstanz im DM-Modus (Dynamic Media).**
+Starten Sie die AEM-Autoreninstanz (mit Brand Portal-Konfiguration) im [Dynamic Media-Hybrid-Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) oder [Dynamic Media [!DNL Scene 7]-Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
 * **Konfigurieren Sie Dynamic Media-Cloud Services in der AEM-Autoreninstanz.**
-Basierend auf dem Dynamic Media-Modus, in dem die AEM-Autoreninstanz ausgeführt wird, richten Sie entweder [Cloud Services für Dynamic Media](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) oder [[!DNL Scene 7]-Cloud Services](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) auf der AEM-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** ein.
+Basierend auf dem Dynamic Media-Modus, in dem die AEM-Autoreninstanz ausgeführt wird, richten Sie entweder [Cloud Services für Dynamic Media](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) oder [[!DNL Scene 7]-Cloud Services](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) auf der AEM-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** ein.
 * **Konfigurieren Sie Dynamic Media in Brand Portal.**
 Konfigurieren Sie basierend auf den Dynamic Media-Cloud-Konfigurationen in der AEM-Autoreninstanz die [Dynamic Media-Einstellungen](#configure-dm-hybrid-settings) oder die [[!DNL Scene 7]-Einstellungen](#configure-dm-scene7-settings) über die Admin Tools von Brand Portal.
 Stellen Sie sicher, dass [separate Brand Portal-Mandanten](#separate-tenants) für AEM-Autoreninstanzen verwendet werden, die mit dem Dynamic Media Hybrid-Modus und dem Dynamic Media **[!UICONTROL Scene7]**-Modus konfiguriert sind, wenn Sie die Funktionen von Dynamic Media Hybrid und Dynamic Media **[!UICONTROL S7]** verwenden.
 * **Veröffentlichen Sie Ordner mit in Brand Portal angewendeten Videokodierungen.**
-Wenden Sie [Videokodierungen](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets von der AEM-Autoreninstanz in Brand Portal.
+Wenden Sie [Videokodierungen](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/video-profiles.html) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets von der AEM-Autoreninstanz in Brand Portal.
 * **Setzen Sie Egress-IPs in SPS auf die Whitelist, wenn die sichere Vorschau aktiviert ist.**
 Bei der Nutzung von Dynamic Media-**[!DNL Scene 7]** (mit [aktivierter sicherer Vorschau](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) für ein Unternehmen) wird empfohlen, dass der **[!DNL Scene 7]** -Unternehmens-Administrator [die öffentlichen Egress-IPs auf die Whitelist setzt](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service). Dies erfolgt für die betreffenden Regionen mittels der SPS (**[!UICONTROL Scene 7]** Publishing System)-Flash-Benutzeroberfläche.
 Die Egress-IPs lauten wie folgt:
@@ -109,7 +110,7 @@ Die Egress-IPs lauten wie folgt:
 Wenn die AEM-Autoreninstanz im Dynamic Media Hybrid-Modus ausgeführt wird, konfigurieren Sie die Dynamic Media-Gateway-Einstellungen über die Kachel **[!UICONTROL Video]** im Admin Tools-Bereich.
 >[!NOTE]
 >
->Die [Videokodierungsprofile](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom Scene 7-Server abgerufen. **** Stellen Sie daher sicher, dass die Konfigurationsdetails der [[!UICONTROL Scene 7-Cloud-Konfiguration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in Ihrer AEM-Autoreninstanz entsprechen, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
+>Die [Videokodierungsprofile](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom Scene 7-Server abgerufen. **** Stellen Sie daher sicher, dass die Konfigurationsdetails der [[!UICONTROL Scene 7-Cloud-Konfiguration]](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in Ihrer AEM-Autoreninstanz entsprechen, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
 So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
 1. Wählen Sie in Brand Portal in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
