@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+translation-type: tm+mt
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -48,6 +48,13 @@ Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
    >Die Konfiguration über Legacy OAuth wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe I/O.
 
 
+   >[!TIP]
+   >
+   >***Nur Bestandskunden***
+   >
+   >Es wird empfohlen, weiterhin die vorhandene alte OAuth Gateway-Konfiguration zu verwenden. Falls Probleme mit der alten OAuth Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe I/O.
+
+
 Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 
@@ -73,6 +80,8 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
+* Markenportalbenutzer können beim Aktualisieren auf Adobe-E/A keine Beitragsordnerelemente in AEM Assets veröffentlichen.
+
 * Die Option „Systemausgaben ausschließen“ funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
 
 ## Sprachen {#languages}
@@ -91,12 +100,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 ## Zertifizierte Plattformen    {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/de/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
@@ -104,4 +113,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
