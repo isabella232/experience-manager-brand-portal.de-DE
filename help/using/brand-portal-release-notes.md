@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
    >Die Konfiguration über Legacy OAuth wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe I/O.
 
 
-   >[!TIP]
-   >
-   >***Nur Bestandskunden***
-   >
-   >Es wird empfohlen, weiterhin die vorhandene alte OAuth Gateway-Konfiguration zu verwenden. Falls Probleme mit der alten OAuth Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe I/O.
+>[!TIP]
+>
+>***Nur für bestehende Kunden***
+>
+>Es wird empfohlen, weiterhin die vorhandene alte OAuth Gateway-Konfiguration zu verwenden. Falls Probleme mit der alten OAuth Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe I/O.
 
 
 Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md).
-
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Markenportalbenutzer können beim Aktualisieren auf Adobe-E/A keine Beitragsordnerelemente in AEM Assets veröffentlichen.
+* Benutzer von Markenportalen können beim Aktualisieren auf Adobe I/O auf AEM 6.5.4 keine Beitragsordnerelemente in AEM Assets veröffentlichen.
 
-* Die Option „Systemausgaben ausschließen“ funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
+   Dieses Problem wird im nächsten Service Pack 6.5.5 behoben.
+
+   Für eine sofortige Fehlerbehebung in AEM 6.5.4 wird empfohlen, den Hotfix [](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
+
+* Die Option &quot;Systemwiedergaben ausschließen&quot;funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
+
 
 ## Sprachen {#languages}
 
