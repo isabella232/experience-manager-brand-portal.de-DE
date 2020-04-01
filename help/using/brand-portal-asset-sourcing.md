@@ -17,8 +17,8 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+translation-type: tm+mt
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -29,7 +29,7 @@ Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohn
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -40,6 +40,18 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >Wenden Sie sich an den Adobe-Support, um Ihre AEM-Instanz auf die aktuelle unterstützte AEM-Version zu aktualisieren.
 
 ![Beschaffung von Brand Portal-Assets](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>Wenn Sie AEM 6.5.4-Benutzer sind, funktioniert die Asset-Sourcing-Funktion weiterhin mit der &quot;Legacy-OAuth-Integration&quot;.
+>
+>Brand Portal-Benutzer können jedoch keine Beitragsordnerelemente für AEM Assets veröffentlichen, wenn sie auf Adobe I/O auf AEM 6.5.4 aktualisieren.
+>
+>Dieses Problem wird im nächsten Service Pack AEM 6.5.5 behoben.
+>
+>Für eine sofortige Fehlerbehebung in AEM 6.5.4 wird empfohlen, den Hotfix [](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
+
 
 ## Voraussetzungen {#prerequisites}
 
