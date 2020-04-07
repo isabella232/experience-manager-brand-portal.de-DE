@@ -4,12 +4,13 @@ seo-title: Hochladen von Grundlinien-Assets
 description: Hier erhalten Sie einen Einblick in das Hochladen von Referenzinhalten (Grundlinien-Assets) in einen Beitragsordner in Brand Portal.
 seo-description: Hier erhalten Sie einen Einblick in das Hochladen von Referenzinhalten (Grundlinien-Assets) in einen Beitragsordner in Brand Portal.
 uuid: null
-content-type: Referenz
+content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,11 +23,11 @@ Der AEM-Administrator lädt Grundlinien-Assets in den Ordner **FREIGEGEBEN** hoc
 
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigieren Sie zu **[!UICONTROL Assets &gt; Dateien]** und suchen Sie nach dem Beitragsordner, in den Sie Grundlinien-Assets hochladen möchten.
+1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner, in den Sie Grundlinien-Assets hochladen möchten.
 1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**.
 1. Klicken Sie auf den Ordner **[!UICONTROL FREIGEGEBEN]**.
-1. Klicken Sie auf **[!UICONTROL Erstellen &gt; Dateien]** ![](assets/upload.png), um einzelne Assets hochzuladen.
-Oder klicken Sie auf **[!UICONTROL Erstellen &gt; Ordner]**, um einen Ordner (.zip) mit mehreren Assets hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Erstellen > Dateien]**![](assets/upload.png) , um einzelne Assets hochzuladen.
+Oder klicken Sie auf **[!UICONTROL Erstellen > Ordner]**, um einen Ordner (.zip) mit mehreren Assets hochzuladen.
    ![](assets/upload-baseline-assets1.png)
 1. Suchen Sie nach Grundlinien-Assets (Dateien/Ordner) und laden Sie sie in den Ordner **[!UICONTROL FREIGEGEBEN]** hoch.
    ![](assets/upload-baseline-assets2.png)
