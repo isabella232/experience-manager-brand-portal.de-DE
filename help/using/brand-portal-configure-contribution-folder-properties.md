@@ -5,12 +5,13 @@ description: 'Hier erhalten Sie einen Einblick in die Konfiguration der Eigensch
 seo-description: 'Hier erhalten Sie einen Einblick in die Konfiguration der Eigenschaften eines Beitragsordners in AEM Assets. '
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -30,12 +31,12 @@ Der Administrator kann Brand Portal-Benutzern/-Gruppen anschließend Zugriff auf
 **Konfigurieren von Eigenschaften von Beitragsordnern:**
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
 Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigieren Sie zu **[!UICONTROL Assets &gt; Dateien]** und suchen Sie nach dem Beitragsordner.
+1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner.
 1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Eigenschaften]** ![](assets/properties.png). Das Fenster „Ordnereigenschaften“ wird geöffnet.
    ![](assets/contribution-folder-property1.png)
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Asset-Beitrag]**.
 1. Geben Sie eine allgemeine **[!UICONTROL Beschreibung]** des Beitragsordners ein.
-1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung hochladen]** ![](assets/upload.png), um von Ihrem lokalen Computer aus zu navigieren und ein **Asset-Anforderungsdokument** hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung hochladen]**![](assets/upload.png) , um von Ihrem lokalen Computer aus zu navigieren und ein **Asset-Anforderungsdokument** hochzuladen.
 1. Suchen Sie in **[!UICONTROL Benutzer oder Gruppe hinzufügen]** nach Brand Portal-Benutzern oder -Gruppen, für die Sie den Beitragsordner freigeben möchten, und fügen Sie Brand Portal-Benutzer oder -Gruppen hinzu (**[!UICONTROL Hinzufügen]**).
 Diese Brand Portal-Benutzer/-Gruppen haben die Berechtigung, auf den Beitragsordner zuzugreifen und Inhalte von ihrer Brand Portal-Oberfläche hochzuladen, ohne Zugriff auf die AEM-Autoreninstanz zu benötigen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
