@@ -1,43 +1,44 @@
 ---
-title: Asset-Anforderung herunterladen
-seo-title: Asset-Anforderung herunterladen
-description: Hier erhalten Sie einen Einblick, wie Sie Asset-Anforderungen und grundlegende Assets im Markenportal herunterladen können.
-seo-description: Hier erhalten Sie einen Einblick, wie Sie Asset-Anforderungen und grundlegende Assets im Markenportal herunterladen können.
+title: Herunterladen von Asset-Anforderungen
+seo-title: Herunterladen von Asset-Anforderungen
+description: Hier erhalten Sie einen Einblick, wie Sie Asset-Anforderungen und Grundlinien-Assets in Brand Portal herunterladen können.
+seo-description: Hier erhalten Sie einen Einblick, wie Sie Asset-Anforderungen und Grundlinien-Assets in Brand Portal herunterladen können.
 uuid: null
-content-type: Referenz
+content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
-# Asset-Anforderungen herunterladen {#using-asset-souring-in-bp}
+# Herunterladen von Asset-Anforderungen {#using-asset-souring-in-bp}
 
-Markenportalbenutzer erhalten automatisch E-Mail-/Pulsbenachrichtigungen, sobald ein Beitragsordner vom AEM-Benutzer freigegeben wird. Dadurch können sie das kurze Dokument (Asset-Anforderung) herunterladen und die Grundelemente (Referenzinhalte) aus dem **SHARED** -Ordner herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
+Brand Portal-Benutzer erhalten automatisch E-Mail-/Pulsbenachrichtigungen, sobald ein Beitragsordner vom AEM-Benutzer freigegeben wird. Damit können sie die Kurzbeschreibung (Asset-Anforderungsdokument) sowie die Grundlinien-Assets (Referenzinhalte) aus dem Ordner **FREIGEGEBEN** herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
 
 Der Brand Portal-Benutzer führt die folgenden Aktivitäten aus, um Asset-Anforderungen herunterzuladen:
 
-* **Download-Übersicht**: Laden Sie die Kurzbeschreibung (Asset-Anforderungsdokument) herunter, die dem Beitragsordner mit Asset-bezogenen Informationen wie Elementtyp, Zweck, unterstützte Formate, maximale Asset-Größe usw. beigefügt ist.
-* **Grundlegende Assets** herunterladen: Laden Sie die Grundelemente herunter, mit denen Sie die erforderlichen Asset-Typen verstehen können. Markenportal-Benutzer können diese Assets als Referenz verwenden, um neue Assets als Beitrag zu erstellen.
+* **Kurzbeschreibung herunterladen**: Laden Sie die Kurzbeschreibung (Asset-Anforderungsdokument) herunter, die dem Beitragsordner beigefügt ist und Asset-bezogene Informationen wie Elementtyp, Zweck, unterstützte Formate, maximale Asset-Größe usw. enthält.
+* **Grundlinien-Assets herunterladen**: Laden Sie die Grundlinien-Assets herunter, mit denen Sie die erforderlichen Asset-Typen verstehen können. Brand Portal-Benutzer können diese Assets als Referenz verwenden, um neue Assets für Beiträge zu erstellen.
 
-Das Markenportal-Dashboard spiegelt alle vorhandenen Ordner wider, die dem Markenportal-Benutzer erlaubt sind, zusammen mit dem neu freigegebenen Beitragsordner. In diesem Beispiel hat der Benutzer des Markenportals nur Zugriff auf den neu erstellten Beitragsordner. Es wird kein anderer bestehender Ordner für den Benutzer freigegeben.
+Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Portal-Benutzer zur Verfügung stehen, sowie den neu freigegebenen Beitragsordner. In diesem Beispiel hat der Brand Portal-Benutzer nur Zugriff auf den neu erstellten Beitragsordner. Es wird kein anderer bestehender Ordner für den Benutzer freigegeben.
 
-**So laden Sie Asset-Anforderungen herunter:**
+**Herunterladen von Asset-Anforderungen:**
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
-1. Wählen Sie den Beitragsordner im Dashboard "Markenportal"aus.
-1. Click **[!UICONTROL Properties]** ![](assets/properties.png). Das Eigenschaftenfenster wird geöffnet und zeigt Details zum Asset Contribution-Ordner an.
+1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
+1. Klicken Sie auf **[!UICONTROL Eigenschaften]** ![](assets/properties.png). Das Eigenschaftenfenster wird geöffnet und zeigt Details zum Asset-Beitragsordner an.
    ![](assets/download-asset-requirement1.png)
-1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung]** ![](assets/download.png) herunterladen, um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung herunterladen]**![](assets/download.png) , um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
    ![](assets/download-asset-requirement2.png)
-1. Gehen Sie zurück zum Markenportal-Dashboard.
-1. Klicken Sie auf , um den Beitragsordner zu öffnen. Im Beitragsordner werden zwei Unterordner **[!UICONTROL SHARED]** und **[!UICONTROL NEW]** angezeigt. Der Ordner "SHARED"enthält alle Grundelemente (Referenzinhalte), die von den Administratoren gemeinsam verwendet werden.
-1. Sie können den **[!UICONTROL SHARED]** -Ordner mit allen Grundelementen auf Ihrem lokalen Computer herunterladen.
-Sie können auch den **[!UICONTROL freigegebenen]** Ordner öffnen und auf das Symbol " **Herunterladen** "klicken, ![](assets/download.png) um einzelne Dateien/Ordner herunterzuladen.
+1. Gehen Sie zurück zum Brand Portal-Dashboard.
+1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU.]** Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
+1. Sie können den Ordner **[!UICONTROL FREIGEGEBEN]** mit allen Grundlinien-Assets auf Ihren lokalen Computer herunterladen.
+Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Symbol **Herunterladen** ![](assets/download.png) klicken, um einzelne Dateien/Ordner herunterzuladen.
    ![](assets/download-asset-requirement3.png)
 
-Lesen Sie die Beschreibung (Asset-Anforderungsdokument) und lesen Sie die grundlegenden Elemente, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md).
+Sehen sie sich die Kurzbeschreibung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md).
 
