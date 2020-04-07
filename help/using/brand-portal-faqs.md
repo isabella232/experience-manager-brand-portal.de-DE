@@ -5,11 +5,12 @@ description: Hier erhalten Sie Antworten auf häufig gestellte Fragen, die in Ad
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 
 **Frage. Ich kann die Assets des Beitragsordners nach einem Upgrade auf Adobe I/O nicht vom Markenportal auf AEM Assets veröffentlichen. Meine Autoreninstanz befindet sich auf AEM 6.5.4. Was könnte der mögliche Grund sein?**
 
-**Antwort.** Ja, beim Veröffentlichen der Assets des Beitragsordners in AEM Assets auf AEM 6.5.4 mit Adobe I/O ist ein Problem bekannt. Dieses Problem wird im nächsten Service Pack AEM 6.5.5 behoben.
+**Antwort.** Ja, beim Veröffentlichen der Assets des Beitragsordners in AEM Assets auf AEM 6.5.4 mit Adobe I/O ist ein Problem bekannt. Dieses Problem wird im nächsten Service Pack behoben.
 
 Für eine sofortige Fehlerbehebung in AEM 6.5.4 wird empfohlen, den Hotfix [](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
 
@@ -175,4 +176,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
