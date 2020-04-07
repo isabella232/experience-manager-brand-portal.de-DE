@@ -5,11 +5,12 @@ description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesser
 seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ Diese Version umfasst die folgenden neuen Funktionen:
 
 * Captcha für die Gast-Anmeldung bei Brand Portal. Weitere Informationen finden Sie unter [Gast-Zugriff auf Brand Portal](../using/guest-access.md).
 
+* Markenportal wird jetzt mit dem AEM Assets-Cloud-Dienst unterstützt. Sie können AEM Assets könnte mit dem Brand Portal Dienst für die Freigabe und Verteilung von Assets für die Benutzer des Markenportals einrichten.
+For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### Verbesserungen {#enhancements-646}
 
 Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
 
-* AEM Assets wird jetzt über Adobe I/O in Brand Portal konfiguriert. Die Konsole ruft das IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten ab.
+* In AEM 6.3 und höher wird der Kanal für die Autorisierung zwischen AEM Assets und Brand Portal geändert. AEM Assets wird jetzt über Adobe I/O in Brand Portal konfiguriert. Die Konsole ruft das IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten ab.
 
    >[!NOTE]
    >
@@ -104,12 +108,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 ## Zertifizierte Plattformen    {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/de/marketing-cloud/experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
@@ -117,4 +121,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/contact.html)
+* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
