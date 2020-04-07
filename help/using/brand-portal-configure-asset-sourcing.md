@@ -5,11 +5,12 @@ description: Hier erhalten Sie einen Einblick in die Konfiguration der Funktion 
 seo-description: Hier erhalten Sie einen Einblick in die Konfiguration der Funktion zur Asset-Beschaffung in AEM Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -25,7 +26,7 @@ AEM-Administratoren können die **Asset-Beschaffung** in der AEM-Autoreninstanz 
 
 Das folgende Video demonstriert, wie Sie die Asset-Beschaffung in Ihrer AEM-Autoreninstanz konfigurieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Aktivieren der Asset-Beschaffung {#enable-asset-sourcing}
 
