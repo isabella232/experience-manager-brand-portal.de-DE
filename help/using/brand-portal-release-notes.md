@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Diese Version umfasst die folgenden neuen Funktionen:
 * Captcha für die Gast-Anmeldung bei Brand Portal. Weitere Informationen finden Sie unter [Gast-Zugriff auf Brand Portal](../using/guest-access.md).
 
 * Markenportal wird jetzt mit dem AEM Assets-Cloud-Dienst unterstützt. Sie können AEM Assets könnte mit dem Brand Portal Dienst für die Freigabe und Verteilung von Assets für die Benutzer des Markenportals einrichten.
-For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Verbesserungen {#enhancements-646}
 
