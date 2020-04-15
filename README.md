@@ -1,11 +1,11 @@
 ---
 source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Dokumentation zum Adobe Experience Manager-Markenportal
+# Adobe Experience Manager Brand Portal-Dokumentation
 
-Dies ist das Repository für die Adobe Experience Manager Brand Portal-Dokumentation.
+Dies ist das Repository für die Dokumentation von Experience Manager Brand Portal.
 
 Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden Ressourcen an:
 
