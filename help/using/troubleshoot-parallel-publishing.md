@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+translation-type: tm+mt
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-In Brand Portal wird die Konfiguration mit AEM Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die AEM Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) kommt in der AEM-Autoreninstanz ein Replikationsagent zum Einsatz, um die ausgewählten Assets im Brand Portal-Cloud-Service zu replizieren, damit Brand Portal-Benutzer genehmigte Assets verwenden. In AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher werden mehrere Replikationsagenten verwendet, um eine schnelle parallele Veröffentlichung zu gewährleisten.
+In Brand Portal wird die Konfiguration mit AEM Assets unterstützt, damit genehmigte Marken-Assets nahtlos in die AEM Assets-Autoreninstanz aufgenommen oder darin veröffentlicht werden. Nach der [Konfiguration](../using/configure-aem-assets-with-brand-portal.md) kommt in der AEM-Autoreninstanz ein Replikationsagent zum Einsatz, um die ausgewählten Assets im Brand Portal-Cloud-Service zu replizieren, damit Brand Portal-Benutzer genehmigte Assets verwenden. Mehrere Replizierungsagenten werden mit AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 und höher verwendet, um eine parallele Hochgeschwindigkeits-Veröffentlichung zu ermöglichen.
 
 >[!NOTE]
 >
