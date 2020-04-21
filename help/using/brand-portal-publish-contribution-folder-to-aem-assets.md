@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -25,7 +25,7 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
 1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
-1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]** ![](assets/export.png).
+1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]**![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
 In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsbenachrichtigung an Brand Portal- und AEM-Administrator und -Benutzer gesendet:
