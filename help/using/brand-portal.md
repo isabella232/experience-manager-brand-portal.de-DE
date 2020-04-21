@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
@@ -33,13 +33,13 @@ Adobe Experience Manager (AEM) Assets wird über Adobe I/O in Brand Portal konf
 
 >[!NOTE]
 >
->Die Konfiguration von AEM Assets mit dem Markenportal über Adobe I/O wird vom AEM Assets Cloud-Dienst, AEM Assets 6.3 und höher, unterstützt.
+>Die Konfiguration von AEM Assets mit Brand Portal über Adobe I/O wird unter AEM Assets Cloud Service, AEM Assets 6.3 und höher unterstützt.
 
 ### Voraussetzungen für die Konfiguration von AEM Assets mit Brand Portal {#prerequisites}
 
 Sie benötigen Folgendes, um AEM Assets mit Brand Portal zu konfigurieren:
 
-* Eine AEM Assets-Instanz, die läuft.
+* Eine AEM Assets-Instanz, die ausgeführt wird.
 * Brand Portal-Mandanten-URL
 * Ein Benutzer mit Systemadministrator-Berechtigungen für die IMS-Organisation des Brand Portal-Mandanten
 
@@ -69,7 +69,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Jeder Benutzer mit eingeschränktem Zugriff auf Assets in Brand Portal, der nicht authentifiziert wird, ist ein Gastbenutzer. In der Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
-In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als       Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als        Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -89,7 +89,7 @@ Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachte
 
 [Herunterladen von Assets](brand-portal-download-users.md)
 
-### Bearbeiter       {#editor}
+### Bearbeiter        {#editor}
 
 Ein Benutzer mit der Rolle Bearbeiter kann alle Aufgaben ausführen, die einem Betrachter zur Verfügung stehen. Zusätzlich kann ein Bearbeiter die Dateien und Ordner anzeigen, die ein Administrator freigegeben hat. Ein Benutzer mit der Rolle Bearbeiter kann außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzer freigeben.
 
