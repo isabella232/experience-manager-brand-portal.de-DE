@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -34,7 +34,7 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**.
 1. Klicken Sie auf den Ordner **[!UICONTROL NEU]**.
    ![](assets/upload-new-assets1.png)
-1. Klicken Sie auf **[!UICONTROL Erstellen > Dateien]**![](assets/upload.png) , um einzelne Dateien oder Ordner (.zip) mit mehreren Assets hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Erstellen > Dateien]**![](assets/upload.png), um einzelne Dateien oder Ordner (.zip) mit mehreren Assets hochzuladen.
    ![](assets/upload-new-assets2.png)
 1. Suchen Sie nach neuen Assets (Dateien/Ordner) und laden Sie sie in den Ordner **[!UICONTROL NEU]** hoch.
    ![](assets/upload-new-assets3.png)
