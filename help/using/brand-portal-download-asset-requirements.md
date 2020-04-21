@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -32,10 +32,10 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
 1. Klicken Sie auf **[!UICONTROL Eigenschaften]** ![](assets/properties.png). Das Eigenschaftenfenster wird geöffnet und zeigt Details zum Asset-Beitragsordner an.
    ![](assets/download-asset-requirement1.png)
-1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung herunterladen]**![](assets/download.png) , um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung herunterladen]**![](assets/download.png), um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
    ![](assets/download-asset-requirement2.png)
 1. Gehen Sie zurück zum Brand Portal-Dashboard.
-1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU.]** Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
+1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**. Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
 1. Sie können den Ordner **[!UICONTROL FREIGEGEBEN]** mit allen Grundlinien-Assets auf Ihren lokalen Computer herunterladen.
 Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Symbol **Herunterladen** ![](assets/download.png) klicken, um einzelne Dateien/Ordner herunterzuladen.
    ![](assets/download-asset-requirement3.png)
