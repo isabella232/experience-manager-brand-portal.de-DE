@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
@@ -20,20 +20,20 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version 6.4.5 von AEM Assets Brand Portal oder mit früheren Versionen auftreten können.
 
 
-## Markenportal 6.4.6 - FAQs {#faqs-bp646}
+## Häufig gestellte Fragen zu Brand Portal 6.4.6 {#faqs-bp646}
 
-**Frage. Der bestehende alte OAuth-Endpunkt (`https://legacy-oauth.cloud.adobe.io/login`) funktioniert nicht. Was könnte der mögliche Grund sein?**
+**Frage. Der vorhandene alte OAuth-Endpunkt (`https://legacy-oauth.cloud.adobe.io/login`) funktioniert nicht. Was könnte der Grund sein?**
 
-**Antwort.** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von AEM Assets auf das neueste Service Pack aktualisieren und es mit Adobe IO konfigurieren. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. Damit die ältere OAuth-Konfiguration bis zum Upgrade funktioniert, aktualisieren Sie den Legacy-OAuth-Endpunkt auf `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Antwort.** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von AEM Assets auf das neueste Service Pack aktualisieren und es mithilfe von Adobe I/O konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md). Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Frage. Ich kann die Assets des Beitragsordners nach einem Upgrade auf Adobe I/O nicht vom Markenportal auf AEM Assets veröffentlichen. Meine Autoreninstanz befindet sich auf AEM 6.5.4. Was könnte der mögliche Grund sein?**
+**Frage. Ich kann die Beitragsordner-Assets von Brand Portal nach dem Upgrade auf Adobe I/O nicht in AEM Assets veröffentlichen. Meine Autoreninstanz wird unter AEM 6.5.4 ausgeführt. Was könnte der Grund sein?**
 
-**Antwort.** Ja, beim Veröffentlichen der Assets des Beitragsordners in AEM Assets auf AEM 6.5.4 mit Adobe I/O ist ein Problem bekannt. Dieses Problem wird im nächsten Service Pack behoben.
+**Antwort.** Beim Veröffentlichen der Beitragsordner-Assets in Assets unter AEM 6.5.4 mit Adobe I/O tritt ein bekanntes Problem auf. Dieses Problem wird im nächsten Service Pack für AEM behoben..
 
-Für eine sofortige Fehlerbehebung in AEM 6.5.4 wird empfohlen, den Hotfix [](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
+Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
 
 
-## Markenportal 6.4.5 - Häufig gestellte Fragen {#faqs-bp645}
+## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
 
 **Frage. Was ist die wichtigste Änderung in Version 6.4.5 von Brand Portal?**
 
