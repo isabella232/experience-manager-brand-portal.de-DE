@@ -10,19 +10,22 @@ topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
 
 
 # Verwalten der Lightbox-Sammlung {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]**ist ein spezieller Sammlungstyp, der den einfachen Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive**[!UICONTROL  Lightbox]**, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die **[!UICONTROL Lightbox]**-Sammlung kann nicht gelöscht werden.
+**[!UICONTROL Lightbox]** ist ein spezieller Sammlungstyp, der den einfachen Zugriff auf Assets ermöglicht. Jeder Benutzer verfügt über eine exklusive **[!UICONTROL Lightbox]**, die automatisch erstellt wird, wenn er sich erstmals bei Brand Portal anmeldet. Die **[!UICONTROL Lightbox]**-Sammlung kann nicht gelöscht werden.
 
 ## Assets zu Lightbox hinzufügen {#add-assets-to-lightbox}
 
-Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]**hinzuzufügen:
+Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]** hinzuzufügen:
 
-1. Navigieren Sie zum Speicherort der Assets, die Sie **[!UICONTROL Lightbox]**hinzufügen möchten, und wählen Sie die Assets aus.
+1. Navigieren Sie zum Speicherort der Assets, die Sie **[!UICONTROL Lightbox]** hinzufügen möchten, und wählen Sie die Assets aus.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -30,23 +33,23 @@ Gehen Sie wie folgt vor, um Assets zu **[!UICONTROL Lightbox]**hinzuzufügen:
 
    ![](assets/add_to_collection.png)
 
-1. Auf der Seite **[!UICONTROL Zu Sammlung hinzufügen]**ist die**[!UICONTROL  Lightbox]**-Sammlung standardmäßig ausgewählt.
+1. Auf der Seite **[!UICONTROL Zu Sammlung hinzufügen]** ist die **[!UICONTROL Lightbox]**-Sammlung standardmäßig ausgewählt.
 
-   Klicken Sie auf **[!UICONTROL Hinzufügen]**. Die ausgewählten Assets werden**[!UICONTROL  Lightbox]** hinzugefügt.
+   Klicken Sie auf **[!UICONTROL Hinzufügen]**. Die ausgewählten Assets werden **[!UICONTROL Lightbox]** hinzugefügt.
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Um die Assets zu überprüfen, die zu **[!UICONTROL Lightbox]**hinzugefügt wurden, klicken Sie in der linken Leiste auf**[!UICONTROL  Sammlungen]** und klicken Sie dann auf die **[!UICONTROL Lightbox]**-Sammlung.
+1. Um die Assets zu überprüfen, die zu **[!UICONTROL Lightbox]** hinzugefügt wurden, klicken Sie in der linken Leiste auf **[!UICONTROL Sammlungen]** und klicken Sie dann auf die **[!UICONTROL Lightbox]**-Sammlung.
 
    ![](assets/collections_lightbox.png)
 
-   Die zu **[!UICONTROL Lightbox]**hinzugefügten Assets werden auf der Seite**[!UICONTROL  Lightbox]** angezeigt.
+   Die zu **[!UICONTROL Lightbox]** hinzugefügten Assets werden auf der Seite **[!UICONTROL Lightbox]** angezeigt.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Entfernen von Assets aus Lightbox {#remove-assets-from-lightbox}
 
-1. Um die Assets in [!UICONTROL Lightbox] zu überprüfen, klicken Sie in der linken Leiste auf **[!UICONTROL Sammlungen]**und klicken Sie dann auf die[!UICONTROL Lightbox]-Sammlung.
+1. Um die Assets in [!UICONTROL Lightbox] zu überprüfen, klicken Sie in der linken Leiste auf **[!UICONTROL Sammlungen]** und klicken Sie dann auf die [!UICONTROL Lightbox]-Sammlung.
 
    ![](assets/collections_lightbox-1.png)
 
