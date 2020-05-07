@@ -10,6 +10,9 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1039'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +51,7 @@ Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblätt
 
 ![](assets/card-view.png)
 
-In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind     die folgenden Details angegeben:
+In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind die folgenden Details angegeben:
 
 * eine visuelle Darstellung des Assets bzw. Ordners
 * Typ
@@ -78,7 +81,7 @@ Die Option „Überblick“ steht Benutzern ohne Administratorrechte (Bearbeiter
 * In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
 * In der Dropdown-Liste des ausgewählten Leistenselektors
 
-Bei Auswahl der Option **[!UICONTROL Überblick]**bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
+Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +89,7 @@ Bei Auswahl der Option **[!UICONTROL Überblick]**bei ausgewähltem Asset/Ordner
 
 #### Anzeigeeinstellungen in der Kartenansicht
 
-Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]**wird bei Auswahl der Option**[!UICONTROL  Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und Einfluss auf die Anzahl der angezeigten Miniaturansichten nehmen.
+Das Dialogfeld **[!UICONTROL Anzeigeeinstellungen]** wird bei Auswahl der Option **[!UICONTROL Anzeigeeinstellungen]** im Ansichtselektor geöffnet. Hiermit können Sie die Größe der Asset-Miniaturansichten in der Kartenansicht ändern. Auf diese Weise können Sie Ihre Ansicht personalisieren und Einfluss auf die Anzahl der angezeigten Miniaturansichten nehmen.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Anzeigeeinstellungen in der Listenansicht
 
-Die Listenansicht zeigt das Asset **[!UICONTROL Name]**standardmäßig in der ersten Spalte an. Darüber hinaus werden weitere Informationen wie der**[!UICONTROL  Titel]**, das **[!UICONTROL Gebietsschema]**, der**[!UICONTROL  Typ]**, die **[!UICONTROL Dimensionen]**, die**[!UICONTROL  Größe]**, die **[!UICONTROL Bewertung]**und der Veröffentlichungsstatus des Assets angezeigt. Sie können jedoch die anzuzeigenden Spalten über die**[!UICONTROL  Anzeigeeinstellungen]** auswählen.
+Die Listenansicht zeigt das Asset **[!UICONTROL Name]** standardmäßig in der ersten Spalte an. Darüber hinaus werden weitere Informationen wie der **[!UICONTROL Titel]**, das **[!UICONTROL Gebietsschema]**, der **[!UICONTROL Typ]**, die **[!UICONTROL Dimensionen]**, die **[!UICONTROL Größe]**, die **[!UICONTROL Bewertung]** und der Veröffentlichungsstatus des Assets angezeigt. Sie können jedoch die anzuzeigenden Spalten über die **[!UICONTROL Anzeigeeinstellungen]** auswählen.
 
 ![](assets/list-view-setting.png)
 
@@ -232,7 +235,7 @@ Comment Type: draft
 
 Verwenden Sie zusätzlich zu diesen Ansichten die Strukturansicht, um einen Drilldown der Asset-Hierarchie durchzuführen, während Sie die gewünschten Assets oder Ordner anzeigen und auswählen.
 
-Um die Baumansicht zu öffnen, tippen/klicken Sie auf die Schienenauswahl oben links und wählen Sie den **[!UICONTROL Inhaltsbaum]**aus dem Menü aus.
+Um die Baumansicht zu öffnen, tippen/klicken Sie auf die Schienenauswahl oben links und wählen Sie den **[!UICONTROL Inhaltsbaum]** aus dem Menü aus.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +257,7 @@ Sie können alle verfügbaren Ausgabeformate des Assets auf der Seite „Details
 
 ![](assets/renditions.png)
 
-Öffnen Sie die Seite „Asset-Eigenschaften“ mit der Option **[!UICONTROL Eigenschaften (p)]**in der oberen Symbolleiste.
+Öffnen Sie die Seite „Asset-Eigenschaften“ mit der Option **[!UICONTROL Eigenschaften (p)]** in der oberen Symbolleiste.
 
 ![](assets/asset-properties.png)
 
