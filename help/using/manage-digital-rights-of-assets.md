@@ -11,6 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Der Asset-Ablauf ist eine effektive Möglichkeit, die Nutzung der genehmigten As
 
 In Brand Portal können Administratoren abgelaufene Assets anzeigen, herunterladen und zu Sammlungen hinzufügen. Bearbeiter und Betrachter können dagegen nur abgelaufene Assets anzeigen und sie zu Sammlungen hinzufügen.
 
-Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]**nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen[!UICONTROL Freigeben]und**[!UICONTROL  Link freigeben]** verfügbar.
+Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröffentlichen. Abgelaufene Assets können jedoch nicht über einen Link aus Brand Portal freigegeben werden. Wenn Sie ein abgelaufenes Asset aus einem Ordner auswählen, der sowohl abgelaufene als auch nicht abgelaufene Assets enthält, ist die Aktion **[!UICONTROL Link freigeben]** nicht verfügbar. Wenn Sie jedoch einen Ordner auswählen, der abgelaufene und nicht abgelaufene Assets enthält, sind die Aktionen [!UICONTROL Freigeben] und **[!UICONTROL Link freigeben]** verfügbar.
 
 >[!NOTE]
 >
@@ -50,7 +53,7 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 
 ### Gültigkeitsstatus und Assets     {#expiration-status-of-assets}
 
-Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]**anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
+Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]** anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +63,7 @@ Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht
 
 ## Ablauf des Asset-Links     {#asset-link-expiration}
 
-Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]**im Dialogfeld**[!UICONTROL  Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
+Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]** im Dialogfeld **[!UICONTROL Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +77,11 @@ Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lize
 
 An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in AEM Assets entsprechend eingestellt werden.
 
-Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite **[!UICONTROL Copyright-Management]**weitergeleitet.
+Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. Wenn Sie die Lizenzvereinbarung nicht annehmen, wird die Schaltfläche **[!UICONTROL Herunterladen]**nicht aktiviert.
+Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die zugehörige Lizenzvereinbarung annehmen. Wenn Sie die Lizenzvereinbarung nicht annehmen, wird die Schaltfläche **[!UICONTROL Herunterladen]** nicht aktiviert.
 
 ![](assets/licensed-asset-download-2.png)
 
