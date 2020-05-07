@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1756'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
 
-Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]**für jedes Asset je nach MIME-Typ des Assets die standardmäßigen Metadateneigenschaften angezeigt. Mit dem Metadatenschema-Editor können Administratoren vorhandene Schemata ändern oder benutzerdefinierte Metadatenschemata hinzufügen. AEM Assets Brand Portal bietet Standardformulare für Assets verschiedener MIME-Typen. Sie können für diese Assets jedoch auch benutzerdefinierte Formulare hinzufügen.
+Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]** für jedes Asset je nach MIME-Typ des Assets die standardmäßigen Metadateneigenschaften angezeigt. Mit dem Metadatenschema-Editor können Administratoren vorhandene Schemata ändern oder benutzerdefinierte Metadatenschemata hinzufügen. AEM Assets Brand Portal bietet Standardformulare für Assets verschiedener MIME-Typen. Sie können für diese Assets jedoch auch benutzerdefinierte Formulare hinzufügen.
 
 ## Hinzufügen von Metadatenschema-Formularen {#add-a-metadata-schema-form}
 
@@ -32,11 +35,11 @@ Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
    ![](assets/navigation-panel.png)
 
-1. Auf der Seite **[!UICONTROL Metadaten-Schemaformulare]**klicken Sie auf**[!UICONTROL  Erstellen]**.
+1. Auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. Geben Sie im Dialogfeld **[!UICONTROL Schemaformular erstellen]**den Titel des Schemaformulars an und klicken Sie dann auf**[!UICONTROL  Erstellen]**, um den Formularerstellungsprozess abzuschließen.
+1. Geben Sie im Dialogfeld **[!UICONTROL Schemaformular erstellen]** den Titel des Schemaformulars an und klicken Sie dann auf **[!UICONTROL Erstellen]**, um den Formularerstellungsprozess abzuschließen.
 
    ![](assets/create-schema-form.png)
 
@@ -53,7 +56,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
    ![](assets/aemlogo.png)
 
 1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
-1. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]**ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise**[!UICONTROL  Sammlung]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -63,9 +66,9 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
 
-   Die Seite **[!UICONTROL Metadatenschema-Editor]**wird mit der Registerkarte**[!UICONTROL  Allgemein]** auf der linken Seite und der Registerkarte **[!UICONTROL Formular erstellen]**auf der rechten Seite geöffnet.
+   Die Seite **[!UICONTROL Metadatenschema-Editor]** wird mit der Registerkarte **[!UICONTROL Allgemein]** auf der linken Seite und der Registerkarte **[!UICONTROL Formular erstellen]** auf der rechten Seite geöffnet.
 
-1. Passen Sie auf der Seite **[!UICONTROL Metadatenschema-Editor]**die Seite**[!UICONTROL  Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **[!UICONTROL Formular erstellen]**auf die Registerkarte**[!UICONTROL  Allgemein]** ziehen.
+1. Passen Sie auf der Seite **[!UICONTROL Metadatenschema-Editor]** die Seite **[!UICONTROL Eigenschaften]** des Assets an, indem Sie eine oder mehrere Komponenten aus einer Liste von Komponententypen in der Registerkarte **[!UICONTROL Formular erstellen]** auf die Registerkarte **[!UICONTROL Allgemein]** ziehen.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -73,7 +76,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 ### Komponenten auf der Registerkarte „Formular erstellen“ {#components-in-the-build-form-tab}
 
-Die Registerkarte **[!UICONTROL Formular erstellen]**enthält Formularelemente, die Sie im Schemaformular verwenden können. Die Registerkarte **[!UICONTROL  Einstellungen]** enthält die Attribute für jedes Element, das Sie auf der Registerkarte **[!UICONTROL Formular erstellen]**auswählen. Die folgende Tabelle enthält die auf der Registerkarte**[!UICONTROL  Formular erstellen]** verfügbaren Formularelemente:
+Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente, die Sie im Schemaformular verwenden können. Die Registerkarte **[!UICONTROL Einstellungen]** enthält die Attribute für jedes Element, das Sie auf der Registerkarte **[!UICONTROL Formular erstellen]** auswählen. Die folgende Tabelle enthält die auf der Registerkarte **[!UICONTROL Formular erstellen]** verfügbaren Formularelemente:
 
 | Komponentenname | Beschreibung |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -101,7 +104,7 @@ Um die Eigenschaften einer Metadatenkomponente im Formular zu bearbeiten, klicke
 
 * **[!UICONTROL Feldbezeichnung]**: Der Name der Metadateneigenschaft, der auf der Eigenschaftsseite des Assets angezeigt wird.
 
-* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Sie beginnt mit „**./**“, um anzugeben, dass der Pfad sich unter dem Knoten des Assets befindet.
+* **[!UICONTROL Zu Eigenschaft zuordnen]**: Der Wert dieser Eigenschaft liefert den relativen Pfad/Namen zum Asset-Knoten für dessen Speicherort im CRX-Repository. Er beginnt mit „**./**“, um anzugeben, dass der Pfad sich unter dem Knoten des Assets befindet.
 
 Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
@@ -114,7 +117,7 @@ Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 * **[!UICONTROL Bearbeitung deaktivieren]**: Mit dieser Eigenschaft können Sie verhindern, dass eine Metadateneigenschaft auf der Eigenschaftsseite bearbeitet werden kann.
 * **[!UICONTROL Leeres Feld schreibgeschützt anzeigen]**: Markieren Sie diese Eigenschaft, um eine Metadateneigenschaft auch dann auf der Eigenschaftsseite anzuzeigen, wenn sie keinen Wert aufweist. Standardmäßig werden Metadateneigenschaften ohne Werte nicht auf der Eigenschaftsseite aufgeführt.
 * **[!UICONTROL Beschreibung]**: Mit dieser Eigenschaft können Sie eine kurze Beschreibung für die Metadatenkomponente hinzufügen.
-* **[!UICONTROL Löschsymbol]**: Klicken Sie auf dieses Symbol, um eine Komponente aus dem Schemaformular zu löschen.
+* **[!UICONTROL Löschsymbol]**: Klicken Sie auf dieses Symbol, um eine Komponente aus dem Schemaformular zu löschen. 
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
@@ -124,19 +127,19 @@ Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
 #### Hinzufügen oder Löschen von Registerkarten im Schemaformular {#add-or-delete-a-tab-in-the-schema-form}
 
-Das Standardschemaformular enthält die Registerkarten **[!UICONTROL Allgemein]**und**[!UICONTROL  Erweitert]**. Mit dem Schema-Editor können Sie Registerkarten hinzufügen oder löschen.
+Das Standardschemaformular enthält die Registerkarten **[!UICONTROL Allgemein]** und **[!UICONTROL Erweitert]**. Mit dem Schema-Editor können Sie Registerkarten hinzufügen oder löschen.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Um einem Schemaformular eine neue Registerkarte hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Standardmäßig hat die neue Registerkarte den Namen „Unbenannt-1“. Sie können den Namen auf der Registerkarte**[!UICONTROL  Einstellungen]** ändern.
+* Um einem Schemaformular eine neue Registerkarte hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Standardmäßig hat die neue Registerkarte den Namen „Unbenannt-1“. Sie können den Namen auf der Registerkarte **[!UICONTROL Einstellungen]** ändern.
 
 ![](assets/add-tab-metadata-form.png)
 
-* Klicken Sie auf **[!UICONTROL x]**, um eine Registerkarte zu löschen. Klicken Sie auf**[!UICONTROL  Speichern]**, um die Änderungen zu speichern.
+* Klicken Sie auf **[!UICONTROL x]**, um eine Registerkarte zu löschen. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
 
 ## Anwenden eines Metadatenschemas auf Ordner {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal ermöglicht die Anpassung und Kontrolle des Metadatenschemas, sodass die Seite **[!UICONTROL Eigenschaften]**eines Assets nur die gewünschten Informationen anzeigt. Um die auf der Seite**[!UICONTROL  Eigenschaften]** angezeigten Metadaten zu kontrollieren, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den entsprechenden Ordner an.
+Brand Portal ermöglicht die Anpassung und Kontrolle des Metadatenschemas, sodass die Seite **[!UICONTROL Eigenschaften]** eines Assets nur die gewünschten Informationen anzeigt. Um die auf der Seite **[!UICONTROL Eigenschaften]** angezeigten Metadaten zu kontrollieren, entfernen Sie die erforderlichen Metadaten aus dem Metadatenschema-Formular und wenden Sie sie auf den entsprechenden Ordner an.
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwenden:
 
@@ -146,19 +149,19 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwe
 
 1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 
-1. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formular]**das Schemaformular aus, das Sie auf ein Asset anwenden möchten, zum Beispiel**[!UICONTROL  Kleidung]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formular]** das Schemaformular aus, das Sie auf ein Asset anwenden möchten, zum Beispiel **[!UICONTROL Kleidung]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Auf Ordner anwenden]**.
 
-1. Wählen Sie auf der Seite **[!UICONTROL Ordner auswählen]**den Ordner aus, auf den das Metadatenschema**[!UICONTROL  Kleidung]** angewendet werden soll, z. B. **[!UICONTROL Handschuhe]**.
+1. Wählen Sie auf der Seite **[!UICONTROL Ordner auswählen]** den Ordner aus, auf den das Metadatenschema **[!UICONTROL Kleidung]** angewendet werden soll, z. B. **[!UICONTROL Handschuhe]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Klicken Sie auf **[!UICONTROL Anwenden]**, um das Metadatenschema-Formular auf den Ordner anzuwenden.
 
-   Die im Metadatenschema-Formular **[!UICONTROL Kleidung]**verfügbaren Metadaten werden auf den Ordner**[!UICONTROL  Handschuhe]** angewendet und auf der Seite **[!UICONTROL Eigenschaften]**des Ordners angezeigt.
+   Die im Metadatenschema-Formular **[!UICONTROL Kleidung]** verfügbaren Metadaten werden auf den Ordner **[!UICONTROL Handschuhe]** angewendet und auf der Seite **[!UICONTROL Eigenschaften]** des Ordners angezeigt.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -176,13 +179,13 @@ Um ein Formular zu löschen, wählen Sie das Formular aus und klicken Sie auf da
 
 >[!NOTE]
 >
->Wenn Sie benutzerspezifische Änderungen an einem Standardformular löschen, wird das **[!UICONTROL Sperrsymbol]**wieder vor dem Formularnamen in der Metadatenschema-Benutzeroberfläche angezeigt, um zu kennzeichnen, dass das Formular wieder in den Standardzustand versetzt wurde.
+>Wenn Sie benutzerspezifische Änderungen an einem Standardformular löschen, wird das **[!UICONTROL Sperrsymbol]** wieder vor dem Formularnamen in der Metadatenschema-Benutzeroberfläche angezeigt, um zu kennzeichnen, dass das Formular wieder in den Standardzustand versetzt wurde.
 
 ## Schemaformulare für MIME-Typen {#schema-forms-for-mime-types}
 
 ### Hinzufügen neuer Formulare für MIME-Typen {#adding-new-forms-for-mime-types}
 
-Zusätzlich zu den Standardformularen können Sie auch benutzerdefinierte Formulare für Assets mit verschiedenen MIME-Typen hinzufügen oder ein neues Formular unter dem entsprechenden Formulartyp erstellen. Beispiel: Um eine neue Vorlage für den Untertyp **[!UICONTROL image/png]**hinzuzufügen, erstellen Sie das Formular unter den „image“-Formularen. Der Titel für das Schemaformular ist der Name des Untertyps. In diesem Fall ist der Titel „png“.
+Zusätzlich zu den Standardformularen können Sie auch benutzerdefinierte Formulare für Assets mit verschiedenen MIME-Typen hinzufügen oder ein neues Formular unter dem entsprechenden Formulartyp erstellen. Beispiel: Um eine neue Vorlage für den Untertyp **[!UICONTROL image/png]** hinzuzufügen, erstellen Sie das Formular unter den „image“-Formularen. Der Titel für das Schemaformular ist der Name des Untertyps. In diesem Fall ist der Titel „png“.
 
 #### Verwenden einer vorhandenen Schemavorlage für verschiedene MIME-Typen {#using-an-existing-schema-template-for-various-mime-types}
 
