@@ -10,6 +10,9 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1160'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Nachdem die Vorgabe erstellt wurde, wird sie als dynamisches Ausgabeformat in de
 
 >[!NOTE]
 >
->Wenn die AEM-Autoreninstanz nicht im **[!UICONTROL Dynamic Media-Modus]**ausgeführt wird (Kunde hat Dynamic Media nicht gekauft), wird das**[!UICONTROL  PTIFF]**-Ausgabeformat (Pyramid TIFF) der Assets nicht zum Zeitpunkt des Uploads erstellt. Bildvorgaben oder dynamische Ausgabeformate funktionieren mit dem **[!UICONTROL PTIFF]**-Ausgabeformat eines Assets. Wenn die**[!UICONTROL  PTIFF]**-Ausgabeformate also in der AEM-Autoreninstanz nicht verfügbar ist, ist sie auch in Brand Portal nicht verfügbar. Daher sind in der Ausgabeformatleiste der Asset-Detailseite und im Dialogfeld „Download“ keine dynamischen Ausgabeformate verfügbar.
+>Wenn die AEM-Autoreninstanz nicht im **[!UICONTROL Dynamic Media-Modus]** ausgeführt wird (Kunde hat Dynamic Media nicht gekauft), wird das **[!UICONTROL PTIFF]**-Ausgabeformat (Pyramid TIFF) der Assets nicht zum Zeitpunkt des Uploads erstellt. Bildvorgaben oder dynamische Ausgabeformate funktionieren mit dem **[!UICONTROL PTIFF]**-Ausgabeformat eines Assets. Wenn die **[!UICONTROL PTIFF]**-Ausgabeformate also in der AEM-Autoreninstanz nicht verfügbar ist, ist sie auch in Brand Portal nicht verfügbar. Daher sind in der Ausgabeformatleiste der Asset-Detailseite und im Dialogfeld „Download“ keine dynamischen Ausgabeformate verfügbar.
 
 Gehen Sie wie folgt vor, um Bildvorgaben in Brand Portal zu veröffentlichen:
 
@@ -40,12 +43,12 @@ Gehen Sie wie folgt vor, um Bildvorgaben in Brand Portal zu veröffentlichen:
 
 >[!NOTE]
 >
->Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]**klicken, werden die Bildvorgaben zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
+>Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]** klicken, werden die Bildvorgaben zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
 
 Gehen Sie wie folgt vor, um die Veröffentlichung von Bildvorgaben in Brand Portal rückgängig zu machen:
 
-1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken oder tippen Sie dann auf das **[!UICONTROL Werkzeugsymbol]**und navigieren Sie zu**[!UICONTROL  Assets > Bildvorgaben]**.
-1. Wählen Sie eine Bildvorgabe aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]**aus.
+1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Klicken oder tippen Sie dann auf das **[!UICONTROL Werkzeugsymbol]** und navigieren Sie zu **[!UICONTROL Assets > Bildvorgaben]**.
+1. Wählen Sie eine Bildvorgabe aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 ## Veröffentlichen des Metadatenschemas in Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
@@ -70,16 +73,16 @@ Wenn Benutzer ein benutzerdefiniertes Schema in der AEM-Autoreninstanz erstellt 
 Gehen Sie wie folgt vor, um ein Metadatenschema aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
 1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
-1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL In Brand Portal veröffentlichen]**aus.
+1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL In Brand Portal veröffentlichen]** aus.
 
 >[!NOTE]
 >
->Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]**klicken, werden die Metadatenschemata zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
+>Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]** klicken, werden die Metadatenschemata zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
 
 So machen Sie die Veröffentlichung eines Metadatenschemas in Brand Portal rückgängig:
 
 1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Assets > Metadatenschemata]**.
-1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]**aus.
+1. Wählen Sie ein Metadatenschema aus und wählen Sie oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 ## Veröffentlichen von Suchfacetten in Brand Portal {#publish-search-facets-to-brand-portal}
 
@@ -88,34 +91,34 @@ Suchformulare stellen Benutzern in Brand Portal die Funktion [Facettensuche](../
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-Wenn Sie das benutzerdefinierte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]**aus der AEM-Autoreninstanz verwenden möchten, ist es nicht notwendig, dasselbe Formular in Brand Portal erneut zu erstellen. Stattdessen können Sie das angepasste Suchformular aus der AEM-Autoreninstanz in Brand Portal veröffentlichen.
+Wenn Sie das benutzerdefinierte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]** aus der AEM-Autoreninstanz verwenden möchten, ist es nicht notwendig, dasselbe Formular in Brand Portal erneut zu erstellen. Stattdessen können Sie das angepasste Suchformular aus der AEM-Autoreninstanz in Brand Portal veröffentlichen.
 
 >[!NOTE]
 >
->Das gesperrte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]**aus AEM Assets kann nicht in Brand Portal veröffentlicht werden, es sei denn, es wurde bearbeitet. Sobald dieses Suchformular bearbeitet und in Brand Portal veröffentlicht wurde, wird damit das Suchformular in Brand Portal überschrieben.
+>Das gesperrte Suchformular **[!UICONTROL Asset-Admin-Suchschiene]** aus AEM Assets kann nicht in Brand Portal veröffentlicht werden, es sei denn, es wurde bearbeitet. Sobald dieses Suchformular bearbeitet und in Brand Portal veröffentlicht wurde, wird damit das Suchformular in Brand Portal überschrieben.
 
 Gehen Sie wie folgt vor, um die bearbeitete Suchfacette aus der AEM-Autoreninstanz in Brand Portal zu veröffentlichen:
 
 1. Tippen/klicken Sie auf das AEM-Logo und navigieren Sie zu **[!UICONTROL Tools > Allgemein > Suchformulare]**.
-1. Wählen Sie das bearbeitete Suchformular und **[!UICONTROL In Brand Portal veröffentlichen]**aus.
+1. Wählen Sie das bearbeitete Suchformular und **[!UICONTROL In Brand Portal veröffentlichen]** aus.
 
    >[!NOTE]
    >
-   >Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]**klicken, werden Suchfacetten zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
+   >Wenn Benutzer auf **[!UICONTROL In Brand Portal veröffentlichen]** klicken, werden Suchfacetten zur Veröffentlichung in die Warteschlange gestellt. Benutzern wird empfohlen, anhand des Protokolls der Replikationsagenten zu überprüfen, ob die Veröffentlichung erfolgreich war.
 
 So machen Sie die Veröffentlichung von Suchformularen in Brand Portal rückgängig:
 
 1. Tippen oder klicken Sie in der AEM-Autoreninstanz auf das AEM-Logo, um auf die globale Navigationskonsole zuzugreifen. Tippen oder klicken Sie dann auf das Werkzeugsymbol und navigieren Sie zu **[!UICONTROL Allgemein > Suchformulare]**.
-1. Wählen Sie das Suchformular und oben die Option **[!UICONTROL Aus Brand Portal löschen]**aus.
+1. Wählen Sie das Suchformular und oben die Option **[!UICONTROL Aus Brand Portal löschen]** aus.
 
 >[!NOTE]
 >
->Beim **[!UICONTROL Rückgängigmachen der Veröffentlichung in Brand Portal]**bleibt in Brand Portal das Standardsuchformular erhalten. Das letzte vor der Veröffentlichung verwendete Suchformular wird nicht wiederhergestellt.
+>Beim **[!UICONTROL Rückgängigmachen der Veröffentlichung in Brand Portal]** bleibt in Brand Portal das Standardsuchformular erhalten. Das letzte vor der Veröffentlichung verwendete Suchformular wird nicht wiederhergestellt.
 
 ### Beschränkungen {#limitations}
 
 1. Nur wenige Sucheigenschaften können nicht für Suchfilter in Brand Portal verwendet werden. Wenn diese Sucheigenschaften als Teil des Suchformulars aus der AEM-Autoreninstanz in Brand Portal veröffentlicht werden, werden sie herausgefiltert. Benutzer sehen daher eine geringere Anzahl von Eigenschaften in dem Formular, das in Brand Portal veröffentlicht wurde. Weitere Informationen finden Sie in der [Liste aller verwendbaren Sucheigenschaften in Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. Wird bei der [!UICONTROL Options-Eigenschaft] ein benutzerdefinierten Pfad verwendet, um Optionen in der AEM-Autoreninstanz zu lesen, funktioniert dies in Brand Portal nicht. Diese zusätzlichen Pfade und Optionen werden nicht mit dem Suchformular in Brand Portal veröffentlicht. In diesem Fall können Benutzer die Option **[!UICONTROL Manuell]**unter**[!UICONTROL  Optionen hinzufügen]** in der **[!UICONTROL Options-Eigenschaft]**auswählen, um diese Optionen manuell zu Brand Portal hinzuzufügen.
+1. Wird bei der [!UICONTROL Options-Eigenschaft] ein benutzerdefinierten Pfad verwendet, um Optionen in der AEM-Autoreninstanz zu lesen, funktioniert dies in Brand Portal nicht. Diese zusätzlichen Pfade und Optionen werden nicht mit dem Suchformular in Brand Portal veröffentlicht. In diesem Fall können Benutzer die Option **[!UICONTROL Manuell]** unter **[!UICONTROL Optionen hinzufügen]** in der **[!UICONTROL Options-Eigenschaft]** auswählen, um diese Optionen manuell zu Brand Portal hinzuzufügen.
 
 ![](assets/options-predicate-manual.png)
