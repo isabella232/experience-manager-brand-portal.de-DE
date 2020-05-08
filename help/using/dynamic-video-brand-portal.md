@@ -11,6 +11,9 @@ topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+workflow-type: ht
+source-wordcount: '1209'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Um Videos in einer Vorschau anzeigen, diese wiederzugeben und herunterzuladen, s
 
 * [Dynamic Media Hybrid-Konfiguration](#configure-dm-hybrid-settings)
 Wenn die AEM-Autoreninstanz im Dynamic Media Hybrid-Modus ausgeführt wird.
-* [Dynamic Media [!DNL Scene 7]-Konfiguration](#configure-dm-scene7-settings)
+* [Dynamic Media- [!DNL Scene 7] -Konfiguration](#configure-dm-scene7-settings)
 Wenn die AEM-Autoreninstanz im Dynamic Media-**[!DNL Scene 7]**-Modus ausgeführt wird.
 Legen Sie eine dieser Konfigurationen basierend auf den Konfigurationen fest, die Sie in Ihrer AEM-Autoreninstanz festgelegt haben, mit der der Brand Portal-Mandant repliziert wird.
 
@@ -58,12 +61,12 @@ Da Videokodierungen nicht im Brand Portal-Repository gespeichert und vom **[!DNL
 Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherstellen:
 
 * **Starten Sie die AEM-Autoreninstanz im DM-Modus (Dynamic Media).**
-Starten Sie die AEM-Autoreninstanz (mit Brand Portal-Konfiguration) im [Dynamic Media-Hybrid-Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) oder [Dynamic Media [!DNL Scene 7]-Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+Starten Sie die AEM-Autoreninstanz (mit Brand Portal-Konfiguration) im [Dynamic Media-Hybrid-Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) oder [Dynamic Media- [!DNL Scene 7] -Modus](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
 * **Konfigurieren Sie Dynamic Media-Cloud Services in der AEM-Autoreninstanz.**
-Basierend auf dem Dynamic Media-Modus, in dem die AEM-Autoreninstanz ausgeführt wird, richten Sie entweder [Cloud Services für Dynamic Media](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) oder [[!DNL Scene 7]-Cloud Services](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) auf der AEM-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** ein.
+Basierend auf dem Dynamic Media-Modus, in dem die AEM-Autoreninstanz ausgeführt wird, richten Sie entweder [Cloud Services für Dynamic Media](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) oder [[!DNL Scene 7] -Cloud Services](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) auf der AEM-Autoreninstanz unter **Tools** | **Cloud Services** | **Dynamic Media** ein.
 * **Konfigurieren Sie Dynamic Media in Brand Portal.**
-Konfigurieren Sie basierend auf den Dynamic Media-Cloud-Konfigurationen in der AEM-Autoreninstanz die [Dynamic Media-Einstellungen](#configure-dm-hybrid-settings) oder die [[!DNL Scene 7]-Einstellungen](#configure-dm-scene7-settings) über die Admin Tools von Brand Portal.
-Stellen Sie sicher, dass [separate Brand Portal-Mandanten](#separate-tenants) für AEM-Autoreninstanzen verwendet werden, die mit dem Dynamic Media Hybrid-Modus und dem Dynamic Media **[!UICONTROL Scene7]**-Modus konfiguriert sind, wenn Sie die Funktionen von Dynamic Media Hybrid und Dynamic Media **[!UICONTROL S7]** verwenden.
+Konfigurieren Sie basierend auf den Dynamic Media-Cloud-Konfigurationen in der AEM-Autoreninstanz die [Dynamic Media-Einstellungen](#configure-dm-hybrid-settings) oder die [[!DNL Scene 7] -Einstellungen](#configure-dm-scene7-settings) über die Admin Tools von Brand Portal.
+Stellen Sie sicher, dass [separate Brand Portal-Mandanten](#separate-tenants) für AEM-Autoreninstanzen verwendet werden, die mit dem Dynamic Media Hybrid-Modus und dem Dynamic Media-**[!UICONTROL Scene7]**-Modus konfiguriert sind, wenn Sie die Funktionen von Dynamic Media Hybrid und Dynamic Media **[!UICONTROL S7]** verwenden.
 * **Veröffentlichen Sie Ordner mit in Brand Portal angewendeten Videokodierungen.**
 Wenden Sie [Videokodierungen](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/video-profiles.html) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets von der AEM-Autoreninstanz in Brand Portal.
 * **Setzen Sie Egress-IPs in SPS auf die Whitelist, wenn die sichere Vorschau aktiviert ist.**
