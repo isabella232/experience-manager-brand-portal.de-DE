@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: ht
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -49,6 +49,7 @@ Wenn die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** deaktivie
 >
 >Die Option **[!UICONTROL Veröffentlichung eines öffentlichen Ordners]** ist ab AEM-Version 6.3.2.1 verfügbar.
 
+
 ## Zugriff auf freigegebene Ordner {#access-to-shared-folders}
 
 In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen für Freigabe/Aufheben der Freigabe für verschiedene Benutzerrollen dargestellt:
@@ -60,7 +61,10 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 | Betrachter | Nein* | Ja, nur wenn die Ordner für die Benutzer oder deren Gruppe freigegeben wurden | Nein |
 | Gastbenutzer | Nein* | Ja, nur wenn die Ordner für die Benutzer oder deren Gruppe freigegeben wurden | Nein |
 
-**Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]**bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen.* 
+>[!NOTE]
+>
+>Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen. 
+
 
 ### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner     {#non-admin-user-access-to-shared-folders}
 
