@@ -18,8 +18,11 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +33,7 @@ Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohn
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -40,16 +43,15 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Wenden Sie sich an den Adobe-Support, um Ihre AEM-Instanz auf die aktuelle unterstützte AEM-Version zu aktualisieren.
 
+
 ![Beschaffung von Brand Portal-Assets](assets/asset-sourcing.png)
 
 
 >[!NOTE]
 >
->Wenn Sie AEM 6.5.4-Benutzer sind, können Sie die Funktion zur Asset-Beschaffung weiterhin mit der alten OAuth-Integration verwenden.
+>Es gibt ein bekanntes Problem in AEM 6.5.4. Benutzer von Brand Portal können beim Aktualisieren auf Adobe Developer Console keine Assets des Beitragsordners in AEM Assets veröffentlichen.
 >
->Brand Portal-Benutzer können jedoch beim Aktualisieren auf Adobe I/O unter AEM 6.5.4 keine Beitragsordner-Assets in AEM Assets veröffentlichen.
->
->Dieses Problem wird mit dem nächsten Service Pack für AEM 6.5.5 behoben.
+>Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in der Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
 >
 >Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
 
