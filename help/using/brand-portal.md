@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,11 +32,12 @@ Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen
 
 ## Konfigurieren von AEM Assets mit Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets wird über Adobe I/O in Brand Portal konfiguriert. Dadurch wird ein IMS-Token zur Autorisierung Ihres Brand Portal-Mandanten abgerufen.
+Adobe Experience Manager (AEM)-Assets werden über die Adobe Developer Console mit dem Markenportal konfiguriert, wodurch ein IMS-Token zur Autorisierung Ihres Markenportal-Mandanten abgerufen wird.
 
 >[!NOTE]
 >
->Die Konfiguration von AEM Assets mit Brand Portal über Adobe I/O wird unter AEM Assets Cloud Service, AEM Assets 6.3 und höher unterstützt.
+>Die Konfiguration von AEM Assets mit dem Markenportal über die Adobe Developer Console wird vom AEM Assets Cloud-Dienst, AEM Assets 6.3 und höher, unterstützt.
+
 
 ### Voraussetzungen für die Konfiguration von AEM Assets mit Brand Portal {#prerequisites}
 
@@ -143,6 +144,7 @@ Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert]
 >
 >Um den alten Alias zu ersetzen oder zu löschen, muss der gleiche Prozess befolgt werden.
 
+
 ## Anfordern von Zugriff auf Brand Portal {#request-access-to-brand-portal}
 
 Benutzer können über den Anmeldebildschirm Zugriff auf Brand Portal anfragen. Diese Anfragen werden an Brand Portal-Administratoren gesendet, die über [!UICONTROL Adobe Admin Console] den Zugriff für Benutzer gewähren. Sobald der Zugriff gewährt wurde, erhalten die Benutzer eine Benachrichtigungs-E-Mail.
@@ -165,6 +167,7 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
 Die Seite [!UICONTROL Anmelden] wird geöffnet.
    1. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldedaten ein und klicken Sie auf **[!UICONTROL Anmelden]**.<br />
+
    ![Adobe-Anmeldung](assets/bplogin_request_access_3.png)
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.<br />
@@ -177,6 +180,7 @@ Die Seite [!UICONTROL Anmelden] wird geöffnet.
 Die Seite [!UICONTROL Registrieren] wird geöffnet.
    1. Geben Sie Ihren Vornamen und Nachnamen, E-Mail-Adresse und Passwort ein.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.
@@ -205,6 +209,7 @@ Sie können die Brand Portal-Sprache über die [!UICONTROL Adobe Experience Clou
 Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
 1. Wählen Sie im oberen Menü [!UICONTROL Benutzer] > [!UICONTROL Profil bearbeiten] aus.<br />
+
    ![Profil bearbeiten](assets/EditBPProfile.png)
 
 1. Wählen Sie auf der Seite [!UICONTROL Experience Cloud-Einstellungen] aus der [!UICONTROL Sprachen]-Dropdown-Liste die Sprache aus.
