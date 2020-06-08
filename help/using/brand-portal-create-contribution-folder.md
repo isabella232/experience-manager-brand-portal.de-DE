@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 94%
 
 ---
 
@@ -24,8 +24,7 @@ AEM-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen ein
 Um einen **Beitragsordner** zu erstellen, erstellen Sie einen neuen Ordner des Typs **Asset-Beitrag** und stellen Sie sicher, dass der neu erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist.  Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
 
 **Erstellen eines neuen Beitragsordners:**
-1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
-Standard-URL: http:// localhost:4502/aem/start.html
+1. Melden Sie sich bei Ihrer AEM-Autoreninstanz anStandard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]**.
 Es werden alle vorhandenen Ordner im AEM Assets-Repository aufgelistet.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. Das Popup-Fenster „Ordner erstellen“ wird geöffnet.
