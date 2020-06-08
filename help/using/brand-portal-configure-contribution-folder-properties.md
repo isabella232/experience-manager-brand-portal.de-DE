@@ -10,8 +10,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 96%
 
 ---
 
@@ -29,8 +32,7 @@ Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bere
 Der Administrator kann Brand Portal-Benutzern/-Gruppen anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
 
 **Konfigurieren von Eigenschaften von Beitragsordnern:**
-1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
-Standard-URL: http:// localhost:4502/aem/start.html
+1. Melden Sie sich bei Ihrer AEM-Autoreninstanz anStandard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner.
 1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Eigenschaften]** ![](assets/properties.png). Das Fenster „Ordnereigenschaften“ wird geöffnet.
    ![](assets/contribution-folder-property1.png)
