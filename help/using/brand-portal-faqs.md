@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,6 +36,25 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 Dieses Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in der Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
 
 Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
+
+**Frage. Ich möchte die Asset-Sourcing-Funktion in meiner AEM Assets-Cloud-Instanz aktivieren. Wie kann ich es konfigurieren?**
+
+**Antwort.** Nein, die Asset-Sourcing-Funktion wird derzeit nicht vom AEM Assets-Cloud-Dienst unterstützt.
+
+Bleiben Sie in Verbindung und sehen Sie sich die Versionshinweise an, um Benachrichtigungen über die Funktionsverfügbarkeit in den kommenden Versionen zu erhalten.
+
+**Frage. Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen und das Replizierungsagenten-Protokoll gibt eine Ausnahme aus`java.net.SocketException: Connection timed out`. Gibt es eine schnelle Lösung?**
+
+**Antwort.** Wenn in der Replikationswarteschlange eine Anzahl von Anforderungen aussteht, kann es vorkommen, dass der Replizierungsagenten die Anforderung zum Veröffentlichen eines Assets nicht verarbeitet und eine Ausnahme auslöst: `java.net.SocketException: Connection timed out`.
+
+Führen Sie die folgenden Schritte aus, um das Problem zu beheben:
+
+1. Öffnen Sie den Replizierungsagenten und klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Einstellungen des Replizierungsagenten zu ändern.
+1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
+1. Aktivieren Sie das Kontrollkästchen Verbindung **[!UICONTROL schließen]**.
+1. Starten Sie das Replikationsbündel (Server) neu.
+
+Aktivieren Sie die Einstellungen für alle vier Replizierungsagenten, um Probleme mit dem Replizierungsagenten zu vermeiden.
 
 
 ## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
