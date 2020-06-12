@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 6.4.6.2 |
-| Datum       | Juni 2020 |
+| Datum | Juni 2020 |
 
 ## Überblick {#overview}
 
@@ -39,24 +39,24 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
-* Wenn Sie ein veröffentlichtes Metadaten-Schema aus dem Markenportal entfernen, wird ein Fehler ausgegeben.
+* Wenn Sie ein veröffentlichtes Metadatenschema aus Brand Portal entfernen, wird ein Fehler ausgegeben.
 
-* Wenn der Administrator Experience Manager Assets 6.5.4 mit dem Markenportal über die Adobe Developer Console konfiguriert, kann der Benutzer des Markenportals die Assets des Beitragsordners nicht vom Markenportal an Experience Manager veröffentlichen.
+* Wenn der Administrator Experience Manager Assets 6.5.4 mit Brand Portal über Adobe Developer Console konfiguriert, können Brand Portal-Benutzer die Assets des Beitragsordners nicht von Brand Portal in Experience Manager veröffentlichen.
 
-* Duplikat-Replikation der übergeordneten Ordner, die Konflikte verursachen.
+* Doppelte Replikation der übergeordneten Ordner, die Konflikte verursachen.
 
-* Benutzer kann keinen Bericht &quot;Linkfreigabe&quot;erstellen.
+* Benutzer kann den Bericht zur Linkfreigabe nicht erstellen.
 
-* Benutzer können MAC-Geheimnisse für einen Markenportal-Endpunkt mit dem Befehl copyPage kopieren.
+* Benutzer können MAC-Geheimnisse für einen Brand Portal-Endpunkt mit dem Befehl „copyPage“ kopieren.
 
-* cqTags, die zu einer Wiederverwendung im VA5-Klon führen.
+* cqTags verursachen eine Neuindizierung des VA5-Klons.
 
 
 ### Bekannte Probleme {#known-issues-6462}
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Wenn ein Ordner in der Hierarchie aus AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, im Markenportal veröffentlicht wird, wird der Titel des Ordners erst dann im Markenportal aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
+* Wenn ein Ordner in der Hierarchie von AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, in Brand Portal veröffentlicht wird, wird der Titel des Ordners in Brand Portal erst dann aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
 
 
 ## Neue Funktionen in Version 6.4.6 {#what-s-new-in-646}
@@ -74,11 +74,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets Cloud Serv
 
 Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
 
-* In AEM 6.3 und höher wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. AEM Assets wird jetzt über die Adobe Developer Console mit dem Markenportal konfiguriert, die ein IMS-Token zur Autorisierung Ihres Markenportals-Mandanten erhält.
+* In AEM 6.3 und höher wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. AEM Assets wird jetzt mit Brand Portal über Adobe Devloper Console konfiguriert, die ein IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten abruft.
 
 >[!NOTE]
 >
->Die Konfiguration über Legacy-OAuth wird ab dem 6. April 2020 nicht mehr unterstützt. Die Konfiguration erfolgt nun über die Adobe Developer Console.
+>Die Konfiguration über das alte OAuth-Protokoll wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe Developer Console.
 
 
 
@@ -88,7 +88,7 @@ Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
 >
 >Die alte OAuth Gateway-Konfiguration funktioniert für bestehende Kunden weiterhin.
 >
->Falls Probleme mit der alten OAuth Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über die Adobe Developer Console.
+>Falls Probleme mit der alten OAuth-Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe Developer Console.
 
 
 Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md).
@@ -115,7 +115,7 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Benutzer von Brand Portal können beim Aktualisieren auf Adobe Developer Console unter AEM 6.5.4 keine Beitragsordnerelemente in AEM Assets veröffentlichen.
+* Brand Portal-Benutzer können beim Aktualisieren auf Adobe Developer Console unter AEM 6.5.4 keine Beitragsordner-Assets in AEM Assets veröffentlichen.
 
    Dieses Problem wird mit dem nächsten Service Pack für AEM 6.5.5 behoben.
 
@@ -133,12 +133,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches      Portugiesisch
+* Brasilianisches       Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen       {#certified-platforms}
+## Zertifizierte Plattformen        {#certified-platforms}
 
 Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
