@@ -1,11 +1,14 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: experience manager brand portal
+sub-product: 'Experience Manager Brand Portal '
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+translation-type: tm+mt
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
 
