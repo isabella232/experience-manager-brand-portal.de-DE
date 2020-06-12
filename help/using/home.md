@@ -3,8 +3,11 @@ title: AEM Brand Portal-Benutzerhandbuch
 seo-title: AEM Brand Portal-Benutzerhandbuch
 description: AEM Brand Portal-Benutzerhandbuch
 seo-description: Beschreibt die Verwendung von Brand Portal
-translation-type: ht
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+translation-type: tm+mt
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
