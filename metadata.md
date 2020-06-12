@@ -7,10 +7,13 @@ getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/de/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-dispatcher.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.de-DE
 index: y
-translation-type: ht
-source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
+translation-type: tm+mt
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
