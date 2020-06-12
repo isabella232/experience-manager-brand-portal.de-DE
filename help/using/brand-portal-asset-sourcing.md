@@ -19,10 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 96%
+source-wordcount: '453'
+ht-degree: 94%
 
 ---
 
@@ -33,16 +33,18 @@ Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohn
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Voraussetzungen {#prerequisites}
+
+* AEM 6.5.2 oder höher.
+* Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Stellen Sie sicher, dass Ihr Markenportal-Mandant mit einer Autoreninstanz von AEM Assets konfiguriert ist.
 
 >[!NOTE]
 >
->Die Asset-Beschaffung in Brand Portal wird ab AEM 6.5.2.0 unterstützt.
->
->Die Funktion wird nicht vom AEM Assets Cloud-Dienst und früheren Versionen - AEM 6.3 und AEM 6.4 - unterstützt.
->
->Wenden Sie sich an den Adobe-Support, um Ihre AEM-Instanz auf die aktuelle unterstützte AEM-Version zu aktualisieren.
+>Asset Sourcing wird vom AEM Assets-Cloud-Dienst nicht unterstützt.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Beschaffung von Brand Portal-Assets](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
 
-
-## Voraussetzungen {#prerequisites}
-
-* AEM 6.5.0.2 oder höher.
-* Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Siehe auch {#reference-articles}
 
