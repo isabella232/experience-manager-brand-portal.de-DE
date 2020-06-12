@@ -9,18 +9,18 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # Konfigurieren von AEM Assets mit Brand Portal {#configure-integration}
 
-Adobe Experience Manager (AEM)-Assets werden über die Adobe Developer Console mit dem Markenportal konfiguriert, wodurch ein IMS-Token zur Autorisierung Ihres Markenportal-Mandanten abgerufen wird. Brand Portal wird jetzt von AEM Assets Cloud Service, AEM Assets 6.3 und hher unterstützt.
+Adobe Experience Manager (AEM) Assets wird über Adobe Developer Console mit Brand Portal konfiguriert. Dadurch wird ein IMS-Token zur Autorisierung Ihres Brand Portal-Mandanten abgerufen. Brand Portal wird jetzt von AEM Assets Cloud Service, AEM Assets 6.3 und hher unterstützt.
 
 Durch die Konfiguration von AEM Assets Cloud Service mit Brand Portal können Sie Assets veröffentlichen und an Benutzer von Brand Portal verteilen. Die Konfiguration von Brand Portal unter AEM 6.3 (und höher) wiederum bietet den Benutzern von Brand Portal Funktionen zu Asset-Veröffentlichung, Asset-Verteilung und Mitarbeit an Assets.
 
@@ -30,7 +30,7 @@ Durch die Konfiguration von AEM Assets Cloud Service mit Brand Portal können Si
 >
 >Zuvor wurde Brand Portal über das alte OAuth-Gateway in der klassischen Benutzeroberfläche konfiguriert. Das Gateway ruft mithilfe des JWT-Token-Austauschs ein IMS-Zugriffstoken zur Autorisierung ab.
 >
->Die Konfiguration über Legacy-OAuth wird ab dem 6. April 2020 nicht mehr unterstützt. Die Konfiguration erfolgt nun über die Adobe Developer Console.
+>Die Konfiguration über das alte OAuth-Protokoll wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe Developer Console.
 
 
 >[!TIP]
@@ -39,7 +39,7 @@ Durch die Konfiguration von AEM Assets Cloud Service mit Brand Portal können Si
 >
 >Die alte OAuth Gateway-Konfiguration funktioniert für bestehende Kunden weiterhin.
 >
->Falls Probleme mit der alten OAuth Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über die Adobe Developer Console.
+>Falls Probleme mit der alten OAuth-Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe Developer Console.
 
 
 Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
