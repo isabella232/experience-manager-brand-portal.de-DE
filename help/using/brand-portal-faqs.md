@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 83%
+source-wordcount: '1521'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,6 @@ Dieses Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz 
 
 Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
 
-
 **Frage. Der Inhalt des Beitragsordners wird nicht im Markenportal in AEM Assets veröffentlicht. Was könnte der Grund sein?**
 
 **Antwort.** Wenden Sie sich an Ihren AEM Assets-Administrator, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Markenportal-Mandant mit nur einer AEM Assets-Autoreninstanz konfiguriert ist.
@@ -58,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um den Replizierungsagenten zu konfiguri
 1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]** .
 1. Aktivieren Sie das Kontrollkästchen Verbindung **[!UICONTROL schließen]** .
 1. Wiederholen Sie die Schritte 4 bis 7, um alle vier Replizierungsagenten zu konfigurieren.
-1. Starten Sie den Server neu.
+1. Starten Sie den Server neu und überprüfen Sie die Verbindung.
 
 
 ## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
