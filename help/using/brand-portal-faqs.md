@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 88%
+source-wordcount: '1517'
+ht-degree: 83%
 
 ---
 
@@ -37,24 +37,28 @@ Dieses Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz 
 
 Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
 
-**Frage. Ich möchte die Asset-Sourcing-Funktion in meiner AEM Assets-Cloud-Instanz aktivieren. Wie kann ich es konfigurieren?**
 
-**Antwort.** Nein, die Asset-Sourcing-Funktion wird derzeit nicht vom AEM Assets-Cloud-Dienst unterstützt.
+**Frage. Der Inhalt des Beitragsordners wird nicht im Markenportal in AEM Assets veröffentlicht. Was könnte der Grund sein?**
 
-Bleiben Sie in Verbindung und sehen Sie sich die Versionshinweise an, um Benachrichtigungen über die Funktionsverfügbarkeit in den kommenden Versionen zu erhalten.
+**Antwort.** Wenden Sie sich an Ihren AEM Assets-Administrator, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Markenportal-Mandant mit nur einer AEM Assets-Autoreninstanz konfiguriert ist.
 
-**Frage. Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen und das Replizierungsagenten-Protokoll gibt eine Ausnahme aus`java.net.SocketException: Connection timed out`. Gibt es eine schnelle Lösung?**
+Dieses Problem tritt möglicherweise auf, wenn Sie einen Markenportal-Mandanten in mehreren Autoreninstanzen von AEM Assets konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Markenportal-Mieter für die AEM Assets-Autoreninstanz der Staging- und Produktions-Umgebung. In diesem Fall löst die Asset-Veröffentlichung im Markenportal aus, aber die Autoreninstanz von AEM Assets konnte den Asset-Code nicht importieren, wenn der Replizierungsagenten das anfordernde Token nicht erhält.
 
-**Antwort.** Wenn in der Replikationswarteschlange eine Anzahl von Anforderungen aussteht, kann es vorkommen, dass der Replizierungsagenten die Anforderung zum Veröffentlichen eines Assets nicht verarbeitet und eine Ausnahme auslöst: `java.net.SocketException: Connection timed out`.
 
-Führen Sie die folgenden Schritte aus, um das Problem zu beheben:
+**Frage. Ich kann keine Assets aus AEM Assets im Markenportal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass die Verbindung abgelaufen ist. Gibt es eine schnelle Lösung?**
 
-1. Öffnen Sie den Replizierungsagenten und klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Einstellungen des Replizierungsagenten zu ändern.
-1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
-1. Aktivieren Sie das Kontrollkästchen Verbindung **[!UICONTROL schließen]**.
-1. Starten Sie das Replikationsbündel (Server) neu.
+**Antwort.** Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um das Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass kein Timeout erfolgt.
 
-Aktivieren Sie die Einstellungen für alle vier Replizierungsagenten, um Probleme mit dem Replizierungsagenten zu vermeiden.
+Führen Sie die folgenden Schritte aus, um den Replizierungsagenten zu konfigurieren:
+1. Melden Sie sich bei Ihrer AEM Assets-Autoreninstanz an.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. In the Replication page, click **[!UICONTROL Agents on author]**. Sie können die vier Replizierungsagenten für Ihren Markenportal-Mandanten sehen.
+1. Klicken Sie auf die Replizierungsagenten-URL, um die Agentendetails zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Einstellungen des Replizierungsagenten zu ändern.
+1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]** .
+1. Aktivieren Sie das Kontrollkästchen Verbindung **[!UICONTROL schließen]** .
+1. Wiederholen Sie die Schritte 4 bis 7, um alle vier Replizierungsagenten zu konfigurieren.
+1. Starten Sie den Server neu.
 
 
 ## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
