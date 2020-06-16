@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
+source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -33,23 +33,23 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 
 **Antwort.** Ja, es gibt ein bekanntes Problem bei der Veröffentlichung von Assets des Beitragsordners in AEM Assets unter AEM 6.5.4 über Adobe Developer Console.
 
-Dieses Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
+Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
 
-Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer AEM-Autoreninstanz zu installieren.
+Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix herunterzuladen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) und auf der AEM-Autoreninstanz zu installieren.
 
 **Frage. Der Inhalt des Beitragsordners wird nicht im Markenportal in AEM Assets veröffentlicht. Was könnte der Grund sein?**
 
-**Antwort.** Wenden Sie sich an Ihren AEM Assets-Administrator, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Markenportal-Mandant mit nur einer AEM Assets-Autoreninstanz konfiguriert ist.
+**Antwort.** Wenden Sie sich an den Administrator Ihres AEM Assets, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Markenportal-Mandant mit nur einer Autoreninstanz für AEM Assets konfiguriert ist.
 
-Dieses Problem tritt möglicherweise auf, wenn Sie einen Markenportal-Mandanten in mehreren Autoreninstanzen von AEM Assets konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Markenportal-Mieter für die AEM Assets-Autoreninstanz der Staging- und Produktions-Umgebung. In diesem Fall löst die Asset-Veröffentlichung im Markenportal aus, aber die Autoreninstanz von AEM Assets konnte den Asset-Code nicht importieren, wenn der Replizierungsagenten das anfordernde Token nicht erhält.
+Dieses Problem tritt möglicherweise auf, wenn Sie einen Markenportal-Mandanten in mehreren Autoreninstanzen für AEM Assets konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Markenportal-Mieter für die Instanz des AEM Assets-Autorenmodus der Staging- und Produktions-Umgebung. In diesem Fall löst die Asset-Veröffentlichung im Markenportal aus, aber die Autoreninstanz von AEM Assets konnte den Asset-Code nicht importieren, wenn der Replizierungsagenten das anfordernde Token nicht erhält.
 
 
-**Frage. Ich kann keine Assets aus AEM Assets im Markenportal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass die Verbindung abgelaufen ist. Gibt es eine schnelle Lösung?**
+**Frage. Ich kann keine Assets von AEM Assets im Markenportal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass die Verbindung abgelaufen ist. Gibt es eine schnelle Lösung?**
 
 **Antwort.** Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um das Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass kein Timeout erfolgt.
 
 Führen Sie die folgenden Schritte aus, um den Replizierungsagenten zu konfigurieren:
-1. Melden Sie sich bei Ihrer AEM Assets-Autoreninstanz an.
+1. Melden Sie sich bei der Autoreninstanz Ihrer AEM Assets an.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
 1. In the Replication page, click **[!UICONTROL Agents on author]**. Sie können die vier Replizierungsagenten für Ihren Markenportal-Mandanten sehen.
 1. Klicken Sie auf die Replizierungsagenten-URL, um die Agentendetails zu öffnen.
@@ -157,7 +157,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage. Wie häufig wird ein Importauftrag ausgeführt, der regelmäßig in AEM ausgeführt wird?**
 
-**Antwort.** In AEM wird die Abfrage aller fünf Minuten ausgeführt.
+**Antwort.** In AEM wird die Abfrage alle fünf Minuten ausgeführt.
 
 
 
