@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
 source-wordcount: '4468'
 ht-degree: 100%
 
@@ -97,6 +97,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >Die Funktion wird in früheren Versionen – AEM 6.3 und AEM 6.4 – nicht unterstützt.
 
 
+
 ### Hochladen von Assets in den Beitragsordner {#upload-assets-in-bp}
 
 Brand Portal-Benutzer mit entsprechenden Berechtigungen können die [Asset-Anforderungen herunterladen](brand-portal-download-asset-requirements.md), um die Notwendigkeit von Beiträgen zu verstehen, und mehrere Assets oder Ordner, die mehrere Assets enthalten, in den Beitragsordner hochzuladen. Beachten Sie jedoch, dass Brand Portal-Benutzer Assets nur in den Unterordner **NEU** hochladen können. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md)
@@ -128,7 +129,6 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
-
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
@@ -155,6 +155,7 @@ Auch gilt Folgendes:
 >[!NOTE]
 >
 >Nach Aktivierung des Kontrollkästchens **Teilsuche** wird **Groß-/Kleinschreibung ignorieren** standardmäßig aktiviert.
+
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
