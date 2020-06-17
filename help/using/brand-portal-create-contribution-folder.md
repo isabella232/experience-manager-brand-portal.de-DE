@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 94%
+source-wordcount: '263'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,8 @@ AEM-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen ein
 Um einen **Beitragsordner** zu erstellen, erstellen Sie einen neuen Ordner des Typs **Asset-Beitrag** und stellen Sie sicher, dass der neu erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist.  Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
 
 **Erstellen eines neuen Beitragsordners:**
-1. Melden Sie sich bei Ihrer AEM-Autoreninstanz anStandard-URL: http:// localhost:4502/aem/start.html
+1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
+Standard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]**.
 Es werden alle vorhandenen Ordner im AEM Assets-Repository aufgelistet.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. Das Popup-Fenster „Ordner erstellen“ wird geöffnet.
@@ -41,3 +42,6 @@ Sie können jetzt die Eigenschaften des Beitragsordners konfigurieren. Siehe [Ko
 >[!NOTE]
 >
 >Stellen Sie sicher, dass Sie dem Beitragsordner einen entsprechenden Namen geben, da Sie den Ordnernamen nach der Erstellung nicht mehr ändern können.
+>
+>Die Verschachtelung des Beitragsordners wird nicht unterstützt. Erstellen Sie keinen Beitragsordner in einem anderen Beitragsordner.
+
