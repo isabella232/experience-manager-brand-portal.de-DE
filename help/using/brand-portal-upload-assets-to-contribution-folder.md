@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,7 @@ Brand Portal-Benutzer können dann neue Assets für Beiträge erstellen und sie 
 >Brand Portal-Benutzer können Inhalte/Assets nur in den Ordner **NEU** hochladen. Sie haben keine Berechtigung zum Löschen hochgeladener Assets.
 >
 >Für Brand Portal-Konten/-Mandanten beträgt die maximale Dateigröße für Uploads **10** GB.
+
 
 
 **Hochladen neuer Assets:**
