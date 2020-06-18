@@ -37,11 +37,11 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 * AEM 6.5.2 oder höher.
 * Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-* Stellen Sie sicher, dass Ihr Markenportal-Mandant mit einer Autoreninstanz von AEM Assets konfiguriert ist.
+* Stellen Sie sicher, dass Ihr Markenportal-Mandant mit einer Autoreninstanz für ein AEM Assets konfiguriert ist.
 
 >[!NOTE]
 >
->Asset Sourcing wird vom AEM Assets-Cloud-Dienst nicht unterstützt.
+>Asset Sourcing wird vom AEM Assets Cloud-Dienst nicht unterstützt.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
