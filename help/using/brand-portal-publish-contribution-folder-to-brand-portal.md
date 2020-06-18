@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sobald der [Beitragsordner konfiguriert ist](brand-portal-configure-contribution
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
 Standard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner, in dem Sie in Brand Portal veröffentlichen möchten.
-1. Wählen Sie den Beitragsordner aus und klicken Sie auf **[!UICONTROL Schnell veröffentlichen > In Brand Portal veröffentlichen]**.
+1. Wählen Sie den Beitragsordner aus und klicken Sie auf **[!UICONTROL Quick Publish > In Brand Portal veröffentlichen]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 Sie erhalten eine Erfolgsmeldung, sobald der Beitragsordner in Brand Portal veröffentlicht wurde.
 
