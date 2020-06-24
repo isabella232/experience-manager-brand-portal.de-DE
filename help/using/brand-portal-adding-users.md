@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -69,11 +69,9 @@ Verwenden Sie als Produkt-Administrator [[!UICONTROL Adobe Admin Console]](http:
 1. Führen Sie in Admin Console einen der folgenden Schritte aus, um einen neuen Benutzer zu erstellen:
 
    * Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Überblick]**. Klicken Sie auf der Seite [!UICONTROL Überblick] auf der Produktkarte „Brand Portal“ auf **[!UICONTROL Benutzer zuweisen]**.
-
    ![Überblick über Admin Console](assets/admin_console_overviewadduser.png)
 
    * Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Benutzer]**. Auf der Seite [!UICONTROL Benutzer] ist in der linken Schiene standardmäßig [!UICONTROL Benutzer] ausgewählt. Klicken Sie auf **[!UICONTROL Benutzer hinzufügen]**.
-
    ![Admin Console – Benutzer hinzufügen](assets/admin_console_adduseruserpage.png)
 
 1. Geben Sie im Dialogfeld „Benutzer hinzufügen“ die E-Mail-Adresse des Benutzers ein, den Sie hinzufügen möchten, oder wählen Sie den Benutzer aus der Liste mit Vorschlägen aus, die erscheint, wenn Sie mit der Eingabe beginnen.
@@ -89,7 +87,7 @@ Verwenden Sie als Produkt-Administrator [[!UICONTROL Adobe Admin Console]](http:
 
    Informationen zum Gewähren von Administratorrechten für Benutzer finden Sie unter [Bereitstellen von Administratorrechten für Benutzer](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
-## Hinzufügen von Produktprofilen       {#add-a-product-profile}
+## Hinzufügen von Produktprofilen        {#add-a-product-profile}
 
 Produktprofile (ehemals „Produktkonfigurationen“) in [!UICONTROL Admin Console] werden zum Erstellen von Gruppen in Brand Portal verwendet, mit deren Hilfe Sie Massenvorgänge wie Rollenverwaltung und Asset-Freigabe durchführen können. **Brand Portal** ist standardmäßig als Produktprofil verfügbar. Sie können weitere Produktprofile erstellen und Benutzer zu den neuen Produktprofilen hinzufügen.
 
@@ -152,11 +150,9 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 1. Gehen Sie wie folgt vor, um einzelne Benutzer zum Produktprofil hinzuzufügen:
 
    * Klicken Sie auf **[!UICONTROL Benutzer hinzufügen]**.
-
    ![Gruppe zum Zuordnen des Produktprofils in Brand Portal](assets/admin_console_productprofilesalesgroup.png)
 
    * Geben Sie auf der Seite [!UICONTROL Benutzer zu Vertriebsgruppe hinzufügen] die E-Mail-Adresse des Benutzers ein, den Sie hinzufügen möchten, oder wählen Sie den Benutzer aus der Liste mit Vorschlägen aus, die eingeblendet wird, wenn Sie mit der Eingabe beginnen.
-
    ![Hinzufügen eines Benutzers zu einer Gruppe](assets/admin_console_addusertosalesgroup.png)
 
    * Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -166,11 +162,9 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 1. Gehen Sie wie folgt vor, um mehrere Benutzer zum Produktprofil hinzuzufügen:
 
    * Wählen Sie **[!UICONTROL die Auslassungszeichen (...) > Benutzer über CSV hinzufügen]** aus.
-
    ![Stapelweises Hinzufügen von Benutzern](assets/admin_console_addbulkusers.png)
 
    * Laden Sie auf der Seite **[!UICONTROL Benutzer über CSV hinzufügen]** eine CSV-Vorlage herunter oder fügen Sie eine CSV-Datei per Drag-and-Drop hinzu.
-
    ![Benutzer über CSV hinzufügen](assets/admin_console_addbulkuserscsv.png)
 
    * Klicken Sie auf **[!UICONTROL Hochladen]**.
@@ -178,7 +172,7 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
    Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt werden, erhalten keine E-Mail-Benachrichtigung.
 
-## Bereitstellen von Administratorrechten für Benutzer       {#provide-administrator-privileges-to-users}
+## Bereitstellen von Administratorrechten für Benutzer        {#provide-administrator-privileges-to-users}
 
 Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder eines Produkt-Administrator gewähren. Gewähren Sie keine anderen in [!UICONTROL Admin Console] verfügbaren Administratorrechte, z. B. Produktprofil-Administrator, Benutzergruppen-Administrator und Support-Administrator. Weitere Informationen zu diesen Rollen finden Sie unter [Administratorrollen](https://helpx.adobe.com/de/enterprise/using/admin-roles.html).
 
