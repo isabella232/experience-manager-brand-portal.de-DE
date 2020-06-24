@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -68,14 +68,13 @@ Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass d
 
 1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost:4502 ausführen:\
    i. Löschen Sie `/etc/replication/agents.author/mp_replication`
-ii. delete 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii. Löschen Sie `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue            Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue              Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -119,19 +118,19 @@ Wenn jedoch kontinuierliche Fehler beim Veröffentlichen auftreten und die Warte
 Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öffnen, damit das Brand Portal-Technikerteam Ihnen beim Beheben der Probleme helfen kann.
 
 
-## Replizierungsagenten konfigurieren, um Fehler bei der Zeitüberschreitung der Verbindung zu vermeiden {#connection-timeout}
+## Konfigurieren von Replikationsagenten, um Verbindungsabbrüche wegen Zeitüberschreitung zu verhindern {#connection-timeout}
 
-**Problem**: Ich kann keine Assets von AEM Assets im Markenportal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass die Verbindung abgelaufen ist.
+**Problem**: Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist.
 
-**Auflösung**: Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um das Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass kein Timeout erfolgt.
+**Auflösung**: Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
 
-Führen Sie die folgenden Schritte aus, um den Replizierungsagenten zu konfigurieren:
-1. Melden Sie sich bei der Autoreninstanz Ihrer AEM Assets an.
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. Sie können die vier Replizierungsagenten für Ihren Markenportal-Mandanten sehen.
-1. Klicken Sie auf die Replizierungsagenten-URL, um die Agentendetails zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]** , um die Einstellungen des Replizierungsagenten zu ändern.
-1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]** .
-1. Aktivieren Sie das Kontrollkästchen Verbindung **[!UICONTROL schließen]** .
-1. Wiederholen Sie die Schritte 4 bis 7, um alle vier Replizierungsagenten zu konfigurieren.
+Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
+1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
+1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
+1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie sehen die vier Replikationsagenten für Ihren Brand Portal-Mandanten.
+1. Klicken Sie auf die Replikationsagenten-URL, um die Agentendetails zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Einstellungen des Replikationsagenten zu ändern.
+1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Verbindung schließen]**.
+1. Wiederholen Sie die Schritte 4 bis 7, um alle vier Replikationsagenten zu konfigurieren.
 1. Starten Sie den Server neu.
