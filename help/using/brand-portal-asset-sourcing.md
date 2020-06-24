@@ -18,11 +18,11 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,16 +37,16 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 * AEM 6.5.2 oder höher.
 * Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-* Stellen Sie sicher, dass Ihr Markenportal-Mandant mit einer Autoreninstanz für ein AEM Assets konfiguriert ist.
+* Stellen Sie sicher, dass Ihr Brand Portal-Mandant mit einer AEM Assets-Autoreninstanz konfiguriert ist.
 
 >[!NOTE]
 >
->Asset Sourcing wird vom AEM Assets Cloud-Dienst nicht unterstützt.
+>Asset-Beschaffung wird von AEM Assets Cloud Service nicht unterstützt.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
 
-![Beschaffung von Brand Portal-Assets](assets/asset-sourcing.png)
+![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
 >
->Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
+>Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf der Autoreninstanz zu installieren.
 
 
 ## Siehe auch {#reference-articles}
