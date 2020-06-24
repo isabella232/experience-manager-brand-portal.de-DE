@@ -7,13 +7,13 @@ getting-started-title: Erste Schritte
 getting-started-url: https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/home.html
 tutorials-title: Tutorials
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.de-DE
+git-repo: https://github.com/AdobeDocs/experience-manager-dispatcher.en
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 | getting-started-url | Link zur helpx-Seite „Erste Schritte“ |
 | tutorials-url | Link zu Videotutorials – entweder helpx-Tutorials oder KT-Tutorials |
 | mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2 |
-| git-repo | Gibt den Speicherort des primären Berichts für die interne Verwendung an |
+| git-repo | Gibt den Speicherort des primären Repo für die interne Verwendung an. |
