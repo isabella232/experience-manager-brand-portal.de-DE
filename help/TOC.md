@@ -4,9 +4,9 @@ product: adobe experience manager
 sub-product: 'Experience Manager Brand Portal '
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
    + [Verwenden benutzerdefinierter Suchfacetten](using/brand-portal-search-facets.md)
 + Verwenden der Download-Funktionen {#download}
    + [Herunterladen von Assets](using/brand-portal-download-users.md)
-   + [Unterstützung dynamischer Videos in Brand Portal](using/dynamic-video-brand-portal.md)
+   + [Unterstützung für Dynamic Video in Brand Portal](using/dynamic-video-brand-portal.md)
    + [Verwalten der Lightbox-Sammlung](using/brand-portal-light-box.md)
    + [Verwalten der digitalen Rechte von Assets](using/manage-digital-rights-of-assets.md)
    + [Anleitung zum Beschleunigen von Downloads von Brand Portal](using/accelerated-download.md)
