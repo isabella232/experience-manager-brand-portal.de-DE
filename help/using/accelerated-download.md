@@ -9,9 +9,9 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen 
 
 ![](assets/enable-fast-file-download.png)
 
-## Voraussetzungen für die Beschleunigung des Datei-Downloads      {#prerequisites-to-accelerate-file-download}
+## Voraussetzungen für die Beschleunigung des Datei-Downloads       {#prerequisites-to-accelerate-file-download}
 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
@@ -57,7 +57,7 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 
 *Die tatsächlichen Ergebnisse variieren aufgrund von Faktoren wie Netzwerkbandbreite, Server-Latenz und Client-Standort. Dabei ist zu berücksichtigen, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
 
-| Client-Standort | Latenz zwischen Client und Server      (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
+| Client-Standort | Latenz zwischen Client und Server       (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | USA, Westküste (Nordkalifornien) | 18 | 36 | 57 |
 | USA, Westen (Oregon) | 42 | 36 | 57 |
@@ -87,6 +87,7 @@ Das Dialogfeld „Herunterladen“ wird mit der aktivierten Option [Downloadbesc
 Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müssen Sie die Aspera Connect-Clientanwendung auf Ihrem System installiert haben.
 
 1. **Herunterladen des Aspera Connect-Clients**
+
 
 
 
@@ -134,7 +135,7 @@ Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, mü
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
-## Voreinstellungen für den Aspera Connect-Client      {#aspera-connect-client-preferences}
+## Voreinstellungen für den Aspera Connect-Client       {#aspera-connect-client-preferences}
 
 Im IBM Aspera Connect-Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
 
@@ -148,7 +149,7 @@ Außerdem kann der Aspera Connect-Client so konfiguriert werden, dass er automat
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Beheben von Problemen mit der Downloadbeschleunigung      {#troubleshoot-issues-with-download-acceleration}
+## Beheben von Problemen mit der Downloadbeschleunigung       {#troubleshoot-issues-with-download-acceleration}
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
 
