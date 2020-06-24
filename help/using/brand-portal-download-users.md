@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Alle Benutzer können gleichzeitig mehrere Assets und Ordner von Brand Portal he
 >Nur Administratoren können abgelaufenen Assets herunterladen. Weitere Informationen zu abgelaufenen Assets finden Sie unter [Digital Rights Management für Assets](../using/manage-digital-rights-of-assets.md).
 
 
-## Schritte zum Herunterladen von Assets   {#steps-to-download-assets}
+## Schritte zum Herunterladen von Assets    {#steps-to-download-assets}
 
 Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Brand Portal herunterzuladen:
 
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
    * Wählen Sie zum Beschleunigen des Downloads der Asset-Dateien von Brand Portal die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** aus und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#main-pars-header-405749062). Weitere Informationen zur Beschleunigung von Asset-Downloads finden Sie in der [Anleitung zum Beschleunigen von Downloads von Brand Portal](../using/accelerated-download.md).
 
-   * Um eine [benutzerdefinierte Bildvorgabe zum Asset und seinen Ausgabeformaten](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages) zuzuweisen, wählen Sie **[!UICONTROL Dynamische Ausgabe(n)]** aus. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen,   deaktivieren Sie die Option **[!UICONTROL Asset(s)]**.
+   * Um eine [benutzerdefinierte Bildvorgabe zum Asset und seinen Ausgabeformaten](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages) zuzuweisen, wählen Sie **[!UICONTROL Dynamische Ausgabe(n)]** aus. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen,    deaktivieren Sie die Option **[!UICONTROL Asset(s)]**.
 
    ![](assets/dynamic-renditions.png)
 
@@ -103,7 +103,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 
 ## Erwartete Download-Zeiten {#expected-download-performance}
 
-Die Zeiten von Datei-Downloads variieren unter Umständen für Benutzer an verschiedenen Client-Standorten. Dies ist abhängig von Faktoren wie der lokalen Internetverbindung und der Serverlatenz. Die erwartete Download-Zeit für eine 2 GB große Datei an verschiedenen Client-Standorten ist wie folgt, wenn sich der   Brand Portal-Server in Oregon (USA) befindet:
+Die Zeiten von Datei-Downloads variieren unter Umständen für Benutzer an verschiedenen Client-Standorten. Dies ist abhängig von Faktoren wie der lokalen Internetverbindung und der Serverlatenz. Die erwartete Download-Zeit für eine 2 GB große Datei an verschiedenen Client-Standorten ist wie folgt, wenn sich der    Brand Portal-Server in Oregon (USA) befindet:
 
 | Client-Standort | Latenz zwischen Client und Server | Erwartete Download-Geschwindigkeit | Erforderliche Zeit für den Download einer 2 GB großen Datei |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
