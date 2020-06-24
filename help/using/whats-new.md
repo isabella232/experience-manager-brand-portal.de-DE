@@ -9,11 +9,11 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: ht
-source-wordcount: '4468'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+workflow-type: tm+mt
+source-wordcount: '4462'
+ht-degree: 99%
 
 ---
 
@@ -129,7 +129,6 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
-
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
@@ -348,7 +347,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe i/O-Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/) gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Previously, the UI for configuring OAuth integrations was hosted in `https://marketing.adobe.com/developer/`. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Verbesserungen der Suche
 
