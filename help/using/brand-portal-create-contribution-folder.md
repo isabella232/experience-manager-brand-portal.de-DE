@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können jetzt die Eigenschaften des Beitragsordners konfigurieren. Siehe [Ko
 
 >[!NOTE]
 >
->Ein Benutzer ohne Administratorrechte kann nur einen Beitragsordner erstellen und freigeben. Stellen Sie sicher, dass Sie einen entsprechenden Namen für den Beitragsordner angeben, da ein Benutzer ohne Administratorrechte keinen Beitragsordner ändern oder löschen kann.
+>Benutzer ohne Administratorrechte können Beitragsordner nur erstellen und freigeben. Stellen Sie sicher, dass Sie einen geeigneten Namen für den Beitragsordner angeben, da Benutzer ohne Administratorrechte Beitragsordner nicht ändern oder löschen können.
 >
 >Die Verschachtelung des Beitragsordners wird nicht unterstützt. Sie können mehrere Beitragsordner in einem Ordner erstellen, aber keinen Beitragsordner in einem anderen Beitragsordner.
 
