@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 79%
 
 ---
 
@@ -44,4 +44,3 @@ Sie können jetzt die Eigenschaften des Beitragsordners konfigurieren. Siehe [Ko
 >Ein Benutzer ohne Administratorrechte kann nur einen Asset-Beitragsordner erstellen und freigeben. Nachdem der Beitragsordner erstellt wurde, kann ein Benutzer ohne Administratorrechte ihn weder ändern noch löschen.
 >
 >Die Verschachtelung des Asset-Beitragsordners wird nicht unterstützt. Sie können mehrere Beitragsordner in einem Ordner erstellen, aber Sie dürfen keinen Beitragsordner in einem anderen Beitragsordner erstellen.
-
