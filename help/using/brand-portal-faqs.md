@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -133,9 +133,6 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 >[!NOTE]
 >
 >Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den AEM-Administrator, ein Benutzerkonto in AEM Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Brand Portal-Benutzern](brand-portal-configure-asset-sourcing.md).
-
-
-
 
 **Frage. Welches Format hat die CSV-Datei für den Benutzerimport?**
 
