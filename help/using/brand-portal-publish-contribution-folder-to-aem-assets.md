@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
 1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsbenachrichtigung an den Brand Portal-Benutzer und den AEM-Administrator gesendet:
+In den verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Puls-Benachrichtigung an den Brand Portal-Benutzer und AEM-Administrator gesendet:
 1. **In Warteschlange**: Wenn der Veröffentlichungs-Workflow in Brand Portal ausgelöst wird, wird ein Beitragsordner aus Brand Portal wird in AEM Assets veröffentlicht.
 
 1. **Abgeschlossen**: Wenn die Veröffentlichungsaktion abgeschlossen ist, wurde der Beitragsordner erfolgreich in AEM Assets importiert.
