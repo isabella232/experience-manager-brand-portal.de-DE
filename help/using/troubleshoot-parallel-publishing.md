@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 100%
 
@@ -24,7 +24,6 @@ In Brand Portal wird die Konfiguration mit AEM Assets unterstützt, damit genehm
 >[!NOTE]
 >
 >Adobe empfiehlt ein Upgrade auf AEM 6.4.1.0, um sicherzustellen, dass AEM Assets Brand Portal erfolgreich mit AEM Assets konfiguriert ist. Aufgrund einer Beschränkung in AEM 6.4 wird beim Konfigurieren von AEM Assets mit Brand Portal ein Fehler ausgegeben und die Replikation scheitert.
-
 
 Beim Konfigurieren des Cloud-Service für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Servicebenutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus AEM in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
@@ -68,7 +67,8 @@ Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass d
 
 1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost:4502 ausführen:\
    i. Löschen Sie `/etc/replication/agents.author/mp_replication`
-ii. Löschen Sie `/etc/cloudservices/mediaportal/<config_name>`
+ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. Gehen Sie zu localhost:4502/useradmin:\
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
