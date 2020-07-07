@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -32,7 +32,6 @@ Durch die Konfiguration von AEM Assets Cloud Service mit Brand Portal können Si
 >
 >Die Konfiguration über das alte OAuth-Protokoll wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe Developer Console.
 
-
 >[!TIP]
 >
 >***Nur für Bestandskunden***
@@ -40,7 +39,6 @@ Durch die Konfiguration von AEM Assets Cloud Service mit Brand Portal können Si
 >Die alte OAuth Gateway-Konfiguration funktioniert für bestehende Kunden weiterhin.
 >
 >Falls Probleme mit der alten OAuth-Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe Developer Console.
-
 
 Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
 
