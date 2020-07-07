@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: ht
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -38,7 +38,6 @@ Administratoren können abgelaufene Assets aus AEM Assets in Brand Portal veröf
 >
 >Ein Ordner kann als Link freigegeben werden, selbst wenn er abgelaufene Assets enthält. In diesem Fall werden im Link keine abgelaufenen Assets aufgelistet und nur die nicht abgelaufenen Assets werden freigegeben.
 
-
 In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Assets angezeigt:
 
 |  | **[!UICONTROL Linkfreigabe]** | **[!UICONTROL Download]** | **[!UICONTROL Eigenschaften]** | **[!UICONTROL Zu Sammlung hinzufügen]** | **[!UICONTROL Löschen]** |
@@ -52,7 +51,6 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 >
 >Wenn Betrachter und Bearbeiter einen Ordner mit abgelaufenen und nicht abgelaufenen Assets herunterladen, werden nur die nicht abgelaufenen Assets heruntergeladen. Wenn ein Ordner nur abgelaufene Assets enthält, wird ein leerer Ordner heruntergeladen.
 
-
 ### Gültigkeitsstatus und Assets      {#expiration-status-of-assets}
 
 Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]** anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
@@ -62,7 +60,6 @@ Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht
 >[!NOTE]
 >
 >In den Listen- und Spaltenansichten wird der Gültigkeitsstatus der Assets nicht angezeigt.
-
 
 ## Ablauf des Asset-Links      {#asset-link-expiration}
 
