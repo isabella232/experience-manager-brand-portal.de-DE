@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 100%
 
@@ -68,8 +68,6 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 >
 >Es wird empfohlen, Ihre AEM-Instanz auf das neueste Service Pack zu aktualisieren.
 
-
-
 Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
 Siehe [Häufig gestellte Fragen zum Brand Portal](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >Die Asset-Beschaffung in Brand Portal wird ab AEM 6.5.2.0 unterstützt.
 >
 >Die Funktion wird in früheren Versionen – AEM 6.3 und AEM 6.4 – nicht unterstützt.
-
-
 
 ### Hochladen von Assets in den Beitragsordner {#upload-assets-in-bp}
 
@@ -129,7 +125,6 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
-
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
@@ -156,7 +151,6 @@ Auch gilt Folgendes:
 >[!NOTE]
 >
 >Nach Aktivierung des Kontrollkästchens **Teilsuche** wird **Groß-/Kleinschreibung ignorieren** standardmäßig aktiviert.
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
