@@ -18,9 +18,9 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -43,8 +43,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Asset-Beschaffung wird von AEM Assets Cloud Service nicht unterstützt.
 
-
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
@@ -56,7 +55,6 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.translate.html#upgrade-integration-65) aktualisieren.
 >
 >Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf der Autoreninstanz zu installieren.
-
 
 ## Siehe auch {#reference-articles}
 
