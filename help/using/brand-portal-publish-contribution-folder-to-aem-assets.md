@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
    ![](assets/publish-contribution-folder-to-aem.png)
 
 In den verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Puls-Benachrichtigung an den Brand Portal-Benutzer und AEM-Administrator gesendet:
-1. **In Warteschlange**: Wenn der Veröffentlichungs-Workflow in Brand Portal ausgelöst wird, wird ein Beitragsordner aus Brand Portal wird in AEM Assets veröffentlicht.
+1. **Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer gesendet, wenn im Brand Portal ein Veröffentlichungs-Workflow ausgelöst wird.
 
-1. **Abgeschlossen**: Wenn die Veröffentlichungsaktion abgeschlossen ist, wurde der Beitragsordner erfolgreich in AEM Assets importiert.
+1. **Abgeschlossen** : Nach Abschluss des Veröffentlichungs-Workflows wird eine Benachrichtigung an den Markenportal-Benutzer und den AEM-Administrator gesendet, d. h. der Beitragsordner wurde erfolgreich in AEM Assets veröffentlicht.
 
 
