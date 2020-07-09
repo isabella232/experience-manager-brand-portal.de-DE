@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 33%
+source-wordcount: '257'
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ So erstellen Sie einen Beitragsordner:
 1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and enable the **[!UICONTROL Asset Contribution]** checkbox.
 Es wird empfohlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu benennen.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der neu erstellte Beitragsordner wird im AEM Assets-Repository aufgelistet.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Sie können den Beitragsordner im AEM Assets-Repository anzeigen.
 
    >[!NOTE]
    >
