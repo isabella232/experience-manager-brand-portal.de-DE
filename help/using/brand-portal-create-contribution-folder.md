@@ -10,37 +10,49 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 79%
+source-wordcount: '259'
+ht-degree: 33%
 
 ---
 
 
 # Erstellen von Beitragsordnern {#create-contribution-folder}
 
-AEM-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen eines neuen Ordners berechtigt sind, können in AEM Assets einen **Beitragsordner** erstellen.
-Um einen **Beitragsordner** zu erstellen, erstellen Sie einen neuen Ordner des Typs **Asset-Beitrag** und stellen Sie sicher, dass der neu erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist.  Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
 
-**Erstellen eines neuen Beitragsordners:**
-1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
-Standard-URL: http:// localhost:4502/aem/start.html
-1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]**.
-Es werden alle vorhandenen Ordner im AEM Assets-Repository aufgelistet.
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. Das Popup-Fenster „Ordner erstellen“ wird geöffnet.
-1. Geben Sie **[!UICONTROL Titel]** und **[!UICONTROL Name]** des Ordners ein und aktivieren Sie das Kontrollkästchen **[!UICONTROL Asset-Beiträge]**.
-Wir empfehlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu benennen.
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
-   ![](assets/create-contribution-folder.png)
-1. Der neu erstellte Beitragsordner wird im AEM Assets-Repository aufgelistet.
-1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**. Diese werden automatisch im Beitragsordner erstellt.\
-   ![](assets/contribution-folder.png)
-
-Sie können jetzt die Eigenschaften des Beitragsordners konfigurieren. Siehe [Konfigurieren von Eigenschaften von Beitragsordnern](brand-portal-configure-contribution-folder-properties.md).
+AEM-Administratoren und Nicht-Admin-Benutzer, die zum Erstellen eines neuen Ordners berechtigt sind, können einen Beitragsordner in AEM Assets erstellen.
+Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner vom Typ Asset Contribution, wobei sichergestellt wird, dass der erstellte neue Ordner für die Übermittlung von Assets durch die Benutzer von Brand Portal geöffnet ist.  Dadurch wird automatisch ein Workflow ausgelöst, der zwei weitere Unterordner im Beitragsordner erstellt, die als SHARED und NEW bezeichnet werden.
 
 >[!NOTE]
 >
->Ein Benutzer ohne Administratorrechte kann nur einen Asset-Beitragsordner erstellen und freigeben. Nachdem der Beitragsordner erstellt wurde, kann ein Benutzer ohne Administratorrechte ihn weder ändern noch löschen.
->
->Die Verschachtelung des Asset-Beitragsordners wird nicht unterstützt. Sie können mehrere Beitragsordner in einem Ordner erstellen, aber Sie dürfen keinen Beitragsordner in einem anderen Beitragsordner erstellen.
+>Sie können mehrere Beitragsordner in einem Ordner erstellen, aber Sie dürfen keinen Beitragsordner in einem anderen Beitragsordner erstellen.
+
+
+So erstellen Sie einen Beitragsordner:
+1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
+
+   Die Standard-URL lautet http:// localhost:4502/aem/start.html.
+
+1. Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**. It lists all the existing folders in the AEM Assets repository.
+
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um einen neuen Ordner zu erstellen. **[!UICONTROL Das Dialogfeld &quot;Ordner]** erstellen&quot;wird geöffnet.
+
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and enable the **[!UICONTROL Asset Contribution]** checkbox.
+Es wird empfohlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu benennen.
+
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der neu erstellte Beitragsordner wird im AEM Assets-Repository aufgelistet.
+
+   >[!NOTE]
+   >
+   >Ein Benutzer ohne Administratorrechte kann einen Asset-Beitragsordner erstellen und freigeben, ihn jedoch nicht ändern oder löschen.
+
+   ![](assets/create-contribution-folder.png)
+
+1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**. Diese werden automatisch im Beitragsordner erstellt.
+
+   ![](assets/contribution-folder.png)
+
+You can now [configure the contribution folder properties](brand-portal-configure-contribution-folder-properties.md).
+
+
