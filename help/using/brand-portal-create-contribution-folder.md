@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 28%
+ht-degree: 36%
 
 ---
 
@@ -26,7 +26,7 @@ Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner vom Typ A
 
 >[!NOTE]
 >
->Sie können mehrere Beitragsordner in einem Ordner erstellen, aber Sie dürfen keinen Beitragsordner in einem anderen Beitragsordner erstellen.
+>Sie können mehrere Beitragsordner in einem Ordner erstellen, aber keinen Beitragsordner in einem anderen Beitragsordner.
 
 
 So erstellen Sie einen Beitragsordner:
