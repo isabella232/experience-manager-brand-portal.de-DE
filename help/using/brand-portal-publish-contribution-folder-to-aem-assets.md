@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 62%
+source-wordcount: '183'
+ht-degree: 60%
 
 ---
 
@@ -27,13 +27,16 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
 **Veröffentlichen des Beitragsordners:**
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
-1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
-1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]** ![](assets/export.png).
+1. Wählen Sie den Beitragsordner im Dashboard aus.
+1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]**
+
+   ![](assets/export.png).
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 An den Brand Portal-Benutzer und Administratoren wird in verschiedenen Phasen des Veröffentlichungs-Workflows eine E-Mail-/Puls-Benachrichtigung gesendet:
 1. **Warteschlange** - Wenn im Markenportal ein Veröffentlichungs-Workflow ausgelöst wird, wird eine Benachrichtigung an die Benutzer- und Markenportaladministratoren des Markenportals gesendet.
 
-1. **Complete** - Eine Benachrichtigung wird an die Brand Portal-Benutzer- und Markenportaladministratoren gesendet, wenn der Veröffentlichungs-Workflow abgeschlossen ist, d. h. der Beitragsordner wurde erfolgreich in AEM Assets veröffentlicht.
+1. **Complete** - Eine Benachrichtigung wird an die Benutzer- und Markenportal-Administratoren des Markenportals gesendet, wenn der Beitragsordner erfolgreich in AEM Assets veröffentlicht wurde.
 
 
