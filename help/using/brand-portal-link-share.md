@@ -5,12 +5,15 @@ description: AEM Assets Brand Portal-Administratoren können Links mehrerer Asse
 seo-description: AEM Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: Referenz
-topic-tags: Freigabe
+content-type: reference
+topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Gehen Sie wie folgt vor, um Assets als Link freizugeben:
 
    ![](assets/siderail.png)
 
-1. Klicken Sie links in der Seitenleiste auf **[!UICONTROL Dateien], um Ordner oder Bilder freizugeben.** Um Sammlungen freizugeben, klicken Sie auf **[!UICONTROL Sammlungen]**.
+1. Klicken Sie links in der Seitenleiste auf **[!UICONTROL Dateien]**, um Ordner oder Bilder freizugeben. Um Sammlungen freizugeben, klicken Sie auf **[!UICONTROL Sammlungen]**.
 
    ![](assets/navigationrail.png)
 
@@ -41,7 +44,7 @@ Gehen Sie wie folgt vor, um Assets als Link freizugeben:
 
    ![](assets/asset-link-share.png)
 
-1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Link freigeben]**.
+1. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Linkfreigabe]**.
 
    Das Dialogfeld **[!UICONTROL Linkfreigabe]** wird angezeigt.
 
@@ -49,7 +52,7 @@ Gehen Sie wie folgt vor, um Assets als Link freizugeben:
 
    >[!NOTE]
    >
-   >Das Feld **[!UICONTROL Link freigeben]** zeigt einen automatisch erstellten Link zum Asset an. Standardmäßig läuft der Link nach sieben Tagen ab. Sie können den Link kopieren und separat an Benutzer weitergeben oder ihn über das Dialogfeld **[!UICONTROL Linkfreigabe]** freigeben.
+   >Das Feld **[!UICONTROL Linkfreigabe]** zeigt einen automatisch erstellten Link zum Asset an. Standardmäßig läuft der Link nach sieben Tagen ab. Sie können den Link kopieren und separat an Benutzer weitergeben oder ihn über das Dialogfeld **[!UICONTROL Linkfreigabe]** freigeben.
 
 1. Geben Sie im Feld „E-Mail-Adresse“ die E-Mail-Adresse des Benutzers ein, für den Sie den Link freigeben möchten. Sie können den Link für mehrere Benutzer freigeben.
 
@@ -59,7 +62,7 @@ Gehen Sie wie folgt vor, um Assets als Link freizugeben:
 
 1. Geben Sie in das Feld **[!UICONTROL Betreff]** einen Betreff für das freizugebende Asset ein.
 1. Geben Sie bei Bedarf eine Nachricht in das Feld **[!UICONTROL Nachricht]** ein.
-1. Verwenden Sie im Feld **[!UICONTROL Ablauf]** die Datumsauswahl, um Ablaufdatum und -uhrzeit für den Link festzulegen. Standardmäßig ist das Ablaufdatum auf sieben Tage nach dem Datum der Linkfreigabe gesetzt.
+1. Verwenden Sie im Feld **[!UICONTROL Ablauf]** die Datumsauswahl, um Ablaufdatum und -uhrzeit für den Link festzulegen. Standardmäßig ist das Ablaufdatum auf 7 Tage nach dem Datum der Linkfreigabe gesetzt.
 
    Die über den Link freigegebenen Assets laufen nach dem Datum und der Uhrzeit ab, die im Feld **[!UICONTROL Ablauf]** angegeben sind. Informationen zum Verhalten abgelaufener Assets und Änderungen bei den zulässigen Aktivitäten basierend auf den Benutzerrollen in Brand Portal finden Sie unter [Digital Rights Management für Assets](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
@@ -77,7 +80,7 @@ Klicken Sie auf den Link in der E-Mail, um das freigegebene Asset anzuzeigen. Di
 
 Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
-1. Klicken Sie auf die Assets und dann auf das Symbol **[!UICONTROL Herunterladen]** in der Symbolleiste.
+1. Klicken Sie auf die Assets und dann auf das Symbol **[!UICONTROL Download]** in der Symbolleiste.
 
    ![](assets/assets-shared-link.png)
 
@@ -87,28 +90,28 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
    >[!NOTE]
    >
-   >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die lizenzierten Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]**, und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden nur die nicht lizenzierten Assets heruntergeladen.\
+   >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die lizenzierten Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden nur die nicht lizenzierten Assets heruntergeladen.\
    >Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dies geschieht, indem die [Metadateneigenschaften des Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets] festgelegt werden.
 
    ![](assets/licensed-asset-download.png)
 
-   Das Dialogfeld **[!UICONTROL Herunterladen]** wird angezeigt.
+   Das Dialogfeld **[!UICONTROL Download]** wird angezeigt. 
 
    ![](assets/download-linkshare.png)
 
    * Wählen Sie zum Beschleunigen des Downloads der als Link freigegebenen Asset-Dateien die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#download-workflow-using-file-accelerator). Weitere Informationen zur Beschleunigung von Asset-Downloads in Brand Portal finden Sie in der [Anleitung zum Beschleunigen von Downloads von Brand Portal](../using/accelerated-download.md).
 
-1. Um die Ausgabeformate der Assets zusätzlich zu den Assets über den freigegebenen Link herunterzuladen, wählen Sie die Option **[!UICONTROL Ausgabeformat(e)]** aus. Wenn Sie dies tun, wird die standardmäßig aktivierte Option **[!UICONTROL Systemwiedergabe ausschließen]** angezeigt. Dies verhindert, dass vorkonfigurierte Ausgabeformate zusammen mit genehmigten Assets oder deren benutzerdefinierten Ausgabeformate heruntergeladen werden.
+1. Um die Wiedergabe der Assets zusätzlich zu den Assets über den freigegebenen Link herunterzuladen, wählen Sie die Option **[!UICONTROL Wiedergabe]** aus. Wenn Sie dies tun, wird die standardmäßig aktivierte Option **[!UICONTROL Systemwiedergabe ausschließen]** angezeigt. Dies verhindert, dass vorkonfigurierte Wiedergaben zusammen mit genehmigten Assets oder deren benutzerdefinierten Wiedergaben heruntergeladen werden.
 
-   Wenn Sie jedoch automatisch erzeugte Ausgabeformate zusammen mit benutzerdefinierten Ausgabeformaten herunterladen möchten, deaktivieren Sie die Option **[!UICONTROL Systemausgaben ausschließen]**.
+   Wenn Sie jedoch automatisch erzeugte Wiedergaben zusammen mit benutzerdefinierten Wiedergaben herunterladen möchten, deaktivieren Sie die Option **[!UICONTROL Systemwiedergabe ausschließen]**.
 
    >[!NOTE]
    >
-   >Original-Ausgabeformate werden nicht über den freigegebenen Link heruntergeladen, wenn der Benutzer, der die Assets als Link freigegeben hat, nicht [vom Administrator autorisiert wurde, auf die Original-Ausgabeformate zuzugreifen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >Original-Wiedergaben werden nicht über den freigegebenen Link heruntergeladen, wenn der Benutzer, der die Assets als Link freigegeben hat, nicht [vom Administrator autorisiert wurde, auf die Original-Wiedergaben zuzugreifen](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
    ![](assets/download-linkshare-autoren.png)
 
-1. Tippen bzw. klicken Sie auf **[!UICONTROL Herunterladen]**. Die Assets (und Ausgabeformate, sofern ausgewählt) werden als ZIP-Datei in Ihren lokalen Ordner heruntergeladen. Es wird jedoch keine ZIP-Datei erstellt, wenn ein einzelnes Asset ohne eines der Ausgabeformate heruntergeladen wird. Dies gewährleistet einen schnellen Download.
+1. Tippen/klicken Sie auf **[!UICONTROL Download]**. Die Assets (und Ausgabeformate, sofern ausgewählt) werden als ZIP-Datei in Ihren lokalen Ordner heruntergeladen. Es wird jedoch keine ZIP-Datei erstellt, wenn ein einzelnes Asset ohne eines der Ausgabeformate heruntergeladen wird. Dies gewährleistet einen schnellen Download.
 
 >[!NOTE]
 >
@@ -190,7 +193,7 @@ Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 Gehen Sie wie folgt vor, um die Freigabe eines Assets als Link aufzuheben:
 
-1. Um die Assets anzuzeigen, die Sie als Links freigegeben haben, klicken Sie links auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Navigation]** aus.
+1. Um die Assets anzuzeigen, die Sie als Links freigegeben haben, klicken Sie links auf das Überlagerungssymbol und wählen Sie **[!UICONTROL Navigation]**.
 
    ![](assets/siderail.png)
 
@@ -199,7 +202,7 @@ Gehen Sie wie folgt vor, um die Freigabe eines Assets als Link aufzuheben:
    ![](assets/navigationrail.png)
 
 1. Überprüfen Sie die freigegebenen Links, die in der Liste angezeigt werden.
-1. Um die Freigabe eines Links aus der Liste aufzuheben, wählen Sie den Link aus und klicken Sie auf das Papierkorbsymbol neben dem Link oder oben in der Symbolleiste auf das Symbol **[!UICONTROL Freigabe aufheben]**.
+1. Um die Freigabe eines Links aus der Liste aufzuheben, wählen Sie den Link aus und klicken Sie auf das Papierkorbsymbol neben dem Link oder auf das Symbol **[!UICONTROL Freigabe aufheben]** in der Symbolleiste oben.
 
    ![](assets/unshare-links.jpg)
 
