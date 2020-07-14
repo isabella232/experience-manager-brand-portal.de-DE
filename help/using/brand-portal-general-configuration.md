@@ -5,12 +5,15 @@ description: Konfigurieren Sie die Downloadbeschleunigung, die Erstellung öffen
 seo-description: Konfigurieren Sie die Downloadbeschleunigung, die Erstellung öffentlicher [!UICONTROL Smart-Sammlungen] sowie die Erstellung öffentlicher [!UICONTROL Sammlungen] und gestatten Sie Admin-Benutzern, Assets von Mandanten zu löschen.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
-topic-tags: Administration
-content-type: Referenz
+topic-tags: administration
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -68,4 +71,4 @@ Mit der Konfiguration [[!UICONTROL Downloadbeschleunigung aktivieren]](../using/
 
 ## Aktivieren der Ordnerhierarchie   {#enable-folder-hierarchy}
 
-Mit der Konfiguration [[!UICONTROL Ordnerhierarchie aktivieren]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) können Administratoren steuern, wie die freigegebenen Ordner für Benutzer ohne Administratorrechte (Bearbeiter, Betrachter und Gastbenutzer) nach ihrer Anmeldung angezeigt werden.
+Mit der Konfiguration [[!UICONTROL Ordnerhierarchie aktivieren]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) können Administratoren steuern, wie Benutzer ohne Administratorrechte (Bearbeiter, Betrachter und Gastbenutzer) die freigegebenen Ordner nach der Anmeldung sehen.
