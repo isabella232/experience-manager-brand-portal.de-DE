@@ -32,9 +32,11 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
 1. Führen Sie in der Brand Portal-Benutzeroberfläche einen der folgenden Schritte aus:
 
    * Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download]**.
+
    ![](assets/downloadassets-1.png)
 
    * Um einen bestimmten Ordner oder ein Asset herunterzuladen, führen Sie den Mauszeiger über den Ordner bzw. das Asset. Klicken Sie in den verfügbaren Schnellzugriff-Miniaturansichten auf das Symbol **[!UICONTROL Download]**.
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -67,6 +69,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
    * Wählen Sie zum Beschleunigen des Downloads der Asset-Dateien von Brand Portal die Option **[!UICONTROL Downloadbeschleunigung aktivieren]** aus und [befolgen Sie die Anweisungen des Assistenten](../using/accelerated-download.md#main-pars-header-405749062). Weitere Informationen zur Beschleunigung von Asset-Downloads finden Sie in der [Anleitung zum Beschleunigen von Downloads von Brand Portal](../using/accelerated-download.md).
 
    * Um eine [benutzerdefinierte Bildvorgabe zum Asset und seinen Ausgabeformaten](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages) zuzuweisen, wählen Sie **[!UICONTROL Dynamische Ausgabe(n)]** aus. Legen Sie die benutzerdefinierten Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um die benutzerdefinierte Bildvorgabe zuzuweisen, die beim Herunterladen des Assets und seiner Ausgabeformate verwendet wird. Um nur die dynamischen Ausgabeformate herunterzuladen,    deaktivieren Sie die Option **[!UICONTROL Asset(s)]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -76,6 +79,7 @@ Führen Sie die folgenden Schritte aus, um Assets oder Ordner mit Assets von Bra
    * Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, wählen Sie die Option **[!UICONTROL Separaten Ordner für jedes Asset erstellen]** aus. Die Brand Portal-Ordnerhierarchie wird standardmäßig ignoriert und alle Assets werden in einen Ordner auf Ihrem lokalen System heruntergeladen.
 
    * Um eine E-Mail-Benachrichtigung mit einem Link für den Asset-Download an Benutzer zu senden, wählen Sie **[!UICONTROL E-Mail]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
