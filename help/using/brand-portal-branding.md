@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -46,6 +46,7 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
    * Um ein Bild von Ihrem Computer hochzuladen, klicken Sie auf **[!UICONTROL Hochladen]**. Navigieren Sie zum erforderlichen Bild und laden Sie es hoch.
    * Um ein vorhandenes Brand Portal-Bild zu verwenden, klicken Sie auf **[!UICONTROL Vorhandene wählen]**. Wählen Sie mit der Asset-Auswahl ein Bild aus.
+
    ![](assets/asset-picker.png)
 
 1. Geben Sie den Kopfzeilentext und eine Beschreibung für das Hintergrundbild an. Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Speichern]**.
@@ -59,9 +60,11 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 1. Um das standardmäßige Hintergrundbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **[!UICONTROL Branding konfigurieren > Hintergrund]** wie folgt vor:
 
    * Um das Standard-Hintergrundbild auf der Brand Portal-Anmeldeseite anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Hintergrund deaktivieren]**. Eine Meldung bestätigt, dass das Standardbild deaktiviert wurde.
+
    ![](assets/chlimage_1-1.png)
 
    * Um das benutzerdefinierte Bild auf der Brand Portal-Anmeldeseite wiederherzustellen, klicken Sie in der Symbolleiste auf **[!UICONTROL Hintergrund aktivieren]**. Eine Meldung bestätigt, dass das Bild wiederhergestellt wurde.
+
    ![](assets/chlimage_1-2.png)
 
    * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
@@ -109,9 +112,11 @@ Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UI
 1. Um das Standard-Kopfzeilenbild zu aktivieren bzw. zu deaktivieren, gehen Sie auf der Seite **[!UICONTROL Branding konfigurieren > Kopfzeilenbild]** wie folgt vor:
 
    * Um zu verhindern, dass ein Kopfzeilenbild auf den Brand Portal-Seiten angezeigt wird, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile deaktivieren]**. Eine Meldung bestätigt, dass das Bild deaktiviert wurde.
+
    ![](assets/chlimage_1-4.png)
 
    * Um das Kopfzeilenbild wieder auf den Brand Portal-Seiten anzuzeigen, klicken Sie oben in der Symbolleiste auf **[!UICONTROL Kopfzeile aktivieren]**. Eine Meldung bestätigt, dass das Bild aktiviert wurde.
+
    ![](assets/chlimage_1-5.png)
 
    * Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
