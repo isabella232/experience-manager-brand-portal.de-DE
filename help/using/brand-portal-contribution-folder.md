@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Kurzbesch
 
 Das folgende Video zeigt, wie Sie einen Beitragsordner in AEM Assets konfigurieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/30547?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/30547)
 
 Der AEM-Benutzer führt beim Konfigurieren eines Beitragsordners die folgenden Aktivitäten aus:
 
