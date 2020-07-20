@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
@@ -27,10 +27,11 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
 **Veröffentlichen des Beitragsordners:**
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
-1. Wählen Sie den Beitragsordner im Dashboard aus.
-1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]**
 
-   ![](assets/export.png).
+1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
+1. Klicken Sie auf **[!UICONTROL In AEM veröffentlichen]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
