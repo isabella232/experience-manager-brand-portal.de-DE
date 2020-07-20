@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Assets müssen in Brand Portal aus einer vorkonfigurierten AEM-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
 
-## Workflow zur Ordnerfreigabe in Brand Portal      {#folder-sharing-workflow-in-brand-portal}
+## Workflow zur Ordnerfreigabe in Brand Portal       {#folder-sharing-workflow-in-brand-portal}
 
 Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff beschrieben:
 
@@ -64,13 +64,13 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 >
 >Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen. 
 
-### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner      {#non-admin-user-access-to-shared-folders}
+### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner       {#non-admin-user-access-to-shared-folders}
 
 Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]**.
 
 **Wenn die Konfiguration deaktiviert ist**
 
-Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der      Zielseite, bei der Anmeldung in Brand Portal.
+Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der       Zielseite, bei der Anmeldung in Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -126,7 +126,7 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
-## Aufheben der Freigabe von Ordnern      {#unshare-the-folders}
+## Aufheben der Freigabe von Ordnern       {#unshare-the-folders}
 
 Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 
