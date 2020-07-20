@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '801'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,8 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 ### Bekannte Probleme {#known-issues-6462}
 
 Dieses Release weist die folgenden bekannten Probleme auf:
+
+* Der Link &quot;Freigeben&quot;für Sammlungen ist derzeit für die Viewer-Benutzer sichtbar.
 
 * Wenn ein Ordner in der Hierarchie von AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, in Brand Portal veröffentlicht wird, wird der Titel des Ordners in Brand Portal erst dann aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
 
