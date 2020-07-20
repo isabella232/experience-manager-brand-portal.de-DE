@@ -123,7 +123,7 @@ So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
    ![Dynamic Media-Hybrid-Konfiguration in Brand Portal](assets/DMHybrid-Video.png)
 
-   Die Seite **[!UICONTROL Konfiguration für dynamische Medien bearbeiten]** wird geöffnet.
+   Die Seite **[!UICONTROL Konfiguration für Dynamic Media bearbeiten]** wird geöffnet.
 
    ![Dynamic Media-Hybrid-Konfiguration in Brand Portal](assets/edit-dynamic-media-config.png)
 
