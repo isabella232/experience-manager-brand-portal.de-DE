@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Vergewissern Sie sich, dass Sie die [Asset-Anforderungen](brand-portal-download-
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
-An den Brand Portal-Benutzer und Administratoren wird in verschiedenen Phasen des Veröffentlichungs-Workflows eine E-Mail-/Puls-Benachrichtigung gesendet:
-1. **Warteschlange** - Wenn im Markenportal ein Veröffentlichungs-Workflow ausgelöst wird, wird eine Benachrichtigung an die Benutzer- und Markenportaladministratoren des Markenportals gesendet.
+In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsbenachrichtigung an den Brand Portal-Benutzer und an Brand Portal-Administratoren gesendet:
+1. **In Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
 
-1. **Complete** - Eine Benachrichtigung wird an die Benutzer- und Markenportal-Administratoren des Markenportals gesendet, wenn der Beitragsordner erfolgreich in AEM Assets veröffentlicht wurde.
+1. **Abgeschlossen** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in AEM Assets veröffentlicht wurde.
 
 
