@@ -202,4 +202,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundendienst](https://helpx.adobe.com/de/contact.html)
+* [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/contact.html)
