@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ Standard-URL: http:// localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 Sie erhalten eine Erfolgsmeldung, sobald der Beitragsordner in Brand Portal veröffentlicht wurde.
 
-Eine E-Mail-/Pulsbenachrichtigung wird an die Benutzer des Markenportals gesendet, die dem Beitragsordner zugewiesen sind. Die Brand Portal-Benutzer können auf den Beitragsordner zugreifen und mit dem Beitrag beginnen. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md).
+Eine E-Mail-/Pulsbenachrichtigung wird an die Brand Portal-Benutzer gesendet, die dem Beitragsordner zugewiesen sind. Die Brand Portal-Benutzer können auf den Beitragsordner zugreifen und mit dem Beitrag beginnen. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md).
