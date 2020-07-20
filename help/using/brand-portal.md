@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 100%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -62,11 +62,18 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 |  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Assets als Link freigeben** | **Zugriff auf Admin Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gastbenutzer** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Betrachter** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Betrachter** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Bearbeiter** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gastbenutzer können nur Assets durchsuchen, auf Assets zugreifen oder nach Assets suchen, die sich in öffentlichen Ordnern und Sammlungen befinden.
+
+* Viewer-Benutzer können die öffentlichen Assets, die für sie freigegeben wurden, Ansicht und Herunterladen und diese Assets hinzufügen, um eigene Sammlungen zu erstellen.
+
+>[!NOTE]
+>
+>Es ist ein bekanntes Problem aufgetreten, dass der Link &quot;Freigeben&quot;für Sammlungen derzeit für die Viewer-Benutzer sichtbar ist. Die Benutzer des Viewers sind nicht berechtigt, Benutzer hinzuzufügen, um einen Link zur Freigabe zu erstellen. Dieses Problem wird in der kommenden Version behoben. Die Option zum Freigeben von Links für die Sammlungen steht den Benutzern des Viewers nicht zur Verfügung.
+
 
 ### Gastbenutzer {#guest-user}
 
