@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 94%
@@ -68,7 +68,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 * Gastbenutzer können nur Assets durchsuchen, auf Assets zugreifen oder nach Assets suchen, die sich in öffentlichen Ordnern und Sammlungen befinden.
 
-* Viewer-Benutzer können die öffentlichen Assets, die für sie freigegeben wurden, Ansicht und Herunterladen und diese Assets hinzufügen, um eigene Sammlungen zu erstellen.
+* Viewer-Benutzer können auf die öffentlichen Assets zugreifen und sie herunterladen und diese Assets hinzufügen, um eigene Sammlungen zu erstellen.
 
 >[!NOTE]
 >
