@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 93%
 
 ---
 
@@ -28,6 +28,12 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 **Frage. Der vorhandene alte OAuth-Endpunkt (`https://legacy-oauth.cloud.adobe.io/login`) funktioniert nicht. Was könnte der Grund sein?**
 
 **Antwort.** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von AEM Assets auf das neueste Service Pack aktualisieren und es mithilfe von Adobe Developer Console konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md). Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Frage. Ich habe eine Sammlung mit dem Asset-Link erstellt, der vom Administrator freigegeben wurde. Ich kann jedoch keinen Freigabelink für meine Sammlung erstellen. Benötige ich hierfür spezielle Berechtigungen?**
+
+**Antwort.** Die Funktion ist standardmäßig aktiviert. Benutzer des Viewers dürfen keine Links für Sammlungen freigeben, da sie nur über eingeschränkte Berechtigungen verfügen, aufgrund derer sie keine Benutzer hinzufügen können, um einen Freigabelink zu erstellen. Es ist ein bekanntes Problem, dass der Link &quot;Freigeben&quot;für Sammlungen derzeit für die Viewer-Benutzer sichtbar ist. Dieses Problem wird in der kommenden Version behoben. Die Option zum Freigeben von Links für die Sammlungen steht den Benutzern des Viewers nicht zur Verfügung.
+
 
 **Frage. Nach der Aktualisierung auf Adobe Developer Console kann ich die Assets des Beitragsordners von Brand Portal nicht in AEM Assets veröffentlichen. Meine Autoreninstanz befindet sich unter AEM 6.5.4. Was könnte der Grund sein?**
 
