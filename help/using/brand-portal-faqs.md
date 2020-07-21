@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 93%
+source-wordcount: '1521'
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 
 **Antwort.** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von AEM Assets auf das neueste Service Pack aktualisieren und es mithilfe von Adobe Developer Console konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md). Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
+<!--
+**Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
 
-**Frage. Ich habe eine Sammlung mit dem Asset-Link erstellt, der vom Administrator freigegeben wurde. Ich kann jedoch keinen Freigabelink für meine Sammlung erstellen. Benötige ich hierfür spezielle Berechtigungen?**
-
-**Antwort.** Die Funktion ist standardmäßig aktiviert. Benutzer des Viewers dürfen keine Links für Sammlungen freigeben, da sie nur über eingeschränkte Berechtigungen verfügen, aufgrund derer sie keine Benutzer hinzufügen können, um einen Freigabelink zu erstellen. Es ist ein bekanntes Problem, dass der Link &quot;Freigeben&quot;für Sammlungen derzeit für die Viewer-Benutzer sichtbar ist. Dieses Problem wird in der kommenden Version behoben. Die Option zum Freigeben von Links für die Sammlungen steht den Benutzern des Viewers nicht zur Verfügung.
-
+**Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
+-->
 
 **Frage. Nach der Aktualisierung auf Adobe Developer Console kann ich die Assets des Beitragsordners von Brand Portal nicht in AEM Assets veröffentlichen. Meine Autoreninstanz befindet sich unter AEM 6.5.4. Was könnte der Grund sein?**
 
