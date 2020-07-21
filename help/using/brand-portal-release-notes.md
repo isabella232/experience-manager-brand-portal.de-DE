@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 98%
+source-wordcount: '813'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Der Link &quot;Freigeben&quot;für Sammlungen ist derzeit für die Viewer-Benutzer sichtbar.
+* Die Viewer-Benutzer dürfen keinen Link für Sammlungen freigeben, aber die Option zum Freigeben ist für sie in der Produktoberfläche sichtbar.
 
 * Wenn ein Ordner in der Hierarchie von AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, in Brand Portal veröffentlicht wird, wird der Titel des Ordners in Brand Portal erst dann aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
 
