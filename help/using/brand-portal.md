@@ -59,7 +59,7 @@ Brand Portal unterstützt die folgenden Benutzerrollen:
 
 Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausführen können:
 
-|  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Assets als Link freigeben** | **Zugriff auf Admin Tools** |
+|  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Freigeben von Assets als Link** | **Zugriff auf Admin Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Gastbenutzer** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Betrachter** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -82,7 +82,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Jeder Benutzer mit eingeschränktem Zugriff auf Assets in Brand Portal, der nicht authentifiziert wird, ist ein Gastbenutzer. In der Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
-In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als          Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als           Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -102,7 +102,7 @@ Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachte
 
 [Herunterladen von Assets](brand-portal-download-users.md)
 
-### Bearbeiter          {#editor}
+### Bearbeiter           {#editor}
 
 Ein Benutzer mit der Rolle Bearbeiter kann alle Aufgaben ausführen, die einem Betrachter zur Verfügung stehen. Zusätzlich kann ein Bearbeiter die Dateien und Ordner anzeigen, die ein Administrator freigegeben hat. Ein Benutzer mit der Rolle Bearbeiter kann außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzer freigeben.
 
@@ -112,7 +112,7 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 [Sammlungen freigeben](brand-portal-share-collection.md)
 
-[Assets als Link freigeben](brand-portal-link-share.md)
+[Freigeben von Assets als Link](brand-portal-link-share.md)
 
 ### Administrator {#administrator}
 
