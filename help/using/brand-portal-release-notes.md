@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Die Viewer-Benutzer dürfen keinen Link für Sammlungen freigeben, aber die Option zum Freigeben ist für sie in der Produktoberfläche sichtbar.
+* Benutzer mit der Rolle „Beobachter“ dürfen keine Links für Sammlungen freigeben, die Option zum Freigeben ist für sie jedoch in der Produktoberfläche sichtbar.
 
 * Wenn ein Ordner in der Hierarchie von AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, in Brand Portal veröffentlicht wird, wird der Titel des Ordners in Brand Portal erst dann aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
 
@@ -132,12 +132,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches         Portugiesisch
+* Brasilianisches   Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen          {#certified-platforms}
+## Zertifizierte Plattformen            {#certified-platforms}
 
 Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
