@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ AEM Assets Brand Portal-Administratoren können Links mehrerer Assets für autor
 
 Die Freigabe von Assets über einen Link ist eine praktische Methode, um die Assets für externe Parteien verfügbar zu machen, ohne dass diese sich bei Brand Portal anmelden müssen.
 
-Der Zugriff auf Linkfreigaben ist auf Bearbeiter und Administratoren beschränkt.
+Der Zugriff auf Link-Freigaben ist auf Bearbeiter und Administratoren beschränkt.
 
 Weitere Informationen finden Sie unter [Verwalten von Benutzern, Gruppen und Benutzerrollen](../using/brand-portal-adding-users.md#manage-user-roles).
 
