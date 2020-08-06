@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
@@ -27,7 +27,6 @@ Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner des Typs 
 >[!NOTE]
 >
 >Sie können mehrere Beitragsordner in einem Ordner erstellen, aber keinen Beitragsordner in einem anderen Beitragsordner.
-
 
 Erstellen eines Beitragsordners:
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
