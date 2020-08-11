@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 94%
 
 ---
@@ -24,29 +24,46 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 6.4.7 {#what-changed-in-647}
 
-Die Version 6.4.7 von Brand Portal konzentriert sich auf die Verbesserung der Benutzeroberfläche des Dokument-Viewers, die Konfiguration zum Herunterladen von Assets aus dem Markenportal und die wichtigsten Kundenanforderungen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Die Version 6.4.7 des Markenportals bringt den Dokument-Viewer mit sich, verbessert die Leistung beim Herunterladen von Assets und enthält wichtige Fehlerbehebungen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
-### Document Viewer {#doc-viewer}
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
-Der *Dokument-Viewer* verbessert die PDF-Viewer-Funktionalität. Es bietet ein ähnliches Erlebnis wie das Adobe Document Cloud beim Anzeigen der PDF-Dateien im Markenportal.
+### Dokument-Viewer {#doc-viewer}
 
-Früher waren Darstellungen nur für die erste Seite der PDF-Datei verfügbar, und die Optionen im Standard-PDF-Viewer waren ebenfalls eingeschränkt.
+Der Dokument-Viewer verbessert die PDF-Ansicht. Es bietet beim Anzeigen der PDF-Dateien im Markenportal ein ähnliches Erlebnis wie das Adobe Document Cloud.
 
-Bei der Implementierung des *Dokument-Viewers* können die Markenportalbenutzer die PDF-Metadaten Ansicht haben und neue Optionen für die Wiedergabe mit PDF-Dateien nutzen, z. B. Ansicht der Seite, Index-Ansicht, Inline-Suche, Zoom-In, Zoom-Out, vorherige Seite, nächste Seite, Wechsel-zu-Seite, Fensteranpassung, Bildschirmanpassung, Ausblenden oder Ausblenden der Werkzeugleiste.
+Zuvor waren für die Ansicht der PDF-Dateien nur eingeschränkte Optionen verfügbar.
 
-Wenn die Benutzer des Markenportals nun über eine verbesserte PDF-Viewer-Funktion verfügen, bleibt das Erlebnis mit anderen Formaten unverändert.
+Mit dem Dokument-Viewer haben die Markenportalbenutzer jetzt die Möglichkeit, Ansichten, Lesezeichen für Ansichten, auf der Seite nach Text zu suchen, einzuzoomen, auszuzoomen, zu vorherigen und nächsten Seiten zu navigieren, zu  zu wechseln, Fenstergröße anzupassen, die Werkzeugleiste ein- oder auszublenden.
+
+>[!NOTE]
+>
+>Die Anzeige in anderen Dokumenten bleibt unverändert.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Download-Einstellungen {#download-configurations}
+### Erlebnis herunterladen {#download-configurations}
 
-Die Downloadeinstellungen sind eine neue Konfiguration, mit der die Administratoren des Markenportals den Asset-Download aus dem Markenportal konfigurieren können.
+Der Prozess zum Herunterladen von Assets wird überarbeitet, sodass beim Herunterladen von Assets aus dem Markenportal eine vereinfachte Benutzererfahrung entsteht.
 
-Dem bestehenden Arbeitsablauf beim Herunterladen von Assets aus dem Markenportal wird unweigerlich ein Popup-Fenster mit mehreren Download-Optionen folgen.
+Dem bestehenden Arbeitsablauf beim Herunterladen von Assets aus dem Markenportal wird unweigerlich ein **[!UICONTROL Download]** -Dialogfeld mit mehreren Download-Optionen angezeigt.
 
-In Brand Portal 6.4.7 kann das Herunterladen der Assets über die Benutzeroberfläche von Brand Portal konfiguriert werden. Die drei verfügbaren Konfigurationen sind schnelles Herunterladen, benutzerdefinierte Darstellungen und Systemdarstellungen. Der Markenportal-Administrator kann eine beliebige Kombination auswählen, um den Asset-Download zu konfigurieren. Der Administrator kann diese Konfigurationen auch aktivieren oder deaktivieren.
+In Brand Portal 6.4.7 können die Admin-Administratoren des Markenportals die Einstellungen für den Asset- **[!UICONTROL Download]** konfigurieren. Die verfügbaren Konfigurationen sind:
+* **[!UICONTROL Schneller Download]**
+* **[!UICONTROL Benutzerdefinierte Wiedergaben]**
+* **[!UICONTROL Systemwiedergaben]**
 
-Bei der Konfiguration des schnellen Downloads wird das Erscheinungsbild des Popup-Fensters beim Herunterladen von Assets übersprungen. Bei benutzerdefinierten Darstellungen oder Systemdarstellungen oder mehreren Konfigurationen wird das Popup-Fenster angezeigt und das ursprüngliche Asset zusammen mit den Asset-Darstellungen werden heruntergeladen.
+Der Markenportal-Administrator kann jede beliebige Kombination aktivieren, um den Asset-Download zu konfigurieren.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Wenn alle drei Konfigurationen deaktiviert sind, werden die Assets ohne ein zusätzliches Dialogfeld heruntergeladen, das den Download für die Benutzer des Markenportals vereinfacht. Je nach Konfiguration bleibt der Arbeitsablauf für das Herunterladen von eigenständigen Assets, mehreren Assets, Ordnern mit Assets, lizenzierten oder nicht lizenzierten Assets sowie beim Herunterladen der Assets über den Link &quot;Freigeben&quot; konstant.
+
+* Wenn eine der **[!UICONTROL benutzerdefinierten Darstellungen]** oder **[!UICONTROL Systemwiedergabe]** aktiviert ist, wird das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;angezeigt und das ursprüngliche Asset zusammen mit den Asset-Darstellungen heruntergeladen. Durch Aktivierung der **[!UICONTROL schnellen Download]** -Konfiguration wird der Download-Prozess beschleunigt.
 
 ![](assets/download-configuration.png)
 
