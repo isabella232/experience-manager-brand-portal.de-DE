@@ -1,126 +1,77 @@
 ---
 title: Versionshinweise
 seo-title: Versionshinweise
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.6.2.
-seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
+seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 62%
 
 ---
 
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.6.2 |
-| Datum | Juni 2020 |
+| Version | 6.4.7 |
+| Datum            | August 2020 |
 
 ## Überblick {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 6.4.6.2 {#what-s-new-in-6462}
+## Neue Funktionen in Version 6.4.7 {#whats-new-in-647}
 
-### Behobene kritische Probleme {#critical-issues-fixed-6462}
-
-Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
-
-* Wenn Sie ein veröffentlichtes Metadatenschema aus Brand Portal entfernen, wird ein Fehler ausgegeben.
-
-* Wenn der Administrator Experience Manager Assets 6.5.4 mit Brand Portal über Adobe Developer Console konfiguriert, können Brand Portal-Benutzer die Assets des Beitragsordners nicht von Brand Portal in Experience Manager veröffentlichen.
-
-* Doppelte Replikation der übergeordneten Ordner, die Konflikte verursachen.
-
-* Benutzer kann den Bericht zur Linkfreigabe nicht erstellen.
-
-* Benutzer können MAC-Geheimnisse für einen Brand Portal-Endpunkt mit dem Befehl „copyPage“ kopieren.
-
-* cqTags verursachen eine Neuindizierung des VA5-Klons.
-
-
-### Bekannte Probleme {#known-issues-6462}
-
-Dieses Release weist die folgenden bekannten Probleme auf:
-
-* Benutzer mit der Rolle „Beobachter“ dürfen keine Links für Sammlungen freigeben, die Option zum Freigeben ist für sie jedoch in der Produktoberfläche sichtbar.
-
-* Wenn ein Ordner in der Hierarchie von AEM Assets umbenannt wird und der verschachtelte Ordner, der ein Asset enthält, in Brand Portal veröffentlicht wird, wird der Titel des Ordners in Brand Portal erst dann aktualisiert, wenn der Stammordner erneut veröffentlicht wird.
-
-
-## Neue Funktionen in Version 6.4.6 {#what-s-new-in-646}
-
-### Neue Funktionen {#new-feature}
+### Neue Funktionen {#new-features}
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Captcha für die Gast-Anmeldung bei Brand Portal. Weitere Informationen finden Sie unter [Gast-Zugriff auf Brand Portal](../using/guest-access.md).
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-* Brand Portal wird jetzt von AEM Assets Cloud Service unterstützt. Sie können AEM Assets Cloud Service mit Brand Portal konfigurieren, um Assets für Benutzer von Brand Portal freizugeben und zu verteilen.
-Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets Cloud Service mit Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+<!--
+* Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+-->
 
-### Verbesserungen {#enhancements-646}
+* Advances in the asset download process which improves the Brand Portal user experience while downloading assets from Brand Portal. Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings.
 
-Diese Version von Brand Portal umfasst die folgenden Verbesserungen:
+For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
-* In AEM 6.3 und höher wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. AEM Assets wird jetzt mit Brand Portal über Adobe Devloper Console konfiguriert, die ein IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten abruft.
-
->[!NOTE]
->
->Die Konfiguration über das alte OAuth-Protokoll wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe Developer Console.
-
->[!TIP]
->
->***Nur für Bestandskunden***
->
->Die alte OAuth Gateway-Konfiguration funktioniert für bestehende Kunden weiterhin.
->
->Falls Probleme mit der alten OAuth-Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe Developer Console.
-
-Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md).
-
-### Behobene kritische Probleme {#critical-issues-fixed}
+### Behobene kritische Probleme {#critical-issues-fixed-647}
 
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
-* Dropdown-Werte für Metadatenschemas werden in den Asset-Eigenschaften nicht angezeigt.
+* Die Viewer-Benutzer dürfen keinen Link für Sammlungen freigeben, aber die Option zum Freigeben ist für sie auf der Produktoberfläche sichtbar.
 
-* Metadaten-Unterschema zeigt keine Registerkarten basierend auf dem MIME-Typ in den Asset-Eigenschaften an.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* Beim Rückgängigmachen der Veröffentlichung des Metadatenschemas wird eine Fehlermeldung angezeigt, obwohl das Schema im Backend entfernt wurde.
+* The search takes longer to show the results for certain keywords.
 
-* Für ein veröffentlichtes Asset wird kein Vorschaubild angezeigt.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** checkboxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* Benutzer können Assets, die ein einzelnes Anführungszeichen im Namen enthalten, nicht veröffentlichen oder die Veröffentlichung rückgängig machen.
+* Die filterbasierte Suche zeigt die Verarbeitung auf der Produktoberfläche ohne Suchergebnis.
 
-* Die Geschäftsbedingungen werden beim Herunterladen mehrerer Assets nicht angezeigt.
+* Die Assets werden nicht über den Freigabelink heruntergeladen, wenn der freigegebene Ordner zahlreiche und große Assets enthält.
 
-* Geringfügige Sicherheitslücken wurden behoben.
 
-### Bekannte Probleme {#known-issues}
+### Bekannte Probleme {#known-issues-647}
 
 Dieses Release weist die folgenden bekannten Probleme auf:
 
-* Brand Portal-Benutzer können beim Aktualisieren auf Adobe Developer Console unter AEM 6.5.4 keine Beitragsordner-Assets in AEM Assets veröffentlichen.
+* Wenn mehrere Assets ausgewählt sind, wird der Lizenztext beim Klicken auf die Geschäftsbedingungen auf der Seite der Lizenzvereinbarung während des Downloads über den Link &quot;Teilen&quot;nicht angezeigt.
 
-   Dieses Problem wird mit dem nächsten Service Pack für AEM 6.5.5 behoben.
-
-   Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf Ihrer Autoreninstanz zu installieren.
-
-* Die Option „Systemausgaben ausschließen“ funktioniert beim Herunterladen eines Assets nicht ordnungsgemäß.
 
 
 ## Sprachen {#languages}
