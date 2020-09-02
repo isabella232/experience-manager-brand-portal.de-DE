@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 24%
@@ -79,7 +79,8 @@ Auf der Grundlage der Konfiguration bleibt der Arbeitsablauf zum Herunterladen f
 * Wenn die Konfigurationen für **[!UICONTROL benutzerdefinierte Darstellungen]** und **[!UICONTROL Systemwiedergaben]** deaktiviert sind, werden die ursprünglichen Darstellungen der Assets heruntergeladen, ohne dass den Benutzern ein zusätzliches Dialogfeld angezeigt wird.
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * Wenn eine der Konfigurationen für **[!UICONTROL benutzerdefinierte Darstellungen]** oder **[!UICONTROL Systemwiedergaben]** aktiviert ist, wird ein zusätzliches Dialogfeld zum **[!UICONTROL Herunterladen]** angezeigt, in dem Sie auswählen können, ob das ursprüngliche Asset zusammen mit seinen Darstellungen heruntergeladen oder nur bestimmte Darstellungen heruntergeladen werden sollen.
