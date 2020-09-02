@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ AEM-Administratoren können die Asset-Beschaffung über die AEM-Web-Konsolen-Kon
 Standard-URL: http:// localhost:4502/system/console/configMgr
 1. Suchen Sie nach **Asset-Beschaffung**, um die **[!UICONTROL Konfiguration der Funktionskennzeichnung für Asset-Beschaffung]** zu finden.
 1. Klicken Sie auf **[!UICONTROL Konfiguration der Funktionskennzeichnung für Asset-Beschaffung]**, um das Konfigurationsfenster zu öffnen.
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL feature.flag.active.status]**
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL feature.Flag.active.status]** .
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/enable-asset-sourcing.png)
