@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 * Die Suche dauert länger, um die Ergebnisse für bestimmte Keywords anzuzeigen.
 
-* Die Kontrollkästchen **[!UICONTROL Zustimmen]** und **[!UICONTROL Nicht zustimmen]** werden bei der Massenauswahl lizenzierter und nicht lizenzierter Assets während des Downloads nicht angezeigt.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
 * Die filterbasierte Suche zeigt die Verarbeitung auf der Produktoberfläche ohne Suchergebnis an.
 
