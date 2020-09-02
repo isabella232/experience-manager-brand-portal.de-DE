@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -25,12 +25,11 @@ In AEM Assets Brand Portal können Unternehmen die folgenden Funktionen für bes
 * das Löschen von Assets durch Administratoren
 * die Erstellung öffentlicher Sammlungen von Benutzern ohne Administratorrechte
 * die Erstellung öffentlicher Smart-Sammlungen von Benutzern ohne Administratorrechte
-* die Downloadbeschleunigung
 * Sichtbarkeit der übergeordneten Hierarchie von freigegebenen Ordnern für Benutzer ohne Administratorrechte
 
 Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Einstellungen]** im Admin Tools-Bereich möglich.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **A** Konfiguration, die es Administratoren gestattet, Assets aus Brand Portal zu löschen. (Die Option ist standardmäßig aktiviert.)
 
@@ -38,9 +37,7 @@ Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Ei
 
 **C** Konfiguration, die es Benutzern ohne Administratorrechte gestattet, öffentliche Smart-Sammlungen zu erstellen. (Die Option ist standardmäßig aktiviert.)
 
-**D**   Konfiguration, die die Downloadbeschleunigung für Assets aktiviert, die vom Portal und über freigegebene Links heruntergeladen werden. (Die Option ist standardmäßig deaktiviert.)
-
-**E** Konfiguration, die Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) gestattet, die Ordnerhierarchie (vom Stamm) der freigegebenen Ordner anzuzeigen. (Die Option ist standardmäßig deaktiviert.)
+**D** -Konfiguration, um die Ordnerhierarchie (aus dem Stammordner) freigegebener Ordner für Benutzer anzuzeigen, die keine Administratoren sind (Editoren, Viewer, Gastbenutzer). (Die Option ist standardmäßig deaktiviert.)
 
 ## Aktivieren/Deaktivieren der allgemeinen Konfigurationen    {#enable-disable-general-configurations}
 
@@ -65,9 +62,11 @@ Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Sammlun
 
 Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Smart-Sammlungen durch Benutzer ohne Administratorrechte]](../using/brand-portal-searching.md#main-pars-header-500620467) wird gesteuert, ob Benutzer ohne Administratorrechte Suchen als Smart-Sammlungen speichern und sie für diesen Mandanten öffentlich machen können. Die Konfiguration ist standardmäßig aktiviert. Unternehmen können die Konfiguration deaktivieren, um zu verhindern, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal der Organisation erstellen.
 
-## Downloadbeschleunigung aktivieren {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-Mit der Konfiguration [[!UICONTROL Downloadbeschleunigung aktivieren]](../using/accelerated-download.md) können Unternehmen den beschleunigten Download von Assets aus Brand Portal und über freigegebene Links gestatten. Dies geschieht durch die Integration mit der Anwendung IBM Aspera Connect, die bei Bedarf installiert wird. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Aktivieren der Ordnerhierarchie   {#enable-folder-hierarchy}
 
