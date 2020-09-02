@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 82%
 
 ---
 
@@ -26,15 +26,16 @@ Brand Portal ermöglicht das Verkürzen der Download-Zeiten größerer Asset-Dat
 >
 >Die jeweilige Download-Geschwindigkeit variiert jedoch abhängig von Faktoren wie der Netzwerkbandbreite, der Serverlatenz und dem geografischen Standort der Clients.
 
-Ist diese Option aktiviert, können Brand Portal-Benutzer die zum Herunterladen der gewünschten Asset-Dateien von Brand Portal oder über freigegebene Links benötigte Zeit durch die Installation des Aspera Connect-Clients erheblich verkürzen.
 
-![](assets/enable-fast-file-download.png)
+Die Konfiguration für das **[!UICONTROL schnelle Herunterladen]** ist standardmäßig aktiviert, wodurch die Zeit zum Herunterladen der gewünschten Asset-Dateien aus dem Markenportal erheblich verringert wird.
+
+![](assets/download-configuration.png)
 
 ## Voraussetzungen für die Beschleunigung des Datei-Downloads        {#prerequisites-to-accelerate-file-download}
 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
-* **[!UICONTROL Download-Beschleunigung aktivieren]** (standardmäßig deaktiviert) muss im Admin Tools-Bereich unter [!UICONTROL Allgemeine Einstellungen] ausgewählt sein.
+* Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]** und überprüfen Sie, ob die **[!UICONTROL Konfiguration für den schnellen Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist.
 * Port 33001 (TCP und UDP) ist in der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installieren Sie Aspera Connect mit Administratorrechten.
 * Informationen zu den vom Aspera Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
@@ -72,8 +73,8 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 So laden Sie Assets schneller von Brand Portal herunter:
 
 1. Melden Sie sich über einen unterstützten Browser bei Brand Portal an.
-1. Suchen Sie nach der gewünschten Asset-Datei oder Sammlung bzw. dem gewünschten Ordner, die bzw. der heruntergeladen werden soll, und wählen Sie diese bzw. diesen aus. Tippen bzw. klicken Sie auf die Option „Herunterladen“.
-Das Dialogfeld „Herunterladen“ wird mit der aktivierten Option [Downloadbeschleunigung aktivieren] angezeigt.
+1. Suchen Sie die Ordner oder Assets, die Sie herunterladen möchten, und wählen Sie sie aus. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download.]** Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird mit den Kontrollkästchen **[!UICONTROL Asset(s)]** und Download-Beschleunigung **[!UICONTROL standardmäßig]** aktivieren angezeigt.
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,8 +83,9 @@ Das Dialogfeld „Herunterladen“ wird mit der aktivierten Option [Downloadbesc
 
    ![](assets/fast-download-emailchk.png)
 
-1. Klicken oder tippen Sie auf die Option **[!UICONTROL Herunterladen]**.
-Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müssen Sie die Aspera Connect-Clientanwendung auf Ihrem System installiert haben.
+1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
+
+   Um den Download für Ihr Markenportal-Mietkonto zu beschleunigen, müssen Sie die Aspera Connect-Client-Anwendung in der Erweiterung Ihres Browsers installieren lassen.
 
 1. **Herunterladen des Aspera Connect-Clients**
 
@@ -93,17 +95,20 @@ Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müss
 
 
 
-Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorhandene installierte Aspera Connect-Client veraltet ist, wird eine Eingabeaufforderung auf der Browser-Seite angezeigt, über die Sie den systemspezifischen Aspera Connect-Client herunterladen können. Wählen Sie dazu die Option **[!UICONTROL Neueste Version herunterladen]** aus.
+
+   If Aspera Connect client is not installed on your system or the existing Aspera Connect client is out of date, a prompt is displayed on the browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
 
    ![](assets/aspera-not-launched.png)
 
    Sie können die neueste Version von Aspera Connect auch von [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]** aus und befolgen Sie die Anweisungen.
 
-1. **Installation des Aspera Connect Client**
-Zur Installation von IBM Aspera Connect Client-Setup führen Sie das Setup aus der MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen Sie dem Installationsassistenten.
+1. **Installieren Sie den Aspera Connect-Client**
 
-1. Sobald der Client erfolgreich installiert ist, aktualisieren Sie die Browser-Seite und führen Sie die Download-Schritte erneut aus oder wählen Sie die Option **[!UICONTROL Neu starten]** im Dialogfeld **[!UICONTROL Download]** des Assets (Schritt 2).
-Wenn Sie Aspera Client zum ersten Mal verwenden, werden Sie vom Browser aufgefordert, den Link mithilfe von **[!UICONTROL IBM Aspera Connect]** zu öffnen. Damit dieses Dialogfeld in Zukunft nicht mehr angezeigt wird, aktivieren Sie **[!UICONTROL Meine Auswahl für FASP-Verbindungen speichern]**.
+   Führen Sie zur Installation des IBM Aspera Connect-Client-Setups die Installationsdatei der IBM Aspera Connect-Clientanwendung aus und befolgen Sie den Installationsassistenten.
+
+1. Nachdem der Client erfolgreich installiert wurde, aktualisieren Sie die Browserseite und starten Sie die Download-Schritte erneut.
+
+   Wenn Sie Aspera Client zum ersten Mal verwenden, werden Sie vom Browser aufgefordert, den Link mithilfe von **[!UICONTROL IBM Aspera Connect]** zu öffnen. Damit dieses Dialogfeld in Zukunft nicht mehr angezeigt wird, aktivieren Sie **[!UICONTROL Meine Auswahl für FASP-Verbindungen speichern]**.
 
    >[!NOTE]
    >
@@ -120,7 +125,7 @@ Bei erfolgreichem Abschluss des Downloads zeigt das Dialogfeld das Verzeichnis a
 
 >[!NOTE]
 >
->Es gibt in der Aspera Connect-Client-Anwendung die bekannte Einschränkung, dass keine Eingabeaufforderung zur Auswahl des Download-Verzeichnisses angezeigt wird, wenn die Option **[!UICONTROL Immer nach dem Speicherort für die heruntergeladene Dateien fragen]** auf der Registerkarte [!UICONTROL Übertragungen] unter [!UICONTROL Voreinstellungen] aktiviert ist. Geben Sie vor Beginn eines Downloads den Speicherort im Textfeld **[!UICONTROL Heruntergeladene Dateien speichern unter]** an.
+>Es gibt in der Aspera Connect-Client-Anwendung die bekannte Einschränkung, dass keine Eingabeaufforderung zur Auswahl des Download-Verzeichnisses angezeigt wird, wenn die Option **[!UICONTROL Immer nach dem Speicherort für die heruntergeladene Dateien fragen]** auf der Registerkarte **[!UICONTROL Übertragungen]** unter **[!UICONTROL Voreinstellungen]** aktiviert ist. Geben Sie vor Beginn eines Downloads den Speicherort im Textfeld **[!UICONTROL Heruntergeladene Dateien speichern unter]** an.
 
 ## Verwenden des Dateibeschleunigers im Browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -130,8 +135,8 @@ Microsoft Edge wird im erweiterten geschützten Modus (EPM, Enhanced Protected M
 
 Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, müssen Sie die Brand Portal-Website aus der Liste der vertrauenswürdigen Websites entfernen.
 
-1. Öffnen Sie die Systemsteuerung (drücken Sie dazu die Tastenkombination **[!UICONTROL Windows-Taste+X]** und wählen Sie dann **[!UICONTROL Systemsteuerung]** aus).
-1. Navigieren Sie zu **[!UICONTROL Netzwerk und Internet > Internetoptionen]**. Klicken Sie auf die Registerkarte **[!UICONTROL Sicherheit]**.
+1. Open the Control Panel (**[!UICONTROL Window key + X]**, then select **[!UICONTROL Control Panel]**).
+1. Go to **[!UICONTROL Network and Internet]** > **[!UICONTROL Internet Options]**. Klicken Sie auf die Registerkarte **[!UICONTROL Sicherheit]**.
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
