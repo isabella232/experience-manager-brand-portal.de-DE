@@ -9,11 +9,11 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
-workflow-type: ht
-source-wordcount: '4753'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+workflow-type: tm+mt
+source-wordcount: '4758'
+ht-degree: 98%
 
 ---
 
@@ -61,16 +61,18 @@ Der Brand Portal-Administrator kann eine beliebige Kombination aktivieren, um de
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Wenn alle drei Konfigurationen deaktiviert sind, werden die Assets ohne einen zusätzlichen Dialog heruntergeladen, was das Download-Erlebnis für die Brand Portal-Benutzer vereinfacht. Je nach Konfiguration bleibt der Download-Workflow für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und auch dann konstant, wenn die Assets über einen Freigabe-Link heruntergeladen werden.
+* Wenn sowohl die Konfigurationen für **[!UICONTROL benutzerdefinierte Darstellungen]** als auch für **[!UICONTROL Systemwiedergaben]** deaktiviert sind, werden die ursprünglichen Darstellungen der Assets ohne ein zusätzliches Dialogfeld heruntergeladen, wodurch der Download für die Benutzer des Markenportals vereinfacht wird.
 
 * Wenn die **[!UICONTROL benutzerdefinierte Wiedergabe]** oder die **[!UICONTROL Systemwiedergabe]** aktiviert ist, wird das Dialogfeld **[!UICONTROL Download]** angezeigt und das ursprüngliche Asset zusammen mit den Asset-Wiedergaben heruntergeladen. Durch die Aktivierung der Konfiguration **[!UICONTROL Schneller Download]** wird der Download-Prozess beschleunigt.
+
+Auf der Grundlage der Konfiguration bleibt der Arbeitsablauf zum Herunterladen für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und das Herunterladen von Assets über den Link &quot;Freigeben&quot; konstant.
 
 ![](assets/download-configuration.png)
 
 
 ## Änderungen in Version 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6 wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. Brand Portal wird jetzt von AEM Assets Cloud Service, AEM Assets 6.3 und hher unterstützt. In AEM Assets 6.3 und höher wurde Brand Portal zuvor in der klassischen Benutzeroberfläche über das alte OAuth-Gateway konfiguriert. Das Gateway ruft mithilfe des JWT-Token-Austauschs ein IMS-Zugriffs-Token zur Autorisierung ab. AEM Assets wird jetzt mit Brand Portal über Adobe Devloper Console konfiguriert, die ein IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten abruft.
+In Brand Portal 6.4.6 wurde der Autorisierungskanal zwischen AEM Assets und Brand Portal geändert. Brand Portal wird jetzt auf AEM Assets als Cloud Service, AEM Assets 6.3 und höher unterstützt. In AEM Assets 6.3 und höher wurde Brand Portal zuvor in der klassischen Benutzeroberfläche über das alte OAuth-Gateway konfiguriert. Das Gateway ruft mithilfe des JWT-Token-Austauschs ein IMS-Zugriffs-Token zur Autorisierung ab. AEM Assets wird jetzt mit Brand Portal über Adobe Devloper Console konfiguriert, die ein IMS-Token zur Authentifizierung Ihres Brand Portal-Mandanten abruft.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -171,7 +173,6 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
-
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
