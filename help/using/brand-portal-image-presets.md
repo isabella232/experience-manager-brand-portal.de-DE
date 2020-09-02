@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 97%
+source-wordcount: '871'
+ht-degree: 91%
 
 ---
 
@@ -23,26 +23,29 @@ Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangab
 
 Bildvorgaben werden verwendet, um dynamische Ausgabeformate von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-Um dynamische Ausgabeformate eines Assets in Brand Portal anzuzeigen, müssen Sie gewährleisten, dass deren PTIFF-Ausgabeformat in der AEM-Autoreninstanz vorhanden ist, von der Sie es in Brand Portal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht. Es gibt keine Möglichkeit, das PTIFF-Ausgabeformat in Brand Portal zu generieren.
+(*Wenn AEM (Autor-)Instanz im **dynamischen Media Hybrid-Modus***ausgeführt wird) Um dynamische Darstellungen eines Assets im Markenportal Ansicht, stellen Sie sicher, dass die Pyramid-TIFF-Darstellung in der AEM Autoreninstanz vorhanden ist, in der Sie im Markenportal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht.
 
 >[!NOTE]
 >
 >Beim Herunterladen von Bildern und deren Ausgabeformaten gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften für eine benutzerdefinierte Bildvorgabe festlegen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
 
-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
-Nur Administratoren können Bildvorgaben in Brand Portal erstellen.
+Die AEM-Administratoren können Bildvorgaben erstellen, die als dynamische Darstellungen auf der Seite mit den Asset-Details angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
 
-Nur Administratoren können Bildvorgaben in Brand Portal erstellen.
 
 >[!NOTE]
 >
 >Dynamische Ausgabeformate werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn kein PTIFF-Ausgabeformat für ein Asset verfügbar ist, können die dynamischen Ausgabeformate für dieses Asset in Brand Portal nicht abgerufen werden.
-Wenn die AEM-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid TIFF (PTIFF)-Ausgabeformate von Bild-Assets im AEM-Repository erstellt und gespeichert. Wird die AEM-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
-Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
+>
+>Wenn die AEM-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid TIFF (PTIFF)-Ausgabeformate von Bild-Assets im AEM-Repository erstellt und gespeichert.
+>
+>Wird die AEM-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
+>Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
+
 
 1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
 
