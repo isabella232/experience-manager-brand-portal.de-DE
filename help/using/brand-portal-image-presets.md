@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangab
 
 Bildvorgaben werden verwendet, um dynamische Ausgabeformate von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-(*Wenn AEM (Autor-)Instanz im **dynamischen Media Hybrid-Modus***ausgeführt wird) Um dynamische Darstellungen eines Assets im Markenportal Ansicht, stellen Sie sicher, dass die Pyramid-TIFF-Darstellung in der AEM Autoreninstanz vorhanden ist, in der Sie im Markenportal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht.
+(*If AEM author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht.
 
 >[!NOTE]
 >
@@ -34,16 +34,16 @@ Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
 
-Die AEM-Administratoren können Bildvorgaben erstellen, die als dynamische Darstellungen auf der Seite mit den Asset-Details angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
+Die AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
 
 
 >[!NOTE]
 >
 >Dynamische Ausgabeformate werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn kein PTIFF-Ausgabeformat für ein Asset verfügbar ist, können die dynamischen Ausgabeformate für dieses Asset in Brand Portal nicht abgerufen werden.
 >
->Wenn die AEM-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid TIFF (PTIFF)-Ausgabeformate von Bild-Assets im AEM-Repository erstellt und gespeichert.
+>If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository.
 >
->Wird die AEM-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
+>Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
 >Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
 
 
@@ -68,7 +68,7 @@ Die AEM-Administratoren können Bildvorgaben erstellen, die als dynamische Darst
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
 1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
 
-## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau    {#apply-image-presets-when-previewing-images}
+## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau      {#apply-image-presets-when-previewing-images}
 
 Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine vorhandene Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
@@ -81,7 +81,7 @@ Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können S
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Anwenden von Bildvorgaben beim Herunterladen von Bildern   {#apply-image-presets-when-downloading-images}
+## Anwenden von Bildvorgaben beim Herunterladen von Bildern    {#apply-image-presets-when-downloading-images}
 
 Beim Herunterladen von Bildern und deren Ausgabeformaten aus Brand Portal gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Sie können jedoch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder neu formatieren können.
 
@@ -104,4 +104,4 @@ Beim Herunterladen von Bildern und deren Ausgabeformaten aus Brand Portal gibt e
 
    ![](assets/dynamicrenditions.png)
 
-1. Klicken Sie auf **[!UICONTROL Herunterladen]**. Die dynamischen Wiedergaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Wiedergaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
+1. Klicken Sie auf **[!UICONTROL Download]**. Die dynamischen Wiedergaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Wiedergaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
