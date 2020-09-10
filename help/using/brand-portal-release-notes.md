@@ -45,7 +45,7 @@ Diese Version umfasst die folgenden neuen Funktionen:
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal-Administratoren können **[!UICONTROL schnelle Downloads]**, **[!UICONTROL benutzerdefinierte Wiedergaben]** und **[!UICONTROL Systemwiedergaben]** in den **[!UICONTROL Download]**-Einstellungen konfigurieren.
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal-Administratoren können **[!UICONTROL schnelle Downloads]**, **[!UICONTROL benutzerdefinierte Ausgaben]** und **[!UICONTROL Systemausgaben]** in den **[!UICONTROL Download]**-Einstellungen konfigurieren.
 
 Weitere Informationen finden Sie unter [Neue Funktionen in Brand Portal 6.4.7](whats-new.md).
 
@@ -83,12 +83,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches     Portugiesisch
+* Brasilianisches      Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen              {#certified-platforms}
+## Zertifizierte Plattformen               {#certified-platforms}
 
 Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
