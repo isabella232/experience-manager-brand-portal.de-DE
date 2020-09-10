@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 94%
 
 ---
 
@@ -120,14 +120,12 @@ Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öf
 
 ## Konfigurieren von Replikationsagenten, um Verbindungsabbrüche wegen Zeitüberschreitung zu verhindern {#connection-timeout}
 
-**Problem**: Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist.
-
-**Auflösung**: Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
+Normalerweise schlägt der Veröffentlichungsauftrag mit einem Timeout-Fehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass ein Timeout vermieden wird.
 
 Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
 1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
-1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie sehen die vier Replikationsagenten für Ihren Brand Portal-Mandanten.
+1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie können die vier Replizierungsagenten Ihres Markenportal-Mandanten sehen.
 1. Klicken Sie auf die Replikationsagenten-URL, um die Agentendetails zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Einstellungen des Replikationsagenten zu ändern.
 1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
