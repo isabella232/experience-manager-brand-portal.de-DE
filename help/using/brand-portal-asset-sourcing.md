@@ -18,18 +18,18 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # Überblick über die Asset-Beschaffung {#overview-asset-sourcing-in-bp}
 
-**Mit der Asset-Beschaffung** können die AEM Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit einer zusätzlichen **Asset Contribution** -Eigenschaft erstellen, um sicherzustellen, dass der neue Ordner für die Asset-Übermittlung durch die Brand Portal-Benutzer geöffnet ist. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden. The AEM administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the **SHARED** folder to ensure BP users have the reference information they need. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird. Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
+Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden. Der AEM-Administrator definiert dann die Anforderung, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird. Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
@@ -41,10 +41,10 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 >[!NOTE]
 >
->Asset Sourcing wird auf AEM Assets als Cloud Service nicht unterstützt.
+>Asset-Beschaffung wird von AEM Assets as a Cloud Service nicht unterstützt.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
