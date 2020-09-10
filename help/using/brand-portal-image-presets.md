@@ -34,7 +34,7 @@ Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
 
-Die AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
+AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
 
 
 >[!NOTE]
@@ -68,20 +68,20 @@ Die AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detail
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
 1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
 
-## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau      {#apply-image-presets-when-previewing-images}
+## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau        {#apply-image-presets-when-previewing-images}
 
 Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine vorhandene Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
 1. Klicken Sie in der Brand Portal-Benutzeroberfläche auf das Bild, um es zu öffnen.
-1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Wiedergaben]**.
+1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Ausgabeformate]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. Wählen Sie in der Liste **[!UICONTROL Wiedergaben]** die entsprechende dynamische Wiedergabe aus, zum Beispiel **[!UICONTROL Miniaturansicht]**. Das Vorschaubild wird basierend auf Ihrer Auswahl des Ausgabeformats dargestellt.
+1. Wählen Sie in der Liste **[!UICONTROL Ausgabeformate]** die entsprechende dynamische Ausgabe aus, zum Beispiel **[!UICONTROL Miniaturansicht]**. Das Vorschaubild wird basierend auf Ihrer Auswahl des Ausgabeformats dargestellt.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Anwenden von Bildvorgaben beim Herunterladen von Bildern    {#apply-image-presets-when-downloading-images}
+## Anwenden von Bildvorgaben beim Herunterladen von Bildern     {#apply-image-presets-when-downloading-images}
 
 Beim Herunterladen von Bildern und deren Ausgabeformaten aus Brand Portal gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Sie können jedoch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder neu formatieren können.
 
@@ -95,13 +95,13 @@ Beim Herunterladen von Bildern und deren Ausgabeformaten aus Brand Portal gibt e
 
    ![](assets/downloadassets.png)
 
-1. Wählen Sie im Dialogfeld **[!UICONTROL Herunterladen]** die erforderlichen Optionen aus, je nachdem, ob Sie das Asset mit oder ohne dessen Wiedergaben herunterladen möchten.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Herunterladen]** die erforderlichen Optionen aus, je nachdem, ob Sie das Asset mit oder ohne dessen Ausgaben herunterladen möchten.
 
    ![](assets/donload-assets-dialog.png)
 
-1. Um dynamische Wiedergaben der Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabe(n)]** aus.
+1. Um dynamische Ausgaben der Assets herunterzuladen, wählen Sie die Option **[!UICONTROL Dynamische Ausgabe(n)]** aus.
 1. Sie können jedoch auch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder und deren Ausgabeformate beim Herunterladen dynamisch neu formatieren können. Geben Sie hierfür Größe, Format, Farbraum, Auflösung und Bild-Modifikator an.
 
    ![](assets/dynamicrenditions.png)
 
-1. Klicken Sie auf **[!UICONTROL Download]**. Die dynamischen Wiedergaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Wiedergaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
+1. Klicken Sie auf **[!UICONTROL Download]**. Die dynamischen Ausgaben werden in einer ZIP-Datei zusammen mit dem Bild sowie dessen Ausgaben, die Sie herunterladen möchten, heruntergeladen. Wenn nur ein Asset heruntergeladen wird, wird jedoch keine Zip-Datei erstellt, um den Download zu beschleunigen.
