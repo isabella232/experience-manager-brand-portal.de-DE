@@ -9,26 +9,26 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # Konfigurieren von AEM Assets mit Brand Portal {#configure-integration}
 
-Wenn Sie Adobe Experience Manager Assets als Cloud Service mit dem Adobe Experience Manager Asset Brand Portal konfigurieren, können Sie Assets veröffentlichen und mit den Benutzern des Markenportals verteilen. Die Konfiguration von AEM 6.3 (und höher) mit dem Markenportal hingegen ermöglicht die Veröffentlichung von Assets, die Verteilung von Assets und Asset-Beitragsfunktionen für die Benutzer des Markenportals.
+Wenn Sie Adobe Experience Manager Assets as a Cloud Service mit Adobe Experience Manager Asset Brand Portal konfigurieren, können Sie Assets veröffentlichen und an Benutzer von Brand Portal weitergeben. Die Konfiguration von Brand Portal unter AEM 6.3 (und höher) wiederum bietet Benutzern von Brand Portal Funktionen zu Asset-Veröffentlichung, Asset-Verteilung und Mitarbeit an Assets.
 
-Adobe Experience Manager Assets wird mit dem Markenportal über die Adobe Developer Console konfiguriert, die ein Adobe Identity Management Services (IMS)-Token zur Autorisierung Ihres Markenportals-Mandanten erhält.
+Adobe Experience Manager Assets wird über die Adobe Developer Console mit Brand Portal konfiguriert. Dadurch wird ein Adobe Identity Management Services (IMS)-Token zur Autorisierung Ihres Brand Portal-Mandanten abgerufen.
 
 >[!NOTE]
 >
 >***Für AEM Assets 6.3 und höher***
 >
->Zuvor wurde Brand Portal über Legacy OAuth Gateway in der klassischen Benutzeroberfläche konfiguriert, die den JSON Web Token (JWT) Austausch nutzt, um ein IMS-Token zur Autorisierung zu erhalten.
+>Zuvor wurde Brand Portal über das alte OAuth-Gateway in der klassischen Benutzeroberfläche konfiguriert. Das Gateway ruft mithilfe des JSON Web Token (JWT)-Austauschs ein IMS-Token zur Autorisierung ab.
 >
 >Die Konfiguration über das alte OAuth-Protokoll wird ab dem 6. April 2020 nicht mehr unterstützt, sondern erfolgt nun über Adobe Developer Console.
 
@@ -42,7 +42,7 @@ Adobe Experience Manager Assets wird mit dem Markenportal über die Adobe Develo
 >Falls Probleme mit der alten OAuth-Gateway-Konfiguration auftreten, löschen Sie die vorhandene Konfiguration und erstellen Sie eine neue Konfiguration über Adobe Developer Console.
 
 
-Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM und ob Sie die Konfiguration zum ersten Mal durchführen oder die vorhandenen Konfigurationen aktualisieren:
+Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und abhängig davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
