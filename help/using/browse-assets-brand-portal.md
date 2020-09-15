@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Sie können Ressourcen in jeder der verfügbaren Ansichten anzeigen, durchblätt
 
 ![](assets/card-view.png)
 
-In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind die folgenden Details angegeben:
+In der Kartenansicht werden Informationskarten für jedes Element auf der aktuellen Ebene angezeigt. Auf diesen Karten sind  die folgenden Details angegeben:
 
 * eine visuelle Darstellung des Assets bzw. Ordners
 * Typ
@@ -231,7 +231,7 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## Inhaltsstruktur     {#content-tree}
+## Inhaltsstruktur      {#content-tree}
 
 Verwenden Sie zusätzlich zu diesen Ansichten die Strukturansicht, um einen Drilldown der Asset-Hierarchie durchzuführen, während Sie die gewünschten Assets oder Ordner anzeigen und auswählen.
 
@@ -243,7 +243,7 @@ Navigieren Sie in der Inhaltshierarchie zum gewünschten Asset.
 
 ![](assets/content-tree.png)
 
-## Asset-Details     {#asset-details}
+## Asset-Details      {#asset-details}
 
 Auf der Seite „Details“ eines Assets können Sie das Asset anzeigen und herunterladen, einen Link zum Asset freigeben, das Asset in eine Sammlung verschieben oder dessen Seite „Eigenschaften“ anzeigen. Sie können nacheinander auch durch die Seite „Details“ anderer Assets im selben Ordner navigieren.
 
