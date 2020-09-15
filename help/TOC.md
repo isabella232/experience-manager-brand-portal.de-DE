@@ -52,7 +52,7 @@ ht-degree: 100%
 + Freigeben von Assets für Benutzer {#share}
    + [Sammlungen freigeben](using/brand-portal-share-collection.md)
    + [Ordner freigeben](using/brand-portal-sharing-folders.md)
-   + [Assets als Link freigeben](using/brand-portal-link-share.md)
+   + [Freigeben von Assets als Link](using/brand-portal-link-share.md)
 + Verwenden der Suchfunktionen {#search-capabilities}
    + [Suchen von Assets in Brand Portal](using/brand-portal-searching.md)
    + [Verwenden benutzerdefinierter Suchfacetten](using/brand-portal-search-facets.md)
