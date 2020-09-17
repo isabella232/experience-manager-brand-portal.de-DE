@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten 
 
 **Frage. Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist. Gibt es eine schnelle Lösung?**
 
-**Antwort.** Normalerweise schlägt die Veröffentlichung mit einem Timeout-Fehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass ein Timeout vermieden wird.
+**Antwort.** Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
 
 Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
