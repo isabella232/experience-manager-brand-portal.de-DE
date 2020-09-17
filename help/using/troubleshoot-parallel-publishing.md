@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ii. Löschen Sie
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue                Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue                  Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -120,12 +120,12 @@ Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öf
 
 ## Konfigurieren von Replikationsagenten, um Verbindungsabbrüche wegen Zeitüberschreitung zu verhindern {#connection-timeout}
 
-Normalerweise schlägt der Veröffentlichungsauftrag mit einem Timeout-Fehler fehl, wenn mehrere ausstehende Anforderungen in der Replikationswarteschlange vorhanden sind. Um dieses Problem zu beheben, stellen Sie sicher, dass die Replizierungsagenten so konfiguriert sind, dass ein Timeout vermieden wird.
+Normalerweise schlägt der Veröffentlichungsauftrag mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
 
-Führen Sie die folgenden Schritte aus, um die Replizierungsagenten zu konfigurieren:
+Gehen Sie wie folgt vor, um die Replikationsagenten zu konfigurieren:
 1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
 1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
-1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie können die vier Replizierungsagenten Ihres Markenportal-Mandanten sehen.
+1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie sehen die vier Replikationsagenten Ihres Brand Portal-Mandanten.
 1. Klicken Sie auf die Replikationsagenten-URL, um die Agentendetails zu öffnen.
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Einstellungen des Replikationsagenten zu ändern.
 1. Klicken Sie in den Agenteneinstellungen auf die Registerkarte **[!UICONTROL Erweitert]**.
