@@ -4,17 +4,17 @@ seo-title: AEM Brand Portal-Benutzerhandbuch
 description: AEM Brand Portal-Benutzerhandbuch
 seo-description: Beschreibt die Verwendung von Brand Portal
 translation-type: tm+mt
-source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
+source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 91%
 
 ---
 
 
-# Einführung
+# Adobe Experience Manager Assets Brand Portal {#aem-brand-portal}
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** unterstützt Unternehmen dabei, ihre Marketing-Anforderungen zu erfüllen, indem zugelassene Marken- und Produktressourcen sicher zum Herunterladen an externe Agenturen, Partner, interne Teams und Wiederverkäufer verteilt werden.
+**Adobe Experience Manager Assets Brand Portal** hilft Unternehmen, ihre Marketingbedürfnisse zu erfüllen, indem sie genehmigte Marken- und Produktelemente sicher an externe Agenturen, Partner, interne Teams und Wiederverkäufer zum Herunterladen verteilen.
 
 Das Fehlen einer sicheren Lösung für die Asset-Freigabe kann zu folgenden Problemen führen:
 
