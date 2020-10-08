@@ -9,9 +9,9 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -25,7 +25,6 @@ Brand Portal ermöglicht das Verkürzen der Download-Zeiten größerer Asset-Dat
 >[!NOTE]
 >
 >Die jeweilige Download-Geschwindigkeit variiert jedoch abhängig von Faktoren wie der Netzwerkbandbreite, der Serverlatenz und dem geografischen Standort der Clients.
-
 
 Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktiviert, wodurch die Zeit zum Herunterladen der gewünschten Asset-Dateien von Brand Portal erheblich verringert wird.
 
