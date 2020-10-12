@@ -1,78 +1,111 @@
 ---
 title: Versionshinweise
 seo-title: Versionshinweise
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
-seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
+seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 59%
 
 ---
 
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 6.4.7.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.7 |
-| Datum            | August 2020 |
+| Version | 2020.10.0 |
+| Datum            | Oktober 2020 |
 
 ## Überblick {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 6.4.7 {#whats-new-in-647}
+## Neue Funktionen in Version 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### Neue Funktionen {#new-features}
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Dokument-Viewer wurde eingeführt, um das PDF-Anwendererlebnis zu verbessern. Es stehen neue Optionen für die Anzeige von PDF-Dateien in Brand Portal zur Verfügung.
+* Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird in einer Ansicht mit Listen mit zusätzlichen Optionen aktualisiert, um nicht erforderliche Darstellungen auszuschließen, dieselben Regeln für ähnliche Asset-Typen anzuwenden und die ausgewählten Asset-Darstellungen herunterzuladen.
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Seiten des Markenportals mit einem Klick möglich.
+
+* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen.
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
+
+
+### Behobene kritische Probleme {#critical-issues-fixed}
+
+Diese Version enthält Korrekturen an folgendem kritischen Problem:
+
+* Die PDF-Seiten können nicht Ansicht werden, wenn die PDF-Datei Teilassets enthält.
+
+
+### Bekannte Probleme {#known-issues}
+
+Diese Version enthält das folgende bekannte Problem:
+
+* Wenn der Benutzer das Asset über den Link &quot;Freigeben&quot;herunterlädt, wird das ursprüngliche Asset auch dann heruntergeladen, wenn die Option zum **[!UICONTROL Zulassen des Downloads der Originaldatei]** deaktiviert ist.
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Der Asset-Download-Prozess wurde dahingehend verbessert, dass sich das [Herunterladen von Assets aus Brand Portal](brand-portal-download-assets.md) jetzt einfacher gestaltet. Brand Portal-Administratoren können **[!UICONTROL schnelle Downloads]**, **[!UICONTROL benutzerdefinierte Ausgaben]** und **[!UICONTROL Systemausgaben]** in den **[!UICONTROL Download]**-Einstellungen konfigurieren.
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-Weitere Informationen finden Sie unter [Neue Funktionen in Brand Portal 6.4.7](whats-new.md).
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### Behobene kritische Probleme {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* Benutzer mit der Rolle „Beobachter“ dürfen keine Links für Sammlungen freigeben, die Option zum Freigeben ist für sie jedoch in der Produktoberfläche sichtbar.
+This release includes fixes to the following critical issues:
 
-* Über die Schaltfläche **[!UICONTROL Herunterladen]** in der Optionsleiste werden nicht alle lizenzierten Assets des ausgewählten Ordners aufgelistet.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* Die Suche dauert länger, um die Ergebnisse für bestimmte Keywords anzuzeigen.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* Die Kontrollkästchen **[!UICONTROL Zustimmen]** und **[!UICONTROL Nicht zustimmen]** werden bei der Massenauswahl lizenzierter und nicht lizenzierter Assets während des Downloads nicht angezeigt.
+* The search takes longer to show the results for certain keywords.
 
-* Die filterbasierte Suche zeigt die Verarbeitung auf der Produktoberfläche ohne Suchergebnis an.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* Die Assets werden nicht über den Freigabe-Link heruntergeladen, wenn der freigegebene Ordner zahlreiche und große Assets enthält.
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### Bekannte Probleme {#known-issues-647}
-
-Dieses Release weist die folgenden bekannten Probleme auf:
-
-* Wenn mehrere Assets ausgewählt sind, wird der Lizenztext nicht angezeigt, wenn Sie beim Herunterladen über den Freigabe-Link auf der Seite der Lizenzvereinbarung auf „Allgemeine Geschäftsbedingungen“ klicken.
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## Sprachen {#languages}
 
