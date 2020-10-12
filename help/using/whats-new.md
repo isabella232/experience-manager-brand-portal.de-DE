@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
 seo-title: Neue Funktionen in AEM Assets Brand Portal
-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.7.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 6.4.7.
+description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2020.10.0.
+seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2020.10.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
-ht-degree: 100%
+source-wordcount: '5387'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,94 @@ ht-degree: 100%
 # Neue Funktionen in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2020.10.0 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0 ist eine Version zur Verbesserung, die sich auf die Vereinfachung des Herunterladens von Assets konzentriert und wichtige Fehlerbehebungen enthält. Die Erweiterung umfasst einen neuen und verbesserten Arbeitsablauf für den Asset-Download, zusätzliche Optionen zum Ausschließen von Darstellungen, den direkten Download aus dem **[!UICONTROL Bedienfeld &quot;Darstellungen]** &quot;, die Konfiguration, um Zugriff und Download-Rechte für bestimmte Benutzergruppen zuzulassen, sowie eine einfache Navigation zu den Dateien, Sammlungen und freigegebenen Links von allen Marken-Portal-Seiten. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+
+
+### Vereinfachtes Download-Erlebnis {#download-dialog}
+
+Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wurde früher mit mehreren Optionen angezeigt, z. B. zum Erstellen eines separaten Ordners für jedes Asset, zum E-Mail-Asset, zum Auswählen von Original-Assets, benutzerdefinierten Darstellungen, dynamischen Darstellungen, zum Ausschließen von Systemdarstellungen und zum Aktivieren der Downloadbeschleunigung, die für nicht technische oder neue Benutzer nicht eindeutig war, insbesondere wenn mehrere Assets oder Ordner zum Herunterladen ausgewählt wurden. Außerdem konnte der Benutzer nicht alle Asset-Darstellungen sehen oder eine bestimmte benutzerdefinierte oder dynamische Darstellung ausschließen.
+
+Das neue Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;verallgemeinert den Prozess zur Auswahl und Filterung von Assets, der es den Benutzern des Markenportals erleichtert, beim Herunterladen der Asset-Darstellungen effektive Entscheidungen zu treffen. Es werden alle ausgewählten Assets und deren Darstellungen entsprechend der [**[!UICONTROL Download]**](brand-portal-download-assets.md) - und **[!UICONTROL Download]** -Einstellungen Liste.
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+Im Dialogfeld **[!UICONTROL Herunterladen]** können die Benutzer:
+
+* Ansicht aller verfügbaren Ausgabeformate eines Assets in der Download-Liste.
+* Ausschließen von Darstellungen der Assets, die nicht zum Herunterladen erforderlich sind.
+* Wenden Sie denselben Darstellungssatz auf alle ähnlichen Asset-Typen mit einem Klick an.
+* Wenden Sie unterschiedliche Darstellungen für verschiedene Asset-Typen an.
+* Separaten Ordner für jedes Asset erstellen.
+* Laden Sie ausgewählte Assets und deren Darstellungen herunter.
+
+Der Arbeitsablauf für das Herunterladen von eigenständigen Assets, mehreren Assets, Ordnern, die Assets enthalten, lizenzierten oder nicht lizenzierten Assets und dem Herunterladen von Assets über den Link &quot;Freigeben&quot;bleibt konstant.
+
+![download-dialog](assets/download-dialog-box.png)
+
+### Schnellnavigation  {#quick-navigation}
+
+Früher wurden die Optionen für die Ansicht von ****, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ausgeblendet und es waren mehrere Klicks erforderlich, sobald der Benutzer zu einer anderen Ansicht wechseln wollte.
+
+In Brand Portal 2020.10.0 können die Benutzer auf allen Seiten des Markenportals mit einem Klick zu **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** navigieren.
+
+![collection-navigation](assets/collection-navigation.png)
+
+### Erweitertes Bedienfeld &quot;Darstellung&quot; {#rendition-panel}
+
+Früher konnten die Benutzer das ursprüngliche Asset und seine Darstellungen nur dann im **[!UICONTROL Bedienfeld &quot;Darstellungen]** &quot;Ansicht haben, wenn eine der **[!UICONTROL benutzerdefinierten Darstellungen]** oder **[!UICONTROL Systemdarstellungen]** in der **[!UICONTROL Downloadkonfiguration]** aktiviert war. Außerdem mussten die Benutzer alle Asset-Darstellungen herunterladen, da kein Filter zum Ausschließen spezifischer, nicht erforderlicher benutzerdefinierter oder dynamischer Darstellungen vorhanden war.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+In Brand Portal 2020.10.0 können die Benutzer bestimmte Darstellungen ausschließen und die ausgewählten Darstellungen direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite &quot;Asset-Details&quot;herunterladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen.
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![renditions-panel](assets/rendition-panel.png)
+
+
+### Download-Berechtigungen konfigurieren {#download-permissions}
+
+Zusätzlich zu den vorhandenen [**[!UICONTROL Download]**](brand-portal-download-assets.md) -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
+
+Früher waren die Einstellungen nur verfügbar, um zu verhindern, dass die Gruppenbenutzer das ursprüngliche Asset herunterladen konnten.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+Auf der Registerkarte &quot; **[!UICONTROL Gruppen]** &quot;auf der Seite &quot; **[!UICONTROL Benutzerrollen]** &quot;können Administratoren die Ansichten- und Downloadeinstellungen konfigurieren:
+
+* Wenn die Einstellungen für &quot; **[!UICONTROL Original]** herunterladen&quot;und &quot; **[!UICONTROL Ausgabeformat]** herunterladen&quot;aktiviert sind, können die Benutzer der ausgewählten Gruppe die Originalelemente und deren Ausgabeformate Ansicht und Herunterladen durchführen.
+* Wenn beide Einstellungen deaktiviert sind, können die Benutzer nur die Originalelemente Ansicht haben. Die Asset-Darstellungen sind für die Benutzer auf der Seite mit den Asset-Details nicht sichtbar.
+* Wenn nur die Einstellung &quot;Original **[!UICONTROL herunterladen]** &quot;aktiviert ist, können die Benutzer nur die Originalelemente auf der Seite mit den Asset-Details Ansicht und herunterladen.
+* Wenn nur die Einstellung &quot; **[!UICONTROL Ausgabeformate]** herunterladen&quot;aktiviert ist, können die Benutzer das ursprüngliche Asset zwar Ansicht, jedoch nicht herunterladen. Der Benutzer kann die Asset-Darstellungen jedoch Ansicht vornehmen und herunterladen.
+
+![ansicht-Download-Berechtigung](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>Wenn ein Benutzer mehreren Gruppen hinzugefügt wird und eine dieser Gruppen Beschränkungen aufweist, gelten die Einschränkungen für den Benutzer.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## Änderungen in Version 6.4.7 {#what-changed-in-647}
 
@@ -238,7 +326,6 @@ Die Eigenschaft **Pfadbrowser** wird in das Suchformular eingeführt, um das Su
 
 ![](assets/edit-search-form.png)
 
-**Der Anwendungsfall**
 
 Sie können die Asset-Suche nun in einem bestimmten Ordner einschränken, zu dem Sie navigiert sind, anstatt die Einschränkung angefangen beim Stammordner anzuwenden.
 
@@ -254,8 +341,8 @@ Benutzer, deren AEM-Autoreninstanz sich im Dynamic Media-Hybridmodus befindet, k
 
 Um Dynamic Media Ausgabeformate als Vorschau für bestimmte Mandantenkonten anzeigen (oder herunterladen) zu können, müssen Administratoren die **Dynamic Media-Konfiguration** (Videodienst-URL (DM-Gateway-URL) und Registrierungs-ID zum Abrufen des dynamischen Videos) in der Konfiguration **Video** im Admin Tools-Bereich angeben.
 
-**Die Anwendungsfälle**
-Dynamische Medien können in der Vorschau angezeigt werden:
+
+Vorschau der Dynamic Media-Videos ist möglich auf/in:
 
 * Asset-Detailseite
 * Asset-Kartenansicht
@@ -277,6 +364,7 @@ Der Veröffentlichungs-Workflow für Assets (und Ordner) aus der [AEM (6.4.2.0)]
 Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus dem Portal entfernt werden, indem der Workflow zum Rückgängigmachen der Veröffentlichung in Brand Portal geplant wird.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -290,7 +378,6 @@ Für eine Organisation mit der vorhandenen Domäne **geomettrix.brand-portal.ad
 
 Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
-**Der Anwendungsfall**
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -299,8 +386,8 @@ Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal
 
 In Adobe Experience Manager Assets Brand Portal 6.4.3 wurde der Download vereinfacht, sodass in den folgenden Situationen weniger Klicks notwendig sind und weniger Warnungen angezeigt werden:
 
-* Entscheidung, dass nur die Ausgabeformate heruntergeladen werden (und nicht die Original-Assets).
-* Herunterladen der Assets, wenn der Zugriff auf die Original-Ausgabeformate eingeschränkt ist.
+* Die Option zum Herunterladen nur der Darstellungen (und nicht der ursprünglichen Assets).
+* Herunterladen der Assets, wenn der Zugriff auf die ursprünglichen Darstellungen eingeschränkt ist.
 
 ## Änderungen in 6.4.2 {#what-changed-in-1}
 
