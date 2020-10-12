@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 100%
 
 ---
@@ -115,14 +115,13 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
       ![](assets/licensed-asset-download-1.png)
 
-      <!--
-     >>[!NOTE]
-     >
-     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
-     > 
-     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
-     >
-     -->
+
+      >[!NOTE]
+      >
+      >Stellen Sie sicher, dass Sie alle erforderlichen Asset-Darstellungen auswählen, während Sie sie von der Seite mit den Asset-Details herunterladen, und klicken Sie auf **[!UICONTROL Herunterladen]**. Die ausgewählten Darstellungen werden auf Ihren lokalen Computer heruntergeladen.
+      > 
+      >Nach dem Herunterladen ist die Schaltfläche &quot; **[!UICONTROL Herunterladen]** &quot;deaktiviert, damit keine Duplikat-Kopien der heruntergeladenen Darstellungen erstellt werden. Um weitere Darstellungen (fehlende oder andere Versionen) herunterzuladen, aktualisieren Sie den Browser, um die Schaltfläche zum Herunterladen erneut zu aktivieren.
+
 
       Wenn eine der Konfigurationen für **[!UICONTROL benutzerdefinierte Ausgaben]** oder **[!UICONTROL Systemausgaben]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist, wird das Dialogfeld **[!UICONTROL Download]** angezeigt, wobei das Kontrollkästchen **[!UICONTROL Assets]** standardmäßig ausgewählt ist. Wenn die Konfiguration **[!UICONTROL Schneller Download]** aktiviert ist, ist das Kontrollkästchen **[!UICONTROL Download-Beschleunigung aktivieren]** standardmäßig aktiviert.
 
