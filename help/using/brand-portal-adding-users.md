@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
@@ -223,6 +223,7 @@ Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder e
    >
    >Um die Administratorrechte für einen Benutzer zu widerrufen, nehmen Sie auf der Seite **[!UICONTROL Administrator bearbeiten]** die entsprechenden Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
 
+
 ## Verwalten von Benutzerrollen {#manage-user-roles}
 
 Administratoren können die Rollen für Benutzer in Brand Portal ändern.
@@ -250,9 +251,11 @@ Zusätzlich zur Administratorrolle werden in Brand Portal die folgenden Rollen u
    >
    >Bei Administratorbenutzern ist die Liste [!UICONTROL Rolle] deaktiviert. Die Rollen für diese Benutzer können nicht ausgewählt werden.
 
+
    >[!NOTE]
    >
    >Die Auswahl der Benutzerrolle ist auch dann deaktiviert, wenn der Benutzer zu einer Gruppe mit der Rolle „Bearbeiter“ gehört. Wenn Sie die Bearbeitungsberechtigungen des Benutzers widerrufen möchten, müssen Sie den Benutzer aus der Gruppe mit der Rolle „Bearbeiter“ entfernen oder die Rolle der gesamten Gruppe in „Betrachter“ ändern.
+
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Rolle wird für den entsprechenden Benutzer geändert. Wenn Sie mehrere Benutzer ausgewählt haben, werden die Rollen für alle ausgewählten Benutzer gleichzeitig geändert.
 
@@ -287,8 +290,10 @@ Führen Sie die folgenden Schritte aus, um die Rolle und die Berechtigung für d
    >
    >Darüber hinaus gelten Einschränkungen hinsichtlich des Zugriffs auf Originalwiedergaben der Bilddateien nicht für Administratoren, auch wenn sie Mitglieder eingeschränkter Gruppen sind.
 
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Rolle wird für die entsprechenden Gruppen geändert.
 
    >[!NOTE]
    >
    >Die Benutzer-Gruppen-Zuweisung oder die Gruppenmitgliedschaft eines Benutzers wird alle acht Stunden mit Brand Portal synchronisiert. Änderungen bei Benutzer- oder Gruppenrollen treten nach Abschluss der nächsten Synchronisierung in Kraft.
+
