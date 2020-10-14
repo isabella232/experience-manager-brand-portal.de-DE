@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 100%
@@ -107,11 +107,13 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, Aspera Download Accelerator zu installieren.
 
+
       >[!NOTE]
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
       >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Administratoren können mit der Funktion [Branding](../using/brand-portal-branding.md) das Logo, die Beschreibung und die Fußzeile der E-Mail-Nachrichten anpassen.
 
+
    * Sie können eine vordefinierte Bildvorgabe auswählen oder eine benutzerdefinierte dynamische Ausgabe im Dialogfeld **[!UICONTROL Download]** erstellen.
 
       Um eine [benutzerdefinierte Bildvorgabe auf das Asset und seine Ausgaben](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages) anzuwenden, aktivieren Sie das Kontrollkästchen **[!UICONTROL Dynamische Ausgabe(n)]**. Legen Sie die Eigenschaften für die Bildvorgabe fest (Größe, Format, Farbraum, Auflösung und Bild-Modifikator), um während des Downloads des Assets und seiner Ausgabeformate die benutzerdefinierte Bildvorgabe anzuwenden. Wenn Sie nur die dynamischen Ausgaben herunterladen möchten, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Asset(s)]**.
@@ -166,6 +169,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Um dynamische Ausgaben eines Assets als Vorschau anzeigen (oder herunterladen) zu können, stellen Sie sicher, dass Dynamic Media aktiviert ist und die Pyramid TIFF-Ausgabe in der AEM Assets-Autoreninstanz, von der aus die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset in Brand Portal veröffentlicht wird, wird auch sein PTIFF-Ausgabeformat veröffentlicht.
 
+
    * Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen]**. Die Brand Portal-Ordnerhierarchie wird standardmäßig ignoriert und alle Assets werden in einen Ordner auf Ihrem lokalen System heruntergeladen.
 
 1. Klicken Sie auf **[!UICONTROL Download]**.
@@ -177,6 +181,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
    >[!NOTE]
    >
    >Einzeln ausgewählte und heruntergeladene Assets sind im Bericht zu heruntergeladenen Assets sichtbar. Wenn jedoch ein Ordner mit Assets heruntergeladen wird, werden weder der Ordner noch die Assets im Bericht zu heruntergeladenen Assets angezeigt.
+
 
 ## Erwartete Download-Zeiten {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Die Zeiten von Datei-Downloads variieren unter Umständen für Benutzer an versc
 | London | 179 ms | 0,32 MB/s | 106 Minuten |
 | Singapur | 196 ms | 0,5 MB/s | 68 Minuten |
 
+
 >[!NOTE]
 >
 >Hinweis: Die angegebenen Daten wurden unter Testbedingungen gemessen und können daher für Benutzer an verschiedenen Standorten mit unterschiedlicher Latenz und Bandbreite abweichen.
+
