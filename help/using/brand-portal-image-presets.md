@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -29,6 +29,7 @@ Bildvorgaben werden verwendet, um dynamische Ausgabeformate von Bildern zu gener
 >
 >Beim Herunterladen von Bildern und deren Ausgabeformaten gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Stattdessen können Sie die Eigenschaften für eine benutzerdefinierte Bildvorgabe festlegen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben beim Herunterladen von Bildern](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben erforderlich sind, finden Sie unter [Verwalten von Bildvorgaben](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
@@ -44,6 +45,7 @@ AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseit
 >Wird die AEM-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
 >
 >Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
+
 
 1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
 
