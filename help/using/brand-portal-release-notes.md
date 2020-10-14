@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 59%
+source-wordcount: '544'
+ht-degree: 55%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
 
+### Verbesserungen {#enhancements}
 
-### Behobene kritische Probleme {#critical-issues-fixed}
+Diese Version umfasst die folgenden Verbesserungen:
 
-Diese Version enthält Korrekturen an folgendem kritischen Problem:
+* Der Schwellenwert für die Sitzungs-Timeout für die Gastbenutzer wurde von 2 Stunden auf 15 Minuten verringert.
+* Die Option &quot;Zusätzliche **[!UICONTROL Ansichten]** &quot;wurde für mehrseitige PDFs entfernt, da der Benutzer die PDF-Seiten jetzt aus dem Adobe Document Cloud Viewer Ansicht haben kann.
 
-* Die PDF-Seiten können nicht Ansicht werden, wenn die PDF-Datei Teilassets enthält.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Bekannte Probleme {#known-issues}
 
 Diese Version enthält das folgende bekannte Problem:
 
-* Wenn der Benutzer das Asset über den Link &quot;Freigeben&quot;herunterlädt, wird das ursprüngliche Asset auch dann heruntergeladen, wenn die Option zum **[!UICONTROL Zulassen des Downloads der Originaldatei]** deaktiviert ist.
+* Die Suche in den **[!UICONTROL Asset-Berichten]** zeigt die Verarbeitung auf der Produktoberfläche ohne Suchergebnis an.
+* Die Video-DM-Kodierungen sind für Benutzer, die keine Administratoren sind, auf der Seite mit den Asset-Details nicht sichtbar.
+* Die Ausrichtung der Größe einzelner Asset-Darstellungen und der maximalen Downloadgröße wird im Dialogfeld &quot;Herunterladen&quot;verzerrt.
 
 
 
