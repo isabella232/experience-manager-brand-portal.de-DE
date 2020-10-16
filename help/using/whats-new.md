@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 87%
@@ -249,13 +249,13 @@ Nachdem der Upload in den Ordner **NEU** abgeschlossen ist, können Brand Portal
 
 Version 6.4.4 von Brand Portal konzentriert sich auf Verbesserungen der Textsuche und von Kunden häufig gewünschte Funktionen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
-### Verbesserungen der Suche {#search-enhancements}
+### Verbesserungen der Suche
 
 Ab Version 6.4.4 unterstützt Brand Portal die Suche nach Textteilen über das Eigenschaftsprädikat im Filterbereich. Um die Suche nach Textteilen zu erlauben, müssen Sie die **Teilsuche** im Eigenschaftsprädikat im Suchformular aktivieren.
 
 Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhalter zu erfahren.
 
-#### Suche nach Satzteilen                    {#partial-phrase-search}
+#### Suche nach Satzteilen                      {#partial-phrase-search}
 
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
@@ -302,7 +302,7 @@ Administratoren können jetzt konfigurieren, wie Ordner für Benutzer ohne Admin
 
 ![](assets/enable-folder-hierarchy.png)
 
-Wenn die Funktion [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md) aktiviert ist, können Sie besser zwischen verschiedenen Ordnern mit demselben Namen unterscheiden, die über verschiedene Hierarchien freigegeben werden. Bei der Anmeldung sehen Nicht-Administratoren nun die virtuellen übergeordneten (und untergeordneten) Ordner der freigegebenen Ordner.
+Wenn die Funktion [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md) aktiviert ist, können Sie besser zwischen verschiedenen Ordnern mit demselben Namen unterscheiden, die über verschiedene Hierarchien freigegeben werden. Bei der Anmeldung sehen Nicht-Administratoren nun die virtuellen übergeordneten (und untergeordneten) Ordner der freigegebenen Ordner.
 
 ![](assets/disabled-folder-hierarchy1-2.png)
 
@@ -318,12 +318,12 @@ Beachten Sie, dass das Standardminiaturbild der virtuellen Ordner das Miniaturbi
 
 ### Suche in einer bestimmten Ordnerhierarchie oder in einem bestimmten Ordnerpfad
 
-Die Eigenschaft **Pfadbrowser** wird in das Suchformular eingeführt, um das Suchen von Assets in einem bestimmten Verzeichnis zu ermöglichen. Der Standardsuchpfad der Sucheigenschaft für den Pfadbrowser lautet `/content/dam/mac/<tenant-id>/`. Dieser kann durch Bearbeiten des Standardsuchformulars konfiguriert werden.
+Die Eigenschaft **Pfad-Browser** wird in das Suchformular eingeführt, um das Suchen von Assets in einem bestimmten Verzeichnis zu ermöglichen. Der Standardsuchpfad der Sucheigenschaft für den Pfad-Browser lautet `/content/dam/mac/<tenant-id>/`. Dieser kann durch Bearbeiten des Standardsuchformulars konfiguriert werden.
 
-* Administratoren können über den Pfadbrowser zu einem beliebigen Verzeichnis in Brand Portal navigieren.
-* Nicht-Administratoren können über den Pfadbrowser nur zu den Ordnern navigieren, die für sie freigegeben sind, und wieder zurück zu den übergeordneten Ordnern.
+* Administratoren können über den Pfad-Browser zu einem beliebigen Verzeichnis in Brand Portal navigieren.
+* Nicht-Administratoren können über den Pfad-Browser nur zu den Ordnern navigieren, die für sie freigegeben sind, und wieder zurück zu den übergeordneten Ordnern.
 
-   Zum Beispiel wird `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` für einen Nicht-Administrator freigegeben. Der Benutzer kann mithilfe des Pfadbrowsers innerhalb von OrdnerC nach Assets suchen. Dieser Benutzer kann auch zu OrdnerB und OrdnerA navigieren (da es sich um übergeordnete Elemente des Ordners handelt, der für den Benutzer freigegeben ist).
+   Zum Beispiel wird `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` für einen Nicht-Administrator freigegeben. Der Benutzer kann mithilfe des Pfad-Browsers innerhalb von OrdnerC nach Assets suchen. Dieser Benutzer kann auch zu OrdnerB und OrdnerA navigieren (da es sich um übergeordnete Elemente des Ordners handelt, der für den Benutzer freigegeben ist).
 
 ![](assets/edit-search-form.png)
 
@@ -533,7 +533,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die maximale Größe für ZIP-Downloads bei der Linkfreigabe wurde von 1 GB auf 5 GB erhöht.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen               Dateien auswählen möchten, und vordefinierte Ausgabeformate vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen                 Dateien auswählen möchten, und vordefinierte Ausgabeformate vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -562,11 +562,15 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 
 
 
+
+
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Linkfreigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Linkfreigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+
+
 
 
 
@@ -616,7 +620,7 @@ Je nachdem, ob die Benutzer bereits eine Adobe ID haben oder zuerst eine Adobe�
 
 Weitere Informationen finden Sie unter [Anfordern von Zugriff auf Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Erweiterung des Berichts über heruntergeladene Assets               {#enhancement-in-the-assets-downloaded-report}
+### Erweiterung des Berichts über heruntergeladene Assets                 {#enhancement-in-the-assets-downloaded-report}
 
 Der Bericht über heruntergeladene Assets zeigt jetzt an, wie viele Assets die einzelnen Benutzer innerhalb eines bestimmten Zeitraums heruntergeladen haben. Benutzer können diesen Bericht im CSV-Format herunterladen und Daten zur Gesamtanzahl der Downloads für ein lizenziertes Asset zusammenstellen.
 
@@ -644,7 +648,7 @@ Weitere Informationen finden Sie in Schritt 12 unter [Freigeben von Assets als 
 
 Die Funktion zur Benutzerauswahl wurde jetzt verbessert, um den Anforderungen von Kunden mit großen Benutzerzahlen gerecht zu werden.
 
-### Änderungen beim Experience Cloud-Branding               {#experience-cloud-branding-changes}
+### Änderungen beim Experience Cloud-Branding                 {#experience-cloud-branding-changes}
 
 Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
@@ -654,7 +658,7 @@ Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
 Brand Portal 6.3.1 enthält neue und erweiterte Funktionen, die die Abstimmung von Brand Portal mit AEM verbessern.
 
-### Aktualisierte Benutzeroberfläche               {#upgraded-user-interface}
+### Aktualisierte Benutzeroberfläche                 {#upgraded-user-interface}
 
 Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Übergang zur Coral 3-Benutzeroberfläche. Durch diese Änderung wird die allgemeine Benutzerfreundlichkeit, einschließlich Navigation und Darstellung, verbessert.
 
@@ -676,7 +680,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 ![](assets/omnisearchicon.png)
 
-### Erweiterte Funktionen zum Durchsuchen               {#enhanced-browsing-experience}
+### Erweiterte Funktionen zum Durchsuchen                 {#enhanced-browsing-experience}
 
 * Neue Spaltenansicht zum Durchsuchen verschachtelter Ordner:
 
@@ -684,7 +688,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 * In der Liste der Assets in einem Ordner wird das zuletzt hochgeladene Asset oben angezeigt.
 
-### Erweiterte Funktionen zum Suchen               {#enhanced-search-experience}
+### Erweiterte Funktionen zum Suchen                 {#enhanced-search-experience}
 
 * Die neue Omnisearch-Funktion ermöglicht mithilfe automatischer Vorschläge beim Eingeben der Suchschlüsselwörter den schnellen Zugriff auf relevante Inhalte, Funktionen oder Tags. Omnisearch ist für alle Suchfunktionen verfügbar:
 
@@ -699,15 +703,15 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 * Durch die neue Suchoptimierungsfunktion können Sie die Relevanz der Suchergebnisse verbessern, sodass bestimmte Assets in den Suchergebnissen oben angezeigt werden.
 * Die neue pfadbasierte Suche ermöglicht die Angabe eines Pfads zu einem verschachtelten Ordner, damit Sie nach Assets in diesem Ordner suchen können.
 
-#### Neue Smart-Tag-basierte Suche               {#new-smart-tags-based-search}
+#### Neue Smart-Tag-basierte Suche                 {#new-smart-tags-based-search}
 
 Wenn Bilder mit Smart-Tags aus AEM Assets in Brand Portal veröffentlicht werden, können Sie in Brand Portal anhand der Smart-Tag-Namen als Suchschlüsselwörter nach diesen Bildern suchen. Diese Funktion ist nur für Dateien verfügbar.
 
-### Erweiterte Funktionen für Downloads               {#enhanced-downloading-experience}
+### Erweiterte Funktionen für Downloads                 {#enhanced-downloading-experience}
 
 Nach dem Herunterladen eines verschachtelten Ordners können Sie die ursprüngliche Ordnerhierarchie beibehalten. Die Assets in einem verschachtelten Ordner können in einem Ordner heruntergeladen werden. Das Heruntergeladen in separaten Ordnern ist nicht mehr erforderlich.
 
-### Verbesserte Leistung               {#improved-performance}
+### Verbesserte Leistung                 {#improved-performance}
 
 Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbessern die Brand Portal-Leistung erheblich.
 
@@ -715,7 +719,7 @@ Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbe
 
 Administratoren können vor der Freigabe von Assets Datum und Uhrzeit als Ablaufdatum festlegen. Abgelaufene Assets sind für Betrachter und Bearbeiter sichtbar, können aber nicht mehr heruntergeladen werden. Administratoren erhalten eine Benachrichtigung über abgelaufene Assets.
 
-### Erweiterte Asset-Sortierung               {#enhanced-asset-sorting}
+### Erweiterte Asset-Sortierung                 {#enhanced-asset-sorting}
 
 Die Asset-Sortierung in einem Ordner in der Listenansicht ist nicht mehr auf die Anzahl der Assets auf der ersten Seite beschränkt. Stattdessen werden alle Assets sortiert, unabhängig davon, ob sie auf der ersten Seite angezeigt werden.
 
@@ -725,7 +729,7 @@ Administratoren können drei Berichtstypen erstellen und verwalten – zu herun
 
 ![](assets/newreport.png)
 
-### Zusätzliche Metadaten               {#additional-metadata}
+### Zusätzliche Metadaten                 {#additional-metadata}
 
 Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.3 enthalten sind. Die Metadaten, die auf der Seite „Asset-Eigenschaften“ angezeigt werden, können mit dem Metadatenschema-Editor festlegt werden. Asset-Metadaten sind nicht für Benutzer sichtbar, die Assets als Freigabe über einen externen Link erhalten und die Assets nur mithilfe der Linkfreigabe-URL in der Vorschau anzeigen sowie herunterladen können.
 
@@ -739,7 +743,7 @@ Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.
 
 * Wenn ein Administrator neue Benutzer zum Brand Portal-Konto hinzugefügt hat, müssen diese keine Einladungen annehmen, um zu Brand Portal hinzugefügt zu werden. Das Hinzufügen erfolgt automatisch.
 
-### Neue Veröffentlichungsfunktionen in AEM Assets 6.3               {#new-publishing-capabilities-in-aem-assets}
+### Neue Veröffentlichungsfunktionen in AEM Assets 6.3                 {#new-publishing-capabilities-in-aem-assets}
 
 * AEM-Administratoren können mithilfe von AEM 6.3 SP 1-CFP 1 (6.3.1.1) (ab 4. Quartal 2017 verfügbar) Metadatenschemata aus AEM Assets in Brand Portal veröffentlichen.
 
