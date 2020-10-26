@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 87%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0 ist eine Version zur Verbesserung, die sich auf die Verei
 Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wurde früher mit mehreren Optionen angezeigt, z. B. zum Erstellen eines separaten Ordners für jedes Asset, zum E-Mail-Asset, zum Auswählen von Original-Assets, benutzerdefinierten Darstellungen, dynamischen Darstellungen, zum Ausschließen von Systemdarstellungen und zum Aktivieren der Downloadbeschleunigung, die für nicht technische oder neue Benutzer nicht eindeutig war, insbesondere wenn mehrere Assets oder Ordner zum Herunterladen ausgewählt wurden. Außerdem konnte der Benutzer nicht alle Asset-Darstellungen sehen oder eine bestimmte benutzerdefinierte oder dynamische Darstellung ausschließen.
 
 Das neue Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;verallgemeinert den Prozess zur Auswahl und Filterung von Assets, der es den Benutzern des Markenportals erleichtert, beim Herunterladen der Asset-Darstellungen effektive Entscheidungen zu treffen. Es werden alle ausgewählten Assets und deren Darstellungen entsprechend der [**[!UICONTROL Download]**](brand-portal-download-assets.md) - und **[!UICONTROL Download]** -Einstellungen Liste.
+
+>[!NOTE]
+>
+>Für alle Benutzer ist jetzt standardmäßig der **[!UICONTROL schnelle Download]** aktiviert. Vor dem Herunterladen der Assets aus dem Markenportal muss IBM Aspera Connect 3.9.9 in der Browser-Erweiterung installiert sein.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 können die Benutzer bestimmte Darstellungen ausschließen und die ausgewählten Darstellungen direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite &quot;Asset-Details&quot;herunterladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen.
+In Brand Portal 2020.10.0 können die Benutzer bestimmte Darstellungen ausschließen und die ausgewählten Darstellungen direkt aus dem Bedienfeld &quot; [Darstellungen **[!UICONTROL &quot;auf der Seite &quot;Asset-Details&quot;]** herunterladen, ohne das Dialogfeld &quot;](brand-portal-download-assets.md#download-assets-from-asset-details-page) Herunterladen **** &quot;öffnen zu müssen.
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![renditions-panel](assets/rendition-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Download-Berechtigungen konfigurieren {#download-permissions}
 
-Zusätzlich zu den vorhandenen [**[!UICONTROL Download]**](brand-portal-download-assets.md) -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
+Zusätzlich zu den vorhandenen [**[!UICONTROL Download]**](brand-portal-download-assets.md) -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen.
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+Navigieren Sie auf der Seite &quot; **[!UICONTROL Benutzerrollen]** &quot;zur Registerkarte &quot; **[!UICONTROL Gruppen]** &quot;, um die Ansicht zu konfigurieren und (oder) die Download-Zugriffsberechtigungen für die Benutzergruppen
 
 Früher waren die Einstellungen nur verfügbar, um zu verhindern, dass die Gruppenbenutzer das ursprüngliche Asset herunterladen konnten.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 Auf der Registerkarte &quot; **[!UICONTROL Gruppen]** &quot;auf der Seite &quot; **[!UICONTROL Benutzerrollen]** &quot;können Administratoren die Ansichten- und Downloadeinstellungen konfigurieren:
 
