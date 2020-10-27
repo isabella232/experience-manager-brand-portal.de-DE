@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 37%
 
 ---
@@ -166,7 +166,7 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
    Klicken Sie auf ein beliebiges Asset, um die verfügbaren Darstellungen Ansicht, und aktivieren Sie die Kontrollkästchen der Darstellungen, die Sie herunterladen möchten.
 
-   Sie können die Darstellungen für einzelne Assets manuell auswählen oder ausschließen oder auf das Symbol &quot; **Anwenden** &quot;klicken, um denselben Darstellungssatz auf alle ähnlichen Asset-Typen (in diesem Beispiel alle Bilddateien) anzuwenden, die für den Download ausgewählt wurden. Klicken Sie auf **[!UICONTROL Fertig]** , um die angewendete Regel zu bestätigen.
+   Sie können die Darstellungen für einzelne Assets manuell auswählen oder ausschließen oder auf das Symbol &quot; **Anwenden** &quot;klicken, um denselben Darstellungssatz auszuwählen, der für ähnliche Asset-Typen heruntergeladen werden soll (alle Bilddateien in diesem Beispiel). Klicken Sie im Dialogfeld &quot;Alle **[!UICONTROL anwenden]** &quot;auf &quot; **[!UICONTROL Fertig]** &quot;, um die Regel auf alle ähnlichen Assets anzuwenden.
 
    ![apply-all](assets/apply.png)
 
