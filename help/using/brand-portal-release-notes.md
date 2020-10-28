@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 50%
@@ -47,7 +47,7 @@ Diese Version umfasst die folgenden neuen Funktionen:
 
 * Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Seiten des Markenportals mit einem Klick möglich.
 
-* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen. Siehe Seite [zum Herunterladen von Assets aus den Asset-Details](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)mit den Asset-Details.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
