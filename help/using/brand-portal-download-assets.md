@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 37%
+source-wordcount: '1878'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, i
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (und höher) ist die Einstellung **[!UICONTROL Schneller Download]** standardmäßig aktiviert, wobei IBM Aspera Connect für den beschleunigten Download der Assets verwendet wird. Installieren Sie IBM Aspera Connect 3.9.9 als Browser-Erweiterung, bevor Sie die Assets aus Brand Portal herunterladen.
+>In Brand Portal 2020.10.0 (und höher) ist die Einstellung **[!UICONTROL Schneller Download]** standardmäßig aktiviert, wobei IBM Aspera Connect für den beschleunigten Download der Assets verwendet wird. Installieren Sie IBM Aspera Connect 3.9.9 als Browser-Erweiterung, bevor Sie die Assets aus Brand Portal herunterladen. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 >
 >Wenn Sie IBM Aspera Connect nicht verwenden und den normalen Download-Vorgang fortsetzen möchten, wenden Sie sich an den Markenportal-Administrator, um die Einstellung **[!UICONTROL Schneller Download]** zu deaktivieren.
 
@@ -52,13 +52,11 @@ Die verfügbaren Einstellungen sind:
 
    Es bietet einen beschleunigten Download der Assets mit IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
 
-   Weitere Informationen finden Sie unter [Anleitung zur Beschleunigung von Downloads aus Brand Portal](../using/accelerated-download.md).
-
 * **[!UICONTROL Benutzerdefinierte Ausgabeformate]**
 
    Ermöglicht das Herunterladen benutzerdefinierter und (oder) dynamischer Darstellungen der Assets.
 
-   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Dies schließt sowohl statische als auch dynamische Ausgaben ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten](../using/brand-portal-image-presets.md).
+   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Dies schließt sowohl statische als auch dynamische Ausgaben ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Systemausgaben]**
 
