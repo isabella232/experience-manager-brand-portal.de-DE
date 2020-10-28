@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
-ht-degree: 87%
+source-wordcount: '5471'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** können die Benutzer:
 * Separaten Ordner für jedes Asset erstellen.
 * Laden Sie ausgewählte Assets und deren Darstellungen herunter.
 
-Der Arbeitsablauf für das Herunterladen von eigenständigen Assets, mehreren Assets, Ordnern, die Assets enthalten, lizenzierten oder nicht lizenzierten Assets und dem Herunterladen von Assets über den Link &quot;Freigeben&quot;bleibt konstant.
+Der Arbeitsablauf für das Herunterladen von eigenständigen Assets, mehreren Assets, Ordnern, die Assets enthalten, lizenzierten oder nicht lizenzierten Assets und dem Herunterladen von Assets über den Link &quot;Freigeben&quot;bleibt konstant. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 können die Benutzer bestimmte Darstellungen ausschließen und die ausgewählten Darstellungen direkt aus dem Bedienfeld &quot; [Darstellungen **[!UICONTROL &quot;auf der Seite &quot;Asset-Details&quot;]** herunterladen, ohne das Dialogfeld &quot;](brand-portal-download-assets.md#download-assets-from-asset-details-page) Herunterladen **** &quot;öffnen zu müssen.
+In Brand Portal 2020.10.0 können die Benutzer bestimmte Darstellungen ausschließen und die ausgewählten Darstellungen direkt aus dem Bedienfeld [&quot;Darstellungen&quot;auf der Seite &quot;Asset-Details&quot;](brand-portal-download-assets.md#download-assets-from-asset-details-page) herunterladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen.
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Download-Berechtigungen konfigurieren {#download-permissions}
 
-Zusätzlich zu den vorhandenen [**[!UICONTROL Download]**](brand-portal-download-assets.md) -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen.
+Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen.
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -99,6 +99,8 @@ Auf der Registerkarte &quot; **[!UICONTROL Gruppen]** &quot;auf der Seite &quot;
 * Wenn beide Einstellungen deaktiviert sind, können die Benutzer nur die Originalelemente Ansicht haben. Die Asset-Darstellungen sind für die Benutzer auf der Seite mit den Asset-Details nicht sichtbar.
 * Wenn nur die Einstellung &quot;Original **[!UICONTROL herunterladen]** &quot;aktiviert ist, können die Benutzer nur die Originalelemente auf der Seite mit den Asset-Details Ansicht und herunterladen.
 * Wenn nur die Einstellung &quot; **[!UICONTROL Ausgabeformate]** herunterladen&quot;aktiviert ist, können die Benutzer das ursprüngliche Asset zwar Ansicht, jedoch nicht herunterladen. Der Benutzer kann die Asset-Darstellungen jedoch Ansicht vornehmen und herunterladen.
+
+Siehe [Asset-Download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)konfigurieren.
 
 ![ansicht-Download-Berechtigung](assets/download-permissions.png)
 
