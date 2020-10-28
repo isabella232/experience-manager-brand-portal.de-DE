@@ -9,11 +9,11 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
-workflow-type: ht
-source-wordcount: '1090'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktivi
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]** und überprüfen Sie, ob die Konfiguration **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist.
-* Port 33001 (TCP und UDP) ist in der Firewall geöffnet. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* Installieren Sie Aspera Connect mit Administratorrechten.
-* Informationen zu den vom Aspera Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+* Stellen Sie sicher, dass Port 33001 (sowohl TCP als auch UDP) auf der Firewall geöffnet ist. For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* [Installieren Sie IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in der Erweiterung Ihres Browsers mit Administratorberechtigungen.
+* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domänen {#download-domains}
 
