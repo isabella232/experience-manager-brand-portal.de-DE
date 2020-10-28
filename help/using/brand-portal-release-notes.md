@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -39,7 +39,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird in einer Liste-Ansicht mit zusätzlichen Optionen zum Ausschließen nicht erforderlicher Darstellungen, zum Anwenden desselben Regelsatzes für ähnliche Asset-Typen und zum Herunterladen der ausgewählten Asset-Darstellungen überarbeitet.
+* Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird in einer Liste-Ansicht mit zusätzlichen Optionen zum Ausschließen nicht erforderlicher Darstellungen, zum Anwenden desselben Regelsatzes für ähnliche Asset-Typen und zum Herunterladen der ausgewählten Asset-Darstellungen überarbeitet. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Diese Version umfasst die folgenden neuen Funktionen:
 
 * Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Seiten des Markenportals mit einem Klick möglich.
 
-* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen.
+* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen. Siehe Seite [zum Herunterladen von Assets aus den Asset-Details](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
+* Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen [für die Ansicht](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) konfigurieren und (oder) das Originalasset und dessen Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
 
 ### Verbesserungen {#enhancements}
 
