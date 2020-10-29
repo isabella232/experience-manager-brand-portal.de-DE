@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Administratoren können die folgenden Standardberichte generieren und verwalten.
 * Benutzeranmeldungen
 * Download
 * Ablauf
-* Veröffentlichen  
+* Veröffentlichen
 * Link-Freigabe
 
 Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentlichen“ können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu generieren:
@@ -125,7 +125,7 @@ Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentliche
 
    Sie können einem Bericht auch benutzerdefinierte Spalten hinzufügen, um weitere Daten für Ihre individuellen Anforderungen anzuzeigen.
 
-   Gehen Sie wie folgt vor, um benutzerdefinierte Spalten in den Berichten „Download“, „Veröffentlichen“ oder „Ablauf“ hinzuzufügen :
+   Gehen Sie wie folgt vor, um benutzerdefinierte Spalten in den Berichten „Download“, „Veröffentlichen“ oder „Ablauf“ hinzuzufügen:
 
    1. Um eine benutzerdefinierte Spalte anzuzeigen, tippen/klicken Sie auf **[!UICONTROL Hinzufügen]** innerhalb von [!UICONTROL Benutzerdefinierte Spalten].
    1. Geben Sie im Feld **[!UICONTROL Spaltenname]** den Namen der Spalte ein.
