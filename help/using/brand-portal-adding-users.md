@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Verwenden Sie als Produkt-Administrator [[!UICONTROL Adobe Admin Console]](http:
 
    Informationen zum Gewähren von Administratorrechten für Benutzer finden Sie unter [Bereitstellen von Administratorrechten für Benutzer](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
-## Hinzufügen von Produktprofilen         {#add-a-product-profile}
+## Hinzufügen von Produktprofilen {#add-a-product-profile}
 
 Produktprofile (ehemals „Produktkonfigurationen“) in [!UICONTROL Admin Console] werden zum Erstellen von Gruppen in Brand Portal verwendet, mit deren Hilfe Sie Massenvorgänge wie Rollenverwaltung und Asset-Freigabe durchführen können. **Brand Portal** ist standardmäßig als Produktprofil verfügbar. Sie können weitere Produktprofile erstellen und Benutzer zu den neuen Produktprofilen hinzufügen.
 
@@ -173,7 +173,7 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
    Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt werden, erhalten keine E-Mail-Benachrichtigung.
 
-## Bereitstellen von Administratorrechten für Benutzer         {#provide-administrator-privileges-to-users}
+## Bereitstellen von Administratorrechten für Benutzer {#provide-administrator-privileges-to-users}
 
 Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder eines Produkt-Administrator gewähren. Gewähren Sie keine anderen in [!UICONTROL Admin Console] verfügbaren Administratorrechte, z. B. Produktprofil-Administrator, Benutzergruppen-Administrator und Support-Administrator. Weitere Informationen zu diesen Rollen finden Sie unter [Administratorrollen](https://helpx.adobe.com/de/enterprise/using/admin-roles.html).
 
