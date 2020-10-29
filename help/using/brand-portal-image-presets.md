@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
 ---
 
 
-# Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten{#apply-image-presets-or-dynamic-renditions}
+# Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten {#apply-image-presets-or-dynamic-renditions}
 
 Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mithilfe von Bildvorgaben kann AEM Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch liefern.
 
@@ -68,7 +68,7 @@ AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseit
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Bildvorgabe wird erstellt und auf der Seite „Bildvorgaben“ angezeigt.
 1. Um eine Bildvorgabe zu löschen, wählen Sie sie auf der Seite „Bildvorgaben“ aus und klicken Sie auf **[!UICONTROL Löschen]**. Klicken Sie auf der Bestätigungsseite auf **[!UICONTROL Löschen]**, um den Vorgang zu bestätigen. Die Bildvorgabe wird von der Seite „Bildvorgaben“ entfernt.
 
-## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau          {#apply-image-presets-when-previewing-images}
+## Anwenden von Bildvorgaben beim Anzeigen der Bildvorschau {#apply-image-presets-when-previewing-images}
 
 Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine vorhandene Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
@@ -81,7 +81,7 @@ Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können S
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Anwenden von Bildvorgaben beim Herunterladen von Bildern      {#apply-image-presets-when-downloading-images}
+## Anwenden von Bildvorgaben beim Herunterladen von Bildern {#apply-image-presets-when-downloading-images}
 
 Beim Herunterladen von Bildern und deren Ausgabeformaten aus Brand Portal gibt es keine Möglichkeit, aus den vorhandenen Vorgaben auszuwählen. Sie können jedoch die Bildvorgabeneigenschaften anpassen, damit Sie die gewünschten Bilder neu formatieren können.
 
