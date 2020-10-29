@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 50%
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2020.10.0 |
-| Datum            | Oktober 2020 |
+| Datum | Oktober 2020 |
 
 ## Überblick {#overview}
 
@@ -39,28 +39,28 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird in einer Liste-Ansicht mit zusätzlichen Optionen zum Ausschließen nicht erforderlicher Darstellungen, zum Anwenden desselben Regelsatzes für ähnliche Asset-Typen und zum Herunterladen der ausgewählten Asset-Darstellungen überarbeitet. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Seiten des Markenportals mit einem Klick möglich.
+* Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Brand Portal-Seiten mit einem Klick möglich.
 
-* Das Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;auf der Seite mit den Asset-Details ermöglicht es den Benutzern des Markenportals nun, das ursprüngliche Asset und (oder) bestimmte Asset-Darstellungen auszuwählen und sie direkt aus dem Bedienfeld &quot; **[!UICONTROL Darstellungen]** &quot;herunterzuladen, ohne das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)mit den Asset-Details.
+* Das Bedienfeld **[!UICONTROL Ausgabedarstellungen]** auf der Asset-Detailseite bietet Brand Portal-Benutzern jetzt die Möglichkeit, das Original-Asset und/oder bestimmte Asset-Ausgabedarstellungen auszuwählen und sie direkt aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]** herunterzuladen, ohne das Dialogfeld **[!UICONTROL Download]** öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)mit den Asset-Details.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Zusätzlich zu den vorhandenen **[!UICONTROL Download]** -Konfigurationen können die Markenportal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen [für die Ansicht](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) konfigurieren und (oder) das Originalasset und dessen Darstellungen von der Seite mit den Asset-Details herunterladen. Diese Konfigurationen definieren, wer auf die Asset-Darstellungen zugreifen und (oder) sie herunterladen kann.
+* Zusätzlich zu den vorhandenen **[!UICONTROL Download]**-Konfigurationen können Brand Portal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen für die Anzeige und/oder den Download des Original-Assets und seiner Ausgabedarstellungen von der Asset-Detailseite konfigurieren. [](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) Diese Konfigurationen definieren, wer auf die Asset-Ausgabedarstellungen zugreifen und/oder sie herunterladen kann.
 
 ### Verbesserungen {#enhancements}
 
 Diese Version umfasst die folgenden Verbesserungen:
 
-* Der Schwellenwert für die Sitzungs-Timeout für die Gastbenutzer wurde von 2 Stunden auf 15 Minuten verringert.
-* Die Option &quot;Zusätzliche **[!UICONTROL Ansichten]** &quot;wurde für mehrseitige PDFs entfernt, da der Benutzer die PDF-Seiten jetzt aus dem Adobe Document Cloud Viewer Ansicht haben kann.
+* Der Schwellenwert für den Sitzungs-Timeout für Gastbenutzer wurde von 2 Stunden auf 15 Minuten verringert.
+* Die zusätzliche Option **[!UICONTROL Seiten anzeigen]** wurde für mehrseitige PDF-Dateien entfernt, da der Benutzer die PDF-Seiten jetzt über Adobe Document Cloud Viewer anzeigen kann.
 
 
 <!--
@@ -73,11 +73,11 @@ This release includes fixes to the following critical issue:
 
 ### Bekannte Probleme {#known-issues}
 
-Diese Version enthält das folgende bekannte Problem:
+Diese Version enthält die folgenden bekannten Probleme:
 
-* Die Suche in den **[!UICONTROL Asset-Berichten]** zeigt die Verarbeitung auf der Produktoberfläche ohne Suchergebnis an.
-* Die Video-DM-Kodierungen sind für Benutzer, die keine Administratoren sind, auf der Seite mit den Asset-Details nicht sichtbar.
-* Die Ausrichtung der Größe einzelner Asset-Darstellungen und der maximalen Downloadgröße wird im Dialogfeld &quot;Herunterladen&quot;verzerrt.
+* Bei der Suche in **[!UICONTROL Asset-Berichten]** wird auf der Produktoberfläche ein laufender Vorgang angezeigt, jedoch keine Suchergebnisse.
+* Die Video-DM-Codes sind auf der Asset-Detailseite nur für Administratoren sichtbar.
+* Die Ausrichtung der Größe einzelner Asset-Ausgabedarstellungen und der maximalen Download-Größe ist im Dialogfeld „Download“ verzerrt.
 
 
 
@@ -126,14 +126,14 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches       Portugiesisch
+* Brasilianisches Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
-## Zertifizierte Plattformen                {#certified-platforms}
+## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen ](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
