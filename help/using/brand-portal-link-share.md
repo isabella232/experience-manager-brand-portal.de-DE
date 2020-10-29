@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
    ![](assets/licensed-asset-download.png)
 
-   Das Dialogfeld **[!UICONTROL Download]** wird angezeigt. 
+   Das Dialogfeld **[!UICONTROL Download]** wird angezeigt.
 
    ![](assets/download-linkshare.png)
 
