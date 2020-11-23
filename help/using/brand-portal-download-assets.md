@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
+source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 35%
+source-wordcount: '1883'
+ht-degree: 36%
 
 ---
 
@@ -40,7 +40,7 @@ Markenportal-Administratoren können die Einstellungen und Berechtigungen zum He
 Der Zugriff auf und das Herunterladen der Darstellungen aus dem Markenportal ist durch die folgenden Konfigurationen definiert:
 
 * Download-Einstellungen aktivieren
-* Download-Berechtigungen konfigurieren
+* Konfigurieren von Download-Berechtigungen
 
 ### Download-Einstellungen aktivieren {#enable-download-settings}
 
@@ -56,7 +56,7 @@ Die verfügbaren Einstellungen sind:
 
    Ermöglicht das Herunterladen benutzerdefinierter und (oder) dynamischer Darstellungen der Assets.
 
-   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Dies schließt sowohl statische als auch dynamische Ausgaben ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Es enthält statische und dynamische Darstellungen, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Systemausgaben]**
 
@@ -75,17 +75,17 @@ Die Administratoren können eine beliebige Kombination von Einstellungen für di
 >
 >Nur die Administratoren können die abgelaufenen Assets herunterladen. Weitere Informationen zu abgelaufenen Assets finden Sie unter [Verwalten der digitalen Rechte von Assets](../using/manage-digital-rights-of-assets.md).
 
-### Download-Berechtigungen konfigurieren {#configure-download-permissions}
+### Konfigurieren von Download-Berechtigungen {#configure-download-permissions}
 
 Zusätzlich zu den **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren die Berechtigungen für verschiedene Benutzergruppen für die Ansicht konfigurieren und (oder) die Originalelemente und deren Darstellungen herunterladen.
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Navigieren Sie auf der Seite &quot; **[!UICONTROL Benutzerrollen]** &quot;zur Registerkarte &quot; **[!UICONTROL Gruppen]** &quot;, um die Ansicht zu konfigurieren und (oder) die Download-Berechtigungen für die Benutzergruppen zu konfigurieren.
 
-![ansicht-Download-Berechtigung](assets/download-permissions.png)
+![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
 >
->Wenn ein Benutzer mehreren Gruppen hinzugefügt wird und eine dieser Gruppen Beschränkungen aufweist, gelten die Einschränkungen für den Benutzer.
+>Wenn ein Benutzer mehreren Gruppen hinzugefügt wurde und eine dieser Gruppen über Einschränkungen verfügt, gelten die Einschränkungen für diesen Benutzer.
 
 Je nach Konfiguration bleibt der Download-Workflow für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant.
 
@@ -115,12 +115,12 @@ Benutzer von Brand Portal können mehrere Assets, Ordner mit Assets und Sammlung
 >Wenden Sie sich an den Markenportal-Administrator, wenn Sie nicht berechtigt sind, auf die Darstellungen zuzugreifen oder sie herunterzuladen.
 
 Wenn der Benutzer Zugriff auf Darstellungen hat, wird dem Benutzer das erweiterte Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;mit den folgenden Funktionen bereitgestellt:
-* Ansicht aller verfügbaren Ausgabeformate eines Assets in der Download-Liste.
-* Ausschließen von Darstellungen der Assets, die nicht zum Herunterladen erforderlich sind.
+* Anzeigen aller verfügbarer Ausgabedarstellungen eines Assets in der Download-Liste.
+* Ausschließen von Ausgabedarstellungen der Assets, die nicht heruntergeladen werden müssen.
 * Wenden Sie denselben Darstellungssatz auf alle ähnlichen Asset-Typen mit einem Klick an.
 * Anwenden eines anderen Darstellungssatzes für verschiedene Asset-Typen.
 * Erstellen Sie für jede Asset-Darstellung einen eigenen Ordner.
-* Laden Sie ausgewählte Assets und deren Darstellungen herunter.
+* Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -129,7 +129,7 @@ Wenn der Benutzer Zugriff auf Darstellungen hat, wird dem Benutzer das erweitert
 >Das Dialogfeld &quot; **[!UICONTROL Herunterladen]** &quot;wird nur angezeigt, wenn die Assets zum Herunterladen ausgewählt sind und in den **[!UICONTROL Download-Einstellungen]** die Option &quot; **[!UICONTROL Benutzerdefinierte Darstellungen]** &quot;oder &quot; **[!UICONTROL Systemdarstellungen]**&quot;aktiviert ist.
 
 
-### Schritte zum Herunterladen von Assets        {#bulk-download}
+### Schritte zum Herunterladen von Assets {#bulk-download}
 
 Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, die Assets enthalten, aus der Benutzeroberfläche des Markenportals:
 
@@ -197,11 +197,11 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
 >[!NOTE]
 >
->Markenportal unterstützt die Konfiguration von dynamischen Medien sowohl im Hybrid- als auch im Scene7-Modus.
+>Brand Portal unterstützt die Konfiguration von dynamischen Medien sowohl im Hybrid- als auch im Scene7-Modus.
 >
 >(*Bei Ausführung der AEM-Autoreninstanz im **Dynamic Media-Hybrid-Modus***)
 >
->Um dynamische Ausgaben eines Assets als Vorschau anzeigen (oder herunterladen) zu können, stellen Sie sicher, dass Dynamic Media aktiviert ist und die Pyramid TIFF-Ausgabe in der AEM Assets-Autoreninstanz, von der aus die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset vom AEM zum Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht.
+>Um dynamische Darstellungen eines Assets Vorschau oder herunterzuladen, stellen Sie sicher, dass das dynamische Medium aktiviert ist und die Pyramid-TIFF-Darstellung des Assets in der AEM Assets-Autoreninstanz vorhanden ist, von der aus die Assets veröffentlicht wurden. Wenn ein Asset vom AEM zum Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht.
 
 
 
