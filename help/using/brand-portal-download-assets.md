@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 36%
+source-wordcount: '1886'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,7 @@ Die verfügbaren Einstellungen sind:
 
    Ermöglicht das Herunterladen benutzerdefinierter und (oder) dynamischer Darstellungen der Assets.
 
-   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Es enthält statische und dynamische Darstellungen, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+   Alle Asset-Darstellungen außer dem ursprünglichen Asset und den systemgenerierten Darstellungen werden als benutzerdefinierte Darstellungen bezeichnet. Dies schließt sowohl statische als auch dynamische Ausgaben ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgaben erstellen. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Systemausgaben]**
 
@@ -197,11 +197,11 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
 >[!NOTE]
 >
->Brand Portal unterstützt die Konfiguration von dynamischen Medien sowohl im Hybrid- als auch im Scene7-Modus.
+>Markenportal unterstützt die Konfiguration von dynamischen Medien sowohl im Hybrid- als auch im Scene7-Modus.
 >
 >(*Bei Ausführung der AEM-Autoreninstanz im **Dynamic Media-Hybrid-Modus***)
 >
->Um dynamische Darstellungen eines Assets Vorschau oder herunterzuladen, stellen Sie sicher, dass das dynamische Medium aktiviert ist und die Pyramid-TIFF-Darstellung des Assets in der AEM Assets-Autoreninstanz vorhanden ist, von der aus die Assets veröffentlicht wurden. Wenn ein Asset vom AEM zum Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht.
+>Um dynamische Ausgaben eines Assets als Vorschau anzeigen (oder herunterladen) zu können, stellen Sie sicher, dass Dynamic Media aktiviert ist und die Pyramid TIFF-Ausgabe in der AEM Assets-Autoreninstanz, von der aus die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset vom AEM zum Markenportal veröffentlicht wird, wird auch seine Pyramid-TIFF-Darstellung veröffentlicht.
 
 
 
