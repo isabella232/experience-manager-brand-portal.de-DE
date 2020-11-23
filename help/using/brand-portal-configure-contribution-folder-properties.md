@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
