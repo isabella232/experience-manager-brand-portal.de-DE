@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 89%
 
 ---
 
@@ -42,8 +42,11 @@ Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier kli
 
 ## Dauer der Gastsitzung {#guest-session-duration}
 
-Eine Gastbenutzersitzung bleibt für 2 Stunden aktiv. Dies bedeutet, dass der **[!UICONTROL Lightbox]**-Status eine Stunde lang nach der Startzeit der Sitzung beibehalten wird und die aktuelle Gastsitzung nach zwei Stunden neu gestartet wird, sodass der Lightbox-Status verloren geht.\
-Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und fügt der Lightbox um 16:50 Uhr Assets zum Herunterladen hinzu. Falls der Benutzer die **[!UICONTROL Lightbox]**-Sammlung (oder deren Assets) nicht vor 17:00 Uhr herunterlädt, wird die **[!UICONTROL Lightbox]** geleert, da der Benutzer die Sitzung nach Ablauf einer Stunde (d. h. in diesem Fall um 17:00 Uhr) neu starten muss.
+
+Eine Benutzersitzung bleibt 15 Minuten lang aktiv.
+This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. Wenn der Benutzer die **[!UICONTROL Lightbox]** -Sammlung (oder ihre Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss der Benutzer die Sitzung neu starten. Das **[!UICONTROL Leuchtpult]** ist leer, d. h. die hochgeladenen Assets sind nicht mehr verfügbar, wenn die Sitzung verloren ging.
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
