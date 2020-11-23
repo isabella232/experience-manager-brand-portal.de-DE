@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 91%
+source-wordcount: '296'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,9 @@ Der AEM-Administrator führt beim Konfigurieren der Eigenschaften eines Beitrags
 
 * **Beschreibung hinzufügen**: Geben Sie eine allgemeine Beschreibung des Beitragsordners ein.
 * **Kurzbeschreibung hochladen**: Laden Sie das Asset-Anforderungsdokument hoch, das Asset-bezogene Informationen enthält.
-* **Beitragende hinzufügen**: Fügen Sie Brand Portal-Benutzer oder -Gruppen hinzu, um ihnen Zugriff auf den Beitragsordner zu gewähren.
+* **hinzufügen Mitarbeiter**: hinzufügen Brand Portal-Benutzer, um ihnen Zugriff auf den Beitragsordner zu gewähren.
 
 Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bereitgestellt werden, um Beitragende (Brand Portal-Benutzer) dabei zu unterstützen, die Notwendigkeit und Anforderungen des Beitragsordners zu verstehen. Der Administrator lädt ein Asset-Anforderungsdokument hoch, das eine Kurzbeschreibung des Asset-Typs enthält, der dem Beitragsordner hinzugefügt werden soll, sowie Asset-bezogene Informationen, wie z. B. Zweck, Typ der Bilder, maximale Größe usw.
-
-Der Administrator kann Brand Portal-Benutzern/-Gruppen anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
 
 **Konfigurieren von Eigenschaften von Beitragsordnern:**
 
@@ -54,5 +52,7 @@ Standard-URL: http:// localhost:4502/aem/start.html
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
+>
+>Derzeit können Gruppen keinem Beitragsordner zugewiesen werden.
 >
 >Die Suchergebnisse basieren auf der in AEM Assets konfigurierten Brand Portal-Benutzerliste. Vergewissern Sie sich, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen. Siehe [Hochladen der Brand Portal-Benutzerliste](brand-portal-configure-asset-sourcing.md).
