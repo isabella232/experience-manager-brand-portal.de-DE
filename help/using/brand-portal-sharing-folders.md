@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
@@ -124,6 +124,7 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
 
 1. Klicken Sie, falls nötig, auf **[!UICONTROL Miniatur ändern]**, um das Miniaturbild für den Ordner zu ändern.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
 ## Aufheben der Freigabe von Ordnern       {#unshare-the-folders}
