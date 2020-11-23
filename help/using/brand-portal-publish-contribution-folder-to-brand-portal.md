@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 88%
 
 ---
 
 
 # Veröffentlichen von Beitragsordnern in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Sobald der [Beitragsordner konfiguriert ist](brand-portal-configure-contribution-folder-properties.md), kann der AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus AEM Assets in Brand Portal veröffentlichen. Brand Portal-Benutzer/-Gruppen, die Zugriff auf den Beitragsordner haben, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail-/Pulsbenachrichtigung.
+Sobald der [Beitragsordner konfiguriert ist](brand-portal-configure-contribution-folder-properties.md), kann der AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus AEM Assets in Brand Portal veröffentlichen. Markenportal-Benutzer, die über die Berechtigung zum Zugriff auf den Beitragsordner verfügen, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail-/Pulsbenachrichtigung.
 
 
 **Veröffentlichen des Beitragsordners:**
