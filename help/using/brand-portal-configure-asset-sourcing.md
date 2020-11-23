@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ AEM-Administratoren können die **Asset-Beschaffung** in der AEM-Autoreninstanz 
 
 Das folgende Video demonstriert, wie Sie die Asset-Beschaffung in Ihrer AEM-Autoreninstanz konfigurieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Aktivieren der Asset-Beschaffung {#enable-asset-sourcing}
 
@@ -65,6 +65,6 @@ Durchsuchen Sie Ihren lokalen Computer und laden Sie die **Konfigurationsdatei (
    ![](assets/upload-user-list2.png)
 
 
-Administratoren können über diese Benutzerliste Zugriff auf bestimmte Benutzer/Gruppen gewähren, während sie den Beitragsordner konfigurieren.
+Administratoren können bestimmten Benutzern von dieser Liste aus Zugriff gewähren, während sie den Beitragsordner konfigurieren.
 
 Weitere Informationen finden Sie unter [Konfigurieren von Beitragsordnern](brand-portal-contribution-folder.md).
