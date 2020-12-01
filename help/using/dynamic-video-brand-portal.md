@@ -12,8 +12,8 @@ discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 100%
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Legen Sie eine dieser Konfigurationen basierend auf den Konfigurationen fest, di
 
 ![Videokodierungen werden aus der Cloud abgerufen.](assets/VideoEncodes.png)
 
-Wenn Dynamic Media-Konfigurationen ([Hybrid](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) - oder [[!DNL Scene 7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings) -Konfigurationen) in Brand Portal eingerichtet werden, werden die dynamischen Ausgabeformate vom **[!DNL Scene 7]**-Server abgerufen. Videokodierungen werden daher in einer Vorschau angezeigt und ohne Verzögerung und Qualitätsverluste wiedergegeben.
+Wenn Konfigurationen für dynamische Medien ([Hybrid](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings)- oder [[!DNL Scene 7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)-Konfigurationen) im Markenportal eingerichtet sind, werden die dynamischen Darstellungen vom **[!DNL Scene 7]**-Server abgerufen. Videokodierungen werden daher in einer Vorschau angezeigt und ohne Verzögerung und Qualitätsverluste wiedergegeben.
 
 Da Videokodierungen nicht im Brand Portal-Repository gespeichert und vom **[!DNL Scene 7]**-Server abgerufen werden, müssen Sie sicherstellen, dass die Dynamic Media-Konfigurationen in der AEM-Autoreninstanz und in Brand Portal identisch sind.
 
@@ -104,9 +104,9 @@ Die Egress-IPs lauten wie folgt:
 
 | **Region** | **Egress-IP** |
 |--- |--- |
-| nicht vorhanden | 192.243.237.86 |
-| EMEA | 185.34.189.4 |
-| APAC | 63.140.44.54 |
+| nicht vorhanden | 192 243 237 86 |
+| EMEA | 185,34,189,4 |
+| APAC | 63 140 44 54 |
 
 ## Konfigurieren von Dynamic Media (Hybrid)-Einstellungen {#configure-dm-hybrid-settings}
 
@@ -114,7 +114,7 @@ Wenn die AEM-Autoreninstanz im Dynamic Media Hybrid-Modus ausgeführt wird, konf
 
 >[!NOTE]
 >
->Die [Videokodierungsprofile](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom Scene 7-Server abgerufen. **** Stellen Sie daher sicher, dass die Konfigurationsdetails der [[!UICONTROL Scene 7-Cloud-Konfiguration]](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in Ihrer AEM-Autoreninstanz entsprechen, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
+>Die [Videokodierungsprofile](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom Scene 7-Server abgerufen. **** Stellen Sie daher sicher, dass die Konfigurationsdetails der [[!UICONTROL Scene 7-Cloud-Konfiguration]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) in Ihrer AEM-Autoreninstanz entsprechen, damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können.
 
 So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
