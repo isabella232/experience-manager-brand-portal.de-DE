@@ -34,7 +34,7 @@ Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bere
 1. Melden Sie sich bei Ihrer AEM-Autoreninstanz an.
 Standard-URL: http:// localhost:4502/aem/start.html
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner.
-1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Eigenschaften]** , um das Fenster Ordnereigenschaften zu öffnen.
+1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Eigenschaften]**, um das Fenster &quot;Ordnereigenschaften&quot;zu öffnen.
 
    ![](assets/properties.png)
 
