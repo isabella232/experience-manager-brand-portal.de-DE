@@ -51,7 +51,7 @@ Melden Sie sich mit Administratorrechten bei der AEM-Autoreninstanz an und greif
 
       *(erforderlich)* Ein Anzeigetitel für das Tag.
    * **[!UICONTROL Name]**
-      *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(erforderlich)* Ein Name für das Tag. Wenn Sie keinen festlegen, wird ein gültiger Knotenname aus dem Titel erstellt. Siehe [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
    * **Beschreibung**
 
       *(optional)* Eine Beschreibung des Tags.
@@ -67,7 +67,7 @@ Melden Sie sich mit Administratorrechten bei der AEM-Autoreninstanz an und greif
 
 1. **Hängen Sie das Tag an ein Asset (oder eine Sammlung)** an.
 
-   Wählen Sie ein Asset (oder eine Sammlung) aus und hängen Sie das gewünschte Tag mithilfe des Bereichs „Eigenschaften“ oder „Tags verwalten“ dieses Assets an. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Wählen Sie ein Asset (oder eine Sammlung) aus und hängen Sie das gewünschte Tag mithilfe des Bereichs „Eigenschaften“ oder „Tags verwalten“ dieses Assets an. Weitere Informationen zum Zuweisen von Tags zu Assets in AEM Assets finden Sie unter [Tags zum Organisieren von Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 1. **Veröffentlichen Sie die Assets (oder Sammlungen) in Brand Portal**.\
    Wenn Sie ein Asset (oder eine Sammlung) in Brand Portal veröffentlichen, ist das beigefügte Tag auch in Brand Portal verfügbar.
