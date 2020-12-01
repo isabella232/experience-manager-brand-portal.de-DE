@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 100%
 
@@ -61,10 +61,10 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 |  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Freigeben von Assets als Link** | **Zugriff auf Admin Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Gastbenutzer** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Betrachter** | ✓ | ✓ | ✓ | x | x | x | x |
-| **Bearbeiter** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Gastbenutzer** | ✓* | * | * | x | x | x | x |
+| **Betrachter** | ✓ | they | they | x | x | x | x |
+| **Bearbeiter** | they | they | they | they | they | they | x |
+| **Administrator** | they | they | they | they | they | they | they |
 
 * Gastbenutzer können nur Assets durchsuchen, auf Assets zugreifen oder nach Assets suchen, die sich in öffentlichen Ordnern und Sammlungen befinden.
 
