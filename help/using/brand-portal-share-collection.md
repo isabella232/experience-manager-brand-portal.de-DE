@@ -20,19 +20,19 @@ ht-degree: 38%
 
 # Freigeben von Sammlungen {#share-collections}
 
-Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen im Adobe Experience Manager Assets Brand Portal gespeichert werden. Die Benutzer können intelligente Sammlungen erstellen, indem sie die [Suche nach &quot;omnissearch&quot;oder &quot;facet&quot;anwenden, um verwandte Assets](brand-portal-searching.md) herauszufiltern und für einen einfachen Zugriff und eine weitere Freigabe mit anderen Benutzern des Markenportals zusammenzuführen.
+Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen im Adobe Experience Manager Assets Brand Portal gespeichert werden. Die Benutzer können intelligente Sammlungen mit [Anwenden der Omniture- oder Facettensuche erstellen, um zugehörige Elemente herauszufiltern](brand-portal-searching.md), und diese für einfachen Zugriff und die weitere Freigabe für andere Markenportale-Benutzer zusammen speichern.
 
 Die Administratoren können eine Sammlung für die autorisierten Benutzer des Markenportals freigeben und die Freigabe aufheben. Editoren und Viewer können die von ihnen erstellten, für sie freigegebenen und öffentlichen Sammlungen Ansicht und freigeben.
 
 >[!NOTE]
 >
->Editors cannot change a public collection to a non-public collection and therefore do not have the **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+>Editoren können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Sammlungseinstellungen]** nicht zur Verfügung.
 
 ## Freigeben von Sammlungen {#share-collection}
 
 Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autorisierten Benutzer des Markenportals:
 
-1. Melden Sie sich bei Ihrem Markenportal-Mandanten an. Standardmäßig wird die Ansicht &quot; **[!UICONTROL Dateien]** &quot;geöffnet, die alle veröffentlichten Assets und Ordner enthält.
+1. Melden Sie sich bei Ihrem Markenportal-Mandanten an. Standardmäßig wird die Ansicht **[!UICONTROL Files]** geöffnet, die alle veröffentlichten Assets und Ordner enthält.
 
 1. Klicken Sie oben in den Schnellnavigationen auf **[!UICONTROL Sammlungen]**.
 
@@ -46,21 +46,21 @@ Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autor
 
       ![](assets/collection-console.png)
 
-1. In the **[!UICONTROL Collection Settings]** dialog box, select the users with whom you want to share the collection and select the role for the user to match their global role. Zuweisen der Rolle &quot;Editor&quot;zu einem globalen Editor, der Rolle &quot;Viewer&quot;zu einem globalen Viewer.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Sammlungseinstellungen]** die Benutzer aus, für die Sie die Sammlung freigeben möchten, und wählen Sie die Rolle aus, die der Benutzer der globalen Rolle zuweisen soll. Zuweisen der Rolle &quot;Editor&quot;zu einem globalen Editor, der Rolle &quot;Viewer&quot;zu einem globalen Viewer.
 
-   Alternatively, to make the collection available to all the users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check box.
+   Um die Sammlung allen Benutzern unabhängig von ihrer Gruppenmitgliedschaft und Rolle zur Verfügung zu stellen, müssen Sie sie auch veröffentlichen, indem Sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** aktivieren.
 
    >[!NOTE]
    >
-   >Sie können festlegen, dass Benutzer ohne Administratorrechte Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Organizations can disable the **[!UICONTROL Allow public collections creation]** configuration from **[!UICONTROL General]** settings available in the admin tools panel.
+   >Sie können festlegen, dass Benutzer ohne Administratorrechte Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Organisationen können die Konfiguration **[!UICONTROL Öffentliche Sammlungen erstellen]** unter **[!UICONTROL Allgemein]** deaktivieren, die im Bedienfeld &quot;Admin Tools&quot;verfügbar sind.
 
    ![](assets/collection_sharingadduser.png)
 
-   The editors cannot change a public collection to a non-public collection and therefore do not have **[!UICONTROL Public Collection]** check box available in **[!UICONTROL Collection Settings]** dialog.
+   Die Editoren können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern und haben daher im Dialogfeld **[!UICONTROL Sammlungseinstellungen]** kein Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** verfügbar.
 
    ![](assets/collection-setting-editor.png)
 
-1. Klicken Sie auf die **[!UICONTROL Hinzufügen]** -Schaltfläche, um den Benutzer hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Die Sammlung wird für die Benutzer freigegeben.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um den Benutzer hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Die Sammlung wird für die Benutzer freigegeben.
 
    >[!NOTE]
    >
@@ -76,15 +76,15 @@ Gehen Sie wie folgt vor, um die Freigabe einer zuvor freigegebenen Sammlung aufz
 
    ![](assets/collection_settings.png)
 
-1. Klicken Sie im Dialogfeld &quot; **[!UICONTROL Sammlungseinstellungen]** &quot;unter dem Abschnitt &quot; **[!UICONTROL Mitglieder]** &quot;auf das **[!UICONTROL x]** -Symbol neben den Benutzern, um sie aus der Liste der Benutzer zu entfernen, die Zugriff auf die Sammlung haben.
+1. Klicken Sie im Dialogfeld **[!UICONTROL Sammlungseinstellungen]** unter dem Abschnitt **[!UICONTROL Mitglieder]** auf das Symbol **[!UICONTROL x]**, um sie aus der Liste der Benutzer zu entfernen, die Zugriff auf die Sammlung haben.
 
    ![](assets/unshare_collection.png)
 
-1. Eine Warnmeldung wird angezeigt. Klicken Sie auf **[!UICONTROL Bestätigen]** , um die Freigabe der Sammlung aufzuheben.
+1. Eine Warnmeldung wird angezeigt. Klicken Sie auf **[!UICONTROL Bestätigen]**, um die Freigabe der Sammlung aufzuheben.
 
-1. Click **[!UICONTROL Save]** to apply the changes.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen anzuwenden.
 
-   Nachdem der Benutzer aus der freigegebenen Liste entfernt wurde, wird die nicht freigegebene Sammlung aus der **[!UICONTROL Sammlungskonsole]** des Benutzers entfernt.
+   Nachdem der Benutzer aus der freigegebenen Liste entfernt wurde, wird die nicht freigegebene Sammlung aus der Konsole des Benutzers **[!UICONTROL Sammlungen]** entfernt.
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
