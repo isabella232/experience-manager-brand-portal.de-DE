@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
    >[!NOTE]
    >
    >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die lizenzierten Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden nur die nicht lizenzierten Assets heruntergeladen.\
-   >Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dies geschieht, indem die [Metadateneigenschaften des Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets] festgelegt werden.
+   >Lizenzgeschützte Assets verfügen über eine [angehängte Lizenzvereinbarung](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dies geschieht, indem die [Metadateneigenschaften des Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets] festgelegt werden.
 
    ![](assets/licensed-asset-download.png)
 
@@ -126,39 +126,39 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 
 | Asset-Format | Miniatur-Unterstützung | Vorschau-Unterstützung |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | ✓ |
-| GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ |
-| JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ |
+| PNG | ✓ | they |
+| GIF | they | they |
+| TIFF | they | ✕ |
+| JPEG | they | they |
+| BMP | they | ✕ |
 | PNM* | nicht vorhanden | nicht vorhanden |
 | PGM* | nicht vorhanden | nicht vorhanden |
 | PBM* | nicht vorhanden | nicht vorhanden |
 | PPM* | nicht vorhanden | nicht vorhanden |
-| PSD | ✓ | ✕ |
+| PSD | they | ✕ |
 | EPS | nicht vorhanden | ✕ |
-| DNG | ✓ | ✕ |
-| PICT | ✓ | ✕ |
-| PSB* | ✓ | ✕ |
-| JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| DNG | they | ✕ |
+| PICT | they | ✕ |
+| PSB* | they | ✕ |
+| JPG | they | they |
+| AI | they | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | ✓ | ✕ |
+| PDF | they | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | ✓ | ✕ |
+| TXT | they | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | ✓ | ✕ |
+| PPT | they | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | ✓ | ✕ |
+| INDD | they | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| EPUB | they | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -178,16 +178,16 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | nicht vorhanden | ✕ |
-| JAR | ✓ | ✕ |
+| JAR | they | ✕ |
 | RAR | nicht vorhanden | ✕ |
 | TAR | nicht vorhanden | ✕ |
-| ZIP | ✓ | ✕ |
+| ZIP | they | ✕ |
 
 Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |---|---|
-| ✓ | Dieses Dateiformat unterstützt diese Funktion |
+| they | Dieses Dateiformat unterstützt diese Funktion |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
 | * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
