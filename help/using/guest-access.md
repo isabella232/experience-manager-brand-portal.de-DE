@@ -44,9 +44,9 @@ Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier kli
 
 
 Eine Benutzersitzung bleibt 15 Minuten lang aktiv.
-This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+Das bedeutet, dass der Status von **[!UICONTROL Lightbox]** 15 Minuten ab dem Beginn der Sitzung beibehalten wird und danach die aktuelle Gastsitzung neu gestartet wird, sodass der Lightbox-Status verloren geht.
 
-For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. Wenn der Benutzer die **[!UICONTROL Lightbox]** -Sammlung (oder ihre Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss der Benutzer die Sitzung neu starten. Das **[!UICONTROL Leuchtpult]** ist leer, d. h. die hochgeladenen Assets sind nicht mehr verfügbar, wenn die Sitzung verloren ging.
+Ein Gast-Benutzer meldet sich beispielsweise 1500 Stunden beim Markenportal an und fügt **[!UICONTROL Lightbox]** zum Download um 15:05 Uhr hinzu. Wenn der Benutzer die **[!UICONTROL Lightbox]**-Sammlung (oder ihre Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss der Benutzer die Sitzung neu starten. Das Feld **[!UICONTROL Leuchtkasten]** ist leer. Das bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren ging.
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
