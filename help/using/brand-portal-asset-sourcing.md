@@ -18,9 +18,9 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >Asset-Beschaffung wird von AEM Assets as a Cloud Service nicht unterstützt.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
 
