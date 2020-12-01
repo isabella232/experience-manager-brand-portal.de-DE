@@ -35,9 +35,9 @@ Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktivi
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]** und überprüfen Sie, ob die Konfiguration **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist.
-* Stellen Sie sicher, dass Port 33001 (sowohl TCP als auch UDP) auf der Firewall geöffnet ist. For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
-* [Installieren Sie IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in der Erweiterung Ihres Browsers mit Administratorberechtigungen.
-* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Stellen Sie sicher, dass Port 33001 (sowohl TCP als auch UDP) auf der Firewall geöffnet ist. Weitere Informationen zu den Voraussetzungen finden Sie unter [IBM Aspera Connect Client-Dokumentation](https://downloads.asperasoft.com/en/documentation/8).
+* [Installieren Sie IBM Aspera Connect 3.9.9 ](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in der Browsererweiterung unter Verwendung von Administratorberechtigungen.
+* Informationen zur Plattformunterstützung des Aspera-Transfer-Clients finden Sie unter [IBM Aspera Connect Platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domänen {#download-domains}
 
@@ -132,7 +132,7 @@ Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, mü
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
-## Voreinstellungen für den Aspera Connect-Client          {#aspera-connect-client-preferences}
+## Voreinstellungen für den Aspera Connect-Client           {#aspera-connect-client-preferences}
 
 Im IBM Aspera Connect-Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
 
@@ -146,7 +146,7 @@ Außerdem kann der Aspera Connect-Client so konfiguriert werden, dass er automat
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Beheben von Problemen mit der Download-Beschleunigung   {#troubleshoot-issues-with-download-acceleration}
+## Beheben von Problemen mit der Download-Beschleunigung    {#troubleshoot-issues-with-download-acceleration}
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
 
