@@ -39,7 +39,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* Das Dialogfeld **[!UICONTROL Herunterladen]** wird in einer Ansicht mit Listen mit zusätzlichen Optionen überarbeitet, um nicht erforderliche Darstellungen auszuschließen, dieselben Regelsätze für ähnliche Asset-Typen anzuwenden und die ausgewählten Asset-Darstellungen herunterzuladen. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Diese Version umfasst die folgenden neuen Funktionen:
 
 * Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Brand Portal-Seiten mit einem Klick möglich.
 
-* Das Bedienfeld **[!UICONTROL Ausgabedarstellungen]** auf der Asset-Detailseite bietet Brand Portal-Benutzern jetzt die Möglichkeit, das Original-Asset und/oder bestimmte Asset-Ausgabedarstellungen auszuwählen und sie direkt aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]** herunterzuladen, ohne das Dialogfeld **[!UICONTROL Download]** öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)mit den Asset-Details.
+* Das Bedienfeld **[!UICONTROL Ausgabedarstellungen]** auf der Asset-Detailseite bietet Brand Portal-Benutzern jetzt die Möglichkeit, das Original-Asset und/oder bestimmte Asset-Ausgabedarstellungen auszuwählen und sie direkt aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]** herunterzuladen, ohne das Dialogfeld **[!UICONTROL Download]** öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite mit den Asset-Details](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
