@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 * Ordnerpfad, der die Asset-Hierarchie anzeigt<sup>*</sup>
 * Datum der Veröffentlichung des Assets in Brand Portal
 
-Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. Sie können die Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen tippen/klicken und mithilfe der [Breadcrumbs in der Kopfzeile](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader) wieder nach oben navigieren.
+Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. Sie können die Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen tippen/klicken und mithilfe der [Breadcrumbs in der Kopfzeile](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader) wieder nach oben navigieren.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -243,7 +243,7 @@ Navigieren Sie in der Inhaltshierarchie zum gewünschten Asset.
 
 ![](assets/content-tree.png)
 
-## Asset-Details      {#asset-details}
+## Asset-Details       {#asset-details}
 
 Auf der Seite „Details“ eines Assets können Sie das Asset anzeigen und herunterladen, einen Link zum Asset freigeben, das Asset in eine Sammlung verschieben oder dessen Seite „Eigenschaften“ anzeigen. Sie können nacheinander auch durch die Seite „Details“ anderer Assets im selben Ordner navigieren.
 
