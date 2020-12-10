@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,12 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]** Sucheigenschafte
    >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
 
 1. Öffnen Sie die Eigenschaftsauswahl im Feld **[!UICONTROL Eigenschaftsname]** und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. Geben Sie beispielsweise `  jcr :content/metadata/dc:title` oder `./jcr:content/metadata/dc:title` ein.
+
+   >[!NOTE]
+   >
+   >Im Markenportal werden alle Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp` beginnen) in `jcrcontent/metadata` von `dam:asset` standardmäßig indiziert.
+   >
+   >Jede indizierte Eigenschaft kann beim Erstellen einer Eigenschaftsvorhersage verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchergebnisoption für eine nicht indizierte Abfrage möglicherweise kein Suchergebnis.
 
    ![](assets/title-prop.png)
 
