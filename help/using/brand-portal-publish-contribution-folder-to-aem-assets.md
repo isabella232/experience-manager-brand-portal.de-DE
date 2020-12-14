@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 69%
 
 ---
 
@@ -39,5 +39,16 @@ In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsb
 1. **In Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
 
 1. **Abgeschlossen** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in AEM Assets veröffentlicht wurde.
+
+
+**Status des Veröffentlichungsauftrags**
+
+Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beitragsordner verwenden können, die vom Markenportal nach AEM Assets veröffentlicht wurden.
+
+* Navigieren Sie im Markenportal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge einschließlich der verschiedenen Phasen des Veröffentlichungs-Workflows (Warteschlange und abgeschlossen) wider.
+
+* Navigieren Sie in der AEM Assets-Autoreninstanz zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt nur die Veröffentlichungsaufträge wider, die sich im Status &quot;Ausstehend&quot;befinden.
+
+
 
 
