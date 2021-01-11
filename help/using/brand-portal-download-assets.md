@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 37%
@@ -39,7 +39,7 @@ Markenportal-Administratoren können die Einstellungen für den Asset-Download u
 
 >[!NOTE]
 >
->Die auf der Benutzeroberfläche angewendeten Download-Einstellungen erleichtern den Benutzern des Markenportals eine Selbstbedienung, um die Asset-Darstellungen einfach zu konfigurieren und herunterzuladen. Das Herunterladen von Assets auf der Anwendungsebene wird dadurch nicht eingeschränkt. Beispielsweise können die Benutzer weiterhin auf die Asset-Darstellungen zugreifen und sie mit dem vollständigen URL-Pfad herunterladen.
+>Die auf der Benutzeroberfläche angewendeten Download-Einstellungen erleichtern den Benutzern des Markenportals eine Selbstbedienung, um die Asset-Darstellungen einfach zu konfigurieren und herunterzuladen. Das Herunterladen von Assets auf der Anwendungsebene wird dadurch nicht eingeschränkt. Die Benutzer können beispielsweise weiterhin auf die Asset-Darstellungen zugreifen und sie mit dem vollständigen URL-Pfad herunterladen.
 
 Der Zugriff auf und das Herunterladen der Asset-Darstellungen über die Oberfläche des Markenportals sind durch die folgenden Konfigurationen definiert:
 
