@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 39%
+source-wordcount: '1940'
+ht-degree: 37%
 
 ---
 
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, i
 
 ## Konfigurieren des Asset-Downloads {#configure-download}
 
-Markenportal-Administratoren können die Einstellungen und Berechtigungen zum Herunterladen von Assets für die Benutzer des Markenportals konfigurieren und ihnen den Zugriff auf und das Herunterladen von Asset-Darstellungen über die Oberfläche des Markenportals ermöglichen.
+Markenportal-Administratoren können die Einstellungen für den Asset-Download und die Benutzergruppe für die Markenportal-Benutzer konfigurieren, damit sie über die Oberfläche des Markenportals auf Asset-Darstellungen zugreifen und diese herunterladen können.
 
-Der Zugriff auf und das Herunterladen der Darstellungen aus dem Markenportal ist durch die folgenden Konfigurationen definiert:
+>[!NOTE]
+>
+>Die auf der Benutzeroberfläche angewendeten Download-Einstellungen erleichtern den Benutzern des Markenportals eine Selbstbedienung, um die Asset-Darstellungen einfach zu konfigurieren und herunterzuladen. Das Herunterladen von Assets auf der Anwendungsebene wird dadurch nicht eingeschränkt. Beispielsweise können die Benutzer weiterhin auf die Asset-Darstellungen zugreifen und sie mit dem vollständigen URL-Pfad herunterladen.
+
+Der Zugriff auf und das Herunterladen der Asset-Darstellungen über die Oberfläche des Markenportals sind durch die folgenden Konfigurationen definiert:
 
 * Download-Einstellungen aktivieren
-* Konfigurieren von Download-Berechtigungen
+* Konfigurieren von Benutzergruppeneinstellungen
 
 ### Download-Einstellungen {#enable-download-settings} aktivieren
 
@@ -75,11 +79,11 @@ Die Administratoren können eine beliebige Kombination von Einstellungen für di
 >
 >Nur die Administratoren können die abgelaufenen Assets herunterladen. Weitere Informationen zu abgelaufenen Assets finden Sie unter [Verwalten der digitalen Rechte von Assets](../using/manage-digital-rights-of-assets.md).
 
-### Konfigurieren von Download-Berechtigungen {#configure-download-permissions}
+### Konfigurieren von Benutzergruppeneinstellungen {#configure-user-group-settings}
 
-Zusätzlich zu den **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren die Berechtigungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) die Originalelemente und deren Darstellungen herunterladen.
+Zusätzlich zu den **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren die Einstellungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) die Originalelemente und deren Darstellungen herunterladen.
 
-Melden Sie sich bei Ihrem Markenportal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**. Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansicht zu konfigurieren und (oder) die Downloadberechtigungen für die Benutzergruppen zu konfigurieren.
+Melden Sie sich bei Ihrem Markenportal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**. Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansichten- und (oder) Downloadeinstellungen für die Benutzergruppen zu konfigurieren.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Je nach Konfiguration bleibt der Download-Workflow für eigenständige Assets, m
 
 Die folgende Matrix definiert, ob ein Benutzer je nach den [Downloadkonfigurationen](#configure-download) Zugriff auf die Darstellungen hat:
 
-| **Download-Einstellungen: Benutzerdefinierte Darstellungen** | **Download-Einstellungen: Systemdarstellungen** | **Benutzergruppenberechtigungen: Original herunterladen** | **Benutzergruppenberechtigungen: Darstellungen herunterladen** | **Ergebnis** |
+| **Download-Einstellungen: Benutzerdefinierte Darstellungen** | **Download-Einstellungen: Systemdarstellungen** | **Benutzergruppeneinstellungen: Original herunterladen** | **Benutzergruppeneinstellungen: Darstellungen herunterladen** | **Ergebnis** |
 |---|---|---|---|---|
 | EIN | EIN | EIN | EIN | Ansicht und Herunterladen aller Darstellungen |
 | EIN | EIN | OFF | OFF | Original-Asset der Ansicht |
@@ -112,7 +116,7 @@ Benutzer von Brand Portal können mehrere Assets, Ordner mit Assets und Sammlung
 
 >[!NOTE]
 >
->Wenden Sie sich an den Markenportal-Administrator, wenn Sie nicht berechtigt sind, auf die Darstellungen zuzugreifen oder sie herunterzuladen.
+>Wenden Sie sich an den Markenportal-Administrator, wenn Sie nicht berechtigt sind, auf die Asset-Darstellungen zuzugreifen oder sie herunterzuladen.
 
 Wenn der Benutzer Zugriff auf Darstellungen hat, wird dem Benutzer das erweiterte Dialogfeld **[!UICONTROL Herunterladen]** mit den folgenden Funktionen bereitgestellt:
 * Anzeigen aller verfügbarer Ausgabedarstellungen eines Assets in der Download-Liste.
@@ -196,7 +200,7 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
 >[!NOTE]
 >
->Markenportal unterstützt die Konfiguration von dynamischen Medien sowohl im Hybrid- als auch im Scene7-Modus.
+>Brand Portal unterstützt die Konfiguration von Dynamic Media sowohl im Hybrid- als auch im Scene7-Modus.
 >
 >(*Bei Ausführung der AEM-Autoreninstanz im **Dynamic Media-Hybrid-Modus***)
 >
