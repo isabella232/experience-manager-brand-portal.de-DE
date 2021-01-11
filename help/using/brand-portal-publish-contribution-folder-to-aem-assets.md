@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 69%
+source-wordcount: '261'
+ht-degree: 70%
 
 ---
 
@@ -45,9 +45,13 @@ In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsb
 
 Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beitragsordner verwenden können, die vom Markenportal nach AEM Assets veröffentlicht wurden.
 
-* Navigieren Sie im Markenportal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge einschließlich der verschiedenen Phasen des Veröffentlichungs-Workflows (Warteschlange und abgeschlossen) wider.
+* Navigieren Sie im Markenportal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
 
-* Navigieren Sie in der AEM Assets-Autoreninstanz zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt nur die Veröffentlichungsaufträge wider, die sich im Status &quot;Ausstehend&quot;befinden.
+   ![](assets/contribution-folder-status.png)
+
+* Navigieren Sie in der AEM Assets-Autoreninstanz zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+
+   ![](assets/publishing-status.png)
 
 
 
