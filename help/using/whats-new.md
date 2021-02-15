@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
 seo-title: Neue Funktionen in AEM Assets Brand Portal
-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2020.10.0.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2020.10.0.
+description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2021.02.0.
+seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 97%
+source-wordcount: '5798'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 97%
 # Neue Funktionen in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0 ist eine Version, die Verbesserungen beim Herunterladen von Assets vorsieht und wichtige Fehlerbehebungen enthält. Dadurch können Administratoren das standardmäßige Download-Verhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+
+
+### Asset-Download {#asset-download-setting}
+
+Zusätzlich zu den vorhandenen **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren jetzt die Einstellung **[!UICONTROL Asset-Download]** konfigurieren. Mit dieser Einstellung können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets (über 20 Assets) auf Mietebene steuern.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+Früher wurden alle Asset-Darstellungen direkt in einen ZIP-Ordner heruntergeladen. Das Dialogfeld **[!UICONTROL Herunterladen]** wurde für Ordner und Sammlungen übersprungen. Es gab keine Methode, um das Downloadverhalten der Assets zu steuern, sodass es schwierig war, aus einer großen Anzahl von Downloads nach einer bestimmten Darstellung zu suchen.
+
+**[!UICONTROL Die]** Einstellung zum Herunterladen von Assets bietet jetzt eine Option, um beim Herunterladen der Ordner, Sammlungen oder des Massendownloads von Assets einen separaten Ordner für jedes Asset zu erstellen.
+
+Wenn die Einstellung **[!UICONTROL Asset-Download]** deaktiviert ist, werden die Ordner oder Sammlungen in einen ZIP-Ordner heruntergeladen, der alle Asset-Darstellungen im selben Ordner enthält, mit Ausnahme des Downloads der Assets über den Link &quot;Teilen&quot;.
+
+
+Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**. Die Administratoren können die Einstellung **[!UICONTROL Asset-Download]** aktivieren, um beim Herunterladen von Ordnern, Sammlungen und dem Massendownload von Assets einen separaten Ordner für jedes Asset zu erstellen.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Nutzungsbericht {#usage-report}
+
+Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde geändert, um nur die aktiven Markenportalbenutzer wiederzugeben. Die Markenportalbenutzer, die keinem Profil in der Admin Console zugeordnet sind, gelten als inaktive Benutzer und werden nicht im **[!UICONTROL Gebrauchsbericht]** angezeigt.
+
+Früher wurden sowohl aktive als auch inaktive Benutzer im Nutzungsbericht angezeigt.
+
+![](assets/usage-report.png)
 
 ## Änderungen in Version 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Konfigurieren von Download-Berechtigungen {#download-permissions}
+### Download-Einstellungen {#download-permissions} konfigurieren
 
-Zusätzlich zu den vorhandenen **[!UICONTROL Download]**-Konfigurationen können Brand Portal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen für die Anzeige und/oder den Download des Original-Assets und seiner Ausgabedarstellungen von der Asset-Detailseite konfigurieren.
+Zusätzlich zu den vorhandenen Konfigurationen für **[!UICONTROL Download]** können die Markenportal-Administratoren auch Einstellungen für verschiedene Benutzergruppen konfigurieren, die zur Ansicht verwendet werden sollen, und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen.
 
 Melden Sie sich bei Ihrem Markenportal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**.
 
-Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansicht zu konfigurieren und (oder) die Download-Berechtigungen für die Benutzergruppen zu konfigurieren.
+Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansichten- und (oder) Downloadeinstellungen für die Benutzergruppen zu konfigurieren.
 
 Früher konnte mit den Einstellungen lediglich eingeschränkt werden, welche Benutzergruppen das Original-Asset herunterladen konnten.
 
@@ -159,8 +197,6 @@ Der Brand Portal-Administrator kann eine beliebige Kombination aktivieren, um de
 * Wenn die **[!UICONTROL benutzerdefinierte Ausgabe]** oder die **[!UICONTROL Systemausgabe]** aktiviert ist, wird das Dialogfeld **[!UICONTROL Download]** angezeigt und das ursprüngliche Asset zusammen mit den Asset-Ausgaben heruntergeladen. Durch die Aktivierung der Konfiguration **[!UICONTROL Schneller Download]** wird der Download-Prozess beschleunigt.
 
 Je nach Konfiguration bleibt der Download-Workflow für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant.
-
-![](assets/download-configuration.png)
 
 
 ## Änderungen in Version 6.4.6 {#what-changed-in-646}
