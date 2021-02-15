@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1960'
 ht-degree: 37%
 
 ---
@@ -68,11 +68,16 @@ Die verfügbaren Einstellungen sind:
 
    Dies sind die Miniaturansichten, die in AEM Assets auf der Grundlage des Workflows „DAM-Update-Asset“ automatisch generiert werden.
 
+* **[!UICONTROL Asset-Download]**
+
+   Ermöglicht das Herunterladen der Darstellungen in einem separaten Ordner für jedes Asset. Diese Einstellung gilt für das Herunterladen von Ordnern, Sammlungen und Massen-Downloads von Assets (über 20 Assets).
+
+
 Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
 Die Administratoren können eine beliebige Kombination von Einstellungen für die Benutzer des Markenportals aktivieren, um auf Darstellungen zuzugreifen und sie herunterzuladen.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Wenn der Benutzer Zugriff auf Darstellungen hat, wird dem Benutzer das erweitert
 * Ausschließen von Ausgabedarstellungen der Assets, die nicht heruntergeladen werden müssen.
 * Wenden Sie denselben Darstellungssatz auf alle ähnlichen Asset-Typen mit einem Klick an.
 * Anwenden eines anderen Darstellungssatzes für verschiedene Asset-Typen.
-* Erstellen Sie für jede Asset-Darstellung einen eigenen Ordner.
+* Erstellen Sie für jedes Asset einen eigenen Ordner.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
    ![Entfernen](assets/remove.png)
 
-   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen]**. Standardmäßig wird die Ordnerhierarchie des Markenportals ignoriert und alle Assets werden in einen ZIP-Ordner heruntergeladen.
+   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen.]**
 
    Die Downloadschaltfläche gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
@@ -195,7 +200,9 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
 >[!NOTE]
 >
->Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle für den Benutzer verfügbaren Asset-Darstellungen mit Ausnahme der dynamischen Darstellungen werden in einen ZIP-Ordner heruntergeladen. Die Asset-Darstellungen werden für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
+>Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle für den Benutzer verfügbaren Asset-Darstellungen mit Ausnahme der dynamischen Darstellungen werden in einen ZIP-Ordner heruntergeladen.
+>
+>Wenn die Einstellung **[!UICONTROL Asset-Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert ist, werden die Asset-Darstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
 
 
 >[!NOTE]
