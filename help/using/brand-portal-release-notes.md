@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise
 seo-title: Versionshinweise
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
-seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.02.0.
+seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.02.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,75 +10,95 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
+source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 86%
+source-wordcount: '515'
+ht-degree: 59%
 
 ---
 
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2020.10.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.02.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2020.10.0 |
-| Datum | Oktober 2020 |
+| Version | 2021,02,0 |
+| Datum  | Februar 2021 |
 
 ## Überblick {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2020.10.0 {#whats-new-in-2020.10.0}
+## Neue Funktionen in Version 2021.02.0 {#whats-new-in-2021.02.0}
 
 ### Neue Funktionen {#new-features}
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
-* Das Dialogfeld **[!UICONTROL Herunterladen]** wird in einer Ansicht mit Listen mit zusätzlichen Optionen überarbeitet, um nicht erforderliche Darstellungen auszuschließen, dieselben Regelsätze für ähnliche Asset-Typen anzuwenden und die ausgewählten Asset-Darstellungen herunterzuladen. Siehe [Schritte zum Herunterladen von Assets aus dem Markenportal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* Unter **[!UICONTROL Download-Einstellungen]** wurde eine zusätzliche Einstellung für **[!UICONTROL Asset-Download]** eingeführt. Beim Herunterladen der Ordner, Sammlungen oder beim Herunterladen von Assets wird für jedes Asset ein separater Ordner erstellt. Siehe [Download-Einstellungen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+
+<!-- 
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+-->
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* Die Navigation zu den **[!UICONTROL Dateien]**, **[!UICONTROL Sammlungen]** und **[!UICONTROL freigegebenen Links]** ist jetzt von allen Brand Portal-Seiten mit einem Klick möglich.
+<!-- 
+* Navigation to the **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** is now possible from all the Brand Portal pages in one-click.  
 
-* Das Bedienfeld **[!UICONTROL Ausgabedarstellungen]** auf der Asset-Detailseite bietet Brand Portal-Benutzern jetzt die Möglichkeit, das Original-Asset und/oder bestimmte Asset-Ausgabedarstellungen auszuwählen und sie direkt aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]** herunterzuladen, ohne das Dialogfeld **[!UICONTROL Download]** öffnen zu müssen. Siehe [Herunterladen von Assets von der Seite mit den Asset-Details](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+* The **[!UICONTROL Renditions]** panel in the asset details page now allows the Brand Portal users to select the original asset and (or) specific asset renditions, and directly download them from the **[!UICONTROL Renditions]** panel without having to open the **[!UICONTROL Download]** dialog. See [download assets from asset details page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+-->
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Zusätzlich zu den vorhandenen **[!UICONTROL Download]**-Konfigurationen können Brand Portal-Administratoren auch Berechtigungen für verschiedene Benutzergruppen für die Anzeige und/oder den Download des Original-Assets und seiner Ausgabedarstellungen von der Asset-Detailseite konfigurieren. [](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) Diese Konfigurationen definieren, wer auf die Asset-Ausgabedarstellungen zugreifen und/oder sie herunterladen kann.
+<!-- 
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+-->
 
 ### Verbesserungen {#enhancements}
 
 Diese Version umfasst die folgenden Verbesserungen:
 
-* Der Schwellenwert für den Sitzungs-Timeout für Gastbenutzer wurde von 2 Stunden auf 15 Minuten verringert.
-* Die zusätzliche Option **[!UICONTROL Seiten anzeigen]** wurde für mehrseitige PDF-Dateien entfernt, da der Benutzer die PDF-Seiten jetzt über Adobe Document Cloud Viewer anzeigen kann.
-
+* Beim Herunterladen von Ordnern wird für jedes Asset unabhängig von den **[!UICONTROL Download-Einstellungen]** ein separater Ordner über den Link &quot;Teilen&quot;erstellt.
+* Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde geändert, um nur die aktiven Markenportalbenutzer wiederzugeben.
 
 <!--
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issue:
-
-* The users are not able to view the PDF pages if the PDF contains sub assets.
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
 -->
 
-### Bekannte Probleme {#known-issues}
 
-Diese Version enthält die folgenden bekannten Probleme:
+### Behobene kritische Probleme {#critical-issues-fixed}
 
-* Bei der Suche in **[!UICONTROL Asset-Berichten]** wird auf der Produktoberfläche ein laufender Vorgang angezeigt, jedoch keine Suchergebnisse.
-* Die Video-DM-Codes sind auf der Asset-Detailseite nur für Administratoren sichtbar.
-* Die Ausrichtung der Größe einzelner Asset-Ausgabedarstellungen und der maximalen Download-Größe ist im Dialogfeld „Download“ verzerrt.
+Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
+* Wenn nur die ursprünglichen Assets heruntergeladen werden, spiegelt das Asset seine eigene Erweiterung wider und wird erst geöffnet, wenn die Erweiterung manuell in ZIP geändert wird.
+* Die Benutzeroberfläche des Sammlungsordners reagiert nicht, wenn auf den Navigationspfeil geklickt wird.
+* **[!UICONTROL Die]** Option &quot;Erstellen&quot;ist auch dann in der  **** Spaltenansicht sichtbar, wenn die Ordner leer sind.
+* **[!UICONTROL Die Omni-]** Suche schlägt mit einer 414-Fehlermeldung fehl (Anforderung-URI zu lang), wenn der Dispatcher beim Zugriff auf die Brand Portal-Instanz umgangen wird.
+* Ein leerer ZIP-Ordner wird heruntergeladen, wenn das Asset im Dateinamen ein Komma (`,`) enthält.
+* Die Viewer-Benutzer erhalten die Möglichkeit, Benutzer zur erstellten Sammlung hinzuzufügen.
+* Inkonsistentes Verhalten tritt auf, wenn ein Asset (Miniaturansicht oder Webdarstellung) über einen Freigabelink heruntergeladen wird.
+
+Siehe [Neue Funktionen im Markenportal 2021.02.0](whats-new.md).
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
+-->
 
 
 <!--
