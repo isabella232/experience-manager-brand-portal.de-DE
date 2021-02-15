@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 94%
@@ -28,7 +28,7 @@ Brand Portal ermöglicht das Verkürzen der Download-Zeiten größerer Asset-Dat
 
 Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktiviert, wodurch die Zeit zum Herunterladen der gewünschten Asset-Dateien von Brand Portal erheblich verringert wird.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## Voraussetzungen für die Beschleunigung des Datei-Downloads          {#prerequisites-to-accelerate-file-download}
 
@@ -43,7 +43,7 @@ Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 Nachfolgend sind die Download-Domänen für verschiedene geografische Standorte aufgeführt:
 
-| Regionscode | Domäne |
+| Regionscode | Domain |
 |---|---|
 | NA OR1 | downloads-na1.brand-portal.adobe.com |
 | NA VA5 | downloads-na2.brand-portal.adobe.com |
