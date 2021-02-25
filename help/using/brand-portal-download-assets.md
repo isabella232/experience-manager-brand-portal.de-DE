@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 37%
+source-wordcount: '1935'
+ht-degree: 36%
 
 ---
 
@@ -70,7 +70,7 @@ Die verfügbaren Einstellungen sind:
 
 * **[!UICONTROL Asset-Download]**
 
-   Ermöglicht das Herunterladen der Darstellungen in einem separaten Ordner für jedes Asset. Diese Einstellung gilt für das Herunterladen von Ordnern, Sammlungen und Massen-Downloads von Assets (über 20 Assets).
+   Ermöglicht das Herunterladen der Darstellungen in einem separaten Ordner für jedes Asset. Die Einstellung gilt für Ordner, Sammlungen und den Massendownload von Assets (über 20 Assets).
 
 
 Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
@@ -135,7 +135,7 @@ Wenn der Benutzer Zugriff auf Darstellungen hat, wird dem Benutzer das erweitert
 
 >[!NOTE]
 >
->Das Dialogfeld **[!UICONTROL Herunterladen]** wird nur angezeigt, wenn die Assets zum Herunterladen ausgewählt sind und **[!UICONTROL Benutzerspezifische Ausgabeformate]** oder **[!UICONTROL Systemwiedergaben]** unter **[!UICONTROL Download-Einstellungen]** aktiviert ist.
+>Das Dialogfeld **[!UICONTROL Download]** wird nur angezeigt, wenn **[!UICONTROL Benutzerspezifische Darstellungen]** und (oder) **[!UICONTROL Systemwiedergaben]** unter **[!UICONTROL Download-Einstellungen]** aktiviert ist.
 
 
 ### Schritte zum Herunterladen von Assets {#bulk-download}
@@ -157,7 +157,7 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
       >[!NOTE]
       >
-      >Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, Aspera Download Accelerator zu installieren.
+      >Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, [den Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) zu installieren.
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Im Folgenden finden Sie die Schritte zum Herunterladen von Assets oder Ordnern, 
 
    Die Downloadschaltfläche gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-box-new.png)
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, um einen beschleunigten Download mit IBM Aspera Connect zu ermöglichen.
 
    Um weiterhin **[!UICONTROL Schnelles Herunterladen]** zu verwenden, klicken Sie auf **[!UICONTROL Zulassen]**. Alle ausgewählten Darstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
-   Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Fast Download]** verweigert wird oder fehlschlägt, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren. Die ausgewählten Darstellungen werden in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+   Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Fast Download]** verweigert wird oder fehlschlägt, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Führen Sie die folgenden Schritte aus, um Asset-Darstellungen von der Seite mit
 
    Um weiterhin **[!UICONTROL Schnelles Herunterladen]** zu verwenden, klicken Sie auf **[!UICONTROL Zulassen]**. Alle ausgewählten Darstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
-   Wenn Sie die Verwendung von **[!UICONTROL Fast Download]** ablehnen, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um den Download fortzusetzen. Die ausgewählten Darstellungen werden in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+   Wenn Sie die Verwendung von **[!UICONTROL Fast Download]** ablehnen, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
 >[!NOTE]
 >
