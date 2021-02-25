@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 92%
 
 ---
 
@@ -39,11 +39,12 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    >[!NOTE]
    >
-   >Der Verwendungsbericht ist in Brand Portal standardmäßig vorhanden. Er kann nicht erstellt oder gelöscht werden. Sie können jedoch Berichte zu Downloads, Ablaufdaten, Veröffentlichungen, Linkfreigaben und Benutzeranmeldungen erstellen, herunterladen und löschen.
+   >Der Nutzungsbericht ist ein Standardbericht, der im Markenportal generiert wurde. Er kann nicht erstellt oder gelöscht werden. Sie können jedoch Berichte zu Downloads, Ablaufdaten, Veröffentlichungen, Linkfreigaben und Benutzeranmeldungen erstellen, herunterladen und löschen.
 
-   Um einen Bericht anzuzeigen, tippen/klicken Sie auf den Link zum Bericht. Alternativ wählen Sie den Bericht aus und tippen/klicken Sie in der Symbolleiste auf das Symbol „Anzeigen“.
+   Klicken Sie auf den Link Bericht, um einen Bericht Ansicht. Alternativ wählen Sie den Bericht aus und tippen/klicken Sie in der Symbolleiste auf das Symbol „Anzeigen“.
 
-   Der **[!UICONTROL Verwendungsbericht]** zeigt Informationen zur Anzahl der aktuellen Brand Portal-Benutzer, den von allen Assets belegten Speicherplatz sowie die Gesamtzahl der Assets in Brand Portal an. Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informationsmetriken an.
+   **[!UICONTROL Der]** Nutzungs-Bericht enthält Informationen zur Anzahl der aktiven Markenportalbenutzer, zum Datenspeicherung-Speicherplatz aller Assets und zur Gesamtzahl der Assets im Markenportal. Die Markenportalbenutzer, die keinem Profil in der Admin Console zugeordnet sind, gelten als inaktive Benutzer und werden nicht im **[!UICONTROL Gebrauchsbericht]** angezeigt.
+Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informationsmetriken an.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Administratoren können die folgenden Standardberichte generieren und verwalten.
 Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentlichen“ können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu generieren:
 
 1. Tippen/klicken Sie oben in der Symbolleiste auf das AEM-Logo, um auf die Admin Tools zuzugreifen.
-
-   ![](assets/aemlogo.png)
 
 1. Tippen/klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 
