@@ -10,17 +10,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 94%
+source-wordcount: '1049'
+ht-degree: 68%
 
 ---
 
 
 # Beschleunigen von Downloads in Brand Portal{#guide-to-accelerate-downloads-from-brand-portal}
 
-Brand Portal ermöglicht das Verkürzen der Download-Zeiten größerer Asset-Dateien durch die Integration mit IBM Aspera Connect, einer bei Bedarf zusätzlich installierten Anwendung. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern und Übertragungsgeschwindigkeiten für Asset-Dateien zu verbessern. Diese Integration sorgt für eine Verkürzung der Download-Zeiten.
+Adobe Experience Manager Assets Brand Portal ermöglicht die Verbesserung der Downloadleistung großer Asset-Dateien durch die Integration mit IBM Aspera Connect, einer Anwendung, die bei Bedarf installiert wird. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern und Übertragungsgeschwindigkeiten für Asset-Dateien zu verbessern. Diese Integration sorgt für eine Verkürzung der Download-Zeiten.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Brand Portal ermöglicht das Verkürzen der Download-Zeiten größerer Asset-Dat
 
 Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktiviert, wodurch die Zeit zum Herunterladen der gewünschten Asset-Dateien von Brand Portal erheblich verringert wird.
 
-![](assets/download-configuration-old.png)
+![](assets/download-settings-new.png)
 
 ## Voraussetzungen für die Beschleunigung des Datei-Downloads          {#prerequisites-to-accelerate-file-download}
 
@@ -71,53 +71,108 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 
 So laden Sie Assets schneller von Brand Portal herunter:
 
-1. Melden Sie sich über einen unterstützten Browser bei Brand Portal an.
-1. Wählen Sie die Ordner oder Assets aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download]**. Das Dialogfeld **[!UICONTROL Download]** wird angezeigt, wobei die Kontrollkästchen **[!UICONTROL Asset(s)]** und **[!UICONTROL Download-Beschleunigung aktivieren]** standardmäßig vorausgewählt sind.
+1. Melden Sie sich bei Ihrem Markenportal-Mandanten an. Standardmäßig wird die Ansicht **[!UICONTROL Files]** geöffnet, die alle veröffentlichten Assets und Ordner enthält.
 
-   ![](assets/download-assetsbp.png)
+   Führen Sie einen der folgenden Schritte aus:
 
-   >[!NOTE]
-   >
-   >Die Funktion zum Versenden von E-Mail-Benachrichtigungen mit dem Link zum Herunterladen von Assets wird derzeit nicht unterstützt, solange die Funktion für schnellere Downloads aktiviert ist.
+   * Wählen Sie die Assets oder Ordner aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download]**.
 
-   ![](assets/fast-download-emailchk.png)
+      ![select-multiple-assets](assets/select-assets-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Download]**.
+   * Um bestimmte Asset-Darstellungen eines Assets herunterzuladen, halten Sie den Mauszeiger über das Asset und klicken Sie auf das Symbol **[!UICONTROL Herunterladen]**, das in den Miniaturbildern der Schnellaktion verfügbar ist.
 
-   Um die Download-Zeiten für Ihr Brand Portal-Mandantenkonto zu verkürzen, müssen Sie die Aspera Connect-Client-Anwendung als Browser-Erweiterung installiert haben.
+      ![select-asset](assets/select-asset.png)
 
-1. **Herunterladen des Aspera Connect-Clients**
+1. Das Dialogfeld **[!UICONTROL Download]**, in dem alle ausgewählten Assets aufgelistet sind, wird geöffnet.
 
-   Falls der Aspera Connect-Client nicht auf Ihrem System installiert oder der vorhandene installierte Aspera Connect-Client veraltet ist, wird eine Eingabeaufforderung auf der Browser-Seite angezeigt, über die Sie den systemspezifischen Aspera Connect-Client herunterladen können. Wählen Sie dazu die Option **[!UICONTROL Neueste Version herunterladen]** aus.
+   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen.]**
+
+   Die Downloadschaltfläche gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
+
+   ![download-dialog](assets/download-dialog-box-new.png)
+
+1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld zum Herunterladen von Assets mit IBM Aspera Connect angezeigt.
+
+   Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert ist oder die vorhandene Version veraltet ist, werden Sie aufgefordert, [den Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) zu installieren.
 
    ![](assets/aspera-not-launched.png)
-
-   Sie können die neueste Version von Aspera Connect auch von [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/) herunterladen. Wählen Sie **[!UICONTROL Jetzt herunterladen]** aus und befolgen Sie die Anweisungen.
 
 1. **Installation des Aspera Connect-Clients**
 
    Um den IBM Aspera Connect-Client zu installieren, führen Sie das Setup über die MSI-Datei der IBM Aspera Connect-Client-Anwendung aus und folgen Sie dem Installationsassistenten.
 
+   ![](assets/aspera-download-1.png)
+
 1. Nachdem der Client erfolgreich installiert wurde, aktualisieren Sie die Browser-Seite und starten Sie die Download-Schritte erneut.
 
-   Wenn Sie Aspera Client zum ersten Mal verwenden, werden Sie vom Browser aufgefordert, den Link mithilfe von **[!UICONTROL IBM Aspera Connect]** zu öffnen. Damit dieses Dialogfeld in Zukunft nicht mehr angezeigt wird, aktivieren Sie **[!UICONTROL Meine Auswahl für FASP-Verbindungen speichern]**.
+1. Um weiterhin **[!UICONTROL Schnelles Herunterladen]** zu verwenden, klicken Sie auf **[!UICONTROL Zulassen]**. Alle ausgewählten Darstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
-   >[!NOTE]
-   >
-   >Diese Meldung unterscheidet sich von Browser zu Browser.
+   Bei erfolgreichem Abschluss des Downloads zeigt das Dialogfeld das Verzeichnis auf dem System des Benutzers an, in das die Assets heruntergeladen wurden.
 
-1. Sie werden in einem Dialogfeld aufgefordert zu bestätigen, ob die Übertragung fortgesetzt werden soll oder nicht. Wählen Sie **[!UICONTROL Zulassen]**, um zu beginnen. 
-Um dieses Dialogfeld zukünftig nicht mehr anzuzeigen, aktivieren Sie **[!UICONTROL Meine Auswahl für alle Verbindungen mit diesem Host verwenden]**.
-Der Download beginnt. In einem Dialogfeld wird der Fortschritt des Downloads angezeigt. Nutzen Sie das Dialogfeld, um den Download **[!UICONTROL anzuhalten]**, **[!UICONTROL fortzusetzen]** oder **[!UICONTROL abzubrechen]**.
-Die Aspera Connect-Anwendung bietet im System ein Aktivitätsfenster, über das Benutzer alle Übertragungssitzungen anzeigen und verwalten können. Weitere Informationen finden Sie in der [Dokumentation zum Aspera Connect-Client](https://downloads.asperasoft.com/en/documentation/8).
+   ![](assets/aspera-download-2.png)
 
-![](assets/aspera-activity-window.png)
-
-Bei erfolgreichem Abschluss des Downloads zeigt das Dialogfeld das Verzeichnis auf dem System des Benutzers an, in das die Assets heruntergeladen wurden. Wenn der Download fehlschlägt, wird ein Fehler angezeigt.
+   Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Fast Download]** verweigert wird oder fehlschlägt, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
 >[!NOTE]
 >
->Es gibt in der Aspera Connect-Client-Anwendung die bekannte Einschränkung, dass keine Eingabeaufforderung zur Auswahl des Download-Verzeichnisses angezeigt wird, wenn die Option **[!UICONTROL Immer nach dem Speicherort für die heruntergeladene Dateien fragen]** auf der Registerkarte **[!UICONTROL Übertragungen]** unter **[!UICONTROL Voreinstellungen]** aktiviert ist. Geben Sie vor Beginn eines Downloads den Speicherort im Textfeld **[!UICONTROL Heruntergeladene Dateien speichern unter]** an.
+>Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Darstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+
+<!-- 
+On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
+
+   >[!NOTE]
+   >
+   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
+
+
+1. Log in to Brand Portal using a supported browser.
+1. Browse and select the folders or assets you want to download. From the toolbar at the top, click the **[!UICONTROL Download]** icon. the **[!UICONTROL Download]** dialog appears with the **[!UICONTROL Asset(s)]** and **[!UICONTROL Enable download acceleration]** check boxes selected by default. 
+
+   ![](assets/download-assetsbp.png)
+
+   >[!NOTE]
+   >
+   >The functionality to send email notification with the link to download assets is presently not supported while faster downloads are enabled.
+
+   ![](assets/fast-download-emailchk.png)
+
+1. Click **[!UICONTROL Download]**.
+
+   To speed up the download experience on your Brand Portal tenant account, you need to have Aspera Connect client application installed in your browser's extension.
+
+1. **Download Aspera Connect Client**
+
+   If Aspera Connect client is not installed on your system or the existing Aspera Connect client is out of date, a prompt is displayed on the browser page from where you can download the system-specific Aspera Connect client by selecting **[!UICONTROL Download Latest Version]**.
+
+   ![](assets/aspera-not-launched.png)
+
+   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
+
+1. **Install Aspera Connect Client**
+
+   To install IBM Aspera Connect client setup, run the setup from  .msi  file of IBM Aspera Connect client application and follow the installation wizard.
+
+1. Once the client is successfully installed, refresh the browser page and initiate the download steps again.
+
+   When using Aspera Connect for the first time, the browser prompts to open the link using **[!UICONTROL IBM Aspera Connect]**. To skip this dialog in future, enable **[!UICONTROL Remember my choice for FASP links]**.
+
+   >[!NOTE]
+   >
+   >This message is different on the different browsers.
+
+1. A dialog box confirms whether to proceed the transfer or not. Select **[!UICONTROL Allow]** to begin.
+To skip this dialog in future, enable **[!UICONTROL Use my choice for all connections with this host]**.
+Download begins. A dialog box shows the progress of the download. Use the dialog box to **[!UICONTROL pause]**, **[!UICONTROL resume]**, or **[!UICONTROL cancel]** the download.
+Aspera Connect application provides an Activity Window on the system where user can view and manage all transfer sessions. For more information, refer [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+
+![](assets/aspera-activity-window.png)
+
+On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
+
+   >[!NOTE]
+   >
+   >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
+-->
 
 ## Verwenden des Dateibeschleunigers im Browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
