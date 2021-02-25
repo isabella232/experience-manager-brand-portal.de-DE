@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 82%
+source-wordcount: '285'
+ht-degree: 78%
 
 ---
 
@@ -46,13 +46,11 @@ Standard-URL: http:// localhost:4502/aem/start.html
 
    ![](assets/upload.png)
 
-1. Geben Sie im Feld **[!UICONTROL Benutzer oder Gruppe hinzufügen]** Brand Portal-Benutzer an, für die Sie den Beitragsordner freigeben möchten. Diese Benutzer können über die Oberfläche des Markenportals auf Inhalte zugreifen und diese in den Beitragsordner hochladen.
+1. Fügen Sie im Feld **[!UICONTROL Hinzufügen Benutzer]** die Benutzer des Markenportals hinzu, für die Sie den Beitragsordner freigeben möchten. Diese Benutzer können über die Oberfläche des Markenportals auf Inhalte zugreifen und diese in den Beitragsordner hochladen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->Derzeit können Gruppen keinem Beitragsordner zugewiesen werden.
 >
 >Die Suchergebnisse basieren auf der in AEM Assets konfigurierten Brand Portal-Benutzerliste. Vergewissern Sie sich, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen. Siehe [Hochladen der Brand Portal-Benutzerliste](brand-portal-configure-asset-sourcing.md).
