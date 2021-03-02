@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5796'
-ht-degree: 91%
+source-wordcount: '5907'
+ht-degree: 90%
 
 ---
 
@@ -24,8 +24,14 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 ist eine Version, die Verbesserungen beim Herunterladen von Assets vorsieht und wichtige Fehlerbehebungen enthält. Dadurch können Administratoren das standardmäßige Download-Verhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 ist eine Version, die die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service, Verbesserungen beim Herunterladen von Assets und wichtige Fehlerbehebungen vereinfacht. Dadurch können Administratoren das standardmäßige Download-Verhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
+
+### Asset-Sourcing unter AEM Assets als Cloud Service {#asset-sourcing-on-cloud-service}
+
+Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Die Funktionen sind standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen. Die Administratoren können den Beitrag der Markenportal-Benutzer überprüfen und genehmigen, um sie weiter an andere Markenportal-Benutzer zu verteilen.
+
+Früher war Asset Sourcing nur auf AEM Assets verfügbar (lokal und verwaltet).
 
 ### Asset-Download {#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 ermöglicht es Brand Portal-Benutzern (externe Agenturen/Team
 
 Mit der Asset-Beschaffung können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens „NEU“ und „FREIGEGEBEN“ im neu erstellten **Beitragsordner** erstellt werden.
 
-Der AEM-Benutzer definiert dann die Anforderung, indem er eine [Kurzbeschreibung](brand-portal-configure-contribution-folder-properties.md) der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von [Grundlinien-Assets](brand-portal-upload-baseline-assets.md) in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird.
+Der AEM-Benutzer definiert dann die Anforderung, indem er eine Kurzbeschreibung der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird.
 
 
 Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
@@ -273,7 +279,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ### Hochladen von Assets in den Beitragsordner {#upload-assets-in-bp}
 
-Brand Portal-Benutzer mit entsprechenden Berechtigungen können die [Asset-Anforderungen herunterladen](brand-portal-download-asset-requirements.md), um die Notwendigkeit von Beiträgen zu verstehen, und mehrere Assets oder Ordner, die mehrere Assets enthalten, in den Beitragsordner hochzuladen. Beachten Sie jedoch, dass Brand Portal-Benutzer Assets nur in den Unterordner **NEU** hochladen können. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets. Siehe [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md)
+Brand Portal-Benutzer mit entsprechenden Berechtigungen können die Asset-Anforderungen herunterladen, um die Notwendigkeit von Beiträgen zu verstehen, und mehrere Assets oder Ordner, die mehrere Assets enthalten, in den Beitragsordner hochzuladen. Beachten Sie jedoch, dass Brand Portal-Benutzer Assets nur in den Unterordner **NEU** hochladen können. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets.
 
 ![](assets/upload-asset6.png)
 
