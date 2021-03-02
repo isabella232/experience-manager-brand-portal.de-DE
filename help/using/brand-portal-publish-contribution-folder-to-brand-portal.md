@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 80%
+source-wordcount: '1113'
+ht-degree: 78%
 
 ---
 
@@ -68,7 +68,7 @@ Wir empfehlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu b
 
    ![](assets/contribution-folder.png)
 
-Sie können jetzt die Eigenschaften des Beitragsordners konfigurieren.
+Sie können auch die Eigenschaften des Beitragsordners beim Erstellen des Beitragsordners konfigurieren.
 
 ## Konfigurieren von Eigenschaften von Beitragsordnern {#configure-contribution-folder-properties}
 
