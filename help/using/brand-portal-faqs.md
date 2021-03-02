@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1516'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise
 
 **Frage: Muss ich als Benutzer von Brand Portal irgendwelche Aufgaben durchführen?**
 
-**Antwort:** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens „Asset-Beschaffung“. Der AEM-Administrator muss die Asset-Beschaffung in AEM Assets konfigurieren, um diese Funktion für die Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-configure-asset-sourcing.md).
+**Antwort:** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens „Asset-Beschaffung“. Der AEM-Administrator muss die Asset-Beschaffung in AEM Assets konfigurieren, um diese Funktion für die Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-asset-sourcing.md).
 
 
 
@@ -138,7 +138,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 >[!NOTE]
 >
->Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den AEM-Administrator, ein Benutzerkonto in AEM Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Brand Portal-Benutzern](brand-portal-configure-asset-sourcing.md).
+>Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den AEM-Administrator, ein Benutzerkonto in AEM Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen.
 
 **Frage: Welches Format hat die CSV-Datei für den Benutzerimport?**
 
@@ -172,7 +172,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage: Wie werden neue Assets in einen Beitragsordner hochgeladen?**
 
-**Antwort:** Lesen Sie die detaillierte Dokumentation zum [Hochladen von Assets in den Beitragsordner](brand-portal-upload-assets-to-contribution-folder.md).
+**Antwort:** Lesen Sie die detaillierte Dokumentation zum [Hochladen von Assets in den Beitragsordner](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 
