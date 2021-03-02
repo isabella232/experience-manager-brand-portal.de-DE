@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 81%
+source-wordcount: '1043'
+ht-degree: 76%
 
 ---
 
@@ -121,7 +121,7 @@ Nachdem die neu erstellten Assets in AEM Assets veröffentlicht wurden, können 
 
 Sobald die Erstellung eines Beitragsordners erreicht ist, kann der Brand Portal-Administrator den Beitragsordner löschen, um den Upload-Speicherplatz für andere Benutzer freizugeben.
 
-**Status des Veröffentlichungsauftrags**
+## Status des Veröffentlichungsauftrags {#publishing-job-status}
 
 Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beitragsordner verwenden können, die vom Markenportal nach AEM Assets veröffentlicht wurden.
 
@@ -129,13 +129,27 @@ Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beit
 
    ![](assets/contribution-folder-status.png)
 
-* Navigieren Sie in der AEM Assets-Autoreninstanz zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+* Navigieren Sie in AEM Assets (auf dem lokalen oder verwalteten Dienst) zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
    ![](assets/publishing-status.png)
 
+* Navigieren Sie in AEM Assets als Cloud Service zu **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Berichte]**.
+
+   Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]** und wählen Sie **[!UICONTROL Veröffentlichen]**, um einen Veröffentlichungsbericht zu erstellen.
+
+   ![](assets/create-publish-report.png)
+
+   Geben Sie **[!UICONTROL Title]** und **[!UICONTROL Description]** ein, wählen Sie dann den **[!UICONTROL Ordnerpfad]** des Beitragsordners aus und planen Sie den Bericht für **[!UICONTROL Now]**. Klicken Sie auf **[!UICONTROL Weiter]**.
+
+   ![](assets/create-publish-report1.png)
+
+   Wählen Sie die Feldattribute aus, die Sie im Bericht verwenden möchten, und erstellen Sie sie. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+
+<!--
 >[!NOTE]
 >
->Die Benutzeroberfläche von AEM Assets als Cloud Service kann einen kleinen Unterschied aufweisen, aber der Arbeitsablauf bleibt unverändert.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
