@@ -7,10 +7,10 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal-Benutzerhandbuch
 user-guide-description: Nutzen Sie das AEM Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -36,19 +36,9 @@ ht-degree: 0%
    + [Veröffentlichen von Tags in Brand Portal](using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset-Beschaffung in Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Überblick](using/brand-portal-asset-sourcing.md)
-   + [Konfigurieren der Asset-Beschaffung in AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Konfigurieren von Beitragsordnern in AEM Assets {#configure-contribution-folder}
-      + [Überblick](using/brand-portal-contribution-folder.md)
-      + [Erstellen von Beitragsordnern](using/brand-portal-create-contribution-folder.md)
-      + [Konfigurieren von Eigenschaften von Beitragsordnern](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Hochladen von Grundlinien-Assets](using/brand-portal-upload-baseline-assets.md)
-      + [Veröffentlichen von Beitragsordnern in Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Verwenden der Asset-Beschaffung in Brand Portal {#using-asset-sourcing}
-      + [Überblick](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Herunterladen von Asset-Anforderungen](using/brand-portal-download-asset-requirements.md)
-      + [Hochladen von Assets in den Beitragsordner](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Veröffentlichen von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Überblick über die Asset-Beschaffung](using/brand-portal-asset-sourcing.md)
+   + [Konfigurieren des Beitragsordners in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Veröffentlichen von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Freigeben von Assets für Benutzer {#share}
    + [Sammlungen freigeben](using/brand-portal-share-collection.md)
    + [Ordner freigeben](using/brand-portal-sharing-folders.md)
