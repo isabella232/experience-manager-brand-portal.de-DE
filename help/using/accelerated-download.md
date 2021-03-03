@@ -13,12 +13,12 @@ translation-type: tm+mt
 source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 68%
+ht-degree: 91%
 
 ---
 
 
-# Beschleunigen von Downloads in Brand Portal{#guide-to-accelerate-downloads-from-brand-portal}
+# Beschleunigen von Downloads in Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal ermöglicht die Verbesserung der Downloadleistung großer Asset-Dateien durch die Integration mit IBM Aspera Connect, einer Anwendung, die bei Bedarf installiert wird. Die Anwendung nutzt proprietäre Technologie, um TCP-Overheads zu verhindern und Übertragungsgeschwindigkeiten für Asset-Dateien zu verbessern. Diese Integration sorgt für eine Verkürzung der Download-Zeiten.
 
@@ -30,14 +30,14 @@ Die Konfiguration **[!UICONTROL Schneller Download]** ist standardmäßig aktivi
 
 ![](assets/download-settings-new.png)
 
-## Voraussetzungen für die Beschleunigung des Datei-Downloads          {#prerequisites-to-accelerate-file-download}
+## Voraussetzungen für die Beschleunigung des Datei-Downloads {#prerequisites-to-accelerate-file-download}
 
 Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]** und überprüfen Sie, ob die Konfiguration **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist.
-* Stellen Sie sicher, dass Port 33001 (sowohl TCP als auch UDP) auf der Firewall geöffnet ist. Weitere Informationen zu den Voraussetzungen finden Sie unter [IBM Aspera Connect Client-Dokumentation](https://downloads.asperasoft.com/en/documentation/8).
-* [Installieren Sie IBM Aspera Connect 3.9.9 ](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) in der Browsererweiterung unter Verwendung von Administratorberechtigungen.
-* Informationen zur Plattformunterstützung des Aspera-Transfer-Clients finden Sie unter [IBM Aspera Connect Platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Stellen Sie sicher, dass Port 33001 (TCP und UDP) ist in der Firewall geöffnet ist. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
+* [Installieren Sie IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) mit Administratorberechtigungen in den Erweiterungen Ihres Browsers.
+* Informationen zu den vom Aspera Transfer-Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domänen {#download-domains}
 
@@ -56,7 +56,7 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 
 *Die tatsächlichen Ergebnisse variieren aufgrund von Faktoren wie Netzwerkbandbreite, Server-Latenz und Client-Standort. Dabei ist zu berücksichtigen, dass sich der Brand Portal-Server in Oregon (USA) befindet.*
 
-| Client-Standort | Latenz zwischen Client und Server          (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
+| Client-Standort | Latenz zwischen Client und Server (ms) | Geschwindigkeit mit dem Aspera-Dateiübertragungsbeschleuniger (MBit/s) | Mit Aspera-Dateiübertragungsbeschleuniger benötigte Zeit für Download von 2-GB-Datei (in Sekunden) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | USA, Westküste (Nordkalifornien) | 18 | 36 | 57 |
 | USA, Westen (Oregon) | 42 | 36 | 57 |
@@ -71,27 +71,27 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 
 So laden Sie Assets schneller von Brand Portal herunter:
 
-1. Melden Sie sich bei Ihrem Markenportal-Mandanten an. Standardmäßig wird die Ansicht **[!UICONTROL Files]** geöffnet, die alle veröffentlichten Assets und Ordner enthält.
+1. Melden Sie sich bei Ihrem Brand Portal-Mandanten an. Standardmäßig wird die Ansicht **[!UICONTROL Dateien]** geöffnet, die alle veröffentlichten Assets und Ordner enthält.
 
    Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie die Assets oder Ordner aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Download]**.
+   * Wählen Sie die Assets aus, die Sie herunterladen möchten. Klicken Sie oben in der Symbolleiste auf das Symbol **[!UICONTROL Herunterladen]**.
 
       ![select-multiple-assets](assets/select-assets-new.png)
 
-   * Um bestimmte Asset-Darstellungen eines Assets herunterzuladen, halten Sie den Mauszeiger über das Asset und klicken Sie auf das Symbol **[!UICONTROL Herunterladen]**, das in den Miniaturbildern der Schnellaktion verfügbar ist.
+   * Um bestimmte Ausgabedarstellungen eines Assets herunterzuladen, halten Sie den Mauszeiger über das Asset und klicken Sie in den Schnellzugriff-Miniaturansichten auf das Symbol **[!UICONTROL Herunterladen]**.
 
       ![select-asset](assets/select-asset.png)
 
-1. Das Dialogfeld **[!UICONTROL Download]**, in dem alle ausgewählten Assets aufgelistet sind, wird geöffnet.
+1. Das Dialogfeld **[!UICONTROL Herunterladen]** mit allen ausgewählten Assets wird geöffnet.
 
    Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen.]**
 
-   Die Downloadschaltfläche gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
+   Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld zum Herunterladen von Assets mit IBM Aspera Connect angezeigt.
+1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld zum Herunterladen von Assets mit IBM Aspera Connect angezeigt.
 
    Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert ist oder die vorhandene Version veraltet ist, werden Sie aufgefordert, [den Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) zu installieren.
 
@@ -105,17 +105,17 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
 1. Nachdem der Client erfolgreich installiert wurde, aktualisieren Sie die Browser-Seite und starten Sie die Download-Schritte erneut.
 
-1. Um weiterhin **[!UICONTROL Schnelles Herunterladen]** zu verwenden, klicken Sie auf **[!UICONTROL Zulassen]**. Alle ausgewählten Darstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
+1. Um **[!UICONTROL Schneller Download]** weiterhin zu verwenden, klicken Sie auf **[!UICONTROL Erlauben]**. Alle ausgewählten Ausgabedarstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
    Bei erfolgreichem Abschluss des Downloads zeigt das Dialogfeld das Verzeichnis auf dem System des Benutzers an, in das die Assets heruntergeladen wurden.
 
    ![](assets/aspera-download-2.png)
 
-   Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Fast Download]** verweigert wird oder fehlschlägt, füllt das System eine Fehlermeldung aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
+   Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Schneller Download]** verweigert wird oder fehlschlägt, erstellt das System eine Fehlermeldung. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
 >[!NOTE]
 >
->Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Darstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+>Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -187,7 +187,7 @@ Um die Funktion für beschleunigte Downloads in Microsoft Edge zu verwenden, mü
 1. Klicken Sie auf **[!UICONTROL Zone vertrauenswürdiger Sites]** und dann auf **[!UICONTROL Sites]**.
 1. Entfernen Sie die Brand Portal-Website aus der Liste.
 
-## Voreinstellungen für den Aspera Connect-Client           {#aspera-connect-client-preferences}
+## Voreinstellungen für den Aspera Connect-Client  {#aspera-connect-client-preferences}
 
 Im IBM Aspera Connect-Client können Sie einige nützliche Voreinstellungen vornehmen, indem Sie mit der rechten Maustaste auf das Symbol klicken und **[!UICONTROL Voreinstellungen]** auswählen.
 
@@ -201,7 +201,7 @@ Außerdem kann der Aspera Connect-Client so konfiguriert werden, dass er automat
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Beheben von Problemen mit der Download-Beschleunigung    {#troubleshoot-issues-with-download-acceleration}
+## Beheben von Problemen mit der Download-Beschleunigung  {#troubleshoot-issues-with-download-acceleration}
 
 Wenn die Download-Beschleunigung bei Ihnen nicht funktioniert, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
 
