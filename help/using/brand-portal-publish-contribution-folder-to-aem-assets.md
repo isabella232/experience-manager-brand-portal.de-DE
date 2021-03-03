@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 76%
+source-wordcount: '1025'
+ht-degree: 74%
 
 ---
 
@@ -43,15 +43,24 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
 1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
-1. Klicken Sie auf **[!UICONTROL Eigenschaften]** ![](assets/properties.png). Das Eigenschaftenfenster wird geöffnet und zeigt Details zum Asset-Beitragsordner an.
-   ![](assets/download-asset-requirement1.png)
-1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung herunterladen]**![](assets/download.png), um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL Eigenschaften]**. Das Eigenschaftenfenster mit den Details zum Beitragsordner wird geöffnet.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Klicken Sie auf die Option **[!UICONTROL Download-Brief]**, um das Asset-Anforderungs-Dokument auf Ihren lokalen Computer herunterzuladen.
+
+   ![](assets/download.png)
+
 1. Gehen Sie zurück zum Brand Portal-Dashboard.
 1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**. Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
 1. Sie können den Ordner **[!UICONTROL FREIGEGEBEN]** mit allen Grundlinien-Assets auf Ihren lokalen Computer herunterladen.
-Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Symbol **Herunterladen** ![](assets/download.png) klicken, um einzelne Dateien/Ordner herunterzuladen.
-   ![](assets/download-asset-requirement3.png)
+Sie können auch den Ordner **[!UICONTROL SHARED]** öffnen und auf das Symbol **Herunterladen** klicken, um einzelne Dateien/Ordner herunterzuladen.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Sehen sie sich die Kurzbeschreibung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen..
 
@@ -82,15 +91,15 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
 1. Klicken Sie auf den **[!UICONTROL Ordner NEU]**.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Dateien]**, um einzelne Dateien oder Ordner (.zip) mit mehreren Assets hochzuladen.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Suchen Sie nach Assets (Dateien/Ordner) und laden Sie sie in den Ordner **[!UICONTROL NEU]** hoch.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, veröffentlichen Sie den Beitragsordner in AEM Assets.
 
@@ -110,7 +119,7 @@ Vergewissern Sie sich, dass Sie die Asset-Anforderungen erfüllt haben, und lade
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsbenachrichtigung an den Brand Portal-Benutzer und an Brand Portal-Administratoren gesendet:
 1. **In Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
@@ -129,21 +138,17 @@ Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beit
 
    ![](assets/contribution-folder-status.png)
 
-* Navigieren Sie in AEM Assets (auf dem lokalen oder verwalteten Dienst) zu **[!UICONTROL Tools]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+* Navigieren Sie in AEM Assets (auf dem lokalen oder verwalteten Dienst) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
    ![](assets/publishing-status.png)
 
-* Navigieren Sie in AEM Assets als Cloud Service zu **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Berichte]**.
+* Navigieren Sie in AEM Assets als Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
 
-   Klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]** und wählen Sie **[!UICONTROL Veröffentlichen]**, um einen Veröffentlichungsbericht zu erstellen.
+   Sie können auch direkt in der globalen Navigation zu **[!UICONTROL Jobs]** navigieren.
 
-   ![](assets/create-publish-report.png)
+   Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets vom Markenportal nach AEM Assets als Cloud Service.
 
-   Geben Sie **[!UICONTROL Title]** und **[!UICONTROL Description]** ein, wählen Sie dann den **[!UICONTROL Ordnerpfad]** des Beitragsordners aus und planen Sie den Bericht für **[!UICONTROL Now]**. Klicken Sie auf **[!UICONTROL Weiter]**.
-
-   ![](assets/create-publish-report1.png)
-
-   Wählen Sie die Feldattribute aus, die Sie im Bericht verwenden möchten, und erstellen Sie sie. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
