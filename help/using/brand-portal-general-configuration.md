@@ -1,8 +1,8 @@
 ---
 title: Verwalten allgemeiner Mandantenkonfigurationen
 seo-title: Verwalten allgemeiner Mandantenkonfigurationen
-description: Konfigurieren Sie die Downloadbeschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets von Mandanten zu löschen.
-seo-description: Konfigurieren Sie die Downloadbeschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets von Mandanten zu löschen.
+description: Konfigurieren Sie die Download-Beschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets auf Mandanten zu löschen.
+seo-description: Konfigurieren Sie die Download-Beschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets auf Mandanten zu löschen.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -39,7 +39,7 @@ Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Ei
 
 **D** Konfiguration, die Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern und Gastbenutzern) gestattet, die Ordnerhierarchie (vom Stamm) der freigegebenen Ordner anzuzeigen. (Die Option ist standardmäßig deaktiviert.)
 
-## Aktivieren/Deaktivieren der allgemeinen Konfigurationen      {#enable-disable-general-configurations}
+## Aktivieren/Deaktivieren der allgemeinen Konfigurationen {#enable-disable-general-configurations}
 
 So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
@@ -50,7 +50,7 @@ So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 1. **[!UICONTROL Speichern]** Sie die Änderungen.
 1. Melden Sie sich ab, um die Änderungen zu übernehmen.
 
-## Löschen von Assets in Brand Portal durch Administratoren zulassen       {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Löschen von Assets in Brand Portal durch Administratoren zulassen  {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 Mit der Konfiguration **[!UICONTROL Löschen von Assets in Brand Portal durch Administratoren zulassen]** können Unternehmen Administratoren erlauben, Assets und Ordner aus Brand Portal zu löschen.
 
@@ -68,6 +68,6 @@ Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Smart-S
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 -->
 
-## Aktivieren der Ordnerhierarchie      {#enable-folder-hierarchy}
+## Aktivieren der Ordnerhierarchie  {#enable-folder-hierarchy}
 
 Mit der Konfiguration [[!UICONTROL Ordnerhierarchie aktivieren]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) können Administratoren steuern, wie Benutzer ohne Administratorrechte (Bearbeiter, Betrachter und Gastbenutzer) die freigegebenen Ordner nach der Anmeldung sehen.
