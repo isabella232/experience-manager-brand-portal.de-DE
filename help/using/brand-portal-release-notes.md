@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 55%
+source-wordcount: '580'
+ht-degree: 54%
 
 ---
 
@@ -27,7 +27,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021,02,0 |
-| Datum  | Februar 2021 |
+| Datum | Februar 2021 |
 
 ## Überblick {#overview}
 
@@ -91,6 +91,13 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 * Inkonsistentes Verhalten tritt auf, wenn ein Asset (Miniaturansicht oder Webdarstellung) über einen Freigabelink heruntergeladen wird.
 
 Siehe [Neue Funktionen im Markenportal 2021.02.0](whats-new.md).
+
+
+### Bekannte Probleme {#known-issues}
+
+Diese Version enthält die folgenden bekannten Probleme:
+
+* Die Benutzer erhalten keine E-Mail-Benachrichtigungen für den Asset Sourcing-Workflows.
 
 <!--
 ### Known Issues {#known-issues}
