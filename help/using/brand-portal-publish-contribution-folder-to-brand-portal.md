@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 78%
 
 ---
@@ -41,9 +41,12 @@ Der AEM-Benutzer führt beim Konfigurieren eines Beitragsordners die folgenden A
 AEM-Administratoren und Benutzer ohne Administratorrechte, die zum Erstellen eines neuen Ordners berechtigt sind, können in AEM Assets einen Beitragsordner erstellen.
 Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner des Typs Asset-Beitrag und stellen Sie sicher, dass der neu erstellte Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar ist.  Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens SHARED und NEW im Beitragsordner erstellt werden.
 
+
 >[!NOTE]
 >
 >Sie können mehrere Beitragsordner in einem Ordner erstellen. Erstellen Sie keinen Beitragsordner in einem anderen Beitragsordner.
+
+Sie können die Eigenschaften des Beitragsordners separat konfigurieren und den Beitragsordner erstellen. In diesem Beispiel konfigurieren wir die Eigenschaften separat.
 
 **Erstellen eines Beitragsordners:**
 1. Melden Sie sich bei Ihrer AEM Assets-Instanz an.
@@ -68,7 +71,6 @@ Wir empfehlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu b
 
    ![](assets/contribution-folder.png)
 
-Sie können auch die Eigenschaften des Beitragsordners beim Erstellen des Beitragsordners konfigurieren.
 
 ## Konfigurieren von Eigenschaften von Beitragsordnern {#configure-contribution-folder-properties}
 
