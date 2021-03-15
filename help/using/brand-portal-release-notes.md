@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 54%
 
 ---
@@ -27,7 +27,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021,02,0 |
-| Datum | Februar 2021 |
+| Datum | . Februar 2021 |
 
 ## Überblick {#overview}
 
@@ -39,9 +39,11 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 Diese Version umfasst die folgenden neuen Funktionen:
 
+* AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird.
+
 * Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Dadurch können Benutzer des Markenportals Assets in die zulässigen Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen.
 
-* Unter **[!UICONTROL Download-Einstellungen]** wurde eine zusätzliche Einstellung für **[!UICONTROL Asset-Download]** eingeführt. Beim Herunterladen der Ordner, Sammlungen oder beim Herunterladen von Assets wird für jedes Asset ein separater Ordner erstellt. Siehe [Download-Einstellungen](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* Unter **[!UICONTROL Download-Einstellungen]** wurde eine zusätzliche Einstellung für **[!UICONTROL Asset-Download]** eingeführt. Beim Herunterladen der Ordner, Sammlungen oder beim Herunterladen von Assets wird für jedes Asset ein separater Ordner erstellt.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
