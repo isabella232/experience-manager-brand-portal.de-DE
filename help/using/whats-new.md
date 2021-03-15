@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
-ht-degree: 88%
+source-wordcount: '6125'
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0 ist eine Erweiterung, die den Automatisierungsarbeitsabla
 
 ### Markenportal-Automatisierung auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird. Ein Cloud Manager-Benutzer Trigger den Arbeitsablauf für Aktivierungen, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
+AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird.
 
 Zuvor wurde AEM Assets als Cloud Service manuell mit Brand Portal mithilfe der Adobe Developer Console konfiguriert.
+
+Ein Cloud Manager-Benutzer Trigger den Arbeitsablauf für Aktivierungen, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
+
+So aktivieren Sie das Markenportal auf Ihrem AEM Assets als Cloud Service-Instanz:
+
+1. Melden Sie sich bei Adobe Cloud Manager an und navigieren Sie zu **[!UICONTROL Umgebung]**.
+1. Wählen Sie die Umgebung (einzeln) aus der Liste aus, um die Details zur Umgebung Ansicht. Sobald Sie die mit dem Markenportal verknüpfte Umgebung gefunden haben, klicken Sie auf die Schaltfläche **[!UICONTROL Markenportal aktivieren]**, um den Arbeitsablauf für die Aktivierung zu starten.
+1. Sobald der Pächter des Markenportals aktiviert ist, wird der Status aktiviert.
+
+![Status der Ansicht](assets/create-environment5.png)
 
 Siehe [Aktivieren des Markenportals auf AEM Assets als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
