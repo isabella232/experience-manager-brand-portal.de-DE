@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 92%
+source-wordcount: '6069'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,23 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 ist eine Version, die die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service, Verbesserungen beim Herunterladen von Assets und wichtige Fehlerbehebungen vereinfacht. Dadurch können Administratoren das standardmäßige Download-Verhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 ist eine Erweiterung, die den Automatisierungsarbeitsablauf für das Markenportal auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, Verbesserungen beim Herunterladen von Assets ermöglicht und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
+### Markenportal-Automatisierung auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
+
+AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird. Ein Cloud Manager-Benutzer Trigger den Arbeitsablauf für Aktivierungen, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
+
+Zuvor wurde AEM Assets als Cloud Service manuell mit Brand Portal mithilfe der Adobe Developer Console konfiguriert, die ein Adobe Identity Management Services (IMS)-Token zur Autorisierung des Markenportal-Mandanten abruft.
+
+Siehe [Aktivieren des Markenportals auf AEM Assets als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
 ### Asset-Sourcing unter AEM Assets als Cloud Service {#asset-sourcing-on-cloud-service}
 
-Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Die Funktionen sind standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen. Die Administratoren können den Beitrag der Markenportal-Benutzer überprüfen und genehmigen, um sie weiter an andere Markenportal-Benutzer zu verteilen.
+Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Die Funktion ist standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen. Die Administratoren können den Beitrag der Markenportal-Benutzer überprüfen und genehmigen, um sie weiter an andere Markenportal-Benutzer zu verteilen.
 
 Früher war Asset Sourcing nur auf AEM Assets verfügbar (lokal und verwaltet).
+
+Siehe [Asset-Beschaffung im Markenportal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Asset-Download {#asset-download-setting}
 
@@ -52,6 +61,7 @@ Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigi
 
 ![](assets/download-settings-new.png)
 
+Siehe [Herunterladen von Assets aus dem Markenportal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -178,7 +188,7 @@ Mit Dokument-Viewer haben die Brand Portal-Benutzer jetzt die Möglichkeit, Seit
 
 >[!NOTE]
 >
->Das Anwendererlebnis in anderen Dokumenten bleibt unverändert.
+>Die Anzeige für andere Dokument-Formate bleibt unverändert.
 
 
 ![](assets/doc-viewer.png)
@@ -223,7 +233,7 @@ In Brand Portal 6.4.6 wurde der Autorisierungskanal zwischen AEM Assets und Bran
 
    -->
 
-Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
+Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sich je nach Ihrer AEM-Version und abhängig davon, ob Sie zum ersten Mal eine Konfiguration durchführen oder die vorhandenen Konfigurationen aktualisieren:
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -339,7 +349,7 @@ Auch gilt Folgendes:
 
 ## Änderungen in Version 6.4.3 {#what-changed-in}
 
-Version 6.4.3 von Brand Portal bietet Unternehmen neben der Mandanten-ID einen alternativen Alias für die Brand Portal-Zugriffs-URL, eine neue Ordnerhierarchiekonfiguration, Verbesserungen bei der Videounterstützung, die geplante Veröffentlichung aus der AEM-Autoreninstanz in Brand Portal, betriebliche Verbesserungen und die Umsetzung von Kundenwünschen.
+Das Markenportal 6.4.3 konzentriert sich auf — Bereitstellung eines alternativen Aliasnamens zusätzlich zu der Pächter-ID in der URL für den Zugriff auf das Markenportal, neue Konfiguration der Ordnerhierarchie, Verbesserungen der Videounterstützung, geplante Veröffentlichung von der AEM Author-Instanz auf das Markenportal, operationelle Verbesserungen — und berücksichtigt Kundenanforderungen.
 
 ### Ordnerhierarchienavigation für Benutzer ohne Administratorrechte
 
