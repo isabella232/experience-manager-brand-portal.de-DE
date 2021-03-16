@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 87%
 
 ---
@@ -24,15 +24,15 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 ist eine Erweiterung, die den Automatisierungsarbeitsablauf für das Markenportal auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, Verbesserungen beim Herunterladen von Assets ermöglicht und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 ist eine Erweiterung, die den Arbeitsablauf für die Aktivierung von Markenportalen auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, das Herunterladen von Assets verbessert und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
 
-### Markenportal-Automatisierung auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
+### Aktivieren des Markenportals auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird.
+AEM Assets als Cloud Service ist jetzt berechtigt, über eine vorkonfigurierte Brand Portal-Instanz zu verfügen. Der Cloud Manager-Benutzer kann das Markenportal auf dem AEM Assets als Cloud Service aktivieren.
 
 Zuvor wurde AEM Assets als Cloud Service manuell mit Brand Portal mithilfe der Adobe Developer Console konfiguriert.
 
-Ein Cloud Manager-Benutzer Trigger den Arbeitsablauf für Aktivierungen, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
+Der Cloud Manager-Benutzer Trigger den Arbeitsablauf für die Aktivierung, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
 
 So aktivieren Sie das Markenportal auf Ihrem AEM Assets als Cloud Service-Instanz:
 
