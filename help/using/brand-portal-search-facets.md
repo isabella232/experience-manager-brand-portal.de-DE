@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: 'Administrator  '
+role: Administrator
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141,cd0e6c36-aa23-4a50-aca6-81ca365ce447
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: 1185de93369fc80231e64e3b5d81ac73837c153f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 96%
+source-wordcount: '1298'
+ht-degree: 100%
 
 ---
-
 
 # Verwenden benutzerdefinierter Suchfacetten {#use-custom-search-facets}
 
@@ -73,9 +73,9 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]** Sucheigenschafte
 
    >[!NOTE]
    >
-   >Im Markenportal werden alle Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp` beginnen) in `jcrcontent/metadata` von `dam:asset` standardmäßig indiziert.
+   >In Brand Portal werden alle Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp` beginnen) in `jcrcontent/metadata` von `dam:asset` standardmäßig indiziert.
    >
-   >Jede indizierte Eigenschaft kann beim Erstellen einer Eigenschaftsvorhersage verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchergebnisoption für eine nicht indizierte Abfrage möglicherweise kein Suchergebnis.
+   >Jede indizierte Eigenschaft kann beim Erstellen eines Eigenschaftsprädikats verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchanfrage für eine nicht indizierte Eigenschaft möglicherweise kein Suchergebnis.
 
    ![](assets/title-prop.png)
 
