@@ -9,14 +9,14 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
+exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '6138'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
-
 
 # Neue Funktionen in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
@@ -24,7 +24,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 ist eine Erweiterung, die den Arbeitsablauf für die Aktivierung von Markenportalen auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, das Herunterladen von Assets verbessert und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde ebenfalls geändert, um die aktiven Benutzer des Markenportals wiederzugeben. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 ist eine Erweiterung, die den Arbeitsablauf für die Aktivierung von Markenportalen auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, das Herunterladen von Assets verbessert und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Der **[!UICONTROL Verwendungsbericht]** in Brand Portal wurde auch geändert und spiegelt nun die aktiven Brand Portal-Benutzer wider. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ### Aktivieren des Markenportals auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
 
@@ -44,30 +44,30 @@ So aktivieren Sie das Markenportal auf Ihrem AEM Assets als Cloud Service-Instan
 
 Siehe [Aktivieren des Markenportals auf AEM Assets als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
-### Asset-Sourcing unter AEM Assets als Cloud Service {#asset-sourcing-on-cloud-service}
+### Asset-Beschaffung in AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Die Funktion ist standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen. Die Administratoren können den Beitrag der Markenportal-Benutzer überprüfen und genehmigen, um sie weiter an andere Markenportal-Benutzer zu verteilen.
+Die Asset-Beschaffungsfunktion wird jetzt in AEM Assets as a Cloud Service unterstützt. Die Funktion ist standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und diese von Brand Portal in AEM Assets as a Cloud Service veröffentlichen. Die Administratoren können die Beiträge der Brand Portal-Benutzer überprüfen und genehmigen, um sie weiter an andere Brand Portal-Benutzer zu verteilen.
 
-Früher war Asset Sourcing nur auf AEM Assets verfügbar (lokal und verwaltet).
+Zuvor war die Asset-Beschaffung nur in AEM Assets (On-Premise und Managed Service) verfügbar.
 
 Siehe [Asset-Beschaffung im Markenportal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Asset-Download {#asset-download-setting}
 
-Zusätzlich zu den vorhandenen **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren jetzt die Einstellung **[!UICONTROL Asset-Download]** konfigurieren. Mit dieser Einstellung können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets (über 20 Assets) auf Mietebene steuern.
+Zusätzlich zu den vorhandenen **[!UICONTROL Download-Einstellungen]** können die Brand Portal-Administratoren jetzt die Einstellung **[!UICONTROL Asset-Download]** konfigurieren. Mit dieser Einstellung können die Administratoren das Standard-Download-Verhalten von Ordnern, Sammlungen und den Massen-Download von Assets (mehr als 20 Assets) auf Mandantenebene steuern.
 
 <!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Früher wurden alle Asset-Darstellungen direkt in einen ZIP-Ordner heruntergeladen. Das Dialogfeld **[!UICONTROL Herunterladen]** wurde für Ordner und Sammlungen übersprungen. Es gab keine Methode, um das Downloadverhalten der Assets zu steuern, sodass es schwierig war, aus einer großen Anzahl von Downloads nach einer bestimmten Darstellung zu suchen.
+Zuvor wurden alle Asset-Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen. Das Dialogfeld **[!UICONTROL Herunterladen]** wurde für Ordner und Sammlungen übersprungen. Es gab keine Methode zur Steuerung des Asset-Download-Verhaltens, sodass es schwierig war, in einer großen Anzahl von Downloads nach einer bestimmten Ausgabedarstellung zu suchen.
 
-**[!UICONTROL Die]** Einstellung zum Herunterladen von Assets bietet jetzt eine Option, um beim Herunterladen der Ordner, Sammlungen oder des Massendownloads von Assets einen separaten Ordner für jedes Asset zu erstellen.
+Die Einstellung **[!UICONTROL Asset-Download]** bietet jetzt die Möglichkeit, beim Herunterladen von Ordnern, Sammlungen oder beim Massen-Download von Assets für jedes Asset einen eigenen Ordner zu erstellen.
 
-Wenn die Einstellung **[!UICONTROL Asset-Download]** deaktiviert ist, werden die Ordner oder Sammlungen in einen ZIP-Ordner heruntergeladen, der alle Asset-Darstellungen im selben Ordner enthält, mit Ausnahme des Downloads der Assets über den Link &quot;Teilen&quot;.
+Wenn die Einstellung **[!UICONTROL Asset-Download]** deaktiviert ist, werden die Ordner oder Sammlungen in einen ZIP-Ordner heruntergeladen, der alle Asset-Ausgabedarstellungen im selben Ordner enthält, mit Ausnahme des Downloads der Assets über den Freigabe-Link.
 
 
-Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**. Die Administratoren können die Einstellung **[!UICONTROL Asset-Download]** aktivieren, um beim Herunterladen von Ordnern, Sammlungen und dem Massendownload von Assets einen separaten Ordner für jedes Asset zu erstellen.
+Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**. Die Administratoren können die Einstellung **[!UICONTROL Asset-Download]** aktivieren, um beim Herunterladen von Ordnern, Sammlungen und beim Massen-Download von Assets für jedes Asset einen eigenen Ordner zu erstellen.
 
 ![](assets/download-settings-new.png)
 
@@ -78,17 +78,17 @@ Siehe [Herunterladen von Assets aus dem Markenportal](https://experienceleague.a
 The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
 -->
 
-### Nutzungsbericht {#usage-report}
+### Verwendungsbericht {#usage-report}
 
-Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde geändert, um nur die aktiven Markenportalbenutzer wiederzugeben. Die Markenportalbenutzer, die keinem Profil in der Admin Console zugeordnet sind, gelten als inaktive Benutzer und werden nicht im **[!UICONTROL Gebrauchsbericht]** angezeigt.
+Der **[!UICONTROL Verwendungsbericht]** in Brand Portal wurde geändert, sodass er nur die aktiven Brand Portal-Benutzer widerspiegelt. Die Brand Portal-Benutzer, die keinem Produktprofil in Admin Console zugewiesen sind, gelten als inaktive Benutzer und werden im **[!UICONTROL Verwendungsbericht]** nicht angezeigt.
 
-Früher wurden sowohl aktive als auch inaktive Benutzer im Nutzungsbericht angezeigt.
+Zuvor wurden sowohl aktive als auch inaktive Benutzer im Verwendungsbericht angezeigt.
 
 ![](assets/usage-report.png)
 
 ## Änderungen in Version 2020.10.0 {#what-changed-in-oct-2020}
 
-Brand Portal 2020.10.0 liefert Verbesserungen, die hauptsächlich das Download-Erlebnis vereinfachen, außerdem liefert die Version wichtige Fehlerbehebungen. Zu den Verbesserungen gehören ein neuer und verbesserter Workflow für den Asset-Download, zusätzliche Optionen zum Ausschließen von Ausgabedarstellungen, direkter Download aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]**, Konfiguration für Zugriffs- und Download-Rechte für bestimmte Benutzergruppen sowie einfache Navigation zu Dateien, Sammlungen und freigegebenen Links von allen Brand Portal-Seiten aus. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 2020.10.0 liefert Verbesserungen, die hauptsächlich das Download-Erlebnis vereinfachen, außerdem liefert die Version wichtige Fehlerbehebungen. Zu den Verbesserungen gehören ein neuer und verbesserter Workflow für den Asset-Download, zusätzliche Optionen zum Ausschließen von Ausgabedarstellungen, direkter Download aus dem Bedienfeld **[!UICONTROL Ausgabedarstellungen]**, Konfiguration für Zugriffs- und Download-Rechte für bestimmte Benutzergruppen sowie einfache Navigation zu Dateien, Sammlungen und freigegebenen Links von allen Brand Portal-Seiten aus. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 
 ### Vereinfachtes Download-Erlebnis {#download-dialog}
@@ -114,7 +114,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkei
 * Erstellen eines separaten Ordners für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
-Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://docs.adobe.com/content/help/de_DE/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -147,13 +147,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Download-Einstellungen {#download-permissions} konfigurieren
+### Download-Einstellungen konfigurieren {#download-permissions}
 
-Zusätzlich zu den vorhandenen Konfigurationen für **[!UICONTROL Download]** können die Markenportal-Administratoren auch Einstellungen für verschiedene Benutzergruppen konfigurieren, die zur Ansicht verwendet werden sollen, und (oder) das Originalasset und seine Darstellungen von der Seite mit den Asset-Details herunterladen.
+Zusätzlich zu den vorhandenen **[!UICONTROL Download]**-Konfigurationen können Brand Portal-Administratoren auch Einstellungen für verschiedene Benutzergruppen für die Anzeige und/oder den Download des Original-Assets und seiner Ausgabedarstellungen von der Asset-Detailseite konfigurieren.
 
 Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**.
 
-Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansichten- und (oder) Downloadeinstellungen für die Benutzergruppen zu konfigurieren.
+Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansicht und (oder) die Download-Einstellungen für die Benutzergruppen zu konfigurieren.
 
 Früher konnte mit den Einstellungen lediglich eingeschränkt werden, welche Benutzergruppen das Original-Asset herunterladen konnten.
 
@@ -182,7 +182,7 @@ Siehe [Konfigurieren des Asset-Downloads](https://docs.adobe.com/content/help/de
 
 ## Änderungen in Version 6.4.7 {#what-changed-in-647}
 
-Brand Portal 6.4.7 führt den Dokument-Viewer ein, verbessert die Leistung beim Herunterladen von Assets und enthält wichtige Fehlerbehebungen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Brand Portal 6.4.7 führt den Dokument-Viewer ein, verbessert die Leistung beim Herunterladen von Assets und enthält wichtige Fehlerbehebungen. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -261,9 +261,9 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de_DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 und höher)** | [Konfiguration erstellen](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgrade der Konfiguration](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Support kontaktieren | Support kontaktieren |
 
@@ -271,7 +271,7 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 >
 >Es wird empfohlen, Ihre AEM-Instanz auf das neueste Service Pack zu aktualisieren.
 
-Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 Siehe [Häufig gestellte Fragen zum Brand Portal](brand-portal-faqs.md).
 
@@ -284,7 +284,7 @@ Brand Portal 6.4.5 ermöglicht es Brand Portal-Benutzern (externe Agenturen/Team
 
 Mit der Asset-Beschaffung können AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens „NEU“ und „FREIGEGEBEN“ im neu erstellten **Beitragsordner** erstellt werden.
 
-Der AEM-Benutzer definiert dann die Anforderung, indem er eine Kurzbeschreibung der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird.
+Der AEM-Benutzer definiert dann die Anforderung, indem er eine Zusammenfassung der Asset-Typen, die dem Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird.
 
 
 Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der AEM-Autorenumgebung veröffentlichen. Bitte beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in AEM Assets angezeigt werden.
@@ -315,7 +315,7 @@ Nachdem der Upload in den Ordner **NEU** abgeschlossen ist, können Brand Portal
 
 ## Änderungen in Version 6.4.4 {#what-changed-in-644}
 
-Version 6.4.4 von Brand Portal konzentriert sich auf Verbesserungen der Textsuche und von Kunden häufig gewünschte Funktionen. Siehe aktuelle [Brand Portal-Versionshinweise](brand-portal-release-notes.md).
+Version 6.4.4 von Brand Portal konzentriert sich auf Verbesserungen der Textsuche und von Kunden häufig gewünschte Funktionen. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ### Verbesserungen der Suche
 
@@ -404,11 +404,11 @@ Beachten Sie, dass die Suche in diesen Ordnern nur Suchergebnisse aus Assets zur
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Unterstützung von Dynamic Media Video-Ausgabeformaten
+### Unterstützung von Dynamic Media Video-Ausgabedarstellungen
 
-Benutzer, deren AEM-Autoreninstanz sich im Dynamic Media-Hybridmodus befindet, können – zusätzlich zu den Originalvideodateien – Dynamic Media-Ausgabeformate in der Vorschau ansehen und herunterladen.
+Benutzer, deren AEM-Autoreninstanz sich im Dynamic Media-Hybridmodus befindet, können – zusätzlich zu den Originalvideodateien – Dynamic Media-Ausgabedastellungen in der Vorschau ansehen und herunterladen.
 
-Um Dynamic Media Ausgabeformate als Vorschau für bestimmte Mandantenkonten anzeigen (oder herunterladen) zu können, müssen Administratoren die **Dynamic Media-Konfiguration** (Videodienst-URL (DM-Gateway-URL) und Registrierungs-ID zum Abrufen des dynamischen Videos) in der Konfiguration **Video** im Admin Tools-Bereich angeben.
+Um Dynamic Media Ausgabedarstellungen als Vorschau für bestimmte Mandantenkonten anzeigen (oder herunterladen) zu können, müssen Administratoren die **Dynamic Media-Konfiguration** (Videodienst-URL (DM-Gateway-URL) und Registrierungs-ID zum Abrufen des dynamischen Videos) in der Konfiguration **Video** im Admin Tools-Bereich angeben.
 
 
 Vorschau der Dynamic Media-Videos ist möglich auf/in:
@@ -455,8 +455,8 @@ Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal
 
 In der Version wurde der Download vereinfacht, sodass in den folgenden Situationen weniger Klicks notwendig sind und weniger Warnungen angezeigt werden:
 
-* Entscheidung, dass nur die Ausgabeformate heruntergeladen werden (und nicht die Original-Assets).
-* Herunterladen der Assets, wenn der Zugriff auf die Original-Ausgabeformate eingeschränkt ist.
+* Entscheidung, dass nur die Ausgabedarstellungen heruntergeladen werden (und nicht die Original-Assets).
+* Herunterladen der Assets, wenn der Zugriff auf die Original-Ausgabedarstellungen eingeschränkt ist.
 
 ## Änderungen in Version 6.4.2 {#what-changed-in-1}
 
@@ -488,14 +488,14 @@ Der Bericht enthält den Anzeigenamen, die E-Mail-IDs, die Rollen (Admin, Betrac
 
 ![](assets/user-logins-1.png)
 
-### Zugriff auf die Original-Ausgabeformate
+### Zugriff auf die Original-Ausgabedarstellungen
 
-Administratoren können den Zugriff auf die Original-Bilddateien (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) einschränken und Zugriff auf Ausgabeformate mit einer niedrigen Auflösung erteilen, die aus Brand Portal oder über einen freigegebenen Link heruntergeladen werden. Dieser Zugriff kann auf Benutzergruppenebene über die Registerkarte „Gruppen“ auf der Seite „Benutzerrollen“ im Admin Tools-Bereich gesteuert werden.
+Administratoren können den Zugriff auf die Original-Bilddateien (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) einschränken und Zugriff auf Ausgabedarstellungen mit einer niedrigen Auflösung erteilen, die aus Brand Portal oder über einen freigegebenen Link heruntergeladen werden. Dieser Zugriff kann auf Benutzergruppenebene über die Registerkarte „Gruppen“ auf der Seite „Benutzerrollen“ im Admin Tools-Bereich gesteuert werden.
 
 ![](assets/access-original-rend-1.png)
 
-* Standardmäßig sind alle Benutzer berechtigt, Original-Ausgabeformate herunterzuladen, da die Option „Zugriff auf Original“ für alle aktiviert ist.
-* Administratoren müssen die Auswahl der entsprechenden Kontrollkästchen deaktivieren, um zu verhindern, dass eine Gruppe von Benutzern auf Original-Ausgabeformate zugreift.
+* Standardmäßig sind alle Benutzer berechtigt, Original-Ausgabedarstellungen herunterzuladen, da die Option „Zugriff auf Original“ für alle aktiviert ist.
+* Administratoren müssen die Auswahl der entsprechenden Kontrollkästchen deaktivieren, um zu verhindern, dass eine Gruppe von Benutzern auf Original-Ausgabedarstellungen zugreift.
 * Falls ein Benutzer Mitglied mehrerer Gruppen ist, eine dieser Gruppen aber über Einschränkungen verfügt, gelten die Einschränkungen für diesen Benutzer.
 * Die Einschränkungen gelten nicht für Administratoren, auch wenn sie Mitglieder von eingeschränkten Gruppen sind.
 * Die Berechtigungen des Benutzers, der Assets als Link freigibt, gelten auch für die Benutzer, die die Assets über die freigegebenen Links herunterladen.
@@ -600,7 +600,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die maximale Größe für ZIP-Downloads bei der Linkfreigabe wurde von 1 GB auf 5 GB erhöht.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabeformate vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -620,7 +620,7 @@ Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links be
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
-Der Bericht „Verwendung“ wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin Tools-Bereich auf **Berichte erstellen/verwalten**.
+Der Verwendungbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
 
