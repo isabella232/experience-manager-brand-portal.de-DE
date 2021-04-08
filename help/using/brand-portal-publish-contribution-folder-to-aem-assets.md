@@ -1,19 +1,19 @@
 ---
-title: Hochladen von Assets und Veröffentlichen des Beitragsordners vom Markenportal nach AEM Assets
-seo-title: Hochladen von Assets und Veröffentlichen des Beitragsordners vom Markenportal nach AEM Assets
-description: Hier erhalten Sie einen Einblick in das Hochladen neuer Assets und Veröffentlichen des Beitragsordners vom Markenportal nach AEM Assets.
-seo-description: Hier erhalten Sie einen Einblick in das Hochladen neuer Assets und Veröffentlichen des Beitragsordners vom Markenportal nach AEM Assets.
+title: Hochladen von Assets und Veröffentlichen des Beitragsordners von Brand Portal aus in AEM Assets
+seo-title: Hochladen von Assets und Veröffentlichen des Beitragsordners von Brand Portal aus in AEM Assets
+description: Hier erhalten Sie einen Einblick in das Hochladen neuer Assets und das Veröffentlichen des Beitragsordners von Brand Portal aus in AEM Assets.
+seo-description: Hier erhalten Sie einen Einblick in das Hochladen neuer Assets und das Veröffentlichen des Beitragsordners von Brand Portal aus in AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können di
 
 ## Herunterladen von Asset-Anforderungen {#download-asset-requirements}
 
-Brand Portal-Benutzer erhalten automatisch E-Mail-/Pulsbenachrichtigungen, sobald ein Beitragsordner vom AEM-Benutzer freigegeben wird. Damit können sie die Kurzbeschreibung (Asset-Anforderungsdokument) sowie die Grundlinien-Assets (Referenzinhalte) aus dem Ordner **FREIGEGEBEN** herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
+Brand Portal-Benutzer erhalten automatisch E-Mail-/Pulsbenachrichtigungen, sobald ein Beitragsordner vom AEM-Benutzer freigegeben wird. Damit können sie die Zusammenfassung (Asset-Anforderungsdokument) sowie die Grundlinien-Assets (Referenzinhalte) aus dem Ordner **FREIGEGEBEN** herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
 
 Der Brand Portal-Benutzer führt die folgenden Aktivitäten aus, um Asset-Anforderungen herunterzuladen:
 
-* **Kurzbeschreibung herunterladen**: Laden Sie die Kurzbeschreibung (Asset-Anforderungsdokument) herunter, die dem Beitragsordner beigefügt ist und Asset-bezogene Informationen wie Elementtyp, Zweck, unterstützte Formate, maximale Asset-Größe usw. enthält.
+* **Mandat herunterladen**: Laden Sie die Zusammenfassung (Asset-Anforderungsdokument) herunter, die dem Beitragsordner beigefügt ist und Asset-bezogene Informationen wie Elementtyp, Zweck, unterstützte Formate, maximale Asset-Größe usw. enthält.
 * **Grundlinien-Assets herunterladen**: Laden Sie die Grundlinien-Assets herunter, mit denen Sie die erforderlichen Asset-Typen verstehen können. Brand Portal-Benutzer können diese Assets als Referenz verwenden, um neue Assets für Beiträge zu erstellen.
 
 Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Portal-Benutzer zur Verfügung stehen, sowie den neu freigegebenen Beitragsordner. In diesem Beispiel hat der Brand Portal-Benutzer nur Zugriff auf den neu erstellten Beitragsordner. Es wird kein anderer bestehender Ordner für den Benutzer freigegeben.
@@ -43,31 +43,31 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
 1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
 1. Wählen Sie den Beitragsordner im Brand Portal-Dashboard aus.
-1. Klicken Sie auf **[!UICONTROL Eigenschaften]**. Das Eigenschaftenfenster mit den Details zum Beitragsordner wird geöffnet.
+1. Klicken Sie auf **[!UICONTROL Eigenschaften]**. Das Fenster „Eigenschaften“ mit den Details zum Beitragsordner wird geöffnet.
 
    ![](assets/properties.png)
 
    ![](assets/download-asset-requirement2.png)
 
-1. Klicken Sie auf die Option **[!UICONTROL Download-Brief]**, um das Asset-Anforderungs-Dokument auf Ihren lokalen Computer herunterzuladen.
+1. Klicken Sie auf die Option **[!UICONTROL Mandat herunterladen]**, um das Asset-Anforderungsdokument auf Ihren lokalen Computer herunterzuladen.
 
    ![](assets/download.png)
 
 1. Gehen Sie zurück zum Brand Portal-Dashboard.
 1. Klicken Sie, um den Beitragsordner zu öffnen. Es werden zwei Unterordner im Beitragsordner angezeigt: **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**. Der Ordner „FREIGEGEBEN“ enthält alle Grundlinien-Assets (Referenzinhalte), die von den Administratoren freigegeben werden.
 1. Sie können den Ordner **[!UICONTROL FREIGEGEBEN]** mit allen Grundlinien-Assets auf Ihren lokalen Computer herunterladen.
-Sie können auch den Ordner **[!UICONTROL SHARED]** öffnen und auf das Symbol **Herunterladen** klicken, um einzelne Dateien/Ordner herunterzuladen.
+Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Symbol **Herunterladen** klicken, um einzelne Dateien/Ordner herunterzuladen.
 
    ![](assets/download.png)
 
    ![](assets/download-asset-requirement4.png)
 
-Sehen sie sich die Kurzbeschreibung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen..
+Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen.
 
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
-Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Benutzer des Markenportals neue Assets erstellen und sie in den Ordner &quot;NEW&quot;im Beitragsordner hochladen.
+Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-Benutzer neue Assets erstellen und sie in den Ordner „NEU“ im Beitragsordner hochladen.
 
 >[!NOTE]
 >
@@ -132,21 +132,21 @@ Sobald die Erstellung eines Beitragsordners erreicht ist, kann der Brand Portal-
 
 ## Status des Veröffentlichungsauftrags {#publishing-job-status}
 
-Es gibt zwei Berichte, die Administratoren zur Ansicht des Status der Asset-Beitragsordner verwenden können, die vom Markenportal nach AEM Assets veröffentlicht wurden.
+Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status der Asset-Beitragsordner anzuzeigen, die von Brand Portal aus in AEM Assets veröffentlicht wurden.
 
-* Navigieren Sie im Markenportal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset Contribution Status]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
+* Navigieren Sie in Brand Portal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
 
    ![](assets/contribution-folder-status.png)
 
-* Navigieren Sie in AEM Assets (auf dem lokalen oder verwalteten Dienst) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+* Navigieren Sie in AEM Assets (On-Premise oder Managed Service) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
    ![](assets/publishing-status.png)
 
-* Navigieren Sie in AEM Assets als Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
+* Navigieren Sie in AEM Assets as a Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
 
-   Sie können auch direkt in der globalen Navigation zu **[!UICONTROL Jobs]** navigieren.
+   Sie können auch direkt über die globale Navigation zu **[!UICONTROL Aufträge]** navigieren.
 
-   Dieser Bericht spiegelt den finalen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets vom Markenportal nach AEM Assets als Cloud Service.
+   Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets aus Brand Portal in AEM Assets as a Cloud Service.
 
    ![](assets/cloud-service-job-status.png)
 
