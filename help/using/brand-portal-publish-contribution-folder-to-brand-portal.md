@@ -1,28 +1,28 @@
 ---
-title: 'Konfigurieren und Veröffentlichen des Beitragsordners von AEM Assets zum Markenportal '
-seo-title: Konfigurieren und Veröffentlichen des Beitragsordners von AEM Assets zum Markenportal
-description: Hier erhalten Sie einen Einblick in die Konfiguration und Veröffentlichung eines Beitragsordners von AEM Assets zum Markenportal.
-seo-description: Hier erhalten Sie einen Einblick in die Konfiguration und Veröffentlichung eines Beitragsordners von AEM Assets zum Markenportal.
+title: 'Konfigurieren und Veröffentlichen des Beitragsordners aus AEM Assets in Brand Portal '
+seo-title: Konfigurieren und Veröffentlichen des Beitragsordners aus AEM Assets in Brand Portal
+description: Hier erhalten Sie einen Einblick in die Konfiguration und Veröffentlichung eines Beitragsordners aus AEM Assets in Brand Portal.
+seo-description: Hier erhalten Sie einen Einblick in die Konfiguration und Veröffentlichung eines Beitragsordners aus AEM Assets in Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# Konfigurieren des Beitragsordners in AEM Assets{#configure-contribution-folder}
+# Konfigurieren von Beitragsordnern in AEM Assets {#configure-contribution-folder}
 
-Bei der gemeinsamen Asset-Beschaffung können AEM-Benutzer (Administratoren und Benutzer ohne Administratorrechte) neue Ordner des Typs **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
+Bei der gemeinsamen Asset-Beschaffung können AEM-Benutzer (Administratoren und Benutzer ohne Administratorrechte) neue Ordner des Typs **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind.  Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden.
 
-Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
+Der AEM-Benutzer definiert dann die Asset-Anforderungen, indem er eine Zusammenfassung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Informationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte Beitragsordner in Brand Portal veröffentlicht wird.
 
 Das folgende Video zeigt, wie Sie einen Beitragsordner in AEM Assets konfigurieren:
 
@@ -33,7 +33,7 @@ Der AEM-Benutzer führt beim Konfigurieren eines Beitragsordners die folgenden A
 * [Erstellen von Beitragsordnern](#create-contribution-folder)
 * [Hochladen von Asset-Anforderungen und Zuweisen von Beitragenden](#configure-contribution-folder-properties)
 * [Hochladen von Grundlinien-Assets](#uplad-new-assets-to-contribution-folder)
-* [Veröffentlichen des Beitragsordners von AEM Assets zum Markenportal](#publish-contribution-folder-to-brand-portal)
+* [Veröffentlichen von Beitragsordnern aus AEM Assets in Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Erstellen von Beitragsordnern {#create-contribution-folder}
 
@@ -46,7 +46,7 @@ Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner des Typs 
 >
 >Sie können mehrere Beitragsordner in einem Ordner erstellen. Erstellen Sie keinen Beitragsordner in einem anderen Beitragsordner.
 
-Sie können die Eigenschaften des Beitragsordners separat konfigurieren und den Beitragsordner erstellen. In diesem Beispiel konfigurieren wir die Eigenschaften separat.
+Sie können die Eigenschaften des Beitragsordners sowohl separat als auch beim Erstellen des Beitragsordners konfigurieren. In diesem Beispiel konfigurieren wir die Eigenschaften separat.
 
 **Erstellen eines Beitragsordners:**
 1. Melden Sie sich bei Ihrer AEM Assets-Instanz an.
@@ -77,17 +77,17 @@ Wir empfehlen, Kleinbuchstaben ohne Leerzeichen zu verwenden, um den Ordner zu b
 Der AEM-Administrator führt beim Konfigurieren der Eigenschaften eines Beitragsordners die folgenden Aktivitäten aus.
 
 * **Beschreibung hinzufügen**: Geben Sie eine allgemeine Beschreibung des Beitragsordners ein.
-* **Kurzbeschreibung hochladen**: Laden Sie das Asset-Anforderungsdokument hoch, das Asset-bezogene Informationen enthält.
-* **hinzufügen Mitarbeiter**: hinzufügen Brand Portal-Benutzer, um ihnen Zugriff auf den Beitragsordner zu gewähren.
+* **Zusammenfassung hochladen**: Laden Sie das Asset-Anforderungsdokument hoch, das Asset-bezogene Informationen enthält.
+* **Beitragende hinzufügen**: Fügen Sie Brand Portal-Benutzer hinzu, um ihnen Zugriff auf den Beitragsordner zu gewähren.
 
-Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bereitgestellt werden, um Beitragende (Brand Portal-Benutzer) dabei zu unterstützen, die Notwendigkeit und Anforderungen des Beitragsordners zu verstehen. Der Administrator lädt ein Asset-Anforderungsdokument hoch, das eine Kurzbeschreibung des Asset-Typs enthält, der dem Beitragsordner hinzugefügt werden soll, sowie Asset-bezogene Informationen, wie z. B. Zweck, Typ der Bilder, maximale Größe usw.
+Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bereitgestellt werden, um Beitragende (Brand Portal-Benutzer) dabei zu unterstützen, die Notwendigkeit und Anforderungen des Beitragsordners zu verstehen. Der Administrator lädt ein Asset-Anforderungsdokument hoch, das eine Zusammenfassung des Asset-Typs enthält, der dem Beitragsordner hinzugefügt werden soll, sowie Asset-bezogene Informationen, wie z. B. Zweck, Typ der Bilder, maximale Größe usw.
 
 **Konfigurieren von Eigenschaften von Beitragsordnern:**
 
 1. Melden Sie sich bei Ihrer AEM Assets-Instanz an.
 
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner.
-1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Eigenschaften]**, um das Fenster &quot;Ordnereigenschaften&quot;zu öffnen.
+1. Wählen Sie den Beitragsordner aus und klicken Sie auf **[!UICONTROL Eigenschaften]**, um das Fenster „Ordnereigenschaften“ zu öffnen.
 
    ![](assets/properties.png)
 
@@ -95,11 +95,11 @@ Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bere
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Asset-Beitrag]**.
 1. Geben Sie eine allgemeine **[!UICONTROL Beschreibung]** des Beitragsordners ein.
-1. Klicken Sie auf **[!UICONTROL Kurzbeschreibung hochladen]**, um von Ihrem lokalen Computer aus zu navigieren und ein **Asset-Anforderungsdokument** hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Zusammenfassung hochladen]**, um von Ihrem lokalen Computer aus zu navigieren und ein **Asset-Anforderungsdokument** hochzuladen.
 
    ![](assets/upload.png)
 
-1. Fügen Sie im Feld **[!UICONTROL Hinzufügen Benutzer]** die Benutzer des Markenportals hinzu, für die Sie den Beitragsordner freigeben möchten. Diese Benutzer können über die Oberfläche des Markenportals auf Inhalte zugreifen und diese in den Beitragsordner hochladen.
+1. Geben Sie im Feld **[!UICONTROL Benutzer hinzufügen]** Brand Portal-Benutzer an, für die Sie den Beitragsordner freigeben möchten. Diese Benutzer können über die Brand Portal-Oberfläche Inhalte in diesem Beitragsordner abrufen oder in ihn hochladen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/contribution-folder-property3.png)
@@ -155,7 +155,7 @@ Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, v
 
 ## Veröffentlichen von Beitragsordnern in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Sobald der Beitragsordner konfiguriert ist, kann der AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus AEM Assets in Brand Portal veröffentlichen. Markenportal-Benutzer, die über die Berechtigung zum Zugriff auf den Beitragsordner verfügen, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail-/Pulsbenachrichtigung.
+Sobald der Beitragsordner konfiguriert ist, kann der AEM-Benutzer (Administratoren/Benutzer ohne Administratorrechte) den Beitragsordner aus AEM Assets in Brand Portal veröffentlichen. Brand Portal-Benutzer, die Zugriff auf den Beitragsordner haben, erhalten nach Abschluss der Veröffentlichungsaktion eine E-Mail-/Pulsbenachrichtigung.
 
 
 **Veröffentlichen des Beitragsordners:**
@@ -163,10 +163,10 @@ Sobald der Beitragsordner konfiguriert ist, kann der AEM-Benutzer (Administrator
 1. Melden Sie sich bei Ihrer AEM Assets-Instanz an.
 
 1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner, in dem Sie in Brand Portal veröffentlichen möchten.
-1. Wählen Sie den Beitragsordner und klicken Sie auf **[!UICONTROL Schnellveröffentlichung]** > **[!UICONTROL Auf Markenportal veröffentlichen]**.
+1. Wählen Sie den Beitragsordner aus und klicken Sie auf **[!UICONTROL Quick Publish]** > **[!UICONTROL In Brand Portal veröffentlichen]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    Sie erhalten eine Erfolgsmeldung, sobald der Beitragsordner in Brand Portal veröffentlicht wurde.
 
-Eine E-Mail-/Pulsbenachrichtigung wird an die Brand Portal-Benutzer gesendet, die dem Beitragsordner zugewiesen sind. Die Brand Portal-Benutzer können auf den Beitragsordner zugreifen und mit dem Beitrag beginnen. Siehe [Hochladen von Assets in den Beitragsordner und Veröffentlichen auf AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Eine E-Mail-/Pulsbenachrichtigung wird an die Brand Portal-Benutzer gesendet, die dem Beitragsordner zugewiesen sind. Die Brand Portal-Benutzer können auf den Beitragsordner zugreifen und mit dem Beitrag beginnen. Weitere Informationen finden Sie unter [Hochladen von Assets in den Beitragsordner und Veröffentlichen in AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
