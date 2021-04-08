@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 52%
+ht-degree: 94%
 
 ---
-
 
 # Versionshinweise {#release-notes}
 
@@ -26,8 +26,8 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021,02,0 |
-| Datum | . Februar 2021 |
+| Version | 2021.02.0 |
+| Datum | Februar 2021 |
 
 ## Überblick {#overview}
 
@@ -41,9 +41,9 @@ Diese Version umfasst die folgenden neuen Funktionen:
 
 * AEM Assets als Cloud Service ist jetzt berechtigt, über eine vorkonfigurierte Brand Portal-Instanz zu verfügen. Der Cloud Manager-Benutzer kann das Markenportal auf dem AEM Assets als Cloud Service aktivieren.
 
-* Die Asset-Sourcing-Funktion ist jetzt auf AEM Assets als Cloud Service verfügbar. Dadurch können Benutzer des Markenportals Assets in die zulässigen Beitragsordner hochladen und den Beitragsordner vom Markenportal nach AEM Assets als Cloud Service veröffentlichen.
+* Asset-Beschaffungsfunktion wird jetzt AEM Assets as a Cloud Service unterstützt. Sie ermöglicht es den Brand Portal-Benutzern, Assets in die zulässigen Beitragsordner hochzuladen und den Beitragsordner von Brand Portal aus in der AEM Assets as a Cloud Service-Instanz zu veröffentlichen.
 
-* Unter **[!UICONTROL Download-Einstellungen]** wurde eine zusätzliche Einstellung für **[!UICONTROL Asset-Download]** eingeführt. Beim Herunterladen der Ordner, Sammlungen oder beim Herunterladen von Assets wird für jedes Asset ein separater Ordner erstellt.
+* Unter **[!UICONTROL Download-Einstellungen]** wurde eine zusätzliche Einstellung für den **[!UICONTROL Asset-Download]** eingeführt. Sie erstellt beim Herunterladen von Ordnern, Sammlungen oder beim Massen-Download von Assets einen separaten Ordner für jedes Asset.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -71,8 +71,8 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 Diese Version umfasst die folgenden Verbesserungen:
 
-* Beim Herunterladen von Ordnern wird für jedes Asset unabhängig von den **[!UICONTROL Download-Einstellungen]** ein separater Ordner über den Link &quot;Teilen&quot;erstellt.
-* Das Markenportal **[!UICONTROL Gebrauchsbericht]** wurde geändert, um nur die aktiven Markenportalbenutzer wiederzugeben.
+* Beim Herunterladen von Ordnern wird für jedes Asset unabhängig von den **[!UICONTROL Download-Einstellungen]** über den Freigabe-Link ein separater Ordner erstellt.
+* Der **[!UICONTROL Verwendungsbericht]** in Brand Portal wurde geändert, sodass er nur die aktiven Brand Portal-Benutzer widerspiegelt.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -84,22 +84,22 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
-* Wenn nur die ursprünglichen Assets heruntergeladen werden, spiegelt das Asset seine eigene Erweiterung wider und wird erst geöffnet, wenn die Erweiterung manuell in ZIP geändert wird.
+* Wenn nur die Original-Assets heruntergeladen werden, verwendet das Asset seine eigene Erweiterung und wird erst geöffnet, wenn die Erweiterung manuell in ZIP geändert wird.
 * Die Benutzeroberfläche des Sammlungsordners reagiert nicht, wenn auf den Navigationspfeil geklickt wird.
-* **[!UICONTROL Die]** Option &quot;Erstellen&quot;ist auch dann in der  **** Spaltenansicht sichtbar, wenn die Ordner leer sind.
-* **[!UICONTROL Die Omni-]** Suche schlägt mit einer 414-Fehlermeldung fehl (Anforderung-URI zu lang), wenn der Dispatcher beim Zugriff auf die Brand Portal-Instanz umgangen wird.
-* Ein leerer ZIP-Ordner wird heruntergeladen, wenn das Asset im Dateinamen ein Komma (`,`) enthält.
-* Die Viewer-Benutzer erhalten die Möglichkeit, Benutzer zur erstellten Sammlung hinzuzufügen.
-* Inkonsistentes Verhalten tritt auf, wenn ein Asset (Miniaturansicht oder Webdarstellung) über einen Freigabelink heruntergeladen wird.
+* Die Schaltfläche **[!UICONTROL Erstellen]** ist in der **[!UICONTROL Spaltenansicht]** auch dann sichtbar, wenn die Ordner leer sind.
+* **[!UICONTROL Omnisearch]** schlägt mit einer 414-Fehlermeldung (Anfrage-URI zu lang) fehl, wenn der Dispatcher beim Zugriff auf die Brand Portal-Instanz umgangen wird.
+* Ein leerer ZIP-Ordner wird heruntergeladen, wenn das Asset ein Komma (`,`) im Dateinamen enthält.
+* Viewer-Benutzer haben die Möglichkeit, Benutzer zu der von ihnen erstellten Sammlung hinzuzufügen.
+* Inkonsistentes Verhalten tritt auf, wenn ein Asset (Miniaturansicht oder Web-Ausgabedarstellung) über einen Freigabe-Link heruntergeladen wird.
 
-Siehe [Neue Funktionen im Markenportal 2021.02.0](whats-new.md).
+Weitere Informationen finden Sie unter [Neue Funktionen in Brand Portal 2021.02.0](whats-new.md).
 
 
 ### Bekannte Probleme {#known-issues}
 
 Diese Version enthält die folgenden bekannten Probleme:
 
-* Die Benutzer erhalten keine E-Mail-Benachrichtigungen für den Asset Sourcing-Workflows.
+* Die Benutzer erhalten für die Veröffentlichungs-Workflows der Asset-Beschaffung keine E-Mail-Benachrichtigungen.
 
 <!--
 ### Known Issues {#known-issues}
