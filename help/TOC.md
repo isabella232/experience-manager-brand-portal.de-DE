@@ -1,18 +1,18 @@
 ---
 cloud: Experience Cloud
 product: adobe experience manager
-sub-product: 'Experience Manager Brand Portal '
+sub-product: Experience Manager Brand Portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal-Benutzerhandbuch
 user-guide-description: Nutzen Sie das AEM Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 feature: Brand Portal
-role: Geschäftspraktiker
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 97%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 97%
    + [Häufig gestellte Fragen](using/brand-portal-faqs.md)
    + [Unterstützte Dateiformate](using/brand-portal-supported-formats.md)
    + [Gastzugang für Brand Portal](using/guest-access.md)
-   + [Grundlagen von Brand Portal mit AEM Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/home.html)
+   + [Grundlagen von Brand Portal mit AEM Assets](https://docs.adobe.com/content/help/de_DE/experience-manager-brand-portal/using/home.html)
    + [Durchsuchen von Assets in Brand Portal](using/browse-assets-brand-portal.md)
 + Veröffentlichen aus AEM Assets in Brand Portal {#publish}
    + [Konfigurieren von AEM Assets mit Brand Portal](using/configure-aem-assets-with-brand-portal.md)
-   + [Veröffentlichen von Assets in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-assets.translate.html)
-   + [Veröffentlichen von Ordnern in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-folder.translate.html)
-   + [Veröffentlichen von Sammlungen in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-collection.translate.html)
+   + [Veröffentlichen von Assets in Brand Portal](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Veröffentlichen von Ordnern in Brand Portal](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Veröffentlichen von Sammlungen in Brand Portal](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Veröffentlichen von Tags in Brand Portal](using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](using/publish-schema-search-facets-presets.md)
 + Asset-Beschaffung in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Überblick über die Asset-Beschaffung](using/brand-portal-asset-sourcing.md)
-   + [Konfigurieren des Beitragsordners in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Konfigurieren von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Veröffentlichen von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Freigeben von Assets für Benutzer {#share}
    + [Sammlungen freigeben](using/brand-portal-share-collection.md)
@@ -62,6 +62,6 @@ ht-degree: 97%
    + [Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten](using/brand-portal-branding.md)
    + [Verwenden benutzerdefinierter Suchfacetten](using/brand-portal-search-facets.md)
    + [Verwenden von Metadatenschema-Formularen](using/brand-portal-metadata-schemas.md)
-   + [Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten](using/brand-portal-image-presets.md)
+   + [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](using/brand-portal-image-presets.md)
    + [Arbeiten mit Berichten](using/brand-portal-reports.md)
 
