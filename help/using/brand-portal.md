@@ -8,14 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
+exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 91%
 
 ---
-
 
 # Überblick über AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
@@ -76,7 +76,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Jeder Benutzer mit eingeschränktem Zugriff auf Assets in Brand Portal, der nicht authentifiziert wird, ist ein Gastbenutzer. In der Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
-In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als      Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -84,11 +84,11 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 [Öffentliche Assets herunterladen](brand-portal-download-assets.md)
 
-[Assets zu Lightbox hinzufügen](brand-portal-light-box.md#add-assets-to-lightbox)
+[Assets zu [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox) hinzufügen
 
 ### Betrachter {#viewer}
 
-Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachter. Ein Benutzer mit dieser Rolle kann auf erlaubte Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabeformate), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
+Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachter. Ein Benutzer mit dieser Rolle kann auf erlaubte Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
 
 [Assets durchsuchen](browse-assets-brand-portal.md)
 
@@ -96,7 +96,7 @@ Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachte
 
 [Herunterladen von Assets](brand-portal-download-assets.md)
 
-### Bearbeiter                {#editor}
+### Bearbeiter {#editor}
 
 Ein Benutzer mit der Rolle Bearbeiter kann alle Aufgaben ausführen, die einem Betrachter zur Verfügung stehen. Zusätzlich kann ein Bearbeiter die Dateien und Ordner anzeigen, die ein Administrator freigegeben hat. Ein Benutzer mit der Rolle Bearbeiter kann außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzer freigeben.
 
@@ -122,7 +122,7 @@ Administratoren können alle Aufgaben ausführen, die ein Bearbeiter ausführen 
 
 [Verwenden von Metadatenschema-Formularen](brand-portal-metadata-schemas.md)
 
-[Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten](brand-portal-image-presets.md)
+[Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](brand-portal-image-presets.md)
 
 [Arbeiten mit Berichten](brand-portal-reports.md)
 
@@ -166,7 +166,6 @@ Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
    **Szenario 1**
    1. Wenn Sie bereits eine [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Federated ID] haben, klicken Sie auf **[!UICONTROL Anmelden]**.
-
 Die Seite [!UICONTROL Anmelden] wird geöffnet.
    1. Geben Sie Ihre [!UICONTROL Adobe ID]-Anmeldedaten ein und klicken Sie auf **[!UICONTROL Anmelden]**.<br />
 
@@ -175,10 +174,8 @@ Die Seite [!UICONTROL Anmelden] wird geöffnet.
    Sie werden zur Seite [!UICONTROL Zugriff anfordern] weitergeleitet.<br />
    **Szenario 2**
    1. Wenn Sie noch keine [!UICONTROL Adobe ID] haben, erstellen Sie die ID, indem Sie auf der Seite **[!UICONTROL Zugriff anfordern]** auf [!UICONTROL Adobe ID anfordern] klicken.
-
 Die Seite [!UICONTROL Anmelden] wird geöffnet.
    1. Klicken Sie auf **[!UICONTROL Adobe ID anfordern]**.
-
 Die Seite [!UICONTROL Registrieren] wird geöffnet.
    1. Geben Sie Ihren Vornamen und Nachnamen, E-Mail-Adresse und Passwort ein.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus.<br />
