@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1935'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, i
 
 ## Konfigurieren des Asset-Downloads {#configure-download}
 
-Markenportal-Administratoren können die Einstellungen für den Asset-Download und die Benutzergruppe für die Markenportal-Benutzer konfigurieren, damit sie über die Oberfläche des Markenportals auf Asset-Darstellungen zugreifen und diese herunterladen können.
+Brand Portal-Administratoren können die Einstellungen für den Asset-Download und die Benutzergruppen für die Benutzer von Brand Portal konfigurieren und ihnen den Zugriff auf und das Herunterladen von Asset-Ausgabedarstellungen über die Brand Portal-Benutzeroberfläche ermöglichen.
 
 >[!NOTE]
 >
->Die auf der Benutzeroberfläche angewendeten Download-Einstellungen erleichtern den Benutzern des Markenportals eine Selbstbedienung, um die Asset-Darstellungen einfach zu konfigurieren und herunterzuladen. Das Herunterladen von Assets auf der Anwendungsebene wird dadurch nicht eingeschränkt. Die Benutzer können beispielsweise weiterhin auf die Asset-Darstellungen zugreifen und sie mit dem vollständigen URL-Pfad herunterladen.
+>Die auf der Benutzeroberfläche angewendeten Download-Einstellungen erleichtern Brand Portal-Benutzern das Konfigurieren und Herunterladen der Asset-Ausgabedarstellungen. Der Download von Assets auf Programmebene wird nicht eingeschränkt. Beispielsweise können die Benutzer weiterhin mit dem vollständigen URL-Pfad auf die Asset-Ausgabedarstellungen zugreifen und diese herunterladen.
 
-Der Zugriff auf und das Herunterladen der Asset-Darstellungen über die Oberfläche des Markenportals sind durch die folgenden Konfigurationen definiert:
+Der Zugriff auf und das Herunterladen von Asset-Ausgabedarstellungen über die Brand Portal-Benutzeroberfläche wird durch die folgenden Konfigurationen definiert:
 
 * Download-Einstellungen aktivieren
 * Konfigurieren von Benutzergruppeneinstellungen
@@ -70,7 +70,7 @@ Die verfügbaren Einstellungen sind:
 
 * **[!UICONTROL Asset-Download]**
 
-   Ermöglicht das Herunterladen der Darstellungen in einem separaten Ordner für jedes Asset. Die Einstellung gilt für Ordner, Sammlungen und den Massendownload von Assets (über 20 Assets).
+   Ermöglicht das Herunterladen der Ausgabedarstellungen in einem separaten Ordner für jedes Asset. Die Einstellung gilt für Ordner, Sammlungen und den Massen-Download von Assets (mehr als 20 Assets).
 
 
 Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
@@ -86,9 +86,9 @@ Die Administratoren können eine beliebige Kombination von Einstellungen für di
 
 ### Konfigurieren von Benutzergruppeneinstellungen {#configure-user-group-settings}
 
-Zusätzlich zu den **[!UICONTROL Download-Einstellungen]** können die Markenportal-Administratoren die Einstellungen für verschiedene Benutzergruppen zur Ansicht konfigurieren und (oder) die Originalelemente und deren Darstellungen herunterladen.
+Zusätzlich zu den **[!UICONTROL Download-Einstellungen]** können Brand Portal-Administratoren die Einstellungen für verschiedene Benutzergruppen zum Anzeigen und (oder) Herunterladen der Original-Assets und ihrer Ausgabedarstellungen konfigurieren.
 
-Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**. Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansichten- und (oder) Downloadeinstellungen für die Benutzergruppen zu konfigurieren.
+Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Benutzer]**. Navigieren Sie auf der Seite **[!UICONTROL Benutzerrollen]** zur Registerkarte **[!UICONTROL Gruppen]**, um die Ansicht und (oder) die Download-Einstellungen für die Benutzergruppen zu konfigurieren.
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -100,7 +100,7 @@ Je nach Konfiguration bleibt der Download-Workflow für eigenständige Assets, m
 
 Die folgende Matrix definiert, ob ein Benutzer je nach [Download-Konfigurationen](#configure-download) Zugriff auf die Ausgabedarstellungen hat:
 
-| **Download-Einstellungen: Benutzerdefinierte Ausgabedarstellungen** | **Download-Einstellungen: Systemausgabedarstellungen** | **Benutzergruppeneinstellungen: Original herunterladen** | **Benutzergruppeneinstellungen: Darstellungen herunterladen** | **Ergebnis** |
+| **Download-Einstellungen: Benutzerdefinierte Ausgabedarstellungen** | **Download-Einstellungen: Systemausgabedarstellungen** | **Benutzergruppeneinstellungen: Original herunterladen** | **Benutzergruppeneinstellungen: Ausgabedarstellungen herunterladen** | **Ergebnis** |
 |---|---|---|---|---|
 | EIN | EIN | EIN | EIN | Anzeige und Download aller Ausgabedarstellungen |
 | EIN | EIN | AUS | AUS | Anzeige des Original-Assets |
@@ -121,21 +121,21 @@ Benutzer von Brand Portal können mehrere Assets, Ordner mit Assets und Sammlung
 
 >[!NOTE]
 >
->Wenden Sie sich an den Markenportal-Administrator, wenn Sie nicht berechtigt sind, auf die Asset-Darstellungen zuzugreifen oder sie herunterzuladen.
+>Wenden Sie sich an den Administrator für Brand Portal, wenn Sie nicht berechtigt sind, auf die Asset-Ausgabedarstellungen zuzugreifen oder sie herunterzuladen.
 
 Wenn der Benutzer Zugriff auf Ausgabedarstellungen hat, wird dem Benutzer das erweiterte Dialogfeld **[!UICONTROL Herunterladen]** mit den folgenden Funktionen bereitgestellt:
 * Anzeigen aller verfügbarer Ausgabedarstellungen eines Assets in der Download-Liste.
 * Ausschließen von Ausgabedarstellungen der Assets, die nicht heruntergeladen werden müssen.
 * Anwenden desselben Satzes von Ausgabedarstellungen auf alle ähnlichen Asset-Typen mit einem Klick.
 * Anwenden unterschiedlicher Sätze von Ausgabedarstellungen auf unterschiedliche Asset-Typen.
-* Erstellen Sie für jedes Asset einen eigenen Ordner.
+* Erstellen Sie einen separaten Ordner für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
 ![download-dialog](assets/download-dialog-box.png)
 
 >[!NOTE]
 >
->Das Dialogfeld **[!UICONTROL Download]** wird nur angezeigt, wenn **[!UICONTROL Benutzerspezifische Darstellungen]** und (oder) **[!UICONTROL Systemwiedergaben]** unter **[!UICONTROL Download-Einstellungen]** aktiviert ist.
+>Das Dialogfeld **[!UICONTROL Herunterladen]** wird nur angezeigt, wenn **[!UICONTROL Benutzerdefinierte Ausgabedarstellungen]** und (oder) **[!UICONTROL Systemausgabedarstellungen]** unter **[!UICONTROL Download-Einstellungen]** aktiviert ist.
 
 
 ### Schritte für den Download von Assets {#bulk-download}
@@ -157,14 +157,14 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
       >[!NOTE]
       >
-      >Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, [den Aspera Download Accelerator](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) zu installieren.
+      >Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben, werden Sie aufgefordert, [Aspera Download Accelerator zu installieren](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
       >[!NOTE]
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
-      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -181,7 +181,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
    ![remove](assets/remove.png)
 
-   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen.]**
+   Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen]**.
 
    Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
@@ -195,14 +195,14 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
 >[!NOTE]
 >
->Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+>Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne dass IBM Aspera Connect verwendet wird.
 
 
 >[!NOTE]
 >
->Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle für den Benutzer verfügbaren Asset-Darstellungen mit Ausnahme der dynamischen Darstellungen werden in einen ZIP-Ordner heruntergeladen.
+>Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden direkt in einen ZIP-Ordner heruntergeladen.
 >
->Wenn die Einstellung **[!UICONTROL Asset-Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert ist, werden die Asset-Darstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
+>Wenn die Einstellung **[!UICONTROL Asset-Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert ist, werden die Asset-Ausgabedarstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
 
 
 >[!NOTE]
@@ -253,7 +253,7 @@ Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Se
 
 >[!NOTE]
 >
->Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne IBM Aspera Connect zu verwenden.
+>Wenn die Einstellung **[!UICONTROL Schneller Download]** vom Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne dass IBM Aspera Connect verwendet wird.
 
 
 >[!NOTE]
