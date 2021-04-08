@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Assets müssen in Brand Portal aus einer vorkonfigurierten AEM-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
 
-## Workflow zur Ordnerfreigabe in Brand Portal       {#folder-sharing-workflow-in-brand-portal}
+## Workflow zur Ordnerfreigabe in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff beschrieben:
 
@@ -33,7 +33,7 @@ Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff besc
 
 ### Freigeben von Ordnern für Benutzergruppen in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird in AEM durch [ACLs](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) gesteuert, da untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Wenn beispielsweise Ordner A den Ordner B enthält und dieser wiederum den Ordner C, haben Benutzergruppen (oder Benutzer), die Zugriffsrechte für Ordner A haben, auch dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B dem Ordner A untergeordnet ist, erbt er die ACLs von Ordner A. Und da Ordner C dem Ordner B untergeordnet ist, erbt er die ACLs von Ordner B.
+Die Zugriffsrechte für die Assets eines Ordners hängen von den Zugriffsrechten für den jeweiligen übergeordneten Ordner ab, unabhängig von den Einstellungen der untergeordneten Ordner. Dieses Verhalten wird in AEM durch [ACLs](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) gesteuert, da untergeordnete Ordner die ACLs von den jeweiligen übergeordneten Ordnern erben. Wenn beispielsweise Ordner A den Ordner B enthält und dieser wiederum den Ordner C, haben Benutzergruppen (oder Benutzer), die Zugriffsrechte für Ordner A haben, auch dieselben Zugriffsrechte für Ordner B und Ordner C. Da Ordner B dem Ordner A untergeordnet ist, erbt er die ACLs von Ordner A. Und da Ordner C dem Ordner B untergeordnet ist, erbt er die ACLs von Ordner B.
 
 Entsprechend haben Benutzergruppen (oder Benutzer), die nur Zugriffsberechtigungen für den Ordner B haben, dieselben Berechtigungen für den Ordner C, aber nicht für Ordner A. Daher wird empfohlen, dass Unternehmen ihre Inhalte so anordnen, dass die am meisten exponierten Assets in die untergeordneten Ordner eingefügt werden. Der Zugriff vom untergeordneten Ordner auf den Stammordner kann eingeschränkt werden.
 
@@ -62,15 +62,15 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 
 >[!NOTE]
 >
->Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen. 
+>Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen.
 
-### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner        {#non-admin-user-access-to-shared-folders}
+### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner {#non-admin-user-access-to-shared-folders}
 
 Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]**.
 
 **Wenn die Konfiguration deaktiviert ist**
 
-Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der       Zielseite, bei der Anmeldung in Brand Portal.
+Benutzer ohne Administratorrechte, die sich bei Brand Portal anmelden, sehen auf der Zielseite, bei der Anmeldung in Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -127,7 +127,7 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
 
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
-## Aufheben der Freigabe von Ordnern        {#unshare-the-folders}
+## Aufheben der Freigabe von Ordnern {#unshare-the-folders}
 
 Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 
