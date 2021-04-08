@@ -9,11 +9,11 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier kli
 ## Dauer der Gastsitzung {#guest-session-duration}
 
 
-Eine Benutzersitzung bleibt 15 Minuten lang aktiv.
-Das bedeutet, dass der Status von **[!UICONTROL Lightbox]** 15 Minuten ab dem Beginn der Sitzung beibehalten wird und danach die aktuelle Gastsitzung neu gestartet wird, sodass der Lightbox-Status verloren geht.
+Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
+Dies bedeutet, dass der **[!UICONTROL Lightbox]**-Status ab dem Startzeitpunkt der Sitzung 15 Minuten lang beibehalten wird. Danach wird die aktuelle Gastsitzung neu gestartet, sodass der Lightbox-Status verloren geht.
 
-Ein Gast-Benutzer meldet sich beispielsweise 1500 Stunden beim Markenportal an und fügt **[!UICONTROL Lightbox]** zum Download um 15:05 Uhr hinzu. Wenn der Benutzer die **[!UICONTROL Lightbox]**-Sammlung (oder ihre Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss der Benutzer die Sitzung neu starten. Das Feld **[!UICONTROL Leuchtkasten]** ist leer. Das bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren ging.
+Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und fügt der **[!UICONTROL Lightbox]** um 15:05 Uhr Assets zum Herunterladen hinzu. Wenn der Benutzer die **[!UICONTROL Lightbox]**-Sammlung (oder ihre Assets) nicht vor 15:15 Uhr (innerhalb von 15 Minuten nach der Anmeldung) herunterlädt, muss er die Sitzung neu starten. Die **[!UICONTROL Lightbox]** ist leer, was bedeutet, dass die hochgeladenen Assets nicht mehr verfügbar sind, wenn die Sitzung verloren gegangen ist.
 
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
