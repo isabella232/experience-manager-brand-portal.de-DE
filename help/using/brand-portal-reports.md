@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: 'Administrator  '
+role: Administrator
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 92%
+source-wordcount: '1023'
+ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit Berichten {#work-with-reports}
 
@@ -40,11 +40,11 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    >[!NOTE]
    >
-   >Der Nutzungsbericht ist ein Standardbericht, der im Markenportal generiert wurde. Er kann nicht erstellt oder gelöscht werden. Sie können jedoch Berichte zu Downloads, Ablaufdaten, Veröffentlichungen, Linkfreigaben und Benutzeranmeldungen erstellen, herunterladen und löschen.
+   >Der Verwendungsbericht ist ein Standardbericht, der in Brand Portal erstellt wird. Er kann nicht erstellt oder gelöscht werden. Sie können jedoch Berichte zu Downloads, Ablaufdaten, Veröffentlichungen, Linkfreigaben und Benutzeranmeldungen erstellen, herunterladen und löschen.
 
-   Klicken Sie auf den Link Bericht, um einen Bericht Ansicht. Alternativ wählen Sie den Bericht aus und tippen/klicken Sie in der Symbolleiste auf das Symbol „Anzeigen“.
+   Um einen Bericht anzuzeigen, klicken Sie auf den Link zum Bericht. Alternativ wählen Sie den Bericht aus und tippen/klicken Sie in der Symbolleiste auf das Symbol „Anzeigen“.
 
-   **[!UICONTROL Der]** Nutzungs-Bericht enthält Informationen zur Anzahl der aktiven Markenportalbenutzer, zum Datenspeicherung-Speicherplatz aller Assets und zur Gesamtzahl der Assets im Markenportal. Die Markenportalbenutzer, die keinem Profil in der Admin Console zugeordnet sind, gelten als inaktive Benutzer und werden nicht im **[!UICONTROL Gebrauchsbericht]** angezeigt.
+   Der **[!UICONTROL Verwendungsbericht]** zeigt Informationen zur Anzahl der aktiven Brand Portal-Benutzer, den von allen Assets belegten Speicherplatz sowie die Gesamtzahl der Assets in Brand Portal an. Die Brand Portal-Benutzer, die keinem Produktprofil in Admin Console zugewiesen sind, gelten als inaktive Benutzer und werden im **[!UICONTROL Verwendungsbericht]** nicht angezeigt.
 Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informationsmetriken an.
 
    ![](assets/usage-report.png)
