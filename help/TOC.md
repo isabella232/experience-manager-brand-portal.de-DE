@@ -9,9 +9,9 @@ user-guide-description: Nutzen Sie das AEM Assets Brand Portal, um Marketing-Anf
 feature: Brand Portal
 role: Business Practitioner
 translation-type: tm+mt
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
+source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
    + [Schritte bei der ersten Anmeldung](using/brand-portal-onboarding.md)
    + [Verwalten von Benutzern, Gruppen und Benutzerrollen](using/brand-portal-adding-users.md)
    + [Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten](using/brand-portal-branding.md)
-   + [Verwenden benutzerdefinierter Suchfacetten](using/brand-portal-search-facets.md)
    + [Verwenden von Metadatenschema-Formularen](using/brand-portal-metadata-schemas.md)
    + [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](using/brand-portal-image-presets.md)
    + [Arbeiten mit Berichten](using/brand-portal-reports.md)
