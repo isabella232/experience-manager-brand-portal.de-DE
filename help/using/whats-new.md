@@ -10,11 +10,11 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6138'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,33 +24,33 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 ist eine Erweiterung, die den Arbeitsablauf für die Aktivierung von Markenportalen auf AEM Assets als Cloud Service einführt, die Asset-Sourcing-Funktion auf AEM Assets als Cloud Service erleichtert, das Herunterladen von Assets verbessert und wichtige Fehlerbehebungen enthält. Darüber hinaus können Administratoren das standardmäßige Downloadverhalten von Ordnern, Sammlungen und Massen-Downloads von Assets auf Mietebene konfigurieren. Der **[!UICONTROL Verwendungsbericht]** in Brand Portal wurde auch geändert und spiegelt nun die aktiven Brand Portal-Benutzer wider. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 ist eine Erweiterungsversion, die den Brand Portal-Aktivierungs-Workflow für AEM Assets as a Cloud Service einführt, die Asset-Beschaffungsfunktion für AEM Assets as a Cloud Service vereinfacht, den Asset-Download verbessert und kritische Fehler behebt. Damit können die Administratoren auch das Standard-Download-Verhalten von Ordnern, Sammlungen und den Massen-Download von Assets auf Mandantenebene konfigurieren. Der **[!UICONTROL Verwendungsbericht]** in Brand Portal wurde auch geändert und spiegelt nun die aktiven Brand Portal-Benutzer wider. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
-### Aktivieren des Markenportals auf AEM Assets als Cloud Service {#bp-automation-on-cloud-service}
+### Aktivieren von Brand Portal in AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets als Cloud Service ist jetzt berechtigt, über eine vorkonfigurierte Brand Portal-Instanz zu verfügen. Der Cloud Manager-Benutzer kann das Markenportal auf dem AEM Assets als Cloud Service aktivieren.
+AEM Assets as a Cloud Service kann jetzt eine vorkonfigurierte Brand Portal-Instanz enthalten. Der Cloud Manager-Benutzer kann Brand Portal auf der AEM Assets as a Cloud Service-Instanz aktivieren.
 
-Zuvor wurde AEM Assets als Cloud Service manuell mit Brand Portal mithilfe der Adobe Developer Console konfiguriert.
+Früher wurde AEM Assets as a Cloud Service manuell mit Brand Portal über Adobe Developer Console konfiguriert.
 
-Der Cloud Manager-Benutzer Trigger den Arbeitsablauf für die Aktivierung, der die erforderlichen Konfigurationen am Backend erstellt und das Markenportal auf demselben IMS-Format wie AEM Assets als Cloud Service aktiviert.
+Der Cloud Manager-Benutzer löst den Aktivierungs-Workflow aus, der die erforderlichen Konfigurationen im Backend erstellt und Brand Portal auf derselben IMS-Org wie die AEM Assets as a Cloud Service-Instanz aktiviert.
 
-So aktivieren Sie das Markenportal auf Ihrem AEM Assets als Cloud Service-Instanz:
+So aktivieren Sie Brand Portal auf Ihrer AEM Assets as a Cloud Service-Instanz:
 
-1. Melden Sie sich bei Adobe Cloud Manager an und navigieren Sie zu **[!UICONTROL Umgebung]**.
-1. Wählen Sie die Umgebung (einzeln) aus der Liste aus, um die Details zur Umgebung Ansicht. Sobald Sie die mit dem Markenportal verknüpfte Umgebung gefunden haben, klicken Sie auf die Schaltfläche **[!UICONTROL Markenportal aktivieren]**, um den Arbeitsablauf für die Aktivierung zu starten.
-1. Sobald der Pächter des Markenportals aktiviert ist, wird der Status aktiviert.
+1. Melden Sie sich bei Adobe Cloud Manager an und gehen Sie zu **[!UICONTROL Umgebungen]**.
+1. Wählen Sie die Umgebungen (eine nach der anderen) in der Liste aus, um die Umgebungsdetails anzuzeigen. Sobald Sie die Umgebung gefunden haben, die mit Brand Portal verbunden ist, klicken Sie auf die Schaltfläche **[!UICONTROL Brand Portal aktivieren]**, um den Aktivierungs-Workflow zu starten.
+1. Sobald der Brand Portal-Mandant aktiviert ist, ändert sich der Status in „Aktiviert“.
 
-![Status der Ansicht](assets/create-environment5.png)
+![Status anzeigen](assets/create-environment5.png)
 
-Siehe [Aktivieren des Markenportals auf AEM Assets als Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
+Siehe [Aktivieren von Brand Portal in AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=de).
 
 ### Asset-Beschaffung in AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Die Asset-Beschaffungsfunktion wird jetzt in AEM Assets as a Cloud Service unterstützt. Die Funktion ist standardmäßig für alle Cloud-Dienstbenutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und diese von Brand Portal in AEM Assets as a Cloud Service veröffentlichen. Die Administratoren können die Beiträge der Brand Portal-Benutzer überprüfen und genehmigen, um sie weiter an andere Brand Portal-Benutzer zu verteilen.
+Die Asset-Beschaffungsfunktion wird jetzt in AEM Assets as a Cloud Service unterstützt. Die Funktion ist standardmäßig für alle Cloud Service-Benutzer aktiviert. Die zulässigen Brand Portal-Benutzer können zur Asset-Beschaffung beitragen, indem sie neue Assets in die Beitragsordner hochladen und diese von Brand Portal in AEM Assets as a Cloud Service veröffentlichen. Die Administratoren können die Beiträge der Brand Portal-Benutzer überprüfen und genehmigen, um sie weiter an andere Brand Portal-Benutzer zu verteilen.
 
 Zuvor war die Asset-Beschaffung nur in AEM Assets (On-Premise und Managed Service) verfügbar.
 
-Siehe [Asset-Beschaffung im Markenportal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
+Siehe [Asset-Beschaffung in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=de).
 
 ### Asset-Download {#asset-download-setting}
 
@@ -71,7 +71,7 @@ Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigi
 
 ![](assets/download-settings-new.png)
 
-Siehe [Herunterladen von Assets aus dem Markenportal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
+Siehe [Herunterladen von Assets aus Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -114,7 +114,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkei
 * Erstellen eines separaten Ordners für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
-Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://docs.adobe.com/content/help/de_DE/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -198,7 +198,7 @@ Mit Dokument-Viewer haben die Brand Portal-Benutzer jetzt die Möglichkeit, Seit
 
 >[!NOTE]
 >
->Die Anzeige für andere Dokument-Formate bleibt unverändert.
+>Das Anzeigeerlebnis für andere Dokumentenformate bleibt unverändert.
 
 
 ![](assets/doc-viewer.png)
@@ -261,9 +261,9 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de_DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de_DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Upgrade der Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 und höher)** | [Konfiguration erstellen](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgrade der Konfiguration](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Support kontaktieren | Support kontaktieren |
 
@@ -359,7 +359,7 @@ Auch gilt Folgendes:
 
 ## Änderungen in Version 6.4.3 {#what-changed-in}
 
-Das Markenportal 6.4.3 konzentriert sich auf — Bereitstellung eines alternativen Aliasnamens zusätzlich zu der Pächter-ID in der URL für den Zugriff auf das Markenportal, neue Konfiguration der Ordnerhierarchie, Verbesserungen der Videounterstützung, geplante Veröffentlichung von der AEM Author-Instanz auf das Markenportal, operationelle Verbesserungen — und berücksichtigt Kundenanforderungen.
+Version 6.4.3 von Brand Portal bietet Unternehmen neben der Mandanten-ID einen alternativen Alias für die Brand Portal-Zugriffs-URL, eine neue Ordnerhierarchie-Konfiguration, Verbesserungen bei der Videounterstützung, die geplante Veröffentlichung aus der AEM-Autoreninstanz in Brand Portal, funktionale Verbesserungen und die Umsetzung von Kundenwünschen.
 
 ### Ordnerhierarchienavigation für Benutzer ohne Administratorrechte
 
@@ -546,7 +546,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe i/O-Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Ab Brand Portal 6.4.2 wird die Adobe.io-Benutzeroberfläche [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zur Erstellung der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Verbesserungen der Suche
 
@@ -655,7 +655,7 @@ Je nachdem, ob die Benutzer bereits eine Adobe ID haben oder zuerst eine Adobe�
 
 Weitere Informationen finden Sie unter [Anfordern von Zugriff auf Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Erweiterung des Berichts über heruntergeladene Assets  {#enhancement-in-the-assets-downloaded-report}
+### Erweiterung des Berichts über heruntergeladene Assets {#enhancement-in-the-assets-downloaded-report}
 
 Der Bericht über heruntergeladene Assets zeigt jetzt an, wie viele Assets die einzelnen Benutzer innerhalb eines bestimmten Zeitraums heruntergeladen haben. Benutzer können diesen Bericht im CSV-Format herunterladen und Daten zur Gesamtanzahl der Downloads für ein lizenziertes Asset zusammenstellen.
 
@@ -683,7 +683,7 @@ Weitere Informationen finden Sie in Schritt 12 unter [Freigeben von Assets als 
 
 Die Funktion zur Benutzerauswahl wurde jetzt verbessert, um den Anforderungen von Kunden mit großen Benutzerzahlen gerecht zu werden.
 
-### Änderungen beim Experience Cloud-Branding  {#experience-cloud-branding-changes}
+### Änderungen beim Experience Cloud-Branding {#experience-cloud-branding-changes}
 
 Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
@@ -693,7 +693,7 @@ Brand Portal ist jetzt mit dem neuen Adobe Experience Cloud-Branding konform.
 
 Brand Portal 6.3.1 enthält neue und erweiterte Funktionen, die die Abstimmung von Brand Portal mit AEM verbessern.
 
-### Aktualisierte Benutzeroberfläche  {#upgraded-user-interface}
+### Aktualisierte Benutzeroberfläche {#upgraded-user-interface}
 
 Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Übergang zur Coral 3-Benutzeroberfläche. Durch diese Änderung wird die allgemeine Benutzerfreundlichkeit, einschließlich Navigation und Darstellung, verbessert.
 
@@ -715,7 +715,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 ![](assets/omnisearchicon.png)
 
-### Erweiterte Funktionen zum Durchsuchen  {#enhanced-browsing-experience}
+### Erweiterte Funktionen zum Durchsuchen {#enhanced-browsing-experience}
 
 * Neue Spaltenansicht zum Durchsuchen verschachtelter Ordner:
 
@@ -723,7 +723,7 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 
 * In der Liste der Assets in einem Ordner wird das zuletzt hochgeladene Asset oben angezeigt.
 
-### Erweiterte Funktionen zum Suchen  {#enhanced-search-experience}
+### Erweiterte Funktionen zum Suchen {#enhanced-search-experience}
 
 * Die neue Omnisearch-Funktion ermöglicht mithilfe automatischer Vorschläge beim Eingeben der Suchschlüsselwörter den schnellen Zugriff auf relevante Inhalte, Funktionen oder Tags. Omnisearch ist für alle Suchfunktionen verfügbar:
 
@@ -738,15 +738,15 @@ Um das Brand Portal-Benutzererlebnis an AEM anzupassen, vollzieht Adobe einen Ü
 * Durch die neue Suchoptimierungsfunktion können Sie die Relevanz der Suchergebnisse verbessern, sodass bestimmte Assets in den Suchergebnissen oben angezeigt werden.
 * Die neue pfadbasierte Suche ermöglicht die Angabe eines Pfads zu einem verschachtelten Ordner, damit Sie nach Assets in diesem Ordner suchen können.
 
-#### Neue Smart-Tag-basierte Suche  {#new-smart-tags-based-search}
+#### Neue Smart-Tag-basierte Suche {#new-smart-tags-based-search}
 
 Wenn Bilder mit Smart-Tags aus AEM Assets in Brand Portal veröffentlicht werden, können Sie in Brand Portal anhand der Smart-Tag-Namen als Suchschlüsselwörter nach diesen Bildern suchen. Diese Funktion ist nur für Dateien verfügbar.
 
-### Erweiterte Funktionen für Downloads  {#enhanced-downloading-experience}
+### Erweiterte Funktionen für Downloads {#enhanced-downloading-experience}
 
 Nach dem Herunterladen eines verschachtelten Ordners können Sie die ursprüngliche Ordnerhierarchie beibehalten. Die Assets in einem verschachtelten Ordner können in einem Ordner heruntergeladen werden. Das Heruntergeladen in separaten Ordnern ist nicht mehr erforderlich.
 
-### Verbesserte Leistung  {#improved-performance}
+### Verbesserte Leistung {#improved-performance}
 
 Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbessern die Brand Portal-Leistung erheblich.
 
@@ -754,7 +754,7 @@ Die Erweiterungen der Funktionen zum Durchsuchen, Suchen und Herunterladen verbe
 
 Administratoren können vor der Freigabe von Assets Datum und Uhrzeit als Ablaufdatum festlegen. Abgelaufene Assets sind für Betrachter und Bearbeiter sichtbar, können aber nicht mehr heruntergeladen werden. Administratoren erhalten eine Benachrichtigung über abgelaufene Assets.
 
-### Erweiterte Asset-Sortierung  {#enhanced-asset-sorting}
+### Erweiterte Asset-Sortierung {#enhanced-asset-sorting}
 
 Die Asset-Sortierung in einem Ordner in der Listenansicht ist nicht mehr auf die Anzahl der Assets auf der ersten Seite beschränkt. Stattdessen werden alle Assets sortiert, unabhängig davon, ob sie auf der ersten Seite angezeigt werden.
 
@@ -764,7 +764,7 @@ Administratoren können drei Berichtstypen erstellen und verwalten – zu herun
 
 ![](assets/newreport.png)
 
-### Zusätzliche Metadaten  {#additional-metadata}
+### Zusätzliche Metadaten {#additional-metadata}
 
 Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.3 enthalten sind. Die Metadaten, die auf der Seite „Asset-Eigenschaften“ angezeigt werden, können mit dem Metadatenschema-Editor festlegt werden. Asset-Metadaten sind nicht für Benutzer sichtbar, die Assets als Freigabe über einen externen Link erhalten und die Assets nur mithilfe der Linkfreigabe-URL in der Vorschau anzeigen sowie herunterladen können.
 
@@ -778,7 +778,7 @@ Brand Portal 6.3.1 führt zusätzliche Metadaten ein, die auch in AEM Assets 6.
 
 * Wenn ein Administrator neue Benutzer zum Brand Portal-Konto hinzugefügt hat, müssen diese keine Einladungen annehmen, um zu Brand Portal hinzugefügt zu werden. Das Hinzufügen erfolgt automatisch.
 
-### Neue Veröffentlichungsfunktionen in AEM Assets 6.3  {#new-publishing-capabilities-in-aem-assets}
+### Neue Veröffentlichungsfunktionen in AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}
 
 * AEM-Administratoren können mithilfe von AEM 6.3 SP 1-CFP 1 (6.3.1.1) (ab 4. Quartal 2017 verfügbar) Metadatenschemata aus AEM Assets in Brand Portal veröffentlichen.
 
