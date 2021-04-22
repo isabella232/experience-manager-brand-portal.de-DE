@@ -9,14 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: tm+mt
+exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
 Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-assets.html).
 
-## Suche mithilfe von Facetten im Bereich „Filter“{#search-using-facets-in-filters-panel}
+## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
 
@@ -75,8 +75,8 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
    * **[!UICONTROL Dateigröße]**, um nach Assets basierend auf ihrer Größe zu suchen. Sie können die untere und obere Grenze für den Größenbereich ausgeben, um Ihre Suche einzuschränken und die Maßeinheit für die Suche anzugeben.
    * **[!UICONTROL Status]**, um basierend auf dem Asset-Status, z. B. Genehmigung (Genehmigt, Änderung angefordert, Abgelehnt, Ausstehend) und Ablauf, nach Assets zu suchen.
    * **[!UICONTROL Durchschnittliche Bewertung]**, um nach Assets, basierend auf ihrer Bewertung, zu suchen.
-   * **[!UICONTROL Ausrichtung]**, um nach Assets, basierend auf ihrer Ausrichtung (horizontal, vertikal, quadratisch), zu suchen. 
-   * **[!UICONTROL Stil]**, um basierend auf dem Stil (farbig, einfarbig) der Assets nach Assets zu suchen. 
+   * **[!UICONTROL Ausrichtung]**, um nach Assets, basierend auf ihrer Ausrichtung (horizontal, vertikal, quadratisch), zu suchen.
+   * **[!UICONTROL Stil]**, um basierend auf dem Stil (farbig, einfarbig) der Assets nach Assets zu suchen.
    * **[!UICONTROL Videoformat]**, um basierend auf dem Format von Video-Assets (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM) nach Video-Assets zu suchen.
 
    Sie können im Bedienfeld „Filter“ [benutzerdefinierte Suchfacetten](../using/brand-portal-search-facets.md) verwenden, indem Sie das zugrunde liegende Suchformular bearbeiten.
@@ -94,9 +94,9 @@ Wenn Sie die Asset-Suche mithilfe unvollständiger Suchbegriffe im Eigenschaftsp
 Beispiel für die Suche nach:
          * **klettern*** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ beginnen.
          * ***klettern** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
-         * ***klettern*** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die die Zeichen „klettern“ enthalten.
+         * **\*klettern\*** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die die Zeichen „klettern“ enthalten.
 
-Um eine Suche ohne Groß- und Kleinschreibung in der Eigenschaftsvorhersage zu ermöglichen, aktivieren Sie die Variable       **Text ohne Berücksichtigung der Groß- und Kleinschreibung**
+Um eine Suche ohne Groß-/Kleinschreibung im Eigenschaftsprädikat zuzulassen, aktivieren Sie das Kontrollkästchen       **Text ohne Berücksichtigung der Groß- und Kleinschreibung**
 Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinschreibung zuzulassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Groß- und Kleinschreibung ignorieren]** im Suchformular. Bei der Textsuche im Eigenschaftsprädikat wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden.
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinsch
 
 1. Sie können einfach zu einem Element in den Suchergebnissen navigieren und mit der Schaltfläche „Zurück“ in Ihrem Browser zum selben Suchergebnis zurückkehren, ohne die Suchabfrage erneut starten zu müssen.
 
-## Suchen als Smart-Sammlung speichern      {#save-your-searches-as-smart-collection}
+## Suchen als Smart-Sammlung speichern {#save-your-searches-as-smart-collection}
 
 Sie können die Sucheinstellungen als Smart-Sammlung speichern, damit Sie dieselbe Suche zu einem späteren Zeitpunkt wiederholen können, ohne die Einstellungen erneut vornehmen zu müssen.
 
