@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '2210'
+exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '2209'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten von Benutzern, Gruppen und Benutzerrollen {#manage-users-groups-and-user-roles}
 
@@ -174,7 +174,7 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
    Benutzer, die zu einem benutzerdefinierten oder neuen Produktprofil hinzugefügt werden, erhalten keine E-Mail-Benachrichtigung.
 
-## Bereitstellen von Administratorrechten für Benutzer  {#provide-administrator-privileges-to-users}
+## Bereitstellen von Administratorrechten für Benutzer {#provide-administrator-privileges-to-users}
 
 Sie können Brand Portal-Benutzern Berechtigungen als Systemadministrator oder eines Produkt-Administrator gewähren. Gewähren Sie keine anderen in [!UICONTROL Admin Console] verfügbaren Administratorrechte, z. B. Produktprofil-Administrator, Benutzergruppen-Administrator und Support-Administrator. Weitere Informationen zu diesen Rollen finden Sie unter [Administratorrollen](https://helpx.adobe.com/de/enterprise/using/admin-roles.html).
 
@@ -297,4 +297,3 @@ Führen Sie die folgenden Schritte aus, um die Rolle und die Berechtigung für d
    >[!NOTE]
    >
    >Die Benutzer-Gruppen-Zuweisung oder die Gruppenmitgliedschaft eines Benutzers wird alle acht Stunden mit Brand Portal synchronisiert. Änderungen bei Benutzer- oder Gruppenrollen treten nach Abschluss der nächsten Synchronisierung in Kraft.
-
