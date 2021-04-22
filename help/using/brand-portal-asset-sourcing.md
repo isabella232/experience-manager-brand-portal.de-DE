@@ -20,8 +20,8 @@ exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 translation-type: tm+mt
 source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '841'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Es gibt ein bekanntes Problem in AEM Assets 6.5.4. Brand Portal-Benutzer können beim Aktualisieren auf Adobe Developer Console keine Beitragsordner-Assets in AEM Assets veröffentlichen.
 >
->Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de_DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) aktualisieren.
+>Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen [in Adobe Developer Console](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) aktualisieren.
 >
 >Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf der Autoreninstanz zu installieren.
 
