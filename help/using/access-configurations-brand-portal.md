@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '303'
+exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten des Benutzerzugriffs auf Brand Portal {#administer-user-access-on-brand-portal}
 
@@ -42,7 +42,7 @@ Um den Gastzugang zuzulassen, muss der Administrator die folgenden Schritte ausf
 
 ![](assets/bp-welcome-screen.png)
 
-## Erlauben der Zugriffsanfrage durch Benutzer     {#allow-users-to-request-access}
+## Erlauben der Zugriffsanfrage durch Benutzer {#allow-users-to-request-access}
 
 Administratoren können Benutzern von Organisationen erlauben, auf dem Willkommensbildschirm den Zugriff auf Brand Portal anzufordern. Administratoren müssen dafür jedoch die Konfigurationsoption **[!UICONTROL Benutzern erlauben, Zugriff anzufordern]** aktivieren, damit der Link für die Zugriffsanfrage auf dem Willkommensbildschirm angezeigt wird.
 
