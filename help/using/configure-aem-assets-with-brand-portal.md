@@ -10,26 +10,26 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 6b9433bd5a225a2bbaddc09980c9f7b866a75fe8
-workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 59%
+exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
-
 # Konfigurieren von AEM Assets mit Brand Portal {#configure-integration}
 
-Die Konfiguration von Adobe Experience Manager Assets mit dem Markenportal ermöglicht den Benutzern des Markenportals Funktionen zum Veröffentlichen von Assets, zur Asset-Verteilung und zum Asset-Beitrag. Sie ermöglicht es den AEM Assets-Benutzern, Assets zu veröffentlichen und mit den Benutzern des Markenportals zu verteilen. Die Benutzer des Markenportals können auf die freigegebenen Assets zugreifen und einen Beitrag leisten, indem sie neue Assets in die Asset-Beitragsordner hochladen und auf AEM Assets veröffentlichen.
+Die Konfiguration von Adobe Experience Manager Assets mit Brand Portal bietet Benutzern von Brand Portal Funktionen zur Asset-Veröffentlichung, Asset-Verteilung und Mitarbeit an Assets. Sie ermöglicht AEM Assets-Benutzern das Veröffentlichen und Verteilen von Assets an Brand Portal-Benutzer. Brand Portal-Benutzer können auf die freigegebenen Assets zugreifen und ihren Beitrag leisten, indem sie neue Assets in die Asset-Beitragsordner hochladen und sie wieder in AEM Assets veröffentlichen.
 
-Die Konfiguration von AEM Assets mit dem Markenportal wird unterstützt unter:
+Die Konfiguration von AEM Assets mit Brand Portal wird unterstützt in:
 * AEM Assets as a Cloud Service
-* AEM Assets (auf dem Betriebsgelände und im verwalteten Dienst) 6.3 und höher
+* AEM Assets (On-Premise und Managed Service) 6.3 und höher
 
-AEM Assets als Cloud Service wird automatisch mit dem Markenportal konfiguriert, indem das Markenportal über den Cloud Manager aktiviert wird. Der Arbeitsablauf für die Aktivierung erstellt die erforderlichen Konfigurationen am Backend und aktiviert das Markenportal auf demselben IMS-Format wie das AEM Assets als Cloud Service-Instanz.
+AEM Assets as a Cloud Service wird automatisch mit Brand Portal konfiguriert, indem Brand Portal über Cloud Manager aktiviert wird. Der Aktivierungs-Workflow erstellt die erforderlichen Konfigurationen im Backend und aktiviert Brand Portal auf derselben IMS-Org wie die AEM Assets as a Cloud Service-Instanz.
 
-Dagegen wird AEM Assets (auf dem Firmengelände und im verwalteten Dienst) manuell mit dem Markenportal mithilfe der Adobe Developer Console konfiguriert, die ein Adobe Identity Management Services (IMS)-Token zur Autorisierung des Markenportal-Mieters beschafft.
+AEM Assets (On-Premise und Managed Service) wird hingegen manuell mit Brand Portal über Adobe Developer Console konfiguriert, die ein Adobe Identity Management Services (IMS)-Token für die Autorisierung des Brand Portal-Mandanten abruft.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Dagegen wird AEM Assets (auf dem Firmengelände und im verwalteten Dienst) manue
 
 >[!TIP]
 >
->***Nur für Bestandskunden (lokal und verwalteter Service)***
+>***Nur für Bestandskunden (On-Premise und Managed Service)***
 >
 >Die alte OAuth Gateway-Konfiguration funktioniert für bestehende Kunden weiterhin.
 >
