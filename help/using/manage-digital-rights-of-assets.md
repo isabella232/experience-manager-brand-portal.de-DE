@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '830'
+exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
-
 
 # Verwalten der digitalen Rechte von Assets {#manage-digital-rights-of-assets}
 
@@ -52,7 +52,7 @@ In der folgenden Tabelle werden die Nutzungsberechtigungen der abgelaufenen Asse
 >
 >Wenn Betrachter und Bearbeiter einen Ordner mit abgelaufenen und nicht abgelaufenen Assets herunterladen, werden nur die nicht abgelaufenen Assets heruntergeladen. Wenn ein Ordner nur abgelaufene Assets enthält, wird ein leerer Ordner heruntergeladen.
 
-### Gültigkeitsstatus und Assets       {#expiration-status-of-assets}
+### Gültigkeitsstatus und Assets {#expiration-status-of-assets}
 
 Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht]** anzeigen. Abgelaufene Assets sind mit einer roten Flagge gekennzeichnet.
 
@@ -62,7 +62,7 @@ Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht
 >
 >In den Listen- und Spaltenansichten wird der Gültigkeitsstatus der Assets nicht angezeigt.
 
-## Ablauf des Asset-Links        {#asset-link-expiration}
+## Ablauf des Asset-Links {#asset-link-expiration}
 
 Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]** im Dialogfeld **[!UICONTROL Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
@@ -76,7 +76,7 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Abgelaufene oder nicht abgelaufene Assets, die durch eine Lizenz geschützt sind, können von allen Benutzern angezeigt werden. Jedoch ist der Download und die Verwendung von abgelaufenen genehmigten Assets begrenzt. Informationen zum Verhalten von abgelaufenen lizenzierten Assets und den zulässigen Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen in Bezug auf abgelaufene Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in AEM Assets entsprechend eingestellt werden.
+An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in AEM Assets entsprechend eingestellt werden.
 
 Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet.
 
@@ -88,7 +88,7 @@ Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die z
 
 Falls die Auswahl mehrere geschützte Assets enthält, wählen Sie jeweils eines aus, nehmen Sie die Lizenzvereinbarung an und fahren Sie mit dem Herunterladen des Assets fort.
 
-## Erstellen von Berichten zu abgelaufenen Assets        {#generate-report-about-expired-assets}
+## Erstellen von Berichten zu abgelaufenen Assets {#generate-report-about-expired-assets}
 
 Administratoren können einen Bericht erstellen und herunterladen, in dem alle Assets aufgeführt sind, die innerhalb eines bestimmten Zeitraums abgelaufen sind. Dieser Bericht enthält ausführliche Informationen zu den abgelaufenen Assets, etwa Größe, Art, Pfad mit der angegebenen Position des Assets in der Asset-Hierarchie, Ablaufdatum des Assets und dessen Veröffentlichungszeitpunkt. Die Spalten dieses Berichts können angepasst werden, um basierend auf den Benutzeranforderungen mehr Daten anzuzeigen.
 
