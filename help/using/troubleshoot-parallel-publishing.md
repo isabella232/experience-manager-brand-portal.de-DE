@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '893'
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
@@ -75,7 +75,7 @@ ii. Löschen Sie
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue                  Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue  Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
