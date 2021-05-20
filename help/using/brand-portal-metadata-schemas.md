@@ -10,9 +10,8 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Administrator
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
 
