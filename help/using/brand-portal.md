@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
 
@@ -57,10 +56,10 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 |  | **Durchsuchen** | **Suchen** | **Download** | **Ordner freigeben** | **Sammlungen freigeben** | **Freigeben von Assets als Link** | **Zugriff auf Admin Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Gastbenutzer** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Betrachter** | ✓ | ✓ | ✓ | x | x | x | x |
-| **Bearbeiter** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Gastbenutzer** | ✓* | * | * | x | x | x | x |
+| **Betrachter** | ✓ | verwalten | verwalten | x | x | x | x |
+| **Bearbeiter** | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | x |
+| **Administrator** | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
 
 * Gastbenutzer können nur Assets durchsuchen, auf Assets zugreifen oder nach Assets suchen, die sich in öffentlichen Ordnern und Sammlungen befinden.
 
@@ -84,7 +83,7 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 [Öffentliche Assets herunterladen](brand-portal-download-assets.md)
 
-[Assets zu [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox) hinzufügen
+[Assets zu [!UICONTROL Lightbox] hinzufügen](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Betrachter {#viewer}
 
@@ -102,9 +101,9 @@ Ein Benutzer mit der Rolle Bearbeiter kann alle Aufgaben ausführen, die einem B
 
 Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter folgende Aufgaben zur Verfügung:
 
-[Ordner freigeben](brand-portal-sharing-folders.md)
+[Freigeben von Ordnern](brand-portal-sharing-folders.md)
 
-[Sammlungen freigeben](brand-portal-share-collection.md)
+[Freigeben von Sammlungen](brand-portal-share-collection.md)
 
 [Freigeben von Assets als Link](brand-portal-link-share.md)
 
@@ -122,7 +121,7 @@ Administratoren können alle Aufgaben ausführen, die ein Bearbeiter ausführen 
 
 [Verwenden von Metadatenschema-Formularen](brand-portal-metadata-schemas.md)
 
-[Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](brand-portal-image-presets.md)
+[Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten](brand-portal-image-presets.md)
 
 [Arbeiten mit Berichten](brand-portal-reports.md)
 
