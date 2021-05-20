@@ -11,9 +11,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Administrator
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
@@ -51,7 +50,7 @@ So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 1. **[!UICONTROL Speichern]** Sie die Änderungen.
 1. Melden Sie sich ab, um die Änderungen zu übernehmen.
 
-## Löschen von Assets in Brand Portal durch Administratoren zulassen {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Löschen von Assets in Brand Portal durch Administratoren zulassen  {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 Mit der Konfiguration **[!UICONTROL Löschen von Assets in Brand Portal durch Administratoren zulassen]** können Unternehmen Administratoren erlauben, Assets und Ordner aus Brand Portal zu löschen.
 
@@ -69,6 +68,6 @@ Mit der Konfiguration [[!UICONTROL Zulassen der Erstellung öffentlicher Smart-S
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 -->
 
-## Aktivieren der Ordnerhierarchie {#enable-folder-hierarchy}
+## Aktivieren der Ordnerhierarchie  {#enable-folder-hierarchy}
 
 Mit der Konfiguration [[!UICONTROL Ordnerhierarchie aktivieren]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) können Administratoren steuern, wie Benutzer ohne Administratorrechte (Bearbeiter, Betrachter und Gastbenutzer) die freigegebenen Ordner nach der Anmeldung sehen.
