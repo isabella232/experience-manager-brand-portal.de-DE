@@ -8,9 +8,8 @@ breadcrumb-title: Brand Portal-Benutzerhandbuch
 user-guide-description: Nutzen Sie das AEM Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 feature: Brand Portal
 role: Business Practitioner
-translation-type: ht
 source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -42,8 +41,8 @@ ht-degree: 100%
    + [Konfigurieren von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Veröffentlichen von Beitragsordnern in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Freigeben von Assets für Benutzer {#share}
-   + [Sammlungen freigeben](using/brand-portal-share-collection.md)
-   + [Ordner freigeben](using/brand-portal-sharing-folders.md)
+   + [Freigeben von Sammlungen](using/brand-portal-share-collection.md)
+   + [Freigeben von Ordnern](using/brand-portal-sharing-folders.md)
    + [Freigeben von Assets als Link](using/brand-portal-link-share.md)
 + Verwenden der Suchfunktionen {#search-capabilities}
    + [Suchen von Assets in Brand Portal](using/brand-portal-searching.md)
@@ -61,6 +60,6 @@ ht-degree: 100%
    + [Verwalten von Benutzern, Gruppen und Benutzerrollen](using/brand-portal-adding-users.md)
    + [Anpassen von Hintergrund, Kopfzeilen und E-Mail-Nachrichten](using/brand-portal-branding.md)
    + [Verwenden von Metadatenschema-Formularen](using/brand-portal-metadata-schemas.md)
-   + [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](using/brand-portal-image-presets.md)
+   + [Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten](using/brand-portal-image-presets.md)
    + [Arbeiten mit Berichten](using/brand-portal-reports.md)
 
