@@ -9,9 +9,8 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -64,7 +63,7 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 >
 >Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen.
 
-### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner {#non-admin-user-access-to-shared-folders}
+### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner  {#non-admin-user-access-to-shared-folders}
 
 Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]**.
 
@@ -127,7 +126,7 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
 
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
-## Aufheben der Freigabe von Ordnern {#unshare-the-folders}
+## Aufheben der Freigabe von Ordnern  {#unshare-the-folders}
 
 Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 
