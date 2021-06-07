@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
+source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -30,16 +30,24 @@ Mit der **Asset-Beschaffung** können AEM-Benutzer (Administratoren/Benutzer ohn
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
+![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## Voraussetzungen {#prerequisites}
 
 * AEM Assets as a Cloud Service-Instanz, AEM Assets 6.5.2 oder höher.
 * Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-* Stellen Sie sicher, dass Ihr Brand Portal-Mandant mit einer AEM Assets-Autoreninstanz konfiguriert ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+<!--
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
-![Asset-Beschaffung in Brand Portal](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>Die Asset-Beschaffungsfunktion ist in AEM Assets as a Cloud Service, AEM Assets 6.5.9 und höher standardmäßig aktiviert.
+>
+>Die vorhandenen Konfigurationen funktionieren weiterhin mit den früheren Versionen.
 
 >[!NOTE]
 >
@@ -49,44 +57,55 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 >
 >Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) herunterzuladen und auf der Autoreninstanz zu installieren.
 
-## Konfigurieren der Asset-Beschaffung {#configure-asset-sourcing}
+<!--
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
-**Asset-Beschaffung** wird in der AEM Assets-Autoreninstanz konfiguriert. Die Administratoren können die Feature Flag-Konfiguration der Asset-Beschaffungsfunktion in der **AEM-Web-Konsolenkonfiguration** aktivieren und die Liste der aktiven Brand Portal-Benutzer in **AEM Assets** hochladen.
-
->[!NOTE]
->
->Asset-Beschaffung ist standardmäßig in AEM Assets as a Cloud Service aktiviert. Der AEM-Administrator kann die aktiven Brand Portal-Benutzer direkt hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
 >
->Bevor Sie mit der Konfiguration beginnen, stellen Sie sicher, dass Ihre AEM Assets-Instanz in Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
-Das folgende Video demonstriert, wie Sie die Asset-Beschaffung in Ihrer AEM Assets-Autoreninstanz konfigurieren:
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
-### Aktivieren der Asset-Beschaffung {#enable-asset-sourcing}
+<!--
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
-AEM-Administratoren können das Feature Flag für die Asset-Beschaffung über die AEM-Web-Konsolen-Konfiguration (auch Configuration Manager genannt) aktivieren.
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 >[!NOTE]
 >
->Dieser Schritt gilt nicht für AEM Assets as a Cloud Service.
+>This step is not applicable for AEM Assets as a Cloud Service.
 
 
-**Aktivieren der Asset-Beschaffung:**
-1. Melden Sie sich bei Ihrer AEM Assets-Autoreninstanz an und öffnen Sie Configuration Manager.
-Standard-URL: http:// localhost:4502/system/console/configMgr.
-1. Suchen Sie nach **Asset-Beschaffung**, um die **[!UICONTROL Konfiguration des Feature Flags für die Asset-Beschaffung]** zu finden.
-1. Klicken Sie auf **[!UICONTROL Konfiguration des Feature Flags für die Asset-Beschaffung]**, um das Konfigurationsfenster zu öffnen.
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL feature.flag.active.status]**.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### Hochladen der Brand Portal-Benutzerliste {#upload-bp-user-list}
 
-AEM-Administratoren können die Datei für die Brand Portal-Benutzerkonfiguration (.csv) hochladen, die eine Liste der aktiven Brand Portal-Benutzer in AEM Assets enthält. Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
+AEM Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der aktiven Brand Portal-Benutzerliste in AEM Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
+
+Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
+
+>[!NOTE]
+>
+>Stellen Sie sicher, dass Ihre AEM Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
