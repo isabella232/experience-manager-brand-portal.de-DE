@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 0999d50f9e33d079c082afda28d7690015a13303
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 100%
+source-wordcount: '1960'
+ht-degree: 98%
 
 ---
 
@@ -199,10 +199,11 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
 >[!NOTE]
 >
->Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden direkt in einen ZIP-Ordner heruntergeladen.
->
 >Wenn die Einstellung **[!UICONTROL Asset-Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert ist, werden die Asset-Ausgabedarstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
-
+>  
+>Wenn die Assets von einem freigegebenen Link heruntergeladen werden, werden die Asset-Ausgabedarstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
+>
+>Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden direkt in einen ZIP-Ordner heruntergeladen.
 
 >[!NOTE]
 >
