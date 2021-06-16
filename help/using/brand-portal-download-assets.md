@@ -13,7 +13,7 @@ exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -200,7 +200,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 >
 >Wenn die Einstellung **[!UICONTROL Asset-Download]** in **[!UICONTROL Download-Einstellungen]** aktiviert ist, werden die Asset-Ausgabedarstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
 >  
->Wenn die Assets von einem freigegebenen Link heruntergeladen werden, werden die Asset-Ausgabedarstellungen für jedes Asset im ZIP-Ordner in einen separaten Ordner heruntergeladen.
+>Wenn die Assets von einem freigegebenen Link heruntergeladen werden, werden die Asset-Ausgabedarstellungen für jedes Asset in einen separaten Ordner im ZIP-Ordner heruntergeladen.
 >
 >Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden direkt in einen ZIP-Ordner heruntergeladen.
 
