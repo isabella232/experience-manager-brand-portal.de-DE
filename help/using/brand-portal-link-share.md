@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -96,9 +96,9 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
    >[!NOTE]
    >
-   >Für jedes Asset wird beim Herunterladen der Assets von einem freigegebenen Link ein separater Ordner erstellt.
+   >Beim Herunterladen der Assets von einem freigegebenen Link wird für jedes Asset ein separater Ordner erstellt.
    >
-   >Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Download]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer außer den dynamischen Ausgabedarstellungen zugreifen kann, werden in einen ZIP-Ordner heruntergeladen, der einen separaten Ordner für jedes Asset enthält.
+   >Wenn ein Ordner, eine Sammlung oder mehr als 20 Assets zum Herunterladen ausgewählt sind, wird das Dialogfeld **[!UICONTROL Herunterladen]** übersprungen und alle Asset-Ausgabedarstellungen, auf die der Benutzer zugreifen kann (mit Ausnahme der dynamischen Ausgabedarstellungen), werden in einen ZIP-Ordner heruntergeladen, der separate Ordner für jedes Asset enthält.
 
    >[!NOTE]
    >
@@ -139,39 +139,39 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 
 | Asset-Format | Miniatur-Unterstützung | Vorschau-Unterstützung |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | verwalten |
-| GIF | verwalten | verwalten |
-| TIFF | verwalten | ✕ |
-| JPEG | verwalten | verwalten |
-| BMP | verwalten | ✕ |
+| PNG | ✓ | ✓ |
+| GIF | ✓ | ✓ |
+| TIFF | ✓ | ✕ |
+| JPEG | ✓ | ✓ |
+| BMP | ✓ | ✕ |
 | PNM* | nicht vorhanden | nicht vorhanden |
 | PGM* | nicht vorhanden | nicht vorhanden |
 | PBM* | nicht vorhanden | nicht vorhanden |
 | PPM* | nicht vorhanden | nicht vorhanden |
-| PSD | verwalten | ✕ |
+| PSD | ✓ | ✕ |
 | EPS | nicht vorhanden | ✕ |
-| DNG | verwalten | ✕ |
-| PICT | verwalten | ✕ |
-| PSB* | verwalten | ✕ |
-| JPG | verwalten | verwalten |
-| AI | verwalten | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
+| JPG | ✓ | ✓ |
+| AI | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | verwalten | ✕ |
+| PDF | ✓ | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | verwalten | ✕ |
+| TXT | ✓ | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | verwalten | ✕ |
+| PPT | ✓ | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | verwalten | ✕ |
+| INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | verwalten | ✕ |
+| EPUB | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -191,16 +191,16 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | nicht vorhanden | ✕ |
-| JAR | verwalten | ✕ |
+| JAR | ✓ | ✕ |
 | RAR | nicht vorhanden | ✕ |
 | TAR | nicht vorhanden | ✕ |
-| ZIP | verwalten | ✕ |
+| ZIP | ✓ | ✕ |
 
 Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |---|---|
-| verwalten | Dieses Dateiformat unterstützt diese Funktion |
+| ✓ | Dieses Dateiformat unterstützt diese Funktion |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
 | * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
