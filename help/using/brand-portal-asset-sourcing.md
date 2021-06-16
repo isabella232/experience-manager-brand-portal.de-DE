@@ -18,9 +18,9 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 >[!NOTE]
 >
->Die Asset-Beschaffungsfunktion ist in AEM Assets as a Cloud Service, AEM Assets 6.5.9 und höher standardmäßig aktiviert.
+>Die Funktion zur Asset-Beschaffung ist in AEM Assets as a Cloud Service, AEM Assets 6.5.9 und höher standardmäßig aktiviert.
 >
->Die vorhandenen Konfigurationen funktionieren weiterhin mit den früheren Versionen.
+>Die vorhandenen Konfigurationen funktionieren weiterhin in den früheren Versionen.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Hochladen der Brand Portal-Benutzerliste {#upload-bp-user-list}
 
-AEM Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der aktiven Brand Portal-Benutzerliste in AEM Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
+AEM-Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der Liste der aktiven Brand Portal-Benutzer in AEM Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
 
 Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
 
