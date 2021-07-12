@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
+role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Sie können den Gültigkeitsstatus der Assets in der **[!UICONTROL Kartenansicht
 >
 >In den Listen- und Spaltenansichten wird der Gültigkeitsstatus der Assets nicht angezeigt.
 
-## Ablauf des Asset-Links  {#asset-link-expiration}
+## Ablauf des Asset-Links {#asset-link-expiration}
 
 Beim Teilen von Assets über Links können Administratoren und Bearbeiter über das Feld **[!UICONTROL Ablauf]** im Dialogfeld **[!UICONTROL Linkfreigabe]** ein Ablaufdatum und eine Ablaufuhrzeit einstellen. Standardmäßig beträgt die Ablauffrist des Links sieben Tage ab dem Datum, an dem der Link freigegeben wird.
 
@@ -87,7 +87,7 @@ Hier müssen Sie das Asset auswählen, das Sie herunterladen möchten, und die z
 
 Falls die Auswahl mehrere geschützte Assets enthält, wählen Sie jeweils eines aus, nehmen Sie die Lizenzvereinbarung an und fahren Sie mit dem Herunterladen des Assets fort.
 
-## Erstellen von Berichten zu abgelaufenen Assets  {#generate-report-about-expired-assets}
+## Erstellen von Berichten zu abgelaufenen Assets {#generate-report-about-expired-assets}
 
 Administratoren können einen Bericht erstellen und herunterladen, in dem alle Assets aufgeführt sind, die innerhalb eines bestimmten Zeitraums abgelaufen sind. Dieser Bericht enthält ausführliche Informationen zu den abgelaufenen Assets, etwa Größe, Art, Pfad mit der angegebenen Position des Assets in der Asset-Hierarchie, Ablaufdatum des Assets und dessen Veröffentlichungszeitpunkt. Die Spalten dieses Berichts können angepasst werden, um basierend auf den Benutzeranforderungen mehr Daten anzuzeigen.
 
