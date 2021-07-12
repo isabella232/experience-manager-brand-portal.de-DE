@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
+role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
@@ -74,14 +74,14 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 1. Um eine Komponente zu konfigurieren, wählen Sie diese aus und ändern Sie ihre Eigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]**.
 
-### Komponenten auf der Registerkarte „Formular erstellen“ {#components-in-the-build-form-tab}
+### Komponenten auf der Registerkarte „Formular erstellen“  {#components-in-the-build-form-tab}
 
 Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente, die Sie im Schemaformular verwenden können. Die Registerkarte **[!UICONTROL Einstellungen]** enthält die Attribute für jedes Element, das Sie auf der Registerkarte **[!UICONTROL Formular erstellen]** auswählen. Die folgende Tabelle enthält die auf der Registerkarte **[!UICONTROL Formular erstellen]** verfügbaren Formularelemente:
 
 | Komponentenname | Beschreibung |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!UICONTROL Bereichs-Kopfzeile]** | Fügen Sie eine Abschnittsüberschrift für eine Liste allgemeiner Komponenten hinzu. |
-| **[!UICONTROL Einzelzeilentext]** | Fügen Sie eine einzeilige Texteigenschaft hinzu. Diese wird als Zeichenfolge gespeichert. |
+| **[!UICONTROL Einzeilentext]** | Fügen Sie eine einzeilige Texteigenschaft hinzu. Diese wird als Zeichenfolge gespeichert. |
 | **[!UICONTROL Text mit Mehrfachwerten]** | Fügen Sie eine Texteigenschaft mit mehreren Werten hinzu. Diese wird als Zeichenfolgen-Array gespeichert. |
 | **[!UICONTROL Zahl]** | Fügen Sie eine Zahlenkomponente hinzu. |
 | **[!UICONTROL Datum]** | Fügen Sie eine Datumskomponente hinzu. |
