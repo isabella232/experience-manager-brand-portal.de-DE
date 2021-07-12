@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
@@ -65,7 +65,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass der Benutzer, der die Veröffentlichung durchführt (z. B. `mac-<tenantid>-replication`) nicht den neuesten privaten Schlüssel hat. Daher scheitert die Veröffentlichung mit dem Fehler „401 unauthorized“ und in den Replikationsagenten-Protokollen wird kein anderer Fehler gemeldet. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der AEM-Autoreninstanz Folgendes bereinigen:
 
-1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost:4502 ausführen:\
+1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost: ausführen:4502:\
    i. Löschen Sie `/etc/replication/agents.author/mp_replication`
 ii. Löschen Sie 
 `/etc/cloudservices/mediaportal/<config_name>`
