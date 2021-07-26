@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1482'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version 6.4.6 von AEM Assets Brand Portal oder mit früheren Versionen auftreten können.
 
 
-## Häufig gestellte Fragen zu Brand Portal 6.4.6 {#faqs-bp646}
+## Häufig gestellte Fragen zu Brand Portal 6.4.6   {#faqs-bp646}
 
 **Frage: Der vorhandene alte OAuth-Endpunkt (`https://legacy-oauth.cloud.adobe.io/login`) funktioniert nicht. Was könnte der Grund sein?**
 
@@ -40,7 +40,11 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 
 Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen in Adobe Developer Console [aktualisieren](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65).
 
-Zur sofortigen Fehlerbehebung unter AEM 6.5.4 wird empfohlen, [den Hotfix herunterzuladen](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) und auf der AEM-Autoreninstanz zu installieren.
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
 **Frage: Der Inhalt des Beitragsordners wird nicht aus Brand Portal in AEM Assets veröffentlicht. Was könnte der Grund sein?**
 
@@ -65,7 +69,7 @@ Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 1. Starten Sie den Server neu und überprüfen Sie die Verbindung.
 
 
-## Häufig gestellte Fragen zu Brand Portal 6.4.5 {#faqs-bp645}
+## Häufig gestellte Fragen zu Brand Portal 6.4.5   {#faqs-bp645}
 
 **Frage: Was ist die wichtigste Änderung in Version 6.4.5 von Brand Portal?**
 
