@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1033'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Stellen Sie Folgendes sicher, um Dateien schneller herunterzuladen:
 
 * Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]** und überprüfen Sie, ob die Konfiguration **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert ist.
 * Stellen Sie sicher, dass Port 33001 (TCP und UDP) ist in der Firewall geöffnet ist. Weitere Informationen zu den Voraussetzungen finden Sie in der [Dokumentation zum IBM Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
-* [Installieren Sie IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) mit Administratorberechtigungen in den Erweiterungen Ihres Browsers.
+* **Installieren Sie IBM Aspera Connect 3.9.9** mit Administratorberechtigungen in den Erweiterungen Ihres Browsers (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Informationen zu den vom Aspera Transfer-Client unterstützten Plattformen finden Sie in der [Plattform-Unterstützungsmatrix für IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Download-Domains {#download-domains}
@@ -92,7 +92,7 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, Assets mit IBM Aspera Connect herunterzuladen.
 
-   Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben oder die vorhandene Version veraltet ist, werden Sie aufgefordert, [Aspera Download Accelerator zu installieren](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
+   Wenn Sie die Assets zum ersten Mal herunterladen und IBM Aspera Connect nicht in Ihrem Browser installiert haben oder die vorhandene Version veraltet ist, werden Sie aufgefordert, Aspera Download Accelerator zu installieren (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
