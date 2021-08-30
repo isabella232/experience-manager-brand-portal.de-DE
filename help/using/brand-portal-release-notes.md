@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021,06,0 |
-| Datum | . Juni 2021 |
+| Version | 2021.06.0 |
+| Datum | Juni 2021 |
 
 ## Übersicht {#overview}
 
@@ -95,13 +95,13 @@ This release includes the following enhancements:
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 ist eine interne Version, die Fehlerbehebungen für die folgenden kritischen Probleme enthält:
+Brand Portal 2021.06.0 ist eine interne Version, mit der die folgenden kritischen Probleme behoben werden:
 
-* E-Mail-Benachrichtigungen zur Asset-Beschaffung werden für einige Unternehmen nicht bereitgestellt.
+* E-Mail-Benachrichtigungen zur Asset-Beschaffung werden bei einigen Unternehmen nicht bereitgestellt.
 
-* Videodateien mit der Erweiterung .mov werden nicht auf Brand Portal ausgeführt.
+* Videodateien mit der Erweiterung .mov werden in Brand Portal nicht ausgeführt.
 
-* Im Dropdown-Menü Smart-Sammlungen werden nur 10 gespeicherte Sammlungen angezeigt.
+* Im Dropdown-Menü „Smart-Sammlungen“ werden nur 10 gespeicherte Sammlungen angezeigt.
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -185,14 +185,14 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches Portugiesisch
+* Brasilianisches  Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Links {#links}
 
