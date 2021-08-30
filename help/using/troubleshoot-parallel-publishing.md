@@ -1,8 +1,8 @@
 ---
 title: Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal
-seo-title: Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beheben können.
-seo-description: Erfahren Sie, wie Sie Probleme beim parallelen Veröffentlichen beheben können.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -12,7 +12,7 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '873'
 ht-degree: 98%
 
 ---
@@ -65,7 +65,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass der Benutzer, der die Veröffentlichung durchführt (z. B. `mac-<tenantid>-replication`) nicht den neuesten privaten Schlüssel hat. Daher scheitert die Veröffentlichung mit dem Fehler „401 unauthorized“ und in den Replikationsagenten-Protokollen wird kein anderer Fehler gemeldet. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der AEM-Autoreninstanz Folgendes bereinigen:
 
-1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost: ausführen:4502:\
+1. Gehen Sie zu `localhost:4502/crx/de/` (unter Berücksichtigung der Tatsache, dass Sie die Autoreninstanz auf localhost::4502: ausführen)\
    i. Löschen Sie `/etc/replication/agents.author/mp_replication`
 ii. Löschen Sie 
 `/etc/cloudservices/mediaportal/<config_name>`
@@ -74,7 +74,7 @@ ii. Löschen Sie
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue  Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in `https://legacy-oauth.cloud.adobe.io/` / zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue    Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in `https://legacy-oauth.cloud.adobe.io/` / zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 

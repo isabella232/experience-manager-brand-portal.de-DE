@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in AEM Assets Brand Portal
-seo-title: Neue Funktionen in AEM Assets Brand Portal
+seo-title: What's new in AEM Assets Brand Portal
 description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2021.06.0.
-seo-description: Informieren Sie sich über die neuen Funktionen und Verbesserungen in Version 2021.06.0.
+seo-description: Take a look at the new features and enhancements for 2021.06.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -12,8 +12,8 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '6143'
-ht-degree: 98%
+source-wordcount: '6126'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 
 ## Änderungen in Version 2021.06.0 {#what-changed-in-june-2021}
 
-Brand Portal 2021.06.0 ist eine interne Version, die Fehlerbehebungen für kritische Probleme enthält. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2021.06.0 ist eine interne Version, mit der kritische Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -155,7 +155,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkei
 
 Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
-![download-dialog](assets/download-dialog-box.png)
+![download-dialogfeld](assets/download-dialog-box.png)
 
 ### Schnellnavigation   {#quick-navigation}
 
@@ -312,7 +312,7 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 
 Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
-Siehe [Häufig gestellte Fragen zum Brand Portal](brand-portal-faqs.md).
+Siehe [Häufig gestellte Fragen zu Brand Portal](brand-portal-faqs.md).
 
 ## Änderungen in Version 6.4.5 {#what-changed-in-645}
 
@@ -639,7 +639,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die maximale Größe für ZIP-Downloads bei der Linkfreigabe wurde von 1 GB auf 5 GB erhöht.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen  Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -654,11 +654,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 ### Erweiterte Berichterstellungsfunktionen
 
 **Neuer Bericht zur Link-Freigabe**
+
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Linkfreigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Linkfreigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+
 Der Verwendungbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
@@ -682,7 +684,7 @@ Verbesserte Eigenschaftenauswahl in den Admin Tools für Metadaten, Suche und B
 
 ## Änderungen in Version 6.3.2 {#what-changed-in-3}
 
-Brand Portal 6.3.2 enthält neue und erweiterte Funktionen, die die wichtigsten Kundenanfragen erfüllen und eine allgemeine Performancesteigerung bringen.
+Brand Portal 6.3.2 enthält neue und erweiterte Funktionen, die die wichtigsten Kundenanfragen erfüllen und eine allgemeine Performance-Steigerung bringen.
 
 ### Anfordern von Zugriff auf Brand Portal {#request-access-to-brand-portal}
 
@@ -797,7 +799,7 @@ Administratoren können vor der Freigabe von Assets Datum und Uhrzeit als Ablauf
 
 Die Asset-Sortierung in einem Ordner in der Listenansicht ist nicht mehr auf die Anzahl der Assets auf der ersten Seite beschränkt. Stattdessen werden alle Assets sortiert, unabhängig davon, ob sie auf der ersten Seite angezeigt werden.
 
-### Erweiterte Berichterstellung {#reporting-capabilities}
+### Erweitertes Reporting {#reporting-capabilities}
 
 Administratoren können drei Berichtstypen erstellen und verwalten – zu heruntergeladenen, abgelaufenen und veröffentlichten Assets. Zudem können die Spalten im Bericht konfiguriert und die Berichte als CSV-Datei exportiert werden.
 
