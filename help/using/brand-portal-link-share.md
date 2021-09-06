@@ -1,8 +1,8 @@
 ---
 title: Freigeben von Assets als Link
-seo-title: Freigeben von Assets als Link
+seo-title: Share assets as a link
 description: AEM Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
-seo-description: AEM Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 98%
 
 ---
 
@@ -27,10 +27,6 @@ Die Freigabe von Assets über einen Link ist eine praktische Methode, um die Ass
 -->
 
 Weitere Informationen finden Sie unter [Verwalten von Benutzern, Gruppen und Benutzerrollen](../using/brand-portal-adding-users.md#manage-user-roles).
-
->[!NOTE]
->
->Mit der Linkfreigabe-Funktion in Brand Portal können ZIP-Dateien mit bis zu 5 GB heruntergeladen werden.
 
 
 Im Folgenden werden die Schritte zum Freigeben von Assets als Link beschrieben:
@@ -107,7 +103,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 >[!NOTE]
 >
->Brand Portal verhindert das Herunterladen von Assets mit einer Dateigröße von mehr als 5 GB.
+>Brand Portal beschränkt den Download von Assets, die größer als **1** GB pro Dateigröße sind, mithilfe der Linkfreigabe.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## Unterstützte Vorschauen und Miniaturen für Asset-Formate {#preview-thumbnail-support}
@@ -139,39 +132,39 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 
 | Asset-Format | Miniatur-Unterstützung | Vorschau-Unterstützung |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | ✓ |
-| GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ |
-| JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ |
+| PNG | ✓ | verwalten |
+| GIF | verwalten | verwalten |
+| TIFF | verwalten | ✕ |
+| JPEG | verwalten | verwalten |
+| BMP | verwalten | ✕ |
 | PNM* | nicht vorhanden | nicht vorhanden |
 | PGM* | nicht vorhanden | nicht vorhanden |
 | PBM* | nicht vorhanden | nicht vorhanden |
 | PPM* | nicht vorhanden | nicht vorhanden |
-| PSD | ✓ | ✕ |
+| PSD | verwalten | ✕ |
 | EPS | nicht vorhanden | ✕ |
-| DNG | ✓ | ✕ |
-| PICT | ✓ | ✕ |
-| PSB* | ✓ | ✕ |
-| JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| DNG | verwalten | ✕ |
+| PICT | verwalten | ✕ |
+| PSB* | verwalten | ✕ |
+| JPG | verwalten | verwalten |
+| AI | verwalten | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | ✓ | ✕ |
+| PDF | verwalten | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | ✓ | ✕ |
+| TXT | verwalten | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | ✓ | ✕ |
+| PPT | verwalten | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | ✓ | ✕ |
+| INDD | verwalten | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| EPUB | verwalten | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -191,16 +184,16 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | nicht vorhanden | ✕ |
-| JAR | ✓ | ✕ |
+| JAR | verwalten | ✕ |
 | RAR | nicht vorhanden | ✕ |
 | TAR | nicht vorhanden | ✕ |
-| ZIP | ✓ | ✕ |
+| ZIP | verwalten | ✕ |
 
 Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |---|---|
-| ✓ | Dieses Dateiformat unterstützt diese Funktion |
+| verwalten | Dieses Dateiformat unterstützt diese Funktion |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
 | * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |

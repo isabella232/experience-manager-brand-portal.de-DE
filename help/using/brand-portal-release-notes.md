@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise
-seo-title: Versionshinweise
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.06.0.
-seo-description: Hier erhalten Sie nützliche Informationen zu Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.06.0.
+seo-title: Release Notes
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.08.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 55%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.06.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.08.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.06.0 |
-| Datum | Juni 2021 |
+| Version | 2021,08,0 |
+| Datum | . August 2021 |
 
 ## Übersicht {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2021.06.0 {#whats-new-in-2021.06.0}
+## Neue Funktionen in Version 2021.08.0 {#whats-new-in-2021.08.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,20 +67,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
-### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+### Verbesserungen {#enhancements}
 
-This release includes the following enhancements:
+Brand Portal 2021.08.0 ist eine interne Version, die Geschäftsprofile für Unternehmen und Teams einführt, damit Unternehmen bessere Kontrolle über ihre Assets erhalten.
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+Diese Version umfasst die folgenden Verbesserungen:
 
+* Die Benutzer verfügen jetzt über organisationsspezifische Berechtigungen für die neuen und migrierten Organisationen. Wenn ein Benutzer über die Berechtigung für mehrere Organisationen verfügt, muss der Benutzer die Organisation zum Zeitpunkt der Anmeldung auswählen.
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+* Die neuen Benutzer, die in Admin Console hinzugefügt werden, müssen **Mitglied des Teams** werden, um eine Berechtigung für das Unternehmen zu erhalten.
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
--->
+>[!NOTE]
+>
+>Geschäftsprofile gelten derzeit für die neuen Organisationen, die nach dem 16. August 2021 erstellt werden.
+>
+>Bis zur Migration Ihrer Organisation können Sie weiterhin Adobe ID-, Enterprise ID- oder Federated ID-Typen verwenden, um auf die Organisation zuzugreifen.
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -95,13 +97,13 @@ This release includes the following enhancements:
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 ist eine interne Version, mit der die folgenden kritischen Probleme behoben werden:
+Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
 * E-Mail-Benachrichtigungen zur Asset-Beschaffung werden bei einigen Unternehmen nicht bereitgestellt.
 
-* Videodateien mit der Erweiterung .mov werden in Brand Portal nicht ausgeführt.
+* Videodateien mit der Erweiterung `.mov` werden nicht auf Brand Portal ausgeführt.
 
-* Im Dropdown-Menü „Smart-Sammlungen“ werden nur 10 gespeicherte Sammlungen angezeigt.
+* In der Dropdown-Liste **[!UICONTROL Smart-Sammlungen]** sind nur zehn gespeicherte Sammlungen sichtbar.
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -119,15 +121,19 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
-### Known Issues {#known-issues}
 
-This release includes the following known issue:
+### Bekannte Probleme {#known-issues}
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+Dieses Release weist die folgenden bekannten Probleme auf:
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+* Benutzer können sich während der Migration ihrer bestehenden Organisation nicht bei Brand Portal anmelden.
+
+   Die aktiven Benutzer, die bei Brand Portal angemeldet sind, können jedoch bis zum Ablauf ihrer aktuellen Sitzung weiterarbeiten.
+
+* Wenn Sie von Brand Portal zu Admin Console navigieren, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm, um das Unternehmen auszuwählen.
+
+* Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
+
 
 <!--
 ### Known Issues {#known-issues}
@@ -192,12 +198,12 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://helpx.adobe.com/de/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](http://www.adobe.com/de/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://helpx.adobe.com/de/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
@@ -209,4 +215,4 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 
 * [Produktzugriff](https://login.marketing.adobe.com)
 
-* [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/contact.html)
+* [Support](https://helpx.adobe.com/de/contact.html)
