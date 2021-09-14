@@ -626,7 +626,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe i/O-Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) verwendet, um eine JWT-Anwendung zu erstellen, die die Konfiguration von OAuth-Integrationen ermöglicht, um eine AEM Assets-Integration mit Brand Portal zu ermöglichen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) zum Erstellen der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Verbesserungen der Suche
 
@@ -680,7 +680,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die Download-Grenze pro Dateigröße für die Linkfreigabe-Funktion ist **1** GB.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen  Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen   Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -696,11 +696,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 
 **Neuer Bericht zur Link-Freigabe**
 
+
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Linkfreigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Linkfreigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+
 
 Der Verwendungbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin Tools-Bereich auf **Berichte erstellen/verwalten**.
 
