@@ -11,9 +11,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2181'
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Verwenden Sie als Produkt-Administrator [[!UICONTROL Adobe Admin Console]](http:
    ![Benutzer zu Brand Portal hinzufügen](assets/add_user_to_aem_bp.png)
 
 1. Weisen Sie den Benutzer mindestens einem Produktprofil (ehemals „Produktkonfiguration“) zu, damit der Benutzer auf Brand Portal zugreifen kann. Wählen Sie im Feld **[!UICONTROL Profil für dieses Produkt auswählen]** das entsprechende Produktprofil aus.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Eine Begrüßungs-E-Mail wird an den neu hinzugefügten Benutzer gesendet. Der eingeladene Benutzer kann auf den Link in der Begrüßungs-E-Mail klicken, um auf Brand Portal zuzugreifen. Der Benutzer kann sich mit der in Admin Console konfigurierten E-Mail-ID ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Fedrated ID]) anmelden. Weitere Informationen finden Sie unter [Schritte bei der ersten Anmeldung](../using/brand-portal-onboarding.md).
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Eine Begrüßungs-E-Mail wird an den neu hinzugefügten Benutzer gesendet. Der eingeladene Benutzer kann auf den Link in der Begrüßungs-E-Mail klicken, um auf Brand Portal zuzugreifen. Der Benutzer kann sich mit der in Admin Console konfigurierten E-Mail-ID ([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Federated ID]) anmelden. Weitere Informationen finden Sie unter [Schritte bei der ersten Anmeldung](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ Produktprofile (ehemals „Produktkonfigurationen“) in [!UICONTROL Admin Conso
    ![Admin Console starten](assets/launch_admin_console.png)
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Produkte]**.
-1. Auf der Seite [!UICONTROL Produkte] ist die Option [!UICONTROL Produktprofile] standardmäßig aktiviert.  Klicken Sie auf **[!UICONTROL Neues Profil]**.
+1. Auf der Seite [!UICONTROL Produkte] ist die Option [!UICONTROL Produktprofile] standardmäßig aktiviert. Klicken Sie auf **[!UICONTROL Neues Profil]**.
 
    ![Neues Produktprofil hinzufügen](assets/admin_console_addproductprofile.png)
 
@@ -137,7 +137,7 @@ Um Benutzer zu einer Brand Portal-Gruppe hinzuzufügen, fügen Sie sie zum entsp
 
 1. Klicken Sie auf der Seite [!UICONTROL Benutzerrollen] auf die Registerkarte **[!UICONTROL Verwaltung]** und klicken Sie dann auf **[!UICONTROL Admin Console starten]**.
 
-   ![Launch [!DNL Admin Console]](assets/launch_admin_console.png)
+   ![Starten [!DNL Admin Console]](assets/launch_admin_console.png)
 
 1. Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Produkte]**.
 1. Auf der Seite [!UICONTROL Produkte] ist die Option [!UICONTROL Produktprofile] standardmäßig aktiviert. Öffnen Sie das Produktprofil, zu dem ein Benutzer hinzugefügt werden soll, zum Beispiel [!UICONTROL Vertriebsgruppe].
