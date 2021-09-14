@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,11 +74,11 @@ ii. Löschen Sie
    i. Suchen Sie den Benutzer `mac-<tenantid>replication`
 ii. Löschen Sie diesen Benutzer
 
-Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue    Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in `https://legacy-oauth.cloud.adobe.io/` / zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
+Jetzt wird das gesamte System bereinigt. Jetzt können Sie versuchen, eine neue      Cloud Service-Konfiguration zu konfigurieren und weiterhin die vorhandene JWT-Anwendung in `https://legacy-oauth.cloud.adobe.io/` / zu verwenden. Es ist nicht notwendig, eine neue Anwendung zu erstellen. Stattdessen muss einfach nur der öffentliche Schlüssel in der neu erstellten Cloud-Konfiguration aktualisiert werden.
 
 ## Problem mit der Sichtbarkeit der Developer Connection-JWT-Anwendung {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Wenn auf `https://legacy-oauth.cloud.adobe.io/` alle Organisationen (Mandanten) aufgelistet sind, für die die aktuellen Benutzer Systemadministrator sind. Wenn Sie den Organisationsnamen hier nicht finden oder Sie eine Anwendung für einen erforderlichen Mandanten hier nicht erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Rechte hierfür verfügen.
+In `https://legacy-oauth.cloud.adobe.io/` sind alle Organisationen (Mandanten) aufgelistet, für die die aktuellen Benutzer Systemadministrator sind. Wenn Sie den Organisationsnamen hier nicht finden oder Sie eine Anwendung für einen erforderlichen Mandanten hier nicht erstellen können, überprüfen Sie, ob Sie über ausreichende (Systemadministrator-)Rechte hierfür verfügen.
 
 Auf dieser Benutzeroberfläche gibt es das bekannte Problem, dass nur die Top-10-Anwendungen für einen Mandanten sichtbar sind. Wenn Sie die Anwendung erstellen, bleiben Sie auf dieser Seite und erstellen Sie ein Lesezeichen für die URL. Sie müssen nicht zur Auflistungsseite der Anwendung wechseln und die von Ihnen erstellte Anwendung suchen. Sie können diese als Lesezeichen gespeicherte URL direkt aufrufen und die Anwendung bei Bedarf aktualisieren/löschen.
 
