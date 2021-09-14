@@ -1,8 +1,8 @@
 ---
 title: Herunterladen von Assets
-seo-title: Herunterladen von Assets
+seo-title: Download assets
 description: Alle Benutzer können gleichzeitig mehrere Assets oder Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
-seo-description: Alle Benutzer können gleichzeitig mehrere Assets oder Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,9 +11,9 @@ topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1918'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, i
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (und höher) ist die Einstellung **[!UICONTROL Schneller Download]** standardmäßig aktiviert, wobei IBM Aspera Connect für den beschleunigten Download der Assets verwendet wird. Installieren Sie IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in der Erweiterung Ihres Browsers, bevor Sie die Assets aus Brand Portal herunterladen. Weitere Informationen finden Sie unter [Anleitung zur Beschleunigung von Downloads aus Brand Portal](../using/accelerated-download.md).
+>In Brand Portal 2020.10.0 (und höher) ist die Einstellung **[!UICONTROL Schneller Download]** standardmäßig aktiviert, wobei IBM Aspera Connect für den beschleunigten Download der Assets verwendet wird. Installieren Sie IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in der Browser-Erweiterung, bevor Sie die Assets aus Brand Portal herunterladen. Weitere Informationen finden Sie unter [Anleitung zur Beschleunigung von Downloads aus Brand Portal](../using/accelerated-download.md).
 >
 >Wenn Sie IBM Aspera Connect nicht verwenden und den normalen Download-Vorgang fortsetzen möchten, wenden Sie sich an den Administrator für Brand Portal, um die Einstellung **[!UICONTROL Schneller Download]** zu deaktivieren.
 
@@ -130,7 +130,7 @@ Wenn der Benutzer Zugriff auf Ausgabedarstellungen hat, wird dem Benutzer das er
 * Erstellen Sie einen separaten Ordner für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
-![download-dialog](assets/download-dialog-box.png)
+![download-dialogfeld](assets/download-dialog-box.png)
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
-      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -184,7 +184,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
    Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![download-dialogfeld](assets/download-dialog-box-new.png)
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, einen beschleunigten Download mit IBM Aspera Connect zu erlauben.
 
