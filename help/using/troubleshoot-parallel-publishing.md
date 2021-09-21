@@ -10,8 +10,8 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: ht
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -123,6 +123,7 @@ Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öf
 Normalerweise schlägt der Veröffentlichungsauftrag mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
 
 Gehen Sie wie folgt vor, um die Replikationsagenten zu konfigurieren:
+
 1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
 1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
 1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie sehen die vier Replikationsagenten Ihres Brand Portal-Mandanten.
