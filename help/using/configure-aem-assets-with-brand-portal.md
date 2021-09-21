@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von AEM Assets mit Brand Portal
-seo-title: Konfigurieren von AEM Assets mit Brand Portal
+seo-title: Configure AEM Assets with Brand Portal
 description: Hier erhalten Sie einen Einblick in die Konfiguration von AEM Assets mit Brand Portal.
-seo-description: Hier erhalten Sie einen Einblick in die Konfiguration von AEM Assets mit Brand Portal.
+seo-description: Get an insight into configuring AEM Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '433'
+source-git-commit: ea3242459776037499b21b33ba40357afc8bf234
+workflow-type: tm+mt
+source-wordcount: '417'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 100%
 Die Konfiguration von Adobe Experience Manager Assets mit Brand Portal bietet Benutzern von Brand Portal Funktionen zur Asset-Veröffentlichung, Asset-Verteilung und Mitarbeit an Assets. Sie ermöglicht AEM Assets-Benutzern das Veröffentlichen und Verteilen von Assets an Brand Portal-Benutzer. Brand Portal-Benutzer können auf die freigegebenen Assets zugreifen und ihren Beitrag leisten, indem sie neue Assets in die Asset-Beitragsordner hochladen und sie wieder in AEM Assets veröffentlichen.
 
 Die Konfiguration von AEM Assets mit Brand Portal wird unterstützt in:
+
 * AEM Assets as a Cloud Service
 * AEM Assets (On-Premise und Managed Service) 6.3 und höher
 
