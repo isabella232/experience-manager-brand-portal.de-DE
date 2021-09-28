@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 80%
+source-wordcount: '1026'
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,10 @@ Beispiel: Ein Gastbenutzer meldet sich um 15:00 Uhr bei Brand Portal an und füg
 ## Gleichzeitige Gastsitzungen zulässig {#concurrent-guest-sessions-allowed}
 
 Die Zahl der gleichzeitigen Gastsitzungen ist auf 10 % des Gesamtbenutzerkontingents pro Organisation beschränkt. Für eine Organisation mit einem Benutzerkontingent von 200 Personen können maximal 20 Gastbenutzer gleichzeitig arbeiten. Dem 21. Benutzer wird der Zugriff verweigert und er kann nur einen Gastzugriff erhalten, wenn die Sitzung von einem der 20 aktiven Gastbenutzer abläuft.
+
+>[!NOTE]
+>
+>Brand Portal sendet keine Benachrichtigung, wenn die Anzahl der lizenzierten Benutzer den vertraglich vereinbarten Wert (Kontingent) überschreitet. Außerdem schränkt sie keine Aktivität der lizenzierten Benutzer ein.
 
 ## Gastbenutzerinteraktion mit Brand Portal {#guest-user-interaction-with-brand-portal}
 
