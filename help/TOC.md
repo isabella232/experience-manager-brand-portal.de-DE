@@ -1,17 +1,17 @@
 ---
 cloud: Experience Cloud
 product: adobe experience manager
-sub-product: Experience Manager Brand Portal
+sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal-Benutzerhandbuch
 user-guide-description: Nutzen Sie das AEM Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 feature: Brand Portal
 role: User
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 100%
    + [Häufig gestellte Fragen](using/brand-portal-faqs.md)
    + [Unterstützte Dateiformate](using/brand-portal-supported-formats.md)
    + [Gastzugang für Brand Portal](using/guest-access.md)
-   + [Grundlagen von Brand Portal mit AEM Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/home.html)
+   + [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Durchsuchen von Assets in Brand Portal](using/browse-assets-brand-portal.md)
 + Veröffentlichen aus AEM Assets in Brand Portal {#publish}
    + [Konfigurieren von AEM Assets mit Brand Portal](using/configure-aem-assets-with-brand-portal.md)
-   + [Veröffentlichen von Assets in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [Veröffentlichen von Ordnern in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [Veröffentlichen von Sammlungen in Brand Portal](https://docs.adobe.com/content/help/de-DE/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Veröffentlichen von Assets in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [Veröffentlichen von Ordnern in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [Veröffentlichen von Sammlungen in Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Beheben von Problemen beim parallelen Veröffentlichen in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Veröffentlichen von Tags in Brand Portal](using/brand-portal-publish-tags.md)
    + [Veröffentlichen von Vorgaben, Schemata und Facetten in Brand Portal](using/publish-schema-search-facets-presets.md)

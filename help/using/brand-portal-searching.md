@@ -1,8 +1,8 @@
 ---
 title: Suchen von Assets in Brand Portal
-seo-title: Asset-Suche und gespeicherte Suche in AEM Brand Portal
+seo-title: Asset searching and saved search on AEM Brand Portal
 description: Mit der Brand Portal-Suchfunktion können Sie schnell mithilfe von Omnisearch nach relevanten Assets suchen. Mit Suchfiltern können Sie die Suche weiter einschränken. Speichern Sie Ihre Suchen als Smart-Sammlungen, um sie später wiederverwenden zu können.
-seo-description: Mit der Brand Portal-Suchfunktion können Sie schnell mithilfe von Omnisearch nach relevanten Assets suchen. Mit Suchfiltern können Sie die Suche weiter einschränken. Speichern Sie Ihre Suchen als Smart-Sammlungen, um sie später wiederverwenden zu können.
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -45,11 +45,11 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
 Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/search-assets.html).
 
-## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
+## Suche mithilfe von Facetten im Bereich „Filter“  {#search-using-facets-in-filters-panel}
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
 
-Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, z. B. PDF oder MS Word.<br />
+Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, z. B. PDF oder MS Word.
 
 ![Bereich „Filter“ in Brand Portal](assets/file-type-search.png "Bereich „Filter“ in Brand Portal")
 

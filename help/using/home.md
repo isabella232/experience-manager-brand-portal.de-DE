@@ -1,13 +1,13 @@
 ---
 title: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
-seo-title: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
-seo-description: Beschreibt die Verwendung von Brand Portal
+seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 98%
 
 ---
 
@@ -49,4 +49,4 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 
 ### Hilfreiche Ressourcen
 
-* [Grundlagen von Brand Portal mit AEM Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-brand-portal/using/home.html)
+* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

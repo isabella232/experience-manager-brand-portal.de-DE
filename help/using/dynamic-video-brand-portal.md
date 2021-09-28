@@ -1,8 +1,8 @@
 ---
 title: Unterstützung für Dynamic Video in Brand Portal
-seo-title: Unterstützung für Dynamic Video in Brand Portal
+seo-title: Dynamic video support on Brand Portal
 description: Unterstützung für Dynamic Video in Brand Portal
-seo-description: Unterstützung für Dynamic Video in Brand Portal
+seo-description: Dynamic video support on Brand Portal
 uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 96%
 
 ---
 
@@ -69,7 +69,7 @@ Stellen Sie sicher, dass [separate Brand Portal-Mandanten](#separate-tenants) f�
 * **Veröffentlichen Sie Ordner mit in Brand Portal angewendeten Videokodierungen.**
 Wenden Sie [Videokodierungen](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/video-profiles.html) an und veröffentlichen Sie den Ordner mit Rich-Media-Assets von der AEM-Autoreninstanz in Brand Portal.
 * **Setzen Sie Egress-IPs in SPS auf die Allowlist, wenn die sichere Vorschau aktiviert ist.**
-Bei der Nutzung von Dynamic Media-**[!DNL Scene 7]** (mit [aktivierter sicherer Vorschau](https://docs.adobe.com/content/help/de/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) für ein Unternehmen) wird empfohlen, dass der **[!DNL Scene 7]** -Unternehmens-Administrator [die öffentlichen Egress-IPs auf die Zulassungsliste setzt](https://docs.adobe.com/content/help/de/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service). Dies erfolgt für die betreffenden Regionen mittels der SPS (**[!UICONTROL Scene7]** Publishing System)-Flash-Benutzeroberfläche.
+Bei der Nutzung von Dynamic Media-**[!DNL Scene 7]** (mit [aktivierter sicherer Vorschau](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) für ein Unternehmen) wird empfohlen, dass der **[!DNL Scene 7]** -Unternehmens-Administrator [die öffentlichen Egress-IPs auf die Zulassungsliste setzt](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service). Dies erfolgt für die betreffenden Regionen mittels der SPS (**[!UICONTROL Scene7]** Publishing System)-Flash-Benutzeroberfläche.
 Die Egress-IPs lauten wie folgt:
 
 | **Region** | **Egress-IP** |
@@ -78,7 +78,7 @@ Die Egress-IPs lauten wie folgt:
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
-Informationen zum Hinzufügen einer dieser Egress-IPs zur Zulassungsliste finden Sie unter [Vorbereiten Ihres Kontos für sicheres Testen](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Informationen zum Hinzufügen einer dieser Egress-IPs zur Zulassungsliste finden Sie unter [Vorbereiten Ihres Kontos für sicheres Testen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## Best Practices
 
@@ -86,7 +86,8 @@ Um sicherzustellen, dass Ihre Dynamic Video-Assets erfolgreich in einer Vorschau
 
 ### Aufteilen von Mandanten für den Dynamic Media Hybrid-Modus und den Dynamic Media Scene7-Modus {#separate-tenants}
 
-Wenn Sie sowohl Funktionen von Dynamic Media **[!DNL Scene 7]** als auch von Dynamic Media Hybrid verwenden, wird empfohlen, verschiedene Brand Portal-Mandanten für AEM-Autoreninstanzen zu verwenden, die mit dem Dynamic Media Hybrid-Modus bzw. mit dem Dynamic Media-**[!DNL Scene 7]**-Modus konfiguriert sind.<br />
+Wenn Sie sowohl Funktionen von Dynamic Media **[!DNL Scene 7]** als auch von Dynamic Media Hybrid verwenden, wird empfohlen, verschiedene Brand Portal-Mandanten für AEM-Autoreninstanzen zu verwenden, die mit dem Dynamic Media Hybrid-Modus bzw. mit dem Dynamic Media-**[!DNL Scene 7]**-Modus konfiguriert sind.
+
 
 ![Autoreninstanz und BP – 1:1-Zuordnung](assets/BPDynamicMedia.png)
 
@@ -96,9 +97,9 @@ Stellen Sie sicher, dass die Konfigurationsdetails wie **[!UICONTROL Titel]**, *
 
 ### Öffentliche Ausgangs-IPs für den Dynamic Media Scene7-Modus auf die Zulassungsliste setzen
 
-Wenn Dynamic Media **[!UICONTROL Scene7]** mit aktivierter [sicherer Vorschau](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) genutzt wird, um Video-Assets für Brand Portal bereitzustellen, richtet **[!UICONTROL Scene7]** einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit einer beliebigen Anforderung an diesen Server wird die IP-Ursprungsadresse geprüft. Wenn die eingehende Anforderung nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben.
+Wenn Dynamic Media **[!UICONTROL Scene7]** mit aktivierter [sicherer Vorschau](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) genutzt wird, um Video-Assets für Brand Portal bereitzustellen, richtet **[!UICONTROL Scene7]** einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit einer beliebigen Anforderung an diesen Server wird die IP-Ursprungsadresse geprüft. Wenn die eingehende Anforderung nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben.
 Der **[!UICONTROL Scene7]**-Unternehmensadministrator konfiguriert daher eine Liste genehmigter IP-Adressen für die **[!UICONTROL sichere Testumgebung]** seines Unternehmens. Dies erfolgt über die Flash-Benutzeroberfläche von **[!UICONTROL SPS]** (Scene7-Veröffentlichungssystem). Stellen Sie sicher, dass die Egress-IP für Ihre jeweilige Region (siehe unten) in diese genehmigte Liste aufgenommen wird.
-Informationen zum Hinzufügen einer dieser Egress-IPs zur Zulassungsliste finden Sie unter [Vorbereiten Ihres Kontos für sicheres Testen](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Informationen zum Hinzufügen einer dieser Egress-IPs zur Zulassungsliste finden Sie unter [Vorbereiten Ihres Kontos für sicheres Testen](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 Die Egress-IPs lauten wie folgt:
 
 | **Region** | **Egress-IP** |
@@ -137,16 +138,21 @@ Gehen Sie wie folgt vor, um Dynamic Media **[!UICONTROL Scene7]**-Konfiguratione
 
 1. Wählen Sie in Brand Portal in der Symbolleiste am oberen Rand das AEM-Logo aus, um die Admin Tools aufzurufen.
 
-2. Wählen Sie im Admin Tools-Bereich die Kachel **[!UICONTROL Dynamic Media-Konfiguration]** aus.<br />
+2. Wählen Sie im Admin Tools-Bereich die Kachel **[!UICONTROL Dynamic Media-Konfiguration]** aus.
+
    ![DM [!UICONTROL Scene7]-Konfiguration in Brand Portal](assets/DMS7-Tile.png)
-   Die Seite **[!UICONTROL Konfiguration für Dynamic Media bearbeiten]** wird geöffnet.<br />
+
+   Die Seite **[!UICONTROL Konfiguration für Dynamic Media bearbeiten]** wird geöffnet.
+
    ![Scene7-Konfiguration in Brand Portal](assets/S7Config.png)
 
 3. Geben Sie Folgendes an:
+
    * **[!UICONTROL Titel]**
    * Anmeldedaten (**[!UICONTROL E-Mail-ID]** und **[!UICONTROL Passwort]**) für den Zugriff auf den Scene7-Server
    * **[!UICONTROL Region]**
-Stellen Sie sicher, dass diese Werte mit denen in Ihrer AEM-Autoreninstanz übereinstimmen.
+
+   Stellen Sie sicher, dass diese Werte mit denen in Ihrer AEM-Autoreninstanz übereinstimmen.
 
 4. Wählen Sie **[!UICONTROL Mit Dynamic Media verbinden]** aus.
 
