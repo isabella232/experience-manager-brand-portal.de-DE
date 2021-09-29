@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1468'
 ht-degree: 99%
 
 ---
@@ -204,6 +204,8 @@ Dies gilt für alle Ordner, die von AEM Assets in Brand Portal veröffentlicht w
 
 Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff benötigen, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-* [](https://daycare.day.com) [Produktzugriff](https://login.marketing.adobe.com)
+<!--
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/contact.html)
+* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+-->
