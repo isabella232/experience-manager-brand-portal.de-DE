@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 64%
+source-wordcount: '396'
+ht-degree: 63%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
-* Aus Brand Portal veröffentlichte Assets werden für einen bestimmten Beitragsordner nicht in Experience Manager Assets angezeigt.
-* Die **[!UICONTROL totalUploadSize]** für einen Brand Portal-Mandanten wird nicht reduziert, wenn die Veröffentlichung eines Beitragsordners rückgängig gemacht wird.
+* Die Assets eines Beitragsordners derselben Größe werden nicht aus Brand Portal in Experience Manager Assets veröffentlicht.
+* Die Größe eines Asset-Beitragsordners wird nicht reduziert, wenn die Veröffentlichung des Beitragsordners rückgängig gemacht wird.
 * Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
 * Die Gruppenanzahl auf der Seite mit den Benutzerberechtigungen ist falsch.
 * Die Seite &quot;Sammlungen&quot;dauert beim Navigieren durch die Liste zu lange.
