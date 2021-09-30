@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise
 seo-title: Release Notes
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.08.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.10.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 55%
+source-wordcount: '391'
+ht-degree: 64%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.08.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.10.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021,08,0 |
-| Datum | . August 2021 |
+| Version | 2021.10.0 |
+| Datum | Oktober 2021 |
 
 ## Übersicht {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2021.08.0 {#whats-new-in-2021.08.0}
+## Neue Funktionen in Version 2021.10.0 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,22 +67,23 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
+### Enhancements {#enhancements}
 
-### Verbesserungen {#enhancements}
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
-Brand Portal 2021.08.0 ist eine interne Version, die Geschäftsprofile für Unternehmen und Teams einführt, damit Unternehmen bessere Kontrolle über ihre Assets erhalten.
+This release includes the following enhancements:
 
-Diese Version umfasst die folgenden Verbesserungen:
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* Die Benutzer verfügen jetzt über organisationsspezifische Berechtigungen für die neuen und migrierten Organisationen. Wenn ein Benutzer über die Berechtigung für mehrere Organisationen verfügt, muss der Benutzer die Organisation zum Zeitpunkt der Anmeldung auswählen.
-
-* Die neuen Benutzer, die in Admin Console hinzugefügt werden, müssen **Mitglied des Teams** werden, um eine Berechtigung für das Unternehmen zu erhalten.
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
 >[!NOTE]
 >
->Geschäftsprofile gelten derzeit für die neuen Organisationen, die nach dem 16. August 2021 erstellt werden.
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
->Bis zur Migration Ihrer Organisation können Sie weiterhin Adobe ID-, Enterprise ID- oder Federated ID-Typen verwenden, um auf die Organisation zuzugreifen.
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -99,12 +100,19 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 
-* E-Mail-Benachrichtigungen zur Asset-Beschaffung werden bei einigen Unternehmen nicht bereitgestellt.
+* Aus Brand Portal veröffentlichte Assets werden für einen bestimmten Beitragsordner nicht in Experience Manager Assets angezeigt.
+* Die **[!UICONTROL totalUploadSize]** für einen Brand Portal-Mandanten wird nicht reduziert, wenn die Veröffentlichung eines Beitragsordners rückgängig gemacht wird.
+* Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
+* Die Gruppenanzahl auf der Seite mit den Benutzerberechtigungen ist falsch.
+* Die Seite &quot;Sammlungen&quot;dauert beim Navigieren durch die Liste zu lange.
 
-* Videodateien mit der Erweiterung `.mov` werden nicht auf Brand Portal ausgeführt.
+<!--
+* Asset Sourcing email notifications are not delivered for some organizations. 
 
-* In der Dropdown-Liste **[!UICONTROL Smart-Sammlungen]** sind nur zehn gespeicherte Sammlungen sichtbar.
+* Video files with extension `.mov` are not running on Brand Portal. 
 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -131,8 +139,6 @@ Dieses Release weist die folgenden bekannten Probleme auf:
    Die aktiven Benutzer, die bei Brand Portal angemeldet sind, können jedoch bis zum Ablauf ihrer aktuellen Sitzung weiterarbeiten.
 
 * Wenn Sie von Brand Portal zu Admin Console navigieren, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm, um das Unternehmen auszuwählen.
-
-* Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
 
 
 <!--
