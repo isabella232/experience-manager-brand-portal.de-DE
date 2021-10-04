@@ -1,22 +1,22 @@
 ---
-title: Überblick über AEM Assets Brand Portal
-seo-title: Überblick über AEM Assets Brand Portal
-description: Mit AEM Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen.
-seo-description: Mit AEM Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen.
+title: Übersicht über Experience Manager Assets Brand Portal
+seo-title: Overview of Experience Manager Assets Brand Portal
+description: Mit Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen.
+seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1528'
+ht-degree: 86%
 
 ---
 
-# Überblick über AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Übersicht über Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 Als Marketingexperte müssen Sie gelegentlich mit Channel-Partnern und unternehmensinternen Nutzern zusammenarbeiten, um schnell relevante Inhalte für Kunden erstellen, verwalten und liefern zu können. Die zeitnahe Bereitstellung relevanter Inhalte für die gesamte Customer Journey ist ein wichtiger Faktor für Nachfragegenerierung, Konversionen, Interaktionen und Kundenloyalität.
 
@@ -24,24 +24,24 @@ Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe genehmigt
 
 **Adobe Experience Manager (AEM) Asset Brand Portal** konzentriert sich auf das Bedürfnis des Marketers nach einer effektiven Zusammenarbeit mit den weltweit verteilten Brand Portal-Benutzern, indem es Funktionen für die Asset-Verteilung und Asset-Beiträge bereitstellt.
 
-Mit der Asset-Verteilung können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Der Asset-Beitrag ermöglicht es den Brand Portal-Benutzern, Assets in Brand Portal hochzuladen und in AEM Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Beschaffung in Brand Portal** bezeichnet. Zusammengenommen verbessert sie die gesamte Brand Portal-Erfahrung bei der Verteilung von Assets und den Beiträgen der Brand Portal-Benutzer (externen Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
+Mit der Asset-Verteilung können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Der Asset-Beitrag ermöglicht es Brand Portal-Benutzern, Assets in Brand Portal hochzuladen und in Experience Manager Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Beschaffung in Brand Portal** bezeichnet. Zusammengenommen verbessert sie die gesamte Brand Portal-Erfahrung bei der Verteilung von Assets und den Beiträgen der Brand Portal-Benutzer (externen Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
 Siehe [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md).
 
 Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen, zu durchsuchen, zu suchen, in einer Vorschau anzuzeigen und in genehmigten Formaten zu exportieren.
 
-## Konfigurieren von AEM Assets mit Brand Portal {#configure-brand-portal}
+## Konfigurieren von Experience Manager Assets mit Brand Portal {#configure-brand-portal}
 
 Die Konfiguration von Adobe Experience Manager Assets mit Brand Portal bietet Benutzern von Brand Portal Funktionen zur Asset-Veröffentlichung, Asset-Verteilung und Mitarbeit an Assets.
 
 >[!NOTE]
 >
->Die Konfiguration von AEM Assets mit Brand Portal wird unter AEM Assets as a Cloud Service und AEM Assets 6.3 und höher unterstützt.
+>Die Konfiguration von Experience Manager Assets mit Brand Portal wird von Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 und höher unterstützt.
 
-AEM Assets as a Cloud Service wird automatisch mit Brand Portal konfiguriert, indem Brand Portal über Cloud Manager aktiviert wird. Der Aktivierungs-Workflow erstellt die erforderlichen Konfigurationen im Backend und aktiviert Brand Portal auf derselben IMS-Org wie die AEM Assets as a Cloud Service-Instanz.
+Experience Manager Assets as a Cloud Service wird automatisch mit Brand Portal konfiguriert, indem Brand Portal über Cloud Manager aktiviert wird. Der Aktivierungs-Workflow erstellt die erforderlichen Konfigurationen im Backend und aktiviert Brand Portal auf derselben IMS-Organisation wie die Experience Manager Assets als Cloud Service-Instanz.
 
-AEM Assets (On-Premise und Managed Service) wird hingegen manuell mit Brand Portal über Adobe Developer Console konfiguriert, die ein Adobe Identity Management Services (IMS)-Token für die Autorisierung des Brand Portal-Mandanten abruft.
+Im Gegensatz dazu wird Experience Manager Assets (On-Premise und verwalteter Dienst) mithilfe der Adobe Developer Console manuell mit Brand Portal konfiguriert. Dadurch wird ein Adobe Identity Management Services (IMS)-Token zur Autorisierung des Brand Portal-Mandanten abgerufen.
 
-Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+Weitere Informationen finden Sie unter [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Benutzerrollen in Brand Portal {#Personas}
 
@@ -142,7 +142,7 @@ Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert]
 
 >[!NOTE]
 >
->Um einen Alias für einen Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen sich Organisationen an den Adobe-Support wenden und das Erstellen eines neuen Mandantenalias anfordern. Bei der Bearbeitung dieses Antrags wird zuerst geprüft, ob der Alias verfügbar ist. Trifft dies zu, wird der Alias erstellt.
+>Um einen Alias für den Mandantennamen in der vorhandenen Portal-URL zu erhalten, müssen sich Unternehmen an den Support wenden und eine Anfrage zur Erstellung eines neuen Mandantenalias stellen. Bei der Bearbeitung dieses Antrags wird zuerst geprüft, ob der Alias verfügbar ist. Trifft dies zu, wird der Alias erstellt.
 >
 >Um den alten Alias zu ersetzen oder zu löschen, muss der gleiche Prozess befolgt werden.
 
@@ -228,5 +228,8 @@ Sie können diese Benachrichtigung schließen und Brand Portal weiterhin verwend
 
 ## Verwandte Ressourcen {#related-resources}
 
-* [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [AEM-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

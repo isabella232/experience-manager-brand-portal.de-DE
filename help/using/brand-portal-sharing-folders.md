@@ -1,30 +1,30 @@
 ---
 title: Freigeben von Ordnern
-seo-title: Freigeben von Ordnern
-description: Brand Portal unterstützt keine Asset-Erfassung, sodass Assets aus einer vorkonfigurierten AEM-Autoreninstanz in Brand Portal veröffentlicht werden müssen. Brand Portal-Benutzer ohne Administratorrechte können nicht auf veröffentlichte Assets zugreifen, sofern sie nicht bei der Konfiguration der Replikation mit der AEM-Instanz konfiguriert wurden. Stattdessen müssen sie für diese Benutzer freigegeben werden.
-seo-description: Brand Portal unterstützt keine Asset-Erfassung, sodass Assets aus einer vorkonfigurierten AEM-Autoreninstanz in Brand Portal veröffentlicht werden müssen. Brand Portal-Benutzer ohne Administratorrechte können nicht auf veröffentlichte Assets zugreifen, sofern sie nicht bei der Konfiguration der Replikation mit der AEM-Instanz konfiguriert wurden. Stattdessen müssen sie für diese Benutzer freigegeben werden.
+seo-title: Share folders
+description: Die Asset-Erfassung wird von Brand Portal nicht unterstützt. Daher müssen Assets aus einer vorkonfigurierten Experience Manager Assets-Autoreninstanz in Brand Portal veröffentlicht werden. Veröffentlichte Assets stehen Benutzern ohne Administratorrechte von Brand Portal nicht zur Verfügung, es sei denn, sie werden beim Konfigurieren der Replikation mit der Experience Manager-Instanz konfiguriert und müssen für sie freigegeben werden.
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 90%
 
 ---
 
 # Ordner in Brand Portal freigeben {#share-folders}
 
-Assets müssen in Brand Portal aus einer vorkonfigurierten AEM-Autoreninstanz veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
+Assets müssen von einer vorkonfigurierten Experience Manager-Autoreninstanz in Brand Portal veröffentlicht werden, da Brand Portal die Asset-Erfassung nicht unterstützt.
 
 ## Workflow zur Ordnerfreigabe in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 Nachfolgend werden der Ordnerfreigabe-Arbeitsablauf und der Benutzerzugriff beschrieben:
 
-* Standardmäßig werden alle aus AEM Assets in Brand Portal veröffentlichten Ordner nur für den Brand Portal-Administrator angezeigt, wenn sie bei der Konfiguration der Replikation nicht als „Öffentlich“ gekennzeichnet sind.
+* Standardmäßig sind alle Ordner, die aus Experience Manager Assets in Brand Portal veröffentlicht werden, nur für den Brand Portal-Administrator sichtbar, es sei denn, sie werden beim Konfigurieren der Replikation als öffentlich markiert.
 * Der Administrator nutzt die Konsole **[!UICONTROL Ordnereigenschaften]**, um einen Ordner für ausgewählte Benutzer oder Gruppen freizugeben. Nur die Benutzer und Gruppen, für die die Ordner freigegeben wurden, können den Ordner nach dem Anmelden bei Brand Portal sehen. Der Ordner ist für andere Benutzer nicht sichtbar.
 * Der Administrator kann auch festlegen, dass ein Ordner öffentlich zugänglich gemacht wird, und zwar durch das Kontrollkästchen **[!UICONTROL Öffentlicher Ordner]** in den **[!UICONTROL Ordnereigenschaften]**. Ein öffentlicher Ordner ist für alle Benutzer sichtbar.
 
@@ -63,7 +63,7 @@ In der folgenden Matrix werden die Zugriffsberechtigungen und die Berechtigungen
 >
 >Standardmäßig ist die Option **[!UICONTROL Öffentlichen Ordner veröffentlichen]** bei der Konfiguration der Replikation von Brand Portal mit AEM-Autor deaktiviert. Wenn die Option aktiviert ist, können standardmäßig alle Benutzer (auch Benutzer ohne Administratorrechte) auf die in Brand Portal veröffentlichten Ordner zugreifen.
 
-### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner  {#non-admin-user-access-to-shared-folders}
+### Zugriff von Benutzern ohne Administratorrechte auf freigegebene Ordner {#non-admin-user-access-to-shared-folders}
 
 Benutzer ohne Administratorrechte können nur auf die Ordner zugreifen, die in Brand Portal für sie freigegeben sind. Wie diese Ordner jedoch im Portal angezeigt werden, wenn sich die Benutzer anmelden, hängt von den Einstellungen der Konfiguration **[!UICONTROL Ordnerhierarchie aktivieren]**.
 
@@ -126,7 +126,7 @@ Um den Ordner nur für Gastbenutzer und keine anderen Benutzer freizugeben, wäh
 
 1. Um auf den freigegebenen Ordner zuzugreifen, melden Sie sich bei Brand Portal mit den Anmeldeinformationen des Benutzers an, für den Sie den Ordner freigegeben haben. Überprüfen Sie den freigegebenen Ordner in der Benutzeroberfläche.
 
-## Aufheben der Freigabe von Ordnern  {#unshare-the-folders}
+## Aufheben der Freigabe von Ordnern {#unshare-the-folders}
 
 Gehen Sie wie folgt vor, um die vormalige Freigabe eines Ordners aufzuheben:
 

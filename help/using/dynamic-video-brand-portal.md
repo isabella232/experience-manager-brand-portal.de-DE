@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1190'
+ht-degree: 87%
 
 ---
 
@@ -29,19 +29,19 @@ Brand Portal-Benutzer haben folgende Möglichkeiten:
 
 >[!NOTE]
 >
->Um mit Videos zu arbeiten und sie in Brand Portal zu veröffentlichen, stellen Sie sicher, dass die AEM-Autoreninstanz entweder im Dynamic Media Hybrid-Modus oder im Dynamic Media **[!DNL Scene 7]**-Modus.
+>Um mit Videos zu arbeiten und sie in Brand Portal zu veröffentlichen, stellen Sie sicher, dass Ihre Experience Manager-Autoreninstanz entweder im Dynamic Media-Hybridmodus oder im Dynamic Media-Modus **[!DNL Scene 7]** eingerichtet ist.
 
 Um Videos in einer Vorschau anzeigen, diese wiederzugeben und herunterzuladen, stellt Brand Portal die beiden folgenden Konfigurationen für Administratoren bereit:
 
-* [Dynamic Media Hybrid-Konfiguration](#configure-dm-hybrid-settings)
-Wenn die AEM-Autoreninstanz im Dynamic Media Hybrid-Modus ausgeführt wird.
-* [Dynamic Media- [!DNL Scene 7] -Konfiguration](#configure-dm-scene7-settings)
-Wenn die AEM-Autoreninstanz im Dynamic Media-**[!DNL Scene 7]**-Modus ausgeführt wird.
-Legen Sie eine dieser Konfigurationen basierend auf den Konfigurationen fest, die Sie in Ihrer AEM-Autoreninstanz festgelegt haben, mit der der Brand Portal-Mandant repliziert wird.
+* [Dynamic Media Hybrid-](#configure-dm-hybrid-settings)
+KonfigurationWenn die Experience Manager-Autoreninstanz im Dynamic Media Hybrid-Modus ausgeführt wird.
+* [Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
+MediaWenn die Experience Manager-Autoreninstanz im Dynamic Media-**[!DNL Scene 7]** Modus ausgeführt wird.
+Legen Sie eine dieser Konfigurationen basierend auf den Konfigurationen fest, die Sie in Ihrer Experience Manager-Autoreninstanz festgelegt haben, mit der der Brand Portal-Mandant repliziert wird.
 
 >[!NOTE]
 >
->Dynamic Video wird nicht für Brand Portal-Mandanten unterstützt, die in der AEM-Autoreninstanz mit **[!UICONTROL Scene7Connect]**-Ausführungsmodus konfiguriert sind.
+>Dynamische Videos werden nicht für Brand Portal-Mandanten unterstützt, die mit Experience Manager Author konfiguriert wurden und im Ausführungsmodus **[!UICONTROL Scene7Connect]** ausgeführt werden.
 
 ## Wie wird Dynamic Video abgespielt? {#how-are-dynamic-videos-played}
 

@@ -1,8 +1,8 @@
 ---
 title: Arbeiten mit Berichten
-seo-title: Arbeiten mit Berichten
-description: AEM Assets Brand Portal-Administratoren können Berichte zur Brand Portal-Nutzung anzeigen und Berichte erstellen, verwalten und anzeigen, die Informationen zu heruntergeladenen, abgelaufenen und veröffentlichten Assets sowie über Brand Portal freigegebene Links enthalten.
-seo-description: AEM Assets Brand Portal-Administratoren können Berichte zur Brand Portal-Nutzung anzeigen und Berichte erstellen, verwalten und anzeigen, die Informationen zu heruntergeladenen, abgelaufenen und veröffentlichten Assets sowie über Brand Portal freigegebene Links enthalten.
+seo-title: Work with reports
+description: Experience Manager Assets Brand Portal-Administratoren können Berichte zur Brand Portal-Nutzung anzeigen sowie Berichte zu heruntergeladenen, abgelaufenen, veröffentlichten und über Brand Portal freigegebenen Assets erstellen, verwalten und anzeigen.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1023'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Die Berichtverwaltungsoberfläche ist intuitiv und enthält detaillierte Optione
 
 Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
-1. Tippen bzw. klicken Sie oben in der Symbolleiste auf das AEM-Logo, um auf die Admin Tools zuzugreifen.
+1. Tippen oder klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
 
    ![](assets/expiration-report.png)
 
-   Der Bericht **[!UICONTROL Veröffentlichen]** zeigt Informationen zu allen Assets an, die in einem bestimmten Zeitraum von AEM in Brand Portal veröffentlicht wurden.
+   **** Der Veröffentlichungsbericht listet alle Assets auf und liefert Informationen zu allen Assets, die in einem bestimmten Zeitraum aus Experience Manager Assets in Brand Portal veröffentlicht wurden.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Administratoren können die folgenden Standardberichte generieren und verwalten.
 
 Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentlichen“ können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu generieren:
 
-1. Tippen/klicken Sie oben in der Symbolleiste auf das AEM-Logo, um auf die Admin Tools zuzugreifen.
+1. Tippen oder klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
 1. Tippen/klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 

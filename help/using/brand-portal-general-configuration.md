@@ -1,8 +1,8 @@
 ---
 title: Verwalten allgemeiner Mandantenkonfigurationen
-seo-title: Verwalten allgemeiner Mandantenkonfigurationen
+seo-title: Administer general tenant configurations
 description: Konfigurieren Sie die Download-Beschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets auf Mandanten zu löschen.
-seo-description: Konfigurieren Sie die Download-Beschleunigung, die Erstellung öffentlicher Smart-Sammlungen sowie die Erstellung öffentlicher Sammlungen und gestatten Sie Admin-Benutzern, Assets auf Mandanten zu löschen.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 92%
 
 ---
 
 # Verwalten allgemeiner Mandantenkonfigurationen {#administer-general-tenant-configurations}
 
-In AEM Assets Brand Portal können Unternehmen die folgenden Funktionen für bestimmte Mandanten konfigurieren:
+Mit Experience Manager Assets Brand Portal können Unternehmen die folgenden Funktionen für bestimmte Mandanten konfigurieren:
 
 * das Löschen von Assets durch Administratoren
 * die Erstellung öffentlicher Sammlungen von Benutzern ohne Administratorrechte
@@ -44,7 +44,7 @@ Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Ei
 So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
 1. Melden Sie sich mit Administratorrechten an.
-1. Wählen Sie oben in der Symbolleiste das AEM-Logo aus, um die Admin Tools aufzurufen.
+1. Wählen Sie in der Symbolleiste am oberen Rand das Experience Manager-Logo aus, um auf die Admin Tools zuzugreifen.
 1. Wählen Sie im Admin Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **[!UICONTROL Allgemeine Einstellungen]** zu öffnen.
 1. Verwenden Sie den entsprechenden Umschalter, um allgemeine Konfigurationen zu aktivieren/deaktivieren.
 1. **[!UICONTROL Speichern]** Sie die Änderungen.

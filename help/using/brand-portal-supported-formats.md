@@ -1,24 +1,24 @@
 ---
 title: Unterstützte Dateiformate
-seo-title: Unterstützte Dateiformate
-description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
-seo-description: 'Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
+seo-title: Supported file formats
+description: 'Jeder Experience Manager Assets Brand Portal unterstützt spezifische Dateiformate, wie in der Matrix angegeben. '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 90%
 
 ---
 
 # Unterstützte Dateiformate {#supported-file-formats}
 
-Jedes AEM Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate.
+Jeder Experience Manager Assets Brand Portal unterstützt spezifische Dateiformate, wie in der Matrix angegeben.
 
 | Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Ausgabeformate | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | In Brand Portal veröffentlichte Asset-Detailseiten | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|

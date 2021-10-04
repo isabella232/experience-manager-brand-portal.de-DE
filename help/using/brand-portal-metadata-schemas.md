@@ -1,8 +1,8 @@
 ---
 title: Verwenden von Metadatenschema-Formularen
-seo-title: Verwenden von Metadatenschema-Formularen
+seo-title: Use the metadata schema form
 description: Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
-seo-description: Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1756'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1718'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 Ein Metadatenschema beschreibt das Layout der Eigenschaftsseite und die für Assets angezeigten Metadateneigenschaften, die das betreffende Schema verwenden. Mit dem für ein Asset angewendeten Schema legen Sie fest, welche Metadatenfelder auf der Eigenschaftsseite des Assets angezeigt werden.
 
-Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]** für jedes Asset je nach MIME-Typ des Assets die standardmäßigen Metadateneigenschaften angezeigt. Mit dem Metadatenschema-Editor können Administratoren vorhandene Schemata ändern oder benutzerdefinierte Metadatenschemata hinzufügen. AEM Assets Brand Portal bietet Standardformulare für Assets verschiedener MIME-Typen. Sie können für diese Assets jedoch auch benutzerdefinierte Formulare hinzufügen.
+Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]** für jedes Asset je nach MIME-Typ des Assets die standardmäßigen Metadateneigenschaften angezeigt. Mit dem Metadatenschema-Editor können Administratoren vorhandene Schemata ändern oder benutzerdefinierte Metadatenschemata hinzufügen. Experience Manager Assets Brand Portal bietet Standardformulare für Assets verschiedener MIME-Typen. Sie können jedoch auch benutzerdefinierte Formulare für solche Assets hinzufügen.
 
 ## Hinzufügen von Metadatenschema-Formularen {#add-a-metadata-schema-form}
 
 Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Sie können dem Metadatenschema-Formular neue Registerkarten oder Formularelemen
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente,
 | **[!UICONTROL Zahl]** | Fügen Sie eine Zahlenkomponente hinzu. |
 | **[!UICONTROL Datum]** | Fügen Sie eine Datumskomponente hinzu. |
 | **[!UICONTROL Dropdown]** | Fügen Sie eine Dropdown-Liste hinzu. |
-| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. **Hinweis:** Administratoren müssen ggf. den Pfadwert ändern, z. B. `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschemaformular aus AEM veröffentlichen, wobei der Pfad keine Mandanten-Informationen enthält, z. B. `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart-Tags]** | Automatisch erkannte Tags, wenn Sie das Smart-Tags-Add-on für AEM erworben und konfiguriert haben. |
+| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. **Hinweis:** Administratoren müssen möglicherweise den Pfadwert ändern, z. B.  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschema-Formular aus Experience Manager Assets veröffentlichen, wobei der Pfad keine Mandanten-Informationen enthält, z. B.  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart-Tags]** | Automatisch erkannte Tags, wenn Sie das Smart-Tags-Add-on Experience Manager Assets erworben und konfiguriert haben. |
 | **[!UICONTROL Ausgeblendetes Feld]** | Fügen Sie ein ausgeblendetes Feld hinzu. Dieses wird beim Speichern des Assets als POST-Parameter gesendet. |
 | **[!UICONTROL Asset referenziert von]** | Fügen Sie diese Komponente hinzu, um eine Liste der vom Asset referenzierten Assets anzuzeigen. |
 | **[!UICONTROL Asset-Verweise]** | Fügen Sie dies hinzu, um eine Liste der Assets anzuzeigen, die das Asset referenzieren. |
-| **[!UICONTROL Asset-Bewertung]** | Die durchschnittliche Bewertung eines Assets, die vor der Veröffentlichung in Brand Portal in AEM Assets hinzugefügt wird. |
+| **[!UICONTROL Asset-Bewertung]** | Durchschnittliche Bewertung eines Assets, das vor seiner Veröffentlichung in Brand Portal aus Experience Manager Assets hinzugefügt wurde. |
 | **[!UICONTROL Kontextuelle Metadaten]** | Zur Steuerung der Anzeige anderer Metadaten auf der Eigenschaftenseite von Assets. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
 >[!NOTE]
 >
->Alle Metadaten-Felder sind im Asset-Editor-Formular für Metadaten schreibgeschützt. Die Metadaten des Assets müssen vor der Veröffentlichung in Brand Portal in AEM Assets bearbeitet werden.
+>Alle Metadaten-Felder sind im Asset-Editorformular für Metadaten schreibgeschützt. Da Metadaten des Assets in Experience Manager Assets bearbeitet werden müssen, bevor ein Asset in Brand Portal veröffentlicht wird.
 
 #### Hinzufügen oder Löschen von Registerkarten im Schemaformular {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal ermöglicht die Anpassung und Kontrolle des Metadatenschemas, sodas
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwenden:
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 

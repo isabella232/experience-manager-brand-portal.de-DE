@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: ht
-source-wordcount: '1918'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1924'
+ht-degree: 94%
 
 ---
 
@@ -59,13 +59,13 @@ Die verfügbaren Einstellungen sind:
 
    Ermöglicht das Herunterladen benutzerdefinierter und (oder) dynamischer Ausgabedarstellungen der Assets.
 
-   Alle Asset-Ausgabedarstellungen außer dem Original-Asset und den systemgenerierten Ausgabedarstellungen werden als benutzerdefinierte Ausgabedarstellungen aufgerufen. Dies schließt sowohl statische als auch dynamische Ausgabedarstellungen ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabedarstellung in AEM Assets erstellen. Allerdings kann nur der AEM-Administrator benutzerdefinierte dynamische Ausgabedarstellungen erstellen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](../using/brand-portal-image-presets.md).
+   Alle Asset-Ausgabedarstellungen außer dem Original-Asset und den systemgenerierten Ausgabedarstellungen werden als benutzerdefinierte Ausgabedarstellungen aufgerufen. Dies schließt sowohl statische als auch dynamische Ausgabedarstellungen ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabedarstellung in Experience Manager Assets erstellen, während nur der Administrator benutzerdefinierte dynamische Ausgabedarstellungen erstellen kann. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Systemausgabedarstellungen]**
 
    Aktiviert das Herunterladen systemgenerierter Ausgabedarstellungen der Assets.
 
-   Dies sind die Miniaturansichten, die in AEM Assets auf der Grundlage des Workflows „DAM-Update-Asset“ automatisch generiert werden.
+   Dies sind die Miniaturansichten, die in Experience Manager Assets basierend auf dem Workflow &quot;DAM-Update-Asset&quot;automatisch generiert werden.
 
 * **[!UICONTROL Asset-Download]**
 
@@ -163,7 +163,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
-      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets). Dazu muss die [Metadateneigenschaft](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) der Assets in Experience Manager Assets entsprechend eingestellt werden.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -208,9 +208,9 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 >
 >Brand Portal unterstützt die Konfiguration von Dynamic Media sowohl im Hybrid- als auch im Scene7-Modus.
 >
->(*Bei Ausführung der AEM-Autoreninstanz im **Dynamic Media-Hybrid-Modus***)
+>(*Wenn die Experience Manager Assets-Autoreninstanz auf **Dynamic Media-Hybridmodus*** ausgeführt wird)
 >
->Um dynamische Ausgabedarstellungen eines Assets als Vorschau anzeigen (oder herunterladen) zu können, stellen Sie sicher, dass Dynamic Media aktiviert ist und die Pyramid TIFF-Ausgabe in der AEM Assets-Autoreninstanz, von der aus die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset in Brand Portal veröffentlicht wird, wird auch seine Pyramid TIFF-Ausgabedarstellung veröffentlicht.
+>Um dynamische Ausgabeformate eines Assets als Vorschau anzeigen oder herunterladen zu können, stellen Sie sicher, dass das dynamische Medium aktiviert ist und die Pyramid TIFF-Wiedergabe des Assets in der Experience Manager Assets-Autoreninstanz vorhanden ist, von der aus die Assets veröffentlicht wurden. Wenn ein Asset aus Experience Manager Assets in Brand Portal veröffentlicht wird, wird auch die zugehörige PTIFF-Wiedergabe veröffentlicht.
 
 
 

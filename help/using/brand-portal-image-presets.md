@@ -1,8 +1,8 @@
 ---
 title: Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten
 seo-title: Apply image presets or dynamic renditions
-description: 'Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mithilfe von Bildvorgaben kann AEM Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch liefern. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Bildvorgaben ermöglichen es Experience Manager Assets Brand Portal, Bilder unterschiedlicher Größe, Formate und Eigenschaften dynamisch bereitzustellen. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 79%
 
 ---
 
 # Anwenden von Bildvorgaben oder dynamischen Ausgabeformaten {#apply-image-presets-or-dynamic-renditions}
 
-Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Mithilfe von Bildvorgaben kann AEM Assets Brand Portal Bilder in unterschiedlichen Größen, Formaten und Eigenschaften dynamisch liefern.
+Wie ein Makro ist eine Bildvorgabe eine vordefinierte Sammlung aus Größenangaben und Formatierungsbefehlen, die unter einem Namen gespeichert wird. Bildvorgaben ermöglichen es Experience Manager Assets Brand Portal, Bilder unterschiedlicher Größe, Formate und Eigenschaften dynamisch bereitzustellen.
 
 Bildvorgaben werden verwendet, um dynamische Ausgabeformate von Bildern zu generieren, die als Vorschau angezeigt oder heruntergeladen werden können. Wenn Sie eine Vorschau von Bildern und deren Ausgabeformaten anzeigen, können Sie eine Vorgabe auswählen, um Bilder gemäß den Spezifikationen Ihres Administrators umzuformatieren.
 
-(*Bei Ausführung der AEM-Autoreninstanz im **Dynamic Media Hybrid-Modus***) Um dynamische Ausgabeformate eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass sein Pyramid TIFF-Ausgabeformat in der AEM-Autoreninstanz vorhanden ist, von der aus Sie in Brand Portal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht.
+(*Wenn die Experience Manager Assets-Autoreninstanz auf **Dynamic Media-Hybridmodus*** ausgeführt wird) Um dynamische Ausgabeformate eines Assets in Brand Portal anzuzeigen, stellen Sie sicher, dass dessen Pyramid TIFF-Ausgabeformat in der Experience Manager Assets-Autoreninstanz vorhanden ist, von der aus Sie in Brand Portal veröffentlichen. Wenn Sie das Asset veröffentlichen, wird auch dessen PTIFF-Ausgabeformat in Brand Portal veröffentlicht.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Weitere Informationen zu den Parametern, die für das Erstellen von Bildvorgaben
 
 ## Erstellen von Bildvorgaben {#create-an-image-preset}
 
-AEM-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
+Die Experience Manager Assets-Administratoren können Bildvorgaben erstellen, die auf der Asset-Detailseite als dynamische Ausgabeformate angezeigt werden. Sie können völlig neue Bildvorgaben erstellen oder eine vorhandene Vorgabe unter einem neuen Namen speichern. Wenn Sie Bildvorgaben erstellen, wählen Sie eine Größe für die Bildbereitstellung und die Formatierungsbefehle aus. Wenn ein Bild für die Anzeige bereitgestellt wird, wird die Darstellung entsprechend den ausgewählten Befehlen optimiert.
 
 >[!NOTE]
 >
 >Dynamische Ausgabeformate werden für Assets erstellt, für die PTIFF verfügbar ist. Wenn kein PTIFF-Ausgabeformat für ein Asset verfügbar ist, können die dynamischen Ausgabeformate für dieses Asset in Brand Portal nicht abgerufen werden.
 >
->Wenn die AEM-Autoreninstanz im **Dynamic Media Hybrid-Modus** ausgeführt wird, werden die Pyramid TIFF-Ausgabeformate von Bild-Assets im AEM-Repository erstellt und gespeichert.
+>Wenn die Experience Manager Assets-Autoreninstanz auf **Dynamic Media Hybrid-Modus** ausgeführt wird, werden PTIFF-Ausgabeformate von Bild-Assets im Experience Manager Assets-Repository erstellt und gespeichert.
 >
->Wird die AEM-Autoreninstanz hingegen im **Dynamic Media Scene7-Modus** ausgeführt, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.
+>Wenn die Experience Manager Assets-Autoreninstanz hingegen im Dynamic Media Scene7-Modus **ausgeführt wird, sind PTIFF-Ausgabeformate von Bild-Assets auf dem Scene7-Server vorhanden.**
 >
 >Wenn solche Assets in Brand Portal veröffentlicht werden, werden Bildvorgaben angewendet und dynamische Ausgabeformate angezeigt.
 
 
-1. Klicken Sie oben in der AEM-Symbolleiste auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
 
 1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Bildvorgaben]**.
 

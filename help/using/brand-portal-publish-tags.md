@@ -1,26 +1,26 @@
 ---
 title: Veröffentlichen von Tags in Brand Portal
-seo-title: Veröffentlichen von Tags in Brand Portal
-description: Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
-seo-description: Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
+seo-title: Publish tags to Brand Portal
+description: Erfahren Sie, wie Sie Tags aus Experience Manager Assets in Brand Portal veröffentlichen.
+seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 93%
 
 ---
 
 # Veröffentlichen von Tags in Brand Portal {#publish-tags-to-brand-portal}
 
-Erfahren Sie, wie Sie Tags aus AEM Assets in Brand Portal veröffentlichen.
+Erfahren Sie, wie Sie Tags aus Experience Manager Assets in Brand Portal veröffentlichen.
 
-Tags sind nützlich zum Verwalten von Assets und verbessern die Suchbarkeit der Assets, mit denen sie verknüpft sind. Tags sind vergleichbar mit Suchbegriffen oder Bezeichnungen (Metadaten), die den Assets beigefügt sind. Mithilfe von Tags werden Assets bei einer Suche schnell gefunden. Informationen dazu, wie Tags den Assets in AEM Assets zugewiesen werden, finden Sie im Artikel [Verwenden von Tags zum Verwalten von Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Tags sind nützlich zum Verwalten von Assets und verbessern die Suchbarkeit der Assets, mit denen sie verknüpft sind. Tags sind vergleichbar mit Suchbegriffen oder Bezeichnungen (Metadaten), die den Assets beigefügt sind. Mithilfe von Tags werden Assets bei einer Suche schnell gefunden. Informationen zum Zuweisen von Tags zu Assets in Experience Manager Assets finden Sie unter [Verwenden von Tags zum Organisieren von Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 Tags (die mit Assets und Sammlungen in AEM verknüpft sind) werden automatisch in Brand Portal veröffentlicht, wenn die Assets (und Sammlungen) mit verknüpften Tags in Brand Portal veröffentlicht werden. Die veröffentlichten Tags sind hilfreich bei der Suche nach verknüpften Assets.
 

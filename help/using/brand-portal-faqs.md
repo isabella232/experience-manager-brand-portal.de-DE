@@ -10,23 +10,23 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 99%
+source-wordcount: '1509'
+ht-degree: 57%
 
 ---
 
 # Häufig gestellte Fragen {#frequently-asked-questions}
 
-Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version 6.4.6 von AEM Assets Brand Portal oder mit früheren Versionen auftreten können.
+Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version Assets Brand Portal 6.4.6 oder früheren Versionen von Experience Manager auftreten können.
 
 
 ## Häufig gestellte Fragen zu Brand Portal 6.4.6   {#faqs-bp646}
 
 **Frage: Der vorhandene alte OAuth-Endpunkt (`https://legacy-oauth.cloud.adobe.io/login`) funktioniert nicht. Was könnte der Grund sein?**
 
-**Antwort:** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von AEM Assets auf das neueste Service Pack aktualisieren und es mithilfe von Adobe Developer Console konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von AEM Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md). Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Antwort:** Die alte OAuth-Konfiguration wird nicht mehr unterstützt. Sie müssen die Autoreninstanzen von Experience Manager Assets auf das neueste Service Pack aktualisieren und es über die Adobe Developer Console konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren von Experience Manager Assets mit Brand Portal](configure-aem-assets-with-brand-portal.md) . Um die alte OAuth-Konfiguration jedoch bis zum Upgrade verwenden zu können, ändern Sie den alten OAuth-Endpunkt in `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Frage: Nach der Aktualisierung auf Adobe Developer Console kann ich die Assets des Beitragsordners von Brand Portal nicht in AEM Assets veröffentlichen. Meine Autoreninstanz befindet sich unter AEM 6.5.4. Was könnte der Grund sein?**
+**Frage: Ich kann die Assets des Beitragsordners nach dem Upgrade auf Adobe Developer Console nicht aus Brand Portal in Experience Manager Assets veröffentlichen. Meine Autoreninstanz befindet sich unter Experience Manager Assets 6.5.4. Was könnte der Grund sein?**
 
-**Antwort:** Ja, es gibt ein bekanntes Problem bei der Veröffentlichung von Assets des Beitragsordners in AEM Assets unter AEM 6.5.4 über Adobe Developer Console.
+**Antwort:** Ja, es gibt ein bekanntes Problem beim Veröffentlichen der Assets des Beitragsordners in Experience Manager Assets 6.5.4 über die Adobe Developer Console.
 
-Das Problem wurde in AEM 6.5.5 behoben. Sie können Ihre AEM Assets-Instanz auf das neueste Service Pack AEM 6.5.5 aktualisieren und Ihre Konfigurationen in Adobe Developer Console [aktualisieren](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65).
+Das Problem wurde in Experience Manager Assets 6.5.5 behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und Ihre Konfigurationen [in der Adobe Developer Console aktualisieren.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,20 +46,20 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**Frage: Der Inhalt des Beitragsordners wird nicht aus Brand Portal in AEM Assets veröffentlicht. Was könnte der Grund sein?**
+**Frage: Der Inhalt des Beitragsordners wird nicht aus Brand Portal in Experience Manager Assets veröffentlicht. Was könnte der Grund sein?**
 
-**Antwort:** Wenden Sie sich an Ihren AEM Assets-Administrator, damit er die Konfigurationen überprüft, und stellen Sie sicher, dass für den Brand Portal-Mandanten nur eine Autoreninstanz konfiguriert ist.
+**Antwort:** Wenden Sie sich an Ihren Experience Manager Assets-Administrator, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Brand Portal-Mandant mit nur einer Experience Manager Assets-Autoreninstanz konfiguriert ist.
 
-Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten auf mehreren AEM Assets-Autoreninstanzen konfiguriert haben. Wenn z. B. der Administrator denselben Brand Portal-Mandanten auf der AEM Assets-Autoreninstanz der Staging- und Proudktionsumgebung konfiguriert, wird die Asset-Veröffentlichung in Brand Portal zwar ausgelöst, die AEM Assets-Autoreninstanz kann das Asset jedoch nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
+Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten für mehrere Experience Manager Assets-Autoreninstanzen konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Brand Portal-Mandanten auf der Experience Manager Assets-Autoreninstanz der Staging- und Produktionsumgebung. In diesem Fall konnten die Asset-Veröffentlichungs-Trigger in Brand Portal, aber die Experience Manager Assets-Autoreninstanz das Asset nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
 
 
-**Frage: Ich kann keine Assets aus AEM Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist. Gibt es eine schnelle Lösung?**
+**Frage: Ich kann keine Assets aus Experience Manager Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist. Gibt es eine schnelle Lösung?**
 
 **Antwort:** Normalerweise schlägt die Veröffentlichung mit einem Zeitüberschreitungsfehler fehl, wenn die Replikationswarteschlange mehrere ausstehende Anforderungen enthält. Um das Problem zu beheben, konfigurieren Sie die Replikationsagenten so, dass keine Zeitüberschreitung erfolgt.
 
 Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 
-1. Melden Sie sich bei der AEM Assets-Autorenistanz an.
+1. Melden Sie sich bei Ihrer Experience Manager Assets-Autoreninstanz an.
 1. Navigieren Sie im Bedienfeld **Tools** zu **[!UICONTROL Bereitstellung]** > **[!UICONTROL Replikation]**.
 1. Klicken Sie auf der Seite „Replikation“ auf **[!UICONTROL Agenten für Autor]**. Sie sehen die vier Replikationsagenten für Ihren Brand Portal-Mandanten.
 1. Klicken Sie auf die Replikationsagenten-URL, um die Agentendetails zu öffnen.
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um den Replikationsagenten zu konfigurieren:
 
 **Frage: Was ist die wichtigste Änderung in Version 6.4.5 von Brand Portal?**
 
-**Antwort:** In AEM Assets Brand Portal 6.4.5 haben Benutzer von Brand Portal die Möglichkeit, Inhalte aus der Brand Portal-Instanz hochzuladen und den Beitragsordner ohne Administratorrechte wieder in AEM Assets zu veröffentlichen.
+**Antwort:** Experience Manager Assets Brand Portal 6.4.5 ist eine Feature Release-Version, mit der Brand Portal-Benutzer Inhalte aus der Brand Portal-Instanz hochladen und den Beitragsordner ohne Administratorrechte wieder in Experience Manager Assets veröffentlichen können.
 Weitere Informationen finden Sie in [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -100,13 +100,13 @@ Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise
 
 **Frage: Muss ich als Benutzer von Brand Portal irgendwelche Aufgaben durchführen?**
 
-**Antwort:** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens „Asset-Beschaffung“. Der AEM-Administrator muss die Asset-Beschaffung in AEM Assets konfigurieren, um diese Funktion für die Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-asset-sourcing.md).
+**Antwort:** Brand Portal-Version 6.4.5 enthält eine neue Funktion namens „Asset-Beschaffung“. Der Administrator muss die Asset-Beschaffungsfunktion in Experience Manager Assets konfigurieren, um die Funktion für Brand Portal-Benutzer zu aktivieren. Weitere Informationen finden Sie unter [Aktivieren der Asset-Beschaffung](brand-portal-asset-sourcing.md).
 
 
 
 **Frage: Wer kann einen Beitragsordner erstellen?**
 
-**Antwort:** Jeder AEM-Benutzer, der berechtigt ist, einen neuen Ordner in AEM Assets zu erstellen, kann einen **Beitragsordner** erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner des Typs **Asset-Beitrag**.
+**Antwort:** Jeder Experience Manager Assets-Benutzer, der berechtigt ist, einen neuen Ordner in Experience Manager Assets zu erstellen, kann einen  **** Beitragsordner erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner des Typs **Asset-Beitrag**.
 Dieser Ordner ist für die aktiven Brand Portal-Benutzer freigegeben, die daraufhin Beiträge beisteuern können.
 
 
@@ -132,7 +132,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage: Kann ich Assets in einen beliebigen zulässigen Ordner hochladen?**
 
-**Antwort:** Nicht in alle zulässigen Ordner. Ein Brand Portal-Benutzer kann Inhalte nur in den **Beitragsordner** hochladen, der vom AEM- oder Brand Portal-Administrator freigegeben wird.
+**Antwort:** Nicht in alle zulässigen Ordner. Ein Brand Portal-Benutzer kann Inhalte nur in den Ordner **Contribution** hochladen, der vom Experience Manager Assets oder Brand Portal-Administrator freigegeben wird.
 
 
 
@@ -142,7 +142,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 >[!NOTE]
 >
->Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den AEM-Administrator, ein Benutzerkonto in AEM Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen.
+>Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den Experience Manager Assets-Administrator, Ihren  in der Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen.
 
 **Frage: Welches Format hat die CSV-Datei für den Benutzerimport?**
 
@@ -152,25 +152,25 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage: Wie wird die Liste der Benutzer (Brand Portal-Beitragende) in der Dropdown-Liste „Asset-Beitrag-Benutzer“ gefüllt?**
 
-**Antwort:** Die Benutzer in der Dropdown-Liste werden aus der in AEM hochgeladenen Datei für die Brand Portal-Benutzerkonfiguration (.CSV) gefüllt.
+**Antwort:** Die Benutzer in der Dropdown-Liste werden aus der Brand Portal-Benutzerkonfigurationsdatei (.csv) gefüllt, die in Experience Manager Assets hochgeladen wurde.
 
 
 
 **Frage: Wo kann ich den Status von Import- und Veröffentlichungsaufträgen sehen?**
 
-**Antwort:** In AEM können Sie den Status eines Imports auf einer **asynchronen** Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Tools > Asset-Beitragsstatus]** anzeigen.
+**Antwort:** In Experience Manager Assets können Sie den Status eines Imports auf der  **** asynchronen Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Tools > Asset-Beitragsstatus]** anzeigen.
 
 
 
-**Frage: Wie häufig wird ein Importauftrag ausgeführt, der regelmäßig in AEM ausgeführt wird?**
+**Frage: Wie häufig wird ein Importauftrag ausgeführt, der regelmäßig in Experience Manager ausgeführt wird?**
 
-**Antwort:** In AEM wird die Abfrage alle fünf Minuten ausgeführt.
+**Antwort:** In Experience Manager Assets wird die Abfrage alle 5 Minuten ausgeführt.
 
 
 
-**Frage: Gibt es einen Schwellenwert dafür, wie oft ein Ordner von Brand Portal in AEM Assets veröffentlicht werden kann?**
+**Frage: Gibt es einen Schwellenwert dafür, wie oft ein Ordner von Brand Portal in Experience Manager Assets veröffentlicht werden kann?**
 
-**Antwort:** Nein, alle Assets im Ordner **NEU** werden unabhängig davon, ob sie zuvor veröffentlicht wurden, in AEM Assets veröffentlicht. Jedes Mal, wenn ein **Beitragsordner** von Brand Portal in AEM Assets veröffentlicht wird, überschreibt er den Inhalt des Ordners **NEU**.
+**Antwort:** Nein, alle Assets im  **** Ordner NEWFolder werden unabhängig davon, ob sie zuvor veröffentlicht wurden, in Experience Manager Assets veröffentlicht. Jedes Mal, wenn ein Ordner **Contribution** aus Brand Portal in Experience Manager Assets veröffentlicht wird, überschreibt er den Inhalt des Ordners **NEW**.
 
 
 
@@ -186,10 +186,10 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 
 
-**Frage: Was passiert, wenn ein Ordner von AEM Assets an Brand Portal veröffentlicht wird, das sich im Fluss befindet?**
+**Frage: Was passiert, wenn ein Ordner aus Experience Manager Assets in Brand Portal veröffentlicht wird, der sich im Fluss befindet?**
 
-**Antwort:** In AEM werden Protokolle für jedes Mal aufgezeichnet, wenn ein Ordner in Brand Portal veröffentlicht wird. Zum Zeitpunkt der Veröffentlichung werden alle Assets, die nicht in Brand Portal veröffentlicht werden, in eine Replikationswarteschlange gestellt. Assets, die nach dem Auslösen des Veröffentlichungsauftrags zum Ordner hinzugefügt wurden, werden nicht in Brand Portal veröffentlicht. Wenn der AEM-Benutzer den Ordner erneut veröffentlicht, werden nur die zuvor noch nicht veröffentlichten (und in der Replikationswarteschlange vorhandenen) Assets in Brand Portal veröffentlicht.
-Dies gilt für alle Ordner, die von AEM Assets in Brand Portal veröffentlicht werden, und für den Ordner FREIGEGEBEN in einem Beitragsordner.
+**Antwort:** In Experience Manager Assets werden Protokolle für jedes Mal protokolliert, wenn ein Ordner in Brand Portal veröffentlicht wird. Zum Zeitpunkt der Veröffentlichung werden alle Assets, die nicht in Brand Portal veröffentlicht werden, in eine Replikationswarteschlange gestellt. Assets, die nach dem Auslösen des Veröffentlichungsauftrags zum Ordner hinzugefügt wurden, werden nicht in Brand Portal veröffentlicht. Wenn der Experience Manager Assets-Benutzer den Ordner erneut veröffentlicht, werden nur die Assets in Brand Portal veröffentlicht, die zuvor noch nicht veröffentlicht wurden (in der Replikationswarteschlange).
+Dies gilt für alle Ordner, die aus Experience Manager Assets in Brand Portal veröffentlicht werden, und für den Ordner FREIGEGEBEN in einem Beitragsordner.
 
 **Frage: An wen kann ich mich bei Fragen wenden?**
 
@@ -207,5 +207,5 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
 -->
