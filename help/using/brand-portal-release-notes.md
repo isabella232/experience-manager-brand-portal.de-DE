@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise
 seo-title: Release Notes
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.10.0.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2021.10.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -13,13 +13,13 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 63%
+ht-degree: 85%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal 2021.10.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2021.10.0.
 
 ## Versionshinweise {#release-information}
 
@@ -98,7 +98,7 @@ This release includes the following enhancements:
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
-Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Die Assets eines Beitragsordners derselben Größe werden nicht aus Brand Portal in Experience Manager Assets veröffentlicht.
 * Wenn die Veröffentlichung eines Asset-Beitragsordners rückgängig gemacht wird, wird die Größe des Beitragsordners nicht reduziert.
@@ -132,13 +132,13 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 ### Bekannte Probleme {#known-issues}
 
-Dieses Release weist die folgenden bekannten Probleme auf:
+Diese Version weist die folgenden bekannten Probleme auf:
 
 * Benutzer können sich während der Migration ihrer bestehenden Organisation nicht bei Brand Portal anmelden.
 
    Die aktiven Benutzer, die bei Brand Portal angemeldet sind, können jedoch bis zum Ablauf ihrer aktuellen Sitzung weiterarbeiten.
 
-* Wenn Sie von Brand Portal zu Admin Console navigieren, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm, um das Unternehmen auszuwählen.
+* Wenn sie von Brand Portal zur Admin Console gehen, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm für die Auswahl der Organisation.
 
 
 <!--
@@ -197,19 +197,19 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches  Portugiesisch
+* Brasilianisches Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=de).
 
 ## Links {#links}
 
-* [Adobe Experience Manager-Produktseite unter adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Adobe Experience Manager-Produktseite unter adobe.com](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=de)
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 

@@ -13,7 +13,7 @@ exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 >[!NOTE]
 >
->Brand Portal beschränkt den Download von Assets, die größer als **1** GB pro Dateigröße sind, mithilfe der Linkfreigabe.
+>Brand Portal beschränkt das Herunterladen von Assets über die Link-Freigabe auf eine Dateigröße von maximal **1** GB pro Datei.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -126,7 +126,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 -->
 
-## Unterstützte Vorschauen und Miniaturen für Asset-Formate {#preview-thumbnail-support}
+## Unterstützung von Vorschauen und Miniaturen für Asset-Formate {#preview-thumbnail-support}
 
 Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniaturen und Vorschauen unterstützt:
 
