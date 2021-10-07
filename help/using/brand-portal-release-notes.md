@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 85%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
-* Die Assets eines Beitragsordners derselben Größe werden nicht aus Brand Portal in Experience Manager Assets veröffentlicht.
+* Die Assets eines Beitragsordners derselben Größe werden nicht von Brand Portal in Experience Manager Assets veröffentlicht.
 * Wenn die Veröffentlichung eines Asset-Beitragsordners rückgängig gemacht wird, wird die Größe des Beitragsordners nicht reduziert.
 * Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
 * Die Gruppenanzahl auf der Seite mit den Benutzerberechtigungen ist falsch.
@@ -220,5 +220,5 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

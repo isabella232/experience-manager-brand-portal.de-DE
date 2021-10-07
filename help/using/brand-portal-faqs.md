@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 57%
@@ -19,7 +19,7 @@ ht-degree: 57%
 
 # Häufig gestellte Fragen {#frequently-asked-questions}
 
-Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version Assets Brand Portal 6.4.6 oder früheren Versionen von Experience Manager auftreten können.
+Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme von Endbenutzern, die bei der Arbeit mit der neuesten Version von Experience Manager Assets Brand Portal 6.4.6 oder früheren Versionen auftreten könnten.
 
 
 ## Häufig gestellte Fragen zu Brand Portal 6.4.6   {#faqs-bp646}
@@ -34,11 +34,11 @@ Die häufig gestellten Fragen zu Brand Portal betreffen die Fragen und Probleme 
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Frage: Ich kann die Assets des Beitragsordners nach dem Upgrade auf Adobe Developer Console nicht aus Brand Portal in Experience Manager Assets veröffentlichen. Meine Autoreninstanz befindet sich unter Experience Manager Assets 6.5.4. Was könnte der Grund sein?**
+**Frage: Ich kann die Assets des Beitragsordners nach dem Upgrade auf Adobe Developer Console nicht von Brand Portal in Experience Manager Assets veröffentlichen. Meine Autoreninstanz befindet sich unter Experience Manager Assets 6.5.4. Was könnte der Grund sein?**
 
 **Antwort:** Ja, es gibt ein bekanntes Problem beim Veröffentlichen der Assets des Beitragsordners in Experience Manager Assets 6.5.4 über die Adobe Developer Console.
 
-Das Problem wurde in Experience Manager Assets 6.5.5 behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und Ihre Konfigurationen [in der Adobe Developer Console aktualisieren.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+Das Problem wurde in Experience Manager Assets 6.5.5 behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und Ihre Konfigurationen [auf der Adobe Developer Console aktualisieren.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -50,7 +50,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Antwort:** Wenden Sie sich an Ihren Experience Manager Assets-Administrator, um die Konfigurationen zu überprüfen und sicherzustellen, dass Ihr Brand Portal-Mandant mit nur einer Experience Manager Assets-Autoreninstanz konfiguriert ist.
 
-Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten für mehrere Experience Manager Assets-Autoreninstanzen konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Brand Portal-Mandanten auf der Experience Manager Assets-Autoreninstanz der Staging- und Produktionsumgebung. In diesem Fall konnten die Asset-Veröffentlichungs-Trigger in Brand Portal, aber die Experience Manager Assets-Autoreninstanz das Asset nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
+Dieses Problem tritt möglicherweise auf, wenn Sie einen Brand Portal-Mandanten auf mehreren Experience Manager Assets-Autoreninstanzen konfiguriert haben. Beispielsweise konfiguriert der Administrator denselben Brand Portal-Mandanten auf der Experience Manager Assets-Autoreninstanz der Staging- und Produktionsumgebung. In diesem Fall konnten die Asset-Veröffentlichungs-Trigger in Brand Portal, aber die Experience Manager Assets-Autoreninstanz das Asset nicht importieren, da der Replikationsagent das Anfrage-Token nicht erhält.
 
 
 **Frage: Ich kann keine Assets aus Experience Manager Assets in Brand Portal veröffentlichen. Im Replikationsprotokoll wird angegeben, dass bei der Verbindung eine Zeitüberschreitung aufgetreten ist. Gibt es eine schnelle Lösung?**
@@ -106,7 +106,7 @@ Bezüglich Updates und Versionsänderungen wird empfohlen, die [Versionshinweise
 
 **Frage: Wer kann einen Beitragsordner erstellen?**
 
-**Antwort:** Jeder Experience Manager Assets-Benutzer, der berechtigt ist, einen neuen Ordner in Experience Manager Assets zu erstellen, kann einen  **** Beitragsordner erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner des Typs **Asset-Beitrag**.
+**Antwort:** Jeder Experience Manager Assets-Benutzer, der zum Erstellen eines neuen Ordners in Experience Manager Assets berechtigt ist, kann einen  **** Beitragsordner erstellen. Erstellen Sie zum Erstellen eines **Beitragsordners** einen neuen Ordner des Typs **Asset-Beitrag**.
 Dieser Ordner ist für die aktiven Brand Portal-Benutzer freigegeben, die daraufhin Beiträge beisteuern können.
 
 
@@ -132,7 +132,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage: Kann ich Assets in einen beliebigen zulässigen Ordner hochladen?**
 
-**Antwort:** Nicht in alle zulässigen Ordner. Ein Brand Portal-Benutzer kann Inhalte nur in den Ordner **Contribution** hochladen, der vom Experience Manager Assets oder Brand Portal-Administrator freigegeben wird.
+**Antwort:** Nicht in alle zulässigen Ordner. Ein Brand Portal-Benutzer kann Inhalte nur in den Ordner **Contribution** hochladen, der vom Experience Manager Assets- oder Brand Portal-Administrator freigegeben wird.
 
 
 
@@ -142,7 +142,7 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 >[!NOTE]
 >
->Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den Experience Manager Assets-Administrator, Ihren  in der Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen.
+>Wenn Sie kein bestehender Brand Portal-Benutzer sind, bitten Sie den Experience Manager Assets-Administrator, Ihren Benutzer in der Admin Console zu erstellen und Ihr Profil zur Benutzerkonfigurationsdatei in der Brand Portal-Benutzerliste hinzuzufügen.
 
 **Frage: Welches Format hat die CSV-Datei für den Benutzerimport?**
 
@@ -158,19 +158,19 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 **Frage: Wo kann ich den Status von Import- und Veröffentlichungsaufträgen sehen?**
 
-**Antwort:** In Experience Manager Assets können Sie den Status eines Imports auf der  **** asynchronen Auftragsseite sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Tools > Asset-Beitragsstatus]** anzeigen.
+**Antwort:** In Experience Manager Assets können Sie den Status eines Imports auf der Seite &quot; **** Asyncjob&quot;sehen. In Brand Portal können Sie den Status eines Veröffentlichungsauftrags unter **[!UICONTROL Tools > Asset-Beitragsstatus]** anzeigen.
 
 
 
 **Frage: Wie häufig wird ein Importauftrag ausgeführt, der regelmäßig in Experience Manager ausgeführt wird?**
 
-**Antwort:** In Experience Manager Assets wird die Abfrage alle 5 Minuten ausgeführt.
+**Antwort:** In Experience Manager Assets wird die Abfrage alle fünf Minuten durchgeführt.
 
 
 
 **Frage: Gibt es einen Schwellenwert dafür, wie oft ein Ordner von Brand Portal in Experience Manager Assets veröffentlicht werden kann?**
 
-**Antwort:** Nein, alle Assets im  **** Ordner NEWFolder werden unabhängig davon, ob sie zuvor veröffentlicht wurden, in Experience Manager Assets veröffentlicht. Jedes Mal, wenn ein Ordner **Contribution** aus Brand Portal in Experience Manager Assets veröffentlicht wird, überschreibt er den Inhalt des Ordners **NEW**.
+**Antwort:** Nein, alle Assets im Ordner  **** &quot;NEWFolder&quot;werden unabhängig davon, ob sie zuvor veröffentlicht wurden, in Experience Manager Assets veröffentlicht. Jedes Mal, wenn ein Ordner **Contribution** aus Brand Portal in Experience Manager Assets veröffentlicht wird, überschreibt er den Inhalt des Ordners **NEW**.
 
 
 
@@ -186,9 +186,9 @@ Die Brand Portal-Benutzer greifen auf den **Beitragsordner** zu und laden Inhalt
 
 
 
-**Frage: Was passiert, wenn ein Ordner aus Experience Manager Assets in Brand Portal veröffentlicht wird, der sich im Fluss befindet?**
+**Frage: Was passiert, wenn ein Ordner von Experience Manager Assets in Brand Portal veröffentlicht wird, der sich im Fluss befindet?**
 
-**Antwort:** In Experience Manager Assets werden Protokolle für jedes Mal protokolliert, wenn ein Ordner in Brand Portal veröffentlicht wird. Zum Zeitpunkt der Veröffentlichung werden alle Assets, die nicht in Brand Portal veröffentlicht werden, in eine Replikationswarteschlange gestellt. Assets, die nach dem Auslösen des Veröffentlichungsauftrags zum Ordner hinzugefügt wurden, werden nicht in Brand Portal veröffentlicht. Wenn der Experience Manager Assets-Benutzer den Ordner erneut veröffentlicht, werden nur die Assets in Brand Portal veröffentlicht, die zuvor noch nicht veröffentlicht wurden (in der Replikationswarteschlange).
+**Antwort:** In Experience Manager Assets werden Protokolle für jedes Mal, wenn ein Ordner in Brand Portal veröffentlicht wird, verwaltet. Zum Zeitpunkt der Veröffentlichung werden alle Assets, die nicht in Brand Portal veröffentlicht werden, in eine Replikationswarteschlange gestellt. Assets, die nach dem Auslösen des Veröffentlichungsauftrags zum Ordner hinzugefügt wurden, werden nicht in Brand Portal veröffentlicht. Wenn der Experience Manager Assets-Benutzer den Ordner erneut veröffentlicht, werden nur die Assets in Brand Portal veröffentlicht, die zuvor noch nicht veröffentlicht wurden (in der Replikationswarteschlange).
 Dies gilt für alle Ordner, die aus Experience Manager Assets in Brand Portal veröffentlicht werden, und für den Ordner FREIGEGEBEN in einem Beitragsordner.
 
 **Frage: An wen kann ich mich bei Fragen wenden?**
@@ -207,5 +207,5 @@ Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff ben
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support]()
 -->
