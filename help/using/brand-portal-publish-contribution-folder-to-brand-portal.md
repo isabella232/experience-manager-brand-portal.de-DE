@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 62%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -43,9 +43,9 @@ Um einen Beitragsordner zu erstellen, erstellen Sie einen neuen Ordner des Typs 
 
 >[!NOTE]
 >
->Sie können mehrere Beitragsordner in einem Ordner erstellen.
+>Administratoren können mehrere Asset-Beitragsordner in einem Ordner erstellen.
 >
->Ein Asset-Beitragsordner enthält die Ordner NEU und FREIGEGEBEN für die Verteilung und den Beitrag der Assets. Erstellen Sie keinen Asset-, Ordner- oder Beitragsordner in einem Asset-Beitragsordner.
+>Ein Asset-Beitragsordner enthält die Ordner NEU und FREIGEGEBEN für die Verteilung und den Beitrag der Assets. Erstellen Sie keinen Asset-, Ordner- oder Beitragsordner in einem Beitragsordner.
 
 
 Sie können die Eigenschaften des Beitragsordners sowohl separat als auch beim Erstellen des Beitragsordners konfigurieren. In diesem Beispiel konfigurieren wir die Eigenschaften separat.

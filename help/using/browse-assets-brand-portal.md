@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 94%
@@ -26,7 +26,7 @@ Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Über den Leistenselektor oben links in Brand Portal öffnen Sie ein Dropdown-Menü mit Optionen zum Navigieren in Assethierarchien, Optimieren Ihrer Suche und Anzeigen von Ressourcen.
 
@@ -106,7 +106,7 @@ In der Listenansicht werden Informationen für jede Ressource auf der aktuellen 
 * Dimension
 * Größe
 * Bewertung
-* Ordnerpfad, der die Asset-Hierarchie anzeigt<sup>*</sup>
+* Ordnerpfad, der die Asset-Hierarchie anzeigt
 * Datum der Veröffentlichung des Assets in Brand Portal
 
 Über die Spalte „Pfad“ können Sie die Position des Assets in der Ordnerhierarchie identifizieren. Sie können die Hierarchie nach unten navigieren, indem Sie auf den Ressourcennamen tippen/klicken und mithilfe der [Breadcrumbs in der Kopfzeile](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html) wieder nach oben navigieren.
