@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 61%
+source-wordcount: '1217'
+ht-degree: 57%
 
 ---
 
@@ -109,7 +109,11 @@ Die Asset-Anforderung bezieht sich auf die Details, die von Administratoren bere
 
 >[!NOTE]
 >
->Die Suchergebnisse basieren auf der in Experience Manager Assets konfigurierten Brand Portal-Benutzerliste. Vergewissern Sie sich, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen.
+>Die Suchergebnisse basieren auf der in Experience Manager Assets konfigurierten Brand Portal-Benutzerliste. Stellen Sie sicher, dass Sie über die aktualisierte Brand Portal-Benutzerliste verfügen.
+
+Administratoren können die Datei `user.csv` von [!DNL Admin Console] herunterladen und sie als Basisvorlage zum Hinzufügen von Brand Portal-Benutzern verwenden. Navigieren Sie zu [!UICONTROL Benutzer] und klicken Sie auf die Option [!UICONTROL Benutzerliste in CSV] exportieren , um die Datei `users.csv` herunterzuladen. Die folgenden Beispielbenutzer führen eine Liste der Attribute auf, die zum Hinzufügen der Benutzer erforderlich sind. Das einzige obligatorische Attribut für einen Benutzereintrag ist das `Email` und alle anderen Attribute sind optional.
+
+[Datei laden](assets/users.csv)
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
