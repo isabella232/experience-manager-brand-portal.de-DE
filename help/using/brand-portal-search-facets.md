@@ -11,9 +11,9 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 96%
 
 Administratoren können Sucheigenschaften zum Bereich [!UICONTROL Filter] hinzufügen, um die Suche anzupassen und die Suchfunktion auf diese Weise vielseitiger zu gestalten.
 
-Brand Portal unterstützt die [Facettensuche](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) für die detaillierte Suche nach genehmigten Marken-Assets. Hierzu wird das Bedienfeld [**Filter** ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)verwendet. Suchfacetten sind im Bereich „Filter“ über das **[!UICONTROL Suchformular]** in den Admin Tools verfügbar. Auf der Seite „Suchformular“ in den Admin Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Administratoren können jedoch den Standardbereich „Filter“ durch Bearbeiten des Standardsuchformulars „Asset-Admin-Suchschienenseite“ anpassen, um die Suchfunktion durch Hinzufügen, Ändern oder Entfernen von Sucheigenschaften vielseitiger zu machen.
+Brand Portal unterstützt die [Facettensuche](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) für die detaillierte Suche nach genehmigten Marken-Assets. Hierzu wird das Bedienfeld [**Filter** ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)verwendet. Suchfacetten sind im Bereich „Filter“ über das **[!UICONTROL Suchformular]** in den Admin-Tools verfügbar. Auf der Seite „Suchformular“ in den Admin-Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Administratoren können jedoch den Standardbereich „Filter“ durch Bearbeiten des Standardsuchformulars „Asset-Admin-Suchschienenseite“ anpassen, um die Suchfunktion durch Hinzufügen, Ändern oder Entfernen von Sucheigenschaften vielseitiger zu machen.
 
 Sie können verschiedene Sucheigenschaften verwenden, um den Bereich **[!UICONTROL Filter]** anzupassen. Fügen Sie beispielsweise das Eigenschaftsprädikat hinzu, um nach Assets zu suchen, die einer einzelnen Eigenschaft entsprechen, die Sie in diesem Prädikat angeben. Fügen Sie das Optionsprädikat hinzu, um nach Assets zu suchen, die einem oder mehreren Werten entsprechen, die Sie für eine bestimmte Eigenschaft angeben. Fügen Sie das Datumsbereichsprädikat hinzu, um nach Assets zu suchen, die innerhalb eines bestimmten Datumsbereichs erstellt wurden.
 
 >[!NOTE]
 >
->Mit Experience Manager Assets können Unternehmen [die angepassten Suchformulare aus der AEM-Autoreninstanz](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) in Brand Portal veröffentlichen, anstatt dasselbe Formular in Brand Portal erneut zu erstellen.
+>In Experience Manager Assets können Unternehmen [die angepassten Suchformulare aus der AEM-Autoreninstanz](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) in Brand Portal veröffentlichen, anstatt dieselben Formulare noch einmal in Brand Portal zu erstellen.
 
 ## Hinzufügen von Sucheigenschaften {#add-a-search-predicate}
 
 Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]** Sucheigenschaften hinzuzufügen:
 
-1. Um auf Admin Tools zuzugreifen, klicken Sie oben in der Symbolleiste auf das Experience Manager -Logo.
+1. Klicken Sie auf das Experience Manager-Logo oben in der Symbolleiste, um auf weitere Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Suchformulare]**.
 
    ![](assets/navigation-panel-1.png)
 
@@ -117,11 +117,11 @@ Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigen
 
 Führen Sie die folgenden Schritte aus, um eine Sucheigenschaft zu löschen:
 
-1. Klicken Sie auf das Adobe-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie auf das Adobe-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Suchformulare]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Suchformulare]**.
 
    ![](assets/navigation-panel-2.png)
 
