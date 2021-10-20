@@ -12,22 +12,22 @@ discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Verwalten allgemeiner Mandantenkonfigurationen {#administer-general-tenant-configurations}
 
-Mit Experience Manager Assets Brand Portal können Unternehmen die folgenden Funktionen für bestimmte Mandanten konfigurieren:
+In Experience Manager Assetss Brand Portal können Unternehmen die folgenden Funktionen für bestimmte Mandanten konfigurieren:
 
 * das Löschen von Assets durch Administratoren
 * die Erstellung öffentlicher Sammlungen von Benutzern ohne Administratorrechte
 * die Erstellung öffentlicher Smart-Sammlungen von Benutzern ohne Administratorrechte
 * Sichtbarkeit der übergeordneten Hierarchie von freigegebenen Ordnern für Benutzer ohne Administratorrechte
 
-Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Einstellungen]** im Admin Tools-Bereich möglich.
+Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Einstellungen]** im Admin-Tools-Bereich möglich.
 
 ![](assets/general-config.png)
 
@@ -44,8 +44,8 @@ Diese Konfigurationen sind über die Konfigurationen **[!UICONTROL Allgemeine Ei
 So aktivieren/deaktivieren Sie jede dieser Konfigurationen:
 
 1. Melden Sie sich mit Administratorrechten an.
-1. Wählen Sie in der Symbolleiste am oberen Rand das Experience Manager-Logo aus, um auf die Admin Tools zuzugreifen.
-1. Wählen Sie im Admin Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **[!UICONTROL Allgemeine Einstellungen]** zu öffnen.
+1. Wählen Sie oben in der Symbolleiste das Experience Manager-Logo aus, um die Admin-Tools aufzurufen.
+1. Wählen Sie im Admin-Tools-Bereich die Option **[!UICONTROL Allgemein]** aus, um die Seite **[!UICONTROL Allgemeine Einstellungen]** zu öffnen.
 1. Verwenden Sie den entsprechenden Umschalter, um allgemeine Konfigurationen zu aktivieren/deaktivieren.
 1. **[!UICONTROL Speichern]** Sie die Änderungen.
 1. Melden Sie sich ab, um die Änderungen zu übernehmen.
