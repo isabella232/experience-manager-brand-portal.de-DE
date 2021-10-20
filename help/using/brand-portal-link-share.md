@@ -1,7 +1,7 @@
 ---
 title: Freigeben von Assets als Link
 seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
+description: Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Entitäten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
 seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Freigeben von Assets als Link {#share-assets-as-a-link}
 
-Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Einheiten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
+Adobe Experience Manager Assets Brand Portal-Administratoren können Links mehrerer Assets für autorisierte interne Benutzer und externe Entitäten (einschließlich Partnern und Anbietern) freigeben. Bearbeiter können nur die Assets anzeigen und freigeben, die für sie freigegeben wurden.
 
 Die Freigabe von Assets über einen Link ist eine praktische Methode, um die Assets für externe Parteien verfügbar zu machen, ohne dass diese sich bei Brand Portal anmelden müssen.
 
@@ -132,39 +132,39 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 
 | Asset-Format | Miniatur-Unterstützung | Vorschau-Unterstützung |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | verwalten |
-| GIF | verwalten | verwalten |
-| TIFF | verwalten | ✕ |
-| JPEG | verwalten | verwalten |
-| BMP | verwalten | ✕ |
+| PNG | ✓ | ✓ |
+| GIF | ✓ | ✓ |
+| TIFF | ✓ | ✕ |
+| JPEG | ✓ | ✓ |
+| BMP | ✓ | ✕ |
 | PNM* | nicht vorhanden | nicht vorhanden |
 | PGM* | nicht vorhanden | nicht vorhanden |
 | PBM* | nicht vorhanden | nicht vorhanden |
 | PPM* | nicht vorhanden | nicht vorhanden |
-| PSD | verwalten | ✕ |
+| PSD | ✓ | ✕ |
 | EPS | nicht vorhanden | ✕ |
-| DNG | verwalten | ✕ |
-| PICT | verwalten | ✕ |
-| PSB* | verwalten | ✕ |
-| JPG | verwalten | verwalten |
-| AI | verwalten | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
+| JPG | ✓ | ✓ |
+| AI | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | verwalten | ✕ |
+| PDF | ✓ | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | verwalten | ✕ |
+| TXT | ✓ | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | verwalten | ✕ |
+| PPT | ✓ | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | verwalten | ✕ |
+| INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | verwalten | ✕ |
+| EPUB | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -184,16 +184,16 @@ Die folgende Matrix listet die Asset-Formate auf, für die Brand Portal Miniatur
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | nicht vorhanden | ✕ |
-| JAR | verwalten | ✕ |
+| JAR | ✓ | ✕ |
 | RAR | nicht vorhanden | ✕ |
 | TAR | nicht vorhanden | ✕ |
-| ZIP | verwalten | ✕ |
+| ZIP | ✓ | ✕ |
 
 Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |---|---|
-| verwalten | Dieses Dateiformat unterstützt diese Funktion |
+| ✓ | Dieses Dateiformat unterstützt diese Funktion |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
 | * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
