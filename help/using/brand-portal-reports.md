@@ -1,7 +1,7 @@
 ---
 title: Arbeiten mit Berichten
 seo-title: Work with reports
-description: Experience Manager Assets Brand Portal-Administratoren können Berichte zur Brand Portal-Nutzung anzeigen sowie Berichte zu heruntergeladenen, abgelaufenen, veröffentlichten und über Brand Portal freigegebenen Assets erstellen, verwalten und anzeigen.
+description: Experience Manager Assets Brand Portal-Administratoren können Berichte zur Brand Portal-Nutzung anzeigen und Berichte erstellen, verwalten und anzeigen, die Informationen zu heruntergeladenen, abgelaufenen und veröffentlichten Assets sowie über Brand Portal freigegebene Links enthalten.
 seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
@@ -11,9 +11,9 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Die Berichtverwaltungsoberfläche ist intuitiv und enthält detaillierte Optione
 
 Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
-1. Tippen oder klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Tippen oder klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 
    ![](assets/access-asset-reports.png)
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um einen Bericht anzuzeigen:
 
    Um einen Bericht anzuzeigen, klicken Sie auf den Link zum Bericht. Alternativ wählen Sie den Bericht aus und tippen/klicken Sie in der Symbolleiste auf das Symbol „Anzeigen“.
 
-   Der **[!UICONTROL Verwendungsbericht]** zeigt Informationen zur Anzahl der aktiven Brand Portal-Benutzer, den von allen Assets belegten Speicherplatz sowie die Gesamtzahl der Assets in Brand Portal an. Die Brand Portal-Benutzer, die keinem Produktprofil in Admin Console zugewiesen sind, gelten als inaktive Benutzer und werden im **[!UICONTROL Verwendungsbericht]** nicht angezeigt.
+   Der **[!UICONTROL Verwendungsbericht]** zeigt Informationen zur Anzahl der aktiven Brand Portal-Benutzer, den von allen Assets belegten Speicherplatz sowie die Gesamtzahl der Assets in Brand Portal an. Die Brand Portal-Benutzer, die keinem Produktprofil in der Admin Console zugewiesen sind, gelten als inaktive Benutzer und werden im **[!UICONTROL Verwendungsbericht]** nicht angezeigt.
 Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informationsmetriken an.
 
    ![](assets/usage-report.png)
@@ -64,7 +64,7 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
 
    ![](assets/expiration-report.png)
 
-   **** Der Veröffentlichungsbericht listet alle Assets auf und liefert Informationen zu allen Assets, die in einem bestimmten Zeitraum aus Experience Manager Assets in Brand Portal veröffentlicht wurden.
+   Der Bericht **[!UICONTROL Veröffentlichen]** zeigt Informationen zu allen Assets an, die in einem bestimmten Zeitraum von Experience Manager Assets in Brand Portal veröffentlicht wurden.
 
    ![](assets/publish-report.png)
 
@@ -80,7 +80,7 @@ Der Bericht zeigt außerdem die zulässige Kapazität für jede dieser Informati
    >
    >Der Bericht zur Linkfreigabe zeigt keine Benutzer an, die Zugriff auf das über den Link freigegebene Asset haben oder die das Asset über den Link heruntergeladen haben.
    >
-   >Zum Nachverfolgen von Downloads über den freigegebenen Link müssen Sie den Bericht „Download“ nach der Auswahl der Option **[!UICONTROL Nur Downloads über Link-Freigabe]** auf der Seite **[!UICONTROL Bericht erstellen]** erstellen. Der Benutzer (heruntergeladen von) ist in diesem Fall jedoch anonym.
+   >Zum Nachverfolgen von Downloads über den freigegebenen Link müssen Sie den Bericht „Download“ nach der Auswahl der Option **[!UICONTROL Nur Downloads über Link-Freigabe]** auf der Seite **[!UICONTROL Bericht erstellen]** erzeugen. Der Benutzer (heruntergeladen von) ist in diesem Fall jedoch anonym.
 
 ## Erstellen von Berichten {#generate-reports}
 
@@ -94,9 +94,9 @@ Administratoren können die folgenden Standardberichte generieren und verwalten.
 
 Die Spalten in den Berichten „Download“, „Ablauf“ und „Veröffentlichen“ können für die Anzeige angepasst werden. Gehen Sie wie folgt vor, um einen Bericht zu generieren:
 
-1. Tippen oder klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Tippen oder klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
-1. Tippen/klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
+1. Tippen/klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Berichte erstellen/verwalten]**, um die Seite **[!UICONTROL Asset-Berichte]** zu öffnen.
 
    ![](assets/asset-reports.png)
 
