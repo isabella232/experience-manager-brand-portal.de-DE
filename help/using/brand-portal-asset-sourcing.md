@@ -18,15 +18,15 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # Überblick über die Asset-Beschaffung {#overview-asset-sourcing-in-bp}
 
-**Mit der Asset-** Beschaffung können Experience Manager-Assets-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft  **Asset-** Beitrag erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **SHARED** und **NEW** im neu erstellten **Beitragsordner** erstellt werden. Der Administrator definiert dann die Anforderung, indem er eine Kurzbeschreibung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **SHARED** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird. Nachdem der Benutzer den Inhalt im Ordner **NEU** hinzugefügt hat, kann er den Beitragsordner wieder in der Autorenumgebung des Experience Managers veröffentlichen. Es kann einige Minuten dauern, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in Experience Manager Assets angezeigt werden.
+Mit der **Asset-Beschaffung** können Experience Manager-Benutzer (Administratoren/Benutzer ohne Administratorrechte) neue Ordner mit der zusätzlichen Eigenschaft **Asset-Beitrag** erstellen, um sicherzustellen, dass die neu erstellten Ordner von Brand Portal-Benutzern für die Übermittlung von Assets nutzbar sind. Dadurch wird automatisch ein Workflow ausgelöst, mit dem zwei weitere Unterordner namens **FREIGEGEBEN** und **NEU** im neu erstellten **Beitragsordner** erstellt werden. Der Administrator definiert dann die Anforderung, indem er eine Zusammenfassung der Asset-Typen, die zum Beitragsordner hinzugefügt werden sollen, sowie eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN** hochlädt, um sicherzustellen, dass Brand Portal-Benutzer über die benötigten Referenzinformationen verfügen. Der Administrator kann aktiven Brand Portal-Benutzern anschließend Zugriff auf den Beitragsordner gewähren, bevor der neu erstellte **Beitragsordner** in Brand Portal veröffentlicht wird. Nachdem die Benutzer Inhalte zum Ordner **NEU** hinzugefügt haben, können sie den Beitragsordner wieder in der Experience Manager-Autorenumgebung veröffentlichen. Beachten Sie, dass es einige Minuten dauern kann, bis der Import abgeschlossen ist und die neu veröffentlichten Inhalte in Experience Manager Assets angezeigt werden.
 
 Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-Benutzer können Assets aus dem Beitragsordner sowie aus anderen Ordnern anzeigen, suchen und herunterladen, für die sie über entsprechende Berechtigungen verfügen. Administratoren können außerdem den Beitragsordner freigeben, Eigenschaften ändern und Assets zu Sammlungen hinzufügen.
 
@@ -37,7 +37,7 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 ## Voraussetzungen {#prerequisites}
 
 * Experience Manager Assets as a Cloud Service-Instanz, Experience Manager Assets 6.5.2 oder höher.
-* Stellen Sie sicher, dass Ihre Experience Manager Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Stellen Sie sicher, dass Ihre Experience Manager Assets-Instanz mit Brand Portal konfiguriert ist. Weitere Informationen finden Sie in [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 >[!NOTE]
 >
->Die Asset-Beschaffungsfunktion ist in Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 und höher standardmäßig aktiviert.
+>Die Funktion zur Asset-Beschaffung ist in Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 und höher standardmäßig aktiviert.
 >
 >Die vorhandenen Konfigurationen funktionieren weiterhin in den früheren Versionen.
 
 >[!NOTE]
 >
->Es gibt ein bekanntes Problem in Experience Manager Assets 6.5.4. Brand Portal-Benutzer können beim Upgrade auf Adobe Developer Console die Assets des Beitragsordners nicht in Experience Manager Assets veröffentlichen.
+>Es gibt ein bekanntes Problem in Experience Manager Assets 6.5.4. Brand Portal-Benutzer können beim Aktualisieren auf Adobe Developer Console keine Beitragsordner-Assets in Experience Manager Assets veröffentlichen.
 >
->Das Problem wurde in Experience Manager Assets 6.5.5 behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und Ihre Konfigurationen [in der Adobe Developer Console aktualisieren.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+>Das Problem wurde in Experience Manager Assets 6.5.5. behoben. Sie können Ihre Experience Manager Assets-Instanz auf das neueste Service Pack aktualisieren und [Ihre Konfigurationen in Adobe Developer Console aktualisieren](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de#upgrade-integration-65).
 
 <!--
 
@@ -102,19 +102,19 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Hochladen der Brand Portal-Benutzerliste {#upload-bp-user-list}
 
-Experience Manager Assets-Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) hochladen, die die aktive Brand Portal-Benutzerliste in Experience Manager Assets enthält, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
+Experience Manager Assets-Administratoren können die Brand Portal-Benutzerkonfigurationsdatei (.csv) mit der Liste der aktiven Brand Portal-Benutzer in Experience Manager Assets hochladen, um ihnen den Zugriff auf die Asset-Beschaffungsfunktion zu ermöglichen.
 
 Ein Beitragsordner kann nur für die aktiven Brand Portal-Benutzer freigegeben werden, die in der Benutzerliste definiert sind. Die Administratoren können der Konfigurationsdatei auch neue Benutzer hinzufügen und die geänderte Benutzerliste hochladen.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Ihre Experience Manager Assets-Instanz mit Brand Portal konfiguriert ist. Siehe [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Stellen Sie sicher, dass Ihre Experience Manager Assets-Instanz mit Brand Portal konfiguriert ist. Weitere Informationen finden Sie in [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
->Das Format der CSV-Datei entspricht dem von Admin Console für den Massenimport von Benutzern unterstützten Format. E-Mail-Adresse, Vorname und Nachname sind obligatorisch.
+>Das Format der CSV-Datei entspricht dem von der Admin Console für den Massenimport von Benutzern unterstützten Format. E-Mail-Adresse, Vorname und Nachname sind obligatorisch.
 
-Die Administratoren können neue Benutzer in Admin Console hinzufügen. Weitere Informationen finden Sie unter [Benutzer verwalten](brand-portal-adding-users.md). Nachdem Benutzer in Admin Console hinzugefügt wurden, können diese Benutzer der Benutzerkonfigurationsdatei von Brand Portal hinzugefügt werden. Anschließend kann ihnen die Zugriffsberechtigung auf den Beitragsordner zugewiesen werden.
+Die Administratoren können neue Benutzer in der Admin Console hinzufügen. Weitere Informationen finden Sie unter [Benutzer verwalten](brand-portal-adding-users.md). Nachdem Benutzer in der Admin Console hinzugefügt wurden, können diese Benutzer der Benutzerkonfigurationsdatei von Brand Portal hinzugefügt werden. Anschließend kann ihnen die Zugriffsberechtigung auf den Beitragsordner zugewiesen werden.
 
 **Hochladen der Brand Portal-Benutzerliste:**
 
@@ -128,10 +128,10 @@ Durchsuchen Sie Ihren lokalen Computer und laden Sie die **Konfigurationsdatei (
    ![](assets/upload-user-list2.png)
 
 
-Administratoren können beim Konfigurieren eines Beitragsordners bestimmten Benutzern aus dieser Benutzerliste Zugriff gewähren. Nur Benutzer, die einem Beitragsordner zugewiesen sind, haben Zugriff auf den Beitragsordner und veröffentlichen Assets aus Brand Portal in Experience Manager Assets.
+Administratoren können beim Konfigurieren eines Beitragsordners bestimmten Benutzern aus dieser Benutzerliste Zugriff gewähren. Nur die Benutzer, die einem Beitragsordner zugewiesen sind, haben Zugriff auf den Beitragsordner und können Assets aus Brand Portal in Experience Manager Assets veröffentlichen.
 
 ## Siehe auch {#reference-articles}
 
 * [Konfigurieren und Veröffentlichen von Beitragsordnern in Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Veröffentlichen von Beitragsordnern in Experience Manager-Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Veröffentlichen des Beitragsordners in Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
