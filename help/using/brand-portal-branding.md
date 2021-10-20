@@ -11,9 +11,9 @@ discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Brand Portal-Administratoren können einige Aspekte der Benutzeroberfläche für
 
 Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definiert ist, wird auf der Anmeldeseite ein Standard-Hintergrundbild verwendet.
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Branding]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Branding]**.
 
 
    ![](assets/admin-tools-panel-10.png)
@@ -75,11 +75,11 @@ Wenn kein benutzerdefiniertes Hintergrundbild mit der Unternehmensmarke definier
 
 Der Header erscheint auf verschiedenen Brand Portal-Seiten, nachdem Sie sich bei Brand Portal angemeldet haben.
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Branding]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Branding]**.
 
    ![](assets/admin-tools-panel-11.png)
 
@@ -127,11 +127,11 @@ Um die Änderungen zu speichern, klicken Sie oben in der Symbolleiste auf **[!UI
 
 Wenn Assets als Link freigegeben werden, erhalten Benutzer eine E-Mail mit dem Link. Administratoren können diese Nachrichten, d. h. das Logo, die Beschreibung und die Fußzeile dieser E-Mails, anpassen.
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Branding]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Branding]**.
 
    ![](assets/admin-tools-panel-12.png)
 
