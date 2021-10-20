@@ -1,7 +1,7 @@
 ---
 title: Unterstützte Dateiformate
 seo-title: Supported file formats
-description: 'Jeder Experience Manager Assets Brand Portal unterstützt spezifische Dateiformate, wie in der Matrix angegeben. '
+description: 'Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate. '
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -10,81 +10,81 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Unterstützte Dateiformate {#supported-file-formats}
 
-Jeder Experience Manager Assets Brand Portal unterstützt spezifische Dateiformate, wie in der Matrix angegeben.
+Jedes Experience Manager Assets Brand Portal unterstützt die in der Matrix aufgeführten Dateiformate.
 
-| Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Ausgabeformate | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | In Brand Portal veröffentlichte Asset-Detailseiten | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
+| Dateiformat | In Brand Portal veröffentlichte Assets | In Brand Portal veröffentlichte Ausgabedarstellungen | In Brand Portal veröffentlichte Metadaten | In Brand Portal veröffentlichte Miniaturansichten | In Brand Portal veröffentlichte Asset-Detailseiten | Linkfreigaben | Miniaturansichten zur Linkfreigabe | Vorschau zur Linkfreigabe |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
-| PNG | ✓ | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
-| GIF | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
-| TIFF | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| JPEG | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
-| BMP | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| PNM* | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden |
-| PGM* | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden |
-| PBM* | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden |
-| PPM* | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden |
-| PSD | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| EPS | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | ✕ |
-| DNG | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| PICT | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| PSB* | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| JPG | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
-| AI | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| DOC | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| DOCX | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| ODT* | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| PDF | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| HTML | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| RTF | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| TXT | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| XLS | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| XLSX | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| ODS | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| PPT | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| PPTX | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| ODP | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| INDD | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| PS | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| QXP | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| EPUB | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | ✕ |
-| AAC | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| MIDI | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| 3GP | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| MP3 | verwalten | nicht vorhanden | verwalten | nicht vorhanden | ✕ | verwalten | ✕ | ✕ |
-| MP4 | verwalten | nicht vorhanden | verwalten | nicht vorhanden | verwalten | verwalten | ✕ | ✕ |
-| MPG | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| OGA | verwalten | nicht vorhanden | verwalten | nicht vorhanden | ✕ | verwalten | ✕ | ✕ |
-| OGG | verwalten | nicht vorhanden | verwalten | nicht vorhanden | verwalten | verwalten | ✕ | ✕ |
-| RA | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| WAV | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| WMA | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| DVI | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| FLV | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| M4V | verwalten | nicht vorhanden | verwalten | nicht vorhanden | ✕ | verwalten | ✕ | ✕ |
-| MPG | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| OGV | verwalten | nicht vorhanden | verwalten | nicht vorhanden | verwalten | verwalten | ✕ | ✕ |
-| MOV | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | ✕ | ✕ |
-| WMV | verwalten | nicht vorhanden | verwalten | nicht vorhanden | ✕ | verwalten | ✕ | ✕ |
-| SWF | verwalten | nicht vorhanden | verwalten | nicht vorhanden | verwalten | verwalten | ✕ | ✕ |
-| TGZ | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | ✕ |
-| JAR | verwalten | verwalten | verwalten | verwalten | nicht vorhanden | verwalten | verwalten | ✕ |
-| RAR | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | ✕ |
-| TAR | verwalten | nicht vorhanden | verwalten | nicht vorhanden | nicht vorhanden | verwalten | nicht vorhanden | ✕ |
-| ZIP | verwalten | verwalten | verwalten | verwalten | nicht vorhanden | verwalten | verwalten | ✕ |
+| PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| TIFF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PNM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PGM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PBM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PPM* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden |
+| PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| EPS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| DOC | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| DOCX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODT* | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| HTML | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| RTF | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| XLS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| XLSX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PPTX | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| ODP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| PS | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| QXP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| AAC | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| MIDI | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| 3GP | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| MP3 | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| MPG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| OGA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| OGG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| RA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WAV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WMA | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| DVI | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| FLV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| M4V | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| MPG | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| OGV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| MOV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | ✕ | ✕ |
+| WMV | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✕ | ✓ | ✕ | ✕ |
+| SWF | ✓ | nicht vorhanden | ✓ | nicht vorhanden | ✓ | ✓ | ✕ | ✕ |
+| TGZ | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| JAR | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
+| RAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| TAR | ✓ | nicht vorhanden | ✓ | nicht vorhanden | nicht vorhanden | ✓ | nicht vorhanden | ✕ |
+| ZIP | ✓ | ✓ | ✓ | ✓ | nicht vorhanden | ✓ | ✓ | ✕ |
 
 Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 
 | Symbol | Bedeutung |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| verwalten | Dieses Dateiformat unterstützt diese Funktion. |
+| ✓ | Dieses Dateiformat unterstützt diese Funktion. |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht. |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden. |
 | * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal. |
