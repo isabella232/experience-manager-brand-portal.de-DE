@@ -1,7 +1,7 @@
 ---
-title: Hochladen von Assets und Veröffentlichen des Beitragsordners von Brand Portal in Experience Manager Assets
+title: Hochladen von Assets und Veröffentlichen des Beitragsordners von Brand Portal aus in Experience Manager Assets
 seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
-description: Hier erhalten Sie nützliche Informationen zum Hochladen neuer Assets und Veröffentlichen des Beitragsordners von Brand Portal in Experience Manager Assets.
+description: Hier erhalten Sie einen Einblick in das Hochladen neuer Assets und das Veröffentlichen des Beitragsordners von Brand Portal aus in Experience Manager Assets.
 seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
 uuid: null
 content-type: reference
@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Veröffentlichen von Beitragsordnern in Experience Manager-Assets {#using-asset-souring-in-bp}
+# Veröffentlichen des Beitragsordners in Experience Manager Assets {#using-asset-souring-in-bp}
 
 Brand Portal-Benutzer mit entsprechender Berechtigung können mehrere Assets oder Ordner mit mehreren Assets in den Beitragsordner hochladen. Brand Portal-Benutzer können jedoch nur Assets in den Ordner **NEU** hochladen. Der Ordner **FREIGEGEBEN** ist für die Verteilung von Grundlinien-Assets (Referenzinhalt) vorgesehen, die von den Brand Portal-Benutzern bei der Erstellung von neuen Assets für Beiträge verwendet werden können.
 
@@ -25,11 +25,11 @@ Brand Portal-Benutzer mit Zugriffsberechtigung auf den Beitragsordner können di
 
 * [Herunterladen von Asset-Anforderungen](#download-asset-requirements)
 * [Hochladen von neuen Assets in den Beitragsordner](#uplad-new-assets-to-contribution-folder)
-* [Veröffentlichen von Beitragsordnern in Experience Manager-Assets](#publish-contribution-folder-to-aem)
+* [Veröffentlichen des Beitragsordners in Experience Manager Assets](#publish-contribution-folder-to-aem)
 
 ## Herunterladen von Asset-Anforderungen {#download-asset-requirements}
 
-Brand Portal-Benutzer erhalten automatisch E-Mail-/Pulsbenachrichtigungen, sobald ein Beitragsordner vom Experience Manager Assets-Benutzer freigegeben wird. Damit können sie die Kurzbeschreibung (Asset-Anforderungsdokument) herunterladen und die Grundlinien-Assets (Referenzinhalte) aus dem Ordner **SHARED** herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
+Brand Portal-Benutzer erhalten automatisch E-Mail-/Push-Benachrichtigungen, sobald ein Beitragsordner vom Experience Manager Assets-Benutzer freigegeben wird. Damit können sie die Zusammenfassung (Asset-Anforderungsdokument) sowie die Grundlinien-Assets (Referenzinhalte) aus dem Ordner **FREIGEGEBEN** herunterladen, um sicherzustellen, dass sie die Asset-Anforderungen verstehen.
 
 Der Brand Portal-Benutzer führt die folgenden Aktivitäten aus, um Asset-Anforderungen herunterzuladen:
 
@@ -78,7 +78,7 @@ Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-
 >
 >Es wird empfohlen, den Upload-Bereich nach der Veröffentlichung des Beitragsordners in Experience Manager Assets freizugeben, damit er für die anderen Brand Portal-Benutzer verfügbar ist.
 >
->Wenn Sie das Upload-Limit für Ihren Brand Portal-Mandanten über **10** GB hinaus erweitern müssen, wenden Sie sich an den Kundensupport und geben Sie die Anforderung an.
+>Wenn Sie die Upload-Grenze für Ihren Brand Portal-Mandanten über **10** GB hinaus erweitern müssen, wenden Sie sich an den Adobe-Support und geben Sie die Anforderung an.
 
 
 **Hochladen neuer Assets:**
@@ -100,12 +100,12 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
    ![](assets/upload-new-assets6.png)
 
-Nachdem Sie alle Assets oder Ordner in den Ordner NEU hochgeladen haben, veröffentlichen Sie den Beitragsordner in Experience Manager Assets.
+Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, veröffentlichen Sie den Beitragsordner in Experience Manager Assets.
 
 
-## Veröffentlichen von Beitragsordnern in Experience Manager-Assets {#publish-contribution-folder-to-aem}
+## Veröffentlichen des Beitragsordners in Experience Manager Assets {#publish-contribution-folder-to-aem}
 
-Brand Portal-Benutzer können den Beitragsordner in Experience Manager Assets veröffentlichen, ohne Zugriff auf die Experience Manager-Autoreninstanz zu benötigen.
+Brand Portal-Benutzer können den Beitragsordner in Experience Manager Assets veröffentlichen, ohne Zugriff auf die Experience Manager Assets-Autoreninstanz zu benötigen.
 
 Vergewissern Sie sich, dass Sie die Asset-Anforderungen erfüllt haben, und laden Sie die neu erstellten Assets in den Ordner **NEU** im Beitragsordner hoch.
 
@@ -124,29 +124,29 @@ In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsb
 
 1. **In Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
 
-1. **Abgeschlossen**  - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in Experience Manager Assets veröffentlicht wurde.
+1. **Abgeschlossen** – Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in Experience Manager Assets veröffentlicht wurde.
 
-Nachdem die neu erstellten Assets in Experience Manager Assets veröffentlicht wurden, können Brand Portal-Benutzer sie aus dem Ordner NEU löschen. Der Brand Portal-Administrator kann Assets dagegen sowohl aus dem Ordner „NEU“ als auch aus dem Ordner „FREIGEGEBEN“ löschen.
+Nachdem die neu erstellten Assets in Experience Manager Assets veröffentlicht wurden, können Brand Portal-Benutzer sie aus dem Ordner „NEU“ löschen. Der Brand Portal-Administrator kann Assets dagegen sowohl aus dem Ordner „NEU“ als auch aus dem Ordner „FREIGEGEBEN“ löschen.
 
 Sobald die Erstellung eines Beitragsordners erreicht ist, kann der Brand Portal-Administrator den Beitragsordner löschen, um den Upload-Speicherplatz für andere Benutzer freizugeben.
 
 ## Status des Veröffentlichungsauftrags {#publishing-job-status}
 
-Es gibt zwei Berichte, die Administratoren verwenden können, um den Status der Asset-Beitragsordner anzuzeigen, die aus Brand Portal in Experience Manager Assets veröffentlicht wurden.
+Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status der Asset-Beitragsordner anzuzeigen, die von Brand Portal aus in Experience Manager Assets veröffentlicht wurden.
 
 * Navigieren Sie in Brand Portal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
 
    ![](assets/contribution-folder-status.png)
 
-* Navigieren Sie in Experience Manager Assets (On-Premise oder verwalteter Dienst) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
+* Gehen Sie in Experience Manager Assets (On-Premise oder Managed Service) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
    ![](assets/publishing-status.png)
 
-* Navigieren Sie in Experience Manager Assets as a Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
+* Gehen Sie in Experience Manager Assets as a Cloud Service zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**.
 
-   Sie können auch direkt über die globale Navigation zu **[!UICONTROL Aufträge]** navigieren.
+   Sie können auch direkt über die globale Navigation zu **[!UICONTROL Aufträge]** gehen.
 
-   Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets aus Brand Portal in Experience Manager Assets als Cloud Service.
+   Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider, einschließlich des Imports von Assets aus Brand Portal in Experience Manager Assets as a Cloud Service.
 
    ![](assets/cloud-service-job-status.png)
 
