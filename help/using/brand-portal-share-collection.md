@@ -1,7 +1,7 @@
 ---
 title: Freigeben von Sammlungen
 seo-title: Share a collection
-description: Experience Manager Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben und deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
+description: Experience Manager Assets Brand Portal-Administratoren können Sammlungen oder Smart-Sammlungen für autorisierte Benutzer freigeben oder deren Freigabe aufheben. Bearbeiter können nur die Sammlungen anzeigen und freigeben, die sie selbst erstellt haben, die für sie freigegeben wurden oder die als „Öffentlich“ festgelegt sind.
 seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autor
 
    >[!NOTE]
    >
-   >Sie können festlegen, dass Benutzer ohne Administratorrechte Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Unternehmen können die Konfigurationseinstellung **[!UICONTROL Erstellung öffentlicher Sammlungen zulassen]** in den **[!UICONTROL Allgemeinen Einstellungen]** im Admin Tools-Bereich deaktivieren.
+   >Sie können festlegen, dass Benutzer ohne Administratorrechte Sammlungen nicht als „Öffentlich“ festlegen können, um zu verhindern, dass eine große Anzahl öffentlicher Sammlungen erstellt wird. Auf diese Weise wird Systemspeicherplatz eingespart. Unternehmen können die Konfigurationseinstellung **[!UICONTROL Erstellung öffentlicher Sammlungen zulassen]** in den **[!UICONTROL Allgemeinen Einstellungen]** im Admin-Tools-Bereich deaktivieren.
 
    ![](assets/collection_sharingadduser.png)
 
