@@ -11,9 +11,9 @@ discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1718'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Normalerweise werden auf der Seite **[!UICONTROL Eigenschaften]** für jedes Ass
 
 Gehen Sie wie folgt vor, um ein neues Metadatenschema-Formular zu erstellen:
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 
    ![](assets/navigation-panel.png)
 
@@ -51,11 +51,11 @@ Sie können dem Metadatenschema-Formular neue Registerkarten oder Formularelemen
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 1. Wählen Sie auf der Seite **[!UICONTROL Metadaten-Schemaformulare]** ein Schemaformular zur Bearbeitung seiner Eigenschaften aus, beispielsweise **[!UICONTROL Sammlung]**.
 
    ![](assets/metadata-schema-forms.png)
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um ein Metadatenschema-Formular zu bearbeiten:
 
 1. Um eine Komponente zu konfigurieren, wählen Sie diese aus und ändern Sie ihre Eigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]**.
 
-### Komponenten auf der Registerkarte „Formular erstellen“  {#components-in-the-build-form-tab}
+### Komponenten auf der Registerkarte„Formular erstellen“  {#components-in-the-build-form-tab}
 
 Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente, die Sie im Schemaformular verwenden können. Die Registerkarte **[!UICONTROL Einstellungen]** enthält die Attribute für jedes Element, das Sie auf der Registerkarte **[!UICONTROL Formular erstellen]** auswählen. Die folgende Tabelle enthält die auf der Registerkarte **[!UICONTROL Formular erstellen]** verfügbaren Formularelemente:
 
@@ -86,12 +86,12 @@ Die Registerkarte **[!UICONTROL Formular erstellen]** enthält Formularelemente,
 | **[!UICONTROL Zahl]** | Fügen Sie eine Zahlenkomponente hinzu. |
 | **[!UICONTROL Datum]** | Fügen Sie eine Datumskomponente hinzu. |
 | **[!UICONTROL Dropdown]** | Fügen Sie eine Dropdown-Liste hinzu. |
-| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. **Hinweis:** Administratoren müssen möglicherweise den Pfadwert ändern, z. B.  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschema-Formular aus Experience Manager Assets veröffentlichen, wobei der Pfad keine Mandanten-Informationen enthält, z. B.  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Smart-Tags]** | Automatisch erkannte Tags, wenn Sie das Smart-Tags-Add-on Experience Manager Assets erworben und konfiguriert haben. |
+| **[!UICONTROL Standard-Tags]** | Fügen Sie ein Tag hinzu. **Hinweis:** Administratoren müssen ggf. den Pfadwert ändern, z. B. `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, wenn sie das Metadatenschemaformular aus Experience Manager Assets veröffentlichen, wobei der Pfad keine Mandanten-Informationen enthält, z. B. `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Smart-Tags]** | Automatisch erkannte Tags, wenn Sie das Smart-Tags-Add-on für Experience Manager Assets erworben und konfiguriert haben. |
 | **[!UICONTROL Ausgeblendetes Feld]** | Fügen Sie ein ausgeblendetes Feld hinzu. Dieses wird beim Speichern des Assets als POST-Parameter gesendet. |
 | **[!UICONTROL Asset referenziert von]** | Fügen Sie diese Komponente hinzu, um eine Liste der vom Asset referenzierten Assets anzuzeigen. |
 | **[!UICONTROL Asset-Verweise]** | Fügen Sie dies hinzu, um eine Liste der Assets anzuzeigen, die das Asset referenzieren. |
-| **[!UICONTROL Asset-Bewertung]** | Durchschnittliche Bewertung eines Assets, das vor seiner Veröffentlichung in Brand Portal aus Experience Manager Assets hinzugefügt wurde. |
+| **[!UICONTROL Asset-Bewertung]** | Die durchschnittliche Bewertung eines Assets, die vor der Veröffentlichung in Brand Portal in Experience Manager Assets hinzugefügt wird. |
 | **[!UICONTROL Kontextuelle Metadaten]** | Zur Steuerung der Anzeige anderer Metadaten auf der Eigenschaftenseite von Assets. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Im Folgenden finden Sie die gültigen Werte für diese Eigenschaft:
 
 >[!NOTE]
 >
->Alle Metadaten-Felder sind im Asset-Editorformular für Metadaten schreibgeschützt. Da Metadaten des Assets in Experience Manager Assets bearbeitet werden müssen, bevor ein Asset in Brand Portal veröffentlicht wird.
+>Alle Metadaten-Felder sind im Asset-Editorformular für Metadaten schreibgeschützt. Die Metadaten des Assets müssen vor der Veröffentlichung in Brand Portal in Experience Manager Assets bearbeitet werden.
 
 #### Hinzufügen oder Löschen von Registerkarten im Schemaformular {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,11 +143,11 @@ Brand Portal ermöglicht die Anpassung und Kontrolle des Metadatenschemas, sodas
 
 Gehen Sie wie folgt vor, um ein Metadatenschema-Formular auf einen Ordner anzuwenden:
 
-1. Klicken Sie oben in der Symbolleiste auf das Experience Manager-Logo, um auf die Admin Tools zuzugreifen.
+1. Klicken Sie in der Symbolleiste oben auf das Experience Manager-Logo, um auf die Admin-Tools zuzugreifen.
 
    ![](assets/aemlogo.png)
 
-1. Klicken Sie im Admin Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
+1. Klicken Sie im Admin-Tools-Bereich auf **[!UICONTROL Metadatenschemata]**.
 
 1. Wählen Sie auf der Seite **[!UICONTROL Metadatenschema-Formular]** das Schemaformular aus, das Sie auf ein Asset anwenden möchten, zum Beispiel **[!UICONTROL Kleidung]**.
 
