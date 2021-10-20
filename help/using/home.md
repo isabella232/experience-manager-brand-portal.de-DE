@@ -5,9 +5,9 @@ description: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 |--- |---|
 | [Neuerungen](whats-new.md) | Änderungen in früheren Versionen und die neuesten Angebote in Brand Portal. |
 | [Versionshinweise](brand-portal-release-notes.md) | Verbesserungen, behobene kritische Probleme und bekannte Probleme in der aktuellen Version. |
-| [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | So replizieren Sie Brand Portal mit Experience Manager Assets, um Assets zu veröffentlichen. |
+| [Konfigurieren von Experience Manager Assets mit Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Replizieren von Brand Portal mit Experience Manager Assets, um Assets zu veröffentlichen. |
 | [Fehlerbehebung bei Problemen in paralleler Veröffentlichung](troubleshoot-parallel-publishing.md) | Fehlerbehebung bei der Replikation zwischen Brand Portal und Experience Manager Assets. |
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
@@ -49,4 +49,4 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 
 ### Hilfreiche Ressourcen
 
-* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Grundlagen von Brand Portal mit AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=de)
