@@ -11,16 +11,16 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Durchsuchen von Assets in Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal bietet verschiedene Funktionen und Elemente der Benutzeroberfläche, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets unter Verwendung verschiedener Anzeigeoptionen erleichtern.
+Experience Manager Assets Brand Portal bietet zahlreiche Funktionen und Benutzeroberflächen-Elemente, die das Durchsuchen von Ressourcen, Navigieren in Asset-Hierarchien und Suchen nach Assets unter Verwendung verschiedener Anzeigeoptionen erleichtern.
 
-Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin Tools-Bereich.
+Das Experience Manager-Logo in der Symbolleiste am oberen Rand erleichtert Admin-Benutzern den Zugriff auf den Admin-Tool-Bereich.
 
 ![](assets/aemlogo.png)
 
@@ -56,7 +56,7 @@ In der Kartenansicht werden Informationskarten für jedes Element auf der aktuel
 * Typ
 * Titel
 * Name
-* Datum und Uhrzeit, zu dem bzw. zu der das Asset in Brand Portal von AEM veröffentlicht wurde
+* Datum und Uhrzeit, zu dem bzw. zu der das Asset aus AEM in Brand Portal veröffentlicht wurde
 * Größe
 * Dimensionen
 
@@ -141,7 +141,7 @@ Wird ein Asset in der Spaltenansicht ausgewählt, wird die visuelle Darstellung 
 * Titel
 * Name
 * Dimensionen
-* Datum und Uhrzeit, zu dem bzw. zu der das Asset in Brand Portal von AEM veröffentlicht wurde
+* Datum und Uhrzeit, zu dem bzw. zu der das Asset aus AEM in Brand Portal veröffentlicht wurde
 * Größe
 * Typ
 * Option „Weitere Details“ zum Aufrufen der Seite „Details“ des Assets

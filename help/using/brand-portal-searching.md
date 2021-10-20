@@ -12,8 +12,8 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
 Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
-## Suche mithilfe von Facetten im Bereich „Filter“  {#search-using-facets-in-filters-panel}
+## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
 
@@ -123,7 +123,7 @@ So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 
    >[!NOTE]
    >
-   >Benutzer ohne Administratorrechte können daran gehindert werden, Smart-Sammlungen öffentlich zu machen. So kann verhindert werden, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal der Organisation erstellen. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]** im Admin Tools-Bereich unter den Einstellungen **[!UICONTROL Allgemein]** deaktivieren.
+   >Benutzer ohne Administratorrechte können daran gehindert werden, Smart-Sammlungen öffentlich zu machen. So kann verhindert werden, dass Benutzer ohne Administratorrechte eine große Anzahl öffentlicher Smart-Sammlungen im Brand Portal der Organisation erstellen. Unternehmen können die Konfiguration **[!UICONTROL Erstellung öffentlicher Smart-Sammlungen zulassen]** im Admin-Tools-Bereich unter den Einstellungen **[!UICONTROL Allgemein]** deaktivieren.
 
    ![](assets/save_smartcollectionui.png)
 

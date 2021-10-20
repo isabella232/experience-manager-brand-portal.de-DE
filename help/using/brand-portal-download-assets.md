@@ -12,8 +12,8 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,13 +59,13 @@ Die verfügbaren Einstellungen sind:
 
    Ermöglicht das Herunterladen benutzerdefinierter und (oder) dynamischer Ausgabedarstellungen der Assets.
 
-   Alle Asset-Ausgabedarstellungen außer dem Original-Asset und den systemgenerierten Ausgabedarstellungen werden als benutzerdefinierte Ausgabedarstellungen aufgerufen. Dies schließt sowohl statische als auch dynamische Ausgabedarstellungen ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabe in Experience Manager Assets erstellen, während nur der Administrator benutzerdefinierte dynamische Ausgabedarstellungen erstellen kann. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](../using/brand-portal-image-presets.md).
+   Alle Asset-Ausgabedarstellungen außer dem Original-Asset und den systemgenerierten Ausgabedarstellungen werden als benutzerdefinierte Ausgabedarstellungen aufgerufen. Dies schließt sowohl statische als auch dynamische Ausgabedarstellungen ein, die für das Asset verfügbar sind. Jeder Benutzer kann eine benutzerdefinierte statische Ausgabedarstellung in Experience Manager Assets erstellen. Allerdings kann nur der Administrator benutzerdefinierte dynamische Ausgabedarstellungen erstellen. Weitere Informationen finden Sie unter [Anwenden von Bildvorgaben oder dynamischen Ausgabedarstellungen](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Systemausgabedarstellungen]**
 
    Aktiviert das Herunterladen systemgenerierter Ausgabedarstellungen der Assets.
 
-   Dies sind die Miniaturansichten, die in Experience Manager Assets basierend auf dem Workflow &quot;DAM-Update-Asset&quot;automatisch generiert werden.
+   Dies sind die Miniaturansichten, die in Experience Manager Assets auf der Grundlage des Workflows „DAM-Update-Asset“ automatisch generiert werden.
 
 * **[!UICONTROL Asset-Download]**
 
@@ -208,9 +208,9 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 >
 >Brand Portal unterstützt die Konfiguration von Dynamic Media sowohl im Hybrid- als auch im Scene7-Modus.
 >
->(*Wenn die Experience Manager Assets-Autoreninstanz auf **Dynamic Media Hybrid-Modus*** ausgeführt wird)
+>(*Bei Ausführung der Experience Manager Assets-Autoreninstanz im **Dynamic Media Hybrid-Modus***)
 >
->Um dynamische Ausgabeformate eines Assets als Vorschau anzeigen oder herunterladen zu können, stellen Sie sicher, dass das dynamische Medium aktiviert ist und die Pyramid TIFF-Wiedergabe des Assets in der Experience Manager Assets-Autoreninstanz vorhanden ist, von der aus die Assets veröffentlicht wurden. Wenn ein Asset aus Experience Manager Assets in Brand Portal veröffentlicht wird, wird auch dessen Pyramid TIFF-Ausgabeformat veröffentlicht.
+>Um dynamische Ausgabedarstellungen eines Assets als Vorschau anzeigen (oder herunterladen) zu können, stellen Sie sicher, dass Dynamic Media aktiviert ist und die Pyramid TIFF-Ausgabe in der Experience Manager Assets-Autoreninstanz, von der aus die Assets veröffentlicht wurden, vorhanden ist. Wenn ein Asset aus Experience Manager Assets in Brand Portal veröffentlicht wird, wird auch seine Pyramid TIFF-Ausgabedarstellung veröffentlicht.
 
 
 
@@ -234,7 +234,7 @@ Benutzer können verschiedene Ausgabedarstellungen in der Vorschau betrachten, b
 Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Seite mit den Asset-Details herunterzuladen:
 
 1. Melden Sie sich bei Ihrem Brand Portal-Mandanten an und klicken Sie auf das Asset, um die Seite mit den Asset-Details zu öffnen.
-1. Klicken Sie links auf das Überlagerungssymbol und wählen Sie dann **[!UICONTROL Ausgabedarstellungen]**.
+1. Klicken Sie links auf das Überlagerungssymbol und dann auf **[!UICONTROL Ausgabedarstellungen]**.
 
    ![rendition-navigation](assets/rendition-navigation.png)
 
