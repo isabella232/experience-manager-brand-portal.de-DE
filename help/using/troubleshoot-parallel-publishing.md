@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Vorhandene Veröffentlichungskonfigurationen in Brand Portal bereinigen {#clean-up-existing-config}
+## Vorhandene Veröffentlichungskonfigurationen in Brand Portal bereinigen {#clean-up-existing-config}
 
 Wenn eine Veröffentlichung nicht funktioniert, liegt das meistens daran, dass der Benutzer, der die Veröffentlichung durchführt (z. B. `mac-<tenantid>-replication`) nicht den neuesten privaten Schlüssel hat. Daher scheitert die Veröffentlichung mit dem Fehler „401 unauthorized“ und in den Replikationsagenten-Protokollen wird kein anderer Fehler gemeldet. Wenn Sie keine Problembehebung vornehmen möchten, können Sie stattdessen eine neue Konfiguration erstellen. Damit die neue Konfiguration richtig funktioniert, sollten Sie bei der Einrichtung der Experience Manager-Autoreninstanz Folgendes bereinigen:
 
@@ -121,6 +121,14 @@ Wenn ein Replikationsagent, mit dem das Veröffentlichen in Brand Portal bisher 
 Wenn jedoch kontinuierliche Fehler beim Veröffentlichen auftreten und die Warteschlange blockiert ist, sollten Sie **[!UICONTROL Verbindung testen]** auswählen und versuchen, die dort gemeldeten Fehler zu beheben.
 
 Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öffnen, damit das Brand Portal-Technikerteam Ihnen beim Beheben der Probleme helfen kann.
+
+## Brand Portal IMS-Konfigurationstoken abgelaufen {#token-expired}
+
+Wenn Ihre Brand Portal-Umgebung abrupt beendet wird, kann es sein, dass die IMS-Konfigurationen nicht ordnungsgemäß funktionieren. Das System zeigt eine ungesunde IMS-Konfiguration an und gibt eine Fehlermeldung (ähnlich der folgenden) an, dass Ihr Zugriffstoken abgelaufen ist.
+
+`com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
+
+Um dieses Problem zu beheben, wird empfohlen, die IMS-Konfiguration manuell zu speichern und zu schließen und den Gesundheitsstatus erneut zu überprüfen. Wenn die Konfigurationen nicht funktionieren, löschen Sie die vorhandenen Konfigurationen und erstellen Sie eine neue.
 
 
 ## Konfigurieren von Replikationsagenten, um Verbindungsabbrüche wegen Zeitüberschreitung zu verhindern {#connection-timeout}
