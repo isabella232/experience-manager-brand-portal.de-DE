@@ -1,8 +1,8 @@
 ---
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 # Richtlinien für Beiträge zur Adobe Experience Manager-Dokumentation
@@ -37,7 +37,7 @@ Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit mögl
 
 Alle Ideen, die Sie möglicherweise zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme gedacht.
 
-Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://experienceleague.adobe.com/?support-solution=General#support) gemeldet oder in der [Experience Manager-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) diskutiert werden.
+Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support) gemeldet oder in der [Experience Manager-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager) diskutiert werden.
 
 ***AEM-Dokumentationsbeiträge sind kein Ersatz für den Adobe-Support*** und Beiträge, die Antworten auf Support-Fragen suchen, werden abgelehnt.
 
