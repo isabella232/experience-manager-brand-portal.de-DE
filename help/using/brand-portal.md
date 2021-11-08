@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1528'
+ht-degree: 100%
 
 ---
 
@@ -56,14 +56,14 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 |  | **Durchsuchen** | **Suchen** | **Download** | **Freigeben von Ordnern** | **Freigeben von Sammlungen** | **Freigeben von Assets als Link** | **Zugriff auf Admin-Tools** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Gastbenutzer** | ✓* | * | * | x | x | x | x |
-| **Betrachter** | ✓ | verwalten | verwalten | x | x | x | x |
-| **Bearbeiter** | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | x |
-| **Administrator** | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten | verwalten |
+| **Gastbenutzer** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Betrachter** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Bearbeiter** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
+| **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 >[!NOTE]
 >
->Gastbenutzer können Assets nur in öffentlichen Ordnern und Sammlungen durchsuchen, aufrufen und suchen.
+>Gastbenutzer können nur Assets durchsuchen, auf Assets zugreifen oder nach Assets suchen, die sich in öffentlichen Ordnern und Sammlungen befinden.
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,7 +77,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Jeder Benutzer mit eingeschränktem Zugriff auf Assets in Brand Portal, der nicht authentifiziert wird, ist ein Gastbenutzer. In der Gastsitzung können Benutzer auf öffentliche Ordner und Sammlungen zugreifen. Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
-In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als  Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 * [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -138,7 +138,7 @@ Zusätzlich zu den oben genannten Aufgaben stehen AEM Assets-Autoren folgende Au
 ## Alternativer Alias für Brand Portal-URL {#tenant-alias-for-portal-url}
 
 Ab Brand Portal 6.4.3 steht Unternehmen eine alternative URL (Alias) für die vorhandene URL des Brand Portal-Mandanten zur Verfügung. Die Alias-URL kann erstellt werden, indem ein alternatives Präfix in die URL eingefügt wird.\
-Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domäne `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage die Domäne `geomettrixinc.brand-portal.adobe.com` erstellt werden.
+Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL. Für eine Organisation mit der vorhandenen Domain `geomettrix.brand-portal.adobe.com` kann beispielsweise auf Anfrage die Domain `geomettrixinc.brand-portal.adobe.com` erstellt werden.
 
 Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](../using/configure-aem-assets-with-brand-portal.md) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
