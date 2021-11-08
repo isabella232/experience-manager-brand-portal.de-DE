@@ -12,9 +12,9 @@ discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Weitere Informationen zur Linkfreigabe finden Sie unter [Assets als Link freige
 
 Das Herunterladen von lizenzierten Assets aus Brand Portal unterliegt einer Lizenzvereinbarung. Diese Vereinbarung für lizenzierte Assets wird angezeigt, wenn Sie das Asset direkt aus Brand Portal oder über einen freigegebenen Link herunterladen. Abgelaufene oder nicht abgelaufene Assets, die durch eine Lizenz geschützt sind, können von allen Benutzern angezeigt werden. Jedoch ist der Download und die Verwendung von abgelaufenen genehmigten Assets begrenzt. Informationen zum Verhalten von abgelaufenen lizenzierten Assets und den zulässigen Aktivitäten basierend auf Benutzerrollen finden Sie unter [Nutzungsberechtigungen in Bezug auf abgelaufene Assets](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) der Assets in AEM Assets entsprechend eingestellt werden.
+An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de) der Assets in AEM Assets entsprechend eingestellt werden.
 
 Wenn Sie lizenzgeschützte Assets herunterladen möchten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet.
 
