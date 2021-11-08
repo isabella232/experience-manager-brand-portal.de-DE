@@ -11,9 +11,9 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '6294'
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkei
 * Erstellen eines separaten Ordners für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
-Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de).
 
 ![download-dialogfeld](assets/download-dialog-box.png)
 
@@ -249,7 +249,7 @@ Auf der Registerkarte **[!UICONTROL Gruppen]** auf der Seite **[!UICONTROL Benut
 * Wenn nur die Einstellung **[!UICONTROL Original herunterladen]** aktiviert ist, können Benutzer nur die Original-Assets auf der Asset-Detailseite anzeigen und von dort herunterladen.
 * Wenn nur die Einstellung **[!UICONTROL Ausgabedarstellungen herunterladen]** aktiviert ist, können Benutzer das Original-Asset anzeigen, aber nicht herunterladen. Benutzer können jedoch die Asset-Ausgabedarstellungen anzeigen und herunterladen.
 
-Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -347,7 +347,7 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=de) | - |
 | **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) | [Upgrade der Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) | [Upgrade der Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 und höher)** | [Konfiguration erstellen](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgrade der Konfiguration](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -414,6 +414,7 @@ Lesen Sie weiter, um mehr über die Suche nach Textteilen und Suche mit Platzhal
 Sie können nach Assets suchen, indem Sie nur einen Teil – d. h. ein oder zwei Wörter – des gesuchten Satzes in den Filterbereich eingeben.
 
 **Anwendungsfall**
+
 Die Suche nach Satzteilen ist hilfreich, wenn Sie sich nicht sicher sind, wie die genaue Wortfolge im gesuchten Satz lautet.
 
 Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche nach einem Asset-Titel anwendet, werden nach Angabe des Begriffs **Lager** alle Assets mit dem Wort Lager im Titelsatz zurückgegeben.
@@ -528,9 +529,9 @@ Entsprechend können veröffentlichte Assets zu einem späteren Zeitpunkt aus de
 Unternehmen können ihre Portal-URL mit einem alternativen Präfix in der URL anpassen. Um einen Alias für einen Mandantenamen in der vorhandenen Portal-URL zu erhalten, müssen Unternehmen sich mit dem Adobe-Support in Verbindung setzen.
 
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL.\
-Für eine Organisation mit der vorhandenen Domäne **geomettrix.brand-portal.adobe.com** kann beispielsweise auf Anfrage die Domäne **geomettrixinc.brand-portal.adobe.com** erstellt werden.
+Für eine Organisation mit der vorhandenen Domain **geomettrix.brand-portal.adobe.com** kann beispielsweise auf Anfrage die Domain **geomettrixinc.brand-portal.adobe.com** erstellt werden.
 
-Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
+Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
@@ -631,7 +632,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe i/O-Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) zum Erstellen der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) zum Erstellen der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de).
 
 ## Verbesserungen der Suche
 
@@ -685,7 +686,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die Download-Grenze für die Größe pro Datei beträgt für die Link-Freigabe-Funktion **1** GB.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen  Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
@@ -700,11 +701,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 ### Erweiterte Berichterstellungsfunktionen
 
 **Neuer Bericht zur Link-Freigabe**
+
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+
 Der Verwendungsbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
