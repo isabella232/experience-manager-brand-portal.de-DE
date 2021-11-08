@@ -11,9 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1124'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
    *Asset-Suche mithilfe von Omnisearch*
 
-Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
+Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen Assets finden Sie unter [Nachvollziehen von Suchergebnissen und -verhalten](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html?lang=de).
 
 ## Suche mithilfe von Facetten im Bereich „Filter“ {#search-using-facets-in-filters-panel}
 
