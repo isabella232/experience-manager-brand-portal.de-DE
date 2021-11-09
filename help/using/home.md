@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 92%
 
 ---
 
@@ -46,6 +46,7 @@ Dieses Benutzerhandbuch enthält Einblicke in Funktionen und wichtige Workflows 
 | [Unterstützte Dateiformate](brand-portal-supported-formats.md) | Unterstützte Dateiformate in Brand Portal für Vorschau und Download. |
 | [Veröffentlichen von Assets in Brand Portal](brand-portal-sharing-folders.md) | Veröffentlichen von Ordnern, Sammlungen, Links, Vorgaben, Schemas, Facetten und Tags in Brand Portal. |
 | [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md) | Konfigurieren der Asset-Beschaffung in AEM Assets, Hochladen von Assets in Brand Portal und erneutes Veröffentlichen des Beitragsordners in AEM Assets. |
+| [Videos zu Brand Portal-Funktionen](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Erfahren Sie, wie Sie Experience Manager Assets Brand Portal mithilfe von Video-Tutorials verwenden. |
 
 ### Hilfreiche Ressourcen
 
