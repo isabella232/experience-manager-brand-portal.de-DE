@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ In Brand Portal wird die Konfiguration mit Experience Manager Assets unterstütz
 >
 >Adobe empfiehlt ein Upgrade auf Experience Manager 6.4.1.0, um sicherzustellen, dass Experience Manager Assets Brand Portal erfolgreich mit Experience Manager Assets konfiguriert ist. Aufgrund einer Beschränkung in Experience Manager 6.4 wird beim Konfigurieren von Experience Manager Assets mit Brand Portal ein Fehler ausgegeben und die Replikation scheitert.
 
-Beim Konfigurieren des Cloud Services für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Service;Benutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus Experience Manager in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
+Beim Konfigurieren des Cloud Services für Brand Portal unter **[!UICONTROL /etc/cloudservice]** werden alle erforderlichen Benutzer und Token automatisch generiert und im Repository gespeichert. Die Cloud-Service-Konfiguration wird erstellt, Service-Benutzer, die für Replikation und Replikationsagenten erforderlich sind, um Inhalte zu replizieren, werden ebenfalls erstellt. Hierbei werden vier Replikationsagenten erstellt. Wenn Sie zahlreiche Assets aus Experience Manager in Brand Portal veröffentlichen, werden diese in die Warteschlange gestellt und über Round Robin unter diesen Replikationsagenten verteilt.
 
 Jedoch kann das Veröffentlichen zwischenzeitlich aufgrund zu großer Sling-Aufträge, erhöhter Netzwerk- und **[!UICONTROL Datenträger-E/A]** in der Experience Manager-Autoreninstanz oder geringer Leistung der Experience Manager-Autoreninstanz scheitern. Daher wird empfohlen, die Verbindung zu den Replikationsagenten zu testen, bevor mit dem Veröffentlichen begonnen wird.
 
@@ -122,9 +122,9 @@ Wenn jedoch kontinuierliche Fehler beim Veröffentlichen auftreten und die Warte
 
 Basierend auf den Fehlern kann es empfehlenswert sein, ein Support-Ticket zu öffnen, damit das Brand Portal-Technikerteam Ihnen beim Beheben der Probleme helfen kann.
 
-## Brand Portal IMS-Konfigurationstoken abgelaufen {#token-expired}
+## Brand Portal-IMS-Konfigurations-Token abgelaufen {#token-expired}
 
-Wenn Ihre Brand Portal-Umgebung abrupt beendet wird, kann es sein, dass die IMS-Konfigurationen nicht ordnungsgemäß funktionieren. Das System zeigt eine ungesunde IMS-Konfiguration an und gibt eine Fehlermeldung (ähnlich der folgenden) an, dass Ihr Zugriffstoken abgelaufen ist.
+Wenn Ihre Brand Portal-Umgebung abrupt beendet wird, kann es sein, dass die IMS-Konfigurationen nicht ordnungsgemäß funktionieren. Das System zeigt eine fehlerhafte IMS-Konfiguration an und gibt in einer Fehlermeldung (ähnlich der folgenden) an, dass Ihr Zugriffs-Token abgelaufen ist.
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
