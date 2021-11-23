@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 55%
+source-wordcount: '1250'
+ht-degree: 56%
 
 ---
 
@@ -60,11 +60,11 @@ Da Videokodierungen nicht im Brand Portal-Repository gespeichert und von abgeruf
 Um mit Dynamic Video in Brand Portal zu arbeiten, müssen Sie Folgendes sicherstellen:
 
 * **Starten Sie die Experience Manager-Autoreninstanz im Dynamic Media-Modus.**
-Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert ist) entweder in [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) oder [Dynamic Media - Hybridmodus](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=de) oder
+Starten Sie die Experience Manager-Autoreninstanz (mit der Brand Portal konfiguriert ist) entweder in [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) oder [Dynamic Media - Hybridmodus](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=de) oder
 * **Konfigurieren von Dynamic Media Cloud Services in Experience Manager Author**
-Basierend auf dem Dynamic Media-Modus (Scene7-Modus oder Hybridmodus), auf dem der Experience Manager-Autor ausgeführt wird, legen Sie entweder [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) oder [Dynamic Media Cloud Services (Hybridmodus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) zum Experience Manager-Autor von **Instrumente** | **Cloud Services** | **Dynamic Media**.
+Basierend auf dem Dynamic Media-Modus (Scene7-Modus oder Hybridmodus), auf dem der Experience Manager-Autor ausgeführt wird, legen Sie entweder [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=de?lang=de#configuring-dynamic-media-cloud-services) oder [Dynamic Media Cloud Services (Hybridmodus)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) zum Experience Manager-Autor von **Instrumente** | **Cloud Services** | **Dynamic Media**.
 * **Konfigurieren von Dynamic Media auf Brand Portal**
-Konfigurieren Sie basierend auf den Dynamic Media-Cloud-Konfigurationen in Experience Manager Author [Dynamic Media-Einstellungen](#configure-dm-hybrid-settings) oder [[!DNL Scene7] settings](#configure-dm-scene7-settings)  aus den Verwaltungstools von Brand Portal.
+Konfigurieren Sie basierend auf den Dynamic Media-Cloud-Konfigurationen in Experience Manager Author [Dynamic Media-Einstellungen](#configure-dm-hybrid-settings) oder [[!DNL Scene7] settings](#configure-dm-scene7-settings) aus den Verwaltungstools von Brand Portal.
 Stellen Sie sicher, dass [separate Brand Portal-Mandanten](#separate-tenants) werden für Experience Manager-Autoreninstanzen verwendet, die in Dynamic Media konfiguriert sind - **[!UICONTROL Scene7]** Modus und Dynamic Media - Hybridmodus. Insbesondere bei Verwendung von Funktionen von Dynamic Media **[!UICONTROL S7]** und Dynamic Media Hybrid.
 * **Veröffentlichen von Ordnern mit auf Brand Portal angewendeten Videokodierungen**
 Anwenden [Videokodierungen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html?lang=de) und veröffentlichen Sie den Ordner mit Rich-Media-Assets aus der Experience Manager-Autoreninstanz in Brand Portal.
@@ -122,7 +122,7 @@ Wenn die Experience Manager-Autoreninstanz im Dynamic Media-Hybridmodus ausgefü
 
 >[!NOTE]
 >
->Die [Videokodierungsprofile](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom **[!UICONTROL Scene7]**-Server abgerufen. Damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können, müssen Sie daher sicherstellen, dass die Konfigurationsdetails mit den [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) in Ihrer Experience Manager-Autoreninstanz.
+>Die [Videokodierungsprofile](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) werden nicht in Brand Portal veröffentlicht, sondern vom **[!UICONTROL Scene7]**-Server abgerufen. Damit Videokodierungen erfolgreich in Brand Portal wiedergegeben werden können, müssen Sie daher sicherstellen, dass die Konfigurationsdetails mit den [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=de#configuring-dynamic-media-cloud-services) in Ihrer Experience Manager-Autoreninstanz.
 
 So richten Sie Dynamic Media-Konfigurationen für Brand Portal-Mandanten ein:
 
