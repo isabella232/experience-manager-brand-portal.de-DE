@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Sym
 
    ![](assets/download.png)
 
-   ![](assets/download-asset-requirement4.png)
+   ![](assets/download-asset-requirement5.png)
 
 Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen.
 
@@ -73,6 +73,8 @@ Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-
 >Brand Portal-Benutzer können Assets nur in den Ordner „NEU“ hochladen.
 >
 >Der Upload-Grenzwert für jeden Brand Portal-Mandanten beträgt **10** GB. Dies ist ein kumulativer Wert für sämtliche Beitragsordner.
+>
+>Die in Brand Portal hochgeladenen Assets werden nicht für Ausgabedarstellungen verarbeitet und enthalten keine Vorschau.
 
 >[!NOTE]
 >
@@ -98,7 +100,7 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
 1. Suchen Sie nach Assets (Dateien/Ordner) und laden Sie sie in den Ordner **[!UICONTROL NEU]** hoch.
 
-   ![](assets/upload-new-assets6.png)
+   ![](assets/upload-asset4.png)
 
 Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, veröffentlichen Sie den Beitragsordner in Experience Manager Assets.
 

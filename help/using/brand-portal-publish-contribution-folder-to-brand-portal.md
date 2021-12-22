@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
-workflow-type: ht
-source-wordcount: '1217'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 97%
 
 ---
 
@@ -117,33 +117,15 @@ Administratoren können die Datei `user.csv` aus der [!DNL Admin Console] nutzen
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
-Brand Portal-Benutzer können die Asset-Anforderungen herunterladen, um zu verstehen, warum Beiträge nötig sind.
-Sie können dann neue Assets für Beiträge erstellen und sie in den Ordner NEU im Beitragsordner hochladen.
+Experience Manager Assets-Benutzer lädt eine Reihe von Grundlinien-Assets in die **FREIGEGEBEN** Ordner, um sicherzustellen, dass die Brand Portal-Benutzer über die benötigten Informationen verfügen.
 
->[!NOTE]
->
->Brand Portal-Benutzer können Assets nur in den Ordner „NEU“ hochladen.
->
->Der Upload-Grenzwert für jeden Brand Portal-Mandanten beträgt **10** GB. Dies ist ein kumulativer Wert für sämtliche Beitragsordner.
+**Hochladen von Grundlinien-Assets:**
 
+1. Melden Sie sich bei Ihrer Experience Manager Assets-Instanz an.
 
-Nachdem die neu erstellten Assets in Experience Manager Assets veröffentlicht wurden, können Brand Portal-Benutzer sie aus dem Ordner „NEU“ löschen. Der Brand Portal-Administrator kann Assets dagegen sowohl aus dem Ordner „NEU“ als auch aus dem Ordner „FREIGEGEBEN“ löschen.
+1. Navigieren Sie zu **[!UICONTROL Assets > Dateien]** und suchen Sie nach dem Beitragsordner.
 
-Sobald die Erstellung eines Beitragsordners erreicht ist, kann der Brand Portal-Administrator den Beitragsordner löschen, um den Upload-Speicherplatz für andere Benutzer freizugeben.
-
->[!NOTE]
->
->Es wird empfohlen, den Upload-Bereich nach der Veröffentlichung des Beitragsordners in Experience Manager Assets freizugeben, damit er für die anderen Brand Portal-Benutzer verfügbar ist.
->
->Wenn Sie die Upload-Grenze für Ihren Brand Portal-Mandanten über **10** GB hinaus erweitern müssen, wenden Sie sich an den Adobe-Support und geben Sie die Anforderung an.
-
-
-**Hochladen neuer Assets:**
-
-1. Melden Sie sich bei Ihrer Brand Portal-Instanz an.
-Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Portal-Benutzer zur Verfügung stehen, sowie den neu freigegebenen Beitragsordner.
-
-1. Wählen Sie den Beitragsordner aus und klicken Sie darauf, um ihn zu öffnen. Der Beitragsordner enthält zwei Unterordner - **[!UICONTROL FREIGEGEBEN]** und **[!UICONTROL NEU]**.
+1. Wählen Sie den Beitragsordner aus und klicken Sie darauf, um ihn zu öffnen.
 
 1. Klicken Sie auf den **[!UICONTROL Ordner NEU]**.
 
@@ -155,7 +137,7 @@ Das Brand Portal-Dashboard enthält alle vorhandenen Ordner, die dem Brand Porta
 
 1. Suchen Sie nach Assets (Dateien/Ordner) und laden Sie sie in den Ordner **[!UICONTROL NEU]** hoch.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 Nachdem Sie alle Assets oder Ordner in den Ordner „NEU“ hochgeladen haben, veröffentlichen Sie den Beitragsordner in Experience Manager Assets.
 
