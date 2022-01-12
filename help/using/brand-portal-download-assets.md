@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1924'
-ht-degree: 100%
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 94%
 
 ---
 
@@ -163,7 +163,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
-      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) der Assets in Experience Manager Assets entsprechend eingestellt werden.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -185,6 +185,12 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
    Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
    ![download-dialogfeld](assets/download-dialog-box-new.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** nur) Die folgenden bekannten Probleme werden in der kommenden Version behoben:
+   >
+   >Im Dialogfeld &quot;Herunterladen&quot;werden die Ausgabedarstellungen für das smarte Zuschneiden des ausgewählten Assets aufgelistet. Benutzer können die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht herunterladen.
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, einen beschleunigten Download mit IBM Aspera Connect zu erlauben.
 
@@ -243,6 +249,14 @@ Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Se
    Wählen Sie die gewünschten Ausgabedarstellungen aus und klicken Sie auf **[!UICONTROL Elemente herunterladen]**.
 
    ![renditions-panel](assets/renditions-panel.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** nur) Die folgenden bekannten Probleme werden in der kommenden Version behoben:
+   >
+   >Die **[!UICONTROL Ausgabeformate]** enthält nicht alle statischen Ausgabeformate der Assets, die nach dem 16. Dezember 2021 in Brand Portal veröffentlicht wurden.
+   >
+   >Die **[!UICONTROL Ausgabeformate]** im Bedienfeld werden die Ausgabedarstellungen für das smarte Zuschneiden des Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht in der Vorschau anzeigen oder herunterladen.
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, einen beschleunigten Download mit IBM Aspera Connect zu erlauben.
 
