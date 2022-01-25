@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Administratoren können die Datei `user.csv` aus der [!DNL Admin Console] nutzen
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
-Experience Manager Assets-Benutzer lädt eine Reihe von Grundlinien-Assets in die **FREIGEGEBEN** Ordner, um sicherzustellen, dass die Brand Portal-Benutzer über die benötigten Informationen verfügen.
+Ein Benutzer von Experience Manager Assets lädt eine Reihe von Grundlinien-Assets in den Ordner **FREIGEGEBEN**, um sicherzustellen, dass die Benutzer von Brand Portal über die benötigten Informationen verfügen.
 
 **Hochladen von Grundlinien-Assets:**
 
