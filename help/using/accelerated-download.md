@@ -10,8 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
-workflow-type: ht
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ So laden Sie Assets schneller von Brand Portal herunter:
 
    Damit die Brand Portal-Ordnerhierarchie beim Herunterladen von Assets erhalten bleibt, aktivieren Sie das Kontrollkästchen **[!UICONTROL Separaten Ordner für jedes Asset erstellen]**.
 
-   Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/brand-portal-download-assets.md#download-assets).
+   Die Schaltfläche „Herunterladen“ gibt die Anzahl der ausgewählten Elemente wieder. Nachdem Sie die Regeln angewendet haben, klicken Sie auf **[!UICONTROL Elemente herunterladen]**. Weitere Informationen zum Anwenden von Regeln finden Sie unter [Herunterladen von Assets](../using/download-assets.md#download-assets).
 
    ![download-dialogfeld](assets/download-dialog-box-new.png)
 

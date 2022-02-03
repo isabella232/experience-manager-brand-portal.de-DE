@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
-workflow-type: ht
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 * [Nach öffentlichen Assets suchen](brand-portal-searching.md)
 
-* [Öffentliche Assets herunterladen](brand-portal-download-assets.md)
+* [Öffentliche Assets herunterladen](download-assets.md)
 
 * [Assets zu [!UICONTROL Lightbox] hinzufügen](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Ein Brand Portal-Standardbenutzer ist meist ein Benutzer mit der Rolle Betrachte
 
 * [Suchen nach Assets](brand-portal-searching.md)
 
-* [Herunterladen von Assets](brand-portal-download-assets.md)
+* [Herunterladen von Assets](download-assets.md)
 
 ### Bearbeiter {#editor}
 
