@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 94%
+source-wordcount: '1924'
+ht-degree: 100%
 
 ---
 
@@ -123,6 +123,7 @@ Benutzer von Brand Portal können mehrere Assets, Ordner mit Assets und Sammlung
 >Wenden Sie sich an den Administrator für Brand Portal, wenn Sie nicht berechtigt sind, auf die Asset-Ausgabedarstellungen zuzugreifen oder sie herunterzuladen.
 
 Wenn der Benutzer Zugriff auf Ausgabedarstellungen hat, wird dem Benutzer das erweiterte Dialogfeld **[!UICONTROL Herunterladen]** mit den folgenden Funktionen bereitgestellt:
+
 * Anzeigen aller verfügbarer Ausgabedarstellungen eines Assets in der Download-Liste.
 * Ausschließen von Ausgabedarstellungen der Assets, die nicht heruntergeladen werden müssen.
 * Anwenden desselben Satzes von Ausgabedarstellungen auf alle ähnlichen Asset-Typen mit einem Klick.
@@ -186,17 +187,19 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
 
    ![download-dialogfeld](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** nur) Das folgende bekannte Problem wird in der kommenden Version behoben:
-   >
-   >Im Dialogfeld &quot;Herunterladen&quot;werden die Ausgabedarstellungen für das smarte Zuschneiden des ausgewählten Assets aufgelistet. Benutzer können die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht herunterladen.
-
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, einen beschleunigten Download mit IBM Aspera Connect zu erlauben.
 
    Um **[!UICONTROL Schneller Download]** weiterhin zu verwenden, klicken Sie auf **[!UICONTROL Erlauben]**. Alle ausgewählten Ausgabedarstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
    Wenn Sie IBM Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn **[!UICONTROL Schneller Download]** verweigert wird oder fehlschlägt, erstellt das System eine Fehlermeldung. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Se
 
    ![renditions-panel](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** nur) Die folgenden bekannten Probleme werden in der kommenden Version behoben:
-   >
-   >Die **[!UICONTROL Ausgabeformate]** enthält nicht alle statischen Ausgabeformate der Assets, die nach dem 16. Dezember 2021 in Brand Portal veröffentlicht wurden.
-   >
-   >Die **[!UICONTROL Ausgabeformate]** im Bedienfeld werden die Ausgabedarstellungen für das smarte Zuschneiden des Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht in der Vorschau anzeigen oder herunterladen.
 
 1. Standardmäßig ist die Einstellung **[!UICONTROL Schneller Download]** in den **[!UICONTROL Download-Einstellungen]** aktiviert. Daher wird ein Bestätigungsfeld angezeigt, das dazu auffordert, einen beschleunigten Download mit IBM Aspera Connect zu erlauben.
 
    Um **[!UICONTROL Schneller Download]** weiterhin zu verwenden, klicken Sie auf **[!UICONTROL Erlauben]**. Alle ausgewählten Ausgabedarstellungen werden mit IBM Aspera Connect in einen ZIP-Ordner heruntergeladen.
 
    Wenn Sie die Verwendung von **[!UICONTROL Schneller Download]** ablehnen, wird eine Fehlermeldung angezeigt. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >

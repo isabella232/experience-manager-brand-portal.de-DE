@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise
 seo-title: Release Notes
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2021.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2022.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 60%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2021.10.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2022.02.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.10.0 |
-| Datum | Oktober 2021 |
+| Version | 2022,02,0 |
+| Datum | Februar 2022 |
 
 ## Übersicht {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2021.10.0 {#whats-new-in-2021.10.0}
+## Neue Funktionen in Version 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
-* Die Assets eines Beitragsordners derselben Größe werden nicht aus Brand Portal in Experience Manager Assets veröffentlicht.
-* Wenn die Veröffentlichung eines Asset-Beitragsordners rückgängig gemacht wird, wird die Größe des Beitragsordners nicht reduziert.
-* Die Benutzer können das angewendete Metadatenschema-Profil nicht aus einem Ordner entfernen.
-* Die Gruppenanzahl auf der Seite mit den Benutzerberechtigungen ist falsch.
-* Das Laden der Seite „Sammlungen“ dauert beim Navigieren durch die Liste zu lange.
+* Benutzer können keine Ordner suchen, navigieren oder öffnen. Die Benutzeroberfläche spiegelt die Fehlermeldung wider: `Failed to load data`.
+* Die **[!UICONTROL Ausgabeformate]** nicht alle statischen Ausgabeformate der Assets auflistet, die in Brand Portal veröffentlicht werden.
+* Die **[!UICONTROL Ausgabeformate]** im Bedienfeld werden die Ausgabedarstellungen für das smarte Zuschneiden des Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht in der Vorschau anzeigen oder herunterladen.
+* Im Dialogfeld &quot;Herunterladen&quot;werden die Ausgabedarstellungen für das smarte Zuschneiden des ausgewählten Assets aufgelistet. Benutzer können die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht herunterladen.
+* Ein Benutzer ohne Administratorrechte erhält beim Herunterladen eines Assets nur die ursprüngliche Asset-Ausgabedarstellung. Das System und die benutzerdefinierten Ausgabeformate werden nicht heruntergeladen.
+* Wenn Sie Suchfilter anwenden, um ein Asset herunterzuladen, wird die `Download` -Schaltfläche im Dialogfeld &quot;Herunterladen&quot;deaktiviert ist und es dem Benutzer nicht ermöglicht, das Asset herunterzuladen.
+* Wenn `Smart Tags` und (oder) `Color Tags` aktiviert sind, wird im Dialogfeld &quot;Herunterladen&quot;die `json` Dateien als Ausgabedarstellungen speichern und lädt diese herunter `json` -Dateien im archivierten ZIP-Ordner.
+* Die anonymen Benutzer können Assets nicht über einen freigegebenen Link herunterladen, da der Link zur Brand Portal-Anmeldeseite weiterleitet.
+* Das System spiegelt nicht den korrekten Wert für die Anzahl der aktiven gleichzeitigen Benutzer wider.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Diese Version weist die folgenden bekannten Probleme auf:
    Die aktiven Benutzer, die bei Brand Portal angemeldet sind, können jedoch bis zum Ablauf ihrer aktuellen Sitzung weiterarbeiten.
 
 * Wenn sie von Brand Portal zur Admin Console gehen, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm für die Auswahl der Organisation.
+
+* Wenn `Color Tags` aktiviert sind und der Benutzer einen Ordner oder eine Sammlung herunterlädt, ein zusätzliches `xml` für jedes Asset des Ordners (oder der Sammlung) im archivierten ZIP-Ordner heruntergeladen werden.
 
 
 <!--
