@@ -4,15 +4,15 @@ seo-title: Speed up the Brand Portal downloads
 description: Verkürzen Sie die Download-Zeiten von Brand Portal und freigegebenen Links.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
-contentOwner: mgulati
-topic-tags: download-install
+contentOwner: Vishabh Gupta
+topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1034'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ Die folgende Tabelle zeigt die Download-Zeiten für 2 GB große Dateien mit dem 
 | London | 179 | 35 | 58 |
 | Singapur | 196 | 34 | 60 |
 
-## Download-Workflow mit dem Dateibeschleuniger {#download-workflow-using-file-accelerator}
+## Herunterladen von Assets {#download-assets}
 
 So laden Sie Assets schneller von Brand Portal herunter:
 
