@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '6316'
 ht-degree: 100%
@@ -184,14 +184,14 @@ Brand Portal 2020.10.0 liefert Verbesserungen, die hauptsächlich das Download-E
 
 Zuvor wurde das Dialogfeld **[!UICONTROL Herunterladen]** mit mehreren Optionen angezeigt, unter anderem zum Erstellen separater Ordner für jedes Asset, zum Versenden von Assets per E-Mail, zum Auswählen des Original-Assets, für benutzerdefinierte und dynamische Ausgabedarstellungen, zum Ausschließen von System-Ausgabedarstellungen und zum Aktivieren der Download-Beschleunigung. Diese Optionen waren für technisch nicht versierte und neue Benutzer mehrdeutig, insbesondere wenn mehrere Assets oder Ordner für den Download ausgewählt wurden. Außerdem konnte der Benutzer nicht alle Asset-Ausgabedarstellungen sehen oder eine bestimmte benutzerdefinierte oder dynamische Ausgabedarstellung ausschließen.
 
-Das neue Dialogfeld **[!UICONTROL Herunterladen]** verallgemeinert die Auswahl und das Filtern von Assets, wodurch Brand Portal-Benutzer beim Download von Asset-Ausgabedarstellungen leichter die richtigen Entscheidungen treffen können. Im Dialogfeld werden alle ausgewählten Assets und deren Ausgabedarstellungen abhänig von der [**[!UICONTROL Download]**](download-assets.md)-Konfiguration und den **[!UICONTROL Download]** -Einstellungen aufgeführt.
+Das neue Dialogfeld **[!UICONTROL Herunterladen]** verallgemeinert die Auswahl und das Filtern von Assets, wodurch Brand Portal-Benutzer beim Download von Asset-Ausgabedarstellungen leichter die richtigen Entscheidungen treffen können. Im Dialogfeld werden alle ausgewählten Assets und deren Ausgabedarstellungen abhänig von der [**[!UICONTROL Download]**](brand-portal-download-assets.md)-Konfiguration und den **[!UICONTROL Download]** -Einstellungen aufgeführt.
 
 >[!NOTE]
 >
 >Für alle Benutzer ist jetzt standardmäßig **[!UICONTROL Schneller Download]** aktiviert. Vor dem Herunterladen der Assets aus Brand Portal muss IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in der Browser-Erweiterung installiert sein.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkeiten:
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0 können Benutzer bestimmte Ausgabedarstellungen ausschließen und die ausgewählten Ausgabedarstellungen direkt [aus dem Bedienfeld Ausgabedarstellungen](download-assets.md#download-assets-from-asset-details-page) auf der Asset-Detailseite herunterladen, ohne dass sie dafür das Dialogfeld **[!UICONTROL Herunterladen]** öffnen müssen.
+In Brand Portal 2020.10.0 können Benutzer bestimmte Ausgabedarstellungen ausschließen und die ausgewählten Ausgabedarstellungen direkt [aus dem Bedienfeld Ausgabedarstellungen](brand-portal-download-assets.md#download-assets-from-asset-details-page) auf der Asset-Detailseite herunterladen, ohne dass sie dafür das Dialogfeld **[!UICONTROL Herunterladen]** öffnen müssen.
 
 
 <!-- 
@@ -294,7 +294,7 @@ Mit Dokument-Viewer haben die Brand Portal-Benutzer jetzt die Möglichkeit, Seit
 
 ### Download-Erlebnis {#download-configurations}
 
-Der Asset-Download-Prozess wurde überarbeitet und bietet ein vereinfachtes Anwendererlebnis beim [Herunterladen von Assets aus Brand Portal](download-assets.md).
+Der Asset-Download-Prozess wurde überarbeitet und bietet ein vereinfachtes Anwendererlebnis beim [Herunterladen von Assets aus Brand Portal](brand-portal-download-assets.md).
 
 Dem bestehenden Workflow zum Herunterladen von Assets aus Brand Portal folgt zwangsläufig das Erscheinen eines **[!UICONTROL Download]**-Dialogfelds mit mehreren Download-Optionen zur Auswahl.
 
