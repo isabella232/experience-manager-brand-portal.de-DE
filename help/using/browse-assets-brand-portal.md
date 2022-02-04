@@ -12,7 +12,7 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ Zeigen Sie mithilfe des Leistenselektors auf der Seite „Details“ des Assets 
 
 ![](assets/asset-overview.png)
 
-Sie können alle verfügbaren Ausgabeformate des Assets auf der Seite mit den Asset-Details anzeigen und eine Ausgabedarstellung aus der **[!UICONTROL Ausgabeformate]** angezeigt.
+Sie können alle verfügbaren Ausgabedarstellungen des Assets auf der Seite „Details“ des Assets anzeigen und im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** eine Ausgabedarstellung zur Anzeige in der Vorschau auswählen.
 
 ![](assets/renditions.png)
 
