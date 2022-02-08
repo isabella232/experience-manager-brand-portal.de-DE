@@ -10,16 +10,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 96%
 
 ---
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Ihre Suchvorgänge auch als Smart-Sammlungen für die Zukunft speichern.
+Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Assets auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern. Sie können jedoch keine Assets einer Sammlung mit Omnisearch oder Facettensuche suchen.
 
 ## Suchen von Assets mithilfe von Omnisearch {#search-assets-using-omnisearch}
 
@@ -113,7 +113,7 @@ Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinsch
 
 ## Suchen als Smart-Sammlung speichern {#save-your-searches-as-smart-collection}
 
-Sie können die Sucheinstellungen als Smart-Sammlung speichern, damit Sie dieselbe Suche zu einem späteren Zeitpunkt wiederholen können, ohne die Einstellungen erneut vornehmen zu müssen.
+Sie können die Sucheinstellungen als Smart-Sammlung speichern, damit Sie dieselbe Suche zu einem späteren Zeitpunkt wiederholen können, ohne die Einstellungen erneut vornehmen zu müssen. Sie können jedoch keine Suchfilter in einer Sammlung anwenden.
 
 So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 
