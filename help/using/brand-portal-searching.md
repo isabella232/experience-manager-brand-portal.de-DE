@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Assets auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern. Sie können jedoch keine Assets einer Sammlung mit Omnisearch oder Facettensuche suchen.
+Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Assets auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
+
+>[!NOTE]
+>
+>Brand Portal unterstützt keine Sammlungssuche mit Omnisearch.
+>
+>Sie können jedoch [Suchfilter zum Abrufen der Liste relevanter Sammlungen](#search-collection).
 
 ## Suchen von Assets mithilfe von Omnisearch {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ So speichern Sie die Sucheinstellungen als Smart-Sammlung:
 1. Wählen Sie im Dialogfeld **[!UICONTROL Smart-Sammlung bearbeiten]** die Option **[!UICONTROL Speichern unter]** aus und geben Sie einen Namen für die Smart-Sammlung ein. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Suchkollektion {#search-collection}
+
+Omnisearch wird für Sammlungen nicht unterstützt. Sie können jedoch Suchfilter anwenden, um die relevanten Sammlungen aus der [!UICONTROL Sammlungen] -Schnittstelle.
+
+Aus dem [!UICONTROL Sammlungen] auf das Überlagerungssymbol klicken, um den Filterbereich in der linken Leiste zu öffnen. Anwenden von einzelnen oder mehreren Suchfiltern aus den verfügbaren Filtern (`modified date`, `access type`und `tags`). Er listet den relevantesten Satz von Sammlungen basierend auf den angewendeten Filtern auf.
+
+![](assets/collection-search.png)
