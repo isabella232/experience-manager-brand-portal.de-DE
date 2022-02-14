@@ -1,7 +1,7 @@
 ---
 title: Herunterladen von Assets
 seo-title: Download assets
-description: Alle Benutzer können gleichzeitig Assets und Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
+description: Alle Benutzer können gleichzeitig Assets oder Ordner herunterladen, auf die sie zugreifen können. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden.
 seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1921'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Herunterladen von Assets {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, indem es Benutzern ermöglicht, gleichzeitig Assets und Ordner herunterzuladen, auf die sie über Brand Portal zugreifen können. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden. Lesen Sie weiter, um zu erfahren, wie Sie Assets (genehmigte Assets) aus Brand Portal herunterladen und was Sie von der [Download-Leistung](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, indem es den Benutzern ermöglicht, mehrere Assets und Ordner, auf die sie zugreifen können, gleichzeitig aus Brand Portal herunterzuladen. Auf diese Weise können genehmigte Marken-Assets sicher für die Offline-Nutzung verteilt werden. Lesen Sie weiter, um zu erfahren, wie Sie Assets (genehmigte Assets) aus Brand Portal herunterladen und mit welchen [Download-Zeiten](#expected-download-performance) Sie rechnen können.
 
 
 >[!NOTE]
@@ -30,11 +30,11 @@ Adobe Experience Manager Assets Brand Portal verbessert das Download-Erlebnis, i
 
 ## Konfigurieren des Asset-Downloads {#configure-download}
 
-Brand Portal-Administratoren können die Einstellungen für den Asset-Download und die Benutzergruppen für die Benutzer von Brand Portal konfigurieren und ihnen den Zugriff auf und das Herunterladen von Asset-Ausgabedarstellungen über die Brand Portal-Benutzeroberfläche ermöglichen.
+Brand Portal-Administratoren können die Einstellungen für den Download von Assets und die Benutzergruppen für die Benutzer von Brand Portal konfigurieren und ihnen den Zugriff auf und das Herunterladen von Ausgabedarstellungen von Assets über die Brand Portal-Benutzeroberfläche ermöglichen.
 
 >[!NOTE]
 >
->Die auf der Benutzeroberfläche angewendeten Download-Einstellungen ermöglichen den Brand Portal-Benutzern ein Self-Service-Erlebnis, sodass sie Asset-Ausgabedarstellungen einfach konfigurieren und herunterladen können. Der Download von Assets auf der Anwendungsebene wird dadurch nicht eingeschränkt. So können Benutzer beispielsweise weiterhin mit dem vollständigen URL-Pfad auf Asset-Ausgabedarstellungen zugreifen und diese herunterladen.
+>Durch die Download-Einstellungen in der Benutzeroberfläche können Benutzer von Brand Portal die Ausgabedarstellungen von Assets einfach selbst konfigurieren und herunterladen. Der Download von Assets auf Programmebene wird nicht eingeschränkt. Beispielsweise können die Benutzer weiterhin mit dem vollständigen URL-Pfad auf die Ausgabedarstellungen von Assets zugreifen und diese herunterladen.
 
 Der Zugriff auf und das Herunterladen von Asset-Ausgabedarstellungen über die Brand Portal-Benutzeroberfläche wird durch die folgenden Konfigurationen definiert:
 
@@ -70,7 +70,7 @@ Die verfügbaren Einstellungen sind:
 
 Melden Sie sich bei Ihrem Brand Portal-Mandanten als Administrator an und navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Download]**.
 
-Administratoren können eine beliebige Kombination von Einstellungen aktivieren, damit Brand Portal-Benutzer auf Asset-Ausgabedarstellungen zugreifen und diese herunterladen können.
+Die Administratoren können eine beliebige Kombination von Einstellungen für die Benutzer von Brand Portal aktivieren, um ihnen den Zugriff auf und das Herunterladen von Ausgabedarstellungen von Assets zu ermöglichen.
 
 ![](assets/download-settings-new.png)
 
@@ -160,7 +160,7 @@ Im Folgenden werden die Schritte zum Herunterladen von Assets oder Ordnern mit A
       >
       >Wenn die Assets, die Sie herunterladen, auch lizenzierte Assets enthalten, werden Sie zur Seite **[!UICONTROL Copyright-Management]** weitergeleitet. Wählen Sie auf dieser Seite die Assets aus, klicken Sie auf **[!UICONTROL Zustimmen]** und klicken Sie dann auf **[!UICONTROL Herunterladen]**. Wenn Sie ablehnen, werden die lizenzierten Assets nicht heruntergeladen.
       > 
-      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) der Assets in Experience Manager Assets entsprechend eingestellt werden.
+      >An lizenzgeschützte Assets wird eine [Lizenzvereinbarung angehängt](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de). Dazu muss die [Metadateneigenschaft](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=de) der Assets in Experience Manager Assets entsprechend eingestellt werden.
 
 
       ![licensed-asset](assets/licensed-asset-new.png)
@@ -233,7 +233,7 @@ Wenn Sie nicht [vom Administrator für Zugriff auf die Originalausgaben autorisi
 
 Neben dem Download-Workflow gibt es eine weitere Möglichkeit, die Ausgabedarstellungen für einzelne Assets direkt von der Seite mit den Asset-Details herunterzuladen.
 
-Die Benutzer können die Vorschau verschiedener Asset-Ausgabedarstellungen anzeigen, bestimmte Ausgabedarstellungen auswählen und Asset-Ausgabedarstellungen direkt aus der **[!UICONTROL Ausgabeformate]** Bedienfeld auf der Seite mit den Asset-Details, ohne die **[!UICONTROL Download]** angezeigt.
+Benutzer können verschiedene Ausgabedarstellungen von Assets in der Vorschau betrachten, bestimmte Ausgabedarstellungen auswählen und sie direkt über das Bedienfeld **[!UICONTROL Ausgabedarstellungen]** auf der Seite mit den Asset-Details herunterladen, ohne das Dialogfeld **[!UICONTROL Herunterladen]** öffnen zu müssen.
 
 
 Führen Sie die folgenden Schritte aus, um Asset-Ausgabedarstellungen von der Seite mit den Asset-Details herunterzuladen:
