@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022,02,0 |
+| Version | 2022.02.0 |
 | Datum | Februar 2022 |
 
 ## Übersicht {#overview}
@@ -100,13 +100,13 @@ This release includes the following enhancements:
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
-* Benutzer können keine Ordner suchen, navigieren oder öffnen. Die Benutzeroberfläche spiegelt die Fehlermeldung wider: `Failed to load data`.
-* Die **[!UICONTROL Ausgabeformate]** nicht alle statischen Ausgabeformate der Assets auflistet, die in Brand Portal veröffentlicht werden.
-* Die **[!UICONTROL Ausgabeformate]** im Bedienfeld werden die Ausgabedarstellungen für das smarte Zuschneiden des Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht in der Vorschau anzeigen oder herunterladen.
-* Im Dialogfeld &quot;Herunterladen&quot;werden die Ausgabedarstellungen für das smarte Zuschneiden des ausgewählten Assets aufgelistet. Benutzer können die Ausgabedarstellungen für das smarte Zuschneiden jedoch nicht herunterladen.
-* Ein Benutzer ohne Administratorrechte erhält beim Herunterladen eines Assets nur die ursprüngliche Asset-Ausgabedarstellung. Das System und die benutzerdefinierten Ausgabeformate werden nicht heruntergeladen.
-* Wenn Sie Suchfilter anwenden, um ein Asset herunterzuladen, wird die `Download` -Schaltfläche im Dialogfeld &quot;Herunterladen&quot;deaktiviert ist und es dem Benutzer nicht ermöglicht, das Asset herunterzuladen.
-* Wenn `Smart Tags` und (oder) `Color Tags` aktiviert sind, wird im Dialogfeld &quot;Herunterladen&quot;die `json` Dateien als Ausgabedarstellungen speichern und lädt diese herunter `json` -Dateien im archivierten ZIP-Ordner.
+* Benutzer können keine Ordner suchen, in ihnen navigieren oder sie öffnen. Die Benutzeroberfläche zeigt die Fehlermeldung: `Failed to load data`.
+* Im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** werden nicht alle statischen Ausgabedarstellungen der Assets aufgelistet, die in Brand Portal veröffentlicht wurden.
+* Im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** werden zwar die Ausgabedarstellungen für den intelligenten Zuschnitt des Assets aufgelistet, der Benutzer kann jedoch die Ausgabedarstellungen für den intelligenten Zuschnitt nicht in der Vorschau anzeigen oder herunterladen.
+* Im Dialogfeld „Herunterladen“ werden die Ausgabedarstellungen für den intelligenten Zuschnitt des ausgewählten Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für den intelligenten Zuschnitt jedoch nicht herunterladen.
+* Ein Benutzer ohne Administratorrechte erhält beim Herunterladen eines Assets nur die ursprüngliche Ausgabedarstellung des Assets. Die System- und benutzerdefinierten Ausgabedarstellungen werden nicht heruntergeladen.
+* Wenn ein Suchfilter zum Herunterladen eines Assets angewendet wird, ist die Schaltfläche „`Download`“ im Download-Dialogfeld deaktiviert, sodass der Benutzer das Asset nicht herunterladen kann.
+* Wenn „`Smart Tags`“ und (oder) „`Color Tags`“ aktiviert sind, listet der Download-Dialog die `json`-Dateien als Wiedergabeversionen auf und lädt diese `json`-Dateien in den archivierten Zip-Ordner herunter.
 * Die anonymen Benutzer können Assets nicht über einen freigegebenen Link herunterladen, da der Link zur Brand Portal-Anmeldeseite weiterleitet.
 * Das System spiegelt nicht den korrekten Wert für die Anzahl der aktiven gleichzeitigen Benutzer wider.
 
@@ -145,7 +145,7 @@ Diese Version weist die folgenden bekannten Probleme auf:
 
 * Wenn sie von Brand Portal zur Admin Console gehen, sehen die Administratoren möglicherweise einen zusätzlichen Bildschirm für die Auswahl der Organisation.
 
-* Wenn `Color Tags` aktiviert sind und der Benutzer einen Ordner oder eine Sammlung herunterlädt, ein zusätzliches `xml` für jedes Asset des Ordners (oder der Sammlung) im archivierten ZIP-Ordner heruntergeladen werden.
+* Wenn „`Color Tags`“ aktiviert sind ist und der Benutzer einen Ordner oder eine Sammlung herunterlädt, wird für jedes Element des Ordners (oder der Sammlung) im archivierten Zip-Ordner eine zusätzliche `xml`-Datei heruntergeladen.
 
 
 <!--
@@ -204,7 +204,7 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Französisch
 * Spanisch
 * Italienisch
-* Brasilianisches  Portugiesisch
+* Brasilianisches Portugiesisch
 * Japanisch
 * Vereinfachtes Chinesisch
 * Koreanisch
