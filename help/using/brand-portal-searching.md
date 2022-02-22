@@ -11,21 +11,21 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Suchen von Assets in Brand Portal {#search-assets-on-brand-portal}
 
-Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Assets mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Assets auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
+Die Suchfunktion in Brand Portal ermöglicht Ihnen die schnelle Suche nach relevanten Elementen mittels Omnisearch und Facettensuche. Die Facettensuche verwendet Filter, um die Suche weiter einzugrenzen. Sie können Elemente auf Dateien- oder Ordnerebene suchen und Ihre Suchergebnisse als Smart-Sammlungen speichern.
 
 >[!NOTE]
 >
 >Brand Portal unterstützt keine Sammlungssuche mit Omnisearch.
 >
->Sie können jedoch [Suchfilter zum Abrufen der Liste relevanter Sammlungen](#search-collection).
+>Sie können jedoch [Suchfilter zum Abrufen der Liste relevanter Sammlungen](#search-collection) verwenden.
 
 ## Suchen von Assets mithilfe von Omnisearch {#search-assets-using-omnisearch}
 
@@ -142,10 +142,10 @@ So speichern Sie die Sucheinstellungen als Smart-Sammlung:
    ![](assets/saveas_smartsearch.png)
 
 
-## Suchkollektion {#search-collection}
+## Suchsammlung {#search-collection}
 
-Omnisearch wird für Sammlungen nicht unterstützt. Sie können jedoch Suchfilter anwenden, um die relevanten Sammlungen aus der [!UICONTROL Sammlungen] -Schnittstelle.
+Omnisearch wird für Sammlungen nicht unterstützt. Sie können jedoch Suchfilter anwenden, um die relevanten Sammlungen aus der Oberfläche [!UICONTROL Sammlungen] aufzulisten.
 
-Aus dem [!UICONTROL Sammlungen] auf das Überlagerungssymbol klicken, um den Filterbereich in der linken Leiste zu öffnen. Anwenden von einzelnen oder mehreren Suchfiltern aus den verfügbaren Filtern (`modified date`, `access type`und `tags`). Er listet den relevantesten Satz von Sammlungen basierend auf den angewendeten Filtern auf.
+Klicken Sie in der Oberfläche [!UICONTROL Sammlungen] auf das Überlagerungssymbol, um den Filterbereich in der linken Leiste zu öffnen. Wenden Sie einzelne oder mehrere Suchfilter aus den verfügbaren Filtern an (`modified date`, `access type` und `tags`). Es wird der relevanteste Satz von Sammlungen basierend auf den angewendeten Filtern aufgelistet.
 
 ![](assets/collection-search.png)
