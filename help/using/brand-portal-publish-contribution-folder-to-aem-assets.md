@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,9 +70,9 @@ Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-
 
 >[!NOTE]
 >
->Brand Portal-Benutzer können Assets hochladen (maximal **2** GB pro Dateigröße) in den Ordner NEU .
+>Brand Portal-Benutzer können Assets (maximal **2** GB pro Dateigröße) in den Ordner „NEU“ hochladen.
 >
->Der Upload-Grenzwert für jeden Brand Portal-Mandanten beträgt **10** GB. Dies ist ein kumulativer Wert für sämtliche Beitragsordner.
+>Der Grenzwert zum Hochladen für jeden Brand Portal-Mandanten beträgt **10** GB. Dies ist der kumulative Wert für sämtliche Beitragsordner.
 >
 >Die in Brand Portal hochgeladenen Assets werden nicht für Ausgabedarstellungen verarbeitet und enthalten keine Vorschau.
 
