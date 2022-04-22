@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,11 @@ Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter fo
 
 Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console] als Systemadministrator oder Brand Portal-Produkt-Administrator gekennzeichnet sind. Administratoren können Systemadministratoren und Benutzer hinzufügen und entfernen, Vorgaben definieren, E-Mails an Benutzer senden sowie Portalnutzung und Speicherberichte anzeigen.
 
-Administratoren können alle Aufgaben ausführen, die ein Bearbeiter ausführen kann, und darüber hinaus die folgenden Aufgaben:
+>[!NOTE]
+>
+>In Brand Portal ist ein Benutzer mit der Rolle &quot;Support-Administrator&quot;in [!UICONTROL Admin Console] hat dieselben Berechtigungen wie ein Systemadministrator.
+
+Ein Administrator kann alle Aufgaben ausführen, die ein Bearbeiter ausführen kann. Im Folgenden finden Sie die zusätzlichen Aufgaben, die ein Administrator ausführen kann:
 
 * [Verwalten von Benutzern, Gruppen und Benutzerrollen](brand-portal-adding-users.md)
 
