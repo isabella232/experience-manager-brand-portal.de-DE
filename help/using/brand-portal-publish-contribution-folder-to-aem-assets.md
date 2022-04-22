@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+workflow-type: tm+mt
+source-wordcount: '1053'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlin
 
 ## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
 
-Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-Benutzer neue Assets erstellen und sie in den Ordner „NEU“ im Beitragsordner hochladen.
+Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-Benutzer neue Assets erstellen und sie in den Ordner „NEU“ im Beitragsordner hochladen. Ein Benutzer kann mehrere Assets in einen Asset-Beitragsordner hochladen. Es kann jedoch jeweils nur ein Ordner erstellt werden.
 
 >[!NOTE]
 >

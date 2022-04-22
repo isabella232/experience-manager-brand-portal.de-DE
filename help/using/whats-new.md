@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: ht
-source-wordcount: '6316'
-ht-degree: 100%
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+workflow-type: tm+mt
+source-wordcount: '6325'
+ht-degree: 97%
 
 ---
 
@@ -203,7 +203,7 @@ Im Dialogfeld **[!UICONTROL Herunterladen]** haben Benutzer folgende Möglichkei
 * Erstellen eines separaten Ordners für jedes Asset.
 * Herunterladen ausgewählter Assets und ihrer Ausgabedarstellungen.
 
-Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de).
+Der Download-Workflow bleibt für eigenständige Assets, mehrere Assets, Ordner mit Assets, lizenzierte oder nicht lizenzierte Assets und den Download von Assets über einen Freigabe-Link konstant. Siehe [Schritte zum Herunterladen von Assets aus Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
 
 ![download-dialogfeld](assets/download-dialog-box.png)
 
@@ -253,7 +253,7 @@ Auf der Registerkarte **[!UICONTROL Gruppen]** auf der Seite **[!UICONTROL Benut
 * Wenn nur die Einstellung **[!UICONTROL Original herunterladen]** aktiviert ist, können Benutzer nur die Original-Assets auf der Asset-Detailseite anzeigen und von dort herunterladen.
 * Wenn nur die Einstellung **[!UICONTROL Ausgabedarstellungen herunterladen]** aktiviert ist, können Benutzer das Original-Asset anzeigen, aber nicht herunterladen. Benutzer können jedoch die Asset-Ausgabedarstellungen anzeigen und herunterladen.
 
-Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de#configure-download-permissions).
+Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -351,7 +351,7 @@ Die Schritte zum Konfigurieren von AEM Assets mit Brand Portal unterscheiden sic
 
 | **AEM-Version** | **Neue Konfiguration** | **Upgrade der Konfiguration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=de) | - |
+| **AEM Assets as a Cloud Service** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5 (6.5.4.0 und höher)** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) | [Upgrade der Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 und höher)** | [Konfiguration erstellen](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) | [Upgrade der Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 und höher)** | [Konfiguration erstellen](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Upgrade der Konfiguration](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -389,7 +389,10 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ### Hochladen von Assets in den Beitragsordner {#upload-assets-in-bp}
 
-Brand Portal-Benutzer mit entsprechenden Berechtigungen können die Asset-Anforderungen herunterladen, um die Notwendigkeit von Beiträgen zu verstehen, und mehrere Assets oder Ordner, die mehrere Assets enthalten, in den Beitragsordner hochzuladen. Beachten Sie jedoch, dass Brand Portal-Benutzer Assets nur in den Unterordner **NEU** hochladen können. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets.
+Brand Portal-Benutzer mit entsprechenden Berechtigungen können einzelne Assets oder Ordner (.zip-Datei) mit mehreren Assets in den Beitragsordner hochladen. Ein Benutzer kann mehrere Assets in einen Asset-Beitragsordner hochladen. Es kann jedoch jeweils nur ein Ordner erstellt werden.
+
+Brand Portal-Benutzer können nur Assets in die **Neu** Unterordner. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für T
 
 #### Suche mit Platzhalter {#wildcard-search}
 
-In Brand Portal können Sie das Sternchen (*) in der Suchanfrage zusammen mit einem Teil des Wortes in der gesuchten Phrase verwenden.
+Die Brand Portal ermöglicht die Verwendung des Sternchen (&#42;) in der Suchabfrage zusammen mit einem Teil des Wortes in der gesuchten Wortgruppe.
 
 **Nutzungsszenario. Wenn Sie sich nicht sicher sind, welche Wörter im gesuchten Satz enthalten sind, können Sie eine Suche mit Platzhalter verwenden, um die Lücken in der Suchabfrage zu füllen.
 
-Beispielsweise werden durch die Angabe von **klettern*** alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die mit den Zeichen **klettern** beginnen, wenn das Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche auf Asset-Titel anwendet.
+Beispiel: **klettern&#42;** gibt alle Assets zurück, deren Wörter mit den Zeichen beginnen **klettern** in der Titelphrase eintragen, wenn das Suchformular in Brand Portal Eigenschaftsprädikat für Teilsuche nach Asset-Titel verwendet.
 
 ![](assets/wildcard-prop.png)
 
 Auch gilt Folgendes:
 
-* Durch die Angabe von **\*klettern** werden alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die mit den Zeichen **klettern** enden.
+* **&#42;klettern** gibt alle Assets zurück, deren Wörter mit Zeichen enden **klettern** in ihrer Titelphrase.
 
-* Durch die Angabe von **\*klettern\*** werden alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die die Zeichen **klettern** enthalten.
+* **&#42;klettern&#42;** gibt alle Assets zurück, deren Wörter die Zeichen enthalten **klettern** in ihrer Titelphrase.
 
 >[!NOTE]
 >
@@ -534,7 +537,7 @@ Unternehmen können ihre Portal-URL mit einem alternativen Präfix in der URL an
 Beachten Sie, dass nur das Präfix der Brand Portal-URL angepasst werden kann und nicht die gesamte URL.\
 Für eine Organisation mit der vorhandenen Domain **geomettrix.brand-portal.adobe.com** kann beispielsweise auf Anfrage die Domain **geomettrixinc.brand-portal.adobe.com** erstellt werden.
 
-Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de) werden und nicht mit einer (alternativen) Mandantenalias-URL.
+Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) werden und nicht mit einer (alternativen) Mandantenalias-URL.
 
 Unternehmen können ihre Branding-Anforderungen erfüllen, indem sie ihre Portal-URL anpassen, anstatt die von Adobe bereitgestellte URL beizubehalten.
 
@@ -635,7 +638,7 @@ Die zuvor genannten Konfigurationen sind unter „Zugriff“ und „Allgemeine E
 
 ### Adobe i/O-Benutzeroberfläche zum Konfigurieren von oAuth-Integrationen
 
-Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) zum Erstellen der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=de).
+Ab Brand Portal 6.4.2 wird die alte OAuth-Schnittstelle (`https://legacy-oauth.cloud.adobe.io/`) zum Erstellen der JWT-Anwendung verwendet, über die OAuth-Integrationen so konfiguriert werden können, dass sie eine AEM Assets-Integration in Brand Portal unterstützen. Zuvor wurde die Benutzeroberfläche zum Konfigurieren von OAuth-Integrationen unter `https://marketing.adobe.com/developer/` gehostet. Weitere Informationen zur Integration von AEM Assets mit Brand Portal, um Assets und Sammlungen in Brand Portal zu veröffentlichen, finden Sie unter [Konfigurieren der Integration von AEM Assets mit Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Verbesserungen der Suche
 
