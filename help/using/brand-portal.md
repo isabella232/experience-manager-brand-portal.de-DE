@@ -12,7 +12,7 @@ exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 
 Experience Manager Assets Brand Portal ermöglicht [Gastzugang](#request-access-to-brand-portal) nach Brand Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Ordner und Sammlungen. Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
-In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als  Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
+In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suchen erstellen und sie weiter freigeben. Benutzer in einer Gastsitzung können nicht auf Einstellungen für Ordner und Sammlungen zugreifen und keine Assets als Link freigeben. Diese Aufgaben kann ein Gastbenutzer ausführen:
 
 * [Öffentliche Assets durchsuchen und darauf zugreifen](browse-assets-brand-portal.md)
 
@@ -117,7 +117,7 @@ Zu den Administratoren gehören Benutzer, die in der [!UICONTROL Admin Console] 
 
 >[!NOTE]
 >
->In Brand Portal ist ein Benutzer mit der Rolle &quot;Support-Administrator&quot;in [!UICONTROL Admin Console] hat dieselben Berechtigungen wie ein Systemadministrator.
+>In Brand Portal hat ein Benutzer mit der Rolle „Support-Administrator“ in der [!UICONTROL Admin Console] dieselben Berechtigungen wie ein Systemadministrator.
 
 Ein Administrator kann alle Aufgaben ausführen, die ein Bearbeiter ausführen kann. Im Folgenden finden Sie die zusätzlichen Aufgaben, die ein Administrator ausführen kann:
 
