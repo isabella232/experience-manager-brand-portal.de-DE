@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Neue Funktionen und Verbesserungen in Version 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Neue Funktionen und Verbesserungen in Version 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,35 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
-ht-degree: 97%
+source-wordcount: '6482'
+ht-degree: 95%
 
 ---
 
 # Neue Funktionen in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle in AEM veröffentlichten Brand Portal-Assets zu löschen. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter dem Schwellenwert zu halten. Sie können den Status der automatisch ausgeführten Löschaufträge auch mithilfe der Variablen **[!UICONTROL Instrumente]** > **[!UICONTROL Asset-Beitragsstatus]** > **[!UICONTROL Löschberichte]** in Brand Portal. Der Bericht für einen Auftrag enthält die folgenden Details:
+
+* Startzeit des Auftrags
+* Auftragsendzeit
+* Auftragsstatus
+* Gesamtzahl der in einem Auftrag enthaltenen Assets
+* Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden.
+
+![Löschbericht](assets/deletion-reports.png)
+
+Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
+
+![Löschbericht detailliert](assets/deletion-reports-detailed.png)
+
+Darüber hinaus enthält Brand Portal 2022.05.0 Fehlerbehebungen für kritische Probleme. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+
 
 ## Änderungen in Version 2022.02.0 {#what-changed-in-Feb-2022}
 
