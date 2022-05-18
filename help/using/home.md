@@ -1,12 +1,12 @@
 ---
 title: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
 seo-title: Adobe Experience Manager Assets Brand Portal Guide
-description: Benutzerhandbuch für Adobe Experience Manager Assets Brand Portal
+description: Nutzen Sie Experience Manager Assets Brand Portal, um Marketing-Anforderungen zu erfüllen, indem Sie freigegebene Marken- und Produktelemente externen Agenturen, Partnern, internen Teams und Wiederverkäufern sicher zum Download bereitstellen.
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 08162bdd26983c0362598625e26705addd32975f
+workflow-type: tm+mt
+source-wordcount: '398'
 ht-degree: 100%
 
 ---
