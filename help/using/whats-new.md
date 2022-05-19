@@ -13,7 +13,7 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
 source-wordcount: '6482'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -408,9 +408,9 @@ Darüber hinaus bleiben alle vorhandenen Funktionen unverändert. Brand Portal-B
 
 ### Hochladen von Assets in den Beitragsordner {#upload-assets-in-bp}
 
-Brand Portal-Benutzer mit entsprechenden Berechtigungen können einzelne Assets oder Ordner (.zip-Datei) mit mehreren Assets in den Beitragsordner hochladen. Ein Benutzer kann mehrere Assets in einen Asset-Beitragsordner hochladen. Es kann jedoch jeweils nur ein Ordner erstellt werden.
+Brand Portal-Benutzer mit entsprechender Berechtigung können einzelne Assets oder Ordner mit mehreren Assets (.zip-Datei) in den Beitragsordner hochladen. Ein Benutzer kann mehrere Assets in einen Asset-Beitragsordner hochladen. Es kann jedoch jeweils nur ein Ordner erstellt werden.
 
-Brand Portal-Benutzer können nur Assets in die **Neu** Unterordner. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets.
+Brand Portal-Benutzer können nur Assets in den Unterordner **NEU** hochladen. Der Ordner **FREIGEGEBEN** dient zur Verteilung von Anforderungen und Grundlinien-Assets.
 
 
 ![](assets/upload-asset6.png)
@@ -448,19 +448,19 @@ Beispiel: Wenn Ihr Suchformular in Brand Portal das Eigenschaftsprädikat für T
 
 #### Suche mit Platzhalter {#wildcard-search}
 
-Die Brand Portal ermöglicht die Verwendung des Sternchen (&#42;) in der Suchabfrage zusammen mit einem Teil des Wortes in der gesuchten Wortgruppe.
+In Brand Portal können Sie das Sternchen (&#42;) in der Suchanfrage zusammen mit einem Teil des Wortes in der gesuchten Phrase verwenden.
 
-**Nutzungsszenario. Wenn Sie sich nicht sicher sind, welche Wörter im gesuchten Satz enthalten sind, können Sie eine Suche mit Platzhalter verwenden, um die Lücken in der Suchabfrage zu füllen.
+Nutzungsszenario. Wenn Sie sich nicht sicher sind, welche Wörter im gesuchten Satz enthalten sind, können Sie eine Suche mit Platzhalter verwenden, um die Lücken in der Suchabfrage zu füllen.
 
-Beispiel: **klettern&#42;** gibt alle Assets zurück, deren Wörter mit den Zeichen beginnen **klettern** in der Titelphrase eintragen, wenn das Suchformular in Brand Portal Eigenschaftsprädikat für Teilsuche nach Asset-Titel verwendet.
+Beispielsweise werden durch die Angabe von **klettern&#42;** alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die mit den Zeichen **klettern** beginnen, wenn das Suchformular in Brand Portal das Eigenschaftsprädikat für Teilsuche auf Asset-Titel anwendet.
 
 ![](assets/wildcard-prop.png)
 
 Auch gilt Folgendes:
 
-* **&#42;klettern** gibt alle Assets zurück, deren Wörter mit Zeichen enden **klettern** in ihrer Titelphrase.
+* Durch die Angabe von **&#42;klettern** werden alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die mit den Zeichen **klettern** enden.
 
-* **&#42;klettern&#42;** gibt alle Assets zurück, deren Wörter die Zeichen enthalten **klettern** in ihrer Titelphrase.
+* Durch die Angabe von **&#42;klettern&#42;** werden alle Assets zurückgegeben, deren Titelphrase Wörter enthält, die die Zeichen **klettern** enthalten.
 
 >[!NOTE]
 >
@@ -502,7 +502,7 @@ Die Eigenschaft **Pfad-Browser** wird in das Suchformular eingeführt, um das S
 * Administratoren können über den Pfad-Browser zu einem beliebigen Verzeichnis in Brand Portal navigieren.
 * Nicht-Administratoren können über den Pfad-Browser nur zu den Ordnern navigieren, die für sie freigegeben sind, und wieder zurück zu den übergeordneten Ordnern.
 
-   Zum Beispiel wird `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` für einen Nicht-Administrator freigegeben. Der Benutzer kann mithilfe des Pfad-Browsers innerhalb von OrdnerC nach Assets suchen. Dieser Benutzer kann auch zu OrdnerB und OrdnerA navigieren (da es sich um übergeordnete Elemente des Ordners handelt, der für den Benutzer freigegeben ist).
+   Zum Beispiel wird `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` für einen Nicht-Administrator freigegeben. Der Benutzer kann mithilfe des Pfad-Browsers innerhalb von OrdnerC nach Assets suchen. Dieser Benutzer kann auch zu OrdnerB und OrdnerA navigieren (da es sich um übergeordnete Elemente des OrdnerC handelt, der für den Benutzer freigegeben ist).
 
 ![](assets/edit-search-form.png)
 
@@ -629,8 +629,8 @@ In der Listenansicht wird der Ordnerpfad der Assets in einer Spalte für alle Be
 
 Brand Portal stellt Benutzern ohne Administratorrechte (Bearbeitern, Betrachtern, Gastbenutzern) mit der Option „Überblick“ eine Funktion zum Anzeigen von Asset-Eigenschaften von ausgewählten Assets/Ordnern bereit. Die Option „Überblick“ finden Sie an folgenden Stellen:
 
-1. In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
-2. In der Dropdown-Liste des ausgewählten Leistenselektors
+1. In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners.
+2. In der Dropdown-Liste des ausgewählten Leistenselektors.
 
 Bei Auswahl der Option „Überblick“ bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option „Überblick“ auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
@@ -711,28 +711,26 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die mehrere neue Funktion
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die Download-Grenze für die Größe pro Datei beträgt für die Link-Freigabe-Funktion **1** GB.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen  Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
 
 ![](assets/excludeautorendition.png)
 
 ### Performance-Steigerung
 
-* Bis zu 100 % höhere Asset-Download-Geschwindigkeit
-* Bis zu 40 % schnellere Reaktion bei der Asset-Suche
-* Bis zu 40 % bessere Browser-Leistung
+* Bis zu 100 % höhere Asset-Download-Geschwindigkeit.
+* Bis zu 40 % schnellere Reaktion bei der Asset-Suche.
+* Bis zu 40 % bessere Browser-Leistung.
 
 **Hinweis:** Die genannten Verbesserungen wurden bei Tests in einem Labor gemessen.
 
 ### Erweiterte Berichterstellungsfunktionen
 
 **Neuer Bericht zur Link-Freigabe**
-
 Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
 **Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
-
 Der Verwendungsbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
@@ -744,7 +742,7 @@ Alle Berichte können durch das Hinzufügen oder Entfernen standardmäßiger Spa
 
 ### Verbesserte Admin-Tools
 
-Verbesserte Eigenschaftenauswahl in den Admin Tools für Metadaten, Suche und Berichte mit Vervollständigungs- und Suchfunktion, um die Abläufe für Administratoren zu vereinfachen
+Verbesserte Eigenschaftenauswahl in den Admin Tools für Metadaten, Suche und Berichte mit Vervollständigungs- und Suchfunktion, um die Abläufe für Administratoren zu vereinfachen.
 
 ### Weitere Verbesserungen
 
