@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
-workflow-type: ht
-source-wordcount: '1585'
-ht-degree: 100%
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ Die folgende Tabelle enthält die Aufgaben, die Benutzer mit diesen Rollen ausf�
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Gastbenutzer (Light-Benutzer) {#guest-user}
+### Gastbenutzer {#guest-user}
 
 Experience Manager Assets Brand Portal ermöglicht den [Gastzugang](#request-access-to-brand-portal) zu Brand Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Ordner (und Sammlungen). Als Gastbenutzer haben Sie die Möglichkeit, Asset-Details zu durchsuchen und Assets der Mitglieder von öffentlichen Ordnern und Sammlungen vollständig anzuzeigen. Sie können öffentliche Assets durchsuchen, herunterladen und zu einer [!UICONTROL Lightbox]-Sammlung hinzuzufügen.
 
@@ -89,9 +89,9 @@ In einer Gastsitzung können Sie jedoch keine Sammlungen und gespeicherten Suche
 
 Weitere Informationen finden Sie unter [Gastzugang zu Brand Portal](../using/guest-access.md).
 
-### Betrachter (Standardbenutzer) {#viewer}
+### Betrachter {#viewer}
 
-Ein Standardbenutzer ist in [!DNL Admin Console] definiert als jemand, der Zugriff auf Brand Portal mit der Rolle „Betrachter“ hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
+Brand Portal-Benutzer definiert in [!DNL Admin Console] , der Zugriff auf Brand Portal mit der Rolle &quot;Betrachter&quot;hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
 
 * [Durchsuchen von Assets](browse-assets-brand-portal.md)
 
