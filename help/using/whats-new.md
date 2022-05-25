@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
+source-wordcount: '6493'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,8 @@ Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle 
 * Auftragsendzeit
 * Auftragsstatus
 * Gesamtzahl der in einem Auftrag enthaltenen Assets
-* Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden.
+* Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden
+* Gesamtspeicher, der infolge der Auftragsausführung verfügbar gemacht wurde
 
 ![Löschbericht](assets/deletion-reports.png)
 

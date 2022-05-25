@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 71%
 
 ---
 
@@ -64,7 +64,7 @@ Sie können auch den Ordner **[!UICONTROL FREIGEGEBEN]** öffnen und auf das Sym
 Sehen sie sich die Zusammenfassung (Asset-Anforderungsdokument) und die Grundlinien-Assets an, um die Asset-Anforderungen zu verstehen. Jetzt können Sie neue Assets für Beiträge erstellen und sie in den Beitragsordner hochladen.
 
 
-## Hochladen von Assets in den Beitragsordner {#uplad-new-assets-to-contribution-folder}
+## Hochladen von Assets in den Beitragsordner {#upload-new-assets-to-contribution-folder}
 
 Nachdem Sie die Asset-Anforderungen durchlaufen haben, können die Brand Portal-Benutzer neue Assets erstellen und sie in den Ordner „NEU“ im Beitragsordner hochladen. Ein Benutzer kann mehrere Assets in einen Asset-Beitragsordner hochladen. Es kann jedoch jeweils nur ein Ordner erstellt werden.
 
@@ -138,7 +138,7 @@ Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status 
 
 * Navigieren Sie in Brand Portal zu **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]**. Dieser Bericht spiegelt den Status aller Veröffentlichungsaufträge in den verschiedenen Phasen des Veröffentlichungs-Workflows wider.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * Gehen Sie in Experience Manager Assets (On-Premise oder Managed Service) zu **[!UICONTROL Assets]** > **[!UICONTROL Aufträge]**. Dieser Bericht spiegelt den endgültigen Status (Erfolg oder Fehler) aller Veröffentlichungsaufträge wider.
 
@@ -157,3 +157,58 @@ Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status 
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Automatisches Löschen von in Experience Manager Assets veröffentlichten Assets aus dem Beitragsordner {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle Beitragsordner zu scannen und alle in AEM veröffentlichten Assets zu löschen. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter der [Schwellenwert](#upload-new-assets-to-contribution-folder). Sie können auch den Status der Löschvorgänge überwachen, die in den letzten sieben Tagen automatisch ausgeführt wurden. Der Bericht für einen Auftrag enthält die folgenden Details:
+
+* Startzeit des Auftrags
+* Auftragsendzeit
+* Auftragsstatus
+* Gesamtzahl der in einem Auftrag enthaltenen Assets
+* Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden
+* Gesamtspeicher, der infolge der Auftragsausführung verfügbar gemacht wurde
+
+   ![Löschbericht](assets/deletion-reports.png)
+
+Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
+
+![Löschbericht detailliert](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Der Adobe-Support kann anfordern, die automatische Löschauftragsfunktion zu deaktivieren und erneut zu aktivieren oder die Ausführungsfrequenz zu ändern.
+> * Diese Funktion ist in Experience Manager 6.5.13.0 und höheren Versionen verfügbar.
+
+
+### Anzeigen und Herunterladen von Löschberichten {#view-delete-jobs}
+
+So zeigen Sie Berichte für einen Löschauftrag an und laden diese herunter:
+
+1. Navigieren Sie in Brand Portal zu **[!UICONTROL Instrumente]**>**[!UICONTROL Asset-Beitragsstatus]**>**[!UICONTROL Löschberichte]** -Option.
+
+1. Wählen Sie einen Auftrag aus und klicken Sie auf **[!UICONTROL Ansicht]** , um den Bericht anzuzeigen.
+
+   Zeigen Sie die Details der einzelnen Assets an, die in einem Löschauftrag enthalten sind. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten. Klicken **[!UICONTROL Download]** , um den Bericht für den Auftrag im CSV-Format herunterzuladen.
+
+   Der Löschstatus für ein Asset im Bericht kann die folgenden möglichen Werte aufweisen:
+
+   * **Gelöscht** - Das Asset wurde erfolgreich aus dem Beitragsordner gelöscht.
+
+   * **Nicht gefunden** - Brand Portal konnte das Asset nicht im Beitragsordner finden. Das Asset wurde bereits manuell aus dem Ordner gelöscht.
+
+   * **Übersprungen** - Brand Portal hat den Asset-Löschvorgang übersprungen, da eine neue Version für das Asset im Beitragsordner verfügbar ist, die noch nicht in Experience Manager veröffentlicht wurde.
+
+   * **Fehlgeschlagen** - Brand Portal konnte das Asset nicht löschen. Es gibt drei Versuche, ein Asset mit einer `Failed` Löschstatus. Wenn das Asset beim dritten Versuch, es erneut zu löschen, fehlschlägt, müssen Sie das Asset manuell löschen.
+
+### Bericht löschen
+
+In Brand Portal können Sie auch einen oder mehrere Berichte auswählen und diese manuell löschen.
+
+So löschen Sie einen Bericht:
+
+1. Navigieren Sie zu **[!UICONTROL Instrumente]**>**[!UICONTROL Asset-Beitragsstatus]**>**[!UICONTROL Löschberichte]** -Option.
+
+1. Wählen Sie einen oder mehrere Berichte aus und klicken Sie auf **[!UICONTROL Löschen]**.
+
+
