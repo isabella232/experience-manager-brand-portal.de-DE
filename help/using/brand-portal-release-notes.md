@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022,05,0 |
+| Version | 2022.05.0 |
 | Datum | Mai 2022 |
 
 ## Übersicht {#overview}
@@ -114,15 +114,15 @@ Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle 
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
-* Wenn Sie einen Ordner oder eine Sammlung herunterladen, der bzw. die Assets mit Farb-Tags enthält, wird auch eine XML-Datei heruntergeladen.
+* Wenn Sie einen Ordner oder eine Sammlung herunterladen, der bzw. die Assets mit farbigen Tags enthält, wird auch eine XML-Datei heruntergeladen.
 
 * Wenn Sie ein Video mit Ausgabeformaten herunterladen, erstellt Brand Portal eine ungültige ZIP-Datei.
 
-* Wenn Sie Vorgaben und Assets in AEM Autoreninstanz erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabeformate auswählen, können Sie die heruntergeladenen Assets nicht extrahieren. ZIP-Datei.
+* Wenn Sie Vorgaben und Assets in der AEM-Autoreninstanz erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabedarstellungen auswählen, können Sie die heruntergeladene ZIP-Datei nicht extrahieren.
 
 * Probleme beim Herunterladen von Video-Assets aus bestimmten in Brand Portal verfügbaren Ordnern.
 
-* Wenn Sie die URL des Beitragsordners mithilfe einer E-Mail freigeben, treten beim Zugriff auf den übergeordneten Ordner mithilfe des Breadcrumbs Probleme bei den Rollen &quot;Betrachter&quot;und &quot;Bearbeiter&quot;auf.
+* Wenn Sie die URL des Beitragsordners per E-Mail weitergeben, haben die Rollen „Betrachter“ und „Bearbeiter“ Probleme beim Zugriff auf den übergeordneten Ordner mithilfe des Breadcrumbs.
 
 * Bei der Beschaffung eines veröffentlichten Berichts wird eine falsche Auftragsstartzeit angezeigt.
 
@@ -155,7 +155,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Diese Version enthält die folgenden bekannten Probleme:
 
-* Teilweise Lokalisierung des Inhalts des Asset-Sourcing-Berichts.
+* Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
 
 
 <!--
