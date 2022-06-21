@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Gastzugang zu Brand Portal](../using/gue
 
 ### Betrachter {#viewer}
 
-Brand Portal-Benutzer definiert in [!DNL Admin Console] , der Zugriff auf Brand Portal mit der Rolle &quot;Betrachter&quot;hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
+Brand Portal-Benutzer, der in [!DNL Admin Console] definiert ist und Zugriff auf Brand Portal mit der Rolle „Betrachter“ hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann ein Betrachter ausführen:
 
 * [Durchsuchen von Assets](browse-assets-brand-portal.md)
 
