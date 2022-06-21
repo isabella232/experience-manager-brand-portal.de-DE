@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Vergewissern Sie sich, dass Sie die Asset-Anforderungen erfüllt haben, und lade
 
 In verschiedenen Phasen des Veröffentlichungs-Workflows wird eine E-Mail-/Pulsbenachrichtigung an den Brand Portal-Benutzer und an Brand Portal-Administratoren gesendet:
 
-1. **In Warteschlange** - Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
+1. **In Warteschlange** – Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn ein Publishing-Workflow in Brand Portal ausgelöst wird.
 
 1. **Abgeschlossen** – Eine Benachrichtigung wird an den Brand Portal-Benutzer und Brand Portal-Administratoren gesendet, wenn der Beitragsordner erfolgreich in Experience Manager Assets veröffentlicht wurde.
 
@@ -160,10 +160,10 @@ Es gibt zwei Berichte, die die Administratoren verwenden können, um den Status 
 
 ## Automatisches Löschen von in Experience Manager Assets veröffentlichten Assets aus dem Beitragsordner {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle Beitragsordner zu scannen und alle in AEM veröffentlichten Assets zu löschen. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter der [Schwellenwert](#upload-new-assets-to-contribution-folder). Sie können auch den Status der Löschvorgänge überwachen, die in den letzten sieben Tagen automatisch ausgeführt wurden. Der Bericht für einen Auftrag enthält die folgenden Details:
+Brand Portal führt jetzt alle zwölf Stunden automatische Aufträge aus, um alle Beitragsordner zu überprüfen und alle Assets zu löschen, die in AEM veröffentlicht wurden. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter dem [Schwellenwert](#upload-new-assets-to-contribution-folder) zu halten. Sie können auch den Status der Löschvorgänge überwachen, die in den letzten sieben Tagen automatisch ausgeführt wurden. Der Bericht für einen Auftrag enthält die folgenden Details:
 
 * Startzeit des Auftrags
-* Auftragsendzeit
+* Endzeit des Auftrags
 * Auftragsstatus
 * Gesamtzahl der in einem Auftrag enthaltenen Assets
 * Gesamtzahl der Assets, die erfolgreich in einem Auftrag gelöscht wurden
@@ -171,13 +171,13 @@ Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle 
 
    ![Löschbericht](assets/deletion-reports.png)
 
-Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
+Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalten sind, auch noch weiter aufschlüsseln. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten.
 
 ![Löschbericht detailliert](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
-> * Der Adobe-Support kann anfordern, die automatische Löschauftragsfunktion zu deaktivieren und erneut zu aktivieren oder die Ausführungsfrequenz zu ändern.
+> * Kunden können sich an die Adobe-Kundenunterstützung wenden, um die automatische Löschfunktion zu deaktivieren und wieder zu aktivieren oder die Häufigkeit der Ausführung zu ändern.
 > * Diese Funktion ist in Experience Manager 6.5.13.0 und höheren Versionen verfügbar.
 
 
@@ -185,29 +185,29 @@ Sie können die Details der einzelnen Assets, die in einem Löschauftrag enthalt
 
 So zeigen Sie Berichte für einen Löschauftrag an und laden diese herunter:
 
-1. Navigieren Sie in Brand Portal zu **[!UICONTROL Instrumente]**>**[!UICONTROL Asset-Beitragsstatus]**>**[!UICONTROL Löschberichte]** -Option.
+1. Navigieren Sie in Brand Portal zur Option **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]** > **[!UICONTROL Löschberichte]**.
 
-1. Wählen Sie einen Auftrag aus und klicken Sie auf **[!UICONTROL Ansicht]** , um den Bericht anzuzeigen.
+1. Wählen Sie einen Auftrag aus und klicken Sie auf **[!UICONTROL Anzeigen]**, um den Bericht anzuzeigen.
 
-   Zeigen Sie die Details der einzelnen Assets an, die in einem Löschauftrag enthalten sind. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten. Klicken **[!UICONTROL Download]** , um den Bericht für den Auftrag im CSV-Format herunterzuladen.
+   Sehen Sie sich die Details der einzelnen Assets an, die in einem Löschauftrag enthalten sind. Details wie der Asset-Titel, die Größe, der Autor, der Löschstatus und die Löschzeit sind im Bericht enthalten. Klicken Sie auf **[!UICONTROL Herunterladen]**, um den Bericht für den Auftrag im CSV-Format herunterzuladen.
 
-   Der Löschstatus für ein Asset im Bericht kann die folgenden möglichen Werte aufweisen:
+   Der Löschstatus für ein Asset kann im Bericht die folgenden möglichen Werte aufweisen:
 
-   * **Gelöscht** - Das Asset wurde erfolgreich aus dem Beitragsordner gelöscht.
+   * **Gelöscht**: Das Asset wurde erfolgreich aus dem Beitragsordner gelöscht.
 
-   * **Nicht gefunden** - Brand Portal konnte das Asset nicht im Beitragsordner finden. Das Asset wurde bereits manuell aus dem Ordner gelöscht.
+   * **Nicht gefunden**: Brand Portal konnte das Asset nicht im Beitragsordner finden. Das Asset wurde bereits manuell aus dem Ordner gelöscht.
 
-   * **Übersprungen** - Brand Portal hat den Asset-Löschvorgang übersprungen, da eine neue Version für das Asset im Beitragsordner verfügbar ist, die noch nicht in Experience Manager veröffentlicht wurde.
+   * **Übersprungen**: Brand Portal hat den Asset-Löschvorgang übersprungen, da eine neue Version für das Asset im Beitragsordner verfügbar ist, die noch nicht in Experience Manager veröffentlicht wurde.
 
-   * **Fehlgeschlagen** - Brand Portal konnte das Asset nicht löschen. Es gibt drei Versuche, ein Asset mit einer `Failed` Löschstatus. Wenn das Asset beim dritten Versuch, es erneut zu löschen, fehlschlägt, müssen Sie das Asset manuell löschen.
+   * **Fehlgeschlagen**: Brand Portal konnte das Asset nicht löschen. Es gibt drei Wiederholungsversuche, um ein Asset mit einem Löschstatus `Failed` zu löschen. Wenn der dritte Versuch, das Asset zu löschen, fehlschlägt, müssen Sie das Asset manuell löschen.
 
-### Bericht löschen
+### Löschen eines Berichts
 
 In Brand Portal können Sie auch einen oder mehrere Berichte auswählen und diese manuell löschen.
 
 So löschen Sie einen Bericht:
 
-1. Navigieren Sie zu **[!UICONTROL Instrumente]**>**[!UICONTROL Asset-Beitragsstatus]**>**[!UICONTROL Löschberichte]** -Option.
+1. Navigieren Sie zur Option **[!UICONTROL Tools]** > **[!UICONTROL Asset-Beitragsstatus]** > **[!UICONTROL Löschberichte]**.
 
 1. Wählen Sie einen oder mehrere Berichte aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
