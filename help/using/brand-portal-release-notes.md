@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 66%
+source-wordcount: '358'
+ht-degree: 68%
 
 ---
 
@@ -37,7 +37,8 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos g
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
-* Wenn NUI ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
+
+* Wenn Asset compute ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
 * Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.
 * Die Eigenschaft &quot;Mandanten-Upload-Kontingent&quot;wird für Mandanten nicht genau festgelegt.
 * Wenn Sie auf **Alle Elemente herunterladen** und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
