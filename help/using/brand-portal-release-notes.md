@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -25,12 +25,12 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022,08,0 |
+| Version | 2022.08.0 |
 | Datum | August 2022 |
 
 ## Übersicht {#overview}
 
-Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Dies trägt zur Effizienzsteigerung bei der Asset-Freigabe, beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
+Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Es hilft, die Effizienz der gemeinsamen Nutzung von Assets zu verbessern, die Markteinführung von Assets zu beschleunigen und das Risiko der Nichteinhaltung von Vorschriften und des unbefugten Zugriffs zu verringern. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
 ## Neue Funktionen in Version 2022.08.0 {#whats-new-in-2022.08.0}
 
@@ -40,8 +40,8 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn Asset compute ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
 * Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.
-* Die Eigenschaft &quot;Mandanten-Upload-Kontingent&quot;wird für Mandanten nicht genau festgelegt.
-* Wenn Sie auf **Alle Elemente herunterladen** und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
+* Die Eigenschaft „Mandanten-Upload-Kontingent“ wird für Mandanten nicht genau festgelegt.
+* Wenn Sie auf **Alle Elemente herunterladen** klicken und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
 * Die Übersetzung einiger Zeichenfolgen wird auf der Benutzeroberfläche von Brand Portal abgeschnitten.
 
 <!--
@@ -165,7 +165,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Diese Version enthält die folgenden bekannten Probleme:
 
-* Teillokalisierung im Asset-Beschaffungsberichtsinhalt
+* Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts
 
 
 <!--
