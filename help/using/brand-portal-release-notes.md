@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 68%
 
 ---
 
@@ -37,18 +37,19 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
-* Langsame Reaktionszeiten beim Kopieren großer Dateien aus Brand Portal in ein Tool eines Drittanbieters.
+
+* Langsame Reaktionszeit beim Kopieren großer Dateien aus Brand Portal in ein Tool eines Drittanbieters.
 * Wenn Sie das Kontrollkästchen Anzahl der Ausgabedarstellungen aktivieren, werden die Kontrollkästchen zur Auswahl einzelner Ausgabedarstellungen deaktiviert.
 * Langsame Reaktionszeit für die Suche.
 
 >[!IMPORTANT]
 >
->Pulse-Benachrichtigungen in AEM Assets Brand Portal werden ab dem 1. Dezember 2022 eingestellt. Anstelle von Pulse-Benachrichtigungen erhalten Sie weiterhin E-Mail-Benachrichtigungen für die folgenden Ereignisse:
->* Freigeben von Assets über einen Link
->* Workflow zum Anfordern von Zugriff
->* Freigeben von Beitragsordnern
->* Export in AEM starten
->* Abgeschlossener Export in AEM
+>Pulse-Benachrichtigungen in AEM Assets Brand Portal werden ab dem 1. Dezember 2022 eingestellt. Sie erhalten weiterhin E-Mail-Benachrichtigungen für die folgenden Ereignisse:
+>* Wenn Brand Portal-Assets über einen Link zur Freigabe für Sie freigegeben werden
+>* Wenn der Administrator Ihre Brand Portal-Zugriffsanfrage genehmigt. Der Administrator erhält auch eine Benachrichtigung, wenn Sie den Zugriff auf Brand Portal anfordern.
+>* Wenn der Beitragsordner für Sie freigegeben wurde
+>* Wenn Sie mit der Veröffentlichung von Assets aus Brand Portal in AEM beginnen
+>* Wenn die Assets erfolgreich aus Brand Portal in AEM veröffentlicht wurden
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
