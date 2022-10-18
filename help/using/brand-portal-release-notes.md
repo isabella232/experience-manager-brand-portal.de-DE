@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 68%
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Langsame Reaktionszeit beim Kopieren großer Dateien aus Brand Portal in ein Tool eines Drittanbieters.
-* Wenn Sie das Kontrollkästchen Anzahl der Ausgabedarstellungen aktivieren, werden die Kontrollkästchen zur Auswahl einzelner Ausgabedarstellungen deaktiviert.
+* Wenn Sie das Kontrollkästchen „Zählung der Ausgabedarstellungen“ aktivieren, werden die Kontrollkästchen zur Auswahl einzelner Ausgabedarstellungen deaktiviert.
 * Langsame Reaktionszeit für die Suche.
 
 >[!IMPORTANT]
@@ -252,7 +252,7 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 ## Zertifizierte Plattformen {#certified-platforms}
 
-Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-basierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=de).
+Informationen dazu, welche Plattformen für diese Version von Brand Portal zertifiziert sind, finden Sie in der Spalte **Unterstützung für Touch-optimierte Benutzeroberfläche** in der Tabelle im Bereich **Unterstützte Browser für die Autoren-Benutzeroberfläche** unter [Technische Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=de).
 
 ## Links {#links}
 
