@@ -13,7 +13,7 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
 workflow-type: tm+mt
 source-wordcount: '1254'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Weitere Informationen zum Suchverhalten in Bezug auf mit Smart-Tags versehenen A
 
 Suchfacetten im Bereich „Filter“ fügen Granularität zu Ihrer Suche hinzu und machen die Suchfunktion effizient. Suchfacetten verwenden mehrere Dimensionen (Prädikate), mit denen Sie komplexe Suchvorgänge durchführen können. Sie können einfach einen Drilldown zur gewünschten Detailtiefe durchführen, um die Suche zu konzentrieren.
 
-Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Ebenso können Sie bei der Suche nach Dokumenten das Format angeben, z. B. PDF oder MS® Word.
+Wenn Sie beispielsweise nach einem Bild suchen, können Sie auswählen, ob Sie ein Bitmap- oder ein Vektorbild möchten. Sie können den Umfang der Suche weiter verringern, indem Sie den MIME-Typ für das Bild in der Dateityp-Suchfacette angeben. Wenn Sie nach Dokumenten suchen, können Sie auf ähnliche Weise das gewünschte Format festlegen, zum Beispiel PDF oder MS® Word.
 
 ![Bereich „Filter“ in Brand Portal](assets/file-type-search.png "Bereich „Filter“ in Brand Portal")
 
@@ -76,7 +76,7 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
    >Für Benutzer ohne Administratorrechte zeigt der [!UICONTROL Pfadbrowser] im Bereich [!UICONTROL Filter] nur die Inhaltsstruktur der Ordner (und der Vorgängerordner) an, die für sie freigegeben sind.\
    >Administratoren können über den Pfadbrowser zu einem beliebigen Ordner in Brand Portal navigieren.
 
-   * **[!UICONTROL Dateityp]**, um den Typ (Bild, Dokument, Multimedia, Archiv) der gesuchten Asset-Datei anzugeben. Außerdem können Sie den Umfang Ihrer Suche einschränken, z. B. den MIME-Typ (TIFF, Bitmap, GIMP-Bilder) für Bilder oder Formate (PDF oder MS® Word) für die Dokumente angeben.
+   * **[!UICONTROL Dateityp]**, um den Typ (Bild, Dokument, Multimedia, Archiv) der gesuchten Asset-Datei anzugeben. Darüber hinaus können Sie den Umfang Ihrer Suche einschränken. Geben Sie zum Beispiel den MIME-Typ (TIFF, Bitmap, GIMP-Bilder) für Bilder oder das Format (PDF oder MS® Word) für die Dokumente an.
    * **[!UICONTROL Dateigröße]**, um nach Assets basierend auf ihrer Größe zu suchen. Sie können die untere und obere Grenze für den Größenbereich ausgeben, um Ihre Suche einzuschränken und die Maßeinheit für die Suche anzugeben.
    * **[!UICONTROL Status]**, um basierend auf dem Asset-Status, z. B. Genehmigung (Genehmigt, Änderung angefordert, Abgelehnt, Ausstehend) und Ablauf, nach Assets zu suchen.
    * **[!UICONTROL Durchschnittliche Bewertung]**, um nach Assets, basierend auf ihrer Bewertung, zu suchen.
@@ -90,8 +90,8 @@ Verwenden Sie beispielsweise die folgenden Standardfilter:
       Wenn beispielsweise das Eigenschaftsprädikat [!UICONTROL `jcr:content /metadata/dc:title`] zugeordnet ist, können Sie Assets auf Grundlage ihres Titels suchen.\
       Das [!UICONTROL Eigenschaftsprädikat] unterstützt die Textsuche nach Folgendem:
 
-      **Unvollständige Begriffe**
-Wenn Sie die Asset-Suche mithilfe unvollständiger Suchbegriffe im Eigenschaftsprädikat ermöglichen möchten, aktivieren Sie im Suchformular das Kontrollkästchen **[!UICONTROL Teilsuche.]** Auf diese Weise können Sie nach gewünschten Assets suchen, selbst wenn Sie nicht den genauen Wortlaut/die genauen Begriffe angeben, die in den Asset-Metadaten verwendet werden.
+      **Teilsätze**
+Wenn Sie die Asset-Suche mithilfe teilweiser Sätze im Eigenschaftsprädikat ermöglichen möchten, aktivieren Sie im Suchformular das Kontrollkästchen **[!UICONTROL Teilsuche]**. Dadurch können Sie nach den gewünschten Assets suchen, auch wenn Sie nicht die genauen Wörter/Sätze angeben, die in den Asset-Metadaten verwendet werden.
 
       >[!NOTE]
       >
@@ -104,11 +104,11 @@ Wenn Sie die Asset-Suche mithilfe unvollständiger Suchbegriffe im Eigenschaftsp
 
       Sie haben folgende Möglichkeiten:
       * Geben Sie im Bedienfeld „Filter“ in der Facette ein Wort an, das im gesuchten Satz vorhanden ist. Suchen Sie beispielsweise nach dem Begriff **klettern** (und das Eigenschaftsprädikat ist der Eigenschaft [!UICONTROL `dc:title`] zugeordnet), dann werden alle Assets mit dem Wort **klettern** in der Titelphrase zurückgegeben.
-      * Geben Sie einen Teil des Wortes an, das im gesuchten Satz vorkommt, sowie das Platzhalterzeichen (&#42;), um die Lücken zu füllen.
-Beispiel für die Suche nach:
-         * **klettern&#42;** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die mit den Zeichen &quot;klettern&quot;beginnen.
-         * **&#42;klettern** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
-         * **&#42;klettern&#42;** gibt alle Assets zurück, deren Titelphrase Wörter enthält, die die Zeichen &quot;klettern&quot;enthalten.
+      * Geben Sie einen Teil des Wortes ein, das im Suchbegriff vorkommt, und füllen Sie die Lücken mit dem Platzhalterzeichen (&#42;).
+Zum Beispiel gibt die Suche nach:
+         * **klettern&#42;** alle Elemente zurück, deren Titelphrase Wörter enthält, die mit der Zeichenfolge „klettern“ beginnen.
+         * **&#42;klettern** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die mit den Zeichen „klettern“ enden.
+         * **&#42;klettern&#42;** gibt alle Elemente zurück, deren Titelphrase Wörter enthält, die die Zeichenfolge „klettern“ enthalten.
 
 Um eine Suche ohne Groß-/Kleinschreibung im Eigenschaftsprädikat zuzulassen, aktivieren Sie das Kontrollkästchen       **Text ohne Berücksichtigung der Groß- und Kleinschreibung**
 Um die Suche im Eigenschaftsprädikat ohne Berücksichtigung der Groß-/Kleinschreibung zuzulassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Groß- und Kleinschreibung ignorieren]** im Suchformular. Bei der Textsuche im Eigenschaftsprädikat wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden.
