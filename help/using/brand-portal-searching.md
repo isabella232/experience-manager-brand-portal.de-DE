@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
-workflow-type: ht
-source-wordcount: '1254'
-ht-degree: 100%
+source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+workflow-type: tm+mt
+source-wordcount: '1297'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,9 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
    >[!NOTE]
    >
-   >Hierfür sind mindestens 3 Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
+   >* Hierfür sind mindestens 3 Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
+   >* Beim Suchen nach den Begriffen `mountain` oder `biking` dann stellt Omnisearch die Suchergebnisse mit dem Text bereit `mountain` UND `biking` in ihren Metadatenfeldern. Andernfalls lautet das Verhalten ODER bei Smart-Tags. Das bedeutet, dass die Ergebnisse mit `mountain` ODER `biking` in den entsprechenden Smart-Tags abgerufen werden.
+
 
 1. Wählen Sie aus den relevanten Vorschlägen in der Dropdown-Liste ein Asset aus, auf das Sie schnell zugreifen möchten.
 
