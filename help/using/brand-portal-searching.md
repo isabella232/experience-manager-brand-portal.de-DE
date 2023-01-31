@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
    >[!NOTE]
    >
    >* Hierfür sind mindestens 3 Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
-   >* Beim Suchen nach den Begriffen `mountain` oder `biking` dann stellt Omnisearch die Suchergebnisse mit dem Text bereit `mountain` UND `biking` in ihren Metadatenfeldern. Andernfalls lautet das Verhalten ODER bei Smart-Tags. Das bedeutet, dass die Ergebnisse mit `mountain` ODER `biking` in den entsprechenden Smart-Tags abgerufen werden.
+   >* Wenn Sie nach `mountain biking`, gibt Omnisearch alle Assets in den Suchergebnissen zurück, die beide `mountain` und `biking` in den Metadatenfeldern verfügbar. Beispiel: `mountain` im `Title` und `biking` im `Description` -Feld. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen zurück, selbst wenn im Metadatenfeld Smart-Tags nur einer der beiden Begriffe verfügbar ist. Beispiel: Wenn ein Asset `mountain` als eines der Smart-Tags und enthält nicht `biking` in einem anderen Metadatenfeld verwenden und Sie nach `mountain biking`, gibt Omnisearch das Asset weiterhin in den Suchergebnissen zurück.
 
 
 1. Wählen Sie aus den relevanten Vorschlägen in der Dropdown-Liste ein Asset aus, auf das Sie schnell zugreifen möchten.
