@@ -1,18 +1,18 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Neue Funktionen und Verbesserungen in Version 2022.10.0
-seo-description: What are the new features and enhancements for 2022.10.0
+description: Neue Funktionen und Verbesserungen in Version 2032.02.0
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
-workflow-type: ht
-source-wordcount: '6515'
+source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+workflow-type: tm+mt
+source-wordcount: '6547'
 ht-degree: 100%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 100%
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet an der Verbesserung des allgemeinen Brand Portal-Erlebnisses. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
 
+## Änderungen in Version 2023.02.0 {#what-changed-in-February-2023}
+
+Brand Portal 2023.02.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+
 ## Änderungen in Version 2022.10.0 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 enthält Fehlerbehebungen für kritische Probleme. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2022.10.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 enthält Fehlerbehebungen für kritische Probleme. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2022.05.0 {#what-changed-in-May-2022}
 
