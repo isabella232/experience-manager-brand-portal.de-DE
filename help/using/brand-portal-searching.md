@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
 
    >[!NOTE]
    >
-   >* Hierfür sind mindestens 3 Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
+   >* Hierfür sind mindestens drei Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
    >* Wenn Sie nach `mountain biking`, gibt Omnisearch alle Assets in den Suchergebnissen zurück, die beide `mountain` und `biking` in den Metadatenfeldern verfügbar. Beispiel: `mountain` im `Title` und `biking` im `Description` -Feld. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen zurück, selbst wenn im Metadatenfeld Smart-Tags nur einer der beiden Begriffe verfügbar ist. Beispiel: Wenn ein Asset `mountain` als eines der Smart-Tags und enthält nicht `biking` in einem anderen Metadatenfeld verwenden und Sie nach `mountain biking`, gibt Omnisearch das Asset weiterhin in den Suchergebnissen zurück.
 
 
