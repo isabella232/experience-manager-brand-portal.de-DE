@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 63%
@@ -43,7 +43,6 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 * Die Größe des Inhaltsbaumbereichs kann nicht geändert werden. Wenn der Dateiname länger als die Standardbreite der Inhaltsstruktur ist, können Sie die Inhaltsstruktur nicht sowohl horizontal als auch vertikal ziehen. Daher sind längere Dateinamen nicht lesbar.
 * Die Suchergebnisse sind für dasselbe Eigenschaftsprädikat inkonsistent, das zweimal in den Suchformularen verwendet wird.
 * Der Text auf den Zwischenanmeldeseiten wird nicht für alle Sprachen lokalisiert.
-* Nur wenige Felder des Benutzerprofils können nicht bearbeitet werden in `Edit` Profilseite.
 
 ### Verbesserungen {#enhancements}
 
@@ -60,7 +59,8 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Diese Version enthält die folgenden bekannten Probleme:
 
-* Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts
+* Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
+* Nur wenige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
 
 <!--
 This release include fixes to the following critical issues:
