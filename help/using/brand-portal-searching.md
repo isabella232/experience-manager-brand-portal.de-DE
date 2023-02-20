@@ -13,7 +13,7 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um in Brand Portal nach Assets zu suchen:
    >[!NOTE]
    >
    >* Hierfür sind mindestens drei Zeichen in Omnisearch erforderlich, damit Suchvorschläge angezeigt werden.
-   >* Wenn Sie nach `mountain biking`, gibt Omnisearch alle Assets in den Suchergebnissen zurück, die beide `mountain` und `biking` in den Metadatenfeldern verfügbar. Beispiel: `mountain` im `Title` und `biking` im `Description` -Feld. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen zurück, selbst wenn im Metadatenfeld Smart-Tags nur einer der beiden Begriffe verfügbar ist. Beispiel: Wenn ein Asset `mountain` als eines der Smart-Tags und enthält nicht `biking` in einem anderen Metadatenfeld verwenden und Sie nach `mountain biking`, gibt Omnisearch das Asset weiterhin in den Suchergebnissen zurück.
+   >* Wenn Sie nach `mountain biking` suchen, gibt Omnisearch alle Assets in den Suchergebnissen zurück, für die sowohl `mountain` als auch `biking` in den Metadatenfeldern verfügbar sind. Zum Beispiel `mountain` im Feld `Title` und `biking` im Feld `Description`. Beide Begriffe müssen in den Metadatenfeldern verfügbar sein, damit sie in den Suchergebnissen angezeigt werden können. Omnisearch gibt das Asset jedoch in den Suchergebnissen selbst dann zurück, wenn im Metadatenfeld der Smart-Tags nur einer der beiden Begriffe vorhanden ist. Wenn zum Beispiel ein Asset `mountain` als eines der Smart-Tags enthält, aber in keinem anderen Metadatenfeld `biking` enthält und Sie nach `mountain biking` suchen, gibt Omnisearch das Asset weiterhin in den Suchergebnissen zurück.
 
 
 1. Wählen Sie aus den relevanten Vorschlägen in der Dropdown-Liste ein Asset aus, auf das Sie schnell zugreifen möchten.

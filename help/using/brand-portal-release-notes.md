@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 63%
+ht-degree: 97%
 
 ---
 
@@ -39,21 +39,21 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 #### Fehlerbehebungen {#bug-fixes}
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
-* Profilbild kann nicht auf der Brand Portal aktualisiert werden.
-* Die Größe des Inhaltsbaumbereichs kann nicht geändert werden. Wenn der Dateiname länger als die Standardbreite der Inhaltsstruktur ist, können Sie die Inhaltsstruktur nicht sowohl horizontal als auch vertikal ziehen. Daher sind längere Dateinamen nicht lesbar.
+* Profilbild kann nicht im Brand Portal aktualisiert werden.
+* Die Größe des Inhaltsstrukturbereichs kann nicht geändert werden. Wenn der Dateiname länger als die Standardbreite der Inhaltsstruktur ist, können Sie die Inhaltsstruktur nicht sowohl horizontal als auch vertikal ziehen. Daher sind längere Dateinamen nicht lesbar.
 * Die Suchergebnisse sind für dasselbe Eigenschaftsprädikat inkonsistent, das zweimal in den Suchformularen verwendet wird.
-* Der Text auf den Zwischenanmeldeseiten wird nicht für alle Sprachen lokalisiert.
+* Der Text auf den Zwischenanmeldeseiten ist nicht in allen Sprachen lokalisiert.
 
 ### Verbesserungen {#enhancements}
 
 Diese Version umfasst die folgenden Verbesserungen:
-* Für eine verbesserte Vorschau der PDF-Assets ist jetzt ein neuer PDF-Viewer verfügbar.
-* Jetzt können Sie Benachrichtigungen zur Asset-Beschaffung für Administratoren aktivieren oder deaktivieren. Navigieren Sie zu [!UICONTROL Allgemeine Einstellungen] und dann aktivieren oder deaktivieren [!UICONTROL `Notify Administrator of asset contribution`].
+* Für eine verbesserte Vorschau der PDF-Assets ist jetzt ein neuer, moderner PDF-Viewer verfügbar.
+* Jetzt können Sie Benachrichtigungen zur Asset-Beschaffung für Admins aktivieren oder deaktivieren. Navigieren Sie zu [!UICONTROL Allgemeine Einstellungen] und aktivieren oder deaktivieren Sie [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Benachrichtigung des Administrators für den Asset-Beitrag](assets/notify-admin.png)
+   ![Admin über den Asset-Beitrag benachrichtigen](assets/notify-admin.png)
 
-* Ein nicht autorisierter Benutzer kann keinen Zugriff auf Brand Portal anfordern, wenn der Anforderungszugriff deaktiviert ist.
-* Nur die Organisationen, die für Brand Portal bereitgestellt wurden, werden in der Profilauswahlliste angezeigt.
+* Nicht autorisierte Benutzende können keinen Zugriff auf das Brand Portal anfordern, wenn der Anforderungszugriff deaktiviert ist.
+* Nur die Organisationen, die für das Brand Portal bereitgestellt wurden, werden in der Profilauswahlliste angezeigt.
 
 ### Bekannte Probleme {#known-issues}
 
