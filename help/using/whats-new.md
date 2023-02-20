@@ -11,7 +11,7 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6547'
 ht-degree: 100%
 
@@ -23,15 +23,15 @@ Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmig
 
 ## Änderungen in Version 2023.02.0 {#what-changed-in-February-2023}
 
-Brand Portal 2023.02.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2023.02.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2022.10.0 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2022.10.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 ist eine interne Version, mit der die kritischen Probleme behoben werden: Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2022.05.0 {#what-changed-in-May-2022}
 
