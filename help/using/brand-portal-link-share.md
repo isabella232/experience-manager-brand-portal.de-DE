@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '967'
-ht-degree: 100%
+source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um die freigegebenen Assets herunterzuladen:
 
 >[!NOTE]
 >
->Brand Portal beschränkt das Herunterladen von Assets über die Link-Freigabe auf eine Dateigröße von maximal **1** GB pro Datei.
+>Brand Portal beschränkt den Download von Ordnern oder Assets mit einer Größe von mehr als 5 GB mithilfe der Linkfreigabe.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -196,7 +196,7 @@ Die folgende Legende erläutert die in der Matrix verwendeten Symbole:
 | ✓ | Dieses Dateiformat unterstützt diese Funktion |
 | ✕ | Dieses Dateiformat unterstützt diese Funktion nicht |
 | nicht vorhanden | Diese Funktion kann auf dieses Dateiformat nicht angewendet werden |
-| * | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
+| &#42; | Nach der Veröffentlichung der Assets in Brand Portal ist für diese Funktion Add-on-Unterstützung für dieses Dateiformat in der AEM-Autoreninstanz erforderlich, jedoch nicht in Brand Portal |
 
 ## Aufheben der Freigabe von Assets als Link {#unshare-assets-shared-as-a-link}
 
