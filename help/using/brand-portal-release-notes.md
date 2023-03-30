@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,14 +62,72 @@ Diese Version enthält die folgenden bekannten Probleme:
 * Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
 * Nur wenige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Frühere Versionen
+
+### Version Oktober 2022 {#oct-2022}
+
+**Behobene kritische Probleme**
+
+Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+* Langsame Reaktionszeiten beim Kopieren großer Dateien aus Brand Portal in ein Tool eines Drittanbieters.
+* Wenn Sie das Kontrollkästchen „Zählung der Ausgabedarstellungen“ aktivieren, werden die Kontrollkästchen zur Auswahl einzelner Ausgabedarstellungen deaktiviert.
+* Langsame Reaktionszeit für die Suche.
+
+>[!IMPORTANT]
+>
+>Pulse-Benachrichtigungen in AEM Assets Brand Portal werden ab dem 1. Dezember 2022 eingestellt. Anstelle von Pulse-Benachrichtigungen erhalten Sie weiterhin E-Mail-Benachrichtigungen für die folgenden Ereignisse:
+>* Freigabe von Assets über einen Link
+>* Workflow zum Anfordern von Zugriff
+>* Freigeben von Beitragsordnern
+>* Export nach AEM starten
+>* Abgeschlossener Export nach AEM
+>
+
+
+### Version August 2022 {#aug-2022}
+
+**Behobene kritische Probleme**
+
+Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+* Wenn NUI ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
+* Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.
+* Ein ungenauer Wert für die Eigenschaft totalUploadedSize für jedes Asset wurde korrigiert.
+* Wenn Sie auf **Alle Elemente herunterladen** klicken und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
+* Die Übersetzung einiger Zeichenfolgen wird auf der Benutzeroberfläche von Brand Portal abgeschnitten.
+
+### Version Mai 2022 {#may-2022}
+
+**Neue Funktionen**
+
+Brand Portal führt nun alle zwölf Stunden automatische Aufträge aus, um alle in AEM veröffentlichten Brand Portal-Assets zu löschen. Daher müssen Sie die Assets im Beitragsordner nicht manuell löschen, um die Ordnergröße unter dem Schwellenwert zu halten.
+
+**Behobene kritische Probleme**
+
+Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
+
+* Wenn Sie einen Ordner oder eine Sammlung herunterladen, der bzw. die Assets mit farbigen Tags enthält, wird auch eine XML-Datei heruntergeladen.
+* Wenn Sie ein Video mit Ausgabeformaten herunterladen, erstellt Brand Portal eine ungültige ZIP-Datei.
+* Wenn Sie Vorgaben und Assets in AEM Autoreninstanz erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabeformate auswählen, können Sie die heruntergeladene ZIP-Datei nicht extrahieren.
+* Probleme beim Herunterladen von Video-Assets aus bestimmten in Brand Portal verfügbaren Ordnern.
+* Wenn Sie die URL des Beitragsordners per E-Mail weitergeben, haben die Rollen „Betrachter“ und „Bearbeiter“ Probleme beim Zugriff auf den übergeordneten Ordner mithilfe des Breadcrumbs.
+* Bei der Beschaffung eines veröffentlichten Berichts wird eine falsche Auftragsstartzeit angezeigt.
+
+### Version Februar 2022 {#feb-2022}
+
+**Neue Funktionen**
+
+* Der Schwellenwert für den Sitzungs-Timeout für Gastbenutzer wurde von 2 Stunden auf 15 Minuten verringert.
+* Die zusätzliche Option **[!UICONTROL Seiten anzeigen]** wurde für mehrseitige PDF-Dateien entfernt, da der Benutzer die PDF-Seiten jetzt über Adobe Document Cloud Viewer anzeigen kann.
+* Benutzer können keine Ordner suchen, in ihnen navigieren oder sie öffnen. Die Benutzeroberfläche zeigt die Fehlermeldung: `Failed to load data`.
+* Im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** werden nicht alle statischen Ausgabedarstellungen der Assets aufgelistet, die in Brand Portal veröffentlicht wurden.
+* Im Bedienfeld **[!UICONTROL Ausgabedarstellungen]** werden zwar die Ausgabedarstellungen für den intelligenten Zuschnitt des Assets aufgelistet, der Benutzer kann jedoch die Ausgabedarstellungen für den intelligenten Zuschnitt nicht in der Vorschau anzeigen oder herunterladen.
+* Im Dialogfeld „Herunterladen“ werden die Ausgabedarstellungen für den intelligenten Zuschnitt des ausgewählten Assets aufgelistet. Der Benutzer kann die Ausgabedarstellungen für den intelligenten Zuschnitt jedoch nicht herunterladen.
+* Ein Benutzer ohne Administratorrechte erhält beim Herunterladen eines Assets nur die ursprüngliche Ausgabedarstellung des Assets. Die System- und benutzerdefinierten Ausgabedarstellungen werden nicht heruntergeladen.
+* Wenn ein Suchfilter zum Herunterladen eines Assets angewendet wird, ist die Schaltfläche „`Download`“ im Download-Dialogfeld deaktiviert, sodass der Benutzer das Asset nicht herunterladen kann.
+* Wenn „`Smart Tags`“ und (oder) „`Color Tags`“ aktiviert sind, listet der Download-Dialog die `json`-Dateien als Wiedergabeversionen auf und lädt diese `json`-Dateien in den archivierten Zip-Ordner herunter.
+* Die anonymen Benutzer können Assets nicht über einen freigegebenen Link herunterladen, da der Link zur Brand Portal-Anmeldeseite weiterleitet.
+* Das System spiegelt nicht den korrekten Wert für die Anzahl der aktiven gleichzeitigen Benutzer wider.
+
 <!--
 ### New Features {#new-features}
 
@@ -235,7 +293,7 @@ This release includes the following known issues:
 
 ## Sprachen {#languages}
 
-Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
+Die Benutzeroberfläche von Brand Portal ist in folgenden Sprachen verfügbar:
 
 * Englisch
 * Deutsch
@@ -244,7 +302,7 @@ Die Brand Portal-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 * Italienisch
 * Brasilianisches Portugiesisch
 * Japanisch
-* Vereinfachtes Chinesisch
+* Chinesisch (Kurzzeichen)
 * Koreanisch
 
 ## Zertifizierte Plattformen {#certified-platforms}
@@ -258,7 +316,7 @@ Informationen dazu, welche Plattformen für diese Version von Brand Portal zerti
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
-Diese Sites sind nur für Kunden verfügbar. Wenn Sie Kunde sind und Zugriff benötigen, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+Diese Sites stehen nur Kunden zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff benötigen.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
