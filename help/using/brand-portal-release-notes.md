@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1047'
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
 * Wenn NUI ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
 * Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.
-* Ein ungenauer Wert für die Eigenschaft totalUploadedSize für jedes Asset wurde korrigiert.
+* Es wurde ein ungenauer Wert für die Eigenschaft „totalUploadedSize“ für jedes Asset korrigiert.
 * Wenn Sie auf **Alle Elemente herunterladen** klicken und eine große Anzahl von Ausgabedarstellungen für ein Asset verfügbar ist, lädt Brand Portal eine ungültige ZIP-Datei herunter.
 * Die Übersetzung einiger Zeichenfolgen wird auf der Benutzeroberfläche von Brand Portal abgeschnitten.
 
@@ -107,7 +107,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn Sie einen Ordner oder eine Sammlung herunterladen, der bzw. die Assets mit farbigen Tags enthält, wird auch eine XML-Datei heruntergeladen.
 * Wenn Sie ein Video mit Ausgabeformaten herunterladen, erstellt Brand Portal eine ungültige ZIP-Datei.
-* Wenn Sie Vorgaben und Assets in AEM Autoreninstanz erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabeformate auswählen, können Sie die heruntergeladene ZIP-Datei nicht extrahieren.
+* Wenn Sie Vorgaben und Assets in AEM Author erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabedarstellungen auswählen, können Sie die heruntergeladene ZIP-Datei nicht extrahieren.
 * Probleme beim Herunterladen von Video-Assets aus bestimmten in Brand Portal verfügbaren Ordnern.
 * Wenn Sie die URL des Beitragsordners per E-Mail weitergeben, haben die Rollen „Betrachter“ und „Bearbeiter“ Probleme beim Zugriff auf den übergeordneten Ordner mithilfe des Breadcrumbs.
 * Bei der Beschaffung eines veröffentlichten Berichts wird eine falsche Auftragsstartzeit angezeigt.
@@ -293,7 +293,7 @@ This release includes the following known issues:
 
 ## Sprachen {#languages}
 
-Die Benutzeroberfläche von Brand Portal ist in folgenden Sprachen verfügbar:
+Die Benutzeroberfläche von Brand Portal ist in den folgenden Sprachen verfügbar:
 
 * Englisch
 * Deutsch
@@ -302,7 +302,7 @@ Die Benutzeroberfläche von Brand Portal ist in folgenden Sprachen verfügbar:
 * Italienisch
 * Brasilianisches Portugiesisch
 * Japanisch
-* Chinesisch (Kurzzeichen)
+* Vereinfachtes Chinesisch
 * Koreanisch
 
 ## Zertifizierte Plattformen {#certified-platforms}
@@ -316,7 +316,7 @@ Informationen dazu, welche Plattformen für diese Version von Brand Portal zerti
 
 ## Produktzugriff und Support (Websites mit Zugriffsbeschränkung) {#product-access-and-support-restricted-sites}
 
-Diese Sites stehen nur Kunden zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Zugriff benötigen.
+Diese Sites sind nur für Kundinnen und Kunden verfügbar. Wenn Sie eine Kundin oder ein Kunde sind und Zugriff benötigen, wenden Sie sich an die Adobe-Kundenbetreuung.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
