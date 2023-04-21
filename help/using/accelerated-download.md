@@ -119,7 +119,8 @@ So laden Sie Assets schneller von Brand Portal herunter:
    Wenn Sie IBM® Aspera Connect nicht verwenden möchten, klicken Sie auf **[!UICONTROL Ablehnen]**. Wenn der **[!UICONTROL schnelle Download]** verweigert wird oder fehlschlägt, erstellt das System eine Fehlermeldung. Klicken Sie auf die Schaltfläche **[!UICONTROL Normaler Download]**, um mit dem Herunterladen der Assets fortzufahren.
 
 >[!NOTE]
-Wenn die Einstellung **[!UICONTROL Schneller Download]** von der Administratorin bzw. dem Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne Verwendung von IBM® Aspera Connect.
+>
+>Wenn die Einstellung **[!UICONTROL Schneller Download]** von der Administratorin bzw. dem Administrator deaktiviert wird, werden die ausgewählten Ausgabedarstellungen direkt in einen ZIP-Ordner heruntergeladen, ohne Verwendung von IBM® Aspera Connect.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
