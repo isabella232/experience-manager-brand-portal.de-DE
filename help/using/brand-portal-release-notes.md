@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 #### Fehlerbehebungen {#bug-fixes}
 
 Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
-* Wenn beim Herunterladen eines Assets von einem freigegebenen Link ein Fehler auftritt, wird die `Notice` und `Close` Die Beschriftungen der Fehleraufforderung werden nicht lokalisiert.
-* Brand Portal zeigt **Anfragekopfzeilenfelder zu groß** Fehler beim Zugriff auf Suchfilter mit `Filter` -Bereich.
+* Wenn beim Herunterladen eines Assets von einem freigegebenen Link ein Fehler auftritt, werden die Kennzeichnungen `Notice` und `Close` in der Fehlermeldung nicht lokalisiert.
+* Brand Portal zeigt beim Zugriff auf Suchfilter mit dem `Filter`-Bereich den Fehler **Anfragekopfzeilenfelder zu groß** an.
 
 ### Bekannte Probleme {#known-issues}
 
