@@ -11,9 +11,9 @@ topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1250'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 95%
 Profitieren Sie von einer Vorschau und adaptiven Wiedergabe von Videos in Brand Portal mit Dynamic Media-Unterstützung. Laden Sie auch die dynamischen Ausgabedarstellungen aus dem Portal und von freigegebenen Links herunter.
 Brand Portal-Benutzer haben folgende Möglichkeiten:
 
-* Sehen Sie sich die Vorschau von Videos auf der Seite &quot;Asset-Details&quot;, in der Kartenansicht und auf der Seite mit der Linkfreigabe an.
-* Videokodierungen auf der Seite &quot;Asset-Details&quot;abspielen.
+* Sehen Sie sich die Vorschau von Videos auf der Seite „Asset-Details“, in der Kartenansicht und auf der Vorschauseite der Link-Freigabe an.
+* Videokodierungen auf der Seite „Asset-Details“ abspielen.
 * Anzeigen dynamischer Ausgabedarstellungen auf der Registerkarte „Asset-Details“ der Seite „Asset-Details“
 * Laden Sie Videokodierungen und Ordner mit Videos herunter.
 
@@ -53,7 +53,7 @@ Da Videokodierungen nicht im Brand Portal-Repository gespeichert und vom **[!DNL
 
 >[!NOTE]
 >
->Video-Viewer und Viewer-Vorgaben werden in Brand Portal nicht unterstützt. Videos werden in den Standard-Viewern in Brand Portal in der Vorschau angezeigt und abgespielt.
+>Video-Viewer und Viewer-Vorgaben werden in Brand Portal nicht unterstützt. Videos werden in den Standard-Viewern in Brand Portal als Vorschau angezeigt und abgespielt.
 
 ## Voraussetzungen {#prerequisites}
 
