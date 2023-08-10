@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1210'
 ht-degree: 88%
 
 ---
@@ -38,12 +38,12 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 
 #### Fehlerbehebungen und Verbesserungen {#bug-fixes-enhancements}
 
-Diese Version enthält Fehlerbehebungen für die folgenden Verbesserungen:
+Diese Version umfasst die folgenden Verbesserungen:
 
 * Leistungsverbesserungen beim Laden von Assets in [!UICONTROL Herunterladen] auftauchen.
 * Wenn Sie ein Asset oder eine Ausgabedarstellung eines Assets herunterladen, wird es jetzt im Originaldateiformat statt in einer ZIP-Datei heruntergeladen.
 
-Diese Version enthält Fehlerbehebungen für die folgenden Fehlerkorrekturen:
+Diese Version enthält die folgenden Fehlerbehebungen:
 
 * Die langen Beschriftungen oder Tags werden für Suchfilter nicht richtig angezeigt.
 * Die Namen langer Ausgabedarstellungen können nicht im Dialogfeld Download angezeigt werden.
