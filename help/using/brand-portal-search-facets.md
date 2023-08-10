@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 92%
+source-wordcount: '1312'
+ht-degree: 90%
 
 ---
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]** Sucheigenschafte
    >
    >Nach Aktivierung des Kontrollkästchens **[!UICONTROL Teilsuche]** wird **[!UICONTROL Groß-/Kleinschreibung ignorieren]** standardmäßig aktiviert.
 
-1. Öffnen Sie die Eigenschaftsauswahl im Feld **[!UICONTROL Eigenschaftsname]** und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. Geben Sie beispielsweise `  jcr :content/metadata/dc:title` oder `./jcr:content/metadata/dc:title` ein.
+1. Öffnen Sie die Eigenschaftsauswahl im Feld **[!UICONTROL Eigenschaftsname]** und wählen Sie dann die Eigenschaft aus, auf deren Basis die Suche ausgeführt werden soll. Alternativ können Sie einen Namen für die Eigenschaft eingeben. Geben Sie beispielsweise `jcr :content/metadata/dc:title` oder `./jcr:content/metadata/dc:title` ein.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigen
 
 >[!NOTE]
 >
->Nicht anwenden **[!UICONTROL Options-Eigenschaft]**, **[!UICONTROL Status-Eigenschaft für Veröffentlichung]**, und **[!UICONTROL Bewertungseigenschaft]** da diese Eigenschaften in Brand Portal nicht unterstützt werden.
+>* Nicht anwenden **[!UICONTROL Options-Eigenschaft]**, **[!UICONTROL Status-Eigenschaft für Veröffentlichung]**, und **[!UICONTROL Bewertungseigenschaft]** da diese Eigenschaften in Brand Portal nicht unterstützt werden.
+>* Ordnertypeigenschaft `(nt:folder type)` wird in Brand Portal nicht unterstützt und kann Leistungsprobleme verursachen. Wenn es im veröffentlichten benutzerdefinierten Suchformular vorhanden ist, kann es durch Bearbeiten des Suchformulars gelöscht werden.
 
 ## Löschen von Sucheigenschaften {#delete-a-search-predicate}
 
