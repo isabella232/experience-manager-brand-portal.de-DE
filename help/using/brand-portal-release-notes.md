@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -40,28 +40,28 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 
 Diese Version umfasst die folgenden Verbesserungen:
 
-* Leistungsverbesserungen beim Laden von Assets in [!UICONTROL Herunterladen] auftauchen.
-* Wenn Sie ein Asset oder eine Ausgabedarstellung eines Assets herunterladen, wird es jetzt im Originaldateiformat statt in einer ZIP-Datei heruntergeladen.
+* Leistungsverbesserungen beim Laden von Assets über das Popup [!UICONTROL Herunterladen].
+* Wenn Sie ein Asset oder eine Ausgabedarstellung eines Assets herunterladen, wird es jetzt in seinem ursprünglichen Dateiformat und nicht mehr als Zip-Datei heruntergeladen.
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Die langen Beschriftungen oder Tags werden für Suchfilter nicht richtig angezeigt.
-* Die Namen langer Ausgabedarstellungen können nicht im Dialogfeld Download angezeigt werden.
-* Video-Assets können nicht in der Kartenansicht in der Vorschau angezeigt werden.
+* Bei Suchfiltern werden lange Beschriftungen oder Tags nicht richtig angezeigt.
+* Die Namen langer Ausgabedarstellungen können im Dialogfeld „Herunterladen“ nicht angezeigt werden.
+* Die Vorschau von Video-Assets in der Kartenansicht ist nicht möglich.
 
 
 ## Frühere Versionen
 
 ### Version Mai 2023 {#may-2023}
 
-**Fehlerkorrekturen**
+**Fehlerbehebungen**
 Diese Version enthält Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn beim Herunterladen eines Assets von einem freigegebenen Link ein Fehler auftritt, werden die Kennzeichnungen `Notice` und `Close` in der Fehlermeldung nicht lokalisiert.
 * Brand Portal zeigt beim Zugriff auf Suchfilter mit dem `Filter`-Bereich den Fehler **Anfragekopfzeilenfelder zu groß** an.
 
 **Bekannte Probleme**
-Diese Version von enthält die folgenden bekannten Probleme:
+Diese Version enthält die folgenden bekannten Probleme:
 
 * Teilweise Lokalisierung des Inhalts eines Asset-Beschaffungs-Berichts.
 * Nur wenige Felder des Benutzerprofils können im Benutzerprofil nicht bearbeitet werden.
@@ -75,7 +75,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 * Profilbild kann nicht im Brand Portal aktualisiert werden.
 * Die Größe des Inhaltsstrukturbereichs kann nicht geändert werden. Wenn der Dateiname länger als die Standardbreite der Inhaltsstruktur ist, können Sie die Inhaltsstruktur nicht sowohl horizontal als auch vertikal ziehen. Daher sind längere Dateinamen nicht lesbar.
 * Die Suchergebnisse sind für dasselbe Eigenschaftsprädikat inkonsistent, das zweimal in den Suchformularen verwendet wird.
-* Der Text auf den Zwischenanmeldeseiten wird nicht für alle Sprachen lokalisiert.
+* Der Text auf den zwischengeschalteten Anmeldeseiten ist nicht in allen Sprachen lokalisiert.
 
 **Verbesserungen**
 
@@ -142,7 +142,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 * Wenn Sie ein Video mit Ausgabeformaten herunterladen, erstellt Brand Portal eine ungültige ZIP-Datei.
 * Wenn Sie Vorgaben und Assets in AEM Author erstellen und in Brand Portal veröffentlichen und dann beim Herunterladen der Assets dynamische Ausgabedarstellungen auswählen, können Sie die heruntergeladene ZIP-Datei nicht extrahieren.
 * Probleme beim Herunterladen von Video-Assets aus bestimmten in Brand Portal verfügbaren Ordnern.
-* Wenn Sie die URL des Beitragsordners mithilfe einer E-Mail freigeben, treten beim Zugriff auf den übergeordneten Ordner mithilfe des Breadcrumbs Probleme bei den Rollen &quot;Betrachter&quot;und &quot;Bearbeiter&quot;auf.
+* Wenn Sie die URL des Beitragsordners per E-Mail versenden, haben die Rollen „Betrachter“ und „Bearbeiter“ Probleme, über den Breadcrumb auf den übergeordneten Ordner zuzugreifen.
 * Bei der Beschaffung eines veröffentlichten Berichts wird eine falsche Auftragsstartzeit angezeigt.
 
 ### Version Februar 2022 {#feb-2022}
