@@ -11,9 +11,9 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 Administratoren können Sucheigenschaften zum Bereich [!UICONTROL Filter] hinzufügen, um die Suche anzupassen und die Suchfunktion auf diese Weise vielseitiger zu gestalten.
 
-Brand Portal unterstützt die [Facettensuche](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) für die detaillierte Suche nach genehmigten Marken-Assets. Hierzu wird das Bedienfeld [**Filter** ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)verwendet. Suchfacetten sind im Bereich „Filter“ über das **[!UICONTROL Suchformular]** in den Admin-Tools verfügbar. Auf der Seite „Suchformular“ in den Admin-Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Administratoren können jedoch den Bereich &quot;Standardfilter&quot;anpassen, indem sie das standardmäßige Suchformular (Asset-Admin-Suchschiene) bearbeiten, indem Sucheigenschaften hinzugefügt, geändert oder entfernt werden. Dadurch wird die Suchfunktion vielseitiger.
+Brand Portal unterstützt die [Facettensuche](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) für die detaillierte Suche nach genehmigten Marken-Assets. Hierzu wird das Bedienfeld [**Filter** ](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)verwendet. Suchfacetten sind im Bereich „Filter“ über das **[!UICONTROL Suchformular]** in den Admin-Tools verfügbar. Auf der Seite „Suchformular“ in den Admin-Tools gibt es ein Standardformular namens „Asset-Admin-Suchschienenseite“. Admins können das Bedienfeld „Standardfilter“ anpassen, indem sie das standardmäßige Suchformular (Asset-Admin-Suchleiste) durch das Hinzufügen, Ändern oder Entfernen von Sucheigenschaften bearbeiten, was die Suchfunktionalität vielseitiger macht.
 
 Sie können verschiedene Sucheigenschaften verwenden, um den Bereich **[!UICONTROL Filter]** anzupassen. Fügen Sie beispielsweise das Eigenschaftsprädikat hinzu, um nach Assets zu suchen, die einer einzelnen Eigenschaft entsprechen, die Sie in diesem Prädikat angeben. Fügen Sie das Optionsprädikat hinzu, um nach Assets zu suchen, die einem oder mehreren Werten entsprechen, die Sie für eine bestimmte Eigenschaft angeben. Fügen Sie das Datumsbereichsprädikat hinzu, um nach Assets zu suchen, die innerhalb eines bestimmten Datumsbereichs erstellt wurden.
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um dem Bereich **[!UICONTROL Filter]** Sucheigenschafte
 
    >[!NOTE]
    >
-   >In Brand Portal werden alle String-Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp`) in `jcrcontent/metadata` von `dam:asset` sind standardmäßig indiziert.
+   >In Brand Portal werden alle Zeichenfolgen-Eigenschaften (mit Ausnahme der Eigenschaften, die mit `xmp` beginnen) in `jcrcontent/metadata` von `dam:asset` standardmäßig indiziert.
    >
    >Jede indizierte Eigenschaft kann beim Erstellen eines Eigenschaftsprädikats verwendet werden. Wenn eine nicht indizierte Eigenschaft konfiguriert ist, liefert die Suchanfrage für eine nicht indizierte Eigenschaft möglicherweise kein Suchergebnis.
 
@@ -102,7 +102,7 @@ Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigen
 | **[!UICONTROL Datum]** | Sucheigenschaft für eine Schieberegler-basierte Suche nach Assets basierend auf einer Datumseigenschaft | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Dateigröße]** | Sucheigenschaft, um Assets basierend auf ihrer Größe zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Pfad</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Asset zuletzt geändert]** | Sucheigenschaft, um Assets basierend auf dem Datum der letzten Änderung zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
-| **[!UICONTROL Genehmigungsstatus]** | Sucheigenschaft, um Assets basierend auf der Genehmigungsmetadateneigenschaft zu suchen. Der standardmäßige Eigenschaftsname lautet **dam:status**. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
+| **[!UICONTROL Genehmigungsstatus]** | Sucheigenschaft, um Assets basierend auf der Eigenschaft „Genehmigungsmetadaten“ zu suchen. Der standardmäßige Eigenschaftsname lautet **dam:status**. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Checkout-Status]** | Sucheigenschaft, um Assets basierend auf dem Checkout-Status eines Assets zum Zeitpunkt der Veröffentlichung aus AEM Assets zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Ausgecheckt von]** | Sucheigenschaft, um Assets basierend auf dem Benutzer zu suchen, der das Asset ausgecheckt hat. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
 | **[!UICONTROL Gültigkeitsstatus]** | Sucheigenschaft, um Assets basierend auf ihrem Gültigkeitsstatus zu suchen. | <ul><li>Feldbezeichnung</li><li>Eigenschaftsname</li><li>Beschreibung</li></ul> |
@@ -111,12 +111,12 @@ Sie können die folgenden Prädikate auf ähnliche Weise wie **[!UICONTROL Eigen
 
 >[!NOTE]
 >
->* Nicht anwenden **[!UICONTROL Options-Eigenschaft]**, **[!UICONTROL Status-Eigenschaft für Veröffentlichung]**, und **[!UICONTROL Bewertungseigenschaft]** da diese Eigenschaften in Brand Portal nicht unterstützt werden.
->* Ordnertypeigenschaft `(nt:folder type)` wird in Brand Portal nicht unterstützt und kann Leistungsprobleme verursachen. Wenn es im veröffentlichten benutzerdefinierten Suchformular vorhanden ist, kann es durch Bearbeiten des Suchformulars gelöscht werden.
+>* Verwenden Sie nicht die Eigenschaften **[!UICONTROL Optionen]**, **[!UICONTROL Status veröffentlichen]** oder **[!UICONTROL Bewertung]**, da diese Eigenschaften in Brand Portal nicht funktionsfähig sind.
+>* Die Ordnertyp-Eigenschaft `(nt:folder type)` wird in Brand Portal nicht unterstützt und kann Leistungsprobleme verursachen. Wenn sie im veröffentlichten benutzerdefinierten Suchformular vorhanden ist, kann sie durch Bearbeiten des Suchformulars gelöscht werden.
 
 ## Löschen von Sucheigenschaften {#delete-a-search-predicate}
 
-Gehen Sie wie folgt vor, um eine Sucheigenschaft zu löschen:
+Um eine Eigenschaft zu löschen, gehen Sie folgendermaßen vor:
 
 1. Klicken Sie auf das Adobe-Logo, um auf die Admin-Tools zuzugreifen.
 
