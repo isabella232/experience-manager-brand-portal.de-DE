@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+workflow-type: tm+mt
+source-wordcount: '1034'
+ht-degree: 91%
 
 ---
 
 # Gastzugang für Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzer in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen. Die Sitzung dauert 2 Stunden, es sei denn, der Gastnutzer wählt die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus.
+Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzer in der Gastsitzung können Assets zu Lightbox (private Sammlung) hinzufügen und diese herunterladen, bis ihre Sitzung dauert oder der Gastbenutzer [[!UICONTROL Endsitzung]](#exit-guest-session). Eine Gastbenutzersitzung bleibt 15 Minuten lang aktiv, während das tatsächliche Timeout des Gastbenutzers 2 Stunden beträgt.
 
 Die Gastzugangsfunktion bietet Unternehmen die Möglichkeit, schnell und skaliert [genehmigte Assets für die gewünschte Zielgruppe freizugeben](../using/brand-portal-sharing-folders.md#how-to-share-folders), ohne dass sie integriert werden müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
 Unternehmen können den Gastzugriff in ihrem Brand Portal-Konto unter Verwendung der Option **[!UICONTROL Gastzugang zulassen]** über die **[!UICONTROL Zugriffseinstellungen]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
@@ -40,7 +40,6 @@ Um Brand Portal anonym aufzurufen, wählen Sie die Option **[!UICONTROL Hier kli
 ![](assets/bp-login-screen.png)
 
 ## Dauer der Gastsitzung {#guest-session-duration}
-
 
 Eine Gastbenutzersitzung bleibt für 15 Minuten aktiv.
 Dies bedeutet, dass der **[!UICONTROL Lightbox]**-Status ab dem Startzeitpunkt der Sitzung 15 Minuten lang beibehalten wird. Danach wird die aktuelle Gastsitzung neu gestartet, sodass der Lightbox-Status verloren geht.
@@ -65,7 +64,7 @@ Nach dem Aufruf von Brand Portal als Gastbenutzer können Benutzer alle [Assets 
 
 Gastbenutzer, die sich in Brand Portal anmelden, sehen jedoch die Ordnerstruktur (angefangen beim Stammordner) und die freigegebenen Ordner in den jeweiligen übergeordneten Ordnern, wenn Administratoren die Konfiguration [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) ausgewählt haben.
 
-Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Schlosssymbol erkennen.
+Bei diesen übergeordneten Ordnern handelt es sich um die virtuellen Ordner, für die keine Aktionen ausgeführt werden können. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
 
 Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und **[!UICONTROL Listenansicht]** auswählen.
 
@@ -85,8 +84,8 @@ Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn 
 
 In Brand Portal steht Gastbenutzern mit der Option **[!UICONTROL Überblick]** eine Funktion zum Anzeigen von **[!UICONTROL Asset-Eigenschaften]** ausgewählter Assets/Ordner zur Verfügung. Die Option **[!UICONTROL Überblick]** finden Sie an folgenden Stellen:
 
-* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners
-* In der Dropdown-Liste des ausgewählten Leistenselektors
+* In der Symbolleiste am oberen Rand des ausgewählten Assets/Ordners.
+* In der Dropdown-Liste des ausgewählten Leistenselektors.
 
 Bei Auswahl der Option **[!UICONTROL Überblick]** bei ausgewähltem Asset/Ordner können die Benutzer den Titel, den Pfad und den Zeitpunkt der Asset-Erstellung sehen. Wohingegen die Benutzer bei Auswahl der Option **[!UICONTROL Überblick]** auf der Asset-Detailseite die Metadaten des Assets sehen können.
 
@@ -137,4 +136,4 @@ Beenden Sie die Gastsitzung durch Auswahl von **[!UICONTROL Sitzung beenden]** a
 
 ## Überwachen von Gastbenutzeraktivitäten {#monitoring-guest-user-activities}
 
-Administratoren können die Gastbenutzerinteraktion mit Brand Portal überwachen. Die in Brand Portal erstellten Berichte können wichtige Einblicke in die Gastbenutzeraktivitäten liefern. So können Sie beispielsweise mithilfe des Berichts **[!UICONTROL Download]** die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden. Der Bericht **[!UICONTROL Benutzeranmeldungen]** kann darüber informieren, wann sich der Gastbenutzer zuletzt im Portal angemeldet hat und wie oft er sich in einer bestimmten Zeit angemeldet hat.
+Administratoren können die Gastbenutzerinteraktion mit der Brand Portal überwachen. In Brand Portal erstellte Berichte können wichtige Einblicke in Gastbenutzeraktivitäten bieten. So können Sie beispielsweise mithilfe des Berichts **[!UICONTROL Download]** die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden. Der Bericht **[!UICONTROL Benutzeranmeldungen]** kann darüber informieren, wann sich der Gastbenutzer zuletzt im Portal angemeldet hat und wie oft er sich in einer bestimmten Zeit angemeldet hat.
