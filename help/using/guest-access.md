@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 91%
+source-wordcount: '1026'
+ht-degree: 96%
 
 ---
 
 # Gastzugang für Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzer in der Gastsitzung können Assets zu Lightbox (private Sammlung) hinzufügen und diese herunterladen, bis ihre Sitzung dauert oder der Gastbenutzer [[!UICONTROL Endsitzung]](#exit-guest-session). Eine Gastbenutzersitzung bleibt 15 Minuten lang aktiv, während das tatsächliche Timeout des Gastbenutzers 2 Stunden beträgt.
+Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzer in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen. Die Sitzung dauert 2 Stunden, es sei denn, der Gastnutzer wählt die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus.
 
 Die Gastzugangsfunktion bietet Unternehmen die Möglichkeit, schnell und skaliert [genehmigte Assets für die gewünschte Zielgruppe freizugeben](../using/brand-portal-sharing-folders.md#how-to-share-folders), ohne dass sie integriert werden müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
 Unternehmen können den Gastzugriff in ihrem Brand Portal-Konto unter Verwendung der Option **[!UICONTROL Gastzugang zulassen]** über die **[!UICONTROL Zugriffseinstellungen]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
