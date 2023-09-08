@@ -13,13 +13,13 @@ exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # Gastzugang für Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzer in der Gastsitzung können Assets zu Lightbox (private Sammlung) hinzufügen und diese herunterladen, bis ihre Sitzung dauert oder der Gastbenutzer [[!UICONTROL Endsitzung]](#exit-guest-session). Eine Gastbenutzersitzung bleibt 15 Minuten lang aktiv.
+Experience Manager Assets Brand Portal ermöglicht den Gastzugang für das Portal. Ein Gastbenutzer benötigt keine Anmeldeinformationen, um das Portal aufzurufen, und hat Zugriff auf die öffentlichen Assets (und Sammlungen) des Portals. Benutzende in einer Gastsitzung können für die Dauer ihrer Sitzung Assets zu ihrer Lightbox (private Sammlung) hinzufügen und diese herunterladen, es sei denn, Gastbenutzende wählen die Option [[!UICONTROL Sitzung beenden]](#exit-guest-session) aus. Eine Gastbenutzersitzung bleibt 15 Minuten lang aktiv.
 
 Die Gastzugangsfunktion bietet Unternehmen die Möglichkeit, schnell und skaliert [genehmigte Assets für die gewünschte Zielgruppe freizugeben](../using/brand-portal-sharing-folders.md#how-to-share-folders), ohne dass sie integriert werden müssen. Ab Version 6.4.2 unterstützt Brand Portal mehrere gleichzeitige Gastbenutzer. Die Anzahl entspricht 10 % des Gesamtbenutzerkontingents pro Unternehmen. Durch die Gewährung von Gastzugriffen sparen Sie Zeit bei der Verwaltung und Aufnahme von Bewertungen von Benutzern, die eingeschränkte Funktionen in Brand Portal benötigen.\
 Unternehmen können den Gastzugriff in ihrem Brand Portal-Konto unter Verwendung der Option **[!UICONTROL Gastzugang zulassen]** über die **[!UICONTROL Zugriffseinstellungen]** im Admin-Tools-Bereich aktivieren bzw. deaktivieren.
@@ -64,7 +64,7 @@ Nach dem Aufruf von Brand Portal als Gastbenutzer können Benutzer alle [Assets 
 
 Gastbenutzer, die sich in Brand Portal anmelden, sehen jedoch die Ordnerstruktur (angefangen beim Stammordner) und die freigegebenen Ordner in den jeweiligen übergeordneten Ordnern, wenn Administratoren die Konfiguration [Ordnerhierarchie aktivieren](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) ausgewählt haben.
 
-Bei diesen übergeordneten Ordnern handelt es sich um die virtuellen Ordner, für die keine Aktionen ausgeführt werden können. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
+Diese übergeordneten Ordner sind virtuelle Ordner und für sie können keine Aktionen durchgeführt werden. Sie können diese virtuellen Ordner an einem Sperrsymbol erkennen.
 
 Im Gegensatz zu freigegebenen Ordnern sind keine Aktionsaufgaben zu sehen, wenn Sie den Mauszeiger auf die Ordner bewegen oder sie in der **[!UICONTROL Kartenansicht]** auswählen. Die Schaltfläche **[!UICONTROL Überblick]** wird angezeigt, wenn Sie einen virtuellen Ordner in der **[!UICONTROL Spaltenansicht]** und **[!UICONTROL Listenansicht]** auswählen.
 
@@ -136,4 +136,4 @@ Beenden Sie die Gastsitzung durch Auswahl von **[!UICONTROL Sitzung beenden]** a
 
 ## Überwachen von Gastbenutzeraktivitäten {#monitoring-guest-user-activities}
 
-Administratoren können die Gastbenutzerinteraktion mit der Brand Portal überwachen. In Brand Portal erstellte Berichte können wichtige Einblicke in Gastbenutzeraktivitäten bieten. So können Sie beispielsweise mithilfe des Berichts **[!UICONTROL Download]** die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden. Der Bericht **[!UICONTROL Benutzeranmeldungen]** kann darüber informieren, wann sich der Gastbenutzer zuletzt im Portal angemeldet hat und wie oft er sich in einer bestimmten Zeit angemeldet hat.
+Admins können die Gastbenutzerinteraktion mit dem Brand Portal überwachen. Die in Brand Portal erstellten Berichte können wichtige Einblicke in die Gastbenutzeraktivitäten liefern. So können Sie beispielsweise mithilfe des Berichts **[!UICONTROL Download]** die Anzahl an Assets nachverfolgen, die vom Gastbenutzer heruntergeladen wurden. Der Bericht **[!UICONTROL Benutzeranmeldungen]** kann darüber informieren, wann sich der Gastbenutzer zuletzt im Portal angemeldet hat und wie oft er sich in einer bestimmten Zeit angemeldet hat.
