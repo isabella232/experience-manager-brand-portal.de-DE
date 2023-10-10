@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise
 seo-title: Release Notes
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.08.0.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.10.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
-workflow-type: ht
-source-wordcount: '1210'
-ht-degree: 100%
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 92%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.08.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.10.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.08.0 |
-| Datum | August 2023 |
+| Version | 2023.10.0 |
+| Datum | Oktober 2023 |
 
 ## Übersicht {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Es hilft, die Effizienz der gemeinsamen Nutzung von Assets zu verbessern, die Markteinführung von Assets zu beschleunigen und das Risiko der Nichteinhaltung von Vorschriften und des unbefugten Zugriffs zu verringern. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2023.08.0 {#whats-new-in-2023.08.0}
+## Neue Funktionen in Version 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
-#### Fehlerbehebungen und Verbesserungen {#bug-fixes-enhancements}
+#### Fehlerbehebungen {#bug-fixes}
 
+Diese Version enthält die folgenden Fehlerbehebungen:
+
+* Speicherung nicht möglich [!UICONTROL Datum] und [!UICONTROL Optionen] Prädikate für [!UICONTROL Smart-Sammlung].
+
+* Die [!UICONTROL Datum und Uhrzeit] -Format ist bei der Arbeit mit einem anderen Gebietsschema als Englisch inkonsistent.
+
+* Bei der Suche nach Assets wird die [!UICONTROL Löschen] -Schaltfläche fehlt.
+
+* Wenn die Variable [!UICONTROL Titel] -Feld enthält Multibytesymbole in [!UICONTROL Linkfreigabe]festgelegt ist, kann der Bericht nicht heruntergeladen werden.
+
+* Beim Anzeigen eines Dokuments vom Typ PDF werden die Beschriftungen und QuickInfos nicht lokalisiert.
+
+#### Verbesserungen {#enhancements}
+
+Diese Version umfasst die folgenden Verbesserungen:
+
+* Leistungsverbesserungen beim Durchsuchen [!UICONTROL Sammlungen].
+
+* Wenn Sie mithilfe des OmniSearch-Felds eine Teilsuche durchführen, sind die Ergebnisse nicht präzise.
+
+## Frühere Versionen
+
+### Version August 2023 {#aug-2023}
+
+**Fehlerbehebungen und Verbesserungen**
 Diese Version umfasst die folgenden Verbesserungen:
 
 * Leistungsverbesserungen beim Laden von Assets über das Popup [!UICONTROL Herunterladen].
@@ -48,9 +73,6 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 * Bei Suchfiltern werden lange Beschriftungen oder Tags nicht richtig angezeigt.
 * Die Namen langer Ausgabedarstellungen können im Dialogfeld „Herunterladen“ nicht angezeigt werden.
 * Die Vorschau von Video-Assets in der Kartenansicht ist nicht möglich.
-
-
-## Frühere Versionen
 
 ### Version Mai 2023 {#may-2023}
 
@@ -100,7 +122,7 @@ Diese Version weist die folgenden bekannten Probleme auf:
 
 **Behobene kritische Probleme**
 
-Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Langsame Reaktionszeiten beim Kopieren großer Dateien aus Brand Portal in ein Tool eines Drittanbieters.
 * Wenn Sie das Kontrollkästchen „Zählung der Ausgabedarstellungen“ aktivieren, werden die Kontrollkästchen zur Auswahl einzelner Ausgabedarstellungen deaktiviert.

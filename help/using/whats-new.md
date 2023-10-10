@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Neue Funktionen und Verbesserungen in Version 2032.08.0
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Neue Funktionen und Verbesserungen in Version 2032.10.0
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
-workflow-type: ht
-source-wordcount: '6536'
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
+workflow-type: tm+mt
+source-wordcount: '6558'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 100%
 # Neue Funktionen in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet daran, das Brand Portal-Gesamterlebnis zu verbessern. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2023.10.0 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2023.08.0 {#what-changed-in-August-2023}
 
