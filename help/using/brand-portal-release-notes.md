@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -40,21 +40,21 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Speicherung nicht möglich [!UICONTROL Datum] und [!UICONTROL Optionen] Prädikate für [!UICONTROL Smart-Sammlung].
+* Speicherung der Eigeschaften von [!UICONTROL Datum] und [!UICONTROL Optionen] in der [!UICONTROL Smart-Sammlung] nicht möglich.
 
-* Die [!UICONTROL Datum und Uhrzeit] -Format ist bei der Arbeit mit einem anderen Gebietsschema als Englisch inkonsistent.
+* Das Format für [!UICONTROL Datum und Uhrzeit] ist bei der Arbeit mit einem anderen Gebietsschema als Englisch inkonsistent.
 
-* Bei der Suche nach Assets wird die [!UICONTROL Löschen] -Schaltfläche fehlt.
+* Bei der Suche nach Assets fehlt die Schaltfläche [!UICONTROL Löschen].
 
-* Wenn die Variable [!UICONTROL Titel] -Feld enthält Multibytesymbole in [!UICONTROL Linkfreigabe]festgelegt ist, kann der Bericht nicht heruntergeladen werden.
+* Wenn das Feld [!UICONTROL Titel] mehrere Multibyte-Symbole in der [!UICONTROL Link-Freigabe] enthält, kann der Bericht nicht heruntergeladen werden.
 
-* Beim Anzeigen eines Dokuments vom Typ PDF werden die Beschriftungen und QuickInfos nicht lokalisiert.
+* Beim Anzeigen eines PDF-Dokuments sind die Beschriftungen und QuickInfos nicht lokalisiert.
 
 #### Verbesserungen {#enhancements}
 
 Diese Version umfasst die folgenden Verbesserungen:
 
-* Leistungsverbesserungen beim Durchsuchen [!UICONTROL Sammlungen].
+* Leistungsverbesserungen beim Durchsuchen von [!UICONTROL Sammlungen].
 
 * Verbesserungen bei den Suchergebnissen bei der Durchführung einer partiellen Suche mithilfe des OmniSearch-Felds.
 
