@@ -5,9 +5,9 @@ description: Nutzen Sie Experience Manager Assets Brand Portal, um Marketing-Anf
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Das Fehlen einer sicheren Lösung für die Asset-Freigabe kann zu folgenden Prob
 * Ungesicherte Speicherung von Assets vor der Veröffentlichung
 
 Mit Brand Portal können Unternehmen Marken-Compliance sicherstellen, indem sie es Marketing-Fachleuten ermöglichen, mit Vertriebspartnern und internen Unternehmensbenutzern zusammenzuarbeiten, um die neuesten Design-Richtlinien, Logos, Kampagnen und Produktressourcen schnell zu erstellen, zu verwalten und an die Projektbeteiligten weiterzuleiten.
-Brand Portal ist ein Cloud-basiertes SaaS-Angebot. Es ist als Add-on für Adobe Experience Manager Assets (on-premise oder als verwalteter Dienst) verfügbar. Sie können Brand Portal mit [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. Einmal [konfiguriert](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=de)können genehmigte Assets aus [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] Instanz zu [!DNL Brand Portal] und verteilen sie an die Brand Portal-Benutzer.
+Brand Portal ist ein Cloud-basiertes SaaS-Angebot. Es ist als Add-on für Adobe Experience Manager Assets (on-premise oder als verwalteter Dienst) verfügbar. Sie können Brand Portal mit [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] nutzen. Nach der [Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=de) können genehmigte Assets aus einer Instanz von [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] in [!DNL Brand Portal] veröffentlicht werden und an Benutzerinnen und Benutzer von Brand Portal verteilt werden.
 
 Der Lösungs-Workflow in Brand Portal ist in der folgenden Abbildung dargestellt.
 
