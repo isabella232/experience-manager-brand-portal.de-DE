@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Eine Sammlung stellt eine Gruppe verwandter Assets dar, die zusammen in Adobe Ex
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Sammlungen werden per E-Mail als Link freigegeben. Jeder, der Zugriff auf den Freigabe-Link hat, kann die Sammlung öffnen, während freigegebene E-Mails an jeden weitergeleitet werden können. Zusätzlich [freigegebene Links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sind temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzer als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzern für die Sammlungen:
+Sammlungen werden per E-Mail als Link freigegeben. Jede Person mit Zugriff auf den Freigabe-Link kann die Sammlung öffnen, während freigegebene E-Mails an jeden weitergeleitet werden können. Darüber hinaus sind [freigegebene Links](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=de) temporär und nur für eine begrenzte Dauer zugänglich. Alternativ können Benutzende als ständige Mitglieder zu Sammlungen eingeladen werden. Es gibt die folgenden Typen von Benutzenden für die Sammlungen:
 
-* **Administratoren** kann eine Sammlung für autorisierte Brand Portal-Benutzer freigeben oder deren Freigabe aufheben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Administratoren öffentliche Sammlungen erstellen.
+* **Admins** können eine Sammlung für die autorisierten Benutzenden von Brand Portal freigeben oder die Freigabe aufheben. Sie können andere Benutzende zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können Admins öffentliche Sammlungen erstellen.
 
-* **Bearbeiter** können Sammlungen erstellen und freigeben. Sie können andere Benutzer zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können sie Sammlungen auch freigeben, wenn sie als Bearbeiter oder Eigentümer zur Sammlung eingeladen wurden.
+* **Editorinnen und Editoren** können Sammlungen erstellen und freigeben. Sie können andere Benutzende zu einer bestimmten Sammlung einladen und ihre Rolle in dieser Sammlung definieren. Darüber hinaus können sie Sammlungen auch freigeben, wenn sie als Editorinnen bzw. Editoren oder Inhaberinnen bzw. Inhaber zur Sammlung eingeladen wurden.
 
-* **Viewer** kann nur private Sammlungen erstellen. Sie dürfen eine Sammlung nicht freigeben, selbst wenn sie als Eigentümer eingeladen wurden.
+* **Betrachterinnen und Betrachter** können nur private Sammlungen erstellen. Sie können eine Sammlung nicht freigeben, selbst wenn sie als Inhaberin bzw. Inhaber eingeladen wurden.
 
 >[!NOTE]
 >
->Bearbeiter können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
+>Editorinnen und Editoren können eine öffentliche Sammlung nicht in eine nicht öffentliche Sammlung ändern. Daher steht für sie das Kontrollkästchen **[!UICONTROL Öffentliche Sammlung]** im Dialogfeld **[!UICONTROL Einstellungen für Sammlung]** nicht zur Verfügung.
 
 ## Freigeben von Sammlungen {#share-collection}
 
@@ -77,7 +77,7 @@ Im Folgenden finden Sie die Schritte zum Freigeben einer Sammlung für die autor
 
 Gehen Sie wie folgt vor, um die Freigabe einer zuvor freigegebenen Sammlung aufzuheben:
 
-1. Aus dem **[!UICONTROL Sammlungen]** die Sammlung auswählen, deren Freigabe Sie aufheben möchten.
+1. Wählen Sie in der Konsole **[!UICONTROL Sammlungen]** die Sammlungen aus, deren Freigabe Sie aufheben möchten.
 
    Klicken Sie oben in der Symbolleiste auf **[!UICONTROL Einstellungen]**.
 
