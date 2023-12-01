@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1590'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Als Marketingexperte müssen Sie gelegentlich mit Channel-Partnern und unternehm
 
 Die Entwicklung von Lösungen, die die effiziente und sichere Freigabe genehmigter Marken-Logos, Richtlinien, Kampagnen-Assets oder Produktfotos für erweiterte interne Teams, Partner und Reseller unterstützen, ist jedoch eine Herausforderung.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** konzentriert sich auf das Bedürfnis des Marketingexperten, effektiv mit den global verteilten Brand Portal-Benutzern zusammenzuarbeiten, indem Asset-Verteilungs- und Asset-Beitragsfunktionen bereitgestellt werden.
+**Adobe Experience Manager (AEM) Assets Brand Portal** konzentriert sich auf das Bedürfnis der Werbungtreibenden nach einer effektiven Zusammenarbeit mit den weltweit verteilten Brand Portal-Benutzenden, indem es Funktionen für die Asset-Verteilung und Asset-Beiträge bereitstellt.
 
-Mit der Asset-Verteilung können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Der Asset-Beitrag ermöglicht es den Brand Portal-Benutzern, Assets in Brand Portal hochzuladen und in Experience Manager Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Beschaffung in Brand Portal** bezeichnet. Zusammengenommen verbessert sie die gesamte Brand Portal-Erfahrung bei der Verteilung von Assets und den Beiträgen der Brand Portal-Benutzer (externen Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
+Mit der Asset-Verteilung können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Der Asset-Beitrag ermöglicht es den Brand Portal-Benutzern, Assets in Brand Portal hochzuladen und in Experience Manager Assets zu veröffentlichen, ohne Zugriff auf die Autorenumgebung zu benötigen. Die Beitragsfunktion wird als **Asset-Beschaffung in Brand Portal** bezeichnet. Zusammengenommen verbessert sie die gesamte Brand Portal-Erfahrung bei der Verteilung von Assets und den Beiträgen der Brand Portal-Benutzer (externen Agenturen/Teams), beschleunigt die Markteinführung von Assets und verringert das Risiko von Nichteinhaltung und unbefugtem Zugriff.
 Siehe [Asset-Beschaffung in Brand Portal](brand-portal-asset-sourcing.md).
 
 Die Browser-basierte Portalumgebung erlaubt es Ihnen, Assets einfach hochzuladen, zu durchsuchen, zu suchen, in einer Vorschau anzuzeigen und in genehmigten Formaten zu exportieren.
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Gastzugang zu Brand Portal](../using/gue
 
 ### Betrachter {#viewer}
 
-Brand Portal-Benutzer, der in [!DNL Admin Console] definiert ist und Zugriff auf Brand Portal mit der Rolle „Betrachter“ hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Im Folgenden finden Sie eine Liste der Aufgaben, die ein Betrachter ausführen kann:
+Brand Portal-Benutzer, der in [!DNL Admin Console] definiert ist und Zugriff auf Brand Portal mit der Rolle „Betrachter“ hat. Ein Benutzer mit dieser Rolle kann sich bei Brand Portal anmelden und auf zulässige Ordner, Sammlungen und Assets zugreifen. Der Benutzer kann außerdem Assets durchsuchen, als Vorschau anzeigen, herunterladen und exportieren (ursprüngliche oder bestimmte Ausgabedarstellungen), Kontoeinstellungen konfigurieren sowie Assets suchen. Diese Aufgaben kann eine Person mit der Rolle „Betrachter“ ausführen:
 
 * [Durchsuchen von Assets](browse-assets-brand-portal.md)
 
@@ -101,7 +101,7 @@ Brand Portal-Benutzer, der in [!DNL Admin Console] definiert ist und Zugriff auf
 
 ### Bearbeiter {#editor}
 
-Ein Benutzer mit der Rolle &quot;Bearbeiter&quot;kann alle Aufgaben ausführen, die ein Betrachter ausführen kann. Darüber hinaus können und Bearbeiter die Dateien und Ordner anzeigen, die ein Administrator freigegeben hat. Benutzer mit der Rolle &quot;Bearbeiter&quot;können Inhalte (Dateien, Ordner, Sammlungen) auch für andere Benutzer freigeben.
+Benutzende mit der Rolle „Bearbeiter“ können alle Aufgaben ausführen, die der Rolle „Betrachter“ zur Verfügung stehen. Zusätzlich kann eine Person mit der Rolle „Bearbeiter“ die Dateien und Ordner anzeigen, die von der oder dem Admin freigegeben wurden. Benutzende mit der Rolle „Bearbeiter“ können außerdem Inhalte (Dateien, Ordner und Sammlungen) für andere Benutzende freigeben.
 
 Neben den Aufgaben, die ein Betrachter ausführen kann, stehen dem Bearbeiter folgende Aufgaben zur Verfügung:
 
@@ -151,15 +151,15 @@ Eine AEM-Autoreninstanz kann jedoch nur mit der Mandanten-ID-URL [konfiguriert](
 
 >[!NOTE]
 >
->Um einen Alias für einen Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen sich Organisationen an den Adobe-Support wenden und das Erstellen eines neuen Mandantenalias anfordern. Diese Anfrage wird verarbeitet, indem zunächst geprüft wird, ob der Alias verfügbar ist, und dann der Alias erstellt wird.
+>Um einen Alias für einen Mandantennamen in einer vorhandenen Portal-URL zu erhalten, müssen sich Organisationen an den Adobe-Support wenden und das Erstellen eines neuen Mandantenalias anfordern. Bei der Bearbeitung dieses Antrags wird zuerst geprüft, ob der Alias verfügbar ist. Trifft dies zu, wird der Alias erstellt.
 >
->Um den alten Alias zu ersetzen oder ihn zu löschen, muss der gleiche Prozess befolgt werden.
+>Um den alten Alias zu ersetzen oder zu löschen, muss der gleiche Prozess befolgt werden.
 
 ## Anfordern von Zugriff auf Brand Portal {#request-access-to-brand-portal}
 
-Benutzer können über den Anmeldebildschirm Zugriff auf Brand Portal anfragen. Diese Anfragen werden an Brand Portal-Administratoren gesendet, die über die [!UICONTROL Adobe Admin Console] den Zugriff für Benutzer gewähren. Nachdem der Zugriff gewährt wurde, erhalten Benutzer eine Benachrichtigungs-E-Mail.
+Benutzer können über den Anmeldebildschirm Zugriff auf Brand Portal anfragen. Diese Anfragen werden an Brand Portal-Administratoren gesendet, die über die [!UICONTROL Adobe Admin Console] den Zugriff für Benutzer gewähren. Sobald der Zugriff gewährt wurde, erhalten die Benutzenden eine Benachrichtigungs-E-Mail.
 
-Gehen Sie wie folgt vor, um den Zugriff anzufordern:
+Gehen Sie wie folgt vor, um Zugriff anzufragen:
 
 1. Wählen Sie auf der Anmeldeseite von Brand Portal **[!UICONTROL Hier klicken]** neben **[!UICONTROL Benötigen Sie Zugriff?]**. Um jedoch einer Gastsitzung beizutreten, wählen Sie **[!UICONTROL Hier klicken]** neben **[!UICONTROL Gastzugang?]**.
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um den Zugriff anzufordern:
 
    Die Seite [!UICONTROL Zugriff anfragen] wird geöffnet.
 
-1. Um Zugriff auf die Brand Portal eines Unternehmens anzufordern, benötigen Sie eine gültige [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]oder [!UICONTROL Federated ID].
+1. Um Zugriff auf das Brand Portal eines Unternehmens anzufragen, benötigen Sie eine gültige [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] oder [!UICONTROL Federated ID].
 
    Melden Sie sich auf der Seite [!UICONTROL Zugriff anfordern] mit Ihrer ID an (Szenario 1) oder erstellen Sie eine [!UICONTROL Adobe ID] (Szenario 2):
 
@@ -228,7 +228,7 @@ Gehen Sie wie folgt vor, um die Sprache zu ändern:
 
 ## Wartungsbenachrichtigung in Brand Portal {#brand-portal-maintenance-notification}
 
-Bevor Brand Portal zur Wartung heruntergefahren werden soll, wird nach der Anmeldung bei Brand Portal eine Benachrichtigung als Banner angezeigt. Beispiel für eine Benachrichtigung:
+Bevor Brand Portal planmäßig zur Wartung heruntergefahren wird, wird nach dem Anmelden bei Brand Portal eine Benachrichtigung als Banner angezeigt. Beispiel für eine Benachrichtigung:
 
 ![](assets/bp_maintenance_notification.png)
 
