@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise
 seo-title: Release Notes
-description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Hier erhalten Sie nützliche Informationen zu Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2024.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
-workflow-type: ht
-source-wordcount: '1310'
-ht-degree: 100%
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+workflow-type: tm+mt
+source-wordcount: '1475'
+ht-degree: 89%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2023.10.0.
+Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, behobenen kritischen Problemen sowie bekannten Problemen in Adobe Experience Manager Assets Brand Portal Version 2024.02.0.
 
 ## Versionshinweise {#release-information}
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.10.0 |
-| Datum | Oktober 2023 |
+| Version | 2024,02,0 |
+| Datum | Februar 2024 |
 
 ## Übersicht {#overview}
 
 Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzende auf allen Geräten verteilen. Es hilft, die Effizienz der gemeinsamen Nutzung von Assets zu verbessern, die Markteinführung von Assets zu beschleunigen und das Risiko der Nichteinhaltung von Vorschriften und des unbefugten Zugriffs zu verringern. Brand Portal bietet Benutzern die Möglichkeit, Assets jederzeit und überall zu durchsuchen, zu suchen, als Vorschau anzuzeigen, herunterzuladen und in Formate zu exportieren, die vom Unternehmen genehmigt wurden.
 
-## Neue Funktionen in Version 2023.10.0 {#whats-new-in-2023.10.0}
+## Neue Funktionen in Version 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Behobene kritische Probleme {#critical-issues-fixed}
 
 #### Fehlerbehebungen {#bug-fixes}
+
+Diese Version enthält die folgenden Fehlerbehebungen:
+
+* Digitale Assets, die durch DRM geschützt sind, können nicht im türkischen Gebietsschema heruntergeladen werden.
+
+* Die vorhandenen Berichte mit Assets mit mehrzeiligem Titel können nicht geöffnet und heruntergeladen werden.
+
+* Beim Herunterladen von Assets mit [!UICONTROL Herunterladen] in der Aktionsleiste werden maximal 1.000 Assets heruntergeladen.
+
+* Falscher Name von Assets vom Typ PSD bei der Anzeige in der Inhaltsstruktur.
+
+* [!UICONTROL Ausgabeformat löschen] -Option auf der Asset-Detailseite funktioniert nicht.
+
+* Der Titel und die Größe von Assets im Popup-Fenster für Downloads wurden falsch ausgerichtet.
+
+* Ordner können nicht in eine Kartenansicht geladen werden, wenn Sie von der Baumansicht wechseln.
+
+* Selbst wenn die [!UICONTROL Schneller Download] ist in der Variablen [!UICONTROL Download-Einstellungen] sowohl für Bearbeiter als auch für Administratoren können die jeweiligen Mandanten die abgelaufenen Assets nicht herunterladen.
+
+* Der Benutzeroberflächenfehler wird beim Erstellen eines Berichts nicht lokalisiert, wenn nicht alle Kontrollkästchen aktiviert sind.
+
+* Beim Erstellen eines Berichts werden Titel nicht lokalisiert.
+
+* Support-Administratoren wurden in Brand Portal als Administratoren bezeichnet.
+
+## Frühere Versionen
+
+### Version Oktober 2023 {#oct-2023}
+
+**Fehlerbehebungen und Verbesserungen**
+Diese Version umfasst die folgenden Verbesserungen:
+
+* Leistungsverbesserungen beim Durchsuchen von [!UICONTROL Sammlungen].
+
+* Verbesserungen bei den Suchergebnissen bei der Durchführung einer partiellen Suche mithilfe des OmniSearch-Felds.
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
@@ -49,16 +84,6 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 * Wenn das Feld [!UICONTROL Titel] mehrere Multibyte-Symbole in der [!UICONTROL Link-Freigabe] enthält, kann der Bericht nicht heruntergeladen werden.
 
 * Beim Anzeigen eines PDF-Dokuments sind die Beschriftungen und QuickInfos nicht lokalisiert.
-
-#### Verbesserungen {#enhancements}
-
-Diese Version umfasst die folgenden Verbesserungen:
-
-* Leistungsverbesserungen beim Durchsuchen von [!UICONTROL Sammlungen].
-
-* Verbesserungen bei den Suchergebnissen bei der Durchführung einer partiellen Suche mithilfe des OmniSearch-Felds.
-
-## Frühere Versionen
 
 ### Version August 2023 {#aug-2023}
 
@@ -142,7 +167,7 @@ Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 **Behobene kritische Probleme**
 
-Diese Version umfasst Behebungen für die folgenden kritischen Probleme:
+Diese Version umfasst Fehlerbehebungen für die folgenden kritischen Probleme:
 
 * Wenn NUI ein Asset in Experience Manager nicht verarbeiten kann, zeigt Brand Portal einen ungenauen Asset-Importstatus an.
 * Wenn die Vorschauaktion fehlschlägt, gibt es keine Benachrichtigung, um den Fehler zu melden.

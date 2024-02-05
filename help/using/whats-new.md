@@ -1,8 +1,8 @@
 ---
 title: Neue Funktionen in Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Neue Funktionen und Verbesserungen in Version 2023.10.0
-seo-description: What are the new features and enhancements for 2023.10.0
+description: Neue Funktionen und Verbesserungen in Version 2024.02.0
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
-workflow-type: ht
-source-wordcount: '6558'
-ht-degree: 100%
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
+workflow-type: tm+mt
+source-wordcount: '6616'
+ht-degree: 98%
 
 ---
 
 # Neue Funktionen in Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Mit Adobe Experience Manager Assets Brand Portal können Sie problemlos genehmigte Kreativ-Assets abrufen, kontrollieren und sicher an externe Parteien und interne Geschäftsbenutzer auf allen Geräten verteilen. Brand Portal ermöglicht eine effizientere Asset-Freigabe, schnellere Time-to-Market für Assets sowie verringerte Risiken von Nicht-Compliance und unbefugtem Zugriff. Adobe arbeitet daran, das Brand Portal-Gesamterlebnis zu verbessern. Nachfolgend erfahren Sie, welche Funktionen und Erweiterungen eingeführt werden.
+
+## Änderungen in Version 2024.02.0 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0 ist eine interne Version, mit der die kritischen Probleme behoben werden. Weitere Informationen finden Sie in den aktuellen [Brand Portal-Versionshinweisen](brand-portal-release-notes.md).
 
 ## Änderungen in Version 2023.10.0 {#what-changed-in-October-2023}
 
@@ -297,7 +301,7 @@ Auf der Registerkarte **[!UICONTROL Gruppen]** auf der Seite **[!UICONTROL Benut
 * Wenn nur die Einstellung **[!UICONTROL Original herunterladen]** aktiviert ist, können Benutzer nur die Original-Assets auf der Asset-Detailseite anzeigen und von dort herunterladen.
 * Wenn nur die Einstellung **[!UICONTROL Ausgabedarstellungen herunterladen]** aktiviert ist, können Benutzer das Original-Asset anzeigen, aber nicht herunterladen. Benutzer können jedoch die Asset-Ausgabedarstellungen anzeigen und herunterladen.
 
-Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de#configure-download-permissions).
+Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -733,7 +737,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die verschiedene neue Fun
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die Download-Grenze für die Größe pro Datei beträgt für die Link-Freigabe-Funktion **1** GB.
 
-* Benutzer können beim Herunterladen von Assets aus Brand Portal oder über freigegebene Links jetzt auswählen, ob sie nur die benutzerdefinierten oder die ursprünglichen Dateien auswählen möchten, und vordefinierte Ausgabedarstellungen vermeiden, während sie Assets aus Brand Portal oder über die Funktion für freigegebene Links herunterladen.
+* Benutzer können jetzt festlegen, dass nur die benutzerdefinierten und Original-Dateien heruntergeladen werden, und vordefinierte Ausgabedarstellungen beim Herunterladen von Assets aus Brand Portal oder über die Funktion für freigegebene Links verhindert werden.
 
 ![](assets/excludeautorendition.png)
 
@@ -747,13 +751,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die verschiedene neue Fun
 
 ### Erweiterte Berichterstellungsfunktionen
 
-**Neuer Bericht zur Link-Freigabe**
-Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
+**Neuer Bericht zur Linkfreigabe**
+Es wurde ein neuer Bericht mit Informationen zu freigegebenen Links eingeführt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
-**Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
-Der Verwendungsbericht wurde jetzt mit anderen Berichten konsolidiert und kann von der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
+**Einstiegspunkt für den Zugriff auf den Nutzungsbericht geändert**
+Der Nutzungsbericht ist jetzt mit anderen Berichten konsolidiert und kann jetzt über die Konsole &quot;Asset-Berichte&quot;angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
 
