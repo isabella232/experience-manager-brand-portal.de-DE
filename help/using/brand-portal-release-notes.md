@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 89%
+source-wordcount: '1416'
+ht-degree: 93%
 
 ---
 
@@ -41,25 +41,12 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 Diese Version enthält die folgenden Fehlerbehebungen:
 
 * Digitale Assets, die durch DRM geschützt sind, können nicht im türkischen Gebietsschema heruntergeladen werden.
-
 * Die vorhandenen Berichte mit Assets mit mehrzeiligem Titel können nicht geöffnet und heruntergeladen werden.
-
 * Beim Herunterladen von Assets mit [!UICONTROL Herunterladen] in der Aktionsleiste werden maximal 1.000 Assets heruntergeladen.
-
 * Falscher Name von Assets vom Typ PSD bei der Anzeige in der Inhaltsstruktur.
-
 * [!UICONTROL Ausgabeformat löschen] -Option auf der Asset-Detailseite funktioniert nicht.
-
 * Der Titel und die Größe von Assets im Popup-Fenster für Downloads wurden falsch ausgerichtet.
-
-* Ordner können nicht in eine Kartenansicht geladen werden, wenn Sie von der Baumansicht wechseln.
-
-* Selbst wenn die [!UICONTROL Schneller Download] ist in der Variablen [!UICONTROL Download-Einstellungen] sowohl für Bearbeiter als auch für Administratoren können die jeweiligen Mandanten die abgelaufenen Assets nicht herunterladen.
-
-* Der Benutzeroberflächenfehler wird beim Erstellen eines Berichts nicht lokalisiert, wenn nicht alle Kontrollkästchen aktiviert sind.
-
 * Beim Erstellen eines Berichts werden Titel nicht lokalisiert.
-
 * Support-Administratoren wurden in Brand Portal als Administratoren bezeichnet.
 
 ## Frühere Versionen
