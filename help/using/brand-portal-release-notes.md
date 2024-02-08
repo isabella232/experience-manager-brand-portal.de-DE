@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Hier erhalten Sie nützliche Informationen zu neuen Funktionen, Verbesserungen, 
 
 | Produkt | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2024,02,0 |
+| Version | 2024.02.0 |
 | Datum | Februar 2024 |
 
 ## Übersicht {#overview}
@@ -40,14 +40,14 @@ Mit Adobe Experience Manager (AEM) Assets Brand Portal können Sie problemlos ge
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Digitale Assets, die durch DRM geschützt sind, können nicht im türkischen Gebietsschema heruntergeladen werden.
+* Digitale Assets, die durch DRM geschützt sind, können im türkischen Gebietsschema nicht heruntergeladen werden.
 * Die vorhandenen Berichte mit Assets mit mehrzeiligem Titel können nicht geöffnet und heruntergeladen werden.
-* Beim Herunterladen von Assets mit [!UICONTROL Herunterladen] in der Aktionsleiste werden maximal 1.000 Assets heruntergeladen.
-* Falscher Name von Assets vom Typ PSD bei der Anzeige in der Inhaltsstruktur.
-* [!UICONTROL Ausgabeformat löschen] -Option auf der Asset-Detailseite funktioniert nicht.
-* Der Titel und die Größe von Assets im Popup-Fenster für Downloads wurden falsch ausgerichtet.
-* Beim Erstellen eines Berichts werden Titel nicht lokalisiert.
-* Support-Administratoren wurden in Brand Portal als Administratoren bezeichnet.
+* Beim Herunterladen von Assets mit der Schaltfläche [!UICONTROL Herunterladen] in der Aktionsleiste werden maximal 1.000 Assets heruntergeladen.
+* Der Name von Assets vom Typ PSD ist bei der Anzeige in der Inhaltsstruktur falsch.
+* Die Option [!UICONTROL Ausgabedarstellung löschen] auf der Asset-Detailseite funktioniert nicht.
+* Titel und Größe der Assets sind im Download-Popup-Fenster falsch ausgerichtet.
+* Beim Erstellen eines Berichts sind Beschriftungen nicht lokalisiert.
+* Support-Admins wurden in Brand Portal als Admins benannt.
 
 ## Frühere Versionen
 
