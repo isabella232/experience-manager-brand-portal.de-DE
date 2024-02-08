@@ -11,9 +11,9 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6616'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -301,7 +301,7 @@ Auf der Registerkarte **[!UICONTROL Gruppen]** auf der Seite **[!UICONTROL Benut
 * Wenn nur die Einstellung **[!UICONTROL Original herunterladen]** aktiviert ist, können Benutzer nur die Original-Assets auf der Asset-Detailseite anzeigen und von dort herunterladen.
 * Wenn nur die Einstellung **[!UICONTROL Ausgabedarstellungen herunterladen]** aktiviert ist, können Benutzer das Original-Asset anzeigen, aber nicht herunterladen. Benutzer können jedoch die Asset-Ausgabedarstellungen anzeigen und herunterladen.
 
-Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Siehe [Konfigurieren des Asset-Downloads](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=de#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -737,7 +737,7 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die verschiedene neue Fun
 * Einzelne große Dateien werden direkt heruntergeladen und nicht erst in einer ZIP-Datei gepackt. Dadurch werden Geschwindigkeit und Durchsatz verbessert.
 * Die Download-Grenze für die Größe pro Datei beträgt für die Link-Freigabe-Funktion **1** GB.
 
-* Benutzer können jetzt festlegen, dass nur die benutzerdefinierten und Original-Dateien heruntergeladen werden, und vordefinierte Ausgabedarstellungen beim Herunterladen von Assets aus Brand Portal oder über die Funktion für freigegebene Links verhindert werden.
+* Benutzende können jetzt festlegen, dass nur die benutzerdefinierten und Original-Dateien heruntergeladen werden, und vordefinierte Ausgabedarstellungen beim Herunterladen von Assets aus Brand Portal oder über die Link-Freigabe-Funktion verhindert werden.
 
 ![](assets/excludeautorendition.png)
 
@@ -751,13 +751,13 @@ Brand Portal 6.4.1 ist eine Plattform-Upgrade-Version, die verschiedene neue Fun
 
 ### Erweiterte Berichterstellungsfunktionen
 
-**Neuer Bericht zur Linkfreigabe**
-Es wurde ein neuer Bericht mit Informationen zu freigegebenen Links eingeführt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
+**Bericht zur Link-Freigabe eingeführt**
+Ein neuer Bericht wurde eingeführt, der Informationen zu freigegebenen Links bereitstellt. Der Bericht zur Link-Freigabe führt alle URLs zu Assets auf, die für interne und externe Benutzer im Unternehmen innerhalb des festgelegten Zeitrahmens freigegeben wurden. Zusätzlich enthält der Bericht Informationen zum Zeitpunkt der Link-Freigabe und zu dessen Ablaufdatum sowie dazu, wer den Link freigegeben hat.
 
 ![](assets/navigatereport.png)
 
-**Einstiegspunkt für den Zugriff auf den Nutzungsbericht geändert**
-Der Nutzungsbericht ist jetzt mit anderen Berichten konsolidiert und kann jetzt über die Konsole &quot;Asset-Berichte&quot;angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
+**Einstiegspunkt für den Zugriff auf den Verwendungsbericht geändert**
+Der Verwendungsbericht ist jetzt mit anderen Berichten konsolidiert und kann in der Konsole „Asset-Berichte“ angezeigt werden. Um auf die Konsole „Asset-Berichte“ zuzugreifen, klicken Sie im Admin-Tools-Bereich auf **Berichte erstellen/verwalten**.
 
 ![](assets/accessassetreport.png)
 
